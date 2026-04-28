@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KG Accounting &amp; Consulting — Conversion Cleanup Demo</title>
+  <meta name="description" content="A conversion-focused demo for KG Accounting & Consulting that sharpens the hero, clarifies buyer paths, improves CTA hierarchy, and makes the Right-Fit Call easier to say yes to.">
+  <style>
+    :root{--navy:#17324a;--navy2:#224862;--teal:#1f7a78;--sand:#f7f4ef;--mist:#eef5f4;--ink:#1c2630;--muted:#5e6974;--line:#d7e0e5;--white:#fff;--gold:#d4a95c;--wrap:min(1160px,calc(100% - 32px));--radius:20px;--shadow:0 16px 40px rgba(17,31,46,.10)}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff} a{text-decoration:none;color:inherit} .wrap{width:var(--wrap);margin:0 auto}
+    .topbar{background:var(--navy);color:#fff;font-size:13px}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 0}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(215,224,229,.85)}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 0}.brand{font-size:26px;font-weight:800;color:var(--navy);letter-spacing:.02em}.brand small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#74808b;margin-top:4px}.nav-links{display:flex;gap:22px;align-items:center;font-size:14px;color:#44515d}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:999px;font-weight:700}.btn-primary{background:var(--navy);color:#fff;box-shadow:var(--shadow)}.btn-secondary{background:#fff;border:1px solid var(--line);color:var(--navy)}
+    .hero{padding:74px 0 54px;background:linear-gradient(135deg,#eef5f6 0%,#faf6ef 100%)} .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:28px;align-items:start}
+    .eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#77838f;margin-bottom:14px} h1,h2,h3{margin:0;line-height:1.08;font-family:Georgia,"Times New Roman",serif} h1{font-size:58px;color:var(--navy);margin-bottom:18px} .hero-copy p{font-size:18px;color:#46525d;max-width:690px;margin:0 0 24px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:18px}.micro{font-size:14px;color:#5c6874;max-width:660px}
+    .panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)} .panel h2{font-size:32px;color:var(--navy);margin-bottom:10px}
+    .checklist{display:grid;gap:12px;margin-top:18px}.check{background:var(--mist);border:1px solid #d5e4e2;border-radius:14px;padding:14px 16px}.check strong{display:block;color:var(--navy);font-size:15px;margin-bottom:3px}
+    .trust{padding-top:22px}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.trust-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;min-height:118px}.trust-item strong{display:block;color:var(--navy);margin-bottom:6px}
+    .section{padding:66px 0}.section.alt{background:var(--sand)} .section-title{font-size:42px;color:var(--navy);margin-bottom:12px}.section-intro{max-width:760px;color:var(--muted);margin:0 0 28px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(17,31,46,.05)} .card h3{font-size:28px;color:var(--navy);margin-bottom:10px}.card p{margin:0;color:#5b6671}.mini{display:inline-block;margin-top:14px;font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#7b8691}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:28px}.stack{display:grid;gap:16px}.quote{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.quote-label{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.16em;padding:6px 10px;border-radius:999px;background:var(--mist);color:var(--navy);margin-bottom:10px}.quote h3{font-size:24px;color:var(--navy);margin-bottom:8px}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.step-num{display:inline-flex;width:38px;height:38px;border-radius:50%;align-items:center;justify-content:center;background:var(--navy);color:#fff;font-weight:800;margin-bottom:14px}
+    .faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.faq{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.faq h3{font-size:24px;color:var(--navy);margin-bottom:8px}
+    .cta{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;border-radius:24px;padding:34px;display:flex;justify-content:space-between;gap:18px;align-items:center}.cta h2{font-size:40px;color:#fff;margin-bottom:8px}.cta p{margin:0;max-width:680px;color:#e7edf2}
+    footer{padding:28px 0 42px;color:#6a7480;font-size:14px}
+    @media (max-width:980px){.hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr 1fr}h1{font-size:46px}}
+    @media (max-width:740px){.nav{flex-direction:column;align-items:flex-start}.nav-links{flex-wrap:wrap;gap:12px}.hero{padding:52px 0 36px}.hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr}.section{padding:46px 0}h1{font-size:38px}.section-title,.cta h2{font-size:32px}.cta{flex-direction:column;align-items:flex-start;padding:26px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><div>Accounting support for small businesses and solopreneurs</div><div>Bookkeeping · Cash flow advisory · Fractional CFO support</div></div></div>
+  <header><div class="wrap nav"><div class="brand">KG Accounting &amp; Consulting<small>Conversion cleanup demo</small></div><nav class="nav-links"><a href="#services">Services</a><a href="#fit">Who It's For</a><a href="#faq">FAQ</a><a href="#contact" class="btn btn-primary">Book a Right-Fit Call</a></nav></div></header>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Sharper positioning for the current offer</span>
+        <h1>Accounting support for small businesses that need cleaner books, better cash flow visibility, and smarter financial decisions</h1>
+        <p>Give owners a clearer path from bookkeeping to advisory to CFO-level guidance — without making them guess which service they need first.</p>
+        <div class="hero-actions"><a href="#contact" class="btn btn-primary">Book a Right-Fit Call</a><a href="#services" class="btn btn-secondary">See Service Paths</a></div>
+        <div class="micro">This prototype keeps the practical, founder-led feel of the live brand while making the value proposition faster to scan, easier to trust, and more conversion-ready on mobile.</div>
+      </div>
+      <aside class="panel">
+        <h2>Make the next step feel concrete</h2>
+        <p style="margin:0;color:#57626d">For a financial-services site, clarity around the consultation matters almost as much as the service list itself.</p>
+        <div class="checklist">
+          <div class="check"><strong>1. Share your current finance bottlenecks</strong>Bookkeeping backlog, reporting gaps, cash flow stress, or decision-making uncertainty.</div>
+          <div class="check"><strong>2. Review what support you already have</strong>Understand what is handled in-house, by a tax preparer, or by no one consistently yet.</div>
+          <div class="check"><strong>3. Get the right recommendation</strong>Leave the call knowing whether you need ongoing bookkeeping, advisory support, or fractional CFO help.</div>
+        </div>
+      </aside>
+    </div>
+    <div class="wrap trust"><div class="trust-grid">
+      <div class="trust-item"><strong>Small-business focus</strong>Built for owners and solopreneurs, not enterprise finance teams.</div>
+      <div class="trust-item"><strong>Bookkeeping to CFO ladder</strong>A service stack that grows with business complexity.</div>
+      <div class="trust-item"><strong>Founder-led expertise</strong>Put the advisor and decision-maker closer to the first CTA.</div>
+      <div class="trust-item"><strong>Practical financial clarity</strong>Frame the result as better visibility, confidence, and planning.</div>
+    </div></div>
+  </section>
+  <section class="section" id="services"><div class="wrap"><span class="eyebrow">Buyer-path clarity</span><h2 class="section-title">Help visitors self-select the right level of support faster</h2><p class="section-intro">Most small-business owners do not arrive knowing which accounting service label applies to them. This structure turns services into decisions they can actually recognize.</p><div class="cards">
+    <article class="card"><h3>Clean books &amp; monthly visibility</h3><p>For owners who need reliable bookkeeping, clearer reporting, and better month-to-month financial organization.</p><span class="mini">Bookkeeping • Reporting • Cleanup</span></article>
+    <article class="card"><h3>Cash flow support</h3><p>For businesses that need better forecasting, stronger cash timing, and fewer expensive surprises.</p><span class="mini">Forecasting • Planning • Clarity</span></article>
+    <article class="card"><h3>Fractional CFO guidance</h3><p>For growing companies that need sharper decision support without adding a full-time finance executive.</p><span class="mini">Strategy • Insight • Leadership</span></article>
+  </div></div></section>
+  <section class="section alt" id="fit"><div class="wrap split"><div><span class="eyebrow">Who this is for</span><h2 class="section-title">Say the ideal client out loud so the right owners feel understood sooner</h2><p class="section-intro">The live positioning is solid. A stronger homepage just makes the fit easier to recognize within seconds.</p><div class="stack">
+    <div class="card"><h3>Owners outgrowing DIY finances</h3><p>They have traction, but they no longer want their books and decisions held together by guesswork.</p></div>
+    <div class="card"><h3>Businesses with cash flow stress</h3><p>Revenue may be coming in, but timing, visibility, and planning still feel harder than they should.</p></div>
+    <div class="card"><h3>Teams needing strategy without a full-time CFO</h3><p>They want better financial decision support before they are ready for a full executive hire.</p></div>
+  </div></div><div class="stack">
+    <div class="quote"><span class="quote-label">Trust cue demo</span><h3>Founder-led advisory feels stronger when it appears near the first action</h3><p>Move expertise, business outcomes, and audience fit above the fold so visitors trust the call before they scroll deep.</p></div>
+    <div class="quote"><span class="quote-label">Lead magnet placement</span><h3>The free guide can support the sale without competing with it</h3><p>Keep educational content, but sequence it after the core service story so high-intent visitors see the main CTA first.</p></div>
+    <div class="quote"><span class="quote-label">Outcome framing</span><h3>Sell clarity, confidence, and smarter decisions — not just accounting tasks</h3><p>That language better matches why owners hire advisory help in the first place.</p></div>
+  </div></div></section>
+  <section class="section"><div class="wrap"><span class="eyebrow">Right-fit call structure</span><h2 class="section-title">Show that the consultation is simple, useful, and low-pressure</h2><p class="section-intro">A short process block can make premium services feel more approachable while keeping the tone professional.</p><div class="process">
+    <div class="step"><div class="step-num">1</div><h3 style="font-size:26px;color:var(--navy);margin-bottom:10px">Start the conversation</h3><p style="margin:0;color:#5a6570">Reach out with your current finance challenges, business stage, and what feels unclear.</p></div>
+    <div class="step"><div class="step-num">2</div><h3 style="font-size:26px;color:var(--navy);margin-bottom:10px">Review the gaps</h3><p style="margin:0;color:#5a6570">Look at reporting, bookkeeping, cash flow, and where decision support is missing.</p></div>
+    <div class="step"><div class="step-num">3</div><h3 style="font-size:26px;color:var(--navy);margin-bottom:10px">Get the best-fit support</h3><p style="margin:0;color:#5a6570">Leave with a clearer recommendation instead of trying to decode the service menu yourself.</p></div>
+  </div></div></section>
+  <section class="section alt" id="faq"><div class="wrap"><span class="eyebrow">FAQ + SEO support</span><h2 class="section-title">Answer the practical questions owners ask before they book</h2><p class="section-intro">This improves scannability, supports trust, and creates better long-tail relevance without bloating the page.</p><div class="faq-grid">
+    <article class="faq"><h3>Do I need bookkeeping or fractional CFO support?</h3><p>Many owners need one before the other. The page should help them understand the difference and point them to the right first step.</p></article>
+    <article class="faq"><h3>Is this only for larger businesses?</h3><p>No. The messaging should reassure small businesses and solopreneurs that support scales to their stage.</p></article>
+    <article class="faq"><h3>What happens on the Right-Fit Call?</h3><p>Clarify that the call covers current pain points, existing support, and the best-fit recommendation moving forward.</p></article>
+    <article class="faq"><h3>Can I start with one service and grow from there?</h3><p>That service ladder is a strength of the offer and should be made more explicit in the homepage structure.</p></article>
+  </div></div></section>
+  <section class="section"><div class="wrap cta" id="contact"><div><h2>Use one primary action all the way down the page</h2><p>“Book a Right-Fit Call” is already a good CTA. This version simply makes it more consistent, better explained, and easier to trust quickly.</p></div><a href="#" class="btn btn-secondary" style="background:#fff;color:var(--navy)">Book a Right-Fit Call</a></div></section>
+  <footer><div class="wrap">Prototype concept for KG Accounting &amp; Consulting · Focus: clearer hero, better buyer paths, stronger trust sequencing, improved CTA hierarchy, and easier mobile scanning.</div></footer>
+</body>
+</html>

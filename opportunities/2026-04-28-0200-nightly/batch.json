@@ -1,0 +1,98 @@
+{
+  "batch": "2026-04-28-0200-nightly",
+  "created": "2026-04-28",
+  "mode": "nationwide-nightly-page-profit-check",
+  "note": "Nationwide nightly batch focused on pitchable U.S. small-business, coach, wellness, local-service, and small-firm landing pages with visible conversion, clarity, trust, SEO, or template-cleanup opportunities.",
+  "items": [
+    {
+      "name": "CSD Design & Fabrication",
+      "slug": "csd-design-fabrication",
+      "url": "https://www.csdcnc.com/",
+      "contact": "mailto:info@csdcnc.com",
+      "priority": "A+",
+      "summary": "Homepage is effectively under construction, creating a clean high-urgency opportunity for a credible lead-gen landing page with clear services, proof, and quote CTA.",
+      "source": "https://www.csdcnc.com/location"
+    },
+    {
+      "name": "M.S. Landscape & Construction",
+      "slug": "ms-landscape-construction",
+      "url": "https://www.mslandscapeservices.com/",
+      "contact": "mailto:miguelsegarra0826@gmail.com",
+      "priority": "A",
+      "summary": "Strong local-service offer, but the site has grammar issues, weak CTA hierarchy, cluttered navigation, and trust gaps that make a polished quote-focused prototype easy to explain.",
+      "source": "https://www.mslandscapeservices.com/fences-1"
+    },
+    {
+      "name": "Body Wise Personal Training",
+      "slug": "body-wise-personal-training",
+      "url": "https://www.bodywiseinc.com/",
+      "contact": "tel:+17046141511",
+      "priority": "A",
+      "summary": "Clear service and longevity are already there, but repetition, long blocks, generic CTAs, and noisy layout leave room for a tighter conversion-first local fitness page.",
+      "source": "https://bodywiseinc.com/contact-us"
+    },
+    {
+      "name": "Basics and Beyond Fitness & Nutrition",
+      "slug": "basics-and-beyond-fitness-nutrition",
+      "url": "https://gettingfit.com/",
+      "contact": "tel:+16154427700",
+      "priority": "A",
+      "summary": "High-credibility Nashville fitness business with obvious page-bloat, repeated sections, and even visible template residue, making it a strong cleanup-and-clarity pitch.",
+      "source": "https://gettingfit.com/personal-trainers/"
+    },
+    {
+      "name": "STRENGTH BOSTON",
+      "slug": "strength-boston",
+      "url": "https://www.strengthptboston.com/",
+      "contact": "mailto:strengthptboston@gmail.com",
+      "priority": "A-",
+      "summary": "Credible niche trainer with strong certifications, but the current Squarespace-style presentation feels thin and under-structured for consult booking and local trust building.",
+      "source": "https://www.strengthptboston.com/contact"
+    },
+    {
+      "name": "CLT Wellness",
+      "slug": "clt-wellness",
+      "url": "https://www.cltwellness.com/",
+      "contact": "mailto:carolyn@cltwellness.com",
+      "priority": "A-",
+      "summary": "Big pre/postnatal positioning upside, but placeholder text, weak structure, and unclear booking path make this an easy-before/after landing-page story.",
+      "source": "https://www.cltwellness.com/carolyn"
+    },
+    {
+      "name": "Attuned Studios",
+      "slug": "attuned-studios",
+      "url": "https://www.lightloveenergy.com/",
+      "contact": "mailto:info@lightloveenergy.com",
+      "priority": "B+",
+      "summary": "Distinctive wellness niche with multiple obvious template leftovers and positioning overlap; a clearer offer stack and trust-first consultation flow could help significantly.",
+      "source": "https://www.lightloveenergy.com/contact"
+    },
+    {
+      "name": "SimplyBeaing",
+      "slug": "simplybeaing",
+      "url": "https://www.simplybeaing.com/",
+      "contact": "https://www.simplybeaing.com/contact-us",
+      "priority": "B+",
+      "summary": "Warm skincare/wellness brand with clear owner expertise, but placeholder text, no online booking, and limited conversion guidance create a good static-prototype opportunity.",
+      "source": "https://www.simplybeaing.com/contact-us"
+    },
+    {
+      "name": "CleverSpark Coaching",
+      "slug": "cleverspark-coaching",
+      "url": "https://www.cleversparkcoaching.com/",
+      "contact": "https://www.cleversparkcoaching.com/contact",
+      "priority": "B+",
+      "summary": "The offer is personable and affordable, but typo cleanup, package scannability, tighter CTA sequencing, and stronger proof framing could materially improve consult conversion.",
+      "source": "https://www.cleversparkcoaching.com/packages-and-services"
+    },
+    {
+      "name": "KG Accounting & Consulting",
+      "slug": "kg-accounting-consulting",
+      "url": "https://www.kg-accounting.com/",
+      "contact": "mailto:kristine@kg-accounting.com",
+      "priority": "B",
+      "summary": "Solid service positioning for small businesses, with room to sharpen the hero, reduce scroll friction, clarify buyer paths, and make the right-fit call feel more compelling.",
+      "source": "https://www.kg-accounting.com/contact"
+    }
+  ]
+}
