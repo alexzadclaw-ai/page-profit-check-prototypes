@@ -1,0 +1,31 @@
+{
+  "batch": "2026-04-27-initial-three",
+  "created": "2026-04-27",
+  "note": "Initial three Page Profit Check prospects. Batch folders are append-only so future runs do not overwrite previous batches.",
+  "items": [
+    {
+      "name": "FITLY LLC",
+      "slug": "fitly-llc",
+      "url": "https://www.fitlyco.net/",
+      "contact": "mailto:fitlyllc25@gmail.com",
+      "priority": "A",
+      "summary": "Strongest monetization prospect: in-home training offer has clear value, but hero clarity, trust strip, consultation explanation, service-area cues, placeholder social cleanup, and mobile polish can make the page feel much more conversion-ready."
+    },
+    {
+      "name": "Evolve Personal Trainer",
+      "slug": "evolve-personal-trainer",
+      "url": "https://napervillepersonaltrainer.com/",
+      "contact": "tel:+13312493101",
+      "priority": "A-",
+      "summary": "Strong local intent and service breadth, with easy-to-explain trust/SEO cleanup: template residue, placeholder alt text, generic CTA copy, testimonial framing, meta description, local service sections, and FAQ."
+    },
+    {
+      "name": "Donna’s Home Fitness",
+      "slug": "donnas-home-fitness",
+      "url": "https://www.donnashomefitness.com/",
+      "contact": "mailto:donna@donnashomefitness.com",
+      "priority": "B+",
+      "summary": "Warm, credible Naperville fitness page with moderate upside: sharper hero, stronger free-trial CTA hierarchy, trust badges near the top, scannable benefits, “what happens next,” and mobile/Wix cleanup."
+    }
+  ]
+}

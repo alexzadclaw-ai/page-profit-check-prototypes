@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FITLY LLC — Prototype Landing Page</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --bg: #f3f7f6;
+      --card: #ffffff;
+      --ink: #123133;
+      --muted: #587070;
+      --line: #d7e6e4;
+      --brand: #0f766e;
+      --brand-dark: #0b5a54;
+      --accent: #f59e0b;
+      --soft: #e8f5f3;
+      --shadow: 0 24px 60px rgba(18, 49, 51, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,0.16), transparent 26rem),
+        linear-gradient(180deg, #f8fcfb 0%, var(--bg) 100%);
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    .hero {
+      padding: 28px 0 80px;
+    }
+    .topbar {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 16px; padding: 12px 0 30px;
+      color: var(--muted); font-size: 0.95rem;
+    }
+    .brand { font-weight: 800; letter-spacing: 0.08em; color: var(--brand-dark); }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 28px; align-items: center;
+    }
+    .eyebrow {
+      display: inline-flex; padding: 8px 12px; border-radius: 999px;
+      background: rgba(15,118,110,0.1); color: var(--brand-dark);
+      font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 18px; font-size: clamp(2.4rem, 5vw, 4.6rem); line-height: 0.98; letter-spacing: -0.04em;
+    }
+    .lede {
+      margin: 0 0 24px; font-size: 1.08rem; color: var(--muted); max-width: 62ch;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 14px 20px; border-radius: 999px; text-decoration: none; font-weight: 800;
+      border: 1px solid transparent;
+    }
+    .btn-primary { background: linear-gradient(135deg, var(--brand), #22c55e); color: #fff; box-shadow: var(--shadow); }
+    .btn-secondary { background: #fff; border-color: var(--line); color: var(--ink); }
+    .microcopy {
+      margin: 0; color: var(--muted); font-size: 0.95rem;
+    }
+    .trust-strip {
+      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 28px;
+    }
+    .trust-pill {
+      background: rgba(255,255,255,0.82); border: 1px solid var(--line); border-radius: 18px;
+      padding: 14px 16px; font-weight: 700; color: var(--brand-dark);
+      box-shadow: 0 12px 30px rgba(18,49,51,0.06);
+    }
+    .hero-card, .section-card, .faq-item, .contact-card {
+      background: rgba(255,255,255,0.9); border: 1px solid var(--line); border-radius: 28px; box-shadow: var(--shadow);
+    }
+    .hero-card {
+      padding: 28px;
+    }
+    .stat {
+      display: grid; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--line);
+    }
+    .stat:last-child { border-bottom: 0; }
+    .stat strong { font-size: 1.05rem; }
+    .section { padding: 22px 0 0; }
+    .section-card { padding: 30px; }
+    .section h2 {
+      margin: 0 0 10px; font-size: clamp(1.6rem, 2.6vw, 2.5rem); letter-spacing: -0.03em;
+    }
+    .section p.lead { margin: 0 0 24px; color: var(--muted); max-width: 62ch; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .feature, .area, .faq-item, .note-box {
+      border: 1px solid var(--line); border-radius: 22px; background: #fff; padding: 22px;
+    }
+    .feature h3, .area h3, .note-box h3 { margin: 0 0 10px; font-size: 1.08rem; }
+    .feature p, .area p, .note-box p, .faq-item p { margin: 0; color: var(--muted); }
+    .consult {
+      display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 18px; align-items: stretch;
+    }
+    .steps { display: grid; gap: 14px; }
+    .step {
+      display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; border-radius: 20px; background: var(--soft);
+    }
+    .step-number {
+      flex: 0 0 38px; height: 38px; display: grid; place-items: center; border-radius: 50%;
+      background: var(--brand); color: #fff; font-weight: 900;
+    }
+    .service-areas {
+      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px;
+    }
+    .area small { display: block; margin-top: 10px; color: var(--brand-dark); font-weight: 700; }
+    .faq-list { display: grid; gap: 14px; }
+    .faq-item h3 { margin: 0 0 8px; font-size: 1.02rem; }
+    .contact-card {
+      padding: 34px; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 24px; margin-bottom: 48px;
+    }
+    .contact-card ul { margin: 18px 0 0; padding-left: 18px; color: var(--muted); }
+    form { display: grid; gap: 12px; }
+    label { font-weight: 700; font-size: 0.95rem; }
+    input, textarea {
+      width: 100%; margin-top: 6px; padding: 13px 14px; border-radius: 14px; border: 1px solid var(--line);
+      font: inherit; color: var(--ink); background: #fff;
+    }
+    textarea { min-height: 130px; resize: vertical; }
+    .inline-note {
+      margin-top: 16px; padding: 16px 18px; border-radius: 18px; background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412;
+      font-weight: 600;
+    }
+    footer {
+      padding: 0 0 36px; color: var(--muted); font-size: 0.92rem;
+    }
+    @media (max-width: 920px) {
+      .hero-grid, .consult, .contact-card, .grid-2, .service-areas { grid-template-columns: 1fr; }
+      .trust-strip { grid-template-columns: 1fr 1fr; }
+      .hero { padding-bottom: 48px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 20px, 1120px); }
+      .topbar { flex-direction: column; align-items: flex-start; }
+      .trust-strip { grid-template-columns: 1fr; }
+      .hero-card, .section-card, .contact-card { border-radius: 22px; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">FITLY LLC — Prototype concept</div>
+        <div>In-home personal training for Naperville and nearby western suburbs</div>
+      </div>
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Local in-home coaching</div>
+          <h1>In-home personal training for busy adults who want expert help without the gym commute</h1>
+          <p class="lede">This demo layout shows how FITLY could feel more local, more credible, and easier to act on. It leads with convenience, supports the free consultation, and brings trust signals up before visitors start hesitating.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:fitlyllc25@gmail.com?subject=Free%20consultation%20request">Book your free consultation</a>
+            <a class="btn btn-secondary" href="#consultation">See how the consultation works</a>
+          </div>
+          <p class="microcopy">No pressure pitch: the first conversation can cover goals, history, schedule, home setup, and whether in-home coaching is the right fit.</p>
+          <div class="trust-strip">
+            <div class="trust-pill">Certified trainer guidance</div>
+            <div class="trust-pill">Rehab-informed coaching approach</div>
+            <div class="trust-pill">Beginner and post-rehab friendly</div>
+            <div class="trust-pill">Free consultation before committing</div>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="stat">
+            <strong>Built for real home routines</strong>
+            <span>Training can happen in a living room, basement, condo gym, or small home setup.</span>
+          </div>
+          <div class="stat">
+            <strong>Support for busy schedules</strong>
+            <span>Good fit for clients who need accountability without adding another commute.</span>
+          </div>
+          <div class="stat">
+            <strong>Practical next step</strong>
+            <span>Visitors should understand exactly what they get before they click the consultation CTA.</span>
+          </div>
+          <div class="inline-note">Prototype note: if social icons currently point to placeholder or Wix-branded profiles, removing them is better than keeping low-trust defaults live.</div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-card">
+          <h2>Why this structure converts better</h2>
+          <p class="lead">The original page already has the right ingredients. This version just organizes them in a way that answers objections faster and makes the first CTA feel safer.</p>
+          <div class="grid-2">
+            <article class="feature">
+              <h3>Lead with the real differentiator</h3>
+              <p>Instead of feeling like a general fitness page, the hero centers on local in-home coaching and the convenience busy adults actually care about.</p>
+            </article>
+            <article class="feature">
+              <h3>Bring proof higher on the page</h3>
+              <p>Certification, rehab-aware coaching, and beginner-friendly support appear before visitors need to scroll for reassurance.</p>
+            </article>
+            <article class="feature">
+              <h3>Reduce friction around the free consultation</h3>
+              <p>Visitors can quickly understand what happens next instead of wondering whether the CTA is a hard sell.</p>
+            </article>
+            <article class="feature">
+              <h3>Use stronger local cues</h3>
+              <p>Naperville and surrounding suburbs are referenced naturally so the page feels specific, relevant, and easier to trust.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="consultation">
+      <div class="wrap">
+        <div class="section-card consult">
+          <div>
+            <h2>What the free consultation can cover</h2>
+            <p class="lead">A quick explainer near the first CTA helps visitors move forward confidently instead of postponing the decision.</p>
+            <div class="note-box">
+              <h3>Suggested consultation promise</h3>
+              <p>We’ll talk through your goals, schedule, training background, home setup, and whether in-home coaching makes sense for you right now.</p>
+            </div>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div>
+                <strong>Goals and history</strong>
+                <p>Strength, consistency, confidence, post-rehab support, or getting back into a routine.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div>
+                <strong>Home setup and logistics</strong>
+                <p>Space, equipment, schedule, and what training at home could realistically look like.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div>
+                <strong>Best-fit recommendation</strong>
+                <p>A simple recommendation for whether coaching is a fit, without forcing a commitment on the first interaction.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-card">
+          <h2>Service area cues that feel local</h2>
+          <p class="lead">A short service-area section can strengthen both visitor confidence and local SEO without overcomplicating the page.</p>
+          <div class="service-areas">
+            <div class="area">
+              <h3>Naperville</h3>
+              <p>Primary in-home training positioning should feel clearly rooted here.</p>
+              <small>Home visits and routine-based coaching</small>
+            </div>
+            <div class="area">
+              <h3>Aurora</h3>
+              <p>Nearby clients can immediately see that the service likely reaches them too.</p>
+              <small>Flexible suburban scheduling</small>
+            </div>
+            <div class="area">
+              <h3>Plainfield</h3>
+              <p>Useful for families and professionals who prefer training close to home.</p>
+              <small>No-gym-hassle framing</small>
+            </div>
+            <div class="area">
+              <h3>Bolingbrook & nearby suburbs</h3>
+              <p>Rounded-out location copy makes the page feel less generic and more specific.</p>
+              <small>Western suburb convenience</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-card">
+          <h2>FAQ section for trust, clarity, and search relevance</h2>
+          <p class="lead">FAQ content is one of the easiest ways to answer objections before they turn into drop-offs.</p>
+          <div class="faq-list">
+            <article class="faq-item">
+              <h3>Do I need a full home gym?</h3>
+              <p>No. Many in-home plans can work with limited space and minimal equipment. The consultation can help define what is actually needed.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Is this only for experienced gym-goers?</h3>
+              <p>It should feel welcoming for beginners, returning adults, and people rebuilding confidence after time away from exercise.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Can this support post-rehab or movement-confidence goals?</h3>
+              <p>Rehab-informed positioning is one of FITLY’s strongest trust angles and should be described clearly without overpromising medical outcomes.</p>
+            </article>
+            <article class="faq-item">
+              <h3>What happens after I reach out?</h3>
+              <p>Visitors should expect a simple conversation about goals, scheduling, home setup, and whether training together is a fit.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="contact-card">
+          <div>
+            <h2>Stronger contact copy closes the loop</h2>
+            <p class="lead">Instead of ending on a generic form, the page should remind visitors why reaching out is worth doing now.</p>
+            <ul>
+              <li>Ask what goal they want help with</li>
+              <li>Reinforce that the first step is a free consultation</li>
+              <li>Keep the language practical and low-pressure</li>
+              <li>Avoid trust leaks like placeholder links or inconsistent credential phrasing</li>
+            </ul>
+          </div>
+          <div>
+            <form>
+              <label>Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>Email
+                <input type="email" placeholder="you@example.com" />
+              </label>
+              <label>What would you like help with?
+                <textarea placeholder="Example: building strength, staying consistent, post-rehab support, or getting back into a routine."></textarea>
+              </label>
+              <a class="btn btn-primary" href="mailto:fitlyllc25@gmail.com?subject=Request%20free%20consultation">Request free consultation</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Prototype created for outreach/demo purposes. Copy is adapted and original-text-independent.</div>
+  </footer>
+</body>
+</html>
