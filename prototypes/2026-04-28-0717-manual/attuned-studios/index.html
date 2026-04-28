@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Attuned Studios — Trust-First Wellness Landing Page Page</title>
+  <meta name="description" content="A conversion-focused landing page for Attuned Studios that clarifies wellness services, improves consultation trust, strengthens CTA hierarchy, and keeps a calm mobile-first feel.">
+  <style>
+    :root{
+      --plum:#4f3a57;
+      --plum-dark:#38273f;
+      --sage:#dbe7dd;
+      --mist:#f5f1ee;
+      --rose:#ead8d0;
+      --ink:#2a2630;
+      --muted:#655f69;
+      --line:#ddd3d9;
+      --white:#ffffff;
+      --accent:#ab6f68;
+      --shadow:0 18px 46px rgba(44,27,49,.10);
+      --radius:22px;
+      --wrap:min(1160px, calc(100% - 32px));
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:var(--white);line-height:1.65}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:var(--wrap);margin:0 auto}
+    .topbar{background:var(--plum-dark);color:#fff;font-size:13px}
+    .topbar .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:10px 0}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(221,211,217,.9)}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 0}
+    .brand{font-size:27px;font-weight:800;letter-spacing:.04em;color:var(--plum);text-transform:uppercase}
+    .brand small{display:block;font-size:11px;letter-spacing:.2em;text-transform:none;color:#807784;margin-top:2px}
+    .nav-links{display:flex;gap:22px;align-items:center;font-size:14px;color:#514b56}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:999px;font-weight:700}
+    .btn-primary{background:var(--plum);color:#fff;box-shadow:var(--shadow)}
+    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--plum)}
+    .hero{background:linear-gradient(135deg,#f7f0eb 0%,#eef5ef 100%);padding:76px 0 56px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:28px;align-items:start}
+    .eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#857984;margin-bottom:14px}
+    h1,h2,h3{margin:0;line-height:1.08;font-family:Georgia,"Times New Roman",serif}
+    h1{font-size:58px;color:var(--plum-dark);margin-bottom:18px}
+    .hero-copy p{font-size:18px;color:#554f58;max-width:680px;margin:0 0 24px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+    .microcopy{font-size:14px;color:#6a6470;max-width:630px}
+    .panel,.card,.trust-item,.step,.faq,.quote{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .panel{padding:28px}
+    .panel h2{font-size:31px;color:var(--plum-dark);margin-bottom:12px}
+    .checklist{display:grid;gap:12px;margin-top:18px}
+    .check{background:var(--mist);border:1px solid #eadfe4;border-radius:16px;padding:14px 16px}
+    .check strong{display:block;color:var(--plum);font-size:15px;margin-bottom:3px}
+    .trust-strip{padding:22px 0 0}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .trust-item{padding:18px;min-height:122px}
+    .trust-item strong{display:block;font-size:15px;color:var(--plum);margin-bottom:6px}
+    .section{padding:66px 0}
+    .section.alt{background:var(--mist)}
+    .section-title{font-size:42px;color:var(--plum-dark);margin-bottom:12px}
+    .section-intro{max-width:760px;color:var(--muted);margin:0 0 28px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{padding:24px}
+    .card h3{font-size:28px;color:var(--plum-dark);margin-bottom:10px}
+    .card p{margin:0;color:#5f5862}
+    .mini{display:inline-block;margin-top:14px;font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#887e8a}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+    .stack{display:grid;gap:16px}
+    .quote{padding:22px}
+    .quote-label{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.16em;padding:6px 10px;border-radius:999px;background:var(--sage);color:var(--plum);margin-bottom:10px}
+    .quote h3{font-size:24px;color:var(--plum-dark);margin-bottom:8px}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{padding:22px}
+    .step-num{display:inline-flex;width:38px;height:38px;border-radius:50%;align-items:center;justify-content:center;background:var(--plum);color:#fff;font-weight:800;margin-bottom:14px}
+    .faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .faq{padding:22px}
+    .faq h3{font-size:24px;color:var(--plum-dark);margin-bottom:8px}
+    .cta{background:linear-gradient(135deg,var(--plum-dark) 0%, var(--plum) 100%);color:#fff;border-radius:28px;padding:34px;display:flex;justify-content:space-between;gap:18px;align-items:center}
+    .cta h2{font-size:40px;margin-bottom:8px;color:#fff}
+    .cta p{margin:0;max-width:680px;color:#f2ebf0}
+    footer{padding:28px 0 42px;color:#706877;font-size:14px}
+    @media (max-width:980px){
+      .hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr 1fr}
+      h1{font-size:46px}
+    }
+    @media (max-width:740px){
+      .nav{flex-direction:column;align-items:flex-start}
+      .nav-links{flex-wrap:wrap;gap:12px}
+      .hero{padding:54px 0 38px}
+      .hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr}
+      .section{padding:46px 0}
+      h1{font-size:38px}
+      .section-title,.cta h2{font-size:32px}
+      .cta{flex-direction:column;align-items:flex-start;padding:26px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>Saint Louis wellness studio for body contouring, energetic healing, and mind-body support</div>
+      <div>Consultation-led scheduling · info@lightloveenergy.com · 314.804.6611</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <div class="brand">Attuned Studios<small>Claim wellness within — with clearer structure and trust</small></div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#fit">Who It’s For</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Conversion-focused homepage</span>
+        <h1>Personalized wellness support for body goals, energetic balance, and mind-body care</h1>
+        <p>This page keeps the calm, intentional tone of Attuned Studios while making the offer easier to understand: clear service paths, stronger consultation framing, better trust signals, and a cleaner first impression on mobile.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book Your Consultation</a>
+          <a href="#services" class="btn btn-secondary">Explore Services</a>
+        </div>
+        <div class="microcopy">Attuned Studios already has a distinctive niche. Clearer service guidance and cleaner trust cues help new visitors feel more confident booking.</div>
+      </div>
+      <aside class="panel">
+        <h2>Make the first step feel guided, not vague</h2>
+        <p style="margin:0;color:#5d5660">A short consultation explainer can help new visitors understand how Attuned Studios matches them to the right service instead of asking them to decode every modality first.</p>
+        <div class="checklist">
+          <div class="check"><strong>1. Share your goals</strong>Body contouring questions, energetic support goals, or interest in deeper mind-body wellness sessions.</div>
+          <div class="check"><strong>2. Review the right service path</strong>Clarify which session type fits best and whether it is in person, remote, or appointment-based.</div>
+          <div class="check"><strong>3. Book with confidence</strong>Move into the next step with clearer expectations and less friction.</div>
+        </div>
+      </aside>
+    </div>
+    <div class="wrap trust-strip">
+      <div class="trust-grid">
+        <div class="trust-item"><strong>Saint Louis-Based</strong>Local wellness positioning placed near the top instead of buried in footer copy.</div>
+        <div class="trust-item"><strong>Distinct Service Lanes</strong>Body contouring, energetic healing, and integrative care each get a clearer role.</div>
+        <div class="trust-item"><strong>Consultation-Led</strong>Visitors get help choosing the right starting point instead of guessing.</div>
+        <div class="trust-item"><strong>Appointment-Based Support</strong>Email, phone, and Zoom-friendly language reduce uncertainty around scheduling.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <span class="eyebrow">Service architecture</span>
+      <h2 class="section-title">Turn the niche into three clear buyer paths</h2>
+      <p class="section-intro">Clear service grouping makes it easier for a first-time visitor to identify the best fit without losing the studio’s holistic tone.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Body Contouring &amp; Sculpting</h3>
+          <p>For clients focused on non-invasive body-refinement goals, smoother contours, and visible support for targeted areas.</p>
+          <span class="mini">Visible goals • Structured options • Guided booking</span>
+        </article>
+        <article class="card">
+          <h3>Energetic Healing &amp; Regulation</h3>
+          <p>For clients seeking support around nervous-system balance, energetic alignment, emotional reset, and restorative care.</p>
+          <span class="mini">Energy • Regulation • Restoration</span>
+        </article>
+        <article class="card">
+          <h3>Integrative Mind-Body Sessions</h3>
+          <p>For people wanting a more personalized path that blends deeper coaching, self-awareness, and whole-person support.</p>
+          <span class="mini">Personalized • Holistic • Consultation-led</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="fit">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Who it’s for</span>
+        <h2 class="section-title">Help visitors recognize themselves sooner</h2>
+        <p class="section-intro">Premium wellness services convert better when the page makes the intended fit feel obvious, calm, and credible.</p>
+        <div class="stack">
+          <div class="card">
+            <h3>People exploring body-focused results</h3>
+            <p>Visitors who want visible support and a more personalized conversation before choosing a sculpting option.</p>
+          </div>
+          <div class="card">
+            <h3>Clients seeking gentle energetic support</h3>
+            <p>People drawn to wellness work that feels intentional, restorative, and less clinical or rushed.</p>
+          </div>
+          <div class="card">
+            <h3>People wanting a deeper whole-person approach</h3>
+            <p>Visitors who resonate with mind-body-soul language but still need help translating it into the right first session.</p>
+          </div>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="quote">
+          <span class="quote-label">Trust cue</span>
+          <h3>Cleaner structure increases confidence before anyone even reads the full philosophy</h3>
+          <p>Removing placeholders, tightening service language, and improving CTA support are some of the fastest trust wins available here.</p>
+        </div>
+        <div class="quote">
+          <span class="quote-label">Founder credibility</span>
+          <h3>Lead with selected credentials, then let deeper background live below</h3>
+          <p>The founder background is substantial; the conversion improvement is staging that information so it helps sooner instead of overwhelming the page.</p>
+        </div>
+        <div class="quote">
+          <span class="quote-label">Local + remote clarity</span>
+          <h3>Saint Louis-based with remote-friendly and Zoom-aware support language</h3>
+          <p>Simple clarity around location and session format helps trust, logistics, and local SEO at the same time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Consultation flow</span>
+      <h2 class="section-title">Explain the next step in plain language</h2>
+      <p class="section-intro">This is especially important for multi-modality wellness businesses. Visitors need reassurance that they do not have to figure everything out on their own before reaching out.</p>
+      <div class="process">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3 style="font-size:26px;color:var(--plum-dark);margin-bottom:10px">Reach out</h3>
+          <p style="margin:0;color:#605864">Start by email, phone, or consultation request with a short note about what you are seeking support for.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3 style="font-size:26px;color:var(--plum-dark);margin-bottom:10px">Clarify the best fit</h3>
+          <p style="margin:0;color:#605864">Review whether body contouring, energetic healing, or a broader session path makes the most sense.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3 style="font-size:26px;color:var(--plum-dark);margin-bottom:10px">Book the right session</h3>
+          <p style="margin:0;color:#605864">Move forward with clearer expectations, fewer questions, and more confidence in the next step.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <span class="eyebrow">FAQ + SEO support</span>
+      <h2 class="section-title">Answer the questions that hold new visitors back</h2>
+      <p class="section-intro">A short FAQ can do a lot of work here: improve scannability, reduce confusion, and make the site feel more grounded without flattening the brand voice.</p>
+      <div class="faq-grid">
+        <article class="faq">
+          <h3>What is the best first step for a new client?</h3>
+          <p>Use the consultation to talk through goals, questions, and which service lane makes the most sense before booking a deeper session.</p>
+        </article>
+        <article class="faq">
+          <h3>What is the difference between body contouring and energetic healing?</h3>
+          <p>Separate visible body-refinement goals from energetic or nervous-system support so visitors do not have to infer the difference from long paragraphs.</p>
+        </article>
+        <article class="faq">
+          <h3>Are sessions in person, remote, or both?</h3>
+          <p>Saint Louis and Zoom-based support should be clearly explained higher on the page so visitors know how appointments work.</p>
+        </article>
+        <article class="faq">
+          <h3>Is this medical treatment?</h3>
+          <p>Use the FAQ to reinforce the site’s own non-medical positioning in a calm, concise, easy-to-understand way.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <h2>Book your consultation</h2>
+          <p>Use the next step to describe what kind of support you are looking for. A stronger consultation block can make the entire brand feel easier to trust and easier to act on.</p>
+        </div>
+        <a href="mailto:info@lightloveenergy.com" class="btn btn-primary" style="background:#fff;color:var(--plum-dark)">Email Attuned Studios</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Focused homepage update: clearer offer structure, stronger trust sequencing, better CTA hierarchy, and easier mobile scanning.</div>
+  </footer>
+</body>
+</html>

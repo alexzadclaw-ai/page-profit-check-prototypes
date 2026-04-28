@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Wise Personal Training — Side-by-Side Report</title>
+  <style>
+    :root{
+      --bg:#f6f7f9;
+      --panel:#ffffff;
+      --ink:#1f2328;
+      --muted:#5f6b76;
+      --line:#d8dee4;
+      --accent:#0d7484;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+    .wrap{max-width:1200px;margin:0 auto;padding:24px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:20px}
+    h1,h2,h3{margin:0 0 12px}
+    h1{font-size:34px}
+    h2{font-size:24px}
+    p,li{color:var(--muted)}
+    .meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .shot{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px}
+    .shot img{width:100%;height:auto;border-radius:6px;display:block}
+    .label{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    a{color:var(--accent)}
+    ul{margin:10px 0 0 20px}
+    .verdict{font-size:18px;color:var(--ink)}
+    @media (max-width: 900px){
+      .grid,.meta{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <div class="label">Body Wise Personal Training</div>
+      <h1>Side-by-Side Report</h1>
+      <p class="verdict"><strong>Verdict:</strong> the current prototype is closer than the earlier redesign, but it still does not match the live site's color system and original graphics closely enough.</p>
+      <div class="meta">
+        <div>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="https://www.bodywiseinc.com/">Original site</a></li>
+            <li><a href="https://alexzadclaw-ai.github.io/page-profit-check-prototypes/prototypes/2026-04-28-0717-manual/body-wise-personal-training/">Current prototype</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Main issues still remaining</h3>
+          <ul>
+            <li>Color palette still differs from the live teal/white/dark-gray mix</li>
+            <li>Exact live graphics were not yet reused in the current prototype</li>
+            <li>Spacing and cleanup still feel slightly more polished than the original</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Visual comparison</h2>
+      <div class="grid">
+        <div class="shot">
+          <div class="label">Original</div>
+          <img src="../../screenshots/2026-04-28-0717-manual/body-wise-personal-training-target.png" alt="Original Body Wise Personal Training page screenshot">
+        </div>
+        <div class="shot">
+          <div class="label">Prototype</div>
+          <img src="../../screenshots/2026-04-28-0717-manual/body-wise-personal-training-prototype.png" alt="Prototype Body Wise Personal Training page screenshot">
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>What matches better now</h2>
+      <ul>
+        <li>two-row navigation feel</li>
+        <li>full-width hero with centered copy</li>
+        <li>four promo-card rhythm under the hero</li>
+        <li>motivational quote band</li>
+        <li>contact-first lower-page structure</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Why it still feels off</h2>
+      <ul>
+        <li>The live site uses a more literal site-builder palette: white, dark gray/black, teal CTA blocks, and a bright cyan selected-nav accent.</li>
+        <li>The live site uses real builder-hosted images and background assets, while the current prototype still uses lookalike imagery.</li>
+        <li>The original page has more clutter, duplication, and awkward spacing; the prototype still smooths too much of that away.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Live graphics/assets now identified</h2>
+      <ul>
+        <li><a href="https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/lg1-1920w.png">Logo</a></li>
+        <li><a href="https://lirp.cdn-website.com/d229567a/dms3rep/multi/opt/click-to-leave-review-small2-1920w.png">Review badge</a></li>
+        <li><a href="https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_2_gir-1920w.jpeg">Background image 1</a></li>
+        <li><a href="https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_12_bkgfeature-1920w.jpeg">Background image 2</a></li>
+        <li><a href="https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/dl2-1920w.jpg">Background image 3</a></li>
+      </ul>
+      <p>These are the assets I should use on the next Body Wise-only pass to make the prototype much more faithful.</p>
+    </section>
+  </div>
+</body>
+</html>

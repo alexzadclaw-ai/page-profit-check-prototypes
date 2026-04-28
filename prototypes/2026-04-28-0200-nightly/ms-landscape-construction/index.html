@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M.S. Landscape & Construction — Quote-Focused Page</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Cleaner, quote-focused M.S. Landscape & Construction landing page with stronger service clarity, local coverage, and CTA hierarchy." />
+  <style>
+    :root {
+      --bg: #f5f0e8;
+      --surface: #fffdf9;
+      --surface-2: #f1eadf;
+      --ink: #223028;
+      --muted: #5f6d64;
+      --line: #ddd3c5;
+      --brand: #456b45;
+      --brand-deep: #2f4d31;
+      --accent: #c78136;
+      --accent-deep: #a8621b;
+      --shadow: 0 18px 45px rgba(37, 42, 35, 0.12);
+      --radius: 22px;
+      --max: 1160px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #e8efe4 0, #f8f3ea 180px, #fcfaf6 180px);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    .wrap { width: min(var(--max), calc(100% - 28px)); margin: 0 auto; }
+    .topbar {
+      background: #243629;
+      color: #f4efe7;
+      font-size: 0.94rem;
+    }
+    .topbar .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px 16px;
+      padding: 10px 0;
+      align-items: center;
+    }
+    .topbar-group { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+    .topbar a { text-decoration: none; }
+    .site-header {
+      padding: 16px 0 8px;
+    }
+    .nav-shell {
+      background: rgba(255,255,255,0.84);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(221,211,197,0.8);
+      border-radius: 999px;
+      box-shadow: 0 10px 30px rgba(43, 49, 41, 0.08);
+      padding: 10px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .brand strong {
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--brand-deep);
+    }
+    .brand span {
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #405046;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .nav-cta {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--brand);
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .hero {
+      padding: 22px 0 30px;
+    }
+    .hero-card {
+      background: linear-gradient(135deg, rgba(255,253,249,0.98), rgba(243,236,223,0.96));
+      border: 1px solid rgba(221,211,197,0.9);
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+    }
+    .hero-copy, .hero-side { padding: 34px; }
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #e4ecdf;
+      color: var(--brand-deep);
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    h1, h2, h3, h4 { line-height: 1.15; margin: 0; }
+    .hero h1 {
+      font-size: clamp(2.3rem, 4.6vw, 4.3rem);
+      margin-bottom: 16px;
+      max-width: 11ch;
+    }
+    .hero .lede {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      max-width: 58ch;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 0 0 14px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 14px 20px;
+      border: 1px solid transparent;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 10px 22px rgba(199,129,54,0.3);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.82);
+      border-color: #cfbfa9;
+      color: var(--ink);
+    }
+    .hero-note {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .stat {
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(207,191,169,0.9);
+      border-radius: 18px;
+      padding: 14px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 1rem;
+      color: var(--brand-deep);
+      margin-bottom: 5px;
+    }
+    .stat span {
+      display: block;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    .hero-side {
+      background: linear-gradient(180deg, #315235, #243d27);
+      color: #f7f3eb;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .hero-side h2 {
+      font-size: 1.55rem;
+      margin-bottom: 12px;
+    }
+    .hero-side p { margin: 0 0 12px; color: rgba(247,243,235,0.86); }
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+    .checklist li {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 12px 14px;
+    }
+    .mini-card {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .mini-card strong { display: block; margin-bottom: 8px; font-size: 1rem; }
+    section { padding: 18px 0 24px; }
+    .section-head {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .section-head small {
+      display: block;
+      color: #7d725f;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .section-head h2 {
+      font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+      margin-bottom: 10px;
+    }
+    .section-head p {
+      margin: 0 auto;
+      max-width: 68ch;
+      color: var(--muted);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(37, 42, 35, 0.05);
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      color: var(--brand-deep);
+    }
+    .card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+    }
+    .bullet-list {
+      margin: 0;
+      padding-left: 18px;
+      color: #415249;
+    }
+    .bullet-list li + li { margin-top: 6px; }
+    .process,
+    .trust-grid,
+    .gallery-grid,
+    .contact-grid,
+    .footer-grid {
+      display: grid;
+      gap: 16px;
+    }
+    .process { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .step {
+      background: #eef3eb;
+      border: 1px solid #d2dccd;
+      border-radius: 22px;
+      padding: 22px;
+    }
+    .step strong {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--brand);
+      color: white;
+      margin-bottom: 14px;
+    }
+    .trust-grid { grid-template-columns: 1.2fr 0.8fr; }
+    .quote-box {
+      background: linear-gradient(180deg, #fffdf9, #f3ebdf);
+      border: 1px solid #ddd3c5;
+      border-radius: 24px;
+      padding: 24px;
+    }
+    .quote-box p { margin: 0 0 12px; }
+    .quote-box .fine { font-size: 0.95rem; color: var(--muted); }
+    .trust-list {
+      display: grid;
+      gap: 12px;
+    }
+    .trust-item {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+    }
+    .trust-item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--brand-deep);
+    }
+    .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .gallery-card {
+      background: linear-gradient(180deg, #dfe8d9, #eef2ea 40%, #fffdf9 40%);
+      border: 1px solid #d7dece;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+    .gallery-visual {
+      aspect-ratio: 4 / 3;
+      background:
+        linear-gradient(135deg, rgba(69,107,69,0.65), rgba(199,129,54,0.35)),
+        radial-gradient(circle at top left, #f7f2e7 0, #d9c8b0 48%, #8da189 100%);
+    }
+    .gallery-card div:last-child { padding: 18px; }
+    .gallery-card h3 { font-size: 1.1rem; margin-bottom: 8px; color: var(--brand-deep); }
+    .gallery-card p { margin: 0; color: var(--muted); }
+    .contact-band {
+      background: linear-gradient(135deg, #29442d, #355a39 65%, #467244);
+      color: #f7f3eb;
+      border-radius: 28px;
+      padding: 30px;
+      box-shadow: var(--shadow);
+    }
+    .contact-grid { grid-template-columns: 1.1fr 0.9fr; align-items: start; }
+    .contact-band h2 { font-size: clamp(1.9rem, 3vw, 2.8rem); margin-bottom: 12px; }
+    .contact-band p { margin: 0 0 12px; color: rgba(247,243,235,0.86); }
+    .contact-panel {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 22px;
+      padding: 20px;
+    }
+    .contact-panel strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    footer {
+      padding: 22px 0 34px;
+      color: #536057;
+    }
+    .footer-grid { grid-template-columns: 1fr auto; align-items: center; }
+    .footer-note {
+      font-size: 0.86rem;
+      color: #768178;
+    }
+    @media (max-width: 980px) {
+      .hero-card,
+      .trust-grid,
+      .contact-grid,
+      .process,
+      .gallery-grid,
+      .services,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 720px) {
+      .wrap { width: min(var(--max), calc(100% - 20px)); }
+      .nav-shell { border-radius: 26px; }
+      .hero-copy, .hero-side, .contact-band { padding: 24px; }
+      .hero h1 { max-width: none; }
+      .hero-stats { grid-template-columns: 1fr; }
+      .btn, .nav-cta { width: 100%; text-align: center; }
+      nav { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div class="topbar-group">
+        <span>Serving Rockland, Orange, Dutchess &amp; Ulster County</span>
+        <span>20+ years of hands-on experience</span>
+      </div>
+      <div class="topbar-group">
+        <a href="tel:+18456410957">Call: (845) 641-0957</a>
+        <a href="mailto:miguelsegarra0826@gmail.com">Email for estimates</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header wrap">
+    <div class="nav-shell">
+      <div class="brand">
+        <strong>M.S. Landscape &amp; Construction</strong>
+        <span>Outdoor construction &amp; landscape improvements</span>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#gallery">Projects</a>
+        <a href="#service-area">Service area</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Request a Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-card">
+        <div class="hero-copy">
+          <span class="eyebrow">Quote-focused outdoor project support</span>
+          <h1>Hardscapes, landscaping, decks, and fences built for local homeowners.</h1>
+          <p class="lede">A cleaner landing page for M.S. Landscape &amp; Construction that makes the offer easier to understand, trust, and contact. The page emphasizes service clarity, local coverage, and one strong quote CTA.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:+18456410957">Call for a Quote</a>
+            <a class="btn btn-secondary" href="#gallery">View Project Categories</a>
+          </div>
+          <p class="hero-note">Consultations for hardscapes, landscape design, decks, fences, and outdoor improvement projects.</p>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>20+ years</strong>
+              <span>Experience across outdoor construction and installation work</span>
+            </div>
+            <div class="stat">
+              <strong>4 county reach</strong>
+              <span>Rockland, Orange, Dutchess, and Ulster County</span>
+            </div>
+            <div class="stat">
+              <strong>Direct contact</strong>
+              <span>Phone and email available without extra friction</span>
+            </div>
+            <div class="stat">
+              <strong>Project variety</strong>
+              <span>Patios, planting, decks, fencing, and exterior upgrades</span>
+            </div>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <div>
+            <h2>What this cleaner page does better</h2>
+            <p>Instead of a cluttered template feel, the page gives homeowners a simple path: understand the service, confirm the service area, and request a quote.</p>
+            <ul class="checklist">
+              <li><strong>Clear offer:</strong> service categories and audience are obvious on first screen.</li>
+              <li><strong>Stronger trust:</strong> experience, service area, and contact details show up early.</li>
+              <li><strong>Better CTA hierarchy:</strong> one main action, one secondary browse action.</li>
+            </ul>
+          </div>
+          <div class="mini-card">
+            <strong>Good fit for this business</strong>
+            <p>This keeps the tone practical and local while removing the trust leaks from duplicate navigation, template leftovers, and weak page structure.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="wrap">
+      <div class="section-head">
+        <small>Services</small>
+        <h2>Organized around what homeowners actually want done</h2>
+        <p>A quote page works better when services are grouped into clear, scannable categories instead of being buried in repetitive menus and filler copy.</p>
+      </div>
+      <div class="services">
+        <article class="card">
+          <h3>Hardscapes</h3>
+          <p>Patios, retaining walls, walkways, fire features, and masonry-focused outdoor living work designed to improve usability and curb appeal.</p>
+          <ul class="bullet-list">
+            <li>Paver patios and walkways</li>
+            <li>Retaining walls and steps</li>
+            <li>Outdoor kitchens and fire features</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Landscape design</h3>
+          <p>Planting and layout improvements that give front yards, backyards, and overall property lines a more finished, well-planned look.</p>
+          <ul class="bullet-list">
+            <li>Trees, shrubs, and seasonal planting</li>
+            <li>Budget-aware layout planning</li>
+            <li>Front-yard and backyard upgrades</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Decks &amp; fences</h3>
+          <p>New installations, resurfacing, railings, privacy fencing, and outdoor structure work that helps define and protect usable space.</p>
+          <ul class="bullet-list">
+            <li>Wood and composite deck work</li>
+            <li>Railings, pergolas, and resurfacing</li>
+            <li>Wood, aluminum, and vinyl fences</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Exterior improvements</h3>
+          <p>Additional home-improvement style services positioned as part of a broader outdoor upgrade plan, rather than disconnected pages.</p>
+          <ul class="bullet-list">
+            <li>Integrated exterior project support</li>
+            <li>Multi-part property improvement planning</li>
+            <li>Cleaner cross-sell path from quote request</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="wrap">
+      <div class="section-head">
+        <small>How it works</small>
+        <h2>A simpler quote path reduces hesitation</h2>
+        <p>Local-service pages convert better when homeowners know exactly what happens after they call.</p>
+      </div>
+      <div class="process">
+        <div class="step">
+          <strong>1</strong>
+          <h3>Reach out</h3>
+          <p>Call or email with the type of project you want to discuss and the property area involved.</p>
+        </div>
+        <div class="step">
+          <strong>2</strong>
+          <h3>Review goals &amp; budget</h3>
+          <p>Talk through layout, materials, project scope, and any practical constraints before moving forward.</p>
+        </div>
+        <div class="step">
+          <strong>3</strong>
+          <h3>Get a clear next step</h3>
+          <p>Move toward a quote and project plan without forcing visitors to decode a cluttered website first.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="service-area">
+      <div class="trust-grid">
+        <div class="quote-box">
+          <div class="section-head" style="text-align:left; margin-bottom: 16px;">
+            <small>Why homeowners choose us</small>
+            <h2 style="margin-bottom:10px;">Proof, experience, and service-area clarity should be easy to find.</h2>
+          </div>
+          <p>The strongest trust signals move closer to the CTA: experience, counties served, direct contact, and a straightforward services summary.</p>
+          <p class="fine">It also assumes removal of irrelevant template links, duplicate menus, and filler text that can make a construction company look less established online.</p>
+        </div>
+        <div class="trust-list">
+          <div class="trust-item">
+            <strong>Service area clarity</strong>
+            <span>Rockland, Orange, Dutchess, and Ulster County are called out in plain language.</span>
+          </div>
+          <div class="trust-item">
+            <strong>Contact-first layout</strong>
+            <span>The quote path stays visible instead of getting buried behind navigation noise.</span>
+          </div>
+          <div class="trust-item">
+            <strong>More credible structure</strong>
+            <span>Cleaner headings, tighter copy, and fewer template leftovers make the business feel more professional.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="wrap">
+      <div class="section-head">
+        <small>Project categories</small>
+        <h2>Portfolio framing that supports the quote CTA</h2>
+        <p>The original site references multiple galleries and project pages. This page keeps that visual angle, but frames it as support for the estimate request rather than as a distraction.</p>
+      </div>
+      <div class="gallery-grid">
+        <article class="gallery-card">
+          <div class="gallery-visual" aria-hidden="true"></div>
+          <div>
+            <h3>Patios &amp; hardscape installs</h3>
+            <p>Highlight layout, stonework, retaining walls, and outdoor living features in one place.</p>
+          </div>
+        </article>
+        <article class="gallery-card">
+          <div class="gallery-visual" aria-hidden="true"></div>
+          <div>
+            <h3>Deck &amp; fence projects</h3>
+            <p>Show resurfacing, new builds, privacy fencing, railings, and composite upgrades.</p>
+          </div>
+        </article>
+        <article class="gallery-card">
+          <div class="gallery-visual" aria-hidden="true"></div>
+          <div>
+            <h3>Landscape transformations</h3>
+            <p>Use before/after style visuals to support the design-and-installation message.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap">
+      <div class="contact-band">
+        <div class="contact-grid">
+          <div>
+            <h2>Ready to talk through your outdoor project?</h2>
+            <p>This final section keeps things simple: one clear path to request a quote, one short reminder of the service area, and no extra clutter competing with the action.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="tel:+18456410957">Call (845) 641-0957</a>
+              <a class="btn btn-secondary" href="mailto:miguelsegarra0826@gmail.com">Email for an Estimate</a>
+            </div>
+          </div>
+          <div class="contact-panel">
+            <strong>M.S. Landscape &amp; Construction</strong>
+            <p>28 Buena Vista Avenue<br />Spring Valley, NY 10977</p>
+            <p><strong>Service area:</strong><br />Rockland, Orange, Dutchess, and Ulster County</p>
+            <p><strong>Page focus:</strong><br />A conversion-first cleanup that keeps the business identity recognizable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer-grid">
+      <div>
+        <strong>M.S. Landscape &amp; Construction</strong>
+        <p class="footer-note">Quote-first, trust-focused, mobile-friendly page for local outdoor projects.</p>
+      </div>
+      <div class="footer-note">Quote-first • trust-focused • mobile-friendly</div>
+    </div>
+  </footer>
+</body>
+</html>

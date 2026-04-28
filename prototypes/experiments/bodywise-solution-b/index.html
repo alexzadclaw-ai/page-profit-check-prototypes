@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Wise — Solution B: Frame & Annotate Review</title>
+  <meta name="robots" content="noindex,nofollow">
+  <style>
+    :root{
+      --bg:#f6f1eb;
+      --panel:#fffdf9;
+      --ink:#1f1d1b;
+      --muted:#645d57;
+      --line:#ddcfc0;
+      --accent:#7b4d2a;
+      --accent-soft:#f1dfcf;
+      --ok:#2f6a4f;
+      --warn:#b45309;
+      --shadow:0 18px 45px rgba(58,35,19,.12);
+      --wrap:min(1380px, calc(100% - 40px));
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#f7f1ea 0%,#f2ebe4 100%);color:var(--ink);line-height:1.5}
+    img{max-width:100%;display:block}
+    .wrap{width:var(--wrap);margin:0 auto}
+    .hero{padding:34px 0 18px}
+    .eyebrow{display:inline-block;padding:7px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    h1{font-size:clamp(34px,4.3vw,62px);line-height:1.02;margin:16px 0 14px;max-width:980px}
+    .lede{font-size:20px;color:var(--muted);max-width:960px;margin:0 0 22px}
+    .summary{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:start}
+    .card{background:rgba(255,253,249,.88);backdrop-filter:blur(6px);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
+    .intro-card{padding:20px 22px}
+    .intro-card strong{color:var(--accent)}
+    .mini-list{display:grid;gap:10px;padding:18px 22px}
+    .mini{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--muted)}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:6px;flex:0 0 auto}
+
+    .stage{padding:12px 0 34px}
+    .review-grid{display:grid;grid-template-columns:minmax(0,1.15fr) 360px;gap:22px;align-items:start}
+    .frame-card{padding:18px}
+    .frame-head{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:14px}
+    .frame-head h2,.panel h2{margin:0;font-size:24px}
+    .frame-head p,.panel p{margin:4px 0 0;color:var(--muted)}
+    .legend{display:flex;gap:10px;flex-wrap:wrap}
+    .pill{padding:7px 10px;border-radius:999px;background:#f6ede4;border:1px solid #ead7c3;font-size:12px;font-weight:700;color:#704629}
+
+    .browser{background:#efe7de;border:1px solid #d7c7b7;border-radius:18px;padding:14px;overflow:hidden}
+    .browser-top{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+    .browser-top span{width:12px;height:12px;border-radius:50%;display:block;background:#d8b89b}
+    .browser-top span:nth-child(2){background:#e3c787}
+    .browser-top span:nth-child(3){background:#9ebc9f}
+    .shot-wrap{position:relative;border-radius:14px;overflow:hidden;border:1px solid #cebca9;background:#fff}
+    .shot-wrap img{width:100%;height:auto}
+    .mark{position:absolute;border:3px solid #ff8f3d;border-radius:18px;box-shadow:0 0 0 9999px rgba(255,255,255,0);pointer-events:none}
+    .tag{position:absolute;display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#ff8f3d;color:#fff;font-weight:800;font-size:17px;box-shadow:0 10px 24px rgba(130,66,18,.28)}
+    .m1{left:1.8%;top:2.9%;width:96.2%;height:12.4%}
+    .t1{right:2.2%;top:3.5%}
+    .m2{left:6.5%;top:47.8%;width:57%;height:9.2%}
+    .t2{left:58%;top:46.6%}
+    .m3{left:5.4%;top:73.4%;width:64%;height:8.5%}
+    .t3{left:66.5%;top:72.2%}
+    .m4{left:72%;top:83.7%;width:24%;height:9.2%}
+    .t4{left:88.4%;top:82.5%}
+    .m5{left:2.2%;top:91.8%;width:96%;height:7.2%}
+    .t5{left:3.4%;top:90.6%}
+
+    .panel{padding:18px;position:sticky;top:18px}
+    .issue-list{display:grid;gap:12px;margin-top:14px}
+    .issue{padding:14px 14px 13px;border:1px solid var(--line);border-radius:16px;background:#fff}
+    .issue h3{margin:0 0 5px;font-size:16px}
+    .issue p{margin:0;font-size:14px;line-height:1.45}
+    .issue .why{color:var(--accent);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px}
+
+    .ideas{padding:0 0 44px}
+    .ideas-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .idea{padding:18px;min-height:100%;background:var(--panel);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}
+    .idea h3{margin:0 0 8px;font-size:20px}
+    .idea p{margin:0;color:var(--muted)}
+    .idea .mini-mock{margin-top:14px;border:1px solid #dccbb9;border-radius:14px;padding:12px;background:linear-gradient(180deg,#fff,#f7efe8)}
+    .bar{height:10px;border-radius:999px;background:#e8d4bf;margin-bottom:10px}
+    .bar.short{width:58%}
+    .bar.mid{width:76%}
+    .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .btn{padding:9px 12px;border-radius:999px;border:1px solid #cdb49d;background:#fff;font-size:13px;font-weight:700}
+
+    .verdict{padding:0 0 58px}
+    .verdict-card{padding:22px 24px}
+    .verdict-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:16px}
+    .pros,.cons{padding:16px;border-radius:18px;border:1px solid var(--line)}
+    .pros{background:#f4fbf6}
+    .cons{background:#fff8ef}
+    ul{margin:10px 0 0;padding-left:18px}
+    li{margin:7px 0}
+    .foot{font-size:13px;color:var(--muted);margin-top:14px}
+
+    @media (max-width:1100px){
+      .summary,.review-grid,.ideas-grid,.verdict-grid{grid-template-columns:1fr}
+      .panel{position:static}
+    }
+    @media (max-width:720px){
+      .wrap{width:min(100% - 24px, 1380px)}
+      .frame-card,.panel,.idea,.verdict-card,.intro-card,.mini-list{padding:16px}
+      h1{font-size:34px}
+      .lede{font-size:17px}
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Experimental internal review · Solution B</span>
+      <h1>Sell the audit, not a fake redesign.</h1>
+      <p class="lede">This version keeps Body Wise’s real homepage in-frame, then annotates the exact places where trust and conversion are leaking. The pitch becomes: <strong>“Here’s what we’d fix on your actual site”</strong> instead of <strong>“Trust us, imagine your brand looking like this other thing we made.”</strong></p>
+      <div class="summary">
+        <div class="card intro-card">
+          The strongest trust move here is that the client instantly recognizes their own site. That removes the “this isn’t really us” reaction and turns the conversation toward concrete improvements: duplicate nav, template leftovers, muddy CTA language, and a broken-looking footer/service area.
+        </div>
+        <div class="card mini-list">
+          <div class="mini"><span class="dot"></span><span><strong>Lower skepticism:</strong> no visual bait-and-switch.</span></div>
+          <div class="mini"><span class="dot"></span><span><strong>Faster approval:</strong> easier to say yes to cleanup than a reinvention.</span></div>
+          <div class="mini"><span class="dot"></span><span><strong>Better diagnosis:</strong> every note ties to a visible page problem.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stage">
+    <div class="wrap review-grid">
+      <div class="card frame-card">
+        <div class="frame-head">
+          <div>
+            <h2>Annotated live-page review</h2>
+            <p>Body Wise homepage screenshot framed like a browser, with five callouts anchored to the real page.</p>
+          </div>
+          <div class="legend">
+            <span class="pill">Live screenshot</span>
+            <span class="pill">Specific fixes</span>
+            <span class="pill">No full redesign</span>
+          </div>
+        </div>
+        <div class="browser">
+          <div class="browser-top"><span></span><span></span><span></span></div>
+          <div class="shot-wrap">
+            <img src="../../../screenshots/experiments/bodywise-live-home.png" alt="Body Wise live homepage screenshot">
+            <div class="mark m1"></div><div class="tag t1">1</div>
+            <div class="mark m2"></div><div class="tag t2">2</div>
+            <div class="mark m3"></div><div class="tag t3">3</div>
+            <div class="mark m4"></div><div class="tag t4">4</div>
+            <div class="mark m5"></div><div class="tag t5">5</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card panel">
+        <h2>What the notes say</h2>
+        <p>Each annotation names a visible issue and why it affects conversion.</p>
+        <div class="issue-list">
+          <div class="issue">
+            <div class="why">1 · First impression</div>
+            <h3>Duplicate navigation makes the page feel templated</h3>
+            <p>The stacked menus create friction before the offer even lands. Trimming this to one clean nav would immediately make the business feel more intentional.</p>
+          </div>
+          <div class="issue">
+            <div class="why">2 · Mid-page proof</div>
+            <h3>Google review area is under-explained</h3>
+            <p>There is trust here, but it’s visually soft. A tighter review strip or clearer testimonial module would help visitors connect the promise to social proof.</p>
+          </div>
+          <div class="issue">
+            <div class="why">3 · Main body copy</div>
+            <h3>Good substance, but too dense to scan fast</h3>
+            <p>The experience and benefits are strong. Breaking this into shorter chunks and scannable bullets would preserve the voice while increasing comprehension.</p>
+          </div>
+          <div class="issue">
+            <div class="why">4 · Conversion form</div>
+            <h3>“New Field” labels damage trust right before inquiry</h3>
+            <p>This is the biggest credibility leak. It reads like unfinished software rather than a premium training business, right at the moment someone considers contacting them.</p>
+          </div>
+          <div class="issue">
+            <div class="why">5 · Footer / leftovers</div>
+            <h3>Roofing links reveal a template artifact</h3>
+            <p>This is the clearest proof that the page was never fully cleaned up. Annotating it visually makes the value of a conversion review obvious in seconds.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="ideas">
+    <div class="wrap">
+      <div class="frame-head" style="margin-bottom:18px">
+        <div>
+          <h2>Lightweight adjacent mockups</h2>
+          <p>Instead of redesigning the whole site, show just enough of the improved components to make the fixes tangible.</p>
+        </div>
+      </div>
+      <div class="ideas-grid">
+        <div class="idea">
+          <h3>Cleaner CTA block</h3>
+          <p>Swap generic “Get Started Today” language for a consultation promise tied to weight loss, toning, and one-on-one coaching.</p>
+          <div class="mini-mock">
+            <div class="bar short"></div>
+            <div class="bar mid"></div>
+            <div class="cta-row"><span class="btn">Book Free Consultation</span><span class="btn">Call 704-614-1511</span></div>
+          </div>
+        </div>
+        <div class="idea">
+          <h3>Trust-proof strip</h3>
+          <p>Pull Google reviews, years of experience, and location cues into one compact module so visitors see proof before the long copy block.</p>
+          <div class="mini-mock">
+            <div class="bar mid"></div>
+            <div class="cta-row"><span class="btn">25+ Years</span><span class="btn">Google Reviews</span><span class="btn">South Park, Charlotte</span></div>
+          </div>
+        </div>
+        <div class="idea">
+          <h3>Finished contact form</h3>
+          <p>Remove builder artifacts, simplify options, and make the submission feel professional enough to trust with personal fitness goals.</p>
+          <div class="mini-mock">
+            <div class="bar mid"></div>
+            <div class="bar short"></div>
+            <div class="cta-row"><span class="btn">Personal Training</span><span class="btn">Weight Loss</span><span class="btn">Best time to reach you</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="verdict">
+    <div class="wrap">
+      <div class="card verdict-card">
+        <h2>Does this solve the trust problem better than a full redesign prototype?</h2>
+        <div class="verdict-grid">
+          <div class="pros">
+            <strong>Yes, for trust and conversation flow</strong>
+            <ul>
+              <li>The business owner sees their real page immediately, so the critique feels grounded.</li>
+              <li>The value proposition becomes diagnostic: fix leaks, don’t replace identity.</li>
+              <li>It avoids accidental overpromising from a polished mockup the client may assume includes a full rebuild.</li>
+              <li>It makes “why should I believe you?” much easier to answer visually.</li>
+            </ul>
+          </div>
+          <div class="cons">
+            <strong>But less persuasive for pure wow-factor</strong>
+            <ul>
+              <li>It will not create the same emotional lift as a dramatic before/after redesign.</li>
+              <li>Some clients respond more strongly to aspiration than diagnosis.</li>
+              <li>It works best when the sale is a conversion review or cleanup engagement, not a premium rebrand.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot">Recommendation: use Solution B when the main obstacle is disbelief or defensiveness. Use full redesign prototypes only when the client already trusts the process and needs help imagining a larger repositioning.</div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

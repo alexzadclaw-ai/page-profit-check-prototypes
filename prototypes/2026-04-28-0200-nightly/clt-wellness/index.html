@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLT Wellness — Pre & Postnatal Support Page</title>
+  <meta name="description" content="Conversion-focused homepage for CLT Wellness with clearer pre/postnatal service packaging, stronger trust sequencing, a calmer consultation path, and more polished mobile-first structure.">
+  <style>
+    :root{
+      --sage:#6f8a78;
+      --sage-dark:#53695a;
+      --rose:#c8908d;
+      --cream:#fbf7f3;
+      --sand:#f2ebe4;
+      --ink:#27322d;
+      --muted:#65716b;
+      --line:#ddd5cd;
+      --white:#fff;
+      --shadow:0 16px 40px rgba(39,50,45,.10);
+      --radius:22px;
+      --wrap:min(1160px, calc(100% - 32px));
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:var(--wrap);margin:0 auto}
+    .topbar{background:var(--sage-dark);color:#fff;font-size:13px}
+    .topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 0}
+    header{position:sticky;top:0;z-index:20;background:rgba(251,247,243,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(221,213,205,.85)}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 0}
+    .brand{font-weight:800;font-size:26px;letter-spacing:.04em;color:var(--sage-dark)}
+    .brand small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8b938e;margin-top:4px}
+    .nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:20px;font-size:14px;color:#49544f}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:999px;font-weight:700}
+    .btn-primary{background:var(--sage-dark);color:#fff;box-shadow:var(--shadow)}
+    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--sage-dark)}
+    .hero{padding:72px 0 48px;background:linear-gradient(135deg,#faf5ef 0%, #f4eee8 45%, #f7f8f4 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:28px;align-items:start}
+    .eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8b938e;margin-bottom:14px}
+    h1,h2,h3{margin:0;line-height:1.08;font-family:Georgia,"Times New Roman",serif}
+    h1{font-size:56px;color:var(--sage-dark);margin-bottom:18px}
+    .hero-copy p{margin:0 0 22px;font-size:18px;color:#4c5752;max-width:680px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+    .micro{font-size:14px;color:#69746f;max-width:660px}
+    .panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+    .panel h2{font-size:31px;color:var(--sage-dark);margin-bottom:12px}
+    .checklist{display:grid;gap:12px;margin-top:16px}
+    .check{background:#f6f4ef;border:1px solid #e4ddd4;border-radius:16px;padding:15px 16px}
+    .check strong{display:block;margin-bottom:4px;color:var(--sage-dark);font-size:15px}
+    .trust{padding-top:22px}
+    .trust-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+    .trust-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;min-height:118px}
+    .trust-item strong{display:block;color:var(--sage-dark);font-size:14px;margin-bottom:6px}
+    .section{padding:64px 0}
+    .section.alt{background:var(--sand)}
+    .section-title{font-size:42px;color:var(--sage-dark);margin-bottom:12px}
+    .section-intro{max-width:760px;color:var(--muted);margin:0 0 28px}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 8px 24px rgba(39,50,45,.05)}
+    .card h3{font-size:27px;color:var(--sage-dark);margin-bottom:10px}
+    .card p{margin:0;color:#5f6a65}
+    .mini{display:inline-block;margin-top:14px;font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#8a928c}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+    .stack{display:grid;gap:16px}
+    .soft{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2ec;color:var(--sage-dark);font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+    .num{display:inline-flex;width:40px;height:40px;border-radius:50%;align-items:center;justify-content:center;background:var(--sage-dark);color:#fff;font-weight:800;margin-bottom:14px}
+    .faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .faq{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}
+    .faq h3{font-size:24px;color:var(--sage-dark);margin-bottom:8px}
+    .cta{background:linear-gradient(135deg,var(--sage-dark) 0%, var(--sage) 100%);color:#fff;border-radius:26px;padding:34px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+    .cta h2{font-size:38px;color:#fff;margin-bottom:8px}
+    .cta p{margin:0;max-width:720px;color:#edf2ef}
+    footer{padding:28px 0 42px;color:#6f7974;font-size:14px}
+    @media (max-width: 1050px){
+      .hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr 1fr}
+      h1{font-size:46px}
+    }
+    @media (max-width: 740px){
+      .nav{flex-direction:column;align-items:flex-start}
+      .hero{padding:52px 0 36px}
+      .hero-grid,.split,.cards,.process,.trust-grid,.faq-grid{grid-template-columns:1fr}
+      h1{font-size:38px}
+      .section{padding:46px 0}
+      .section-title,.cta h2{font-size:31px}
+      .cta{flex-direction:column;align-items:flex-start;padding:26px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>Prepageion, pregnancy, birth prep, and postpartum support</div>
+      <div>Free consultation · <a href="mailto:carolyn@cltwellness.com">carolyn@cltwellness.com</a></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <div class="brand">CLT Wellness<small>Pre &amp; Postnatal Wellness Support</small></div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#fit">Who It’s For</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary">Book Your Free Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Conversion-focused homepage</span>
+        <h1>Compassionate, full-spectrum support for a healthier transition into motherhood</h1>
+        <p>Get expert guidance for movement, recovery, childbirth prep, postpartum support, and everyday wellness — with care that meets you where you are from preconception through the newborn stage.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book Your Free Consultation</a>
+          <a href="#services" class="btn btn-secondary">Explore Services</a>
+        </div>
+        <div class="micro">This page keeps the warm, reassuring feel of the current brand while replacing template residue with clearer trust signals, stronger service packaging, and a simpler booking path.</div>
+      </div>
+      <aside class="panel">
+        <h2>Make the next step feel calmer and easier</h2>
+        <p style="margin:0;color:#5d6963">A short consultation explainer helps first-time visitors understand how support works before they have to send a message.</p>
+        <div class="checklist">
+          <div class="check"><strong>1. Share your stage and goals</strong>Prepageion, pregnancy, birth prep, postpartum recovery, newborn adjustment, or general wellness support.</div>
+          <div class="check"><strong>2. Talk through what you need</strong>Discuss movement, education, doula support, feeding, sleep, recovery, or where you feel stuck.</div>
+          <div class="check"><strong>3. Get matched to the right support</strong>Leave with a clear recommendation for the best program, service, or starting point.</div>
+        </div>
+      </aside>
+    </div>
+    <div class="wrap trust">
+      <div class="trust-grid">
+        <div class="trust-item"><strong>Postpartum Doula</strong>Support that goes beyond fitness into real-life recovery and newborn transition needs.</div>
+        <div class="trust-item"><strong>Childbirth Educator</strong>Preparation rooted in confident, practical birth education.</div>
+        <div class="trust-item"><strong>Pre &amp; Postnatal Health Coach</strong>Specialized guidance for each stage of the motherhood journey.</div>
+        <div class="trust-item"><strong>Certified Personal Trainer</strong>Safe movement and strength support with rehab-aware thinking.</div>
+        <div class="trust-item"><strong>Mom of 3</strong>Experience that adds empathy, realism, and calm reassurance.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <span class="eyebrow">Offer structure</span>
+      <h2 class="section-title">Package the support into clear paths a new visitor can understand fast</h2>
+      <p class="section-intro">Each service is easier to recognize, compare, and trust when the offer is packaged more clearly.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Wellnatal Membership</h3>
+          <p>Best for ongoing support across multiple phases with coaching, check-ins, movement guidance, education, and a more continuous relationship.</p>
+          <span class="mini">Ongoing support • Coaching • Planning</span>
+        </article>
+        <article class="card">
+          <h3>Postpartum Doula Care</h3>
+          <p>Best for families needing practical recovery help, newborn support, lactation guidance, sleep support, and calm reassurance at home.</p>
+          <span class="mini">Recovery • Newborn care • Reassurance</span>
+        </article>
+        <article class="card">
+          <h3>Pre &amp; Postnatal Movement</h3>
+          <p>Best for clients who want safe, personalized training and rehab-minded support before birth and during return-to-strength after baby.</p>
+          <span class="mini">Movement • Rehab • Confidence</span>
+        </article>
+        <article class="card">
+          <h3>Birth &amp; Postpartum Workshops</h3>
+          <p>Best for parents who want education around childbirth, postpartum preparation, pregnancy nutrition, and realistic recovery expectations.</p>
+          <span class="mini">Education • Preparation • Confidence</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="fit">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Who it’s for</span>
+        <h2 class="section-title">Help the right families recognize themselves immediately</h2>
+        <p class="section-intro">High-trust wellness sites work better when they clearly name the people and situations they support.</p>
+        <div class="stack">
+          <div class="soft">
+            <h3 style="font-size:28px;color:var(--sage-dark);margin-bottom:10px">First-time moms who want reassurance</h3>
+            <p style="margin:0;color:#5f6a65">For people who have read the books, heard the opinions, and still want one trusted guide to help them feel more grounded.</p>
+          </div>
+          <div class="soft">
+            <h3 style="font-size:28px;color:var(--sage-dark);margin-bottom:10px">Pregnant clients wanting safe movement and birth prep</h3>
+            <p style="margin:0;color:#5f6a65">For clients who want to stay active, manage discomfort, and feel more prepared for labor and delivery.</p>
+          </div>
+          <div class="soft">
+            <h3 style="font-size:28px;color:var(--sage-dark);margin-bottom:10px">Postpartum moms navigating recovery and overwhelm</h3>
+            <p style="margin:0;color:#5f6a65">For families who need support with healing, feeding, sleep, newborn care, and a realistic return to strength.</p>
+          </div>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="soft">
+          <span class="pill">Founder story</span>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:8px">A warm founder story should sit closer to the conversion path</h3>
+          <p style="margin:0;color:#5f6a65">Carolyn’s personal transition into motherhood is one of the strongest trust assets for the brand. Bringing that story nearer to the top helps the page feel more human and memorable.</p>
+        </div>
+        <div class="soft">
+          <span class="pill">Results framing</span>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:8px">Visitors want support that feels practical, safe, and emotionally steady</h3>
+          <p style="margin:0;color:#5f6a65">Testimonials and proof should emphasize confidence, recovery, clarity, and feeling supported — not just generic wellness outcomes.</p>
+        </div>
+        <div class="soft">
+          <span class="pill">Support format</span>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:8px">Make local, virtual, or hybrid support explicit</h3>
+          <p style="margin:0;color:#5f6a65">A clearer statement about how support is delivered helps visitors quickly understand whether care is local, virtual, or hybrid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Consultation path</span>
+      <h2 class="section-title">Show that reaching out is simple, supportive, and low-pressure</h2>
+      <p class="section-intro">The first conversation feels more valuable when visitors can quickly see what support they will receive and how to begin.</p>
+      <div class="process">
+        <div class="step">
+          <div class="num">1</div>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:10px">Tell us where you are</h3>
+          <p style="margin:0;color:#5f6a65">Share whether you are planning for pregnancy, pregnant, postpartum, or looking for newborn/family support.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:10px">Talk through your needs</h3>
+          <p style="margin:0;color:#5f6a65">Discuss movement, recovery, childbirth prep, feeding, sleep, or any questions you want help sorting through.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3 style="font-size:26px;color:var(--sage-dark);margin-bottom:10px">Get the right next step</h3>
+          <p style="margin:0;color:#5f6a65">Walk away with a clear recommendation for the service, membership, or workshop that fits best.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <span class="eyebrow">FAQ + SEO support</span>
+      <h2 class="section-title">Answer the questions families usually have before they send a message</h2>
+      <p class="section-intro">A calm FAQ section reduces hesitation while also strengthening the page’s search relevance around pre/postnatal support.</p>
+      <div class="faq-grid">
+        <article class="faq">
+          <h3>When should I reach out?</h3>
+          <p>You can seek support during preconception, pregnancy, the final weeks before birth, early postpartum, or later recovery when you are ready to rebuild strength and confidence.</p>
+        </article>
+        <article class="faq">
+          <h3>What happens in the consultation?</h3>
+          <p>The first conversation should help clarify your stage, goals, concerns, and which service or support path makes the most sense for you.</p>
+        </article>
+        <article class="faq">
+          <h3>Do you help with postpartum recovery and return to exercise?</h3>
+          <p>Yes — this is one of the clearest opportunities to position CLT Wellness as a practical bridge between recovery, movement, and full-spectrum support.</p>
+        </article>
+        <article class="faq">
+          <h3>Can partners be part of the support process?</h3>
+          <p>They should be invited into the appropriate pieces, especially childbirth education, postpartum preparation, and family transition planning.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <h2>Book your free consultation</h2>
+          <p>Reach out with questions, share where you are in your motherhood journey, and get help choosing the right support. A few reassuring lines like this can make the contact step feel much safer for first-time visitors.</p>
+        </div>
+        <a href="mailto:carolyn@cltwellness.com" class="btn btn-primary" style="background:#fff;color:var(--sage-dark)">Email Carolyn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Focused homepage update: clearer offer structure, stronger trust sequencing, better CTA hierarchy, and easier mobile scanning.</div>
+  </footer>
+</body>
+</html>
