@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CleverSpark Coaching — Conversion Cleanup Demo</title>
+  <meta name="description" content="A conversion-focused demo for CleverSpark Coaching that improves package scannability, trust framing, CTA sequencing, mobile clarity, and consult conversion.">
+  <style>
+    :root{
+      --ink:#1d2140;
+      --muted:#626984;
+      --bg:#fffaf7;
+      --card:#ffffff;
+      --line:#eadfda;
+      --peach:#f6dfd6;
+      --rose:#d97b6c;
+      --rose-dark:#bb5f51;
+      --berry:#7c3c55;
+      --cream:#fff4ef;
+      --mint:#e8f5ef;
+      --shadow:0 16px 40px rgba(56,34,40,.10);
+      --radius:22px;
+      --wrap:min(1120px, calc(100% - 28px));
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#fffaf7 0%,#fff 45%);color:var(--ink);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:var(--wrap);margin:0 auto}
+    .pill,.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .eyebrow{color:var(--rose-dark)}
+    .pill{padding:8px 12px;border-radius:999px;background:var(--cream);color:var(--berry);border:1px solid #f0d8cf}
+    h1,h2,h3{margin:0;line-height:1.08;font-family:Georgia,"Times New Roman",serif;color:var(--berry)}
+    h1{font-size:clamp(2.4rem,6vw,4.4rem);margin:14px 0 16px}
+    h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:12px}
+    p{margin:0 0 16px}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,250,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(234,223,218,.9)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0}
+    .brand{font-weight:900;font-size:1.1rem;letter-spacing:.04em;color:var(--berry)}
+    .brand small{display:block;font-weight:600;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+    .links{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:.95rem;color:#4f556f}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:999px;font-weight:800}
+    .btn-primary{background:linear-gradient(135deg,var(--rose),var(--berry));color:#fff;box-shadow:var(--shadow)}
+    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--berry)}
+    .hero{padding:56px 0 32px}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:start}
+    .lede{font-size:1.12rem;color:#4f556f;max-width:700px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 16px}
+    .hero-note{font-size:.95rem;color:var(--muted);max-width:720px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+    .panel h2{font-size:2rem}
+    .mini-steps,.trust-grid,.card-grid,.faq-grid{display:grid;gap:16px}
+    .mini-steps{margin-top:16px}
+    .mini-step,.trust,.card,.faq,.proof{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}
+    .mini-step strong,.trust strong{display:block;color:var(--berry);margin-bottom:4px}
+    .trust-row{padding:14px 0 0}
+    .trust-grid{grid-template-columns:repeat(4,1fr)}
+    section{padding:56px 0}
+    section.alt{background:var(--bg)}
+    .intro{max-width:780px;color:var(--muted);margin-bottom:24px}
+    .card-grid.packages{grid-template-columns:repeat(3,1fr)}
+    .card-grid.two{grid-template-columns:repeat(2,1fr)}
+    .card h3,.faq h3,.proof h3{font-size:1.55rem;margin-bottom:10px}
+    .card ul{margin:12px 0 0 18px;padding:0;color:#4f556f}
+    .price{display:inline-block;margin-top:14px;padding:8px 12px;border-radius:999px;background:var(--cream);color:var(--berry);font-weight:800}
+    .label{display:inline-block;margin-bottom:10px;padding:7px 11px;border-radius:999px;background:var(--mint);color:#24624d;font-weight:800;font-size:.82rem}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .proof{background:linear-gradient(180deg,#fff,#fff7f3)}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .step-num{display:inline-flex;width:38px;height:38px;border-radius:50%;align-items:center;justify-content:center;background:var(--berry);color:#fff;font-weight:900;margin-bottom:12px}
+    .faq-grid{grid-template-columns:repeat(2,1fr)}
+    .cta{background:linear-gradient(135deg,var(--berry),#a24f5d);color:#fff;border-radius:28px;padding:30px;display:flex;justify-content:space-between;gap:18px;align-items:center}
+    .cta h2,.cta p{color:#fff}
+    footer{padding:28px 0 44px;color:var(--muted);font-size:.92rem}
+    @media (max-width:980px){
+      .hero-grid,.split,.card-grid.packages,.process,.trust-grid,.faq-grid{grid-template-columns:1fr 1fr}
+    }
+    @media (max-width:740px){
+      .nav{flex-direction:column;align-items:flex-start}
+      .hero{padding:40px 0 20px}
+      section{padding:42px 0}
+      .hero-grid,.split,.card-grid.packages,.card-grid.two,.process,.trust-grid,.faq-grid{grid-template-columns:1fr}
+      .cta{flex-direction:column;align-items:flex-start;padding:24px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">CleverSpark Coaching<small>Conversion cleanup demo</small></div>
+      <nav class="links">
+        <a href="#packages">Packages</a>
+        <a href="#fit">Who It’s For</a>
+        <a href="#faq">FAQ</a>
+        <a href="#consult" class="btn btn-primary">Book a Free Consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Warm brand, clearer conversion path</span>
+        <h1>Career and ADHD-informed coaching for people who need clarity, momentum, and a plan that actually fits real life</h1>
+        <p class="lede">This demo keeps the personable CleverSpark tone, but makes the offer easier to understand: who it helps, which package fits, why Kimberly is credible, and what happens when someone books a consult.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#consult">Book a Free 30-Minute Consult</a>
+          <a class="btn btn-secondary" href="#packages">Compare Packages</a>
+        </div>
+        <p class="hero-note">Ideal for career changers, job seekers, neurodivergent professionals, and students who want support that feels practical, encouraging, and structured.</p>
+      </div>
+      <aside class="panel">
+        <span class="pill">What the consult should make obvious</span>
+        <h2>A free call that helps visitors choose the right next step</h2>
+        <p style="color:var(--muted)">The current site asks for a consult, but this version reduces hesitation by explaining what that consult actually does.</p>
+        <div class="mini-steps">
+          <div class="mini-step"><strong>1. Share what feels stuck</strong>Career confusion, job search stress, ADHD overwhelm, or school/career decision fatigue.</div>
+          <div class="mini-step"><strong>2. Talk through fit</strong>Review goals, budget, timeline, and whether a package or custom plan makes the most sense.</div>
+          <div class="mini-step"><strong>3. Leave with clarity</strong>Know your best next step instead of guessing which offer to choose.</div>
+        </div>
+      </aside>
+    </div>
+    <div class="wrap trust-row">
+      <div class="trust-grid">
+        <div class="trust"><strong>15+ years supporting people</strong>Experience across higher education, counseling, advising, and coaching.</div>
+        <div class="trust"><strong>Master’s in Mental Health Counseling</strong>Credibility that supports the empathetic, practical coaching tone.</div>
+        <div class="trust"><strong>ADHD-informed perspective</strong>Useful differentiation for neurodivergent clients and burnout-heavy job seekers.</div>
+        <div class="trust"><strong>Affordable, flexible support</strong>Visible pricing and payment options lower the barrier to booking.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <div class="wrap">
+      <span class="eyebrow">Package scannability</span>
+      <h2>Make each path easier to compare at a glance</h2>
+      <p class="intro">The live services page has good substance. The biggest win is turning dense package paragraphs into cards that help mobile visitors self-sort quickly.</p>
+      <div class="card-grid packages">
+        <article class="card">
+          <span class="label">Career clarity</span>
+          <h3>The First Spark</h3>
+          <p>For people exploring strengths, values, and next-step direction.</p>
+          <ul>
+            <li>4 coaching sessions</li>
+            <li>career values exploration</li>
+            <li>goal mapping + planning</li>
+            <li>resume polish</li>
+          </ul>
+          <div class="price">$300 or 4 × $75</div>
+        </article>
+        <article class="card">
+          <span class="label">Job search support</span>
+          <h3>The Discovery Spark</h3>
+          <p>For job seekers who need strategy, sharper materials, and interview support.</p>
+          <ul>
+            <li>5 coaching sessions</li>
+            <li>custom resume + revision</li>
+            <li>cover letter template</li>
+            <li>interview prep toolkit</li>
+          </ul>
+          <div class="price">$600 or 5 × $120</div>
+        </article>
+        <article class="card">
+          <span class="label">Neurodivergent support</span>
+          <h3>The Neuro Spark</h3>
+          <p>For ADHD, burnout, energy management, and self-advocacy in work life.</p>
+          <ul>
+            <li>5 coaching sessions</li>
+            <li>stress + energy strategies</li>
+            <li>career alignment support</li>
+            <li>boundaries and advocacy tools</li>
+          </ul>
+          <div class="price">$475 or 5 × $95</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="fit">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Ideal-client clarity</span>
+        <h2>Help visitors recognize themselves sooner</h2>
+        <p class="intro">A stronger homepage says plainly who this is for, instead of making people infer it from several sections.</p>
+        <div class="card-grid two">
+          <article class="card">
+            <h3>Career changers</h3>
+            <p>People who know something needs to shift, but need help deciding what the right move is.</p>
+          </article>
+          <article class="card">
+            <h3>Job seekers</h3>
+            <p>People who need resumes, interviews, and strategy to feel less chaotic and more effective.</p>
+          </article>
+          <article class="card">
+            <h3>Neurodivergent professionals</h3>
+            <p>People navigating ADHD, burnout, executive-function strain, or self-advocacy at work.</p>
+          </article>
+          <article class="card">
+            <h3>Students and returning learners</h3>
+            <p>People trying to connect school decisions with real-world direction and confidence.</p>
+          </article>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow">Proof framing</span>
+        <div class="proof">
+          <h3>Founder credibility should support the CTA, not hide behind it</h3>
+          <p>Kimberly’s story is one of the strongest assets on the site. A good conversion version pulls selected trust details closer to the main booking moment instead of leaving most of them on the About page.</p>
+        </div>
+        <div class="proof" style="margin-top:16px">
+          <h3>Realistic reassurance beats hype</h3>
+          <p>Because this brand is warm and supportive, the best proof angle is not dramatic claims. It is calm reassurance: clearer process, better package fit, and examples of the kinds of problems clients bring in.</p>
+        </div>
+        <div class="proof" style="margin-top:16px">
+          <h3>Typo cleanup matters here</h3>
+          <p>Coaching sells trust, clarity, and care. Small spelling and formatting issues do more damage on this kind of offer than on a rough local-service page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">CTA hierarchy</span>
+      <h2>Guide visitors from “I’m interested” to “I booked”</h2>
+      <p class="intro">A cleaner sequence helps: understand the offer, compare fit, then book the free consult with less uncertainty.</p>
+      <div class="process">
+        <article class="card">
+          <div class="step-num">1</div>
+          <h3>Understand the support</h3>
+          <p>Use a clearer hero and founder trust cues so visitors know what problems the coaching actually addresses.</p>
+        </article>
+        <article class="card">
+          <div class="step-num">2</div>
+          <h3>Choose a likely path</h3>
+          <p>Present packages as clean cards with “best for,” deliverables, pricing, and payment options.</p>
+        </article>
+        <article class="card">
+          <div class="step-num">3</div>
+          <h3>Book a consult confidently</h3>
+          <p>Reassure people that the call is free, low-pressure, and designed to help them choose the right next step.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="faq">
+    <div class="wrap">
+      <span class="eyebrow">FAQ + SEO basics</span>
+      <h2>Answer the questions people likely have before reaching out</h2>
+      <div class="faq-grid">
+        <article class="faq">
+          <h3>Do I need to know exactly what package I want?</h3>
+          <p>No. The consult can be framed as the place to sort that out together, which reduces booking hesitation.</p>
+        </article>
+        <article class="faq">
+          <h3>Is this only for people with ADHD?</h3>
+          <p>No. ADHD-informed coaching is a differentiator, but the broader offer still serves career exploration, job search, and educational decision-making.</p>
+        </article>
+        <article class="faq">
+          <h3>Can I start small?</h3>
+          <p>Visible single sessions, add-ons, and payment plans already support this. The page should simply present those options more cleanly.</p>
+        </article>
+        <article class="faq">
+          <h3>What happens after I submit the form?</h3>
+          <p>A simple reassurance line on the contact page can explain response timing, consult expectations, and the low-pressure nature of the first conversation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="consult">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <span class="eyebrow" style="color:#ffd9d1">Final CTA demo</span>
+          <h2>Book a free 30-minute consultation</h2>
+          <p>This should feel like the easy next step: tell Kimberly what you’re navigating, talk through package fit, and leave with a clearer plan.</p>
+        </div>
+        <a class="btn btn-primary" href="https://calendly.com/cleverspark">Open Consult Booking</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Demo concept only. Adapted copy written for a Page Profit Check prototype. Not affiliated with the live site and not copied wholesale from it.</div>
+  </footer>
+</body>
+</html>
