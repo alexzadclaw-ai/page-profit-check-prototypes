@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customized Facials, Peels &amp; Microneedling in Waltham, MA | SimplyBeaing</title>
+  <meta name="description" content="Founder-led skincare and beauty treatments in Waltham, MA. Explore custom facials, chemical peels, microneedling, waxing, lash and brow services, and request your appointment with SimplyBeaing.">
+  <style>
+    :root {
+      --bg: #f6f6f4;
+      --paper: #ffffff;
+      --ink: #263333;
+      --muted: #66716d;
+      --line: #ddd8d1;
+      --accent: #d1b4b4;
+      --accent-deep: #b78f8f;
+      --promo: #242626;
+      --button: #2f3b39;
+      --button-text: #ffffff;
+      --soft: #efe7e3;
+      --shadow: 0 18px 40px rgba(38, 51, 51, 0.08);
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .promo {
+      background: var(--promo);
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+      padding: 10px 16px;
+    }
+    .shell {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .topline {
+      text-align: center;
+      padding: 18px 0 10px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      letter-spacing: 0.03em;
+      border-bottom: 1px solid var(--line);
+    }
+    .topline strong { color: var(--ink); font-weight: 400; }
+    header {
+      padding: 26px 0 10px;
+    }
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 18px;
+    }
+    .logo-wrap img {
+      width: min(420px, 90vw);
+      height: auto;
+    }
+    nav {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px 24px;
+      padding: 16px 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 0.8rem;
+    }
+    .nav-inner a:hover { color: var(--accent-deep); }
+    main { padding-bottom: 60px; }
+    .hero {
+      padding: 56px 0 34px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+      gap: 36px;
+      align-items: start;
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      text-align: left;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    h1, h2, h3 {
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      margin: 0;
+      color: rgba(38, 51, 51, 0.92);
+    }
+    h1 {
+      font-size: clamp(2rem, 3.6vw, 3.45rem);
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .hero-copy p {
+      margin: 0 0 18px;
+      font-size: 1.04rem;
+      color: var(--ink);
+    }
+    .hero-copy .lead {
+      font-size: 1.15rem;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 28px 0 18px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 22px;
+      border: 1px solid var(--button);
+      background: var(--button);
+      color: var(--button-text);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 0.78rem;
+    }
+    .btn.alt {
+      background: transparent;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+    .micro-note {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+    .hero-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 18px;
+    }
+    .hero-card img + img {
+      margin-top: 12px;
+    }
+    .trust-strip {
+      margin: 20px 0 48px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.45);
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .trust-item {
+      padding: 18px 20px;
+      text-align: center;
+      border-right: 1px solid var(--line);
+    }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong {
+      display: block;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+    .trust-item span {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section {
+      padding: 28px 0;
+    }
+    .section-title {
+      text-align: center;
+      font-size: clamp(1.65rem, 3vw, 2.2rem);
+      margin-bottom: 14px;
+    }
+    .section-intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 28px;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 28px 24px;
+      box-shadow: 0 12px 28px rgba(38, 51, 51, 0.05);
+    }
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      text-align: left;
+    }
+    .card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+    .card ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--ink);
+    }
+    .card li { margin-bottom: 8px; }
+    .card a {
+      display: inline-block;
+      margin-top: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.76rem;
+      color: var(--accent-deep);
+    }
+    .about-grid,
+    .steps-grid,
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      align-items: start;
+    }
+    .soft-panel {
+      background: linear-gradient(180deg, rgba(239,231,227,0.8), rgba(255,255,255,0.9));
+      border: 1px solid var(--line);
+      padding: 30px;
+    }
+    .soft-panel p,
+    .plain-panel p { margin: 0 0 16px; }
+    .plain-panel {
+      background: transparent;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 30px 0;
+    }
+    .steps {
+      counter-reset: step;
+      display: grid;
+      gap: 14px;
+    }
+    .step {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 20px 20px 18px 72px;
+      position: relative;
+    }
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 22px;
+      top: 18px;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--soft);
+      color: var(--ink);
+      display: grid;
+      place-items: center;
+      font-weight: 400;
+    }
+    .step strong {
+      display: block;
+      font-weight: 400;
+      margin-bottom: 6px;
+      letter-spacing: 0.03em;
+    }
+    .step span { color: var(--muted); }
+    .contact-box {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 18px 0 0;
+      color: var(--ink);
+    }
+    .contact-list li { margin-bottom: 10px; }
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 18px;
+      padding: 24px 0 50px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+    footer strong { color: var(--ink); font-weight: 400; }
+    @media (max-width: 980px) {
+      .hero-grid,
+      .about-grid,
+      .steps-grid,
+      .contact-grid,
+      .services,
+      .trust-grid {
+        grid-template-columns: 1fr;
+      }
+      .trust-item {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .trust-item:last-child { border-bottom: 0; }
+      .hero { padding-top: 34px; }
+      .hero-card { order: -1; }
+    }
+    @media (max-width: 640px) {
+      .shell { width: min(var(--max), calc(100% - 20px)); }
+      .nav-inner { gap: 12px 16px; font-size: 0.72rem; }
+      .cta-row { flex-direction: column; }
+      .btn { width: 100%; }
+      .card, .hero-card, .contact-box, .soft-panel { padding: 20px; }
+      .step { padding: 18px 18px 18px 62px; }
+      .topline { font-size: 0.88rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="promo">FREE SHIPPING ON ALL US ORDERS OVER $100 AT CHECKOUT</div>
+  <div class="shell">
+    <div class="topline"><strong>740 Main St. Waltham, MA</strong> &nbsp;•&nbsp; Inside Chakra Power Yoga &nbsp;•&nbsp; Appointment requests by message</div>
+    <header>
+      <div class="logo-wrap">
+        <a href="https://www.simplybeaing.com/"><img src="https://images.squarespace-cdn.com/content/v1/5bca81c616b64010944452d4/e7a12755-b9f6-4595-9d3b-3cc0959f18cc/simplybeaing1-1.png?format=1500w" alt="SimplyBeaing"></a>
+      </div>
+      <nav>
+        <div class="nav-inner">
+          <a href="https://www.simplybeaing.com/facials-skin-care">Facials</a>
+          <a href="https://www.simplybeaing.com/chemical-peels">Chemical Peels</a>
+          <a href="https://www.simplybeaing.com/microneedling">Microneedling</a>
+          <a href="https://www.simplybeaing.com/waxing">Waxing</a>
+          <a href="https://www.simplybeaing.com/lash-and-brows">Lash &amp; Brows</a>
+          <a href="https://www.simplybeaing.com/new-products">Products</a>
+          <a href="https://www.simplybeaing.com/contact-us">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Skin. Beauty. Wellness.</p>
+            <h1>Customized skincare that helps you look radiant and feel more like yourself.</h1>
+            <p class="lead">Founder-led facials, peels, microneedling, and beauty services in Waltham, guided by a whole-body approach to skin health and true relaxation.</p>
+            <p>With 24 years of esthetics experience, Rhonda blends results-driven skincare with thoughtful care for stress, lifestyle, and the way your skin responds over time. Every treatment starts with your skin, your goals, and what will help you glow in a way that feels sustainable.</p>
+            <div class="cta-row">
+              <a class="btn" href="https://www.simplybeaing.com/contact-us">Request Your Appointment</a>
+              <a class="btn alt" href="#services">Explore Services</a>
+            </div>
+            <p class="micro-note">No online booking required — reach out, share what you are looking for, and get guidance on the best next treatment.</p>
+          </div>
+          <div class="hero-card">
+            <img src="https://images.squarespace-cdn.com/content/v1/5bca81c616b64010944452d4/1680495148769-HWZ9KN88BKZ1L9DLK1PI/PinkSimplybeaing-1.png?format=900w" alt="SimplyBeaing skincare product display">
+            <img src="https://images.squarespace-cdn.com/content/v1/5bca81c616b64010944452d4/1679769997028-GZ3HDU5GLU4LWNSQRJ2U/bea.jpg?format=900w" alt="SimplyBeaing treatment room image">
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-strip">
+        <div class="trust-grid">
+          <div class="trust-item"><strong>24 years of experience</strong><span>Personalized esthetics care with long-term skin insight</span></div>
+          <div class="trust-item"><strong>Whole-body perspective</strong><span>Esthetician, yoga teacher, and health-coaching background</span></div>
+          <div class="trust-item"><strong>Customized treatment plans</strong><span>Facials, peels, microneedling, LED, microcurrent, and more</span></div>
+          <div class="trust-item"><strong>Waltham location</strong><span>Inside Chakra Power Yoga with clear parking guidance</span></div>
+        </div>
+      </div>
+
+      <section id="services">
+        <h2 class="section-title">Choose the care path that fits what your skin needs now.</h2>
+        <p class="section-intro">SimplyBeaing already offers a broad menu. This version makes it easier for first-time visitors to understand where to start without changing the quiet boutique feel of the brand.</p>
+        <div class="services">
+          <article class="card">
+            <h3>Custom facials &amp; skin resets</h3>
+            <p>For clients who want a personalized facial, deeper nourishment, better circulation, and a treatment plan that reflects what their skin is actually asking for.</p>
+            <ul>
+              <li>Customized facial care</li>
+              <li>Product and routine guidance</li>
+              <li>Relaxation plus visible glow</li>
+            </ul>
+            <a href="https://www.simplybeaing.com/facials-skin-care">View facial services</a>
+          </article>
+          <article class="card">
+            <h3>Advanced treatments for results</h3>
+            <p>For texture, tone, acne scarring, fine lines, or clients ready for more targeted treatment using active ingredients and modern tools.</p>
+            <ul>
+              <li>Chemical peels</li>
+              <li>Microneedling</li>
+              <li>LED, microcurrent, and focused support</li>
+            </ul>
+            <a href="https://www.simplybeaing.com/microneedling">Explore advanced treatments</a>
+          </article>
+          <article class="card">
+            <h3>Beauty maintenance &amp; finishing touches</h3>
+            <p>For the clients who want polished, easy-to-maintain beauty services alongside their skincare routine.</p>
+            <ul>
+              <li>Waxing services</li>
+              <li>Lash and brow care</li>
+              <li>Professional product recommendations</li>
+            </ul>
+            <a href="https://www.simplybeaing.com/lash-and-brows">See beauty services</a>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="about-grid">
+          <div class="plain-panel">
+            <h2 class="section-title" style="text-align:left; margin-bottom:16px;">Why clients trust SimplyBeaing</h2>
+            <p>True beauty here is not just about what shows on the outside. Rhonda’s approach considers stress, hormones, diet, seasonal changes, and the way life shows up on your skin. That is what makes the service feel personal rather than transactional.</p>
+            <p>Clients come for glowing skin, but they also leave with more clarity about what their skin needs, what products make sense, and which treatments will help them move forward confidently.</p>
+          </div>
+          <div class="soft-panel">
+            <h2 class="section-title" style="text-align:left; margin-bottom:16px;">A more guided first visit</h2>
+            <p>If you are not sure whether to start with a facial, peel, microneedling, or another service, you do not need to guess. Start by reaching out with what is bothering you most — dullness, breakouts, sensitivity, texture, maintenance, or simply wanting to feel refreshed.</p>
+            <p>From there, you can be matched with the treatment that makes the most sense for your skin and comfort level.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="steps-grid">
+          <div>
+            <h2 class="section-title" style="text-align:left; margin-bottom:14px;">What happens next</h2>
+            <p class="section-intro" style="text-align:left; margin:0 0 18px; max-width:none;">This version solves one of the biggest friction points on the live site: there is no clear explanation of how a new client actually gets started when online booking is unavailable.</p>
+            <div class="steps">
+              <div class="step"><strong>Reach out with your goal</strong><span>Share the service you are interested in, or simply describe what you want help with.</span></div>
+              <div class="step"><strong>Get personalized guidance</strong><span>Rhonda can help you decide whether a facial, peel, microneedling, or another treatment is the best fit.</span></div>
+              <div class="step"><strong>Arrive feeling prepared</strong><span>You will know where to go, where to park, and what to expect before your appointment.</span></div>
+            </div>
+          </div>
+          <div class="contact-box">
+            <h2 class="section-title" style="text-align:left; margin-bottom:14px;">Ready to request your appointment?</h2>
+            <p>SimplyBeaing is located at <strong>740 Main St. in Waltham</strong>, inside Chakra Power Yoga. Street parking is free for up to two hours, and additional Yoga Power parking is available on Daniel’s Court in marked spaces.</p>
+            <p>There is currently no online booking, so the easiest next step is to contact Rhonda directly and share what service you are looking for.</p>
+            <div class="cta-row" style="margin-top:22px;">
+              <a class="btn" href="https://www.simplybeaing.com/contact-us">Contact SimplyBeaing</a>
+            </div>
+            <ul class="contact-list">
+              <li><strong>Best next step:</strong> use the contact page to request your appointment</li>
+              <li><strong>Location:</strong> Waltham, Massachusetts</li>
+              <li><strong>Service focus:</strong> customized skincare, advanced treatments, and beauty maintenance</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>SimplyBeaing</strong> offers founder-led skincare and beauty services in Waltham, MA with a calm, customized approach to facials, peels, microneedling, waxing, and brow/lash care.</p>
+      <p><a href="https://www.simplybeaing.com/contact-us">Request your appointment</a> &nbsp;•&nbsp; <a href="https://www.instagram.com/">Instagram</a></p>
+    </footer>
+  </div>
+</body>
+</html>

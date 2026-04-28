@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSD Design &amp; Fabrication | Custom Metal Fabrication in Huntingdon Valley, PA</title>
+  <meta name="description" content="Custom metal fabrication, plasma cutting, bending, rolling, welding, and product fabrication for clients in Huntingdon Valley and the greater Philadelphia area.">
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --bg-soft: #161a1f;
+      --panel: rgba(18, 21, 26, 0.88);
+      --line: rgba(255,255,255,0.12);
+      --text: #f4f4f4;
+      --muted: #c9c9c9;
+      --accent: #ffffff;
+      --max: 1180px;
+      --shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Lato, Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .site-shell {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(8,10,12,0.72), rgba(8,10,12,0.84)),
+        url('https://images.squarespace-cdn.com/content/v1/5a4c339a90bade38480cae16/1605830799318-RUVEOSHF2R4FR88FPR79/ke17ZwdGBToddI8pDm48kBnx_uR42Ji9sCQ749AN0MN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZmUiE_15oO0Q8fy44oLHwjKXiK9jyoa9yHIuyz8quNCtrU8UFk4BXyUXL-Dw_TrVg/IMG_9116.jpg') center/cover fixed;
+    }
+    .topbar {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 24px 18px;
+    }
+    .brand-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+    .brand-wrap img {
+      width: min(360px, 72vw);
+      background: rgba(255,255,255,0.92);
+      padding: 8px 14px;
+      box-shadow: var(--shadow);
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px 26px;
+      font-size: 0.92rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    nav a { color: rgba(255,255,255,0.9); }
+    nav a:hover { color: #fff; }
+    .hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 44px 24px 56px;
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 28px;
+      align-items: end;
+    }
+    .hero-copy, .hero-panel, .band, .card, .contact-card, .footer-inner {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(2px);
+    }
+    .hero-copy {
+      padding: 34px 34px 30px;
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      font-size: 0.8rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.72);
+    }
+    h1, h2, h3 { margin: 0 0 12px; font-weight: 400; }
+    h1 { font-size: clamp(2.2rem, 4vw, 3.9rem); line-height: 1.02; }
+    h2 { font-size: clamp(1.5rem, 2vw, 2.1rem); }
+    h3 { font-size: 1.12rem; letter-spacing: 0.03em; }
+    p { margin: 0 0 14px; color: var(--muted); }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 24px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border: 1px solid rgba(255,255,255,0.55);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.86rem;
+      transition: 0.2s ease;
+    }
+    .btn.primary {
+      background: #fff;
+      color: #111;
+    }
+    .btn.secondary:hover,
+    .btn.primary:hover {
+      transform: translateY(-1px);
+      opacity: 0.92;
+    }
+    .hero-panel {
+      padding: 28px 24px;
+    }
+    .hero-panel ul,
+    .list,
+    .steps {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+    .hero-panel li,
+    .list li,
+    .steps li { margin-bottom: 10px; }
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px 64px;
+    }
+    .band {
+      padding: 18px 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .band strong {
+      display: block;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+    .band span { color: var(--muted); font-size: 0.96rem; }
+    .section {
+      padding: 16px 0 0;
+    }
+    .section-head {
+      max-width: 740px;
+      margin-bottom: 20px;
+    }
+    .grid-3, .grid-2 {
+      display: grid;
+      gap: 20px;
+    }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .card, .contact-card {
+      padding: 24px;
+    }
+    .muted-label {
+      color: rgba(255,255,255,0.6);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.75rem;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    .proof-image {
+      min-height: 280px;
+      background: linear-gradient(rgba(10,10,10,0.18), rgba(10,10,10,0.45)), url('https://images.squarespace-cdn.com/content/v1/5a4c339a90bade38480cae16/1605830799318-RUVEOSHF2R4FR88FPR79/ke17ZwdGBToddI8pDm48kBnx_uR42Ji9sCQ749AN0MN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZmUiE_15oO0Q8fy44oLHwjKXiK9jyoa9yHIuyz8quNCtrU8UFk4BXyUXL-Dw_TrVg/IMG_9116.jpg') center/cover;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    .cta-band {
+      margin: 28px 0;
+      padding: 22px 24px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+    }
+    .footer {
+      padding: 0 24px 40px;
+    }
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 14px 24px;
+      color: rgba(255,255,255,0.72);
+      font-size: 0.92rem;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    @media (max-width: 980px) {
+      .hero, .contact-grid, .grid-3, .grid-2, .band {
+        grid-template-columns: 1fr;
+      }
+      .hero { padding-top: 28px; }
+      .brand-wrap img { width: min(320px, 86vw); }
+    }
+    @media (max-width: 640px) {
+      .topbar { padding: 18px 16px 8px; }
+      .hero, main, .footer { padding-left: 16px; padding-right: 16px; }
+      .hero-copy, .hero-panel, .card, .contact-card { padding: 20px; }
+      h1 { font-size: 2rem; }
+      nav { gap: 10px 16px; font-size: 0.82rem; }
+      .hero-actions .btn, .cta-band .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <img src="http://static1.squarespace.com/static/5a4c339a90bade38480cae16/t/5ff9d47292d89d4dbcd68b0e/1610208377477/CSD+Design+F_1.jpeg?format=1500w" alt="CSD Design & Fabrication logo">
+        <nav aria-label="Primary">
+          <a href="#services">What We Do</a>
+          <a href="#work">Photo Gallery</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#location">Location</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Custom metal fabrication • Huntingdon Valley, PA</p>
+        <h1>Custom fabrication support for parts, products, and shop-built solutions.</h1>
+        <p>CSD Design &amp; Fabrication helps customers move from idea to finished piece with practical shop capability across cutting, forming, welding, and product fabrication. If you need a quote, a one-off project, or repeat production help, start here.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:info@csdcnc.com?subject=Request%20a%20Quote">Request a Quote</a>
+          <a class="btn secondary" href="#work">View Our Work</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <span class="muted-label">Capabilities at a glance</span>
+        <ul>
+          <li>Plasma cutting, shearing, bending, rolling, and welding</li>
+          <li>Custom fabrication, product work, and shop-built assemblies</li>
+          <li>Convenient contact by phone or email for quote requests</li>
+          <li>Serving Huntingdon Valley and the greater Philadelphia area</li>
+        </ul>
+      </aside>
+    </section>
+  </div>
+
+  <main>
+    <section class="band" aria-label="Trust highlights">
+      <div>
+        <strong>Built for real jobs</strong>
+        <span>Clear shop capabilities instead of placeholder messaging.</span>
+      </div>
+      <div>
+        <strong>Local contact</strong>
+        <span>Huntingdon Valley location with direct phone and email access.</span>
+      </div>
+      <div>
+        <strong>Work proof ready</strong>
+        <span>Gallery, products, and social channels available for project review.</span>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p>Whether you need fabricated parts, formed material, welded assemblies, or product-focused work, the goal is simple: make it easier to get from inquiry to finished result.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <span class="muted-label">Shop capability</span>
+          <h3>Cutting, forming, and fabrication</h3>
+          <p>Support for plasma cutting, shearing, bending, rolling, and fabrication work that needs accurate execution and a practical shop partner.</p>
+          <ul class="list">
+            <li>Plasma-cut parts</li>
+            <li>Formed and rolled material</li>
+            <li>Fabricated components</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="muted-label">Assembly support</span>
+          <h3>Welding and built-up projects</h3>
+          <p>From welded pieces to more complete shop-built fabrication needs, CSD can help organize the work into a cleaner next step.</p>
+          <ul class="list">
+            <li>Welded parts and assemblies</li>
+            <li>Custom project support</li>
+            <li>Short-run fabrication help</li>
+          </ul>
+        </article>
+        <article class="card" id="products">
+          <span class="muted-label">Product work</span>
+          <h3>Fixtures, products, and custom builds</h3>
+          <p>The existing site points to product work and lighting, which suggests CSD is more than a generic job shop. The homepage now makes room for that conversation.</p>
+          <ul class="list">
+            <li>Fabricated products</li>
+            <li>Lighting-related work</li>
+            <li>Custom shop-built solutions</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div>
+        <h3>Need pricing or want to talk through a project?</h3>
+        <p>Send a few details, drawings, or reference photos and get the conversation moving.</p>
+      </div>
+      <a class="btn primary" href="mailto:info@csdcnc.com?subject=Project%20Inquiry">Start Your Quote Request</a>
+    </section>
+
+    <section class="section grid-2" id="work">
+      <div>
+        <div class="proof-image" aria-hidden="true"></div>
+      </div>
+      <div class="card">
+        <span class="muted-label">Work proof</span>
+        <h2>See examples before you reach out.</h2>
+        <p>The current site already points visitors to a gallery, product pages, and social channels. Pulling that proof closer to the homepage helps first-time buyers verify that the shop does real work, not just placeholder pages.</p>
+        <ul class="list">
+          <li><a href="https://www.csdcnc.com/photo-gallery-1">Browse the photo gallery</a></li>
+          <li><a href="https://www.csdcnc.com/products">Review product categories</a></li>
+          <li><a href="https://www.facebook.com/csdcnc/">Visit Facebook</a></li>
+          <li><a href="https://www.instagram.com/csdcnc/">Visit Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>What happens next</h2>
+        <p>A simple next-step block helps visitors understand how to move forward instead of guessing whether to call, email, or leave.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <span class="muted-label">Step 1</span>
+          <h3>Send the basics</h3>
+          <p>Share dimensions, sketches, photos, product ideas, or the fabrication problem you need solved.</p>
+        </article>
+        <article class="card">
+          <span class="muted-label">Step 2</span>
+          <h3>Confirm scope</h3>
+          <p>Review materials, process needs, quantities, and whether the project is a one-off, prototype, or repeat run.</p>
+        </article>
+        <article class="card">
+          <span class="muted-label">Step 3</span>
+          <h3>Move to quote</h3>
+          <p>Once the details are clear, the project can move toward pricing, scheduling, and production planning.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Contact CSD Design &amp; Fabrication</h2>
+        <p>For a custom quote or a quick fabrication conversation, use the direct contact details below.</p>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-card" id="location">
+          <span class="muted-label">Location</span>
+          <h3>Huntingdon Valley, Pennsylvania</h3>
+          <p>2727 Philmont Ave, Suite 340<br>Huntingdon Valley, PA 19006</p>
+          <p>Serving local and regional customers who need metal fabrication, forming, welding, and product support.</p>
+        </article>
+        <article class="contact-card">
+          <span class="muted-label">Direct contact</span>
+          <h3>Reach the shop</h3>
+          <ul class="list">
+            <li><a href="tel:12675712183">267-571-2183</a></li>
+            <li><a href="mailto:info@csdcnc.com">info@csdcnc.com</a></li>
+            <li>Monday–Friday: 9am–7pm</li>
+            <li>Saturday: 11am–6pm</li>
+          </ul>
+          <div class="hero-actions" style="margin-top:20px;">
+            <a class="btn primary" href="mailto:info@csdcnc.com?subject=Custom%20Fabrication%20Quote">Email for a Quote</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© CSD Design &amp; Fabrication</div>
+      <div class="footer-links">
+        <a href="https://www.csdcnc.com/">Welcome</a>
+        <a href="https://www.csdcnc.com/menu">What We Do</a>
+        <a href="https://www.csdcnc.com/photo-gallery-1">Photo Gallery</a>
+        <a href="https://www.csdcnc.com/products">Products</a>
+        <a href="https://www.csdcnc.com/location">Location</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

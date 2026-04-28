@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small Business Accounting &amp; Fractional CFO Support | KG Accounting &amp; Consulting</title>
+  <meta name="description" content="KG Accounting & Consulting helps small businesses gain cleaner books, stronger cash flow visibility, and strategic financial guidance from Lake Forest, IL to clients nationwide.">
+  <style>
+    :root{
+      --navy:#13263f;
+      --navy-deep:#0d1c30;
+      --blue:#204c7a;
+      --sky:#eaf0f6;
+      --ink:#243446;
+      --muted:#5f6f80;
+      --line:#d9e1ea;
+      --card:#ffffff;
+      --soft:#f5f7fa;
+      --cta:#17395d;
+      --cta-alt:#ffffff;
+      --max:1160px;
+      --body:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      --display:Georgia,"Times New Roman",serif;
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.65 var(--body);color:var(--ink);background:#fff}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .wrap{width:min(calc(100% - 36px),var(--max));margin:0 auto}
+    .topbar{background:var(--navy-deep);color:#d8e4f1;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+    .topbar .wrap{display:flex;justify-content:center;gap:18px;padding:10px 0;flex-wrap:wrap;text-align:center}
+    header{background:#fff;border-bottom:1px solid #edf1f5;position:sticky;top:0;z-index:10}
+    .header-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}
+    .brand{display:flex;align-items:center;gap:14px;min-width:0}
+    .brand img{width:62px;height:62px;border-radius:16px}
+    .brand-mark{font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:#26415e}
+    .brand-name{font:400 clamp(1.15rem,2vw,1.5rem)/1.1 var(--display);color:#17314e}
+    nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap;justify-content:center}
+    nav a{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:#44607b}
+    .header-cta{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:999px;background:var(--cta);color:#fff;border:1px solid var(--cta);font-size:13px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+    .hero{background:linear-gradient(120deg,rgba(13,28,48,.94),rgba(19,38,63,.88)),url('https://static.wixstatic.com/media/74b21e_dc6706321fa644adb553d62a437ebc30%7Emv2.png/v1/fit/w_2500,h_1330,al_c/74b21e_dc6706321fa644adb553d62a437ebc30%7Emv2.png') center/cover no-repeat;color:#fff}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:center;padding:78px 0 72px}
+    .eyebrow{display:inline-block;margin-bottom:18px;padding:8px 14px;border:1px solid rgba(255,255,255,.22);border-radius:999px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#d8e4f1}
+    h1{margin:0 0 18px;font:400 clamp(2.45rem,5vw,4.45rem)/1.06 var(--display);letter-spacing:-.02em}
+    .hero p{margin:0 0 16px;max-width:760px;color:#e2ebf5;font-size:1.06rem}
+    .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+    .button{display:inline-flex;align-items:center;justify-content:center;padding:15px 24px;border-radius:999px;background:#fff;color:#17314e;border:1px solid #fff;font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:600}
+    .button.secondary{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+    .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(10px);border-radius:24px;padding:28px}
+    .hero-card h2{margin:0 0 14px;font:400 1.65rem/1.15 var(--display)}
+    .hero-card p{font-size:15px;margin:0 0 14px;color:#ebf2f9}
+    .checklist{margin:18px 0 0;padding:0;list-style:none}
+    .checklist li{display:flex;gap:10px;align-items:flex-start;margin:0 0 12px;color:#f3f7fb}
+    .checklist li::before{content:"•";color:#9cc0e9;font-size:20px;line-height:1}
+    section{padding:64px 0}
+    .section-title{margin:0 0 12px;text-align:center;font:400 clamp(2rem,3.3vw,3rem)/1.1 var(--display);color:#18304b}
+    .section-copy{max-width:760px;margin:0 auto;text-align:center;color:var(--muted)}
+    .trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:-34px;position:relative;z-index:2}
+    .trust-item{background:#fff;border:1px solid #dfe7ef;border-radius:22px;padding:22px 20px;box-shadow:0 10px 24px rgba(20,39,63,.06)}
+    .trust-item strong{display:block;margin-bottom:8px;font-size:13px;letter-spacing:.11em;text-transform:uppercase;color:#32567b}
+    .trust-item span{display:block;color:var(--muted);font-size:15px}
+    .intro{background:linear-gradient(180deg,#fff 0,#f8fafc 100%)}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
+    .service-card{background:var(--card);border:1px solid #dce5ee;border-radius:24px;padding:26px 24px}
+    .service-card img{width:72px;height:72px;margin:0 auto 16px}
+    .service-card h3{margin:0 0 12px;text-align:center;font-size:1.2rem;color:#18304b}
+    .service-card p{margin:0 0 14px;color:var(--muted);font-size:15px}
+    .service-card ul{margin:0 0 18px;padding-left:18px;color:var(--muted)}
+    .service-card li{margin:0 0 8px}
+    .text-link{display:inline-block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#214d7d;font-weight:600}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+    .panel{background:var(--soft);border:1px solid #e4ebf3;border-radius:28px;padding:34px}
+    .panel h2,.process h2,.guide h2,.final h2{margin:0 0 14px;font:400 clamp(1.9rem,3vw,2.7rem)/1.1 var(--display);color:#18304b}
+    .panel p,.process p,.guide p,.final p{color:var(--muted)}
+    .portrait{border-radius:28px;overflow:hidden;border:1px solid #dce5ee;min-height:100%;background:linear-gradient(180deg,#214366,#10243c);color:#fff;padding:36px}
+    .portrait .mini{display:inline-block;margin-bottom:14px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#d8e4f1}
+    .portrait h3{margin:0 0 12px;font:400 2rem/1.08 var(--display)}
+    .portrait p{margin:0 0 12px;color:#e4edf6}
+    .credentials{margin:18px 0 0;padding-left:18px;color:#e7eff8}
+    .credentials li{margin:0 0 8px}
+    .process{background:#fbfcfd}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .step{background:#fff;border:1px solid #dce5ee;border-radius:22px;padding:24px 20px}
+    .step strong{display:block;margin-bottom:10px;font-size:13px;letter-spacing:.11em;text-transform:uppercase;color:#30577d}
+    .guide{background:linear-gradient(180deg,#f5f8fb,#eef4f9)}
+    .guide-box{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;background:#fff;border:1px solid #dce5ee;border-radius:28px;padding:34px}
+    .guide-label{display:inline-block;margin-bottom:12px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#557391}
+    .guide-card{background:#18304b;color:#fff;border-radius:24px;padding:28px}
+    .guide-card h3{margin:0 0 10px;font:400 1.8rem/1.1 var(--display)}
+    .guide-card p{margin:0;color:#e4edf6}
+    .insights{padding-top:54px}
+    .insight-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .insight{background:#fff;border-top:3px solid #224b77;border-radius:18px;padding:22px 18px;border-left:1px solid #e1e8ef;border-right:1px solid #e1e8ef;border-bottom:1px solid #e1e8ef}
+    .insight strong{display:block;margin-bottom:10px;color:#18304b}
+    .final{background:linear-gradient(180deg,#18304b,#102338);color:#fff}
+    .final .wrap{max-width:860px;text-align:center}
+    .final h2{color:#fff}
+    .final p{color:#dfebf7}
+    footer{background:#0d1c30;color:#d1deeb;padding:34px 0 42px}
+    .footer-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+    .footer-brand{display:flex;gap:14px;align-items:flex-start}
+    .footer-brand img{width:56px;height:56px;border-radius:14px}
+    .footer-links{display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end}
+    .footer-links a{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#d9e6f3}
+    .small{font-size:14px;color:#c5d4e3}
+    @media (max-width:980px){
+      .hero-grid,.two-col,.guide-box,.footer-grid,.service-grid,.trust-strip,.steps,.insight-strip{grid-template-columns:1fr}
+      .header-row{flex-direction:column;align-items:flex-start}
+      nav ul{gap:14px}
+      .footer-links{justify-content:flex-start}
+      .trust-strip{margin-top:28px}
+    }
+    @media (max-width:640px){
+      .wrap{width:min(calc(100% - 24px),var(--max))}
+      .hero-grid{padding:54px 0 48px}
+      section{padding:48px 0}
+      .brand img{width:52px;height:52px}
+      .brand-name{font-size:1.2rem}
+      .hero-card,.service-card,.panel,.portrait,.step,.trust-item,.guide-box,.guide-card{padding:22px}
+      nav ul{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <span>Lake Forest, IL</span>
+      <span>Serving small businesses nationwide</span>
+      <span>Founder-led accounting, cash flow, and CFO support</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="KG Accounting &amp; Consulting home">
+        <img src="https://static.wixstatic.com/media/74b21e_4060c20896af4efb92b0de298208766b~mv2.png/v1/fill/w_124,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/KG%20icon%20white.png" alt="KG Accounting &amp; Consulting logo">
+        <div>
+          <div class="brand-mark">Accounting &amp; Consulting</div>
+          <div class="brand-name">KG Accounting &amp; Consulting</div>
+        </div>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#insights">Insights</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="header-cta" href="#contact">Schedule a right-fit call</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Accounting &amp; CFO services for growing small businesses</span>
+          <h1>Gain financial clarity, improve cash flow, and get the right level of support for your next stage of growth.</h1>
+          <p>KG Accounting &amp; Consulting helps small business owners move from reactive bookkeeping to cleaner reporting, steadier cash flow decisions, and more confident planning.</p>
+          <p>Whether you need organized books, stronger financial visibility, or strategic CFO guidance, your first step is a right-fit call focused on where the business stands now and what kind of support will actually help.</p>
+          <div class="cta-row">
+            <a class="button" href="#contact">Book your right-fit call</a>
+            <a class="button secondary" href="#services">View service paths</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>What the first call is for</h2>
+          <p>A short conversation to look at your current books, cash flow pressure points, reporting needs, and whether bookkeeping, advisory, or CFO-level support makes the most sense.</p>
+          <ul class="checklist">
+            <li>Understand where the financial bottlenecks are showing up</li>
+            <li>Clarify the right support level for your business stage</li>
+            <li>Leave with a cleaner next-step recommendation</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <div class="wrap trust-strip">
+      <div class="trust-item">
+        <strong>Founder-led guidance</strong>
+        <span>Work directly with Kristine Gohsman for strategic accounting support shaped around real small-business decisions.</span>
+      </div>
+      <div class="trust-item">
+        <strong>MBA + CFO perspective</strong>
+        <span>Bookkeeping, cash flow advisory, and higher-level financial insight without hiring a full-time finance leader.</span>
+      </div>
+      <div class="trust-item">
+        <strong>Lake Forest based, nationwide support</strong>
+        <span>Built for solopreneurs, small teams, and growing businesses that need clarity before complexity takes over.</span>
+      </div>
+    </div>
+
+    <section class="intro">
+      <div class="wrap">
+        <h2 class="section-title">More than bookkeeping. Clearer numbers, better decisions.</h2>
+        <p class="section-copy">The goal is not just tidy books. It is knowing what the numbers mean, what to do next, and how to make financial decisions with more confidence as your business grows.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2 class="section-title">Choose the support that fits what your business needs right now</h2>
+        <p class="section-copy">The same core services are here — just organized around the problems owners usually feel first.</p>
+        <div class="service-grid">
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/74b21e_0f34f9259be341edae4f942b714c3582~mv2.png/v1/fill/w_158,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png" alt="Bookkeeping icon">
+            <h3>Get the books clean and reliable</h3>
+            <p>Best when the business needs more order, cleaner reporting, and day-to-day bookkeeping that does not create surprises at tax time.</p>
+            <ul>
+              <li>Monthly bookkeeping and reconciliations</li>
+              <li>Financial organization and reporting cleanup</li>
+              <li>Better readiness for tax season and decision-making</li>
+            </ul>
+            <a class="text-link" href="#contact">Ask about bookkeeping support</a>
+          </article>
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/74b21e_3d1647ef1fe543bd8fa9d64b1b6e9e78~mv2.png/v1/fill/w_158,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2.png" alt="Cash flow icon">
+            <h3>Improve cash flow visibility</h3>
+            <p>Best when revenue is coming in but cash still feels tighter than it should, or when planning ahead feels harder than it needs to be.</p>
+            <ul>
+              <li>Cash flow analysis and forecasting</li>
+              <li>Trend tracking and clearer financial visibility</li>
+              <li>Actionable guidance for steadier business decisions</li>
+            </ul>
+            <a class="text-link" href="#contact">Talk through cash flow advisory</a>
+          </article>
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/74b21e_8d4ae2acdd9d47788fe6af8f1d66cdd7~mv2.png/v1/fill/w_158,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3.png" alt="Strategic CFO icon">
+            <h3>Add strategic financial leadership</h3>
+            <p>Best when the business needs higher-level planning, budgeting, systems, or CFO-style insight without bringing on a full-time executive.</p>
+            <ul>
+              <li>Fractional CFO support and planning guidance</li>
+              <li>Budgeting, growth planning, and KPI visibility</li>
+              <li>Financial systems and workflow improvements</li>
+            </ul>
+            <a class="text-link" href="#contact">See if CFO support fits</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap two-col">
+        <div class="panel">
+          <h2>Meet Kristine</h2>
+          <p>KG Accounting &amp; Consulting was built for owners who need more than historical reports. Kristine brings accounting, finance, and business-strategy experience together so the numbers become more useful, more readable, and more actionable.</p>
+          <p>That means practical help with the books, a clearer view of cash flow, and financial guidance that supports sustainable growth instead of guesswork.</p>
+          <a class="text-link" href="#contact">Start with a right-fit conversation</a>
+        </div>
+        <div class="portrait">
+          <span class="mini">Your strategic accounting partner</span>
+          <h3>Practical guidance for real business decisions</h3>
+          <p>For growing businesses, financial clarity is not just about compliance. It shapes hiring, pricing, margins, cash planning, and how confidently you move into the next season of growth.</p>
+          <ul class="credentials">
+            <li>MBA with emphasis in Accounting and Finance</li>
+            <li>Founder-led bookkeeping, advisory, and CFO support</li>
+            <li>Built for small businesses and solopreneurs nationwide</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="wrap">
+        <h2 class="section-title">What getting started looks like</h2>
+        <p class="section-copy">The right-fit call is there to simplify the decision, not add more friction.</p>
+        <div class="steps">
+          <div class="step">
+            <strong>1. Share what feels messy</strong>
+            <p>Talk through the books, cash flow questions, reporting gaps, or growth concerns that are creating uncertainty right now.</p>
+          </div>
+          <div class="step">
+            <strong>2. Review the best-fit support</strong>
+            <p>Look at whether bookkeeping help, cash flow advisory, systems cleanup, or fractional CFO support makes the most sense.</p>
+          </div>
+          <div class="step">
+            <strong>3. Move forward with clarity</strong>
+            <p>Leave with a clearer recommendation and next-step path instead of having to guess which service category to choose alone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide">
+      <div class="wrap guide-box">
+        <div>
+          <span class="guide-label">Free guide</span>
+          <h2>Useful for owners who want to spot avoidable cash flow mistakes first</h2>
+          <p>The guide still works well as a trust-building resource — especially for business owners who are not quite ready for a call but want a practical first step.</p>
+          <div class="cta-row">
+            <a class="button" href="#contact">Ask for the guide</a>
+            <a class="button secondary" style="color:#17314e;border-color:#cad8e5" href="mailto:kristine@kg-accounting.com">Email Kristine</a>
+          </div>
+        </div>
+        <div class="guide-card">
+          <h3>5 Hidden Cash Flow Mistakes Costing You Thousands</h3>
+          <p>A simple resource for small-business owners who want clearer visibility before committing to ongoing support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="insights" id="insights">
+      <div class="wrap">
+        <h2 class="section-title">Financial insights built for business owners</h2>
+        <p class="section-copy">Helpful education can support the relationship — but on the homepage it should reinforce the main service story, not distract from it.</p>
+        <div class="insight-strip">
+          <div class="insight">
+            <strong>Growth planning</strong>
+            <p>Content that helps owners think ahead about margins, budgeting, and what healthy growth actually requires.</p>
+          </div>
+          <div class="insight">
+            <strong>Cash flow clarity</strong>
+            <p>Practical explanations that make it easier to understand where money is going and what to watch next.</p>
+          </div>
+          <div class="insight">
+            <strong>Owner decision support</strong>
+            <p>Useful guidance for small-business operators who want better context before making the next financial move.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" id="contact">
+      <div class="wrap">
+        <h2>Ready to make more confident financial decisions?</h2>
+        <p>Start with a right-fit call to talk through your books, cash flow questions, and the kind of support that would help your business most right now.</p>
+        <div class="cta-row" style="justify-content:center">
+          <a class="button" href="mailto:kristine@kg-accounting.com">Schedule by email</a>
+          <a class="button secondary" href="https://www.kg-accounting.com/contact">Visit contact page</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="https://static.wixstatic.com/media/74b21e_4060c20896af4efb92b0de298208766b~mv2.png/v1/fill/w_124,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/KG%20icon%20white.png" alt="KG Accounting &amp; Consulting mark">
+          <div>
+            <div class="brand-name" style="color:#fff;font-size:1.3rem">KG Accounting &amp; Consulting</div>
+            <p class="small">Lake Forest, IL accounting, cash flow advisory, and fractional CFO support for small businesses and solopreneurs nationwide.</p>
+            <p class="small"><a href="mailto:kristine@kg-accounting.com">kristine@kg-accounting.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">How It Works</a>
+        <a href="https://www.kg-accounting.com/blog">Blog</a>
+        <a href="https://www.kg-accounting.com/contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

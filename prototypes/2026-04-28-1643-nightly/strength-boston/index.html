@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strength PT Boston | Personal Training & Health Coaching</title>
+  <meta name="description" content="Personal training and health coaching in South Boston for adults who want structured strength, better movement, and long-term confidence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary:#ceff0c;
+      --secondary:#525252;
+      --background:#ffffff;
+      --ink:#111111;
+      --muted:#6b6b6b;
+      --card:#f5f5f5;
+      --dark:#171717;
+      --radius:18px;
+      --shadow:0 20px 50px rgba(0,0,0,.14);
+      --max:1280px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'PT Sans',system-ui,sans-serif;color:var(--secondary);background:var(--background);line-height:1.6}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(var(--max),calc(100% - 32px));margin:0 auto}
+    .eyebrow{font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+    h1,h2,h3{font-family:'Anton',Impact,sans-serif;letter-spacing:.03em;text-transform:uppercase;color:var(--ink);margin:0}
+    h1{font-size:clamp(3rem,6vw,5.6rem);line-height:.98}
+    h2{font-size:clamp(2.3rem,4.4vw,4.3rem);line-height:1}
+    h3{font-size:1.6rem;line-height:1.05}
+    p{margin:0 0 1rem}
+    section{padding:72px 0}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:8px;font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:.2s ease;background:var(--primary);color:#000;border:1px solid transparent}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.secondary{background:transparent;border-color:rgba(255,255,255,.4);color:#fff}
+    .btn.dark{background:#000;color:#fff}
+    .site-header{position:absolute;inset:0 0 auto 0;z-index:10}
+    .site-header .bar{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+    .brand img{height:54px;width:auto}
+    .nav{display:flex;gap:26px;align-items:center;color:#fff;font-size:.95rem}
+    .nav a{opacity:.95}
+    .hero{position:relative;min-height:760px;display:flex;align-items:flex-end;background:linear-gradient(rgba(0,0,0,.48),rgba(0,0,0,.62)),url('https://strengthptboston.com/_astro/Homepage-Hero-Kettlebells%20and%20Dumbbells.B18mswaX_Z1dv4ih.webp') center/cover no-repeat;color:#fff;padding:150px 0 80px}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:end}
+    .hero-copy h1,.hero-copy h2,.hero-copy h3{color:#fff}
+    .hero-copy p{font-size:1.15rem;color:rgba(255,255,255,.86);max-width:680px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+    .hero-panel{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(10px);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+    .hero-panel h3{color:#fff;margin-bottom:12px}
+    .hero-panel ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+    .hero-panel li{padding-left:18px;position:relative;color:rgba(255,255,255,.88)}
+    .hero-panel li::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--primary);position:absolute;left:0;top:.6em}
+    .trust-strip{margin-top:-34px;position:relative;z-index:3}
+    .trust-card{background:#fff;border-radius:20px;box-shadow:var(--shadow);padding:24px 26px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+    .trust-item{padding-right:16px;border-right:1px solid #ececec}
+    .trust-item:last-child{border-right:none}
+    .trust-item strong{display:block;color:#111;font-size:1.05rem;margin-bottom:4px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+    .image-card{border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}
+    .image-card img{width:100%;height:100%;object-fit:cover}
+    .service-grid,.proof-grid,.path-grid,.steps,.contact-grid,.footer-grid{display:grid;gap:24px}
+    .service-grid{grid-template-columns:repeat(3,1fr);margin-top:28px}
+    .card{background:var(--dark);color:#fff;border-radius:24px;overflow:hidden;position:relative;min-height:290px;display:flex;align-items:flex-end;box-shadow:var(--shadow)}
+    .card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.52)}
+    .card .content{position:relative;padding:24px}
+    .card p{color:rgba(255,255,255,.84);margin-top:10px}
+    .section-intro{max-width:780px}
+    .path-grid{grid-template-columns:repeat(3,1fr);margin-top:26px}
+    .path{background:#f4f4f4;border-radius:22px;padding:24px}
+    .path strong{display:block;color:#111;font-size:1.05rem;margin-bottom:8px}
+    .proof-grid{grid-template-columns:repeat(2,1fr);margin-top:32px}
+    .quote{background:#fff;border:1px solid #ececec;border-radius:20px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.05)}
+    .quote p{font-size:1.05rem;color:#222}
+    .quote cite{font-style:normal;font-weight:700;color:#111}
+    .steps{grid-template-columns:repeat(4,1fr);margin-top:28px}
+    .step{padding:24px;border-top:4px solid var(--primary);background:#f7f7f7;border-radius:18px}
+    .step-num{font-family:'Anton',Impact,sans-serif;color:#111;font-size:2rem;line-height:1;margin-bottom:12px}
+    .cta-band{background:linear-gradient(rgba(0,0,0,.62),rgba(0,0,0,.62)),url('https://strengthptboston.com/_astro/Rectangle%2046.DAx86Krm_ZrrwyB.webp') center/cover no-repeat;color:#fff;border-radius:28px;padding:56px 32px;text-align:center}
+    .cta-band h2{color:#fff}
+    .contact-grid{grid-template-columns:1.05fr .95fr;align-items:start}
+    .contact-card,.detail-card{background:#f7f7f7;border-radius:24px;padding:28px}
+    .contact-list{display:grid;gap:14px;margin:20px 0 0;padding:0;list-style:none}
+    .detail-card strong{display:block;color:#111;margin-bottom:6px}
+    .micro{font-size:.92rem;color:var(--muted)}
+    footer{background:#171717;color:#d6d6d6;padding:48px 0}
+    footer .brand-lockup{max-width:320px}
+    .socials{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+    .socials a,.pill{display:inline-flex;align-items:center;padding:9px 12px;border:1px solid rgba(255,255,255,.18);border-radius:999px;font-size:.86rem}
+    .footer-grid{grid-template-columns:1.3fr .9fr .9fr;align-items:start}
+    .link-list{display:grid;gap:10px}
+    @media (max-width: 960px){
+      .hero-grid,.split,.contact-grid,.footer-grid,.service-grid,.steps,.path-grid,.proof-grid,.trust-card{grid-template-columns:1fr 1fr}
+      .trust-item:nth-child(2){border-right:none}
+    }
+    @media (max-width: 720px){
+      .site-header{position:static;background:#171717}
+      .site-header .bar{padding:16px 0}
+      .nav{display:none}
+      .hero{min-height:auto;padding:56px 0 56px}
+      .hero-grid,.split,.contact-grid,.footer-grid,.service-grid,.steps,.path-grid,.proof-grid,.trust-card{grid-template-columns:1fr}
+      .trust-strip{margin-top:0;padding-top:20px}
+      .trust-item{border-right:none;border-bottom:1px solid #ececec;padding-bottom:16px}
+      .trust-item:last-child{border-bottom:none;padding-bottom:0}
+      section{padding:54px 0}
+      .container{width:min(var(--max),calc(100% - 24px))}
+      .hero-panel,.contact-card,.detail-card,.path,.step,.quote,.trust-card{padding:22px}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="#top" aria-label="Strength PT Boston home">
+        <img src="https://strengthptboston.com/_astro/White-Logo.BnFbiZnT_jnunW.webp" alt="Strength PT Boston" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Strength Coaching</a>
+        <a href="#results">Results</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#contact">Book a Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow" style="color:var(--primary)">Strength. Movement. Longevity.</div>
+          <h1>Personal Training and Health Coaching in South Boston</h1>
+          <p>1:1 coaching for adults who want a smarter plan to get stronger, move with more confidence, and keep training in a way that fits real life.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Book Your Free Consultation</a>
+            <a class="btn secondary" href="#services">See Coaching Options</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Why clients book">
+          <h3>What new clients usually want help with</h3>
+          <ul>
+            <li>Strength training with real structure instead of random workouts</li>
+            <li>Better mobility, less stiffness, and more confidence moving day to day</li>
+            <li>Coaching that adapts to work, family life, and recovery</li>
+            <li>A private South Boston training setting with clear next steps</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="container trust-card">
+        <div class="trust-item">
+          <strong>Boston University master's background</strong>
+          <div>Human movement expertise paired with hands-on coaching.</div>
+        </div>
+        <div class="trust-item">
+          <strong>Private 1:1 coaching</strong>
+          <div>Sessions built around your body, schedule, and goals.</div>
+        </div>
+        <div class="trust-item">
+          <strong>South Boston based</strong>
+          <div>Serving South Boston, the South End, Seaport, and virtual clients.</div>
+        </div>
+        <div class="trust-item">
+          <strong>Free consult first</strong>
+          <div>Talk through goals, fit, and availability before committing.</div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container split">
+        <div>
+          <div class="eyebrow">Built for Real Life</div>
+          <h2>Coaching for People Who Want More Than a Workout</h2>
+          <p>Strength PT Boston already has a strong point of view: training should be personal, sustainable, and useful outside the gym. This version makes that easier to grasp at a glance.</p>
+          <p>Kara works with adults who want long-term strength, better movement, and thoughtful coaching instead of generic programming. Many clients are former athletes; others simply want a more capable body and a plan they can actually keep up with.</p>
+          <a class="btn dark" href="#results">Read Client Results</a>
+        </div>
+        <div class="image-card">
+          <img src="https://strengthptboston.com/_astro/Woman%20Resting%20after%20Workout.BJgUvBuX_1LVjmt.webp" alt="Client resting after a workout" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="padding-top:0">
+      <div class="container">
+        <div class="section-intro">
+          <div class="eyebrow">What I Offer</div>
+          <h2>Personalized Coaching Options</h2>
+          <p>Same service family, but clearer buyer paths: in-person training, health support, and remote coaching are all visible immediately.</p>
+        </div>
+        <div class="service-grid">
+          <article class="card">
+            <img src="https://strengthptboston.com/_astro/Man%20doing%20Lunges%20with%20Dumbbells.D8V6HVU0_1vEms9.webp" alt="Client doing lunges with dumbbells" />
+            <div class="content">
+              <h3>1:1 Personal Training</h3>
+              <p>Private sessions with custom programming, movement coaching, and progressive strength work built around your goals.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://strengthptboston.com/_astro/foodlogging.DC66MCAv_fl1cz.webp" alt="Nutrition planning" />
+            <div class="content">
+              <h3>Health &amp; Nutrition Coaching</h3>
+              <p>Practical habit support for energy, recovery, and better consistency between sessions.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://strengthptboston.com/_astro/Woman%20ready%20to%20pick%20up%20Kettlebell.BFdv2_3V_Z1B7NwT.webp" alt="Client preparing to lift kettlebell" />
+            <div class="content">
+              <h3>Hybrid &amp; Virtual Coaching</h3>
+              <p>Flexible programming and check-ins for clients who travel, split locations, or prefer remote support.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-intro">
+          <div class="eyebrow">Ideal Fit</div>
+          <h2>Choose the Path That Sounds Most Like You</h2>
+          <p>The live site explains the philosophy well, but new visitors still have to work to understand whether they fit. These quick paths solve that without changing the brand voice.</p>
+        </div>
+        <div class="path-grid">
+          <div class="path">
+            <strong>Former athletes</strong>
+            <p>You want structure again, but with smarter programming for where your body is now.</p>
+          </div>
+          <div class="path">
+            <strong>Busy professionals</strong>
+            <p>You want efficient sessions, clear progression, and coaching that respects your schedule.</p>
+          </div>
+          <div class="path">
+            <strong>Adults focused on longevity</strong>
+            <p>You care about staying strong, mobile, and capable for years, not just chasing short-term intensity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" style="background:#fbfbfb">
+      <div class="container split" style="align-items:start">
+        <div>
+          <div class="eyebrow">Experience That Matters</div>
+          <h2>Thoughtful Coaching Backed by Education</h2>
+          <p>Kara’s mix of academic training, collegiate athletics, health coaching, and real client work is already compelling. Bringing it closer to the top makes the site feel more trustworthy faster.</p>
+          <ul class="contact-list">
+            <li><span class="pill">Master’s degree in Human Movement</span></li>
+            <li><span class="pill">Certified personal trainer &amp; health coach</span></li>
+            <li><span class="pill">Former Division I and II athlete</span></li>
+            <li><span class="pill">Advanced menopause training</span></li>
+          </ul>
+        </div>
+        <div class="image-card">
+          <img src="https://strengthptboston.com/_astro/Photo%20Sep%2005%202025_%209%2022%2059%20AM.D9tNsH95_15HqDk.webp" alt="Coach portrait" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-intro" style="margin-top:28px">
+          <div class="eyebrow">Real Results</div>
+          <h2>Client Wins That Feel Specific and Credible</h2>
+        </div>
+        <div class="proof-grid">
+          <blockquote class="quote">
+            <p>“Every session feels tailored to what I need that day. The consistency and personal attention have made a huge difference.”</p>
+            <cite>— Long-term client</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Starting postpartum felt intimidating, but the coaching made the process feel structured, realistic, and encouraging.”</p>
+            <cite>— Postpartum client</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-intro">
+          <div class="eyebrow">The Process</div>
+          <h2>Simple. Structured. Personalized.</h2>
+          <p>The current site hints at the process; this version makes the “what happens next” flow explicit so consult booking feels safer.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Book a Consultation</h3>
+            <p>Share your goals, schedule, and what you want to improve.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Talk Through Fit</h3>
+            <p>Review training history, movement needs, and the best coaching format.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Get Your Plan</h3>
+            <p>Receive a personalized starting path for in-person, hybrid, or virtual coaching.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <h3>Train With Support</h3>
+            <p>Build strength consistently with coaching, feedback, and regular updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container cta-band">
+        <div class="eyebrow" style="color:var(--primary)">Local and Accessible</div>
+        <h2>Training in South Boston With Virtual Flexibility</h2>
+        <p style="max-width:760px;margin:16px auto 0;color:rgba(255,255,255,.84)">In-person coaching is based in South Boston, with clients also coming from the South End and Seaport. Virtual support is available when schedule or location calls for it.</p>
+        <div class="hero-actions" style="justify-content:center">
+          <a class="btn" href="#contact">Book a Free Consultation</a>
+          <a class="btn secondary" href="mailto:strengthptboston@gmail.com">Email Directly</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <div class="eyebrow">Let’s Connect</div>
+          <h2>Book a Consultation</h2>
+          <p>Ready to get started, or just want to see if the fit is right? Reach out with your goals, preferred contact method, and what kind of coaching you’re interested in.</p>
+          <ul class="contact-list">
+            <li><strong>Email</strong> <a href="mailto:strengthptboston@gmail.com">strengthptboston@gmail.com</a></li>
+            <li><strong>Call or text</strong> <a href="tel:+13155590767">(315) 559-0767</a></li>
+            <li><strong>Location</strong> 442 W 2nd St, Boston, MA 02127</li>
+          </ul>
+          <div class="hero-actions" style="margin-top:24px">
+            <a class="btn" href="mailto:strengthptboston@gmail.com?subject=Consultation%20Request">Start by Email</a>
+            <a class="btn dark" href="tel:+13155590767">Call Now</a>
+          </div>
+        </div>
+        <aside class="detail-card">
+          <h3>What happens after you reach out</h3>
+          <p>You’ll hear back to schedule a consultation, talk through goals and availability, and decide whether in-person, hybrid, or virtual coaching makes the most sense.</p>
+          <div style="margin-top:24px">
+            <strong>Best fit for</strong>
+            <p class="micro">Adults looking for long-term strength, better movement quality, and a more personal coaching experience.</p>
+          </div>
+          <div style="margin-top:18px">
+            <strong>Service area</strong>
+            <p class="micro">South Boston, South End, Seaport, and remote clients who want structured ongoing support.</p>
+          </div>
+          <div style="margin-top:18px">
+            <strong>Social</strong>
+            <div class="socials">
+              <a href="https://www.instagram.com/strengthptboston">Instagram</a>
+              <a href="https://www.facebook.com/strengthptboston/">Facebook</a>
+              <a href="https://x.com/strengthboston">X</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="brand-lockup">
+        <img src="https://strengthptboston.com/_astro/White-Logo.BnFbiZnT_jnunW.webp" alt="Strength PT Boston logo" style="height:64px;width:auto">
+        <p style="margin-top:18px">Personalized strength coaching to help adults move well, build strength, and stay active long-term.</p>
+      </div>
+      <div>
+        <h3 style="color:#fff;font-size:1.2rem;margin-bottom:14px">Site Links</h3>
+        <div class="link-list">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Strength Coaching</a>
+          <a href="#results">Results</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h3 style="color:#fff;font-size:1.2rem;margin-bottom:14px">Contact</h3>
+        <div class="link-list">
+          <a href="tel:+13155590767">(315) 559-0767</a>
+          <a href="mailto:strengthptboston@gmail.com">strengthptboston@gmail.com</a>
+          <span>442 W 2nd St, Boston, MA 02127</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

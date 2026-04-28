@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Training, Weight Loss & Wellness in Charlotte | Body Wise Personal Training</title>
+  <meta name="description" content="Body Wise Personal Training offers personal training, weight loss coaching, wellness support, performance training, and metabolic testing in Charlotte and Pineville, NC. Book your free consultation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --teal: #0d7484;
+      --teal-dark: #01242a;
+      --text: #242424;
+      --muted: #5d666b;
+      --light: #f4f7f8;
+      --white: #ffffff;
+      --line: rgba(255,255,255,.18);
+      --shadow: 0 18px 40px rgba(0,0,0,.18);
+      --radius: 14px;
+      --max: 1180px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: Montserrat, Arial, sans-serif;
+      background: #fff;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .topbar {
+      background: linear-gradient(90deg, var(--teal) 0%, var(--teal-dark) 100%);
+      color: #fff;
+      font-size: 14px;
+    }
+    .wrap { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
+    .topbar .wrap, .nav .wrap, .trust-row, .services-grid, .proof-grid, .plan-grid, .contact-grid, .footer-grid {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    .topbar .wrap { justify-content: space-between; padding: 10px 0; }
+    .topbar .socials { display: flex; gap: 14px; opacity: .9; }
+    .nav {
+      background: #fff;
+      border-bottom: 1px solid #e8ecee;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .nav .wrap { justify-content: space-between; padding: 16px 0; }
+    .brand {
+      font-family: Oswald, sans-serif;
+      font-size: 34px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+    }
+    .brand small {
+      display: block;
+      font-family: Montserrat, sans-serif;
+      font-size: 12px;
+      letter-spacing: .22em;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 18px;
+      font-family: Oswald, sans-serif;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+    .hero {
+      position: relative;
+      color: #fff;
+      background: #111;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.58)), url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_2_gir-1920w.jpeg') center/cover no-repeat;
+    }
+    .hero .wrap {
+      position: relative;
+      padding: 88px 0 84px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 28px;
+      align-items: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      background: rgba(13,116,132,.72);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3 { font-family: Oswald, sans-serif; margin: 0 0 14px; line-height: 1.08; }
+    h1 { font-size: clamp(42px, 5vw, 64px); max-width: 12ch; }
+    h2 { font-size: clamp(32px, 3.8vw, 48px); }
+    h3 { font-size: 28px; }
+    .hero p { font-size: 19px; max-width: 40rem; margin: 0 0 24px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 18px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 220px;
+      padding: 16px 20px;
+      border-radius: 2px;
+      font-weight: 700;
+      transition: .2s ease;
+      text-align: center;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);
+    }
+    .btn-primary { background: var(--teal); color: #fff; }
+    .btn-secondary { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.7); }
+    .btn:hover { transform: translateY(-1px); }
+    .hero-card {
+      background: rgba(0,0,0,.34);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 15px;
+      padding: 28px;
+      backdrop-filter: blur(2px);
+      box-shadow: var(--shadow);
+    }
+    .hero-card ul { margin: 14px 0 0; padding-left: 18px; }
+    .hero-card li { margin: 8px 0; }
+    .trust-strip {
+      background: linear-gradient(90deg, var(--teal) 0%, var(--teal-dark) 100%);
+      color: #fff;
+      padding: 20px 0;
+    }
+    .trust-row { justify-content: space-between; flex-wrap: wrap; }
+    .trust-item {
+      flex: 1 1 170px;
+      border-left: 1px solid rgba(255,255,255,.16);
+      padding-left: 18px;
+    }
+    .trust-item:first-child { border-left: 0; padding-left: 0; }
+    .trust-item strong { display: block; font-family: Oswald, sans-serif; font-size: 28px; }
+    section { padding: 68px 0; }
+    .section-intro { max-width: 760px; margin-bottom: 30px; }
+    .kicker {
+      color: var(--teal);
+      font-family: Poppins, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .services-grid {
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: #fff;
+      border: 1px solid #e7ebee;
+      border-radius: 15px;
+      padding: 26px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.06);
+    }
+    .card p { margin: 0 0 14px; }
+    .card a { color: var(--teal); font-weight: 700; }
+    .feature-band {
+      color: #fff;
+      background: linear-gradient(rgba(36,36,36,.82), rgba(36,36,36,.82)), url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_12_bkgfeature-1920w.jpeg') center/cover no-repeat;
+    }
+    .proof-grid, .plan-grid, .contact-grid, .footer-grid { align-items: stretch; flex-wrap: wrap; }
+    .proof-grid > *, .plan-grid > *, .contact-grid > * { flex: 1 1 320px; }
+    .dark-card {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 15px;
+      padding: 26px;
+    }
+    .dark-card p, .dark-card li { color: rgba(255,255,255,.9); }
+    .list { margin: 0; padding-left: 18px; }
+    .list li { margin: 8px 0; }
+    .quote {
+      background: #f8fbfc;
+      border-left: 5px solid var(--teal);
+      padding: 18px 18px 18px 22px;
+      margin-top: 18px;
+    }
+    .plan-step {
+      background: #fff;
+      border-top: 6px solid var(--teal);
+      border-radius: 0 0 14px 14px;
+      padding: 24px;
+      box-shadow: 0 10px 26px rgba(0,0,0,.07);
+    }
+    .plan-step span {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--teal);
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .contact-box {
+      background: #fff;
+      border: 1px solid #dfe7ea;
+      border-radius: 15px;
+      padding: 28px;
+      box-shadow: 0 12px 28px rgba(0,0,0,.06);
+    }
+    .contact-box strong { color: var(--teal-dark); }
+    .contact-list { list-style: none; padding: 0; margin: 20px 0 0; }
+    .contact-list li { margin-bottom: 12px; }
+    .cta-panel {
+      background: linear-gradient(135deg, #0d7484 0%, #07353d 100%);
+      color: #fff;
+      border-radius: 15px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+    .cta-panel .btn-primary { background: #fff; color: var(--teal-dark); }
+    footer {
+      background: #242424;
+      color: #fff;
+      padding: 42px 0 20px;
+    }
+    footer a { color: rgba(255,255,255,.88); }
+    .footer-grid { gap: 24px; }
+    .footer-grid > * { flex: 1 1 220px; }
+    .footer-note {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.75);
+      font-size: 14px;
+    }
+    @media (max-width: 900px) {
+      .hero .wrap { grid-template-columns: 1fr; padding: 72px 0 64px; }
+      .nav .wrap, .topbar .wrap { align-items: flex-start; }
+      .nav-links { gap: 12px; font-size: 14px; }
+      .trust-item { border-left: 0; padding-left: 0; }
+      section { padding: 56px 0; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(calc(100% - 24px), var(--max)); }
+      .brand { font-size: 28px; }
+      .nav-links { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); width: 100%; }
+      .btn { width: 100%; min-width: 0; }
+      .hero p { font-size: 17px; }
+      .card, .dark-card, .contact-box, .cta-panel, .hero-card, .plan-step { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>(704) 614-1511 &nbsp;•&nbsp; Charlotte &amp; Pineville personal training by appointment</div>
+      <div class="socials">
+        <a href="https://maps.app.goo.gl/PRDxB5hjBDZHc7Dw8">Google Reviews</a>
+        <a href="https://facebook.com/BodyWiseTrainingCLT">Facebook</a>
+        <a href="https://instagram.com/bodywisepersonaltraining">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="wrap">
+      <div class="brand">Body Wise<small>Personal Training</small></div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Training Options</a>
+        <a href="#trainers">Meet the Trainers</a>
+        <a href="#packages">Packages</a>
+        <a href="#results">Results</a>
+        <a href="#consultation">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <div class="eyebrow">Customized training, nutrition &amp; accountability</div>
+          <h1>Get in the best shape of your life with a plan built around you.</h1>
+          <p>Body Wise Personal Training helps adults in Charlotte and Pineville lose weight, build strength, improve performance, and stay consistent with one-on-one coaching that starts with your real goals, schedule, and limitations.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:+17046141511">Call for a Free Consultation</a>
+            <a class="btn btn-secondary" href="#consultation">See Training Options</a>
+          </div>
+          <p><strong>Start here:</strong> tell us what you want to change, meet with a trainer, and leave with a next-step plan you can actually follow.</p>
+        </div>
+        <aside class="hero-card">
+          <h3>What we help with</h3>
+          <ul>
+            <li>Weight loss and body toning without guesswork</li>
+            <li>Strength, mobility, and confidence after setbacks or time away</li>
+            <li>Sport-specific work, competition prep, and metabolic testing</li>
+            <li>Nutrition guidance that supports your training plan</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="wrap trust-row">
+        <div class="trust-item"><strong>25+ years</strong> coaching experience</div>
+        <div class="trust-item"><strong>1-on-1 plans</strong> built around injuries, goals, and lifestyle</div>
+        <div class="trust-item"><strong>Charlotte &amp; Pineville</strong> serving SouthPark and nearby communities</div>
+        <div class="trust-item"><strong>Free consultation</strong> before you commit to a package</div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="kicker">Training options</div>
+          <h2>Choose the support that matches your goal.</h2>
+          <p>You do not need to sort through a long menu first. Start with the outcome you want, and we will recommend the right training path during your consultation.</p>
+        </div>
+        <div class="services-grid">
+          <article class="card">
+            <h3>Lose weight &amp; tone up</h3>
+            <p>Private coaching for adults who want structure, accountability, and a practical meal-and-workout plan.</p>
+            <a href="#consultation">Book your consultation</a>
+          </article>
+          <article class="card" id="packages">
+            <h3>Build strength &amp; feel better</h3>
+            <p>Personal training that works around your current fitness level, past injuries, and weekly schedule.</p>
+            <a href="#consultation">Talk through your starting point</a>
+          </article>
+          <article class="card">
+            <h3>Improve sport performance</h3>
+            <p>Speed, agility, flexibility, and sport-specific sessions for athletes who want better movement and output.</p>
+            <a href="#consultation">Ask about sport-specific training</a>
+          </article>
+          <article class="card">
+            <h3>Test, prep &amp; dial things in</h3>
+            <p>Competition prep, VO2 max testing, and resting metabolic rate testing for deeper performance and nutrition insight.</p>
+            <a href="#consultation">See advanced options</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band" id="results">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="kicker" style="color:#93f5ff;">Why people stick with Body Wise</div>
+          <h2>Experienced coaching without the cookie-cutter approach.</h2>
+        </div>
+        <div class="proof-grid">
+          <div class="dark-card">
+            <h3>Personalized from day one</h3>
+            <p>Your plan starts with a conversation about your goals, diet, limitations, training history, and timeline. That keeps the work realistic and specific.</p>
+            <ul class="list">
+              <li>Injuries and limitations considered up front</li>
+              <li>Nutrition support paired with training</li>
+              <li>Flexible scheduling by appointment</li>
+            </ul>
+          </div>
+          <div class="dark-card" id="trainers">
+            <h3>Coaching that meets you where you are</h3>
+            <p>Whether you are just getting started or pushing toward a performance goal, you get clear guidance, accountability, and a trainer who adjusts the plan as you progress.</p>
+            <div class="quote">“You don’t have to be strong to get started. You have to start to get strong.”</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="consultation">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="kicker">What happens next</div>
+          <h2>A simple consultation process instead of a vague “contact us” dead end.</h2>
+          <p>The next step is clear: call or reach out, tell us what you want to work on, and we will match you with the right trainer and service.</p>
+        </div>
+        <div class="plan-grid">
+          <div class="plan-step"><span>1</span><h3>Reach out</h3><p>Call (704) 614-1511 or use the contact details below to tell us your goal, preferred schedule, and any concerns.</p></div>
+          <div class="plan-step"><span>2</span><h3>Meet one-on-one</h3><p>We talk through your fitness history, limitations, and whether personal training, wellness support, or advanced testing is the best fit.</p></div>
+          <div class="plan-step"><span>3</span><h3>Get your plan</h3><p>You leave knowing the recommended service, what to expect, and how to get started without confusion.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#f8fbfc;">
+      <div class="wrap contact-grid">
+        <div class="contact-box">
+          <div class="kicker">Contact Body Wise</div>
+          <h2>Ready to talk through your goals?</h2>
+          <p><strong>Phone:</strong> <a href="tel:+17046141511">(704) 614-1511</a></p>
+          <p><strong>Availability:</strong> Monday through Sunday, appointment only</p>
+          <p><strong>Service focus:</strong> Personal training, sport-specific training, health and wellness consultation, competition prep, VO2 max testing, and resting metabolic rate testing.</p>
+          <ul class="contact-list">
+            <li><strong>Best first step:</strong> Call for a free consultation</li>
+            <li><strong>Review proof:</strong> <a href="https://maps.app.goo.gl/PRDxB5hjBDZHc7Dw8">See Google reviews</a></li>
+            <li><strong>Social:</strong> <a href="https://facebook.com/BodyWiseTrainingCLT">Facebook</a> · <a href="https://instagram.com/bodywisepersonaltraining">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="cta-panel">
+          <div class="kicker" style="color:#c9fbff;">Start strong</div>
+          <h2 style="margin-bottom:14px;">Free consultation for Charlotte &amp; Pineville clients</h2>
+          <p style="margin-top:0;">If you want help losing weight, building muscle, improving performance, or getting back on track, let’s make the first step easy and specific.</p>
+          <div class="cta-row" style="margin-top:18px; margin-bottom:0;">
+            <a class="btn btn-primary" href="tel:+17046141511">Call (704) 614-1511</a>
+            <a class="btn btn-secondary" href="https://maps.app.goo.gl/PRDxB5hjBDZHc7Dw8">Read Google Reviews</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="font-size:30px;color:#fff;">Body Wise<small style="color:rgba(255,255,255,.72);">Personal Training</small></div>
+        </div>
+        <div>
+          <h3 style="font-size:22px;">Training</h3>
+          <p><a href="#services">Personal Training</a><br><a href="#services">Sport Specific Training</a><br><a href="#services">Health &amp; Wellness</a></p>
+        </div>
+        <div>
+          <h3 style="font-size:22px;">Advanced Services</h3>
+          <p><a href="#services">Competition Prep</a><br><a href="#services">VO2 Max Testing</a><br><a href="#services">Resting Metabolic Rate Testing</a></p>
+        </div>
+        <div>
+          <h3 style="font-size:22px;">Contact</h3>
+          <p><a href="tel:+17046141511">(704) 614-1511</a><br>Charlotte &amp; Pineville, NC<br>Appointment only</p>
+        </div>
+      </div>
+      <div class="footer-note">© Body Wise Personal Training. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>

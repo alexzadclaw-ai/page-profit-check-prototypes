@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Body Contouring, Energetic Healing & Integrative Wellness in St. Louis | Attuned Studios</title>
+  <meta name="description" content="Attuned Studios offers personalized body contouring, energetic healing, and mind-body integration sessions in St. Louis and by Zoom. Begin with a consultation to find the right wellness path." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sage: #76867c;
+      --sage-dark: #5f6d64;
+      --mist: #f6f4ef;
+      --sand: #ece5d9;
+      --ink: #2e342f;
+      --soft: #6f756f;
+      --white: #ffffff;
+      --line: #ddd5c8;
+      --shadow: 0 14px 30px rgba(54, 60, 54, 0.08);
+      --max: 1120px;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .wrap { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
+    .topbar {
+      background: #f8f6f1;
+      border-bottom: 1px solid #ebe4d7;
+      color: var(--soft);
+      font-size: 14px;
+    }
+    .topbar .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 0;
+    }
+    header {
+      background: rgba(255,255,255,0.96);
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      border-bottom: 1px solid rgba(118,134,124,0.14);
+      backdrop-filter: blur(10px);
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 0;
+    }
+    .brand {
+      text-align: left;
+      min-width: 240px;
+    }
+    .brand .name {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(34px, 4vw, 46px);
+      line-height: 0.92;
+      letter-spacing: 0.01em;
+    }
+    .brand .tag {
+      margin-top: 6px;
+      color: var(--soft);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 18px;
+      font-size: 15px;
+      color: var(--sage-dark);
+    }
+    .nav-links a:hover,
+    .mini-link:hover { color: var(--ink); }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: #d9ddd8;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(248,246,241,0.95) 0%, rgba(248,246,241,0.86) 46%, rgba(248,246,241,0.55) 68%, rgba(248,246,241,0.3) 100%),
+        url('https://images.squarespace-cdn.com/content/v1/5c9a3fd152395813b7a08afe/1765752052610-W7PPTFCJK1OWQM3FR60S/unsplash-image-V5DBwOOv0bo.jpg?format=1500w') center/cover no-repeat;
+    }
+    .hero .wrap {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.12fr 0.88fr;
+      gap: 28px;
+      align-items: center;
+      min-height: 720px;
+      padding: 74px 0;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(118,134,124,0.12);
+      border: 1px solid rgba(118,134,124,0.18);
+      color: var(--sage-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3, h4 {
+      margin: 0 0 14px;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      line-height: 1.03;
+      color: #2f352f;
+    }
+    h1 { font-size: clamp(52px, 7vw, 84px); max-width: 11ch; }
+    h2 { font-size: clamp(38px, 4.2vw, 58px); }
+    h3 { font-size: 34px; }
+    h4 { font-size: 26px; }
+    .hero-copy p {
+      max-width: 36rem;
+      font-size: 20px;
+      color: #495149;
+      margin: 0 0 24px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 22px;
+      min-width: 215px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 15px;
+      border: 1px solid transparent;
+      transition: transform .2s ease, background .2s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--sage-dark);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.76);
+      border-color: rgba(95,109,100,0.28);
+      color: var(--ink);
+    }
+    .micro-note {
+      font-size: 14px;
+      color: #5d675e;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.84);
+      border: 1px solid rgba(118,134,124,0.16);
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: var(--shadow);
+    }
+    .hero-card ul,
+    .list { padding-left: 18px; margin: 0; }
+    .hero-card li,
+    .list li { margin: 8px 0; }
+    .trust-strip {
+      background: linear-gradient(180deg, #f8f6f1 0%, #f4efe6 100%);
+      border-top: 1px solid #ece5d8;
+      border-bottom: 1px solid #ece5d8;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      padding: 20px 0;
+    }
+    .trust-item {
+      padding: 8px 10px;
+      border-left: 1px solid #ddd6cb;
+    }
+    .trust-item:first-child { border-left: 0; padding-left: 0; }
+    .trust-item strong {
+      display: block;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 32px;
+      color: var(--sage-dark);
+      margin-bottom: 2px;
+    }
+    section { padding: 78px 0; }
+    .section-intro {
+      max-width: 760px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    .kicker {
+      color: var(--sage-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .cards-3,
+    .cards-2,
+    .steps,
+    .footer-grid {
+      display: grid;
+      gap: 22px;
+    }
+    .cards-3 { grid-template-columns: repeat(3, 1fr); }
+    .cards-2 { grid-template-columns: repeat(2, 1fr); align-items: start; }
+    .steps { grid-template-columns: repeat(3, 1fr); }
+    .card,
+    .step,
+    .quote,
+    .contact-card,
+    .cta-panel {
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e6dfd3;
+      padding: 28px;
+    }
+    .card p { margin: 0 0 15px; color: #535b53; }
+    .card a {
+      color: var(--sage-dark);
+      font-weight: 700;
+    }
+    .feature-band {
+      background:
+        linear-gradient(rgba(95,109,100,0.86), rgba(95,109,100,0.86)),
+        url('https://images.squarespace-cdn.com/content/v1/5c9a3fd152395813b7a08afe/1765752404714-XENU2QFQFJW3IMFJWL91/unsplash-image-rQ27Kg2AF-c.jpg?format=1500w') center/cover no-repeat;
+      color: #fff;
+    }
+    .feature-band h2,
+    .feature-band h3,
+    .feature-band h4 { color: #fff; }
+    .feature-band p,
+    .feature-band li { color: rgba(255,255,255,0.9); }
+    .soft-panel {
+      background: rgba(255,255,255,0.09);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: var(--radius);
+      padding: 28px;
+    }
+    .quote {
+      background: #f9f6ef;
+      border: 1px solid #e7dfd2;
+      padding: 28px;
+    }
+    .quote p { margin: 0 0 10px; }
+    .step {
+      background: #fff;
+      border-top: 5px solid var(--sage-dark);
+      padding: 26px;
+    }
+    .step .num {
+      width: 36px;
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--sage-dark);
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .bio-photo {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      min-height: 100%;
+    }
+    .bio-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 1fr 0.92fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+    .contact-card {
+      background: #fff;
+      border: 1px solid #e7dfd2;
+      padding: 30px;
+    }
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 18px 0 0;
+    }
+    .contact-list li { margin-bottom: 12px; }
+    .contact-list strong { color: var(--sage-dark); }
+    .cta-panel {
+      background: linear-gradient(180deg, #f1ede5 0%, #e7e0d2 100%);
+      border: 1px solid #ddd5c7;
+      padding: 30px;
+    }
+    footer {
+      background: #556158;
+      color: rgba(255,255,255,0.92);
+      padding: 44px 0 22px;
+    }
+    footer h4 { color: #fff; }
+    .footer-grid { grid-template-columns: 1.2fr 0.9fr 0.9fr; }
+    .footer-note {
+      border-top: 1px solid rgba(255,255,255,0.18);
+      margin-top: 22px;
+      padding-top: 16px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.74);
+    }
+    @media (max-width: 980px) {
+      .hero .wrap,
+      .cards-3,
+      .cards-2,
+      .steps,
+      .contact-wrap,
+      .footer-grid,
+      .trust-grid { grid-template-columns: 1fr; }
+      .hero .wrap { min-height: auto; }
+      .trust-item {
+        border-left: 0;
+        border-top: 1px solid #ddd6cb;
+        padding-left: 0;
+        padding-top: 14px;
+      }
+      .trust-item:first-child { border-top: 0; padding-top: 0; }
+    }
+    @media (max-width: 720px) {
+      .wrap { width: min(calc(100% - 24px), var(--max)); }
+      .nav { align-items: flex-start; }
+      .nav-links { gap: 10px 14px; }
+      .hero .wrap { padding: 58px 0; }
+      .hero-copy p { font-size: 18px; }
+      section { padding: 58px 0; }
+      .btn { width: 100%; }
+      .brand { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>Founder-led wellness care in <strong>St. Louis, Missouri</strong> and by Zoom appointment.</div>
+      <div><a class="mini-link" href="mailto:Info@LightLoveEnergy.com">Info@LightLoveEnergy.com</a> · <a class="mini-link" href="tel:13148046611">314.804.6611</a></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="name">Attuned Studios</div>
+        <div class="tag">Claim Wellness Within the Mind.Body.Soul</div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#founder">About</a>
+        <a href="#contact">Book Sessions</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <div class="eyebrow">Personalized body + energy support</div>
+        <h1>Wellness care that meets your body gently.</h1>
+        <p>Attuned Studios offers personalized body contouring, energetic healing, and integrative wellness sessions designed to support your body’s natural intelligence with care, intention, and a clear next step.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Book Your Consultation</a>
+          <a class="btn btn-secondary" href="#services">Explore Services</a>
+        </div>
+        <div class="micro-note">Start with a conversation to clarify the right session path for your goals, comfort level, and schedule.</div>
+      </div>
+      <aside class="hero-card">
+        <h3>Your first visit can feel simple.</h3>
+        <ul>
+          <li>Choose support for body contouring, energetic balancing, or a more integrated wellness path.</li>
+          <li>Meet in St. Louis or schedule a Zoom-based session when that fits the modality.</li>
+          <li>Receive guidance shaped around your goals instead of a one-size-fits-all package.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <div class="trust-strip">
+    <div class="wrap trust-grid">
+      <div class="trust-item">
+        <strong>Founder-led</strong>
+        Personalized care shaped by Carrie Christisen’s multi-modality background.
+      </div>
+      <div class="trust-item">
+        <strong>3 clear paths</strong>
+        Body contouring, energetic healing, and mind-body integration sessions.
+      </div>
+      <div class="trust-item">
+        <strong>St. Louis + Zoom</strong>
+        Local appointments with remote options available where appropriate.
+      </div>
+      <div class="trust-item">
+        <strong>Consultation-first</strong>
+        Begin with a conversation before choosing the best-fit session plan.
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Services at Attuned Studios</div>
+        <h2>Choose the kind of support your body is asking for.</h2>
+        <p>Attuned Studios blends physical refinement, energetic balancing, and whole-person wellness into a calmer, more personal experience. Each service path is designed to help you begin with clarity instead of guesswork.</p>
+      </div>
+      <div class="cards-3">
+        <article class="card">
+          <h3>Body Contouring &amp; Sculpting</h3>
+          <p>Non-invasive treatments that support targeted shaping, lymphatic flow, skin appearance, and a more intentional body contouring plan.</p>
+          <p>Best for clients who want visible refinement with a personalized, supportive approach.</p>
+          <a href="https://www.lightloveenergy.com/bodysculpting">Learn about body contouring</a>
+        </article>
+        <article class="card">
+          <h3>Energetic &amp; Integrative Healing</h3>
+          <p>Sessions that support nervous system regulation, emotional clarity, energetic balance, and deeper restoration through sound, light, and bioenergetic modalities.</p>
+          <p>Best for clients seeking subtle but meaningful shifts in how they feel, process, and recover.</p>
+          <a href="https://www.lightloveenergy.com/energetichealing">Explore energetic healing</a>
+        </article>
+        <article class="card">
+          <h3>Mind–Body Integration Sessions</h3>
+          <p>A more personalized path for clients who want guided support across body awareness, subconscious release, mindset, and overall alignment.</p>
+          <p>Best for clients who want to talk through the right blend of care before booking a package.</p>
+          <a href="#contact">Talk through your options</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-band" id="approach">
+    <div class="wrap">
+      <div class="section-intro" style="text-align:left; margin:0 0 28px; max-width:840px;">
+        <div class="kicker" style="color:rgba(255,255,255,.82);">Our philosophy</div>
+        <h2>True wellness is not forced — it is supported.</h2>
+        <p>At Attuned Studios, every session is designed to meet your body where it is. The goal is not to rush or override your system, but to encourage release, balance, renewal, and refinement in a way that feels intentional.</p>
+      </div>
+      <div class="cards-2">
+        <div class="soft-panel">
+          <h3>What makes the experience different</h3>
+          <ul class="list">
+            <li>Personalized session planning instead of generic packages.</li>
+            <li>A calmer blend of science-informed wellness and intuitive care.</li>
+            <li>Options for visible body support, energetic balancing, or a more integrated path.</li>
+            <li>Booking that starts with a conversation, not pressure.</li>
+          </ul>
+        </div>
+        <div class="soft-panel">
+          <h3>Good fit for clients who want</h3>
+          <ul class="list">
+            <li>Body contouring with more personal guidance.</li>
+            <li>Energetic support for stress, imbalance, or restoration.</li>
+            <li>A founder-led wellness space that respects pacing and comfort.</li>
+            <li>More clarity before choosing services or packages.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="founder">
+    <div class="wrap">
+      <div class="cards-2">
+        <div>
+          <div class="kicker">About Attuned Studios</div>
+          <h2>Founder-led care with an integrative wellness lens.</h2>
+          <p>Attuned Studios is the evolution of Energetic Innovation &amp; Healing — created to bring body-based wellness, energetic care, and whole-person support into one intentional space. Founder Carrie Christisen brings a broad background across energy medicine, coaching, hypnosis-based work, biofeedback-informed modalities, and body contouring services.</p>
+          <p>The result is a practice built for people who want personal attention, a gentler pace, and guidance that respects both physical and energetic dimensions of wellness.</p>
+          <div class="quote">
+            <p><strong>Why this matters:</strong> clients are not dropped into a rigid menu. They are guided toward the service path that best fits their goals, readiness, and comfort level.</p>
+          </div>
+        </div>
+        <div class="bio-photo">
+          <img src="https://images.squarespace-cdn.com/content/v1/5c9a3fd152395813b7a08afe/5cbaa484-92fa-4da0-933b-7dcfbfec03b9/20251213_140407.jpg?format=1500w" alt="Founder of Attuned Studios" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--mist);">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">What happens next</div>
+        <h2>Your wellness journey begins with a conversation.</h2>
+        <p>A clear next step matters here. Instead of asking you to decode the full service menu alone, Attuned Studios starts by helping you choose the right path.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h4>Reach out</h4>
+          <p>Share what you are hoping to support — body contouring goals, energetic balance, deeper restoration, or a mix of concerns.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h4>Clarify the fit</h4>
+          <p>Review which type of session makes the most sense, what format is available, and how to approach scheduling with confidence.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h4>Book intentionally</h4>
+          <p>Move forward with a session or package that feels aligned with your goals, your timeline, and your comfort level.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact-wrap">
+      <div class="contact-card">
+        <div class="kicker">Book sessions</div>
+        <h2>Start with a consultation.</h2>
+        <p>If you are new to Attuned Studios, the easiest way to begin is with a conversation about what support you are looking for and which session path feels most appropriate.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:Info@LightLoveEnergy.com">Info@LightLoveEnergy.com</a></li>
+          <li><strong>Phone / Zoom Direct:</strong> <a href="tel:13148046611">314.804.6611</a></li>
+          <li><strong>Location:</strong> Saint Louis, Missouri</li>
+          <li><strong>Availability:</strong> Zoom sessions by appointment only, with online scheduling available.</li>
+        </ul>
+      </div>
+      <div class="cta-panel">
+        <h3>Helpful to know before booking</h3>
+        <p>Sessions and packages are personalized, and some services are best chosen after a short conversation first. If you already know what you want, you can go straight to the booking calendar. If not, start with email or a quick call.</p>
+        <div class="cta-row" style="margin-top:20px; margin-bottom:0;">
+          <a class="btn btn-primary" href="https://www.lightloveenergy.com/sessions">Open Scheduling Calendar</a>
+          <a class="btn btn-secondary" href="mailto:Info@LightLoveEnergy.com?subject=Consultation">Email Your Question</a>
+        </div>
+        <p class="micro-note" style="margin-top:18px;">Policies and package details can be reviewed during scheduling so the first interaction feels informed and low-pressure.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Attuned Studios</h4>
+          <p>Personalized body sculpting, energetic healing, and integrative wellness services designed to support your body’s natural intelligence.</p>
+        </div>
+        <div>
+          <h4>Service paths</h4>
+          <p><a href="https://www.lightloveenergy.com/bodysculpting">Body Contouring &amp; Sculpting</a><br />
+          <a href="https://www.lightloveenergy.com/energetichealing">Energetic &amp; Integrative Healing</a><br />
+          <a href="https://www.lightloveenergy.com/about">About Attuned Studios</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="mailto:Info@LightLoveEnergy.com">Info@LightLoveEnergy.com</a><br />
+          <a href="tel:13148046611">314.804.6611</a><br />
+          Saint Louis, Missouri</p>
+        </div>
+      </div>
+      <div class="footer-note">Claim Wellness Within the Mind.Body.Soul — founder-led care designed to help visitors understand the right first step with more confidence.</div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Trainers in Nashville | Basics and Beyond Fitness & Nutrition</title>
+  <meta name="description" content="Personal training, nutrition coaching, and online or in-home fitness support in Nashville. Start with a simple consultation and get matched with the right coach." />
+  <style>
+    :root {
+      --blue: #002693;
+      --blue-2: #274eab;
+      --gold: #ffba00;
+      --text: #333333;
+      --muted: #666666;
+      --line: #e6e9ef;
+      --bg-soft: #f7f7f7;
+      --bg-card: #fcfcfc;
+      --white: #ffffff;
+      --shadow: 0 10px 30px rgba(0, 24, 64, 0.08);
+      --radius: 26px;
+      --radius-sm: 16px;
+      --container: 1160px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(var(--container), calc(100% - 32px)); margin: 0 auto; }
+    .topbar {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 0;
+    }
+    .brand { display: flex; align-items: center; gap: 18px; }
+    .brand img { width: 215px; height: auto; }
+    .nav { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; color: #414141; }
+    .phone-cta, .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--blue);
+      color: #fff;
+      border-radius: 999px;
+      padding: 13px 22px;
+      font-size: 15px;
+      font-weight: 600;
+      box-shadow: var(--shadow);
+    }
+    .btn.secondary {
+      background: #fff;
+      color: var(--blue);
+      border: 1px solid rgba(0, 38, 147, 0.18);
+      box-shadow: none;
+    }
+    .hero {
+      position: relative;
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgba(0, 20, 74, 0.84) 0%, rgba(0, 20, 74, 0.7) 42%, rgba(0, 20, 74, 0.18) 100%),
+        url('https://gettingfit.com/wp-content/uploads/2024/04/best-personal-trainer-nashville-1536x707-1.webp') center/cover no-repeat;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 34px;
+      min-height: 620px;
+      align-items: center;
+      padding: 76px 0 72px;
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      font-size: 13px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(42px, 6vw, 70px);
+      line-height: 1.04;
+      font-weight: 400;
+    }
+    .hero p.lead {
+      margin: 0 0 22px;
+      max-width: 650px;
+      font-size: 19px;
+      color: rgba(255,255,255,0.92);
+    }
+    .hero-points {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px 18px;
+      margin: 0 0 28px;
+      padding: 0;
+      list-style: none;
+      font-size: 15px;
+    }
+    .hero-points li::before {
+      content: '•';
+      color: var(--gold);
+      margin-right: 8px;
+      font-weight: 700;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-card {
+      background: rgba(255,255,255,0.96);
+      color: var(--text);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.14);
+    }
+    .hero-card h2 {
+      margin: 0 0 14px;
+      color: var(--blue);
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 500;
+    }
+    .hero-card p { margin: 0 0 14px; color: #4f4f4f; }
+    .mini-list { list-style: none; margin: 16px 0 22px; padding: 0; }
+    .mini-list li {
+      padding: 11px 0;
+      border-top: 1px solid var(--line);
+      font-size: 15px;
+    }
+    .mini-list li:first-child { border-top: 0; }
+    section { padding: 66px 0; }
+    .trust-strip {
+      background: var(--bg-soft);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 22px 0;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      text-align: center;
+    }
+    .trust-grid strong {
+      display: block;
+      color: var(--blue);
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .section-intro { max-width: 760px; margin: 0 auto 30px; text-align: center; }
+    .section-intro h2 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 4vw, 42px);
+      color: var(--blue);
+      font-weight: 500;
+      line-height: 1.12;
+    }
+    .section-intro p { margin: 0; color: var(--muted); font-size: 17px; }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .card img { width: 100%; aspect-ratio: 1.65 / 1; object-fit: cover; }
+    .card-body { padding: 22px; }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      color: var(--blue);
+      font-weight: 500;
+    }
+    .card p { margin: 0 0 14px; color: #555; font-size: 15px; }
+    .text-link { color: var(--blue); font-weight: 600; }
+    .compare {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 20px;
+      align-items: start;
+    }
+    .compare-box {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+    .compare-head {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .compare-head div, .compare-row div { padding: 16px 18px; }
+    .compare-row {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      border-top: 1px solid var(--line);
+      font-size: 15px;
+    }
+    .compare-row:nth-child(even) { background: #fafbfd; }
+    .compare-row div:last-child { color: #666; }
+    .feature-list {
+      background: var(--bg-soft);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 24px;
+    }
+    .feature-list h3 { margin: 0 0 12px; color: var(--blue); font-size: 24px; font-weight: 500; }
+    .feature-list ul { margin: 0; padding-left: 18px; color: #555; }
+    .feature-list li { margin: 10px 0; }
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+      align-items: center;
+    }
+    .logo-chip {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 12px;
+      background: #fff;
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-chip img { max-height: 52px; width: auto; object-fit: contain; }
+    .testimonials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+    .quote {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .quote p { margin: 0 0 16px; color: #555; font-size: 15px; }
+    .quote strong { color: var(--blue); display: block; }
+    .process-grid, .trainer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .step, .trainer {
+      background: var(--bg-card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+    .step-num {
+      width: 42px; height: 42px; border-radius: 999px;
+      background: var(--blue); color: #fff; display: inline-flex; align-items: center; justify-content: center;
+      font-weight: 700; margin-bottom: 14px;
+    }
+    .step h3, .trainer h3 { margin: 0 0 10px; color: var(--blue); font-size: 23px; font-weight: 500; }
+    .trainer img {
+      width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 14px; margin-bottom: 16px;
+    }
+    .trainer .role { color: #777; font-size: 14px; margin-bottom: 10px; }
+    .contact-band {
+      background: linear-gradient(135deg, #05206f 0%, #163b9c 100%);
+      color: #fff;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+      align-items: center;
+    }
+    .contact-card {
+      background: rgba(255,255,255,0.98);
+      color: var(--text);
+      border-radius: 20px;
+      padding: 26px;
+    }
+    .contact-card h3 { margin: 0 0 10px; color: var(--blue); font-size: 24px; font-weight: 500; }
+    .contact-list { list-style: none; margin: 16px 0 0; padding: 0; }
+    .contact-list li { margin: 10px 0; color: #555; }
+    footer {
+      background: #111a37;
+      color: rgba(255,255,255,0.85);
+      padding: 24px 0 34px;
+      font-size: 14px;
+    }
+    .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+    }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 14px; }
+    @media (max-width: 1100px) {
+      .hero-inner, .compare, .contact-grid { grid-template-columns: 1fr; }
+      .card-grid, .testimonials, .process-grid, .trainer-grid, .trust-grid, .logos { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 760px) {
+      .topbar-inner { flex-direction: column; align-items: flex-start; }
+      .nav { gap: 10px 14px; }
+      .hero-inner { min-height: auto; padding: 56px 0; }
+      .hero-points, .card-grid, .testimonials, .process-grid, .trainer-grid, .trust-grid, .logos { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .phone-cta, .btn { width: 100%; }
+      section { padding: 52px 0; }
+      .compare-head, .compare-row { grid-template-columns: 1fr; }
+      .compare-head div:last-child, .compare-row div:last-child { border-top: 1px solid rgba(255,255,255,0.15); }
+      .contact-grid { gap: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <img src="https://gettingfit.com/wp-content/uploads/2024/04/logo-bb.webp" alt="Basics and Beyond fitness & nutrition" />
+        <nav class="nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#locations">Locations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <a class="phone-cta" href="tel:6154427700">Call Now: 615-442-7700</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="eyebrow">Personal Training · Nutrition Coaching · Nashville</span>
+          <h1>Personal Trainers in Nashville who meet you where you are</h1>
+          <p class="lead">Get expert one-on-one fitness and nutrition support without contracts, memberships, or cookie-cutter plans. Train in Nashville, in your home, or online with a coach matched to your goals.</p>
+          <ul class="hero-points">
+            <li>No contracts, packages, or gym membership required</li>
+            <li>Serving Nashville since 1993</li>
+            <li>Personal training, nutrition, and corrective support</li>
+            <li>Studio, in-home, and online options</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Book a consultation call</a>
+            <a class="btn secondary" href="tel:6154427700">Call 615-442-7700</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Start with a simple conversation</h2>
+          <p>Tell us your goals, schedule, and preferred training style. We’ll help you choose the right trainer, format, and next step without pushing a contract.</p>
+          <ul class="mini-list">
+            <li><strong>Personal training:</strong> one-on-one or bring a partner</li>
+            <li><strong>Nutrition coaching:</strong> practical support in person or online</li>
+            <li><strong>Flexible access:</strong> Nashville studios, in-home sessions, or virtual coaching</li>
+          </ul>
+          <a class="btn" href="#process">See how it works</a>
+        </aside>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="container trust-grid">
+        <div><strong>30+ years</strong><span>serving Nashville clients</span></div>
+        <div><strong>No contracts</strong><span>pay-as-you-go flexibility</span></div>
+        <div><strong>3 ways to train</strong><span>studio, in-home, or online</span></div>
+        <div><strong>One trusted team</strong><span>fitness, nutrition, and rehab-minded support</span></div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Choose the kind of support that fits your life</h2>
+          <p>Same brand, same high-credibility coaching — just clearer paths for how you want to get started.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/personal-training-hp.webp" alt="Personal training in Nashville" />
+            <div class="card-body">
+              <h3>Personal Training</h3>
+              <p>Work one-on-one with a certified trainer in Nashville. Build strength, lose weight, improve mobility, or get consistent with a plan designed for your body and schedule.</p>
+              <a class="text-link" href="#contact">Ask about personal training</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/locations-hp.webp" alt="In-home and online training" />
+            <div class="card-body">
+              <h3>In-Home or Online Coaching</h3>
+              <p>If the gym is inconvenient or uncomfortable, we can come to you or coach you remotely. It’s a practical fit for busy schedules, travel, privacy, and home gyms.</p>
+              <a class="text-link" href="#locations">See location options</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/nutrition-hp.webp" alt="Nutrition coaching" />
+            <div class="card-body">
+              <h3>Nutrition Coaching</h3>
+              <p>Pair your training with one-on-one nutrition support for weight loss, better energy, blood sugar awareness, or a healthier daily routine that actually sticks.</p>
+              <a class="text-link" href="#contact">Ask about nutrition coaching</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" style="background: var(--bg-soft);">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Why Nashville clients choose Basics and Beyond</h2>
+          <p>The big differentiators were already on the live site — this version just makes them easier to scan fast.</p>
+        </div>
+        <div class="compare">
+          <div class="compare-box">
+            <div class="compare-head">
+              <div>Basics and Beyond</div>
+              <div>Typical trainer setup</div>
+            </div>
+            <div class="compare-row">
+              <div>No contracts, memberships, or mandatory packages</div>
+              <div>Often locked behind packages or commitments</div>
+            </div>
+            <div class="compare-row">
+              <div>Personal training, nutrition help, and corrective-minded support in one team</div>
+              <div>Usually a narrower single-service offer</div>
+            </div>
+            <div class="compare-row">
+              <div>Multiple Nashville-area options plus in-home and online coaching</div>
+              <div>Limited locations or one training format</div>
+            </div>
+            <div class="compare-row">
+              <div>Led by a long-established Nashville trainer and educator</div>
+              <div>Credentials and experience often unclear up front</div>
+            </div>
+            <div class="compare-row">
+              <div>Pay for what you need instead of a one-size-fits-all package</div>
+              <div>Same sales structure regardless of your goals</div>
+            </div>
+          </div>
+          <aside class="feature-list">
+            <h3>What stands out right away</h3>
+            <ul>
+              <li>Serving Nashville clients since 1993</li>
+              <li>Trainer quality backed by visible credentials and long experience</li>
+              <li>Simple first step: talk through goals and get matched intentionally</li>
+              <li>Flexible for weight loss, strength, rehab-minded progress, and healthier routines</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-intro">
+          <h2>As featured in</h2>
+          <p>Established local trust matters. These recognizable media signals help reinforce the business’s real authority.</p>
+        </div>
+        <div class="logos">
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/dr-phil-1_200_310.webp" alt="Dr. Phil" /></div>
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/CNN-logo_200_310.webp" alt="CNN" /></div>
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/self-logo-1_200_310.webp" alt="SELF magazine" /></div>
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/better-nashville_200_310.webp" alt="Better Nashville" /></div>
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/4m-logo_200_310.webp" alt="Media logo" /></div>
+          <div class="logo-chip"><img src="https://gettingfit.com/wp-content/uploads/2024/04/daily-crave-1_200_310.webp" alt="Daily Crave" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--bg-soft);">
+      <div class="container">
+        <div class="section-intro">
+          <h2>What clients appreciate most</h2>
+          <p>Shorter, cleaner proof points instead of a long testimonial wall.</p>
+        </div>
+        <div class="testimonials">
+          <article class="quote">
+            <p>“Amazing and incredibly helpful. I decided to commit to coming every other week after one session.”</p>
+            <strong>Priscilla S.</strong>
+          </article>
+          <article class="quote">
+            <p>“Knowledgeable, motivating, and fun. The right amount of push without making the process miserable.”</p>
+            <strong>Alison client</strong>
+          </article>
+          <article class="quote">
+            <p>“A wonderful group of trainers with great guidance and practical support when needed.”</p>
+            <strong>Kasey A.</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="container">
+        <div class="section-intro">
+          <h2>How to get started</h2>
+          <p>The live site invited calls, but didn’t explain the next step clearly. This keeps the same direct tone while making the process obvious.</p>
+        </div>
+        <div class="process-grid">
+          <article class="step">
+            <div class="step-num">1</div>
+            <h3>Reach out</h3>
+            <p>Call or send a message with your goals, schedule, and whether you prefer studio, in-home, or online coaching.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">2</div>
+            <h3>Get matched</h3>
+            <p>Basics and Beyond helps you choose the trainer and format that fits your needs instead of pushing a generic package.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">3</div>
+            <h3>Begin your plan</h3>
+            <p>Start with a practical first session and build from there — personal training, nutrition help, or both.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="trainers" style="background: var(--bg-soft);">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Experienced trainers with different strengths</h2>
+          <p>The original site featured a large roster. This keeps the team credibility visible while making the homepage easier to scan.</p>
+        </div>
+        <div class="trainer-grid">
+          <article class="trainer">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/Dan-DeFigio.webp" alt="Dan DeFigio" />
+            <h3>Dan DeFigio</h3>
+            <div class="role">Director · Personal Training · Nutrition</div>
+            <p>Longtime Nashville trainer, author, and educator with decades of experience helping clients and fitness professionals alike.</p>
+          </article>
+          <article class="trainer">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/Libby-personal-trainer352px.webp" alt="Libby Carlson" />
+            <h3>Libby Carlson</h3>
+            <div class="role">Personal Trainer · Nutrition Coach</div>
+            <p>Supports clients with functional fitness, balance, strength, and overall wellness in a calm, practical way.</p>
+          </article>
+          <article class="trainer">
+            <img src="https://gettingfit.com/wp-content/uploads/2024/04/joe-brown-2.webp" alt="Jon Brown" />
+            <h3>Jon Brown</h3>
+            <div class="role">Personal Trainer · Nutrition Coach</div>
+            <p>Brings decades in health and fitness with a friendly, motivating style and a strong performance background.</p>
+          </article>
+        </div>
+        <p style="text-align:center; margin: 24px 0 0;"><a class="btn secondary" href="https://gettingfit.com/personal-trainers/">Meet the full trainer team</a></p>
+      </div>
+    </section>
+
+    <section id="locations">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Training options across Nashville and beyond</h2>
+          <p>Train in convenient Nashville-area facilities, in your home, or online if that fits your life better.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3>Nashville-area locations</h3>
+              <p>Convenient access around Nashville, Berry Hill, Green Hills, Belmont, Vanderbilt, Antioch, and nearby areas.</p>
+              <a class="text-link" href="https://gettingfit.com/locations-personal-trainers/">View location details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>In-home training</h3>
+              <p>Prefer privacy or convenience? Basics and Beyond can bring expert coaching directly to your home.</p>
+              <a class="text-link" href="#contact">Ask about in-home sessions</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Online coaching</h3>
+              <p>Remote guidance is a practical option for travel, busy routines, tighter budgets, or training from your own equipment.</p>
+              <a class="text-link" href="#contact">Ask about online options</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-band">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-intro" style="text-align:left; margin:0; max-width: unset;">
+            <h2 style="color:#fff;">Get in touch and start your fitness journey</h2>
+            <p style="color:rgba(255,255,255,0.88);">If you want a trainer who can help you build a plan that fits real life, this is the easiest next step.</p>
+          </div>
+          <div class="hero-actions" style="margin-top:24px;">
+            <a class="btn" href="tel:6154427700">Call 615-442-7700</a>
+            <a class="btn secondary" href="https://gettingfit.com/contact/">Send a message</a>
+          </div>
+        </div>
+        <aside class="contact-card">
+          <h3>Contact</h3>
+          <p>Reach out today and a trainer will follow up to talk through your goals, location preferences, and the best place to start.</p>
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> 615-442-7700</li>
+            <li><strong>Main location:</strong> 2424 21st Ave. S. Suite #104, Nashville, TN 37212</li>
+            <li><strong>Services:</strong> Personal training, nutrition coaching, online coaching, in-home support</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>© 2026 Basics and Beyond fitness & nutrition</div>
+      <div class="footer-links">
+        <a href="https://gettingfit.com/personal-trainers/">Personal Trainers</a>
+        <a href="https://gettingfit.com/nutrition-counseling/">Nutrition Counseling</a>
+        <a href="https://gettingfit.com/locations-personal-trainers/">Locations</a>
+        <a href="https://gettingfit.com/privacy-policy/">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
