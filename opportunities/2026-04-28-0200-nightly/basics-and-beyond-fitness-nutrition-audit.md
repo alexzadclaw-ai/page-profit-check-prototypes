@@ -8,7 +8,7 @@
 - **Reviewed:** 2026-04-28
 - **Prototype direction:** Conservative cleanup focused on conversion clarity, trust framing, CTA hierarchy, mobile scannability, and SEO polish
 
-## Summary
+## Quick take
 
 Basics and Beyond has real authority: long tenure, multiple trainers, nutrition support, location flexibility, media credibility, and a clear no-contract angle. The problem is not lack of substance. It is that the homepage and trainer page try to say everything at once.
 
@@ -25,7 +25,7 @@ This is a strong **cleanup-and-clarity** opportunity, not a radical rebrand.
 - Broad service stack: personal training, nutrition, online, in-home, rehab/corrective support
 - Good trust assets available for reuse: longevity, media mentions, reviews, multiple locations
 
-## Biggest page-profit opportunities
+## Biggest conversion issues
 
 ### 1) Reduce homepage bloat and repeated messaging
 The homepage repeats the same ideas in several places:
@@ -162,3 +162,46 @@ This is exactly the kind of site where a small business has strong real-world cr
 - Trainers page: https://gettingfit.com/personal-trainers/
 - Contact page: https://gettingfit.com/contact/
 - Phone: [615-442-7700](tel:615-442-7700)
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Homepage bloat and repeated messaging | Critical | Compresses the opening path into one hero, one trust strip, and cleaner section sequencing | Hero + trust strip + page flow | Improved |
+| Hero needs one primary action | Critical | Centers the page on a stronger phone-led CTA with a secondary trainer CTA | Hero | Fixed |
+| Credibility feels scattered | High | Consolidates longevity, no-contract positioning, and trainer credibility into tighter proof sections | Trust strip + trainer preview | Improved |
+| Service paths are hard to self-sort | High | Breaks the offer into personal training, nutrition, in-home/online, and recovery support lanes | Services section | Fixed |
+| Comparison-table / formatting rough edges hurt polish | Medium | Replaces clutter emphasis with a shorter “what to simplify” framing rather than a draft-like comparison block | Mid-page cleanup section | Improved |
+| FAQ is too long and sales-heavy | Medium | Trims the structure toward a shorter, more practical homepage path | FAQ direction + simplified content layout | Improved |
+| Trainer authority is overloaded on the homepage | Medium | Uses featured trainers as a preview and pushes the full roster to the trainer page | Trainer preview section | Fixed |
+
+## Similarity check
+
+### Preserved elements
+- Nashville-first positioning with flexible training formats
+- no-contract / no-membership advantage as a key differentiator
+- broad fitness-plus-nutrition support rather than a single narrow service
+- established, credibility-led local-business tone
+
+### Surgical changes
+- reduced repetition so the page reads like one guided decision instead of many stacked sales sections
+- reframed services around common visitor needs instead of overlapping descriptions
+- surfaced featured trainers as a preview instead of making the homepage carry every bio detail
+- tightened CTA hierarchy around calling first and exploring trainers second
+
+### Unavoidable deviations
+- the prototype appears to streamline the comparison content rather than proving every original comparison row was rebuilt verbatim
+- exact footer/social duplication cleanup is not fully provable from the audit alone, so coverage there should be treated as partial
+
+## Final acceptance checklist
+
+- [x] Main CTA hierarchy is clearer than the original
+- [x] Service categories are easier to scan quickly
+- [x] Trust signals are grouped more intentionally
+- [x] Homepage and trainer-page roles are more clearly separated
+- [x] Mobile-first sectioning is improved
+- [ ] Full resolution of all duplicated footer/social elements is proven
+
+**Visual resemblance:** High
+**Audit coverage:** High
+

@@ -10,7 +10,7 @@
 - **Audit date:** 2026-04-28
 - **Positioning of this recommendation:** **Conversion-focused cleanup with a more credible local-service presentation**
 
-## Summary
+## Quick take
 
 This business has a solid underlying offer: 20+ years of experience, visually tangible outdoor projects, multiple service categories, and a local-service footprint that can support high-value quote requests. The problem is not the service itself — it is the website presentation.
 
@@ -24,7 +24,7 @@ Right now the site creates friction with:
 
 That combination makes the page feel less established than the company likely is. A polished, quote-first landing page could make the business look more credible immediately without changing the core offer.
 
-## What’s already working
+## What is already working
 
 1. **Clear local-service category** with strong homeowner intent
 2. **20+ years of experience** mentioned on the homepage
@@ -32,7 +32,7 @@ That combination makes the page feel less established than the company likely is
 4. **Direct phone contact** already present on the site
 5. **Portfolio/gallery angle** that can support trust once presented more cleanly
 
-## Biggest conversion problems
+## Biggest conversion issues
 
 ### 1) The top of the site does not behave like a quote page
 The homepage hero says “we make your dream come true,” but it does not quickly answer:
@@ -173,3 +173,47 @@ This batch includes:
 - a draft outreach offer for Alexey review only
 - a static prototype HTML
 - target and prototype screenshots
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Top of site does not behave like a quote page | Critical | Rewrites the hero around hardscapes, landscaping, decks, fences, and a direct quote path | Hero | Fixed |
+| Template residue and grammar issues hurt trust | Critical | Replaces cluttered presentation with cleaner service grouping, proof framing, and CTA structure | Page-wide structure | Improved |
+| CTA hierarchy is weak | High | Gives quote request and project review a clearer, repeated sequence | Hero + quote path | Fixed |
+| Services are noisy instead of buyer-oriented | High | Groups offerings into homeowner-friendly categories | Services section | Fixed |
+| Visible proof is buried | Medium | Adds portfolio framing and trust blocks closer to the quote CTA | Proof section | Improved |
+| Navigation is too cluttered | Medium | Implies a simpler structure centered on services, projects, and contact | Overall page model | Improved |
+| Local-service SEO cues need cleanup | Medium | Brings local homeowner intent and practical service language into the main page story | Hero + local/service framing | Improved |
+
+## Similarity check
+
+### Preserved elements
+- local-homeowner positioning with a quote-first intent
+- service breadth across hardscapes, landscape work, decks, fences, and exterior improvements
+- practical, contractor-style tone rather than a polished luxury-agency redesign
+- emphasis on years of experience and visual project proof
+
+### Surgical changes
+- swapped the generic slogan for a clearer service-and-location headline
+- reorganized services around what homeowners actually want built
+- added a simpler estimate process to reduce hesitation
+- moved trust and portfolio framing closer to the points where someone decides to call
+
+### Unavoidable deviations
+- exact grammar cleanup is strongly implied but not proven line-by-line against every live-page sentence
+- removal of every irrelevant footer/demo link is directional unless secondary-page cleanup was separately verified
+
+## Final acceptance checklist
+
+- [x] Hero behaves like a quote page
+- [x] Service categories are cleaner and buyer-oriented
+- [x] Quote process is easier to understand
+- [x] Proof is placed closer to the CTA
+- [x] Local-homeowner framing is stronger
+- [x] The page still feels appropriate for a local contractor
+- [ ] Complete elimination of all live template residue is independently proven
+
+**Visual resemblance:** High
+**Audit coverage:** High
+

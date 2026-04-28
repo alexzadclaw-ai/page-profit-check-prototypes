@@ -8,7 +8,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a **credible cleanup and restructuring opportunity**, not a flashy redesign pitch.
 
-## Snapshot
+## Quick take
 
 Strength PT Boston already has good raw ingredients: a focused adult-strength offer, a clean visual baseline, clear consult intent, strong education signals, and a specific South Boston location.
 
@@ -25,7 +25,7 @@ That makes this a good fit for a **$99 mini-audit + optional cleanup sprint**, b
 - The site already pushes toward a consultation instead of scattering too many actions
 - South Boston / South End / Seaport location signals are useful for local intent
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Make the hero do more conversion work
 The current hero is polished but broad. It explains the category, yet it does not fully answer:
@@ -123,6 +123,19 @@ Useful FAQ topics:
 - What happens during the consultation?
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Hero is polished but too broad | Critical | Refines the first-screen message around adult strength coaching and clearer fit | Hero | Improved |
+| Trust proof appears too late | High | Moves credentials and expertise closer to the first CTA | Trust strip / early credibility block | Improved |
+| Consultation value is under-explained | High | Adds a short what-happens-next explanation near the main CTA | Consultation/process section | Improved |
+| Ideal client is not clear enough soon enough | High | Clarifies likely-fit audiences earlier in the page | Fit section / hero support copy | Improved |
+| Service paths need clearer jobs | High | Distinguishes 1:1, health coaching, and hybrid/virtual offers more explicitly | Services section | Improved |
+| Local trust signals can be stronger | Medium | Reinforces South Boston and related in-person context more clearly | Local trust / contact sections | Improved |
+| Results/testimonial framing is light | Medium | Gives proof and reassurance a more intentional place in the page story | Proof/testimonial section | Improved |
+| Contact-page CTA support is thin | Medium | Strengthens the final inquiry block with no-pressure reassurance | Final CTA / contact section | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -175,6 +188,20 @@ A realistic cleanup sprint could include:
 6. FAQ section
 7. stronger contact-page reassurance copy
 8. light SEO cleanup for title/meta/headings if needed
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Calm premium coaching feel is retained
+- [x] Hero and fit messaging are clearer than the original
+- [x] Consultation flow is better explained
+- [x] Service paths are easier to distinguish
+- [x] The page still feels like the same local strength-coaching brand
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
+
 
 ## Artifact paths
 

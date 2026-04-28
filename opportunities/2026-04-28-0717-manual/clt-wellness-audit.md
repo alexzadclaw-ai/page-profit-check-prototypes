@@ -166,6 +166,18 @@ Best fit for outreach:
 - Contact: https://www.cltwellness.com/contact
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Placeholder/template residue damages trust | Critical | Replaces unfinished-looking content with a cleaner specialist presentation | Header, hero, contact/footer areas | Improved |
+| Booking path is unclear | Critical | Clarifies the primary next step with stronger consultation-led CTA support | Hero + CTA/process sections | Improved |
+| Hero is warm but under-structured | High | Refines the opening message around pregnancy-to-postpartum support and how to begin | Hero | Improved |
+| Credentials sit too far from the CTA story | High | Moves Carolyn’s credibility closer to the top of the page | Trust strip / early credibility block | Improved |
+| Service categories need better packaging | High | Organizes support into clearer stage- and service-based paths | Services / support paths | Improved |
+| Testimonials are underdeveloped | Medium | Adds stronger structural space for reassurance and proof without overclaiming outcomes | Proof/testimonial section | Improved |
+| Contact-page reassurance is too light | Medium | Strengthens the consultation handoff with calmer explanatory copy | Contact/final CTA section | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -181,6 +193,20 @@ Best fit for outreach:
 ### Unavoidable deviations
 - some structure is more explicit because the live page leaves too many gaps
 - placeholder text had to be rewritten to make the page viable
+
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Hero and booking path are clearer than the original
+- [x] Founder credentials appear earlier in the page story
+- [x] Service paths are easier for moms/families to understand
+- [x] Placeholder-style trust leaks are structurally addressed
+- [x] The page still feels gentle, specialist, and pre/postnatal-focused
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
 
 
 ## Artifact paths

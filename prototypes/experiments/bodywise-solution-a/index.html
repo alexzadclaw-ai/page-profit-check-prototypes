@@ -3,112 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Body Wise Personal Training — Solution A</title>
-  <meta name="description" content="High-fidelity surgical clone experiment for Body Wise Personal Training.">
+  <title>Personal Training in Charlotte & Pineville, NC | Body Wise Personal Training</title>
+  <meta name="description" content="Personal training, weight loss coaching, sport-specific training, and fitness testing in Charlotte and Pineville, NC. Book your free consultation with Body Wise Personal Training.">
   <meta name="robots" content="noindex,nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
       --teal1:#0d7484;
-      --teal2:#01242a;
+      --teal2:#02292f;
       --ink:#2b2b2b;
-      --muted:#666;
-      --line:#e8e2db;
-      --cream:#f8f5f1;
-      --card:#f4efe9;
-      --wrap:min(1180px,calc(100% - 32px));
-      --shadow:0 18px 45px rgba(0,0,0,.14);
+      --copy:#555;
+      --line:#e6e6e6;
+      --soft:#f5f5f5;
+      --white:#fff;
+      --wrap:min(1180px, calc(100% - 32px));
+      --shadow:0 14px 34px rgba(0,0,0,.11);
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:'Montserrat',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+    body{margin:0;font-family:'Source Sans 3',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.45}
     a{text-decoration:none;color:inherit}
     img{display:block;max-width:100%}
     .wrap{width:var(--wrap);margin:0 auto}
-    .topbar{background:linear-gradient(90deg,var(--teal1),var(--teal2));color:#fff;font-size:13px}
-    .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:9px 0;flex-wrap:wrap}
-    .topbar .phone{font-weight:700}
-    .topbar .review{opacity:.98}
-    .topbar .socials{display:flex;gap:12px;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
-    header{background:#fff;border-bottom:1px solid #f0ece7}
+    .topbar{background:linear-gradient(90deg,var(--teal1),var(--teal2));color:#fff;font-size:14px}
+    .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:8px 0;flex-wrap:wrap}
+    .phone{font-weight:700}
+    .top-note{opacity:.98}
+    .service-area{font-weight:600}
+    header{background:#fff;border-bottom:1px solid #ececec}
     .header-main{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0 10px}
-    .logo img{width:230px;max-width:44vw}
+    .logo img{width:230px;max-width:46vw}
     .cta-mini{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:flex-end}
-    .cta-mini .call{font-weight:800;font-size:22px;color:#23363a}
-    .cta-mini .button{background:var(--teal1);color:#fff;padding:12px 16px;border-radius:4px;font-weight:700}
-    .nav-row{display:flex;gap:18px;flex-wrap:wrap;padding:12px 0 16px;font-size:14px;font-weight:500;color:#445}
+    .cta-mini .call{font-family:'Montserrat',Arial,sans-serif;font-weight:700;font-size:22px;color:#26373b}
+    .button{display:inline-block;background:var(--teal1);color:#fff;padding:12px 18px;border-radius:4px;font-weight:700;box-shadow:var(--shadow)}
+    .nav-row{display:flex;gap:18px;flex-wrap:wrap;padding:12px 0 16px;font-size:15px;font-weight:600;color:#404b53}
     .nav-row a:hover{color:var(--teal1)}
-    .hero{min-height:700px;background:linear-gradient(rgba(9,26,31,.28),rgba(9,26,31,.34)),url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_2_gir-1920w.jpeg') center/cover no-repeat;display:flex;align-items:center;text-align:center;color:#fff}
-    .hero .wrap{padding:70px 0}
-    .eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:8px 12px;border:1px solid rgba(255,255,255,.38);border-radius:999px;background:rgba(255,255,255,.08);margin-bottom:18px}
-    h1{margin:0 auto 16px;max-width:980px;font-size:56px;line-height:1.08;font-weight:800;text-transform:uppercase;text-shadow:0 3px 14px rgba(0,0,0,.24)}
-    .hero p{margin:0 auto 28px;max-width:760px;font-size:28px;font-weight:500;text-shadow:0 2px 8px rgba(0,0,0,.24)}
+    .hero{min-height:700px;background:linear-gradient(rgba(7,24,29,.28),rgba(7,24,29,.36)),url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_2_gir-1920w.jpeg') center/cover no-repeat;display:flex;align-items:center;text-align:center;color:#fff}
+    .hero .wrap{padding:76px 0}
+    .eyebrow{display:inline-block;font-family:'Montserrat',Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:8px 12px;border:1px solid rgba(255,255,255,.4);border-radius:999px;background:rgba(255,255,255,.08);margin-bottom:18px}
+    h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
+    h1{margin:0 auto 14px;max-width:980px;font-size:54px;line-height:1.06;font-weight:800;text-transform:uppercase;text-shadow:0 3px 14px rgba(0,0,0,.26)}
+    .hero p{margin:0 auto 26px;max-width:760px;font-size:28px;font-weight:600;text-shadow:0 2px 8px rgba(0,0,0,.24)}
     .hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
-    .btn{display:inline-block;padding:15px 24px;border-radius:4px;font-weight:700;transition:.2s ease}
-    .btn-primary{background:#fff;color:#173238;box-shadow:var(--shadow)}
-    .btn-secondary{border:1px solid rgba(255,255,255,.55);color:#fff;background:rgba(255,255,255,.08)}
+    .btn{display:inline-block;padding:15px 24px;border-radius:4px;font-weight:700;transition:.18s ease}
+    .btn-primary{background:#fff;color:#14343a;box-shadow:var(--shadow)}
+    .btn-secondary{border:1px solid rgba(255,255,255,.6);color:#fff;background:rgba(255,255,255,.08)}
     .btn:hover{transform:translateY(-1px)}
-    .services-band{background:url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_12_bkgfeature-1920w.jpeg') center/cover no-repeat;position:relative}
-    .services-band::before{content:'';position:absolute;inset:0;background:rgba(20,20,20,.42)}
-    .services-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr)}
-    .service{min-height:430px;padding:28px 22px;display:flex;flex-direction:column;justify-content:flex-end;border-right:1px solid rgba(255,255,255,.12);color:#fff;text-align:center}
+    .trust-strip{background:#fff;position:relative;z-index:2;margin-top:-42px}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .trust-card{background:#fff;border:1px solid #dfe8ea;padding:18px 16px;text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.06)}
+    .trust-card strong{display:block;font-family:'Montserrat',Arial,sans-serif;font-size:18px;margin-bottom:4px;color:#1e3e44}
+    .trust-card span{color:#5e666a;font-size:15px}
+    .services-band{margin-top:24px;background:url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/imgi_12_bkgfeature-1920w.jpeg') center/cover no-repeat;position:relative}
+    .services-band::before{content:'';position:absolute;inset:0;background:rgba(18,18,18,.46)}
+    .services-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);width:min(1440px,100%);margin:0 auto}
+    .service{min-height:390px;padding:28px 20px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;border-right:1px solid rgba(255,255,255,.14);color:#fff;text-align:center}
     .service:last-child{border-right:0}
-    .service h2{margin:0 0 10px;font-size:32px;line-height:1.08;font-weight:700}
+    .service h2{margin:0;font-size:31px;line-height:1.08;font-weight:700}
+    .service p{margin:0;color:rgba(255,255,255,.9);font-size:18px}
     .service a{font-weight:700;font-size:14px;letter-spacing:.04em}
-    .quote{background:linear-gradient(rgba(33,33,33,.42),rgba(33,33,33,.42)),url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/dl2-1920w.jpg') center/cover no-repeat;color:#fff;text-align:center;padding:108px 20px}
-    .quote h2{margin:0 auto 16px;max-width:980px;font-size:50px;line-height:1.15;font-weight:700;text-transform:uppercase;text-shadow:0 3px 12px rgba(0,0,0,.25)}
-    .quote p{margin:0 0 24px;font-size:24px;font-weight:500}
-    .proof{background:var(--cream);padding:54px 0}
-    .proof-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
+    .quote{background:linear-gradient(rgba(33,33,33,.44),rgba(33,33,33,.44)),url('https://lirp.cdn-website.com/b62b0dcb/dms3rep/multi/opt/dl2-1920w.jpg') center/cover no-repeat;color:#fff;text-align:center;padding:94px 20px}
+    .quote h2{margin:0 auto 14px;max-width:980px;font-size:48px;line-height:1.12;font-weight:700;text-transform:uppercase;text-shadow:0 3px 12px rgba(0,0,0,.25)}
+    .quote p{margin:0 0 22px;font-size:24px;font-weight:600}
+    .proof{background:#faf8f5;padding:54px 0}
+    .proof-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:26px;align-items:start}
     .panel{background:#fff;border:1px solid var(--line);box-shadow:0 10px 28px rgba(25,25,25,.05)}
-    .copy{padding:34px}
-    .copy h3,.contact h3{margin:0 0 10px;font-size:34px;line-height:1.15}
-    .copy h4{margin:0 0 16px;font-size:21px;color:#4e4e4e;font-weight:600}
-    .copy p{margin:0 0 14px;color:#555}
-    .bullets{margin:18px 0 0;padding-left:20px}
-    .bullets li{margin:10px 0}
-    .badge-box{padding:28px;background:#fff;border:1px solid var(--line)}
-    .badge-box img{max-width:260px;margin:0 auto 18px}
-    .badge-box h3{margin:0 0 8px;font-size:28px;line-height:1.15;text-align:center}
-    .stat-list{display:grid;gap:12px;margin-top:18px}
-    .stat{background:var(--card);border:1px solid #ebe2d8;padding:14px 15px;font-size:14px;color:#444}
-    .intent-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
-    .intent{background:#fff;border:1px solid var(--line);padding:16px}
-    .intent strong{display:block;margin-bottom:6px;font-size:15px}
+    .copy,.badge-box,.contact,.contact-card{padding:30px}
+    .copy h3,.contact h3{margin:0 0 10px;font-size:34px;line-height:1.12}
+    .copy h4{margin:0 0 14px;font-size:22px;color:#4f4f4f;font-weight:600}
+    .copy p{margin:0 0 12px;color:var(--copy);font-size:19px}
+    .buyer-paths{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+    .path{border:1px solid #e7e0d8;background:#fff;padding:16px}
+    .path strong{display:block;font-family:'Montserrat',Arial,sans-serif;font-size:18px;margin-bottom:6px}
+    .path span{color:#5a5a5a;font-size:16px}
+    .badge-box img{max-width:270px;margin:0 auto 16px}
+    .badge-box h3{margin:0 0 10px;font-size:28px;line-height:1.15;text-align:center}
+    .badge-box p{margin:0 0 14px;color:#5b5b5b;font-size:18px;text-align:center}
+    .stat-list{display:grid;gap:12px}
+    .stat{background:#f5f8f8;border:1px solid #dde7e8;padding:14px 15px;color:#425058;font-size:16px}
     .consult{padding:56px 0;background:#fff}
-    .contact-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:24px}
-    .contact{padding:32px}
-    .sub{color:#5d5d5d;margin-top:0}
+    .contact-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:24px}
+    .sub{color:#5b6266;margin:0 0 18px;font-size:18px}
     .next-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 22px}
-    .step{background:var(--cream);border:1px solid var(--line);padding:16px}
+    .step{background:#f8f8f8;border:1px solid #e3e3e3;padding:16px}
     .step span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:999px;background:var(--teal1);color:#fff;font-weight:700;margin-bottom:8px}
+    .step strong{display:block;font-family:'Montserrat',Arial,sans-serif;font-size:17px;margin-bottom:6px}
+    .micro{font-size:15px;color:#626262}
     .fake-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-    .field,.textarea,.select-chip{border:1px solid #d8d4cf;background:#fff;padding:13px 12px;color:#777;font-size:14px;border-radius:3px}
+    .field,.textarea,.select-chip{border:1px solid #d9d9d9;background:#fff;padding:13px 12px;color:#6e6e6e;font-size:15px;border-radius:3px}
     .textarea,.full{grid-column:1/-1}
-    .textarea{min-height:128px}
+    .textarea{min-height:120px}
     .chips{display:flex;gap:8px;flex-wrap:wrap}
-    .select-chip{background:#f7f3ed}
+    .select-chip{background:#f7f7f7}
     .book{display:inline-block;margin-top:16px;background:#23363a;color:#fff;padding:14px 20px;border-radius:4px;font-weight:700}
-    .contact-card{padding:32px;background:linear-gradient(180deg,#fff,#fbf8f4)}
-    .contact-card .loc{font-size:24px;line-height:1.3;font-weight:700;margin-bottom:14px}
-    .micro{font-size:14px;color:#666}
-    .cleanups{margin-top:20px;padding-left:18px;color:#555}
-    footer{background:#f6f1ea;border-top:1px solid #e8e1d7;padding:26px 0 34px;color:#666;font-size:14px}
+    .contact-card{background:linear-gradient(180deg,#fff,#f8f8f8)}
+    .contact-card .loc{font-family:'Montserrat',Arial,sans-serif;font-size:24px;line-height:1.3;font-weight:700;margin-bottom:14px}
+    .contact-card p{font-size:18px;color:#555;margin:0 0 14px}
+    .areas{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}
+    .area{border:1px solid #e2e2e2;background:#fff;padding:12px 14px;font-size:15px;color:#4f4f4f}
+    footer{background:#f5f5f5;border-top:1px solid #e4e4e4;padding:24px 0 32px;color:#606060;font-size:15px}
     .footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
-    .footer-note{font-size:12px;color:#888;margin-top:8px}
     @media (max-width:1100px){
-      h1{font-size:46px}.hero p{font-size:24px}.service{min-height:350px}.service h2{font-size:28px}.quote h2{font-size:40px}
+      h1{font-size:46px}.hero p{font-size:24px}.trust-grid,.services-grid{grid-template-columns:repeat(2,1fr)}.service:nth-child(2){border-right:0}.service{min-height:320px}.quote h2{font-size:40px}
     }
-    @media (max-width:860px){
-      .services-grid,.intent-strip,.next-steps,.proof-grid,.contact-grid{grid-template-columns:1fr 1fr}
-      .service:nth-child(2){border-right:0}
-      h1{font-size:38px}.hero{min-height:600px}.quote{padding:82px 20px}.quote h2{font-size:34px}
+    @media (max-width:840px){
+      .proof-grid,.contact-grid,.buyer-paths,.next-steps{grid-template-columns:1fr 1fr}
+      .trust-strip{margin-top:-24px}
     }
     @media (max-width:640px){
-      .header-main{flex-direction:column;align-items:flex-start}.cta-mini{justify-content:flex-start}.nav-row,.services-grid,.intent-strip,.next-steps,.proof-grid,.contact-grid,.fake-form{grid-template-columns:1fr;display:grid}.services-grid{gap:0}.service{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);min-height:220px}.service:last-child{border-bottom:0}
-      h1{font-size:31px}.hero p{font-size:20px}.copy h3,.contact h3{font-size:28px}.quote h2{font-size:28px}
+      .header-main{flex-direction:column;align-items:flex-start}.cta-mini{justify-content:flex-start}.nav-row,.trust-grid,.services-grid,.proof-grid,.buyer-paths,.contact-grid,.next-steps,.fake-form,.areas{grid-template-columns:1fr;display:grid}
+      .services-grid{gap:0}.service{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);min-height:220px}.service:last-child{border-bottom:0}
+      h1{font-size:32px}.hero{min-height:620px}.hero p{font-size:21px}.quote h2{font-size:30px}.copy h3,.contact h3{font-size:28px}
     }
   </style>
 </head>
@@ -116,8 +123,8 @@
   <div class="topbar">
     <div class="wrap">
       <div class="phone">(704) 614-1511</div>
-      <div class="review">Feel Empowered - Leave us a review on Google!</div>
-      <div class="socials"><span>Facebook</span><span>Twitter</span><span>Instagram</span><span>Google</span></div>
+      <div class="top-note">Feel Empowered — Leave us a review on Google!</div>
+      <div class="service-area">Charlotte · Pineville · South Park</div>
     </div>
   </div>
 
@@ -134,24 +141,17 @@
     <nav class="wrap nav-row" aria-label="Primary">
       <a href="#top">Home</a>
       <a href="#services">Training Options</a>
-      <a href="#services">Personal Training</a>
-      <a href="#services">Sport Specific Training</a>
-      <a href="#services">Health &amp; Wellness</a>
-      <a href="#services">Competition Prep Training</a>
-      <a href="#services">VO2 Max Testing</a>
-      <a href="#services">Resting Metabolic Rate Testing</a>
-      <a href="#trainers">Meet The Trainers</a>
-      <a href="#packages">Packages</a>
-      <a href="#specials">Specials</a>
+      <a href="#proof">Why Body Wise</a>
       <a href="#contact">Contact</a>
+      <a href="tel:+17046141511">Call Now</a>
     </nav>
   </header>
 
   <section class="hero" id="top">
     <div class="wrap">
       <div class="eyebrow">25 years of experience</div>
-      <h1>Get in the best shape of your life using Body Wise Personal Training in Charlotte &amp; Pineville, NC</h1>
-      <p>Get a customized fitness and meal plan to feel your best.</p>
+      <h1>Personal training, weight loss coaching, and performance support in Charlotte &amp; Pineville, NC</h1>
+      <p>Get a customized fitness and meal plan built around your goals, schedule, and experience level.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#contact">Book Your Free Consultation</a>
         <a class="btn btn-secondary" href="tel:+17046141511">Call (704) 614-1511</a>
@@ -159,63 +159,69 @@
     </div>
   </section>
 
+  <section class="trust-strip" aria-label="Trust highlights">
+    <div class="wrap trust-grid">
+      <div class="trust-card"><strong>25 Years</strong><span>Helping clients build strength, confidence, and consistency.</span></div>
+      <div class="trust-card"><strong>1-on-1 Plans</strong><span>Customized training and meal guidance built around your goals.</span></div>
+      <div class="trust-card"><strong>Free Consultation</strong><span>Start with a conversation about your body, schedule, and goals.</span></div>
+      <div class="trust-card"><strong>Local Support</strong><span>Serving Charlotte, Pineville, and South Park clients.</span></div>
+    </div>
+  </section>
+
   <section class="services-band" id="services">
-    <div class="services-grid wrap" style="width:min(1440px,100%)">
+    <div class="services-grid">
       <article class="service">
-        <h2>Personal Training</h2>
-        <a href="#contact">Learn More</a>
+        <h2>Lose Weight &amp; Tone Up</h2>
+        <p>Personal training and wellness support for steady, realistic progress.</p>
+        <a href="#contact">Start Here</a>
       </article>
-      <article class="service" id="trainers">
-        <h2>Meet the Trainers</h2>
-        <a href="#proof-copy">Learn More</a>
+      <article class="service">
+        <h2>Build Strength &amp; Confidence</h2>
+        <p>One-on-one coaching that meets you at your current fitness level.</p>
+        <a href="#proof">Learn More</a>
       </article>
-      <article class="service" id="packages">
-        <h2>Packages</h2>
-        <a href="#contact">Learn More</a>
+      <article class="service">
+        <h2>Train for Sport or Competition</h2>
+        <p>Sport-specific and competition-prep support for focused performance goals.</p>
+        <a href="#contact">See Options</a>
       </article>
-      <article class="service" id="specials">
-        <h2>Specials</h2>
-        <a href="#contact">Learn More</a>
+      <article class="service">
+        <h2>Use Testing to Guide Your Plan</h2>
+        <p>VO2 max and metabolic rate testing for smarter training decisions.</p>
+        <a href="#contact">Ask About Testing</a>
       </article>
     </div>
   </section>
 
   <section class="quote">
     <h2>You don't have to be strong to get started.<br>You have to start to get strong.</h2>
-    <p>Same message, clearer next step.</p>
-    <a class="btn btn-primary" href="#contact">Get Started Today</a>
+    <p>Start with a free consultation and a plan that fits your goals.</p>
+    <a class="btn btn-primary" href="#contact">Book Your Free Consultation</a>
   </section>
 
-  <section class="proof" id="proof-copy">
+  <section class="proof" id="proof">
     <div class="wrap proof-grid">
       <div class="panel copy">
-        <h3>Personalized Fitness Training &amp; Weight Loss Program in the South Park neighborhood in Charlotte, NC</h3>
-        <h4>We have 25 years of experience and can help you reach your goals.</h4>
-        <p>Have you been struggling to lose weight? Need help preparing for a competition? Body Wise already says the right things on the live page — one-on-one help, experienced trainers, local trust, and practical support. This experiment keeps that exact brochure-site feel and simply makes the offer easier to understand fast.</p>
-        <p>Instead of redesigning the brand, Solution A preserves the public-site aesthetic while fixing obvious friction: generic CTA wording, template leftovers, and long blocks that hide the best reasons to call.</p>
-        <ul class="bullets">
-          <li>Improve speed, agility, and flexibility</li>
-          <li>Tone your body in the right areas</li>
-          <li>Build muscle and maintain it</li>
-          <li>Lose stubborn weight with a realistic plan</li>
-          <li>Use VO2 max and metabolic testing for clearer guidance</li>
-        </ul>
-        <div class="intent-strip">
-          <div class="intent"><strong>Lose weight &amp; tone up</strong>Clear fit for first-time fitness clients.</div>
-          <div class="intent"><strong>Build strength</strong>Structured one-on-one support that fits your schedule.</div>
-          <div class="intent"><strong>Train for sport</strong>Performance and competition-prep support.</div>
-          <div class="intent"><strong>Use testing wisely</strong>VO2 max and metabolic insights for smarter planning.</div>
+        <h3>Personalized fitness training and weight loss support in Charlotte, NC</h3>
+        <h4>Clearer paths for the goals people actually come in with.</h4>
+        <p>Whether you want to lose stubborn weight, tone up, build confidence in the gym, or prepare for a competition, Body Wise helps you start with a plan designed around your body and your schedule.</p>
+        <p>Instead of making you sort through a long list of services, we guide you toward the training path that fits your current goals and experience level.</p>
+        <div class="buyer-paths">
+          <div class="path"><strong>Lose weight &amp; tone up</strong><span>Build a realistic plan for fat loss, strength, and better energy.</span></div>
+          <div class="path"><strong>Build strength &amp; confidence</strong><span>Get one-on-one coaching, accountability, and a plan you can stick to.</span></div>
+          <div class="path"><strong>Train for sport or competition</strong><span>Prepare with focused programming for performance and event-specific goals.</span></div>
+          <div class="path"><strong>Use testing to fine-tune your plan</strong><span>Use VO2 max and metabolic rate testing to make smarter decisions.</span></div>
         </div>
       </div>
-      <aside class="badge-box">
+      <aside class="panel badge-box">
         <img src="https://lirp.cdn-website.com/d229567a/dms3rep/multi/opt/click-to-leave-review-small2-1920w.png" alt="Leave us a review on Google">
-        <h3>Small fixes, stronger trust</h3>
-        <p style="text-align:center;color:#5c5c5c;margin:0">The live page already feels like a real local business. The main job is removing little distractions that make it look less finished than it really is.</p>
+        <h3>Why clients call Body Wise</h3>
+        <p>Experienced coaching, local support, and a clear first step — without the guesswork.</p>
         <div class="stat-list">
-          <div class="stat"><strong>Preserved:</strong> original logo, original hero photo, original feature/quote backgrounds, same simple two-row site-builder feel.</div>
-          <div class="stat"><strong>Improved:</strong> “Book Your Free Consultation” clarifies the main action better than a generic “Get Started Today.”</div>
-          <div class="stat"><strong>Improved:</strong> removed unfinished form language like “New Field” and ignored irrelevant roofing/footer leftovers.</div>
-          <div class="stat"><strong>Improved:</strong> added a simple “what happens next” explanation to lower hesitation.</div>
+          <div class="stat"><strong>Experienced guidance:</strong> 25 years of helping clients work toward real fitness goals.</div>
+          <div class="stat"><strong>Customized planning:</strong> training and meal guidance built around your goals, limitations, and schedule.</div>
+          <div class="stat"><strong>Local convenience:</strong> serving Charlotte, Pineville, and the South Park area.</div>
+          <div class="stat"><strong>Clear next step:</strong> start with a free consultation so you know which training path makes sense.</div>
         </div>
       </aside>
     </div>
@@ -224,12 +230,12 @@
   <section class="consult" id="contact">
     <div class="wrap contact-grid">
       <div class="panel contact">
-        <h3>Contact Us</h3>
-        <p class="sub">Ask about personal training, sport-specific work, wellness coaching, competition prep, VO2 max testing, or resting metabolic rate testing.</p>
+        <h3>Book Your Free Consultation</h3>
+        <p class="sub">Tell us what you want to change, what has or hasn’t worked before, and what kind of support would help you stay consistent.</p>
         <div class="next-steps">
-          <div class="step"><span>1</span><strong>Tell us your goals</strong><div class="micro">Share your schedule, limitations, and what you want to change.</div></div>
-          <div class="step"><span>2</span><strong>Get matched</strong><div class="micro">We point you toward the right training path and support options.</div></div>
-          <div class="step"><span>3</span><strong>Start confidently</strong><div class="micro">Leave with a plan built around your needs and fitness level.</div></div>
+          <div class="step"><span>1</span><strong>Talk through your goals</strong><div class="micro">Weight loss, strength, confidence, sport performance, or testing support.</div></div>
+          <div class="step"><span>2</span><strong>Get matched to the right path</strong><div class="micro">Personal training, wellness coaching, competition prep, or data-driven testing.</div></div>
+          <div class="step"><span>3</span><strong>Start with a plan that fits</strong><div class="micro">Leave with clearer next steps built around your schedule and experience level.</div></div>
         </div>
         <div class="fake-form">
           <div class="field">First Name</div>
@@ -238,32 +244,33 @@
           <div class="field">Phone</div>
           <div class="full chips">
             <div class="select-chip">Personal Training</div>
+            <div class="select-chip">Weight Loss Coaching</div>
             <div class="select-chip">Sport Specific Training</div>
-            <div class="select-chip">Health &amp; Wellness Consultation</div>
             <div class="select-chip">Competition Prep Training</div>
             <div class="select-chip">VO2 Max Testing</div>
             <div class="select-chip">Resting Metabolic Rate Testing</div>
-            <div class="select-chip">Other</div>
+            <div class="select-chip">Health &amp; Wellness Consultation</div>
           </div>
           <div class="full chips">
             <div class="select-chip">Morning</div>
             <div class="select-chip">Midday</div>
             <div class="select-chip">Evening</div>
           </div>
-          <div class="textarea">Message</div>
+          <div class="textarea">Tell us what you want help with</div>
         </div>
         <a class="book" href="tel:+17046141511">Call to Book Your Free Consultation</a>
       </div>
       <div class="panel contact-card">
         <div class="loc">Body Wise Personal Training<br>4805 Park Rd Suite 102<br>Charlotte, NC 28209</div>
         <p><strong>Mon - Sun</strong><br>Appointment Only</p>
-        <p>This keeps the original contact-first structure, but makes the bottom of the page feel intentional and fitness-specific instead of template-derived.</p>
-        <ul class="cleanups">
-          <li>Kept Charlotte / Pineville / South Park local cues.</li>
-          <li>Kept the free-consultation path front and center.</li>
-          <li>Preserved the familiar site-builder rhythm instead of turning it into an agency redesign.</li>
-          <li>Removed trust-damaging filler and unfinished labels.</li>
-        </ul>
+        <p>Support for adults who want a more personal training experience — whether you are just getting started, getting back on track, or training toward a more specific performance goal.</p>
+        <a class="button" href="tel:+17046141511">Call (704) 614-1511</a>
+        <div class="areas">
+          <div class="area">Charlotte</div>
+          <div class="area">Pineville</div>
+          <div class="area">South Park</div>
+          <div class="area">Customized 1-on-1 Plans</div>
+        </div>
       </div>
     </div>
   </section>
@@ -273,9 +280,8 @@
       <div>
         <strong>Body Wise Personal Training</strong><br>
         Copyright © Body Wise Personal Training | All Rights Reserved
-        <div class="footer-note">Solution A experiment: high-fidelity surgical clone using public live-site assets where available.</div>
       </div>
-      <div>Areas We Serve · Testimonials · Contact</div>
+      <div>Training Options · Testimonials · Contact</div>
     </div>
   </footer>
 </body>

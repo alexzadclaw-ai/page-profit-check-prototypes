@@ -117,6 +117,18 @@ Best fit for outreach:
 - Contact email observed on site: mailto:kristine@kg-accounting.com
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Hero does not force enough clarity | Critical | Sharpens the opening promise around cleaner books, cash-flow visibility, and strategic support | Hero | Improved |
+| Too much scrolling before key decisions become obvious | High | Reorders the page so trust, service fit, and next steps surface earlier | Hero + trust + buyer-path structure | Improved |
+| Buyer paths are not explicit enough | High | Frames services around common owner situations instead of a flat list | Buyer-path section | Improved |
+| Primary CTA could feel more specific | High | Reinforces the Right-Fit Call as the main action throughout the page | CTA blocks | Improved |
+| Trust signals could be pulled higher | High | Brings founder-led expertise and small-business fit nearer the top of the page | Trust strip / credibility section | Improved |
+| Lead magnet may compete with the core service story | Medium | Keeps educational value secondary to the primary service conversion path | Mid/lower-page content hierarchy | Improved |
+| Mobile scanning can be tighter | Medium | Uses cleaner sectioning and shorter blocks for easier reading | Whole-page structure | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -132,4 +144,17 @@ Best fit for outreach:
 ### Unavoidable deviations
 - some segmentation is more explicit because the live page is broad
 - the CTA hierarchy is stronger than the original by necessity
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] The page remains conservative and professional
+- [x] Hero and buyer-path messaging are clearer than the original
+- [x] Right-Fit Call language is used more consistently
+- [x] Trust cues appear earlier in the scroll
+- [x] The prototype reads like the same small-firm accounting business, just more decisive
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
 

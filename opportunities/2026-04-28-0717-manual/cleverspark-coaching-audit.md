@@ -10,7 +10,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a strong **conversion-clarity cleanup opportunity**. The offer feels warm and affordable already; the upside is in structure, proof, scannability, and typo cleanup rather than a full redesign.
 
-## Snapshot
+## Quick take
 
 CleverSpark Coaching has a personable voice, a broad-enough coaching offer, and pricing that feels accessible. Kimberly’s story is also a real asset: counseling background, higher-ed experience, first-generation context, and lived ADHD perspective all create genuine trust.
 
@@ -36,7 +36,7 @@ That makes this a very pitchable **$99 mini-audit + optional cleanup sprint** le
 - There is already a free consult CTA, so the business is oriented around conversation-first conversion
 - Calendly is present, which is good for low-friction booking
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Tighten first-screen clarity
 The homepage opens with a friendly introduction, but the message is broad and the value prop is not yet crisp.
@@ -139,6 +139,20 @@ Useful cleanup:
 - FAQ content that mirrors real search questions
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| First-screen clarity is too broad | Critical | Sharpens the opening message around clearer fit, offer, and next-step guidance | Hero | Improved |
+| Typos and formatting issues weaken trust | Critical | Cleans visible trust leaks and presents a more polished coaching page structure | Global copy treatment | Improved |
+| Packages are too dense to compare easily | High | Reworks packages into more scannable offer blocks with clearer distinctions | Services/packages section | Improved |
+| CTA sequencing is weak | High | Establishes a cleaner learn → compare → book path | Hero, service cards, final CTA | Improved |
+| Founder credibility appears too late | High | Moves key proof cues closer to the first decision point | Trust strip / founder credibility block | Improved |
+| Offer fit is not obvious by package | High | Adds clearer “who this is for” framing around the coaching paths | Fit + package framing | Improved |
+| Proof framing is light | Medium | Adds more tangible reassurance around consults and likely client needs | Proof/process sections | Improved |
+| Contact page reassurance is thin | Medium | Strengthens the inquiry moment with no-pressure consultation support copy | Contact/final CTA section | Improved |
+| SEO structure is under-supported | Medium | Improves heading rhythm and FAQ-style support to better match search intent | Page structure + FAQ | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -200,6 +214,20 @@ This feels like a **small conversion cleanup sprint**, not a full rebuild.
 Reasonable rough range after the $99 audit:
 - **~$300–$600** for homepage/services/contact cleanup if working within the existing site builder
 - potentially a little higher if copy restructuring and template cleanup turn out broader than expected
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Warm founder-led tone is retained
+- [x] Package comparison is easier than in the original
+- [x] Consultation flow is clearer and lower-friction
+- [x] Trust leaks from typos/formatting are addressed in the prototype direction
+- [x] The page still feels like an approachable coaching business, not a rebrand
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
+
 
 ## Artifact paths
 

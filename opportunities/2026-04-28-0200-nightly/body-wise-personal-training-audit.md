@@ -119,3 +119,48 @@ Best fit for outreach:
 - Homepage: https://www.bodywiseinc.com/
 - Contact page: https://www.bodywiseinc.com/contact
 - Google review CTA observed on site: https://maps.app.goo.gl/PRDxB5hjBDZHc7Dw8
+
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Homepage is noisy before it is clear | Critical | Simplify the main nav and strengthen the first-screen message so the next step is obvious faster | Header + hero | Improved |
+| CTA hierarchy is too generic | Critical | Replace vague CTA language with **Book Your Free Consultation** and repeat a clear phone CTA | Hero, quote section, contact section | Fixed |
+| Long text blocks reduce scannability | High | Break the service story into shorter sections, trust cards, and buyer-path blocks | Proof section + trust strip | Improved |
+| Service story is too flat | High | Reframe services around buyer intent instead of just internal categories | Services band + buyer paths | Fixed |
+| Template residue hurts trust | Critical | Remove broken-looking form/footer residue and tighten the contact area | Contact + footer | Fixed |
+| Consultation flow is not clearly explained | High | Add a simple 3-step what-happens-next flow | Contact section | Fixed |
+
+## Similarity check
+
+### Preserved elements
+- recognizable Body Wise logo and builder-style brochure-site structure
+- full-width fitness hero image and dark/teal/white visual direction
+- services band, motivational quote section, long-form proof area, and contact-first lower page rhythm
+- straightforward local-business tone rather than a polished agency redesign
+
+### Surgical changes
+- tightened the headline and CTA hierarchy so the first action is clearer
+- added a trust strip near the top to surface experience, consultation, and local-service proof earlier
+- reorganized services around buyer intent so first-time visitors can self-sort faster
+- clarified the consultation path with a visible 3-step next-steps flow
+- removed obvious trust-damaging residue and cleaned the contact area
+
+### Unavoidable deviations
+- some spacing and builder quirks were simplified to improve clarity and mobile scanability
+- the static prototype uses a cleaned approximation of the live structure rather than the live Duda widgets themselves
+
+## Final acceptance checklist
+
+- [x] Hero is clearer than the original
+- [x] Main CTA is specific rather than generic
+- [x] Trust signals are visible near the top
+- [x] Services are organized by buyer intent
+- [x] A clear consultation / what-happens-next flow is visible
+- [x] Obvious template leftovers are removed
+- [x] Page is easier to scan on mobile
+- [x] The page still feels like the same business/site family
+
+**Visual resemblance:** High
+**Audit coverage:** High

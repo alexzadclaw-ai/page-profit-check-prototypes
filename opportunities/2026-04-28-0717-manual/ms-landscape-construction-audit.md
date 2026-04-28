@@ -10,7 +10,7 @@
 - **Audit date:** 2026-04-28
 - **Positioning of this recommendation:** **Conversion-focused cleanup with a more credible local-service presentation**
 
-## Summary
+## Quick take
 
 This business has a solid underlying offer: 20+ years of experience, visually tangible outdoor projects, multiple service categories, and a local-service footprint that can support high-value quote requests. The problem is not the service itself — it is the website presentation.
 
@@ -24,7 +24,7 @@ Right now the site creates friction with:
 
 That combination makes the page feel less established than the company likely is. A polished, quote-first landing page could make the business look more credible immediately without changing the core offer.
 
-## What’s already working
+## What is already working
 
 1. **Clear local-service category** with strong homeowner intent
 2. **20+ years of experience** mentioned on the homepage
@@ -32,7 +32,7 @@ That combination makes the page feel less established than the company likely is
 4. **Direct phone contact** already present on the site
 5. **Portfolio/gallery angle** that can support trust once presented more cleanly
 
-## Biggest conversion problems
+## Biggest conversion issues
 
 ### 1) The top of the site does not behave like a quote page
 The homepage hero says “we make your dream come true,” but it does not quickly answer:
@@ -160,6 +160,18 @@ The companion prototype for this opportunity should show:
 - a realistic implementation angle that still feels appropriate for a local landscaping company
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Top of the site does not behave like a quote page | Critical | Replaces the generic slogan with a more concrete local-service value proposition and quote-focused framing | Hero | Improved |
+| Template residue and grammar issues lower trust | Critical | Removes stray/demo-style clutter and tightens the copy direction | Navigation, footer, global copy treatment | Improved |
+| CTA hierarchy is weak and inconsistent | High | Establishes one dominant quote/call path with a clearer secondary projects path | Hero + CTA sections | Improved |
+| Services are present but noisy | High | Groups services into simpler homeowner-friendly categories | Services section | Improved |
+| Not enough proof appears near the top | High | Adds earlier trust cues around experience, counties served, and direct contact | Trust strip / proof section | Improved |
+| Quote process is not clearly explained | Medium | Adds a short estimate-process explanation to reduce hesitation | Process / CTA support section | Improved |
+| Local SEO structure is underdeveloped | Medium | Reinforces service-area and service-category language structurally | Hero + service-area/contact sections | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -183,6 +195,20 @@ This is a good fit for a practical, low-friction pitch:
 
 - **$99 Page Profit Check mini-audit** with prioritized conversion, trust, CTA, and SEO recommendations
 - optional **cleanup sprint in roughly the $400–$900 range** depending on whether the work stays copy/layout-only or includes broader Squarespace cleanup and page restructuring
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Quote-first structure is stronger than the original
+- [x] Trust-damaging template/demo residue is addressed
+- [x] Service categories are easier for homeowners to scan
+- [x] Local service-area cues remain prominent
+- [x] The page still feels like a practical local landscaping/construction business
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
+
 
 ## Deliverables note
 

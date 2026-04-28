@@ -8,7 +8,7 @@
 - **Reviewed:** 2026-04-28
 - **Prototype direction:** Conservative cleanup focused on conversion clarity, trust framing, CTA hierarchy, mobile scannability, and SEO polish
 
-## Summary
+## Quick take
 
 Basics and Beyond has real authority: long tenure, multiple trainers, nutrition support, location flexibility, media credibility, and a clear no-contract angle. The problem is not lack of substance. It is that the homepage and trainer page try to say everything at once.
 
@@ -25,7 +25,7 @@ This is a strong **cleanup-and-clarity** opportunity, not a radical rebrand.
 - Broad service stack: personal training, nutrition, online, in-home, rehab/corrective support
 - Good trust assets available for reuse: longevity, media mentions, reviews, multiple locations
 
-## Biggest page-profit opportunities
+## Biggest conversion issues
 
 ### 1) Reduce homepage bloat and repeated messaging
 The homepage repeats the same ideas in several places:
@@ -164,6 +164,19 @@ This is exactly the kind of site where a small business has strong real-world cr
 - Phone: [615-442-7700](tel:615-442-7700)
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Homepage bloat and repeated messaging | Critical | Reduces repeated claims and tightens section order so the offer reads faster | Hero + mid-page structure | Improved |
+| Hero needs one primary action | Critical | Centers the first screen around a clearer CTA hierarchy with one dominant next step | Hero | Improved |
+| Credibility feels scattered | High | Consolidates proof into a stronger trust band instead of spreading it across the page | Trust strip / proof section | Improved |
+| Service paths are hard for first-time visitors to sort | High | Reframes services into clearer visitor-intent paths | Services section | Improved |
+| Comparison-table and formatting rough edges weaken trust | High | Replaces draft-like clutter with cleaner positioning and more controlled structure | Mid-page proof/comparison treatment | Improved |
+| FAQ is too long and diffuse | Medium | Shortens and focuses FAQ-style support around practical buyer questions | FAQ block | Improved |
+| Trainer authority is overloaded on the homepage | Medium | Keeps trainer proof visible but shifts detail toward a preview-plus-link approach | Trainer preview section | Improved |
+| Mobile scannability needs work | High | Uses shorter blocks, cards, and cleaner CTA spacing | Whole-page structure | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -179,4 +192,17 @@ This is exactly the kind of site where a small business has strong real-world cr
 ### Unavoidable deviations
 - some duplicated sections were collapsed for clarity
 - minor wording cleanup was necessary where the live page felt templated or confusing
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Hero and CTA hierarchy are clearer than the original
+- [x] Repetition is reduced without changing the core offer
+- [x] Trust proof is surfaced earlier
+- [x] Service paths are easier for new visitors to compare
+- [x] The page still feels like a local, text-forward fitness business
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
 

@@ -11,13 +11,20 @@
 - **Batch:** 2026-04-28-0200-nightly
 - **Reviewed:** 2026-04-28
 
-## Summary
+## Quick take
 
 This is a high-urgency opportunity.
 
 The live homepage is effectively a holding page with an **UNDER CONSTRUCTION** notice, basic contact details, and navigation that mostly loops back to the same unfinished experience. That means the business is likely leaving quote-ready traffic without a clear services story, trust signals, or a focused next step.
 
 The good news: this is exactly the kind of situation where a lean lead-gen landing page can create immediate value without needing a giant rebuild.
+
+## What is already working
+
+- Contact details are already visible on the public site
+- Address, phone number, and social links provide basic legitimacy signals
+- The gallery hints at real fabrication capabilities the homepage can surface more clearly
+- Multiple public pages exist that can be consolidated into a clearer quote-first story
 
 ## What is visible on the public site
 
@@ -148,3 +155,45 @@ A realistic first sprint could include:
 ## Overall assessment
 
 This is one of the clearest opportunities in the batch because the site is not merely dated — it is actively signaling incompleteness. A credible one-page replacement could improve trust quickly and create a much better first impression for quote-ready visitors.
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| No immediate explanation of what the company does | Critical | Replaces the placeholder feel with a fabrication-focused headline and service summary | Hero | Fixed |
+| Homepage behaves like a holding page | Critical | Shifts the page from “under construction” posture to quote-focused lead generation | Hero + page structure | Fixed |
+| CTA hierarchy is weak | Critical | Makes quote request and direct phone contact the dominant actions | Hero + quote CTA sections | Fixed |
+| Important proof is buried or absent | High | Adds capabilities, proof framing, and quote-expectation blocks | Services + proof sections | Improved |
+| Navigation depth outpaces finished content | Medium | Collapses the story into a clearer one-page structure that does more work up front | One-page layout | Improved |
+| SEO basics are underused | Medium | Adds location/service-intent framing and explicit SEO-cleanup support | SEO section + local cues | Improved |
+
+## Similarity check
+
+### Preserved elements
+- industrial, fabrication-first positioning
+- focus on quote-ready buyers rather than brochure-style brand storytelling
+- public proof sources centered on capabilities, gallery evidence, contact info, and local shop presence
+- lean scope appropriate for an unfinished existing site
+
+### Surgical changes
+- replaced the under-construction message with a plain-English fabrication pitch
+- surfaced core capabilities immediately instead of forcing visitors into incomplete internal pages
+- added proof, quote expectations, and mobile-first contact framing
+- reframed the site as a focused first-version landing page rather than a placeholder shell
+
+### Unavoidable deviations
+- the prototype infers cleaner service buckets from public capability hints, but the audit did not prove every product/service detail exhaustively
+- photo-gallery proof is directional unless the exact project captions and images were ported one-for-one
+
+## Final acceptance checklist
+
+- [x] “Under construction” is replaced by a real value proposition
+- [x] Quote request is the dominant CTA
+- [x] Core fabrication capabilities appear near the top
+- [x] Contact and local trust cues are visible
+- [x] The page reads like a practical first-version sales page
+- [ ] Full fidelity to every internal placeholder page is required
+
+**Visual resemblance:** Moderate
+**Audit coverage:** High
+

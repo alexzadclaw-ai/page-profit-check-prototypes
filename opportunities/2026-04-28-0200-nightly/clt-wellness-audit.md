@@ -165,6 +165,50 @@ Best fit for outreach:
 - Programs & services: https://www.cltwellness.com/programs-services
 - Contact: https://www.cltwellness.com/contact
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Placeholder/template residue harms trust | Critical | Replaces unfinished-feeling first impression with a structured hero, trust strip, and clear support paths | Hero + top-of-page structure | Improved |
+| Booking path is unclear | Critical | Centers the page on a free consultation with a visible 3-step explanation | Hero + consultation path | Fixed |
+| Hero is warm but under-structured | High | Rewrites the opening around full-spectrum motherhood support with two clear CTAs | Hero | Fixed |
+| Credentials appear too late | High | Pulls doula, childbirth educator, coaching, trainer, and mom-of-3 cues under the hero | Trust strip | Fixed |
+| Services need better packaging | High | Reorganizes support into membership, doula care, movement, and workshop paths | Services section | Fixed |
+| Testimonials / reassurance need stronger framing | Medium | Adds founder-story, results-framing, and FAQ guidance to support emotional trust | Fit + FAQ areas | Improved |
+| Local / format clarity is fuzzy | Medium | Calls out the need for local, virtual, or hybrid delivery clarity inside the prototype structure | Proof block + FAQ | Improved |
+
+## Similarity check
+
+### Preserved elements
+- warm, maternal, reassurance-first tone
+- full-spectrum support across preconception, pregnancy, birth prep, and postpartum
+- founder-led trust anchored in credentials and lived motherhood experience
+- consultation-first conversion style rather than hard-sell service pushing
+
+### Surgical changes
+- gave the hero a much clearer promise and stronger CTA hierarchy
+- surfaced credentials immediately instead of leaving them deeper in the page
+- grouped services into understandable support paths for new families
+- added calm consultation and FAQ structure to lower first-contact anxiety
+
+### Unavoidable deviations
+- exact testimonial depth is still directional because the source audit did not provide verbatim proof to reuse
+- full cleanup of every placeholder element across secondary pages is not independently proven from the prototype alone
+
+## Final acceptance checklist
+
+- [x] Hero is clearer and more actionable
+- [x] Credentials appear near the first CTA
+- [x] Service paths are easier to understand
+- [x] Consultation flow is explained simply
+- [x] FAQ support addresses first-contact hesitation
+- [x] The page still feels warm and specialist-led
+- [ ] End-to-end secondary-page cleanup is fully proven
+
+**Visual resemblance:** High
+**Audit coverage:** High
+
+
 ## Artifact paths
 
 - Audit: `opportunities/2026-04-28-0200-nightly/clt-wellness-audit.md`

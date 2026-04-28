@@ -11,13 +11,20 @@
 - **Batch:** 2026-04-28-0717-manual
 - **Reviewed:** 2026-04-28
 
-## Summary
+## Quick take
 
 This is a high-urgency opportunity.
 
 The live homepage is effectively a holding page with an **UNDER CONSTRUCTION** notice, basic contact details, and navigation that mostly loops back to the same unfinished experience. That means the business is likely leaving quote-ready traffic without a clear services story, trust signals, or a focused next step.
 
 The good news: this is exactly the kind of situation where a lean lead-gen landing page can create immediate value without needing a giant rebuild.
+
+## What is already working
+
+- Contact details are already visible on the public site
+- Address, phone number, and social links provide basic legitimacy signals
+- The gallery hints at real fabrication capabilities the homepage can surface more clearly
+- Multiple public pages exist that can be consolidated into a clearer quote-first story
 
 ## What is visible on the public site
 
@@ -129,6 +136,17 @@ A basic optimization pass could target natural phrases such as:
 - custom metal products Pennsylvania
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| No immediate explanation of what the company does | Critical | Introduces a plain-English fabrication value proposition on the first screen | Hero | Improved |
+| Homepage behaves like a placeholder | Critical | Replaces the under-construction feel with a quote-focused landing-page structure | Overall page structure | Improved |
+| CTA hierarchy is weak | High | Makes requesting a quote and calling the shop much more obvious | Hero + quote CTA sections | Improved |
+| Important proof is buried or absent | High | Pulls capabilities, project proof, and local legitimacy into visible mid-page sections | Services + proof + trust sections | Improved |
+| Navigation depth exceeds finished content | Medium | Simplifies the experience into a more focused one-page sales flow | Header / section order | Improved |
+| SEO basics are underused | Medium | Strengthens service and local-intent framing structurally | Hero + services + location/contact blocks | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -166,3 +184,17 @@ A realistic first sprint could include:
 ## Overall assessment
 
 This is one of the clearest opportunities in the batch because the site is not merely dated — it is actively signaling incompleteness. A credible one-page replacement could improve trust quickly and create a much better first impression for quote-ready visitors.
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] The under-construction problem is addressed through a clearer sales-page structure
+- [x] Quote CTA visibility is stronger than on the live site
+- [x] Fabrication capabilities are easier to understand quickly
+- [x] Local trust cues remain visible
+- [x] The page still feels like a compact industrial shop site rather than a corporate redesign
+
+**Visual resemblance:** Medium-High  
+**Audit coverage:** Medium
+

@@ -9,7 +9,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a **warm trust-and-clarity cleanup opportunity** for a skincare / wellness business that already has real expertise behind it.
 
-## Snapshot
+## Quick take
 
 SimplyBeaing has a strong emotional tone and clear owner credibility: 24 years in skincare, esthetician experience, yoga teaching, and health-coaching background. That foundation matters.
 
@@ -26,7 +26,7 @@ That makes this a very workable **$99 Page Profit Check** lead: the business doe
 - Physical location is stated clearly on the homepage and contact page
 - The brand already has enough substance to support a more premium-feeling presentation
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Remove template residue and placeholder text immediately
 The most obvious issue is the visible placeholder content on both the homepage and contact page:
@@ -129,6 +129,19 @@ Good topics:
 - Do you offer guidance based on skin concerns and lifestyle?
 
 
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype response | Where it appears | Status |
+|---|---|---|---|---|
+| Placeholder text and template residue hurt trust | Critical | Removes unfinished-looking content and presents a more intentional skincare/wellness page | Hero, contact, footer areas | Improved |
+| Hero takes too long to explain the offer | High | Keeps the calm tone but makes services and next steps clearer on first view | Hero | Improved |
+| Booking path is confusing | Critical | Clarifies the primary inquiry path even without online self-scheduling | Hero + contact/appointments guidance | Improved |
+| Trust signals are buried | High | Surfaces owner expertise and studio context closer to the top | Trust strip / credibility block | Improved |
+| Service positioning is too diffuse | High | Reorganizes offerings into more scannable service categories | Services section | Improved |
+| Inquiry process is under-explained | Medium | Adds a simple first-step explanation for unsure or first-time clients | Process section | Improved |
+| Local conversion cues can be stronger | Medium | Reinforces Waltham/location context and practical visit support | Location/contact section | Improved |
+| Contact-page reassurance is thin | Medium | Strengthens the inquiry moment with clearer expectations and welcome language | Final CTA / contact support | Improved |
+
 ## Similarity check
 
 ### Preserved elements
@@ -188,6 +201,20 @@ A realistic cleanup sprint could include:
 - Homepage: https://www.simplybeaing.com/
 - Contact page: https://www.simplybeaing.com/contact-us
 - Appointments page link from nav: https://www.simplybeaing.com/book-now
+
+## Final acceptance checklist
+
+- [x] Audit-to-prototype mapping is documented
+- [x] Similarity check is preserved in the Solution A format
+- [x] Warm skincare/wellness tone is retained
+- [x] Booking/inquiry guidance is clearer than the original
+- [x] Placeholder-style trust leaks are addressed
+- [x] Core services are easier to browse quickly
+- [x] The page still feels like the same owner-led boutique studio
+
+**Visual resemblance:** High  
+**Audit coverage:** Medium-High
+
 
 ## Artifact paths
 

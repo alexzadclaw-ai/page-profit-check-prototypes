@@ -115,3 +115,47 @@ Best fit for outreach:
 - Homepage: https://www.kg-accounting.com/
 - Contact page: https://www.kg-accounting.com/contact
 - Contact email observed on site: mailto:kristine@kg-accounting.com
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Hero needs sharper clarity | Critical | Reframes the promise around cleaner books, cash flow visibility, and smarter decisions | Hero | Fixed |
+| Scroll order makes decisions slower | High | Restructures the page into hero, trust, buyer paths, consultation flow, and FAQ | Overall page flow | Improved |
+| Buyer paths are not explicit enough | High | Separates the offer into clean books, cash flow support, and fractional CFO guidance | Services section | Fixed |
+| CTA language needs consistency | High | Standardizes the page around the consultation / right-fit call action | Header + hero + CTA sections | Improved |
+| Trust cues should be higher | Medium | Pulls founder-led advisory and small-business focus closer to the first screen | Trust strip + proof framing | Improved |
+| Lead magnet should not compete with the sale | Medium | Keeps the guide in a supporting role beneath the core service story | Proof/support section | Improved |
+| Mobile scanning can improve | Medium | Uses short cards, step blocks, and FAQ structure for faster review | Services + consult + FAQ | Fixed |
+
+## Similarity check
+
+### Preserved elements
+- founder-led accounting/advisory positioning for small businesses and solopreneurs
+- service ladder from bookkeeping to advisory to fractional CFO help
+- practical, no-drama business tone focused on outcomes rather than flashy branding
+- consultation-led sales model with educational support content
+
+### Surgical changes
+- made the hero more decisive about who the service is for and what improves
+- turned the service stack into self-selection buyer paths
+- clarified the consultation flow before deeper educational content
+- treated the free guide as support content instead of the main headline action
+
+### Unavoidable deviations
+- exact “Right-Fit Call” wording may be normalized in parts of the prototype rather than repeated verbatim everywhere
+- deeper proof such as credentials, case-study depth, or nationwide/service-area nuance remains partially inferred from the audit summary
+
+## Final acceptance checklist
+
+- [x] Hero communicates business outcomes faster
+- [x] Buyer paths are clearly separated
+- [x] Consultation path is more explicit
+- [x] Trust signals appear earlier
+- [x] Educational content supports rather than distracts from the sale
+- [x] The page remains founder-led and practical
+- [ ] Full proof depth beyond the audited summary is independently verified
+
+**Visual resemblance:** High
+**Audit coverage:** High
+

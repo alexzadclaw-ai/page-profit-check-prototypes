@@ -161,3 +161,46 @@ Best fit for outreach:
 - About: https://www.lightloveenergy.com/about
 - Services: https://www.lightloveenergy.com/services
 - Energetic Healing: https://www.lightloveenergy.com/energetichealing
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Visible template leftovers damage trust | Critical | Replaces placeholder-style first impression with a structured hero, real service paths, and clearer contact framing | Hero + page structure | Improved |
+| Homepage positioning overlaps instead of guiding | Critical | Separates the offer into body contouring, energetic healing, and integrative mind-body paths | Hero + services section | Fixed |
+| Consultation CTA needs stronger support | High | Adds a short consult explainer so visitors understand what happens before booking | Hero panel + consultation section | Fixed |
+| Trust signals are buried inside dense copy | High | Pulls selected credibility and format cues closer to the top of the page | Trust framing + mid-page proof blocks | Improved |
+| Copy density hurts scannability | High | Breaks the page into cards, short sections, and FAQ items instead of long conceptual blocks | Service cards + FAQ | Improved |
+| Service architecture is unclear | High | Gives each lane a distinct role and ideal-client framing | Services + fit section | Fixed |
+
+## Similarity check
+
+### Preserved elements
+- wellness-first tone centered on body contouring, energetic healing, and whole-person support
+- soft, trust-led positioning rather than a hard-sell aesthetic
+- consultation-led next step instead of pushing immediate checkout behavior
+- Saint Louis and remote-friendly support language as part of the brand context
+
+### Surgical changes
+- clarified the top-of-page promise so a new visitor can understand the offer faster
+- split the service stack into three buyer-friendly paths instead of one overlapping umbrella
+- added a plain-language consultation flow and practical FAQ support
+- moved selected trust framing earlier so visitors do not have to dig through dense background copy first
+
+### Unavoidable deviations
+- the prototype simplifies some abstract or philosophy-heavy wording to improve first-visit clarity
+- exact credential presentation appears condensed because the audit did not provide line-by-line implementation proof for the full About-page bio
+
+## Final acceptance checklist
+
+- [x] Hero explains the offer more clearly than the original
+- [x] Services are grouped into distinct buyer paths
+- [x] Consultation flow is explained in plain language
+- [x] Trust cues appear earlier in the page
+- [x] FAQ support reduces common first-visit questions
+- [x] The page still feels like a warm, niche wellness brand
+- [ ] Full placeholder cleanup is proven end-to-end across every live-site section
+
+**Visual resemblance:** Moderate-High
+**Audit coverage:** High
+

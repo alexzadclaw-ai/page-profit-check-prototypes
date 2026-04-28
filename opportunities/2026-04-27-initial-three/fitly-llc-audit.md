@@ -2,22 +2,23 @@
 
 - **Business:** FITLY LLC
 - **Site:** https://www.fitlyco.net/
-- **Batch:** 2026-04-27-initial-three
-- **Prepared:** 2026-04-27
 - **Primary contact observed:** fitlyllc25@gmail.com
+- **Reviewed:** 2026-04-27
+- **Priority:** A
+- **Positioning:** Conversion-first cleanup opportunity for an in-home personal training page
 
-## Snapshot
+## Quick take
 
 FITLY already has a strong core offer: in-home personal training backed by credible rehab and coaching experience. The main upside is not inventing a new message — it is making the existing message easier to trust, easier to scan, and easier to act on.
 
 ## What is already working
 
-- Clear in-home convenience angle
-- Relevant trust ingredients: certification, rehab/PTA background, testimonial
-- Free consultation CTA is present repeatedly
-- Offer fits busy adults and post-rehab clients well
+1. **Clear in-home convenience angle.**
+2. **Relevant trust ingredients** through certification, rehab/PTA background, and testimonial proof.
+3. **Free consultation CTA** is present repeatedly.
+4. **Offer fits busy adults and post-rehab clients well.**
 
-## Highest-value conversion fixes
+## Biggest conversion issues
 
 ### 1) Sharpen the hero around audience + location + outcome
 The current positioning is decent, but a stronger hero can do more work immediately.
@@ -38,10 +39,10 @@ Right now the CTA asks for a commitment before answering the natural questions:
 A short explainer directly under the CTA lowers friction and makes the next step feel safe.
 
 ### 3) Move trust signals much higher
-The site has useful credibility, but visitors should not have to dig for it.
+Visitors should not have to dig for credentials and reassurance.
 
 **Prototype direction:**
-An above-the-fold trust strip with points like:
+Add an above-the-fold trust strip with points like:
 - certified trainer
 - rehab-informed coaching
 - in-home convenience
@@ -51,13 +52,10 @@ An above-the-fold trust strip with points like:
 The site references Naperville / Chicago-area intent, but the body can support that better.
 
 **Prototype direction:**
-Mention likely nearby service areas in a concise service-area block, such as Naperville, Aurora, Plainfield, Bolingbrook, and surrounding western suburbs if accurate.
+Mention likely nearby service areas in a concise service-area block, such as Naperville, Aurora, Plainfield, Bolingbrook, and surrounding western suburbs **if accurate**.
 
 ### 5) Replace generic contact phrasing with outcome-driven copy
-A plain “Send” style form close leaves value on the table.
-
-**Prototype direction:**
-Use contact copy that invites visitors to describe goals like:
+Contact copy should invite visitors to describe goals like:
 - strength
 - consistency
 - post-rehab support
@@ -67,7 +65,7 @@ Use contact copy that invites visitors to describe goals like:
 Observed public links appeared to include Wix-branded social defaults. If those are placeholders, they undercut trust.
 
 **Prototype direction:**
-Either replace with real profiles or remove them entirely until real links are ready.
+Either replace them with real profiles or remove them until real links are ready.
 
 ## Technical / UX notes
 
@@ -102,3 +100,50 @@ A practical first pass could include:
 
 - Target screenshot: created in `screenshots/2026-04-27-initial-three/fitly-llc-target.png`
 - Prototype screenshot: created in `screenshots/2026-04-27-initial-three/fitly-llc-prototype.png`
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Hero needs stronger audience, location, and outcome framing | Critical | Rewrite hero around in-home training, local relevance, and confidence-oriented results | Hero | Improved |
+| Free consultation needs explanation near the CTA | High | Add a short consultation explainer under the first CTA | Hero support / conversion explainer | Improved |
+| Trust signals should appear much higher | High | Add an early trust strip with credentials and reassurance | Trust strip | Improved |
+| Local service-area cues are underused | Medium | Add a concise service-area section | Local section | Improved |
+| Contact phrasing is too generic | High | Shift to outcome-oriented final CTA/form copy | Contact / final CTA section | Improved |
+| Placeholder / social trust issues weaken polish | High | Note cleanup or removal of placeholder-style social links | Social / footer cleanup | Improved |
+| FAQ is a missed trust and SEO opportunity | Medium | Add FAQ support | FAQ section | Improved |
+| Mobile Wix/runtime issues need live implementation proof | Medium | Keep technical claims cautious unless directly verified | Verification scope | Deferred |
+
+## Similarity check
+
+### Preserved elements
+- in-home training positioning
+- approachable local-business tone
+- consultation-first conversion flow
+- rehab-informed trust direction
+- simple small-business site-builder feel
+
+### Surgical changes
+- sharpened the hero around audience, location, and outcome
+- explained the consultation instead of only repeating it
+- surfaced credentials earlier
+- added service-area and FAQ support
+- improved final CTA language and trust cleanup direction
+
+### Unavoidable deviations
+- exact local service-area list remains conditional unless confirmed from the source
+- some technical/mobile cleanup items are implementation-level and cannot be marked as fully proven from audit evidence alone
+
+## Final acceptance checklist
+
+- [x] Hero is clearer about in-home training and audience fit
+- [x] Consultation CTA has nearby explanation
+- [x] Trust signals appear near the top
+- [x] Local service-area support is present
+- [x] FAQ support is present
+- [x] Final CTA copy is stronger
+- [x] The page still feels like the same business/site family
+- [ ] All technical/mobile cleanup claims are fully verified live
+
+**Visual resemblance:** High
+**Audit coverage:** Medium-High

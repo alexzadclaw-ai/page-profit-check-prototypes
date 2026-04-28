@@ -8,7 +8,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a **credible cleanup and restructuring opportunity**, not a flashy redesign pitch.
 
-## Snapshot
+## Quick take
 
 Strength PT Boston already has good raw ingredients: a focused adult-strength offer, a clean visual baseline, clear consult intent, strong education signals, and a specific South Boston location.
 
@@ -25,7 +25,7 @@ That makes this a good fit for a **$99 mini-audit + optional cleanup sprint**, b
 - The site already pushes toward a consultation instead of scattering too many actions
 - South Boston / South End / Seaport location signals are useful for local intent
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Make the hero do more conversion work
 The current hero is polished but broad. It explains the category, yet it does not fully answer:
@@ -157,6 +157,50 @@ A realistic cleanup sprint could include:
 6. FAQ section
 7. stronger contact-page reassurance copy
 8. light SEO cleanup for title/meta/headings if needed
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Hero is polished but too broad | Critical | Rewrites the opening around Boston adults wanting personalized strength coaching | Hero | Fixed |
+| Trust proof appears too late | High | Adds an early credential strip with education, certification, athlete background, and local cueing | Trust strip | Fixed |
+| Consultation value is under-explained | High | Adds a visible 3-step consultation explainer | Hero panel + consult section | Fixed |
+| Ideal client is not called out soon enough | High | Introduces busy adults, former athletes, and life-transition/postpartum fit blocks | Fit section | Fixed |
+| Service categories need clearer jobs | Medium | Gives 1:1, health/nutrition, and hybrid coaching distinct use cases | Services section | Fixed |
+| Local trust could be stronger | Medium | Reinforces South Boston in-person coaching with hybrid flexibility | Topbar + trust/proof blocks | Improved |
+| Contact page reassurance is light | Medium | Supports the booking moment with low-pressure consultation framing and FAQ content | Consult section + FAQ | Improved |
+
+## Similarity check
+
+### Preserved elements
+- calm, premium coaching aesthetic
+- adult-strength and long-term-health positioning instead of generic gym language
+- consultation-first conversion approach
+- service mix across 1:1, health coaching, and hybrid support
+
+### Surgical changes
+- made the headline more specific about the audience and outcome
+- surfaced credentials much earlier in the scroll
+- clarified who the coaching is for and what each service path does
+- added realistic results framing and FAQ support without turning the page into a flashy transformation pitch
+
+### Unavoidable deviations
+- testimonial language in the prototype appears illustrative, so final client-proof claims should stay cautious unless backed by verified quotes
+- full contact-page rewrite details are inferred from the prototype direction rather than proven against the final live implementation
+
+## Final acceptance checklist
+
+- [x] Hero is more specific than the original
+- [x] Trust strip appears near the first CTA
+- [x] Consultation process is clearly explained
+- [x] Ideal-client fit is easier to recognize
+- [x] Service paths are differentiated
+- [x] The page still feels calm and premium
+- [ ] Final testimonial proof should be verified before making stronger outcome claims
+
+**Visual resemblance:** High
+**Audit coverage:** High
+
 
 ## Artifact paths
 

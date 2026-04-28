@@ -10,7 +10,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a strong **conversion-clarity cleanup opportunity**. The offer feels warm and affordable already; the upside is in structure, proof, scannability, and typo cleanup rather than a full redesign.
 
-## Snapshot
+## Quick take
 
 CleverSpark Coaching has a personable voice, a broad-enough coaching offer, and pricing that feels accessible. Kimberly’s story is also a real asset: counseling background, higher-ed experience, first-generation context, and lived ADHD perspective all create genuine trust.
 
@@ -36,7 +36,7 @@ That makes this a very pitchable **$99 mini-audit + optional cleanup sprint** le
 - There is already a free consult CTA, so the business is oriented around conversation-first conversion
 - Calendly is present, which is good for low-friction booking
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Tighten first-screen clarity
 The homepage opens with a friendly introduction, but the message is broad and the value prop is not yet crisp.
@@ -182,6 +182,50 @@ This feels like a **small conversion cleanup sprint**, not a full rebuild.
 Reasonable rough range after the $99 audit:
 - **~$300–$600** for homepage/services/contact cleanup if working within the existing site builder
 - potentially a little higher if copy restructuring and template cleanup turn out broader than expected
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| First-screen clarity is too broad | Critical | Refocuses the hero on career, job-search, and ADHD-informed coaching with a stronger consult CTA | Hero | Fixed |
+| Typos and formatting weaken trust | Critical | Uses cleaned headings, cards, and more polished copy structure throughout the prototype | Page-wide structure | Improved |
+| Packages are hard to compare | High | Converts dense offer descriptions into scannable cards with fit, deliverables, and price | Packages section | Fixed |
+| CTA hierarchy is weak | High | Standardizes the path around free consult first, details second | Header + hero + CTA flow | Fixed |
+| Founder credibility sits too late | Medium | Adds an early trust strip and explicit founder-proof framing | Trust strip + proof section | Improved |
+| Offer fit is unclear by audience | High | Adds ideal-client blocks for career changers, job seekers, neurodivergent professionals, and students | Fit section | Fixed |
+| Contact moment lacks reassurance | Medium | Introduces a visible consultation process to reduce hesitation before booking | Hero panel + consult section | Improved |
+
+## Similarity check
+
+### Preserved elements
+- warm, approachable founder-led tone
+- affordable visible-package positioning rather than premium mystery pricing
+- free-consult conversion model with Calendly as the likely booking direction
+- service mix spanning career clarity, job search, and neurodivergent support
+
+### Surgical changes
+- tightened the headline so the right visitor can self-identify faster
+- turned packages into clean comparison cards instead of paragraph-heavy explanations
+- added ideal-client, consultation-process, and FAQ structure around the existing offer
+- emphasized typo cleanup and clearer proof framing without changing the underlying voice
+
+### Unavoidable deviations
+- testimonial or outcome-proof depth remains directional because the audit did not include verified client quotes
+- sitewide typo cleanup is strongly indicated, but the prototype alone does not prove every live-page typo was exhaustively corrected
+
+## Final acceptance checklist
+
+- [x] Hero is clearer and more specific
+- [x] Package comparison is materially easier
+- [x] The consult path is explained before booking
+- [x] Ideal-client paths are visible
+- [x] Trust framing appears earlier in the page
+- [x] The warm brand voice is preserved
+- [ ] Full sitewide proofreading completion is independently proven
+
+**Visual resemblance:** High
+**Audit coverage:** High
+
 
 ## Artifact paths
 

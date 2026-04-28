@@ -9,7 +9,7 @@
 - **Prepared:** 2026-04-28
 - **Positioning note:** This is a **warm trust-and-clarity cleanup opportunity** for a skincare / wellness business that already has real expertise behind it.
 
-## Snapshot
+## Quick take
 
 SimplyBeaing has a strong emotional tone and clear owner credibility: 24 years in skincare, esthetician experience, yoga teaching, and health-coaching background. That foundation matters.
 
@@ -26,7 +26,7 @@ That makes this a very workable **$99 Page Profit Check** lead: the business doe
 - Physical location is stated clearly on the homepage and contact page
 - The brand already has enough substance to support a more premium-feeling presentation
 
-## Best opportunities
+## Biggest conversion issues
 
 ### 1) Remove template residue and placeholder text immediately
 The most obvious issue is the visible placeholder content on both the homepage and contact page:
@@ -170,6 +170,50 @@ A realistic cleanup sprint could include:
 - Homepage: https://www.simplybeaing.com/
 - Contact page: https://www.simplybeaing.com/contact-us
 - Appointments page link from nav: https://www.simplybeaing.com/book-now
+
+## Audit-to-Prototype Coverage
+
+| Finding | Severity | Prototype fix | Where it appears | Status |
+|---|---|---|---|---|
+| Placeholder/template residue lowers trust | Critical | Replaces unfinished-looking first impression with a polished skincare-specific hero and supporting structure | Hero + page structure | Improved |
+| Hero takes too long to explain the offer | High | Reframes the opening around brighter skin, calmer experience, and treatment guidance | Hero | Fixed |
+| Booking path is confusing | Critical | Adds a clearer inquiry path with request, recommendation, and arrival guidance | Inquiry process + CTA flow | Improved |
+| Trust signals are buried | High | Pulls experience, whole-body perspective, and location cues closer to the top | Trust/proof sections | Improved |
+| Service positioning is unclear | High | Groups services into facials, corrective treatments, microneedling/LED, and brows/lashes | Services section | Fixed |
+| First-time clients need more guidance | Medium | Adds “what happens next” structure and FAQ support for treatment selection | Inquiry process + FAQ | Fixed |
+| Local conversion cues could be stronger | Medium | Highlights Waltham studio and cleaner parking/arrival guidance | Local trust block | Improved |
+
+## Similarity check
+
+### Preserved elements
+- warm, calming skincare-and-wellness tone
+- owner-led expertise with a whole-body perspective
+- broad treatment mix rather than a one-service studio
+- local Waltham studio context as a trust builder
+
+### Surgical changes
+- made the first screen more practical without losing the gentle brand feel
+- grouped services into clearer treatment categories for faster self-selection
+- added an inquiry / treatment-matching process for clients who do not know what to book
+- strengthened local arrival and contact guidance to support first-time visits
+
+### Unavoidable deviations
+- exact resolution of the “Appointments” versus “no online booking” conflict is improved directionally, but the final live booking mechanism is not fully proven from the audit alone
+- placeholder cleanup across every page is strongly indicated but not independently verified end-to-end
+
+## Final acceptance checklist
+
+- [x] Hero explains the offer faster
+- [x] Service categories are easier to scan
+- [x] First-time inquiry flow is clearer
+- [x] Local studio guidance is easier to find
+- [x] FAQ support addresses common hesitation
+- [x] The brand still feels calm and personal
+- [ ] Final live booking method is fully confirmed
+
+**Visual resemblance:** High
+**Audit coverage:** High
+
 
 ## Artifact paths
 
