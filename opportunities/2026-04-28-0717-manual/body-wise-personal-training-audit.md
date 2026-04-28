@@ -124,16 +124,17 @@ Best fit for outreach:
 ## Similarity check
 
 ### Preserved elements
-- warm approachable local-fitness tone
-- service-led single-page structure with trainer/about and contact moments
-- existing color direction and straightforward brochure-style layout feel
+- duplicated two-row site-builder navigation feel with simple text links
+- full-width fitness hero image with large centered headline and short subhead
+- warm neutral / beige / gray color direction and straightforward brochure-site typography
+- four homepage promo cards for training / trainers / packages / specials
+- motivational quote band followed by long-form local personal-training copy and a contact block
 
 ### Surgical changes
-- trimmed repetition and long text blocks into shorter scan-friendly sections
-- made the consultation/book-now path more visible while keeping the site feeling like a neighborhood trainer page
-- reframed proof and benefits closer to the existing service story instead of inventing a new brand direction
+- kept the original layout rhythm but removed obvious template junk and tightened wording around the consultation CTA
+- reused the same style of fitness imagery and simple card blocks instead of inventing a custom brand system
+- cleaned the contact area so service choices and the free-consultation path are clearer without changing the basic page structure
 
 ### Unavoidable deviations
-- some copy is more concise than the live page to improve readability
-- a few trust and CTA blocks are more explicit than the original because the current page buries them
-
+- the exact live-site photos were not directly reusable from the public page source in this environment, so closely matching stock-fitness imagery was used in the same visual style
+- duplicate nav clutter was reduced slightly so the prototype still feels like the same site, but less broken

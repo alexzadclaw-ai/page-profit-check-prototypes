@@ -3,290 +3,245 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Body Wise Personal Training — Page Profit Check Prototype</title>
-  <meta name="description" content="Conversion-first prototype for Body Wise Personal Training in Charlotte, NC with clearer CTA hierarchy, trust placement, service paths, mobile scannability, and local SEO support.">
+  <title>Body Wise Personal Training — Surgical Cleanup Prototype</title>
+  <meta name="description" content="Surgical cleanup prototype for Body Wise Personal Training that preserves the original site-builder look and feel while improving clarity and trust.">
   <meta name="robots" content="noindex, nofollow">
   <style>
     :root{
-      --bg:#fffaf5;
+      --tan:#d6c9bc;
+      --tan-dark:#b8a591;
+      --cream:#f7f3ee;
+      --ink:#222;
+      --muted:#5f5f5f;
+      --line:#ddd4cb;
       --panel:#ffffff;
-      --soft:#f5eee7;
-      --soft-2:#efe2d6;
-      --ink:#2f251d;
-      --muted:#6a5a4f;
-      --line:#e6d7c9;
-      --brand:#7c4f2f;
-      --brand-dark:#5a361f;
-      --accent:#b9875d;
-      --ok:#385d43;
-      --wrap:min(1120px, calc(100% - 28px));
-      --shadow:0 14px 28px rgba(70,44,23,.08);
-      --radius:8px;
+      --accent:#3a3a3a;
+      --wrap:min(1180px, calc(100% - 32px));
     }
     *{box-sizing:border-box}
-    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--ink);line-height:1.58}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
     a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .topbar{background:#fff;border-bottom:1px solid #e5e5e5;font-size:14px;color:#444}
+    .topbar .wrap{width:var(--wrap);margin:0 auto;display:flex;justify-content:space-between;gap:12px;padding:10px 0;align-items:center;flex-wrap:wrap}
+    .review-link{font-size:13px;color:#6a6a6a}
+    .socials{display:flex;gap:10px;font-size:13px;color:#777}
+    header{background:#fff}
     .wrap{width:var(--wrap);margin:0 auto}
-    .topbar{background:var(--brand-dark);color:#fff;font-size:13px}
-    .topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 0}
-    header{background:#fff;border-bottom:1px solid var(--line)}
-    .nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 0}
-    .brand{font-weight:800;font-size:28px;letter-spacing:.04em;color:var(--brand-dark)}
-    .brand small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8c7565;margin-top:3px}
-    .nav-links{display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:14px;color:var(--muted)}
-    .btn{display:inline-block;padding:14px 22px;border-radius:999px;font-weight:700}
-    .btn-primary{background:var(--brand);color:#fff;box-shadow:var(--shadow)}
-    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--brand-dark)}
-    .hero{padding:28px 0 34px;background:linear-gradient(180deg,#fffaf5 0%,#f7efe7 100%)}
-    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:24px;align-items:center}
-    .hero-copy,.hero-card,.panel,.service,.proof,.faq,.cta-band{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-    .hero-copy{padding:38px}
-    .eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#9a765a;margin-bottom:12px}
-    h1{font-size:clamp(34px,5vw,58px);line-height:1.04;margin:0 0 14px;color:var(--brand-dark)}
-    .subhead{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 22px}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
-    .hero-note{margin-top:16px;color:var(--muted);font-size:14px}
-    .hero-card{padding:30px}
-    .hero-card h2,.section-title,.service h3,.proof h3,.faq h3,.panel h3,.cta-band h2{font-family:Georgia,'Times New Roman',serif}
-    .hero-card h2{font-size:31px;line-height:1.14;margin:0 0 10px;color:var(--brand-dark)}
-    .hero-card p{margin:0 0 16px;color:var(--muted)}
-    .steps{display:grid;gap:12px}
-    .step{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:var(--soft);border:1px solid var(--soft-2);padding:14px;border-radius:6px}
-    .step-num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--brand);color:#fff;font-weight:700}
-    .step strong{display:block;color:var(--brand-dark);margin-bottom:4px}
-    .trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
-    .trust-item{background:var(--soft);border:1px solid var(--soft-2);padding:14px;border-radius:6px;text-align:center;font-size:14px;color:var(--brand-dark);font-weight:700}
-    section{padding:28px 0}
-    .section-head{text-align:center;max-width:820px;margin:0 auto 24px}
-    .section-title{font-size:40px;line-height:1.12;margin:0 0 12px;color:var(--brand-dark)}
-    .section-head p{margin:0;color:var(--muted);font-size:17px}
-    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-    .service{padding:24px}
-    .service h3{font-size:24px;line-height:1.15;margin:0 0 10px;color:#633d24}
-    .service p{margin:0;color:var(--muted)}
-    .service .tag{display:block;margin-top:14px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9a765a}
-    .alt{background:#f8f1ea;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    .panel{padding:26px}
-    .panel h3{font-size:28px;line-height:1.14;margin:0 0 10px;color:var(--brand-dark)}
-    .panel p,.proof p,.faq p{margin:0;color:var(--muted)}
-    .point-list,.proof-grid,.faq-grid{display:grid;gap:14px}
-    .point{background:var(--soft);border:1px solid var(--soft-2);padding:16px;border-radius:6px}
-    .point strong{display:block;color:var(--brand-dark);margin-bottom:4px}
-    .proof-grid{grid-template-columns:repeat(3,1fr)}
-    .proof{padding:22px}
-    .proof h3{font-size:23px;line-height:1.14;margin:0 0 8px;color:#633d24}
-    .faq-grid{grid-template-columns:repeat(3,1fr)}
-    .faq{padding:22px}
-    .faq h3{font-size:22px;line-height:1.16;margin:0 0 8px;color:#633d24}
-    .cta-band{padding:30px;display:flex;justify-content:space-between;align-items:center;gap:20px;background:linear-gradient(135deg,#6d4327,#8a5a36);color:#fff;border-color:#6a4125}
-    .cta-band h2{font-size:38px;line-height:1.1;margin:0 0 8px}
-    .cta-band p{margin:0;max-width:700px;color:#f4e8dd}
-    .cta-band .btn-secondary{background:#fff;color:var(--brand-dark);border-color:#fff}
-    footer{padding:24px 0 40px;text-align:center;color:#7d695c;font-size:13px}
-    @media (max-width: 1020px){
-      .hero-grid,.services,.split,.proof-grid,.faq-grid,.trust-strip{grid-template-columns:1fr 1fr}
+    .nav1,.nav2{display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .nav1{padding:14px 0 8px}
+    .nav2{padding:10px 0 14px;border-top:1px solid #f0ebe6}
+    .logo{font-size:34px;font-weight:700;letter-spacing:.02em;color:#404040}
+    .menu,.submenu{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;color:#555}
+    .cta-link{font-weight:700}
+    .phone{font-size:28px;font-weight:700;color:#3f3f3f}
+    .hero{position:relative;min-height:560px;background:
+      linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.38)),
+      url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      display:flex;align-items:center}
+    .hero-inner{width:var(--wrap);margin:0 auto;padding:60px 0;color:#fff;text-align:center}
+    .hero h1{font-size:54px;line-height:1.08;margin:0 auto 14px;max-width:900px;font-weight:700}
+    .hero h2{font-size:30px;line-height:1.18;margin:0 auto 24px;max-width:760px;font-weight:400}
+    .btn{display:inline-block;background:#fff;color:#333;padding:14px 28px;border-radius:2px;font-weight:700;border:1px solid rgba(0,0,0,.08)}
+    .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+    .quick-card{min-height:250px;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;background-size:cover;background-position:center;position:relative;color:#fff}
+    .quick-card::before{content:'';position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.12),rgba(0,0,0,.55))}
+    .quick-card>*{position:relative;z-index:1}
+    .quick-card h3{margin:0 0 10px;font-size:28px;line-height:1.1}
+    .quick-card a{font-weight:700;font-size:14px}
+    .quote-band{background:#5d5d5d;color:#fff;text-align:center;padding:52px 20px}
+    .quote-band h2{margin:0 0 14px;font-size:40px;line-height:1.15;font-weight:400}
+    .quote-band p{margin:0 0 18px;font-size:20px}
+    .quote-band .btn{background:#fff}
+    .intro{background:var(--cream);padding:48px 0}
+    .intro .two{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:start}
+    h3.section{font-size:30px;line-height:1.15;margin:0 0 12px;font-weight:400;color:#3f3f3f}
+    h4.small{font-size:23px;line-height:1.25;margin:0 0 12px;font-weight:400;color:#555}
+    .copy p{margin:0 0 14px;color:#555;font-size:16px}
+    .bullets{margin:16px 0 0;padding-left:20px;color:#444}
+    .bullets li{margin:8px 0}
+    .trust{background:#fff;border:1px solid var(--line);padding:24px}
+    .trust-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+    .trust-item{background:var(--cream);border:1px solid #ece4da;padding:14px;font-size:14px;color:#444}
+    .contact-section{padding:46px 0;background:#fff}
+    .contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+    .panel{background:#faf8f5;border:1px solid var(--line);padding:24px}
+    .fake-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .field,.textarea,.choice{background:#fff;border:1px solid #d7d7d7;padding:12px 10px;font-size:14px;color:#666}
+    .textarea{grid-column:1 / -1;min-height:120px}
+    .choice-row{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:8px}
+    .choice{padding:8px 10px;background:#f4f0eb}
+    .submit{margin-top:12px;display:inline-block;background:#4f4f4f;color:#fff;padding:12px 20px;font-weight:700}
+    footer{background:#f7f3ee;border-top:1px solid #e7ddd2;padding:28px 0;color:#666;font-size:14px}
+    .footer-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:24px}
+    .fine{font-size:13px;color:#7a7a7a;margin-top:10px}
+    @media (max-width: 960px){
+      .grid4,.intro .two,.contact-grid,.footer-grid,.trust-grid{grid-template-columns:1fr 1fr}
+      .hero h1{font-size:42px}
+      .hero h2{font-size:24px}
     }
     @media (max-width: 720px){
-      .nav{flex-direction:column;align-items:flex-start}
-      .hero-grid,.services,.split,.proof-grid,.faq-grid,.trust-strip{grid-template-columns:1fr}
-      .hero-copy,.hero-card,.panel,.service,.proof,.faq,.cta-band{padding:22px}
-      .section-title,.cta-band h2{font-size:31px}
-      .subhead{font-size:17px}
-      .cta-band{flex-direction:column;align-items:flex-start}
+      .nav1,.nav2{flex-direction:column;align-items:flex-start}
+      .menu,.submenu{gap:12px}
+      .grid4,.intro .two,.contact-grid,.footer-grid,.trust-grid,.fake-form{grid-template-columns:1fr}
+      .phone{font-size:22px}
+      .hero{min-height:460px}
+      .hero h1{font-size:34px}
+      .hero h2{font-size:21px}
+      .quote-band h2{font-size:30px}
     }
   </style>
 </head>
 <body>
   <div class="topbar">
     <div class="wrap">
-      <div>Charlotte personal training, weight loss coaching, performance support, and fitness testing</div>
-      <div>Call <strong>(704) 614-1511</strong> to book a free consultation</div>
+      <div><strong>(704) 614-1511</strong></div>
+      <div class="review-link">Feel Empowered — Leave us a review on Google!</div>
+      <div class="socials"><span>Facebook</span><span>Twitter</span><span>Instagram</span><span>Google</span></div>
     </div>
   </div>
 
   <header>
-    <div class="wrap nav">
-      <div class="brand">BODY WISE<small>Personal Training</small></div>
-      <nav class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#why">Why Body Wise</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="btn btn-primary">Book Free Consultation</a>
-      </nav>
+    <div class="wrap nav1">
+      <div class="logo">Body Wise</div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#services">Training Options</a>
+        <a href="#trainers">Meet The Trainers</a>
+        <a href="#packages">Packages</a>
+        <a href="#specials">Specials</a>
+        <a href="#contact" class="cta-link">Contact</a>
+      </div>
+    </div>
+    <div class="wrap nav2">
+      <div class="submenu">
+        <a href="#services">Personal Training</a>
+        <a href="#services">Sport Specific Training</a>
+        <a href="#services">Health & Wellness</a>
+        <a href="#services">Competition Prep</a>
+        <a href="#services">VO2 Max Testing</a>
+        <a href="#services">Resting Metabolic Rate</a>
+      </div>
+      <div class="phone">(704) 614-1511</div>
     </div>
   </header>
 
   <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow">Conversion-first cleanup concept</span>
-        <h1>Personal training in Charlotte built around your goals, body, and schedule</h1>
-        <p class="subhead">A cleaner homepage direction for Body Wise that makes weight loss, strength, performance, and testing services easier to understand — with a clearer next step for new visitors.</p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Book Your Free Consultation</a>
-          <a href="#services" class="btn btn-secondary">See Training Options</a>
-        </div>
-        <div class="hero-note">Demo copy only. This prototype avoids copying live-site text wholesale and focuses on clearer structure, trust, and CTA hierarchy.</div>
-        <div class="trust-strip">
-          <div class="trust-item">25 Years of Experience</div>
-          <div class="trust-item">Charlotte / Pineville Focus</div>
-          <div class="trust-item">Customized One-on-One Plans</div>
-          <div class="trust-item">Free Consultation</div>
-        </div>
+    <div class="hero-inner">
+      <h1>Get in the best shape of your life using Body Wise Personal Training in Charlotte & Pineville, NC</h1>
+      <h2>Get a customized fitness and meal plan to feel your best.</h2>
+      <a class="btn" href="#contact">Book Your Free Consultation</a>
+    </div>
+  </section>
+
+  <section class="grid4" id="services">
+    <article class="quick-card" style="background-image:url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80')">
+      <h3>Personal Training</h3>
+      <a href="#contact">Learn More</a>
+    </article>
+    <article class="quick-card" id="trainers" style="background-image:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80')">
+      <h3>Meet the Trainers</h3>
+      <a href="#intro">Learn More</a>
+    </article>
+    <article class="quick-card" id="packages" style="background-image:url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80')">
+      <h3>Packages</h3>
+      <a href="#contact">Learn More</a>
+    </article>
+    <article class="quick-card" id="specials" style="background-image:url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=900&q=80')">
+      <h3>Specials</h3>
+      <a href="#contact">Learn More</a>
+    </article>
+  </section>
+
+  <section class="quote-band">
+    <h2>You don't have to be strong to get started.<br>You have to start to get strong.</h2>
+    <p>Keep the original motivational feel, but make the next step more explicit.</p>
+    <a class="btn" href="#contact">Get Started Today</a>
+  </section>
+
+  <section class="intro" id="intro">
+    <div class="wrap two">
+      <div class="copy">
+        <h3 class="section">Personalized Fitness Training & Weight Loss Program in the South Park neighborhood in Charlotte, NC</h3>
+        <h4 class="small">We have 25 years of experience and can help you reach your goals</h4>
+        <p>Body Wise already has the right ingredients on the page: long experience, one-on-one coaching, a clear local focus, and multiple training options. This cleanup keeps that same neighborhood-trainer feel while making the page easier to scan and trust.</p>
+        <p>Instead of rewriting the business as a new brand, the goal here is to surface what is already strong: personal training, weight loss help, sport-specific work, competition prep, and testing support for Charlotte-area clients.</p>
+        <ul class="bullets">
+          <li>Improve speed, agility, and flexibility</li>
+          <li>Tone your body in the right areas</li>
+          <li>Build and maintain strength</li>
+          <li>Lose stubborn weight with a realistic plan</li>
+          <li>Use VO2 max and metabolic testing for clearer guidance</li>
+        </ul>
       </div>
-      <aside class="hero-card">
-        <h2>Make the first step feel easy</h2>
-        <p>One of the biggest conversion wins here is simply explaining what happens next instead of dropping visitors into a generic contact flow.</p>
-        <div class="steps">
-          <div class="step"><div class="step-num">1</div><div><strong>Share your goal</strong>Weight loss, strength, sports performance, or testing support.</div></div>
-          <div class="step"><div class="step-num">2</div><div><strong>Talk through your starting point</strong>Discuss injuries, limitations, schedule, and training history.</div></div>
-          <div class="step"><div class="step-num">3</div><div><strong>Get matched to the right plan</strong>Choose the most relevant training path instead of guessing.</div></div>
+      <aside class="trust">
+        <h3 class="section">A small cleanup with higher trust</h3>
+        <p>The live site does not need a redesign. It needs cleaner structure, stronger CTA wording, and removal of template leftovers that make the page feel less finished than the business really is.</p>
+        <div class="trust-grid">
+          <div class="trust-item"><strong>Preserved:</strong> same hero-photo style, same brochure-site rhythm, same approachable local tone</div>
+          <div class="trust-item"><strong>Improved:</strong> one clearer consultation CTA instead of generic start language</div>
+          <div class="trust-item"><strong>Preserved:</strong> service-led homepage cards and trainer/package/specials layout</div>
+          <div class="trust-item"><strong>Improved:</strong> removed noisy filler and made core benefits easier to see</div>
         </div>
       </aside>
     </div>
   </section>
 
-  <section id="services">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Clearer buyer paths</span>
-        <h2 class="section-title">Same services, better organized for conversion</h2>
-        <p>Instead of treating every service as an equal menu item, this version groups the offer around the reasons people actually reach out.</p>
-      </div>
-      <div class="services">
-        <article class="service">
-          <h3>Lose Weight & Tone Up</h3>
-          <p>For adults who want accountability, structure, and a realistic plan to feel better and see progress.</p>
-          <span class="tag">Weight loss • Body toning • Support</span>
-        </article>
-        <article class="service">
-          <h3>Build Strength & Confidence</h3>
-          <p>One-on-one coaching for people who want to move better, get stronger, and stay consistent without guesswork.</p>
-          <span class="tag">Strength • Consistency • Confidence</span>
-        </article>
-        <article class="service">
-          <h3>Train for Sport or Competition</h3>
-          <p>Focused work for clients preparing for events, improving performance, or pushing toward a more advanced goal.</p>
-          <span class="tag">Performance • Agility • Prep</span>
-        </article>
-        <article class="service">
-          <h3>Use Testing to Guide the Plan</h3>
-          <p>VO2 max and metabolic-rate services can support a more informed approach instead of relying only on guesswork.</p>
-          <span class="tag">Data • Progress tracking • Precision</span>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="alt" id="why">
-    <div class="wrap split">
+  <section class="contact-section" id="contact">
+    <div class="wrap contact-grid">
       <div class="panel">
-        <span class="eyebrow">Why this page can improve fast</span>
-        <h3>The credibility is already there — it just needs cleaner presentation</h3>
-        <p>The live site already communicates experience, service variety, and local relevance. The biggest issue is that template noise and long blocks of copy make those strengths harder to feel quickly.</p>
-        <div class="point-list" style="margin-top:16px">
-          <div class="point"><strong>Sharper headline + CTA</strong>Make the consultation offer clearer and more specific than “Get Started Today.”</div>
-          <div class="point"><strong>Fewer trust leaks</strong>Clean up footer residue, unfinished field labels, and spacing glitches that make the page feel less polished.</div>
-          <div class="point"><strong>Better mobile scanning</strong>Turn long paragraphs into short sections, bullets, and card-based service summaries.</div>
+        <h3 class="section">Contact Body Wise Personal Training today</h3>
+        <p style="margin-top:0;color:#555">Please use the form below to ask about personal training, wellness coaching, competition prep, or testing. You can also call <strong>(704) 614-1511</strong> to speak with someone right away.</p>
+        <div class="fake-form" style="margin-top:18px">
+          <div class="field">First Name</div>
+          <div class="field">Last Name</div>
+          <div class="field">Email</div>
+          <div class="field">Phone</div>
+          <div class="choice-row">
+            <div class="choice">Personal Training</div>
+            <div class="choice">Sport Specific Training</div>
+            <div class="choice">Health & Wellness Consultation</div>
+            <div class="choice">Competition Prep Training</div>
+            <div class="choice">VO2 Max Testing</div>
+            <div class="choice">Resting Metabolic Rate Testing</div>
+            <div class="choice">Other</div>
+          </div>
+          <div class="choice-row">
+            <div class="choice">Morning</div>
+            <div class="choice">Midday</div>
+            <div class="choice">Evening</div>
+          </div>
+          <div class="textarea">Message</div>
         </div>
+        <a class="submit" href="tel:+17046141511">Call to Book Your Free Consultation</a>
       </div>
       <div class="panel">
-        <span class="eyebrow">Trust placement</span>
-        <h3>Bring the right proof closer to the top</h3>
-        <p>Visitors should not have to dig for the reasons to trust Body Wise. Move the strongest proof nearer to the first CTA so the consultation ask feels safer and more relevant.</p>
-        <div class="proof-grid" style="margin-top:16px">
-          <article class="proof">
-            <h3>25 years in business</h3>
-            <p>Lead with longevity as a reason this is not a generic trainer page.</p>
-          </article>
-          <article class="proof">
-            <h3>Charlotte / South Park fit</h3>
-            <p>Use location naturally so local visitors feel the page is truly for them.</p>
-          </article>
-          <article class="proof">
-            <h3>Customized planning</h3>
-            <p>Emphasize that each client starts with goals, limitations, and lifestyle in mind.</p>
-          </article>
+        <h3 class="section">Body Wise Personal Training</h3>
+        <p><strong>4805 Park Rd Suite 102<br>Charlotte, NC 28209</strong></p>
+        <p style="margin-top:14px">Mon - Sun<br>Appointment Only</p>
+        <p style="margin-top:14px">This version keeps the original contact-first feel, but removes unfinished labels, sharpens the consultation ask, and keeps the same simple site-builder structure visitors already expect.</p>
+        <div class="trust-grid" style="margin-top:18px">
+          <div class="trust-item">Charlotte / Pineville / South Park feel preserved</div>
+          <div class="trust-item">Free consultation still remains the main next step</div>
+          <div class="trust-item">Straightforward brochure layout, not a polished agency redesign</div>
+          <div class="trust-item">Graphics reused in the same fitness-photo style and warm neutral palette</div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">SEO + scannability</span>
-        <h2 class="section-title">Support search without making the page feel stuffed</h2>
-        <p>A stronger homepage can still mention high-intent local topics naturally while staying clean and easy to read.</p>
-      </div>
-      <div class="proof-grid">
-        <article class="proof">
-          <h3>Charlotte personal training</h3>
-          <p>Clarify the core local service so first-time visitors instantly understand the business category.</p>
-        </article>
-        <article class="proof">
-          <h3>Weight loss and body toning</h3>
-          <p>Keep this visible because it likely matches a major share of real buyer intent.</p>
-        </article>
-        <article class="proof">
-          <h3>Fitness testing services</h3>
-          <p>Use these as differentiators instead of burying them deep in the navigation.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="alt" id="faq">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">FAQ cleanup</span>
-        <h2 class="section-title">Answer the questions that block people from calling</h2>
-        <p>A small FAQ is one of the easiest low-effort additions for both trust and conversion clarity.</p>
-      </div>
-      <div class="faq-grid">
-        <article class="faq">
-          <h3>What happens during the free consultation?</h3>
-          <p>You discuss goals, limitations, schedule, and the training path that makes the most sense before committing.</p>
-        </article>
-        <article class="faq">
-          <h3>Do I need to be in shape already?</h3>
-          <p>No. The page should reassure beginners and returning clients that the plan starts from their current level.</p>
-        </article>
-        <article class="faq">
-          <h3>What if I want weight loss help and nutrition support?</h3>
-          <p>That combination should be framed as a normal, guided path rather than separate disconnected services.</p>
-        </article>
-        <article class="faq">
-          <h3>Who is sport-specific training for?</h3>
-          <p>People preparing for performance goals, organized athletics, or a more advanced training target.</p>
-        </article>
-        <article class="faq">
-          <h3>Why mention testing on the homepage?</h3>
-          <p>Because VO2 max and resting metabolic rate testing make the business feel more specialized and credible.</p>
-        </article>
-        <article class="faq">
-          <h3>Why this style of cleanup instead of a redesign?</h3>
-          <p>Because the fastest value here likely comes from clarity, trust cleanup, and better CTA structure — not a total rebuild.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="wrap">
-      <div class="cta-band">
-        <div>
-          <h2>Book a free consultation</h2>
-          <p>Give new visitors one obvious next step: call, ask a few questions, and get matched to the training path that fits their goals.</p>
-        </div>
-        <a href="tel:+17046141511" class="btn btn-secondary">Call (704) 614-1511</a>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="wrap">Prototype for Page Profit Check review only. Adapted demo copy, not copied wholesale from the live Body Wise site.</div>
+    <div class="wrap footer-grid">
+      <div>
+        <strong>Body Wise Personal Training</strong><br>
+        Copyright © Body Wise Personal Training | All Rights Reserved
+        <div class="fine">Prototype cleanup for review. Intentionally kept close to the original site-builder look and feel.</div>
+      </div>
+      <div>
+        <strong>Resources</strong><br>
+        Areas We Serve · Home · FAQs · Contact
+      </div>
+    </div>
   </footer>
 </body>
 </html>
