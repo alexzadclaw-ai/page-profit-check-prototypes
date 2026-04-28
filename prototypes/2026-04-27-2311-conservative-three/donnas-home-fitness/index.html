@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donna’s Home Fitness — Conservative Cleanup Prototype</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --ink: #2d3b48;
+      --muted: #65707a;
+      --soft: #f7f6f2;
+      --warm: #faf8f4;
+      --card: #ffffff;
+      --line: #e5ddd1;
+      --brand: #7f9484;
+      --brand-deep: #647768;
+      --accent: #c79c5c;
+      --accent-soft: #f2e4cc;
+      --shadow: 0 14px 34px rgba(75, 61, 45, 0.08);
+      --radius: 18px;
+      --max: 1100px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #f8f5ef 0%, #fcfbf8 220px, #fff 220px);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap {
+      width: min(var(--max), calc(100% - 28px));
+      margin: 0 auto;
+    }
+    .topbar {
+      background: #efe7dc;
+      border-bottom: 1px solid #e2d6c7;
+      font-size: 0.95rem;
+      color: #4c554f;
+    }
+    .topbar .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .topbar-left,
+    .topbar-right {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      align-items: center;
+    }
+    .pill {
+      display: inline-block;
+      background: rgba(255,255,255,0.66);
+      border: 1px solid rgba(127,148,132,0.22);
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+    }
+    .site-header {
+      padding: 18px 0 8px;
+    }
+    .brand {
+      text-align: center;
+      padding: 12px 0 18px;
+    }
+    .brand small {
+      display: block;
+      color: var(--brand-deep);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      margin-bottom: 8px;
+    }
+    .brand h1 {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 600;
+      color: #5b6d5f;
+    }
+    .hero {
+      padding: 8px 0 28px;
+    }
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(252,249,244,0.98));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .eyebrow {
+      color: #8a7a63;
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+    .hero h2 {
+      margin: 0 0 14px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      line-height: 1.08;
+      font-weight: 600;
+      color: #435348;
+    }
+    .hero p.lede {
+      margin: 0 0 18px;
+      font-size: 1.06rem;
+      color: var(--muted);
+      max-width: 58ch;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 0 0 12px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 8px 18px rgba(199,156,92,0.25);
+    }
+    .btn-secondary {
+      background: #fff;
+      color: var(--ink);
+      border-color: #d8ccb9;
+    }
+    .microcopy {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .trust {
+      background: #fff;
+      border: 1px solid #e8dfd4;
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .trust strong {
+      display: block;
+      color: #4c5d51;
+      font-size: 0.98rem;
+      margin-bottom: 4px;
+    }
+    .trust span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .side-card {
+      background: #f6f1e8;
+      border: 1px solid #e3d5c2;
+      border-radius: 18px;
+      padding: 22px;
+    }
+    .side-card h3,
+    .side-card h4,
+    .section h3 {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #556659;
+    }
+    .side-card h3 {
+      margin: 0 0 12px;
+      font-size: 1.4rem;
+    }
+    .side-card p {
+      margin: 0 0 14px;
+      color: #5f685e;
+    }
+    .plain-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+    .plain-list li {
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(127,148,132,0.16);
+      border-radius: 12px;
+      padding: 10px 12px;
+    }
+    section {
+      padding: 14px 0 26px;
+    }
+    .section-head {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .section-head small {
+      display: block;
+      color: #8a7a63;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-size: 0.76rem;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    .section-head h3 {
+      margin: 0 0 8px;
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      font-weight: 600;
+    }
+    .section-head p {
+      margin: 0 auto;
+      max-width: 68ch;
+      color: var(--muted);
+    }
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 24px rgba(75, 61, 45, 0.05);
+      padding: 20px;
+    }
+    .card h4 {
+      margin: 0 0 8px;
+      font-size: 1.08rem;
+      color: #556659;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .next-grid,
+    .about-grid,
+    .final-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .steps {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+    .steps li {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .num {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #8a6837;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+    }
+    .quote {
+      background: #fff;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 16px 16px 0;
+      padding: 16px 18px;
+      box-shadow: 0 8px 22px rgba(75, 61, 45, 0.04);
+      margin-bottom: 12px;
+    }
+    .quote p,
+    .quote strong {
+      margin: 0;
+    }
+    .about-box {
+      background: #f8f3ea;
+      border: 1px solid #e7dac9;
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .contact-box {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .contact-box p,
+    .about-box p { margin: 0 0 10px; }
+    .label {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #8a7a63;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .final-cta {
+      background: linear-gradient(180deg, #f3ecdf, #fbf8f2);
+      border: 1px solid #e6d8c5;
+      border-radius: 22px;
+      padding: 26px;
+      box-shadow: var(--shadow);
+    }
+    .footer {
+      text-align: center;
+      color: #7d7d77;
+      font-size: 0.88rem;
+      padding: 10px 0 30px;
+    }
+    @media (max-width: 900px) {
+      .hero-card,
+      .next-grid,
+      .about-grid,
+      .final-grid,
+      .benefits {
+        grid-template-columns: 1fr;
+      }
+      .trust-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(var(--max), calc(100% - 20px)); }
+      .hero-card,
+      .card,
+      .side-card,
+      .about-box,
+      .contact-box,
+      .final-cta { padding: 18px; }
+      .hero h2 { font-size: 2rem; }
+      .trust-row { grid-template-columns: 1fr 1fr; }
+      .btn { width: 100%; text-align: center; }
+      .cta-row { display: grid; grid-template-columns: 1fr; }
+      .topbar .wrap { padding: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div class="topbar-left">
+        <span>South Naperville home fitness studio</span>
+        <span class="pill">Personal training & small-group classes</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:16304790386">1-630-479-0386</a>
+        <a href="mailto:donna@donnashomefitness.com">donna@donnashomefitness.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header wrap">
+    <div class="brand">
+      <small>Conservative cleanup prototype</small>
+      <h1>Donna’s Home Fitness</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div>
+            <div class="eyebrow">Personal Training & Small-Group Circuit Classes</div>
+            <h2>Friendly fitness support right here in South Naperville</h2>
+            <p class="lede">Build strength, confidence, and consistency in a welcoming home-gym setting — with personal attention, flexible options, and a free trial to see if it feels like the right fit.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="mailto:donna@donnashomefitness.com?subject=Book%20a%20Free%20Trial%20Class">Book a Free Trial Class</a>
+              <a class="btn btn-secondary" href="https://www.donnashomefitness.com/circuit-training">View Schedule & Pricing</a>
+            </div>
+            <p class="microcopy">No pressure — just reach out, meet Donna, and see whether the class environment feels right for you.</p>
+
+            <div class="trust-row">
+              <div class="trust">
+                <strong>25+ years</strong>
+                <span>Fitness coaching experience</span>
+              </div>
+              <div class="trust">
+                <strong>ACE Certified</strong>
+                <span>Experienced professional guidance</span>
+              </div>
+              <div class="trust">
+                <strong>Medical fitness</strong>
+                <span>Supportive adaptations when needed</span>
+              </div>
+              <div class="trust">
+                <strong>South Naperville</strong>
+                <span>Warm, local home-gym setting</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="side-card">
+            <h3>What happens next?</h3>
+            <p>This conservative prototype adds a little more reassurance around the free-trial CTA without changing the overall tone of the site.</p>
+            <ul class="plain-list">
+              <li>Send a quick email to ask about a free trial.</li>
+              <li>Meet Donna, see the space, and talk through your goals.</li>
+              <li>Try the environment in a supportive, low-pressure way.</li>
+              <li>Decide whether personal training or small-group classes fit best.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <small>Why people would choose this</small>
+          <h3>A personal, welcoming alternative to a crowded gym</h3>
+          <p>Same core message as the current page — just made easier to scan, especially on mobile.</p>
+        </div>
+        <div class="benefits">
+          <article class="card">
+            <h4>Personal attention</h4>
+            <p>Small-group classes and one-on-one training make it easier to adjust workouts around your goals, pace, and comfort level.</p>
+          </article>
+          <article class="card">
+            <h4>Comfortable home-gym environment</h4>
+            <p>Train in a more relaxed space that feels approachable for beginners, returners, and people who dislike crowded gyms.</p>
+          </article>
+          <article class="card">
+            <h4>All ages and abilities welcome</h4>
+            <p>Workouts can be adapted for different fitness levels, life stages, and physical limitations.</p>
+          </article>
+          <article class="card">
+            <h4>Flexible and realistic</h4>
+            <p>Programs and scheduling are built to fit real life rather than expecting you to train like an athlete full time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap next-grid">
+        <div>
+          <div class="section-head" style="text-align:left; margin-bottom:14px;">
+            <small>Low-friction CTA support</small>
+            <h3>Trying a class should feel simple</h3>
+            <p>One of the easiest wins here is adding a quick expectation-setting section near the CTA.</p>
+          </div>
+          <ol class="steps">
+            <li><span class="num">1</span><div><strong>Reach out</strong><br />Send an email and mention what kind of support you are looking for.</div></li>
+            <li><span class="num">2</span><div><strong>Talk through your goals</strong><br />Share whether you want strength, confidence, flexibility, weight loss, or a fresh restart.</div></li>
+            <li><span class="num">3</span><div><strong>Try the environment</strong><br />Get a feel for the pace, coaching style, and overall comfort of the space.</div></li>
+          </ol>
+        </div>
+        <div>
+          <div class="section-head" style="text-align:left; margin-bottom:14px;">
+            <small>Trust nearer the top</small>
+            <h3>Short proof cues can carry a lot of weight</h3>
+            <p>This stays intentionally modest: no giant redesign, just trust placed earlier so visitors do not have to hunt for it.</p>
+          </div>
+          <div class="quote">
+            <p>“This demo keeps the original warmth and neighborhood feel, while making the free-trial path clearer and easier to trust.”</p>
+          </div>
+          <div class="quote">
+            <p>“A conservative cleanup is likely the right pitch here — clearer hero copy, better CTA hierarchy, and mobile-friendly scanning.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap about-grid">
+        <div class="about-box">
+          <div class="label">Meet Donna</div>
+          <h3 style="margin-top:0; margin-bottom:10px;">Experienced, encouraging, and local</h3>
+          <p>Donna Anderson brings decades of fitness experience, a strong educational background, and a coaching style built around patience, encouragement, and consistency.</p>
+          <p>This prototype uses adapted summary copy rather than copying the original site word-for-word, while preserving the same general message and tone.</p>
+        </div>
+        <div class="contact-box">
+          <div class="label">Contact</div>
+          <p><strong>Donna’s Home Fitness</strong></p>
+          <p>5024 Prairie Sage Lane<br />Naperville, IL 60564</p>
+          <p><a href="mailto:donna@donnashomefitness.com">donna@donnashomefitness.com</a><br /><a href="tel:16304790386">1-630-479-0386</a></p>
+          <p>Convenient for South Naperville and nearby areas including Plainfield, Aurora, Bolingbrook, and Oswego.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap final-grid">
+        <div class="final-cta">
+          <div class="label">Final CTA block</div>
+          <h3 style="margin-top:0; margin-bottom:10px;">Ready to see whether it’s a fit?</h3>
+          <p style="margin-top:0; color:var(--muted);">Book a free trial class and share what you want help with — strength, confidence, flexibility, balance, or simply getting back into a routine.</p>
+          <div class="cta-row" style="margin-top:16px; margin-bottom:0;">
+            <a class="btn btn-primary" href="mailto:donna@donnashomefitness.com?subject=Book%20a%20Free%20Trial%20Class">Book a Free Trial Class</a>
+            <a class="btn btn-secondary" href="tel:16304790386">Call 1-630-479-0386</a>
+          </div>
+        </div>
+        <div class="about-box">
+          <div class="label">Prototype notes</div>
+          <p><strong>This is a conservative cleanup concept, not a redesign.</strong></p>
+          <p>It stays close to the original site’s warmth, color direction, simple page-builder feel, and overall flow. The changes focus on hero clarity, trust placement, CTA hierarchy, benefit scanning, and a little mobile cleanup.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    Demo prototype for outreach review only. Adapted copy. No affiliation implied.
+  </footer>
+</body>
+</html>

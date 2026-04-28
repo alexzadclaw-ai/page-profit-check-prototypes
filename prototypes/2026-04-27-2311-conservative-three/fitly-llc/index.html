@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FITLY LLC — Conservative Cleanup Prototype</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --bg: #f8fbfa;
+      --section: #eef5f3;
+      --card: #ffffff;
+      --ink: #1e2f2f;
+      --muted: #5f7171;
+      --line: #d6e3df;
+      --brand: #3c6660;
+      --brand-2: #6e978f;
+      --soft: #e6efec;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .topbar {
+      padding: 20px 0 10px;
+      text-align: center;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .site-title {
+      font-size: 26px;
+      letter-spacing: 0.18em;
+      color: var(--brand);
+      margin: 0 0 6px;
+      font-weight: 700;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      padding-bottom: 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .hero {
+      background: linear-gradient(180deg, #f8fbfa 0%, #edf5f2 100%);
+      padding: 16px 0 34px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-inner {
+      text-align: center;
+      padding: 44px 24px 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.08;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .subhead {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      color: var(--muted);
+      font-size: 19px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--brand);
+      color: #fff;
+      padding: 13px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 10px 8px 0;
+    }
+    .btn.alt {
+      background: transparent;
+      color: var(--brand);
+      border: 1px solid var(--brand-2);
+    }
+    .support-copy {
+      margin: 18px auto 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 26px;
+      text-align: center;
+    }
+    .trust-item {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      padding: 14px 12px;
+      font-size: 14px;
+      color: var(--brand);
+      font-weight: 700;
+    }
+    section {
+      padding: 34px 0;
+    }
+    .section-lite { background: var(--section); }
+    .narrow { max-width: 820px; margin: 0 auto; text-align: center; }
+    h2 {
+      margin: 0 0 10px;
+      text-align: center;
+      font-size: 34px;
+      font-weight: 600;
+      color: #2d4744;
+    }
+    .lead {
+      text-align: center;
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0 auto 24px;
+      font-size: 17px;
+    }
+    .two-col, .three-col, .four-col {
+      display: grid;
+      gap: 18px;
+    }
+    .two-col { grid-template-columns: repeat(2, 1fr); }
+    .three-col { grid-template-columns: repeat(3, 1fr); }
+    .four-col { grid-template-columns: repeat(4, 1fr); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 24px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #33524e;
+    }
+    .card p, .card li {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .mini-cta {
+      text-align: center;
+      margin-top: 18px;
+    }
+    .steps .card {
+      text-align: left;
+      position: relative;
+      padding-top: 54px;
+    }
+    .step-num {
+      position: absolute;
+      top: 18px;
+      left: 24px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--brand);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .quote {
+      font-size: 22px;
+      line-height: 1.6;
+      color: #35514d;
+      margin-bottom: 12px;
+    }
+    .quote-source {
+      color: var(--muted);
+      font-size: 15px;
+      text-align: center;
+    }
+    .faq .card h3 {
+      font-size: 19px;
+    }
+    .contact-box {
+      background: #f5f9f7;
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: start;
+    }
+    .form-note {
+      background: #fffdf7;
+      border: 1px solid #ead9b4;
+      color: #7c6640;
+      padding: 14px 16px;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+    .field {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 14px;
+      margin-bottom: 12px;
+      color: #7b8a89;
+      font-size: 14px;
+    }
+    .footer {
+      padding: 22px 0 38px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .trust-row, .four-col, .three-col, .two-col, .contact-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 680px) {
+      .wrap { width: min(100% - 20px, 1040px); }
+      .trust-row, .four-col, .three-col, .two-col, .contact-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 30px 18px 24px; }
+      .btn { display: block; margin: 10px 0 0; }
+      h2 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">Conservative cleanup prototype · keeps the current simple brand feel</div>
+    <div class="site-title">FITLY LLC</div>
+    <div class="nav">
+      <span>Home</span>
+      <span>About</span>
+      <span>Training</span>
+      <span>Contact</span>
+      <span>Services</span>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-inner">
+        <h1>Personal training that comes to you</h1>
+        <p class="subhead">In-home coaching for busy Naperville-area adults who want to feel stronger, move better, and build consistency without the gym commute.</p>
+        <a class="btn" href="mailto:fitlyllc25@gmail.com?subject=Free%20Consultation">Book Your Free Consultation</a>
+        <a class="btn alt" href="#consultation">How the consultation works</a>
+        <p class="support-copy">Simple low-friction explanation near the first CTA: we can talk through your goals, schedule, movement history, and whether in-home training feels like the right next step.</p>
+        <div class="trust-row">
+          <div class="trust-item">Certified training support</div>
+          <div class="trust-item">Rehab-informed approach</div>
+          <div class="trust-item">Beginner-friendly guidance</div>
+          <div class="trust-item">Free first consultation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap narrow">
+      <h2>In-home personal training</h2>
+      <p class="lead">This version stays close to the original page structure, but makes the message clearer and the CTA easier to trust. It still feels like a straightforward service business page, not a redesign concept.</p>
+    </div>
+    <div class="wrap two-col">
+      <div class="card">
+        <h3>What we offer</h3>
+        <p>One-on-one coaching built around your schedule, space, and goals. A conservative cleanup can explain the offer more clearly without changing the whole site.</p>
+      </div>
+      <div class="card">
+        <h3>Who this is for</h3>
+        <p>Busy adults, beginners getting back into a routine, and clients who want practical support at home instead of another commute.</p>
+      </div>
+    </div>
+    <div class="wrap mini-cta">
+      <a class="btn" href="mailto:fitlyllc25@gmail.com?subject=Free%20Consultation">Book Your Free Consultation</a>
+    </div>
+  </section>
+
+  <section class="section-lite" id="consultation">
+    <div class="wrap">
+      <h2>What happens in the free consultation</h2>
+      <p class="lead">This is one of the highest-value low-effort additions. It answers the obvious question before a visitor hesitates.</p>
+      <div class="three-col steps">
+        <div class="card">
+          <div class="step-num">1</div>
+          <h3>Your goals</h3>
+          <p>Talk through strength, consistency, confidence, post-rehab support, or getting back into a healthier routine.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">2</div>
+          <h3>Your setup</h3>
+          <p>Review schedule, home space, and any equipment you already have so the plan feels realistic and tailored.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">3</div>
+          <h3>Your next step</h3>
+          <p>Leave with a simple idea of whether in-home coaching is a fit, without pressure to commit on the spot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What you get</h2>
+      <p class="lead">The original page already has the right ingredients. This conservative version simply organizes them more clearly.</p>
+      <div class="four-col">
+        <div class="card">
+          <h3>1-on-1 training</h3>
+          <p>Personal support in the comfort of home, with sessions shaped around real routines instead of generic templates.</p>
+        </div>
+        <div class="card">
+          <h3>Customized plan</h3>
+          <p>Clear next steps based on your goals, ability, and pace so the process feels less confusing.</p>
+        </div>
+        <div class="card">
+          <h3>Rehab-aware movement</h3>
+          <p>A more careful tone for clients who value confidence, joint-friendly exercise, and practical guidance.</p>
+        </div>
+        <div class="card">
+          <h3>Accountability</h3>
+          <p>Consistent coaching and progress check-ins that help clients keep going instead of falling off routine.</p>
+        </div>
+      </div>
+      <div class="wrap mini-cta">
+        <a class="btn" href="mailto:fitlyllc25@gmail.com?subject=Free%20Consultation">Book Your Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-lite">
+    <div class="wrap narrow">
+      <h2>You’re busy. You still want results.</h2>
+      <p class="lead">A small cleanup can make this part of the page feel more direct: less generic gym language, more emphasis on convenience, confidence, and staying consistent.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap narrow">
+      <div class="quote">“I wanted something that would help me stay strong and keep moving, and the guidance felt personal and encouraging.”</div>
+      <div class="quote-source">Example adapted testimonial presentation · keeping the simple original feel</div>
+    </div>
+    <div class="wrap mini-cta">
+      <a class="btn" href="mailto:fitlyllc25@gmail.com?subject=Free%20Consultation">Book Your Free Consultation</a>
+    </div>
+  </section>
+
+  <section class="section-lite">
+    <div class="wrap">
+      <h2>Service area cue</h2>
+      <p class="lead">A short local section helps the page feel more grounded and useful for nearby visitors.</p>
+      <div class="four-col">
+        <div class="card"><h3>Naperville</h3><p>Primary local anchor for in-home training messaging.</p></div>
+        <div class="card"><h3>Aurora</h3><p>Helpful nearby cue for suburban clients.</p></div>
+        <div class="card"><h3>Plainfield</h3><p>Supports local relevance without adding much complexity.</p></div>
+        <div class="card"><h3>Bolingbrook + nearby suburbs</h3><p>Rounds out the service-area message in a simple way.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Frequently asked questions</h2>
+      <p class="lead">Another conservative addition: useful for trust, clarity, and local search without changing the brand direction.</p>
+      <div class="two-col faq">
+        <div class="card">
+          <h3>Do I need a lot of equipment at home?</h3>
+          <p>No. A consultation can cover your space and what is actually needed to get started.</p>
+        </div>
+        <div class="card">
+          <h3>Is this okay for beginners?</h3>
+          <p>Yes. The page should make it feel welcoming for beginners and adults returning to exercise.</p>
+        </div>
+        <div class="card">
+          <h3>Can this support post-rehab goals?</h3>
+          <p>The trust angle here is rehab-informed coaching, presented carefully and clearly.</p>
+        </div>
+        <div class="card">
+          <h3>What happens after I contact FITLY?</h3>
+          <p>You should expect a simple conversation about goals, schedule, setup, and fit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-lite">
+    <div class="wrap">
+      <div class="contact-box">
+        <h2>Book your free consultation</h2>
+        <p class="lead">The close should stay simple, but give visitors a better reason to reach out now.</p>
+        <div class="contact-grid">
+          <div>
+            <div class="field">First Name</div>
+            <div class="field">Last Name</div>
+            <div class="field">Email</div>
+            <div class="field">Phone</div>
+            <div class="field" style="min-height:120px;">Message · strength, weight loss, consistency, post-rehab support, or moving with more confidence</div>
+            <a class="btn" href="mailto:fitlyllc25@gmail.com?subject=Request%20Free%20Consultation">Request Free Consultation</a>
+          </div>
+          <div>
+            <div class="card">
+              <h3>Conservative cleanup notes</h3>
+              <p>Keep the simple Wix/site-builder feel. Fix placeholder social links, tighten credential wording, and remove anything that looks like a default template artifact.</p>
+            </div>
+            <div class="form-note">If public social icons still point to Wix defaults or placeholders, removing them is better than keeping a visible trust leak.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">Prototype for outreach/demo use. Copy is adapted for demonstration and is intentionally not a full redesign.</div>
+</body>
+</html>

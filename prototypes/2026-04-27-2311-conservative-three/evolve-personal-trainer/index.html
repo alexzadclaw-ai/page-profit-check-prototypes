@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evolve Personal Trainer — Conservative Cleanup Demo</title>
+  <meta name="description" content="Conservative cleanup demo for a Naperville personal training homepage. This prototype stays close to a local trainer / site-builder look while improving CTA clarity, trust framing, FAQ structure, and mobile scannability.">
+  <style>
+    :root{
+      --green:#6f8f55;
+      --green-dark:#4f6e39;
+      --green-soft:#edf3e8;
+      --tan:#f6f2ea;
+      --ink:#2d2d2d;
+      --muted:#696969;
+      --line:#ddd6c9;
+      --white:#fff;
+      --shadow:0 10px 24px rgba(0,0,0,.08);
+      --radius:6px;
+      --wrap:min(1140px, calc(100% - 32px));
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%}
+    .wrap{width:var(--wrap);margin:0 auto}
+    .topbar{background:var(--green-dark);color:#fff;font-size:13px}
+    .topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:8px 0}
+    header{background:#fff;border-bottom:1px solid #ece7de}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0}
+    .brand{font-size:28px;font-weight:700;letter-spacing:.5px;color:var(--green-dark)}
+    .brand small{display:block;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8d8d8d;margin-top:2px}
+    .nav-links{display:flex;gap:22px;align-items:center;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+    .btn{display:inline-block;padding:13px 22px;border-radius:4px;font-weight:700;letter-spacing:.03em}
+    .btn-primary{background:var(--green);color:#fff}
+    .btn-secondary{background:#fff;border:1px solid var(--line);color:var(--green-dark)}
+    .hero{background:linear-gradient(rgba(34,34,34,.32),rgba(34,34,34,.32)),linear-gradient(135deg,#8aa273,#617d4a);color:#fff}
+    .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center;padding:68px 0}
+    .hero-copy h1{font-family:Georgia, 'Times New Roman', serif;font-size:54px;line-height:1.08;margin:0 0 16px}
+    .hero-copy p{font-size:18px;max-width:620px;margin:0 0 24px;color:#f5f5f5}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-actions .btn-secondary{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.45);color:#fff}
+    .hero-note{margin-top:18px;font-size:14px;color:#eef1ea}
+    .consult-card{background:rgba(255,255,255,.92);color:var(--ink);padding:26px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .consult-card h2{font-family:Georgia, 'Times New Roman', serif;font-size:30px;line-height:1.15;margin:0 0 12px;color:var(--green-dark)}
+    .consult-card p{margin:0 0 18px;color:#545454}
+    .steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .step{background:var(--green-soft);border:1px solid #d6e0cc;padding:14px;border-radius:4px;font-size:14px}
+    .step strong{display:block;color:var(--green-dark);margin-bottom:3px}
+    .section{padding:58px 0}
+    .section.alt{background:var(--tan)}
+    .eyebrow{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.2em;color:#7c8468;margin-bottom:10px}
+    h2.section-title{font-family:Georgia, 'Times New Roman', serif;font-size:38px;line-height:1.15;margin:0 0 12px;color:var(--green-dark)}
+    .section-intro{max-width:760px;color:var(--muted);margin:0 0 28px}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .service{background:#fff;border:1px solid var(--line);padding:24px;border-radius:var(--radius);box-shadow:0 4px 12px rgba(0,0,0,.04)}
+    .service h3,.point h3,.faq h3,.testimonial h3{font-family:Georgia, 'Times New Roman', serif;font-size:24px;margin:0 0 10px;color:#3f5d2f}
+    .service p,.point p,.faq p,.testimonial p{margin:0;color:#5c5c5c}
+    .service .mini{display:block;margin-top:12px;font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#7d876a}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+    .point-list{display:grid;gap:16px}
+    .point{background:#fff;border:1px solid var(--line);padding:22px;border-radius:var(--radius)}
+    .testimonial-wrap{display:grid;gap:16px}
+    .testimonial{background:#fff;border:1px solid var(--line);padding:22px;border-radius:var(--radius)}
+    .quote-label{display:inline-block;background:var(--green-soft);border:1px solid #dce5d2;padding:5px 9px;font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--green-dark);margin-bottom:10px}
+    .seo-grid,.faq-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .faq,.seo-card{background:#fff;border:1px solid var(--line);padding:22px;border-radius:var(--radius)}
+    .seo-card h3{font-family:Georgia, 'Times New Roman', serif;font-size:23px;line-height:1.2;margin:0 0 10px;color:#3f5d2f}
+    .seo-card p{margin:0;color:#5d5d5d}
+    .cta{background:var(--green-dark);color:#fff;padding:34px;border-radius:var(--radius);display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .cta h2{font-family:Georgia, 'Times New Roman', serif;font-size:38px;line-height:1.1;margin:0 0 8px}
+    .cta p{margin:0;color:#edf0e8;max-width:700px}
+    footer{padding:24px 0 42px;font-size:14px;color:#787878}
+    @media (max-width: 980px){
+      .hero .wrap,.service-grid,.split,.seo-grid,.faq-grid{grid-template-columns:1fr 1fr}
+    }
+    @media (max-width: 740px){
+      .nav{flex-direction:column;align-items:flex-start}
+      .nav-links{flex-wrap:wrap;gap:12px}
+      .hero .wrap,.service-grid,.split,.seo-grid,.faq-grid,.steps{grid-template-columns:1fr}
+      .hero .wrap{padding:46px 0}
+      .hero-copy h1{font-size:38px}
+      h2.section-title,.cta h2{font-size:31px}
+      .cta{padding:24px;flex-direction:column;align-items:flex-start}
+      .section{padding:42px 0}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div>Naperville personal training, at-home coaching, recovery, and nutrition support</div>
+      <div>Call <strong>(331) 249-3101</strong> for a free consultation</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <div class="brand">EVOLVE<small>Personal Trainer</small></div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">Why Evolve</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary">Request Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow" style="color:#f2f3ef">Conservative cleanup demo</span>
+        <h1>Personal training in Naperville built around your goals</h1>
+        <p>One-on-one coaching, at-home training, mobility support, sports massage, and nutrition guidance for adults who want steady progress without guesswork.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request a Free Consultation</a>
+          <a href="#services" class="btn btn-secondary">View Services</a>
+        </div>
+        <div class="hero-note">Adapted demo copy only. This concept stays close to the original local-trainer style rather than redesigning the brand.</div>
+      </div>
+      <aside class="consult-card">
+        <h2>A simpler first step for new visitors</h2>
+        <p>Instead of making people figure everything out at once, guide them to the right next step based on their main goal.</p>
+        <div class="steps">
+          <div class="step"><strong>1. Choose your goal</strong>Fat loss, strength, health, mobility, or recovery.</div>
+          <div class="step"><strong>2. Choose your format</strong>In-studio, at-home, or support services.</div>
+          <div class="step"><strong>3. Request consultation</strong>Use a clear CTA instead of a generic contact prompt.</div>
+          <div class="step"><strong>4. Get a plan</strong>Recommend the best starting service mix.</div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <span class="eyebrow">Clear service paths</span>
+      <h2 class="section-title">Keep the same offer — just make it easier to scan</h2>
+      <p class="section-intro">This conservative version keeps the broad Evolve service mix, but gives each path a clearer reason to exist so visitors can self-identify faster on desktop and mobile.</p>
+      <div class="service-grid">
+        <article class="service">
+          <h3>Personal Training</h3>
+          <p>Structured one-on-one coaching for adults who want accountability, strength, fat loss, and steady progress.</p>
+          <span class="mini">Strength • Fat loss • Consistency</span>
+        </article>
+        <article class="service">
+          <h3>At-Home Training</h3>
+          <p>For busy Naperville clients who want expert coaching without adding another drive across town.</p>
+          <span class="mini">Convenience • Flexibility • Privacy</span>
+        </article>
+        <article class="service">
+          <h3>Stretch & Recovery</h3>
+          <p>Mobility, fascial stretch support, and recovery-focused services that help clients move and feel better.</p>
+          <span class="mini">Mobility • Recovery • Performance</span>
+        </article>
+        <article class="service">
+          <h3>Nutrition Support</h3>
+          <p>Practical guidance that supports real-life habits and helps training results stick outside the gym.</p>
+          <span class="mini">Habits • Energy • Sustainable results</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="about">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Trust cleanup</span>
+        <h2 class="section-title">Small polish fixes can make the page feel much more credible</h2>
+        <p class="section-intro">The goal here is not a flashy redesign. It is simply removing template residue, sharpening trust language, and presenting the consultation path more clearly.</p>
+        <div class="point-list">
+          <article class="point">
+            <h3>Replace leftover template wording</h3>
+            <p>Fitness clients should not see headings that feel copied from another industry. Clean labels matter.</p>
+          </article>
+          <article class="point">
+            <h3>Use stronger consultation-first CTA copy</h3>
+            <p>"Request Free Consultation" matches the actual next step better than a generic send-message button.</p>
+          </article>
+          <article class="point">
+            <h3>Frame recovery services as part of the same journey</h3>
+            <p>Stretch therapy and massage should feel connected to training goals instead of reading like unrelated add-ons.</p>
+          </article>
+        </div>
+      </div>
+      <div class="testimonial-wrap">
+        <article class="testimonial">
+          <span class="quote-label">Demo testimonial framing</span>
+          <h3>“I finally had a plan I could stick with.”</h3>
+          <p>Use concise, polished testimonials tied to believable outcomes like consistency, mobility, confidence, or pain-free movement.</p>
+        </article>
+        <article class="testimonial">
+          <span class="quote-label">Demo testimonial framing</span>
+          <h3>“At-home sessions made this realistic for my schedule.”</h3>
+          <p>Highlight convenience and accountability for the local audience that wants coaching without more friction.</p>
+        </article>
+        <article class="testimonial">
+          <span class="quote-label">Demo testimonial framing</span>
+          <h3>“Recovery work helped me move better, not just work harder.”</h3>
+          <p>Show how mobility and recovery support the main fitness result instead of feeling detached from it.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Local SEO support</span>
+      <h2 class="section-title">Add local clarity without turning the page into keyword soup</h2>
+      <p class="section-intro">A small-business homepage can still support search by naturally naming the services people around Naperville are already looking for.</p>
+      <div class="seo-grid">
+        <article class="seo-card">
+          <h3>Personal Trainer in Naperville, IL</h3>
+          <p>Clarify who the coaching is for, what happens during the first consultation, and how the plan is personalized.</p>
+        </article>
+        <article class="seo-card">
+          <h3>At-Home Personal Training</h3>
+          <p>Explain the convenience angle clearly for clients who want support but need sessions to fit a busy routine.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Stretch Therapy & Sports Massage</h3>
+          <p>Present recovery services as part of a complete movement and performance approach, not a separate side offer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <span class="eyebrow">FAQ cleanup</span>
+      <h2 class="section-title">Answer the most common questions before visitors leave</h2>
+      <p class="section-intro">A compact FAQ helps conversions, improves scannability, and gives the homepage stronger local search coverage with minimal design change.</p>
+      <div class="faq-grid">
+        <article class="faq">
+          <h3>What happens during a free consultation?</h3>
+          <p>You talk through goals, schedule, current training level, and any movement limitations so the right next step can be recommended.</p>
+        </article>
+        <article class="faq">
+          <h3>Do you offer at-home training in Naperville?</h3>
+          <p>Yes. The homepage should make that option easier to spot for clients who want expert coaching without more commute time.</p>
+        </article>
+        <article class="faq">
+          <h3>Can I combine training with recovery services?</h3>
+          <p>Yes. One of Evolve’s strongest advantages is being able to connect training, mobility, and recovery in one overall plan.</p>
+        </article>
+        <article class="faq">
+          <h3>Is this only for advanced clients?</h3>
+          <p>No. Beginner-friendly reassurance should be more visible so new visitors feel comfortable asking questions.</p>
+        </article>
+        <article class="faq">
+          <h3>Do you help with nutrition too?</h3>
+          <p>Yes. Practical nutrition support is a good complement to training and should be framed in simple, everyday language.</p>
+        </article>
+        <article class="faq">
+          <h3>Why this kind of homepage cleanup?</h3>
+          <p>Because removing template residue and clarifying the offer can improve trust without the cost or risk of a full redesign.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <h2>Request a free consultation</h2>
+          <p>Tell us your goal — strength, fat loss, mobility, accountability, or recovery — and get help choosing the best starting point.</p>
+        </div>
+        <a href="tel:+13312493101" class="btn btn-primary" style="background:#fff;color:var(--green-dark)">Call (331) 249-3101</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Demo concept only. Adapted demo copy written for a conservative cleanup prototype, not copied wholesale from the live site.</div>
+  </footer>
+</body>
+</html>
