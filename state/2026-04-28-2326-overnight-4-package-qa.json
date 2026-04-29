@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-28-2326-overnight-4",
+  "batchJson": "opportunities/2026-04-28-2326-overnight-4/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "pinpoint-maintenance",
+      "name": "Pinpoint Maintenance",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/pinpoint-maintenance-audit.md",
+          "exists": true,
+          "size": 7566
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/pinpoint-maintenance-offer.md",
+          "exists": true,
+          "size": 2748
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/pinpoint-maintenance/index.html",
+          "exists": true,
+          "size": 13181
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/pinpoint-maintenance-target.png",
+          "exists": true,
+          "size": 1495750
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/pinpoint-maintenance-prototype.png",
+          "exists": true,
+          "size": 952564
+        }
+      }
+    },
+    {
+      "slug": "moons-handyman",
+      "name": "Moon's Handyman Services",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/moons-handyman-audit.md",
+          "exists": true,
+          "size": 7330
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/moons-handyman-offer.md",
+          "exists": true,
+          "size": 2756
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/moons-handyman/index.html",
+          "exists": true,
+          "size": 13016
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/moons-handyman-target.png",
+          "exists": true,
+          "size": 2352046
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/moons-handyman-prototype.png",
+          "exists": true,
+          "size": 895569
+        }
+      }
+    },
+    {
+      "slug": "family-window-washing",
+      "name": "Family Window Washing",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/family-window-washing-audit.md",
+          "exists": true,
+          "size": 7224
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/family-window-washing-offer.md",
+          "exists": true,
+          "size": 2653
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/family-window-washing/index.html",
+          "exists": true,
+          "size": 13142
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/family-window-washing-target.png",
+          "exists": true,
+          "size": 2586272
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/family-window-washing-prototype.png",
+          "exists": true,
+          "size": 878698
+        }
+      }
+    },
+    {
+      "slug": "xcellent-cleaning",
+      "name": "Xcellent Cleaning, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/xcellent-cleaning-audit.md",
+          "exists": true,
+          "size": 7086
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/xcellent-cleaning-offer.md",
+          "exists": true,
+          "size": 2568
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/xcellent-cleaning/index.html",
+          "exists": true,
+          "size": 13149
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/xcellent-cleaning-target.png",
+          "exists": true,
+          "size": 2915670
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/xcellent-cleaning-prototype.png",
+          "exists": true,
+          "size": 911920
+        }
+      }
+    },
+    {
+      "slug": "naturally-maid-cleaning-co",
+      "name": "Naturally Maid Cleaning Co.",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/naturally-maid-cleaning-co-audit.md",
+          "exists": true,
+          "size": 7073
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/naturally-maid-cleaning-co-offer.md",
+          "exists": true,
+          "size": 2619
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/naturally-maid-cleaning-co/index.html",
+          "exists": true,
+          "size": 13369
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/naturally-maid-cleaning-co-target.png",
+          "exists": true,
+          "size": 1463800
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/naturally-maid-cleaning-co-prototype.png",
+          "exists": true,
+          "size": 989733
+        }
+      }
+    },
+    {
+      "slug": "helping-hands-naperville",
+      "name": "Helping Hands Cleaning Services",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/helping-hands-naperville-audit.md",
+          "exists": true,
+          "size": 7238
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/helping-hands-naperville-offer.md",
+          "exists": true,
+          "size": 2730
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/helping-hands-naperville/index.html",
+          "exists": true,
+          "size": 13315
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/helping-hands-naperville-target.png",
+          "exists": true,
+          "size": 1744857
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/helping-hands-naperville-prototype.png",
+          "exists": true,
+          "size": 873199
+        }
+      }
+    },
+    {
+      "slug": "power-wash-dudes",
+      "name": "Power Wash Dudes",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/power-wash-dudes-audit.md",
+          "exists": true,
+          "size": 7320
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/power-wash-dudes-offer.md",
+          "exists": true,
+          "size": 2686
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/power-wash-dudes/index.html",
+          "exists": true,
+          "size": 13375
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/power-wash-dudes-target.png",
+          "exists": true,
+          "size": 1600394
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/power-wash-dudes-prototype.png",
+          "exists": true,
+          "size": 993496
+        }
+      }
+    },
+    {
+      "slug": "chicago-simply-clean",
+      "name": "Chicago Simply Clean",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/chicago-simply-clean-audit.md",
+          "exists": true,
+          "size": 7285
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/chicago-simply-clean-offer.md",
+          "exists": true,
+          "size": 2672
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/chicago-simply-clean/index.html",
+          "exists": true,
+          "size": 13095
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/chicago-simply-clean-target.png",
+          "exists": true,
+          "size": 1058817
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/chicago-simply-clean-prototype.png",
+          "exists": true,
+          "size": 948091
+        }
+      }
+    },
+    {
+      "slug": "elite-landscape-group",
+      "name": "Elite Landscape Group",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/elite-landscape-group-audit.md",
+          "exists": true,
+          "size": 7369
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/elite-landscape-group-offer.md",
+          "exists": true,
+          "size": 2764
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/elite-landscape-group/index.html",
+          "exists": true,
+          "size": 13248
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/elite-landscape-group-target.png",
+          "exists": true,
+          "size": 5537690
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/elite-landscape-group-prototype.png",
+          "exists": true,
+          "size": 938211
+        }
+      }
+    },
+    {
+      "slug": "canini-dog-sitting",
+      "name": "Canini Dog Sitting",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2326-overnight-4/canini-dog-sitting-audit.md",
+          "exists": true,
+          "size": 7245
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2326-overnight-4/canini-dog-sitting-offer.md",
+          "exists": true,
+          "size": 2730
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2326-overnight-4/canini-dog-sitting/index.html",
+          "exists": true,
+          "size": 13138
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/canini-dog-sitting-target.png",
+          "exists": true,
+          "size": 1615255
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2326-overnight-4/canini-dog-sitting-prototype.png",
+          "exists": true,
+          "size": 949302
+        }
+      }
+    }
+  ]
+}

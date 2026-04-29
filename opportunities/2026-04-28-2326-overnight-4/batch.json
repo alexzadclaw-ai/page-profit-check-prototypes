@@ -1,0 +1,123 @@
+{
+  "batch": "2026-04-28-2326-overnight-4",
+  "createdAt": "2026-04-28T23:26:00-05:00",
+  "controller": "overnight-ppc-batch4-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "pinpoint-maintenance",
+      "name": "Pinpoint Maintenance",
+      "url": "https://pinpointclean.com/",
+      "contact": "https://pinpointclean.com/contact/",
+      "vertical": "window cleaning, pressure washing, carpet cleaning, and janitorial services",
+      "location": "Naperville / Downers Grove, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Family-owned cleaning site has 20+ years of experience and a free-quote path, but the broad service list, repeated quote prompts, and mixed residential/commercial messaging need a cleaner first-screen decision path."
+    },
+    {
+      "slug": "moons-handyman",
+      "name": "Moon's Handyman Services",
+      "url": "https://moonshandymanservices.com/",
+      "contact": "https://moonshandymanservices.com/#contact",
+      "vertical": "handyman and home repairs",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Naperville handyman site has strong proof \u2014 15+ years, fully insured, 5.0 Thumbtack reviews \u2014 but the AI/widget-heavy one-page structure and broad repair list need a more grounded quote-first homepage flow."
+    },
+    {
+      "slug": "family-window-washing",
+      "name": "Family Window Washing",
+      "url": "https://familywindowwashing.com/",
+      "contact": "https://familywindowwashing.com/get-a-quote/",
+      "vertical": "window, gutter, and exterior washing",
+      "location": "Naperville / Chicago suburbs, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Family-owned window/gutter site has strong local trust, 5-star framing, and a quote path, but a crowded multi-service homepage and neighbor-discount messaging need sharper hierarchy around the core estimate CTA."
+    },
+    {
+      "slug": "xcellent-cleaning",
+      "name": "Xcellent Cleaning, Inc.",
+      "url": "https://www.xcellentcleaningincs.com/",
+      "contact": "https://www.xcellentcleaningincs.com/contact-us",
+      "vertical": "home and office cleaning",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Cleaning site has unusually strong local proof \u2014 over 25 years, A+ BBB, insured/bonded, background checks \u2014 but repeated phone/customer-login paths and dense residential/commercial copy dilute the free-estimate action."
+    },
+    {
+      "slug": "naturally-maid-cleaning-co",
+      "name": "Naturally Maid Cleaning Co.",
+      "url": "https://naturallymaidcleaningco.com/",
+      "contact": "https://naturallymaidcleaningco.com/contact-us/",
+      "vertical": "eco-friendly residential and commercial cleaning",
+      "location": "Arlington Heights / Naperville, IL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "Eco-friendly cleaning site has strong service breadth and online booking, but a long suburban service-area page, repeated Book Now links, and many cleaning categories need a clearer natural/healthy-home conversion path."
+    },
+    {
+      "slug": "helping-hands-naperville",
+      "name": "Helping Hands Cleaning Services",
+      "url": "https://helpinghandsnaperville.com/",
+      "contact": "https://helpinghandsnaperville.com/free-quotes/",
+      "vertical": "house cleaning and maid services",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "House cleaning page has very strong owner story and guarantee proof since 2001, but the dense service/FAQ structure and multiple cleaning types need a sharper quote-first route for Naperville families."
+    },
+    {
+      "slug": "power-wash-dudes",
+      "name": "Power Wash Dudes",
+      "url": "https://www.powerwashdudes.com/",
+      "contact": "https://www.powerwashdudes.com/contact",
+      "vertical": "pressure washing and soft washing",
+      "location": "Naperville / Yorkville / Oswego / Plainfield / Aurora, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Pressure washing site has memorable branding, licensed/insured proof, and 250+ five-star customers, but the huge Wix-style service list and typo-prone location wording need a tighter book-a-service homepage path."
+    },
+    {
+      "slug": "chicago-simply-clean",
+      "name": "Chicago Simply Clean",
+      "url": "https://www.chicagosimplyclean.com/",
+      "contact": "https://www.chicagosimplyclean.com/free-quote",
+      "vertical": "house cleaning and commercial cleaning",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "Naperville cleaning site has award proof, eco-friendly messaging, and online booking, but an older navigation/content structure makes quote, booking, and cleaning-plan paths feel scattered."
+    },
+    {
+      "slug": "elite-landscape-group",
+      "name": "Elite Landscape Group",
+      "url": "https://elitelandscapegroup.com/",
+      "contact": "https://elitelandscapegroup.com/contact-us/",
+      "vertical": "landscaping, lawn care, irrigation, and snow management",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Established landscaping site has 25+ years of Naperville proof and broad services, but #1/top-rated claims, dense navigation, and quote CTAs need a more credible service-path hierarchy."
+    },
+    {
+      "slug": "canini-dog-sitting",
+      "name": "Canini Dog Sitting",
+      "url": "https://www.caninidogsitting.com/",
+      "contact": "https://www.caninidogsitting.com/contact-us/",
+      "vertical": "pet sitting, dog walking, daycare, sleepovers, and wedding pet care",
+      "location": "Plainfield, IL / Marco Island, FL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "Pet-care site has warm independent proof, 7+ years, insurance, and service breadth, but event promos and shop links compete with the core pet-sitting appointment path."
+    }
+  ]
+}
