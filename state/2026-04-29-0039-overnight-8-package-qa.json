@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-29-0039-overnight-8",
+  "batchJson": "opportunities/2026-04-29-0039-overnight-8/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "jb-concrete-contractor",
+      "name": "JB Concrete Contractor, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/jb-concrete-contractor-audit.md",
+          "exists": true,
+          "size": 7183
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/jb-concrete-contractor-offer.md",
+          "exists": true,
+          "size": 2589
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/jb-concrete-contractor/index.html",
+          "exists": true,
+          "size": 9115
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/jb-concrete-contractor-target.png",
+          "exists": true,
+          "size": 2334332
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/jb-concrete-contractor-prototype.png",
+          "exists": true,
+          "size": 722579
+        }
+      }
+    },
+    {
+      "slug": "basement-bros-az",
+      "name": "Basement Bros A-Z",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/basement-bros-az-audit.md",
+          "exists": true,
+          "size": 7072
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/basement-bros-az-offer.md",
+          "exists": true,
+          "size": 2490
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/basement-bros-az/index.html",
+          "exists": true,
+          "size": 9175
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/basement-bros-az-target.png",
+          "exists": true,
+          "size": 2527101
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/basement-bros-az-prototype.png",
+          "exists": true,
+          "size": 795419
+        }
+      }
+    },
+    {
+      "slug": "naperville-chimney-services",
+      "name": "Naperville Chimney Services",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/naperville-chimney-services-audit.md",
+          "exists": true,
+          "size": 6957
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/naperville-chimney-services-offer.md",
+          "exists": true,
+          "size": 2478
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/naperville-chimney-services/index.html",
+          "exists": true,
+          "size": 9146
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/naperville-chimney-services-target.png",
+          "exists": true,
+          "size": 3975508
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/naperville-chimney-services-prototype.png",
+          "exists": true,
+          "size": 462619
+        }
+      }
+    },
+    {
+      "slug": "pave-tech-asphalt",
+      "name": "Pave Tech Asphalt, LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/pave-tech-asphalt-audit.md",
+          "exists": true,
+          "size": 6854
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/pave-tech-asphalt-offer.md",
+          "exists": true,
+          "size": 2428
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/pave-tech-asphalt/index.html",
+          "exists": true,
+          "size": 9126
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/pave-tech-asphalt-target.png",
+          "exists": true,
+          "size": 4555943
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/pave-tech-asphalt-prototype.png",
+          "exists": true,
+          "size": 365989
+        }
+      }
+    },
+    {
+      "slug": "teran-concrete",
+      "name": "Teran Concrete Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/teran-concrete-audit.md",
+          "exists": true,
+          "size": 6869
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/teran-concrete-offer.md",
+          "exists": true,
+          "size": 2424
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/teran-concrete/index.html",
+          "exists": true,
+          "size": 9127
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/teran-concrete-target.png",
+          "exists": true,
+          "size": 2057925
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/teran-concrete-prototype.png",
+          "exists": true,
+          "size": 736496
+        }
+      }
+    },
+    {
+      "slug": "naperville-concrete-inc",
+      "name": "Naperville Concrete Inc.",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/naperville-concrete-inc-audit.md",
+          "exists": true,
+          "size": 6886
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/naperville-concrete-inc-offer.md",
+          "exists": true,
+          "size": 2441
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/naperville-concrete-inc/index.html",
+          "exists": true,
+          "size": 9114
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/naperville-concrete-inc-target.png",
+          "exists": true,
+          "size": 5423915
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/naperville-concrete-inc-prototype.png",
+          "exists": true,
+          "size": 751378
+        }
+      }
+    },
+    {
+      "slug": "royal-garage-doors-repair",
+      "name": "Royal Garage Doors Repair LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/royal-garage-doors-repair-audit.md",
+          "exists": true,
+          "size": 7038
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/royal-garage-doors-repair-offer.md",
+          "exists": true,
+          "size": 2544
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/royal-garage-doors-repair/index.html",
+          "exists": true,
+          "size": 9180
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/royal-garage-doors-repair-target.png",
+          "exists": true,
+          "size": 1591448
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/royal-garage-doors-repair-prototype.png",
+          "exists": true,
+          "size": 783255
+        }
+      }
+    },
+    {
+      "slug": "henson-concrete-construction",
+      "name": "Henson Concrete Construction",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/henson-concrete-construction-audit.md",
+          "exists": true,
+          "size": 7021
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/henson-concrete-construction-offer.md",
+          "exists": true,
+          "size": 2509
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/henson-concrete-construction/index.html",
+          "exists": true,
+          "size": 9719
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/henson-concrete-construction-target.png",
+          "exists": true,
+          "size": 2422430
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/henson-concrete-construction-prototype.png",
+          "exists": true,
+          "size": 1458570
+        }
+      }
+    },
+    {
+      "slug": "wiz-plumbing",
+      "name": "Wiz Plumbing",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/wiz-plumbing-audit.md",
+          "exists": true,
+          "size": 6861
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/wiz-plumbing-offer.md",
+          "exists": true,
+          "size": 2457
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/wiz-plumbing/index.html",
+          "exists": true,
+          "size": 9322
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/wiz-plumbing-target.png",
+          "exists": true,
+          "size": 3034709
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/wiz-plumbing-prototype.png",
+          "exists": true,
+          "size": 1337796
+        }
+      }
+    },
+    {
+      "slug": "lacassa-plumbing",
+      "name": "LaCassa Plumbing",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0039-overnight-8/lacassa-plumbing-audit.md",
+          "exists": true,
+          "size": 7134
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0039-overnight-8/lacassa-plumbing-offer.md",
+          "exists": true,
+          "size": 2519
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0039-overnight-8/lacassa-plumbing/index.html",
+          "exists": true,
+          "size": 9154
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/lacassa-plumbing-target.png",
+          "exists": true,
+          "size": 2688120
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0039-overnight-8/lacassa-plumbing-prototype.png",
+          "exists": true,
+          "size": 727566
+        }
+      }
+    }
+  ]
+}

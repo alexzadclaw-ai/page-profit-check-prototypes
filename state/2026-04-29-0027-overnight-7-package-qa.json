@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-29-0027-overnight-7",
+  "batchJson": "opportunities/2026-04-29-0027-overnight-7/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "a-d-exteriors",
+      "name": "A&D Exteriors",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/a-d-exteriors-audit.md",
+          "exists": true,
+          "size": 7688
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/a-d-exteriors-offer.md",
+          "exists": true,
+          "size": 2666
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/a-d-exteriors/index.html",
+          "exists": true,
+          "size": 8978
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/a-d-exteriors-target.png",
+          "exists": true,
+          "size": 3934357
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/a-d-exteriors-prototype.png",
+          "exists": true,
+          "size": 761023
+        }
+      }
+    },
+    {
+      "slug": "speedkleen-carpet-cleaners",
+      "name": "SpeedKleen Carpet Cleaners",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/speedkleen-carpet-cleaners-audit.md",
+          "exists": true,
+          "size": 7387
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/speedkleen-carpet-cleaners-offer.md",
+          "exists": true,
+          "size": 2655
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/speedkleen-carpet-cleaners/index.html",
+          "exists": true,
+          "size": 9194
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/speedkleen-carpet-cleaners-target.png",
+          "exists": true,
+          "size": 1321300
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/speedkleen-carpet-cleaners-prototype.png",
+          "exists": true,
+          "size": 855891
+        }
+      }
+    },
+    {
+      "slug": "doa-pest-control",
+      "name": "D.O.A. Pest Control",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/doa-pest-control-audit.md",
+          "exists": true,
+          "size": 7369
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/doa-pest-control-offer.md",
+          "exists": true,
+          "size": 2605
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/doa-pest-control/index.html",
+          "exists": true,
+          "size": 8949
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/doa-pest-control-target.png",
+          "exists": true,
+          "size": 3799278
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/doa-pest-control-prototype.png",
+          "exists": true,
+          "size": 597665
+        }
+      }
+    },
+    {
+      "slug": "men-in-black-pest-control",
+      "name": "Men In Black Pest Control",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/men-in-black-pest-control-audit.md",
+          "exists": true,
+          "size": 7647
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/men-in-black-pest-control-offer.md",
+          "exists": true,
+          "size": 2688
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/men-in-black-pest-control/index.html",
+          "exists": true,
+          "size": 9092
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/men-in-black-pest-control-target.png",
+          "exists": true,
+          "size": 2078596
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/men-in-black-pest-control-prototype.png",
+          "exists": true,
+          "size": 553261
+        }
+      }
+    },
+    {
+      "slug": "stec-roofing-sg",
+      "name": "Stec Roofing S&G, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/stec-roofing-sg-audit.md",
+          "exists": true,
+          "size": 7685
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/stec-roofing-sg-offer.md",
+          "exists": true,
+          "size": 2719
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/stec-roofing-sg/index.html",
+          "exists": true,
+          "size": 9407
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/stec-roofing-sg-target.png",
+          "exists": true,
+          "size": 3125679
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/stec-roofing-sg-prototype.png",
+          "exists": true,
+          "size": 1820543
+        }
+      }
+    },
+    {
+      "slug": "everlast-exteriors-il",
+      "name": "Everlast Exteriors of Illinois Inc",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/everlast-exteriors-il-audit.md",
+          "exists": true,
+          "size": 7606
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/everlast-exteriors-il-offer.md",
+          "exists": true,
+          "size": 2796
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/everlast-exteriors-il/index.html",
+          "exists": true,
+          "size": 9172
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/everlast-exteriors-il-target.png",
+          "exists": true,
+          "size": 3733726
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/everlast-exteriors-il-prototype.png",
+          "exists": true,
+          "size": 731476
+        }
+      }
+    },
+    {
+      "slug": "koshgarian-rug-cleaners",
+      "name": "Koshgarian Rug Cleaners",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/koshgarian-rug-cleaners-audit.md",
+          "exists": true,
+          "size": 7479
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/koshgarian-rug-cleaners-offer.md",
+          "exists": true,
+          "size": 2638
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/koshgarian-rug-cleaners/index.html",
+          "exists": true,
+          "size": 9074
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/koshgarian-rug-cleaners-target.png",
+          "exists": true,
+          "size": 2365107
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/koshgarian-rug-cleaners-prototype.png",
+          "exists": true,
+          "size": 724211
+        }
+      }
+    },
+    {
+      "slug": "russell-martin-carpet-rugs",
+      "name": "Russell Martin Carpet & Rugs",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/russell-martin-carpet-rugs-audit.md",
+          "exists": true,
+          "size": 7416
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/russell-martin-carpet-rugs-offer.md",
+          "exists": true,
+          "size": 2619
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/russell-martin-carpet-rugs/index.html",
+          "exists": true,
+          "size": 8973
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/russell-martin-carpet-rugs-target.png",
+          "exists": true,
+          "size": 5400849
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/russell-martin-carpet-rugs-prototype.png",
+          "exists": true,
+          "size": 690167
+        }
+      }
+    },
+    {
+      "slug": "executive-green-carpet-cleaning",
+      "name": "Executive Green Carpet Cleaning Services",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/executive-green-carpet-cleaning-audit.md",
+          "exists": true,
+          "size": 7319
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/executive-green-carpet-cleaning-offer.md",
+          "exists": true,
+          "size": 2697
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/executive-green-carpet-cleaning/index.html",
+          "exists": true,
+          "size": 9610
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/executive-green-carpet-cleaning-target.png",
+          "exists": true,
+          "size": 1787715
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/executive-green-carpet-cleaning-prototype.png",
+          "exists": true,
+          "size": 805583
+        }
+      }
+    },
+    {
+      "slug": "perfect-exteriors",
+      "name": "Perfect Exteriors",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0027-overnight-7/perfect-exteriors-audit.md",
+          "exists": true,
+          "size": 7664
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0027-overnight-7/perfect-exteriors-offer.md",
+          "exists": true,
+          "size": 2668
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0027-overnight-7/perfect-exteriors/index.html",
+          "exists": true,
+          "size": 8951
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/perfect-exteriors-target.png",
+          "exists": true,
+          "size": 2736406
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0027-overnight-7/perfect-exteriors-prototype.png",
+          "exists": true,
+          "size": 365360
+        }
+      }
+    }
+  ]
+}
