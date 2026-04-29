@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-28-1949-overnight
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK my-fitness-world (My Fitness World)
+OK palmer-personal-training (Palmer Personal Training)
+OK hard-body-fitness-personal-training-group (Hard Body Fitness Personal Training Group)
+OK trifecta-athletics (Trifecta Athletics)
+OK earthworks-landscape-construction (Earthworks Landscape Construction, Inc.)
+OK landscape-construction-llc (Landscape Construction LLC)
+OK donnas-home-fitness (Donna's Home Fitness)
+OK evolve-personal-trainer (Evolve Personal Trainer)
+OK sprintervision-nutrition (Sprintervision Nutrition)
+OK wellabee (Wellabee)
