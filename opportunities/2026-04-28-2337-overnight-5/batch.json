@@ -1,0 +1,123 @@
+{
+  "batch": "2026-04-28-2337-overnight-5",
+  "createdAt": "2026-04-28T23:37:00-05:00",
+  "controller": "overnight-ppc-batch5-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "the-upscale-tail",
+      "name": "The UpScale Tail",
+      "url": "https://theupscaletail.com/",
+      "contact": "https://theupscaletail.com/hours/",
+      "vertical": "pet grooming and wellness salon",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Award-winning Naperville grooming site has strong trust proof and specialist care, but crowded navigation and long certification copy bury the appointment path for new pet owners."
+    },
+    {
+      "slug": "naperville-pressure-washing",
+      "name": "Naperville Pressure Washing",
+      "url": "https://pressurewashingnaperville.com/",
+      "contact": "https://pressurewashingnaperville.com/contact/",
+      "vertical": "residential and commercial pressure washing",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "Pressure washing site has local service breadth and free-estimate intent, but long SEO-heavy copy and repeated CTA bands make it harder for homeowners to pick the right cleaning path."
+    },
+    {
+      "slug": "pressure-soft-pros",
+      "name": "Pressure Soft Pros LLC",
+      "url": "https://www.pressuresoftpros.com/",
+      "contact": "https://www.pressuresoftpros.com/contact-us",
+      "vertical": "pressure washing, concrete cleaning, and house washing",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Pressure Soft Pros has a clear Naperville service footprint, but long residential/commercial menus, service-area sprawl, and \u201creviews coming soon\u201d proof need a tighter estimate-first homepage."
+    },
+    {
+      "slug": "the-power-boys",
+      "name": "The Power Boys Pressure Washing",
+      "url": "https://thepowerboysllc.com/",
+      "contact": "https://thepowerboysllc.com/estimate/",
+      "vertical": "pressure washing, soft washing, roof cleaning, and window cleaning",
+      "location": "Naperville / Hinsdale, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Power Boys has strong brand energy and 5.0/182-review proof, but slider-style hero choices and dense service navigation need a sharper same-day-estimate path."
+    },
+    {
+      "slug": "lous-lawn-care",
+      "name": "Lou's Lawn Care",
+      "url": "https://louslawncare.info/",
+      "contact": "https://louslawncare.info/#contact",
+      "vertical": "lawn care and landscape maintenance",
+      "location": "Lisle / Naperville / DuPage County, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Lou\u2019s Lawn Care has a warm local story, insurance proof, and real reviews, but broad lawn/landscape/seasonal services need a clearer estimate-first homepage hierarchy."
+    },
+    {
+      "slug": "anderson-window-gutter-cleaning",
+      "name": "Anderson Window & Gutter Cleaning",
+      "url": "https://weknowgutters.com/",
+      "contact": "https://weknowgutters.com/estimates/",
+      "vertical": "window cleaning, gutter services, power washing, and drainage",
+      "location": "Naperville / Chicagoland, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "Anderson has excellent trust proof \u2014 veteran fireman owned, 1997 history, insurance, guarantee \u2014 but dense old-school formatting and duplicated service cards bury the estimate path."
+    },
+    {
+      "slug": "six-paws-pet-care",
+      "name": "Six Paws Pet Care Inc.",
+      "url": "https://www.sixpawspetcare.com/",
+      "contact": "https://www.sixpawspetcare.com/",
+      "vertical": "pet sitting and pet care",
+      "location": "Western suburbs of Chicago, IL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "Six Paws has a warm local pet-care brand and direct contact info, but the current page is too thin to answer owner questions before they request care."
+    },
+    {
+      "slug": "c-and-a-landscaping",
+      "name": "C&A Landscaping",
+      "url": "https://www.candalandscaping.com/",
+      "contact": "https://www.candalandscaping.com/#getintouch",
+      "vertical": "landscaping, hardscaping, lawn care, irrigation, and snow removal",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "C&A has decades of family-owned landscaping credibility and Unilock proof, but the older one-page layout and giant gallery need a clearer quote-first path."
+    },
+    {
+      "slug": "woofbeach",
+      "name": "WoofBeach",
+      "url": "https://woofbeach.com/",
+      "contact": "https://woofbeach.com/contact-us/",
+      "vertical": "dog grooming, dog training, daycare, and walk-in services",
+      "location": "Batavia / Fox Valley, IL",
+      "priority": "high",
+      "status": "qualified",
+      "angle": "WoofBeach has a memorable tropical brand and broad dog-care services, but the huge navigation needs a simpler grooming/training/daycare booking path."
+    },
+    {
+      "slug": "tmv-services",
+      "name": "TMV Services LLC",
+      "url": "https://www.tmv-services.com/",
+      "contact": "https://www.tmv-services.com/contact-us",
+      "vertical": "licensed home remodeling and handyman-style improvement services",
+      "location": "Chicagoland / Naperville, IL",
+      "priority": "medium",
+      "status": "qualified",
+      "angle": "TMV already has strong licensing, reviews, and project proof, but repeated forms and broad homeowner/commercial/government messaging need a tighter estimate-first path."
+    }
+  ]
+}

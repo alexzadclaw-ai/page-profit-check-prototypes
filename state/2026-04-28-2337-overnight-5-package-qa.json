@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-28-2337-overnight-5",
+  "batchJson": "opportunities/2026-04-28-2337-overnight-5/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "the-upscale-tail",
+      "name": "The UpScale Tail",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/the-upscale-tail-audit.md",
+          "exists": true,
+          "size": 8048
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/the-upscale-tail-offer.md",
+          "exists": true,
+          "size": 2738
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/the-upscale-tail/index.html",
+          "exists": true,
+          "size": 13729
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/the-upscale-tail-target.png",
+          "exists": true,
+          "size": 504534
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/the-upscale-tail-prototype.png",
+          "exists": true,
+          "size": 938154
+        }
+      }
+    },
+    {
+      "slug": "naperville-pressure-washing",
+      "name": "Naperville Pressure Washing",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/naperville-pressure-washing-audit.md",
+          "exists": true,
+          "size": 7909
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/naperville-pressure-washing-offer.md",
+          "exists": true,
+          "size": 2832
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/naperville-pressure-washing/index.html",
+          "exists": true,
+          "size": 13580
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/naperville-pressure-washing-target.png",
+          "exists": true,
+          "size": 474725
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/naperville-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 876038
+        }
+      }
+    },
+    {
+      "slug": "pressure-soft-pros",
+      "name": "Pressure Soft Pros LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/pressure-soft-pros-audit.md",
+          "exists": true,
+          "size": 7619
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/pressure-soft-pros-offer.md",
+          "exists": true,
+          "size": 2723
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/pressure-soft-pros/index.html",
+          "exists": true,
+          "size": 13643
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/pressure-soft-pros-target.png",
+          "exists": true,
+          "size": 5819243
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/pressure-soft-pros-prototype.png",
+          "exists": true,
+          "size": 943457
+        }
+      }
+    },
+    {
+      "slug": "the-power-boys",
+      "name": "The Power Boys Pressure Washing",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/the-power-boys-audit.md",
+          "exists": true,
+          "size": 7732
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/the-power-boys-offer.md",
+          "exists": true,
+          "size": 2738
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/the-power-boys/index.html",
+          "exists": true,
+          "size": 13694
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/the-power-boys-target.png",
+          "exists": true,
+          "size": 3624321
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/the-power-boys-prototype.png",
+          "exists": true,
+          "size": 831913
+        }
+      }
+    },
+    {
+      "slug": "lous-lawn-care",
+      "name": "Lou's Lawn Care",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/lous-lawn-care-audit.md",
+          "exists": true,
+          "size": 7765
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/lous-lawn-care-offer.md",
+          "exists": true,
+          "size": 2677
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/lous-lawn-care/index.html",
+          "exists": true,
+          "size": 13801
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/lous-lawn-care-target.png",
+          "exists": true,
+          "size": 1360970
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/lous-lawn-care-prototype.png",
+          "exists": true,
+          "size": 1026116
+        }
+      }
+    },
+    {
+      "slug": "anderson-window-gutter-cleaning",
+      "name": "Anderson Window & Gutter Cleaning",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/anderson-window-gutter-cleaning-audit.md",
+          "exists": true,
+          "size": 7732
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/anderson-window-gutter-cleaning-offer.md",
+          "exists": true,
+          "size": 2765
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/anderson-window-gutter-cleaning/index.html",
+          "exists": true,
+          "size": 13895
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/anderson-window-gutter-cleaning-target.png",
+          "exists": true,
+          "size": 2636399
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/anderson-window-gutter-cleaning-prototype.png",
+          "exists": true,
+          "size": 918554
+        }
+      }
+    },
+    {
+      "slug": "six-paws-pet-care",
+      "name": "Six Paws Pet Care Inc.",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/six-paws-pet-care-audit.md",
+          "exists": true,
+          "size": 7496
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/six-paws-pet-care-offer.md",
+          "exists": true,
+          "size": 2633
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/six-paws-pet-care/index.html",
+          "exists": true,
+          "size": 13524
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/six-paws-pet-care-target.png",
+          "exists": true,
+          "size": 503804
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/six-paws-pet-care-prototype.png",
+          "exists": true,
+          "size": 959887
+        }
+      }
+    },
+    {
+      "slug": "c-and-a-landscaping",
+      "name": "C&A Landscaping",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/c-and-a-landscaping-audit.md",
+          "exists": true,
+          "size": 7662
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/c-and-a-landscaping-offer.md",
+          "exists": true,
+          "size": 2726
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/c-and-a-landscaping/index.html",
+          "exists": true,
+          "size": 13765
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/c-and-a-landscaping-target.png",
+          "exists": true,
+          "size": 11934087
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/c-and-a-landscaping-prototype.png",
+          "exists": true,
+          "size": 992393
+        }
+      }
+    },
+    {
+      "slug": "woofbeach",
+      "name": "WoofBeach",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/woofbeach-audit.md",
+          "exists": true,
+          "size": 7547
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/woofbeach-offer.md",
+          "exists": true,
+          "size": 2563
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/woofbeach/index.html",
+          "exists": true,
+          "size": 13540
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/woofbeach-target.png",
+          "exists": true,
+          "size": 1509483
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/woofbeach-prototype.png",
+          "exists": true,
+          "size": 888510
+        }
+      }
+    },
+    {
+      "slug": "tmv-services",
+      "name": "TMV Services LLC",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2337-overnight-5/tmv-services-audit.md",
+          "exists": true,
+          "size": 7861
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2337-overnight-5/tmv-services-offer.md",
+          "exists": true,
+          "size": 2690
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2337-overnight-5/tmv-services/index.html",
+          "exists": true,
+          "size": 13702
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/tmv-services-target.png",
+          "exists": true,
+          "size": 1583783
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2337-overnight-5/tmv-services-prototype.png",
+          "exists": true,
+          "size": 772274
+        }
+      }
+    }
+  ]
+}
