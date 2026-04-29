@@ -38,13 +38,14 @@ For each site, build from evidence:
 1. Capture live screenshot.
 2. Inspect live assets/CSS for logo, hero/background, fonts, colors, nav/header.
 3. Write a visual fingerprint note.
-4. Write a visible upgrade plan: what will be clearer, easier, more trustworthy, or more actionable.
-5. Build the prototype from the fingerprint and upgrade plan.
-6. Recapture prototype screenshot.
-7. Compare original/prototype screenshots side by side.
-8. Only then run package QA and commit.
+4. Choose 2–3 **non-negotiable structural cues** that must survive into the prototype. These must be skeleton-level cues, not just colors/assets: header/nav rhythm, hero composition, diagonal/angled divider, card overlap, service-grid rhythm, footer/contact pattern, section density, or other layout DNA.
+5. Write a visible upgrade plan: what will be clearer, easier, more trustworthy, or more actionable.
+6. Build the prototype from the fingerprint, structural cues, and upgrade plan.
+7. Recapture prototype screenshot.
+8. Compare original/prototype screenshots side by side.
+9. Only then run package QA and commit.
 
-A worker that only creates a generic conversion layout has failed the task, even if all required files exist. A worker that only clones the old page without a clear conversion/design improvement has also failed.
+A worker that only creates a generic conversion layout has failed the task, even if all required files exist. A worker that only clones the old page without a clear conversion/design improvement has also failed. A worker that uses the right logo/colors/images but drops the original structural rhythm has also failed; that is a skin over a house template, not a brand-faithful upgrade.
 
 ## Step 1 — Capture the live page
 Gather:

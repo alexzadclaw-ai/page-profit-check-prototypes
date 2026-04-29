@@ -9,12 +9,14 @@ Use this before any Page Profit Check prototype is marked complete or committed.
 - [ ] Dominant colors recorded.
 - [ ] Typography feel recorded.
 - [ ] Header/nav/utility rhythm recorded.
+- [ ] 2–3 non-negotiable structural cues recorded. These are skeleton-level cues, not decorative tokens: e.g. dense nav + oversized logo, angled band, diagonal divider, hero composition, card-overlap rhythm, service-grid pattern, footer/contact rhythm, or builder-specific section density.
 - [ ] One-sentence recognition note written: why this still feels like the same business.
 - [ ] One-sentence upgrade note written: why this is clearly better than the original.
 
 ## 2. Not generic
 - [ ] Prototype does not share an obvious house-template structure with unrelated leads.
-- [ ] First screen uses business-specific logo, imagery, colors, typography feel, or layout cues.
+- [ ] First screen uses business-specific logo, imagery, colors, typography feel, and at least one structural cue from the original.
+- [ ] The original site DNA is used as the layout skeleton, not just as a skin over a reusable hero/trust/cards/steps stack.
 - [ ] Copy names the real service/location/offer instead of generic agency filler.
 - [ ] No internal terms: prototype, mockup, audit, experiment, cleanup, same business, site family.
 
@@ -31,7 +33,8 @@ Use this before any Page Profit Check prototype is marked complete or committed.
 - [ ] Original and prototype screenshots are shown side by side in a timestamped lightweight report.
 - [ ] Reviewer can answer “same business?” within ~3 seconds.
 - [ ] Reviewer can answer “clearly better?” within ~3 seconds.
-- [ ] If either answer is no, revise before commit/push.
+- [ ] Reviewer can point to the preserved structural cue(s), not only logo/color/image reuse.
+- [ ] If either answer is no, or if the structural cue is missing, revise before commit/push.
 
 ## 5. Required final checks
 - [ ] Package QA passes for the touched batch.

@@ -66,10 +66,14 @@ A prototype cannot be marked complete until it passes this gate:
 1. Put the original screenshot and prototype screenshot side by side.
 2. Within three seconds, the prototype must look connected to the same business.
 3. Header/logo/nav, hero image, colors, type feel, and section rhythm must be recognizably derived from the original where they help recognition.
-4. Within three seconds, the prototype must also look meaningfully better: clearer first screen, stronger CTA, easier service scanning, visible trust proof, and better mobile action path.
-5. If the prototype looks like a house template shared with other leads, it fails even if the copy and CTA strategy are good.
-6. If the prototype looks like a near-copy of the old site with only minor polish, it also fails.
-7. If an image/background looks wrong, inspect the live site assets and CSS instead of guessing with `background-size` tweaks.
+4. Before building, identify **2–3 non-negotiable structural cues** from the original and keep them visible in the prototype. Structural cues are layout/rhythm constraints, not decorative tokens: for example, dense white nav with oversized logo, red angled hero band, diagonal roofing divider, actual hero-photo composition, card overlap pattern, footer/contact rhythm, or builder-specific section density.
+5. Do not merely skin a generic conversion stack with the prospect's logo/colors/images. If the original DNA appears only as decoration on top of a reusable hero + trust-strip + cards + steps layout, the prototype fails.
+6. Within three seconds, the prototype must also look meaningfully better: clearer first screen, stronger CTA, easier service scanning, visible trust proof, and better mobile action path.
+7. If the prototype looks like a house template shared with other leads, it fails even if the copy and CTA strategy are good.
+8. If the prototype looks like a near-copy of the old site with only minor polish, it also fails.
+9. If an image/background looks wrong, inspect the live site assets and CSS instead of guessing with `background-size` tweaks.
+
+The first two successful calibration reruns worked because the original site DNA became the **layout skeleton**: Able-Warnecke kept the roof-photo/maroon/serif/diagonal-divider rhythm; Aurora Electric kept the red/yellow/truck/angled-band/service-card overlap rhythm. The failed Blue Ribbon attempt used the right logo, colors, and painting imagery but placed them on a familiar generic service-business skeleton. That is not acceptable.
 
 ### Agent process requirement
 
