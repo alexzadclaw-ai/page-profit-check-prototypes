@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-29-0039-overnight-8
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK jb-concrete-contractor (JB Concrete Contractor, Inc.)
+OK basement-bros-az (Basement Bros A-Z)
+OK naperville-chimney-services (Naperville Chimney Services)
+OK pave-tech-asphalt (Pave Tech Asphalt, LLC)
+OK teran-concrete (Teran Concrete Inc.)
+OK naperville-concrete-inc (Naperville Concrete Inc.)
+OK royal-garage-doors-repair (Royal Garage Doors Repair LLC)
+OK henson-concrete-construction (Henson Concrete Construction)
+OK wiz-plumbing (Wiz Plumbing)
+OK lacassa-plumbing (LaCassa Plumbing)

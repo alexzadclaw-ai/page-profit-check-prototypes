@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-28-2337-overnight-5
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK the-upscale-tail (The UpScale Tail)
+OK naperville-pressure-washing (Naperville Pressure Washing)
+OK pressure-soft-pros (Pressure Soft Pros LLC)
+OK the-power-boys (The Power Boys Pressure Washing)
+OK lous-lawn-care (Lou's Lawn Care)
+OK anderson-window-gutter-cleaning (Anderson Window & Gutter Cleaning)
+OK six-paws-pet-care (Six Paws Pet Care Inc.)
+OK c-and-a-landscaping (C&A Landscaping)
+OK woofbeach (WoofBeach)
+OK tmv-services (TMV Services LLC)

@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-29-0027-overnight-7
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK a-d-exteriors (A&D Exteriors)
+OK speedkleen-carpet-cleaners (SpeedKleen Carpet Cleaners)
+OK doa-pest-control (D.O.A. Pest Control)
+OK men-in-black-pest-control (Men In Black Pest Control)
+OK stec-roofing-sg (Stec Roofing S&G, Inc.)
+OK everlast-exteriors-il (Everlast Exteriors of Illinois Inc)
+OK koshgarian-rug-cleaners (Koshgarian Rug Cleaners)
+OK russell-martin-carpet-rugs (Russell Martin Carpet & Rugs)
+OK executive-green-carpet-cleaning (Executive Green Carpet Cleaning Services)
+OK perfect-exteriors (Perfect Exteriors)
