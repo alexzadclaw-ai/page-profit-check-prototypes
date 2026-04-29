@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-28-2303-overnight-3",
+  "batchJson": "opportunities/2026-04-28-2303-overnight-3/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "apn-cleaning-service",
+      "name": "APN Cleaning Service LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/apn-cleaning-service-audit.md",
+          "exists": true,
+          "size": 7888
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/apn-cleaning-service-offer.md",
+          "exists": true,
+          "size": 2805
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/apn-cleaning-service/index.html",
+          "exists": true,
+          "size": 13028
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/apn-cleaning-service-target.png",
+          "exists": true,
+          "size": 502599
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/apn-cleaning-service-prototype.png",
+          "exists": true,
+          "size": 917828
+        }
+      }
+    },
+    {
+      "slug": "alchemist-massage",
+      "name": "Alchemist Massage, PLLC",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/alchemist-massage-audit.md",
+          "exists": true,
+          "size": 7864
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/alchemist-massage-offer.md",
+          "exists": true,
+          "size": 2783
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/alchemist-massage/index.html",
+          "exists": true,
+          "size": 12955
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/alchemist-massage-target.png",
+          "exists": true,
+          "size": 1063767
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/alchemist-massage-prototype.png",
+          "exists": true,
+          "size": 833448
+        }
+      }
+    },
+    {
+      "slug": "midway-dog-academy",
+      "name": "Midway Dog Academy",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/midway-dog-academy-audit.md",
+          "exists": true,
+          "size": 7472
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/midway-dog-academy-offer.md",
+          "exists": true,
+          "size": 2747
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/midway-dog-academy/index.html",
+          "exists": true,
+          "size": 12842
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/midway-dog-academy-target.png",
+          "exists": true,
+          "size": 2804928
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/midway-dog-academy-prototype.png",
+          "exists": true,
+          "size": 907118
+        }
+      }
+    },
+    {
+      "slug": "petes-powerhouse",
+      "name": "Pete's POWERHOUSE Window Cleaning & Power Washing",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/petes-powerhouse-audit.md",
+          "exists": true,
+          "size": 7546
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/petes-powerhouse-offer.md",
+          "exists": true,
+          "size": 2912
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/petes-powerhouse/index.html",
+          "exists": true,
+          "size": 12954
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/petes-powerhouse-target.png",
+          "exists": true,
+          "size": 5095244
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/petes-powerhouse-prototype.png",
+          "exists": true,
+          "size": 884350
+        }
+      }
+    },
+    {
+      "slug": "eco-cleaning-services",
+      "name": "Eco Cleaning Services",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/eco-cleaning-services-audit.md",
+          "exists": true,
+          "size": 7440
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/eco-cleaning-services-offer.md",
+          "exists": true,
+          "size": 2753
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/eco-cleaning-services/index.html",
+          "exists": true,
+          "size": 12773
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/eco-cleaning-services-target.png",
+          "exists": true,
+          "size": 1367886
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/eco-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 931715
+        }
+      }
+    },
+    {
+      "slug": "kelps-window-cleaning",
+      "name": "Kelps Window Cleaning",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/kelps-window-cleaning-audit.md",
+          "exists": true,
+          "size": 7470
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/kelps-window-cleaning-offer.md",
+          "exists": true,
+          "size": 2745
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/kelps-window-cleaning/index.html",
+          "exists": true,
+          "size": 12959
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/kelps-window-cleaning-target.png",
+          "exists": true,
+          "size": 387495
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/kelps-window-cleaning-prototype.png",
+          "exists": true,
+          "size": 881443
+        }
+      }
+    },
+    {
+      "slug": "pure-windows",
+      "name": "Pure Windows",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/pure-windows-audit.md",
+          "exists": true,
+          "size": 7564
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/pure-windows-offer.md",
+          "exists": true,
+          "size": 2710
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/pure-windows/index.html",
+          "exists": true,
+          "size": 12673
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/pure-windows-target.png",
+          "exists": true,
+          "size": 1527043
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/pure-windows-prototype.png",
+          "exists": true,
+          "size": 698952
+        }
+      }
+    },
+    {
+      "slug": "hearts-for-paws-llc",
+      "name": "Hearts for Paws LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/hearts-for-paws-llc-audit.md",
+          "exists": true,
+          "size": 7566
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/hearts-for-paws-llc-offer.md",
+          "exists": true,
+          "size": 2742
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/hearts-for-paws-llc/index.html",
+          "exists": true,
+          "size": 12703
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/hearts-for-paws-llc-target.png",
+          "exists": true,
+          "size": 1544356
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/hearts-for-paws-llc-prototype.png",
+          "exists": true,
+          "size": 840088
+        }
+      }
+    },
+    {
+      "slug": "handyman-experts",
+      "name": "Handyman Experts Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/handyman-experts-audit.md",
+          "exists": true,
+          "size": 7505
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/handyman-experts-offer.md",
+          "exists": true,
+          "size": 2753
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/handyman-experts/index.html",
+          "exists": true,
+          "size": 12858
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/handyman-experts-target.png",
+          "exists": true,
+          "size": 1693033
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/handyman-experts-prototype.png",
+          "exists": true,
+          "size": 886332
+        }
+      }
+    },
+    {
+      "slug": "ecoclean-carpet-cleaning",
+      "name": "EcoClean Carpet Cleaning",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2303-overnight-3/ecoclean-carpet-cleaning-audit.md",
+          "exists": true,
+          "size": 7456
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2303-overnight-3/ecoclean-carpet-cleaning-offer.md",
+          "exists": true,
+          "size": 2782
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2303-overnight-3/ecoclean-carpet-cleaning/index.html",
+          "exists": true,
+          "size": 12843
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/ecoclean-carpet-cleaning-target.png",
+          "exists": true,
+          "size": 2691550
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2303-overnight-3/ecoclean-carpet-cleaning-prototype.png",
+          "exists": true,
+          "size": 984425
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "batch": "2026-04-28-2303-overnight-3",
+  "createdAt": "2026-04-28T23:03:00-05:00",
+  "controller": "overnight-ppc-batch3-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "apn-cleaning-service",
+      "name": "APN Cleaning Service LLC",
+      "url": "https://www.apncleaningservice.com/",
+      "contact": "https://www.apncleaningservice.com/contact",
+      "vertical": "residential and commercial cleaning",
+      "location": "Romeoville / Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Independent family-owned cleaning site has excellent proof since 1993, but long unstructured copy, scattered CTAs, and service-card noise hide the strongest reasons to request an estimate."
+    },
+    {
+      "slug": "alchemist-massage",
+      "name": "Alchemist Massage, PLLC",
+      "url": "https://www.alchemistmassage.com/",
+      "contact": "https://www.alchemistmassage.com/contact",
+      "vertical": "mobile massage therapy",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Warm mobile massage site has a distinctive holistic voice, but the booking path, service radius, practical benefits, and license/contact proof need to be clearer above the fold."
+    },
+    {
+      "slug": "midway-dog-academy",
+      "name": "Midway Dog Academy",
+      "url": "https://www.midwaydogacademy.com/",
+      "contact": "https://www.midwaydogacademy.com/discuss-your-dog/",
+      "vertical": "dog training",
+      "location": "Naperville / Chicago, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Dog training site has services, testimonials, and free-evaluation intent, but repetitive SEO copy and a large menu hide the fastest path for owners with urgent behavior problems."
+    },
+    {
+      "slug": "petes-powerhouse",
+      "name": "Pete's POWERHOUSE Window Cleaning & Power Washing",
+      "url": "https://www.petespowerhouse.com/",
+      "contact": "https://www.petespowerhouse.com/contact-us/",
+      "vertical": "window cleaning and exterior washing",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Exterior cleaning site has 35+ years of proof and strong service breadth, but slider-heavy messaging, duplicate phone paths, and a crowded service menu need a clearer estimate flow."
+    },
+    {
+      "slug": "eco-cleaning-services",
+      "name": "Eco Cleaning Services",
+      "url": "https://eco-cleaningservices.com/",
+      "contact": "https://eco-cleaningservices.com/contact",
+      "vertical": "eco-friendly house cleaning",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Eco-focused cleaning site has a solid health/sustainability promise and quote form, but typo/zero-stat issues, crowded service-area navigation, and repeated forms weaken trust."
+    },
+    {
+      "slug": "kelps-window-cleaning",
+      "name": "Kelps Window Cleaning",
+      "url": "https://kelpswindowcleaning.com/",
+      "contact": "mailto:dan@kelpswindowcleaning.com",
+      "vertical": "window, gutter, light fixture cleaning and snow plowing",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Longstanding window-cleaning business has unusually strong trust proof since 1989, but the plain static homepage can make the free-estimate path, service differences, and proof hierarchy sharper."
+    },
+    {
+      "slug": "pure-windows",
+      "name": "Pure Windows",
+      "url": "https://www.purewindows.net/",
+      "contact": "https://www.purewindows.net/contact",
+      "vertical": "window and gutter cleaning",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Wix-built window/gutter site has strong since-1986 proof and clear services, but template residue, Wix social links, split “Book Now” paths, and sparse hierarchy create an easy trust-cleanup win."
+    },
+    {
+      "slug": "hearts-for-paws-llc",
+      "name": "Hearts for Paws LLC",
+      "url": "https://www.heartsforpawsllc.com/",
+      "contact": "https://www.heartsforpawsllc.com/service-page",
+      "vertical": "pet sitting and dog walking",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Pet-sitting site has a warm local service and visible pricing, but a major template leftover, vague CTA, typo-prone nav, and thin trust hierarchy make it a strong cleanup candidate."
+    },
+    {
+      "slug": "handyman-experts",
+      "name": "Handyman Experts Inc.",
+      "url": "https://www.handymanexpertsinc.com/",
+      "contact": "https://www.handymanexpertsinc.com/contact",
+      "vertical": "handyman and home repair",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Family-owned handyman site has deep testimonial proof and a long local track record, but services sit below testimonials and the quote path needs stronger hierarchy for urgent home repairs."
+    },
+    {
+      "slug": "ecoclean-carpet-cleaning",
+      "name": "EcoClean Carpet Cleaning",
+      "url": "https://ecoclean.com/",
+      "contact": "https://ecoclean.com/contact-us/",
+      "vertical": "carpet cleaning and restoration",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "High-proof carpet/restoration site has 1000+ reviews and 24/7 emergency services, but duplicated mega-navigation and mixed emergency vs routine cleaning paths add friction before scheduling."
+    }
+  ]
+}
