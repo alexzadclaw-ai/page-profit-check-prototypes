@@ -1,0 +1,136 @@
+{
+  "batch": "2026-04-29-0110-overnight-10",
+  "createdAt": "2026-04-29T01:10:00-05:00",
+  "controller": "overnight-ppc-batch10-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "totalPublishedBeforeBatch": 90,
+  "targetItems": 10,
+  "selectionNotes": "Fresh non-duplicate U.S. independent/local service-business prospects selected with public lightweight browsing only. No outreach performed.",
+  "items": [
+    {
+      "slug": "steve-piper-and-sons",
+      "name": "Steve Piper & Sons, Inc.",
+      "url": "https://www.stevepiperandsons.com/",
+      "contact": "https://www.stevepiperandsons.com/contact-us",
+      "vertical": "tree trimming, removal, stump grinding, certified arborist services, mulch, firewood, and wood waste recycling",
+      "location": "Yorkville, Naperville, Joliet, Aurora, Plainfield, Oswego, and surrounding IL suburbs",
+      "priority": "high",
+      "angle": "The first screen has several competing menu and product paths before the visitor sees the strongest call-to-action. Make Free Estimate the dominant action and keep the phone visible.",
+      "summary": "Steve Piper & Sons already has uncommon longevity, certified arborist proof, union-contractor credibility, and a broad service mix.",
+      "status": "qualified"
+    },
+    {
+      "slug": "american-floor-coatings",
+      "name": "American Floor Coatings",
+      "url": "https://napervilleflooringcompany.com/",
+      "contact": "https://napervilleflooringcompany.com/",
+      "vertical": "decorative epoxy, garage floor coatings, commercial flooring, acid stain, and floor repair/update projects",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "The homepage has useful trust proof, but it is split between small sidebar text, gallery notes, and a buried contact area. Move trust proof into a clear strip under the hero.",
+      "summary": "American Floor Coatings has a focused local offer: garage floors, commercial flooring, decorative epoxy, acid stain, and practical repair/update work.",
+      "status": "qualified"
+    },
+    {
+      "slug": "father-son-pest-control",
+      "name": "Father & Son Pest Control",
+      "url": "https://www.ilovespringbank.com/",
+      "contact": "https://www.ilovespringbank.com/",
+      "vertical": "pest control, mice, bugs and insects, birds and bats, mosquito and tick, termite, bed bug, and emergency pest services",
+      "location": "Naperville, IL and nearby suburbs",
+      "priority": "high",
+      "angle": "The page opens with useful urgency, but long generic pest copy pushes visitors away from the quote action. Keep the phone and quote CTA in the hero.",
+      "summary": "Father & Son Pest Control already speaks to urgent household pest problems and has a useful \u201cwhat type of pests\u201d selector.",
+      "status": "qualified"
+    },
+    {
+      "slug": "royal-contractors-remodeling",
+      "name": "Royal Contractors & Remodeling Inc.",
+      "url": "https://royal-remodel.com/",
+      "contact": "https://royal-remodel.com/contact-us/",
+      "vertical": "kitchen remodeling, bathroom remodeling, basement remodeling, complete home renovation, flooring, painting, and drywall",
+      "location": "Naperville and Chicago suburbs, IL",
+      "priority": "high",
+      "angle": "The homepage has strong value proof, but duplicate forms and repeated estimate copy compete for attention. Make Request a Free Estimate the primary CTA.",
+      "summary": "Royal Contractors has strong owner-friendly proof: 20+ years of experience, A+ BBB positioning, free consultations, 3-D design, and a price/value message.",
+      "status": "qualified"
+    },
+    {
+      "slug": "adv-masonry-contractor",
+      "name": "ADV Masonry Contractor",
+      "url": "https://advmasonry.net/",
+      "contact": "https://advmasonry.net/contact-us/",
+      "vertical": "residential masonry, commercial masonry, masonry restorations, brickwork, stonework, chimneys, fireplaces, tuckpointing, and new construction",
+      "location": "Naperville, DuPage County, Will County, and western Chicago suburbs, IL",
+      "priority": "high",
+      "angle": "The page has strong masonry content but shows duplicate navigation and staging-domain links that weaken confidence. Use a simplified header with one project CTA.",
+      "summary": "ADV Masonry has excellent project depth: residential, commercial, restorations, new construction, fireplaces, chimneys, and 20 years of experience.",
+      "status": "qualified"
+    },
+    {
+      "slug": "powers-masonry",
+      "name": "Powers Masonry",
+      "url": "https://powersmasonry.com/",
+      "contact": "https://powersmasonry.com/contact",
+      "vertical": "residential masonry, fireplace faces, chimney repairs, outdoor grills, brickwork, and custom masonry",
+      "location": "Naperville, Oswego, Aurora, Wheaton, and surrounding IL communities",
+      "priority": "medium",
+      "angle": "The current homepage is short and recognizable, but the primary call action is repeated instead of supported by project guidance. Keep the simple header and make Call or Request Masonry Help dominant.",
+      "summary": "Powers Masonry has a compact Squarespace-style site with a strong craft message, clear phone number, and four useful service lines.",
+      "status": "qualified"
+    },
+    {
+      "slug": "corwin-drywall-contracting",
+      "name": "Corwin Drywall Contracting LLC",
+      "url": "https://corwindrywall.com/",
+      "contact": "https://corwindrywall.com/pages/contact",
+      "vertical": "drywall installation, drywall repair, finishing, basement build-out, remodeling, room additions, acoustical ceiling installation, and commercial wall/ceiling work",
+      "location": "Naperville, Aurora, Woodridge, Lisle, Yorkville, St. Charles, and surrounding IL counties",
+      "priority": "high",
+      "angle": "Strong testimonials and specialist proof are buried below a simple hero and gallery blocks. Move call/text free estimate and virtual-estimate proof into the hero.",
+      "summary": "Corwin Drywall already has a strong specialist story, a virtual-estimate hook, and many testimonials.",
+      "status": "qualified"
+    },
+    {
+      "slug": "copper-oak-remodeling",
+      "name": "Copper Oak Remodeling",
+      "url": "https://copperoakremodeling.com/",
+      "contact": "https://copperoakremodeling.com/contact",
+      "vertical": "kitchen remodeling, bathroom remodeling, mudrooms, basements, laundry rooms, closets, built-ins, offices, EV chargers, and interior renovations",
+      "location": "Naperville, Aurora, Geneva, and western Chicago suburbs, IL",
+      "priority": "high",
+      "angle": "The site has many strengths, but the large service menu and long sections can overwhelm the first consultation decision. Make Schedule Your Free Design Consultation the dominant action.",
+      "summary": "Copper Oak has polished proof: 25+ years, family-owned local positioning, design-build delivery, in-house craftsmen, transparent pricing, and a workmanship warranty.",
+      "status": "qualified"
+    },
+    {
+      "slug": "proglass-windshield-repair",
+      "name": "ProGlass Windshield Repair",
+      "url": "https://proglasswindshield.com/",
+      "contact": "https://proglasswindshield.com/contact-us/",
+      "vertical": "mobile windshield rock chip repair, long crack repair, windshield coatings, and headlight restoration",
+      "location": "Naperville, Aurora, Lisle, Plainfield, Bolingbrook, and nearby IL communities",
+      "priority": "high",
+      "angle": "The page starts with a useful quote form, but long headlight-restoration education competes with the core windshield repair intent. Make Get a Quick Glass Quote and Call Today the top actions.",
+      "summary": "ProGlass has a highly practical mobile service, direct phone number, and quote form.",
+      "status": "qualified"
+    },
+    {
+      "slug": "us-home-services",
+      "name": "U.S. Home Services",
+      "url": "https://theushomeservices.com/",
+      "contact": "https://theushomeservices.com/contact-us/",
+      "vertical": "kitchen remodeling, bathroom remodeling, basement remodeling, whole-home remodeling, room additions, interior remodeling, insulation, and home service upgrades",
+      "location": "Naperville and Chicagoland, IL",
+      "priority": "medium",
+      "angle": "The homepage has strong numbers and financing proof, but long repeated service paragraphs slow down first decisions. Use Contact Us and Call as the primary actions.",
+      "summary": "U.",
+      "status": "qualified"
+    }
+  ]
+}
