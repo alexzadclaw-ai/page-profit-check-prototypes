@@ -1,0 +1,122 @@
+{
+  "batch": "2026-04-28-2238-overnight-2",
+  "createdAt": "2026-04-28T22:38:00-05:00",
+  "controller": "overnight-ppc-batch2-controller-gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "morlock-landscape-design",
+      "name": "Morlock Landscape and Design",
+      "url": "https://www.morlocklandscape.com/",
+      "contact": "https://www.morlocklandscape.com/contact-us",
+      "vertical": "landscaping",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Family-owned landscape site with strong experience proof but generic CTA hierarchy, service sprawl, and a long form that can be tightened."
+    },
+    {
+      "slug": "mikes-landscaping-service",
+      "name": "Mikes Landscaping Service",
+      "url": "https://mikeslandscapingservice.com/",
+      "contact": "https://mikeslandscapingservice.com/contact/",
+      "vertical": "landscaping",
+      "location": "Aurora / Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Outdoor-living site with useful service proof but repetitive place headings and a quote path that needs clearer buyer segmentation."
+    },
+    {
+      "slug": "pn-dog-grooming",
+      "name": "PN Dog Grooming",
+      "url": "https://www.pndoggrooming.com/",
+      "contact": "https://www.pndoggrooming.com/contact.html",
+      "vertical": "pet grooming",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Small pet salon with warm copy but weak appointment path, thin service packaging, and little owner/experience proof above the fold."
+    },
+    {
+      "slug": "sol-rejuvenation-therapeutic-massage",
+      "name": "Sol Rejuvenation Therapeutic Massage",
+      "url": "https://solrejuvenation.com/",
+      "contact": "https://solrejuvenation.com/",
+      "vertical": "massage therapy",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "GoDaddy-style massage site with repeated welcome copy, hidden service structure, and booking/trust signals that can be brought forward."
+    },
+    {
+      "slug": "sudzy-puppy",
+      "name": "Sudzy Puppy",
+      "url": "https://sudzypuppy.com/",
+      "contact": "https://sudzypuppy.com/contact-us/",
+      "vertical": "pet grooming",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Established grooming salon with services and local proof, but the homepage can make booking, pricing paths, and walk-in options easier to scan."
+    },
+    {
+      "slug": "awaken-massages-skin-care",
+      "name": "Awaken Massages & Skin Care",
+      "url": "https://www.awakenmassages.com/",
+      "contact": "https://www.awakenmassages.com/",
+      "vertical": "massage therapy / skin care",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Wellness site with strong service depth but wordy opening copy and multiple booking choices that can be clarified into a simple first-visit flow."
+    },
+    {
+      "slug": "r-and-l-landscaping",
+      "name": "R&L Landscaping",
+      "url": "https://randllandscaping.com/",
+      "contact": "https://randllandscaping.com/contact/",
+      "vertical": "landscaping",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Local family landscaping site with tenure and testimonial proof but dated hierarchy, buried quote CTA, and service sections that need sharper scannability."
+    },
+    {
+      "slug": "wiggle-butts-mobile-dog-grooming",
+      "name": "Wiggle Butts Mobile Dog Grooming",
+      "url": "https://www.mobilewigglebutts.com/",
+      "contact": "https://www.mobilewigglebutts.com/",
+      "vertical": "mobile pet grooming",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Mobile grooming site has memorable brand and availability news, but the first screen can better explain service areas, size limits, and booking steps."
+    },
+    {
+      "slug": "naperville-house-cleaning-service",
+      "name": "Naperville House Cleaning Service",
+      "url": "https://www.napervillehousecleaningservice.com/",
+      "contact": "https://www.napervillehousecleaningservice.com/contact.html",
+      "vertical": "residential cleaning",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Independent Weebly-style cleaning site with service breadth but dated hero, weak trust proof, and a quote path that can be made easier to scan."
+    },
+    {
+      "slug": "perfect-manners-dog-training",
+      "name": "Perfect Manners Dog Training",
+      "url": "https://perfectdogtraining.com/",
+      "contact": "https://perfectdogtraining.com/contact-us/",
+      "vertical": "dog training",
+      "location": "Naperville, IL",
+      "status": "qualified",
+      "priority": "medium",
+      "angle": "Behavior-focused dog training site with strong mission language but dated slide-style structure and no crisp problem-to-consultation path above the fold."
+    }
+  ]
+}

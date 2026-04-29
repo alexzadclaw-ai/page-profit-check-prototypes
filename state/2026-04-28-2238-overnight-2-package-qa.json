@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-28-2238-overnight-2",
+  "batchJson": "opportunities/2026-04-28-2238-overnight-2/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "morlock-landscape-design",
+      "name": "Morlock Landscape and Design",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/morlock-landscape-design-audit.md",
+          "exists": true,
+          "size": 7807
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/morlock-landscape-design-offer.md",
+          "exists": true,
+          "size": 2795
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/morlock-landscape-design/index.html",
+          "exists": true,
+          "size": 11762
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/morlock-landscape-design-target.png",
+          "exists": true,
+          "size": 3280975
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/morlock-landscape-design-prototype.png",
+          "exists": true,
+          "size": 1183939
+        }
+      }
+    },
+    {
+      "slug": "mikes-landscaping-service",
+      "name": "Mikes Landscaping Service",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/mikes-landscaping-service-audit.md",
+          "exists": true,
+          "size": 7624
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/mikes-landscaping-service-offer.md",
+          "exists": true,
+          "size": 2807
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/mikes-landscaping-service/index.html",
+          "exists": true,
+          "size": 11790
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/mikes-landscaping-service-target.png",
+          "exists": true,
+          "size": 7490673
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/mikes-landscaping-service-prototype.png",
+          "exists": true,
+          "size": 847090
+        }
+      }
+    },
+    {
+      "slug": "pn-dog-grooming",
+      "name": "PN Dog Grooming",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/pn-dog-grooming-audit.md",
+          "exists": true,
+          "size": 7481
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/pn-dog-grooming-offer.md",
+          "exists": true,
+          "size": 2737
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/pn-dog-grooming/index.html",
+          "exists": true,
+          "size": 11439
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/pn-dog-grooming-target.png",
+          "exists": true,
+          "size": 1510870
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/pn-dog-grooming-prototype.png",
+          "exists": true,
+          "size": 1118892
+        }
+      }
+    },
+    {
+      "slug": "sol-rejuvenation-therapeutic-massage",
+      "name": "Sol Rejuvenation Therapeutic Massage",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/sol-rejuvenation-therapeutic-massage-audit.md",
+          "exists": true,
+          "size": 7590
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/sol-rejuvenation-therapeutic-massage-offer.md",
+          "exists": true,
+          "size": 2816
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/sol-rejuvenation-therapeutic-massage/index.html",
+          "exists": true,
+          "size": 11791
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/sol-rejuvenation-therapeutic-massage-target.png",
+          "exists": true,
+          "size": 2057822
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/sol-rejuvenation-therapeutic-massage-prototype.png",
+          "exists": true,
+          "size": 1112813
+        }
+      }
+    },
+    {
+      "slug": "sudzy-puppy",
+      "name": "Sudzy Puppy",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/sudzy-puppy-audit.md",
+          "exists": true,
+          "size": 7002
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/sudzy-puppy-offer.md",
+          "exists": true,
+          "size": 2704
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/sudzy-puppy/index.html",
+          "exists": true,
+          "size": 11762
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/sudzy-puppy-target.png",
+          "exists": true,
+          "size": 2407668
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/sudzy-puppy-prototype.png",
+          "exists": true,
+          "size": 1354462
+        }
+      }
+    },
+    {
+      "slug": "awaken-massages-skin-care",
+      "name": "Awaken Massages & Skin Care",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/awaken-massages-skin-care-audit.md",
+          "exists": true,
+          "size": 7574
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/awaken-massages-skin-care-offer.md",
+          "exists": true,
+          "size": 2806
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/awaken-massages-skin-care/index.html",
+          "exists": true,
+          "size": 11923
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/awaken-massages-skin-care-target.png",
+          "exists": true,
+          "size": 2155735
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/awaken-massages-skin-care-prototype.png",
+          "exists": true,
+          "size": 853468
+        }
+      }
+    },
+    {
+      "slug": "r-and-l-landscaping",
+      "name": "R&L Landscaping",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/r-and-l-landscaping-audit.md",
+          "exists": true,
+          "size": 7733
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/r-and-l-landscaping-offer.md",
+          "exists": true,
+          "size": 2737
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/r-and-l-landscaping/index.html",
+          "exists": true,
+          "size": 11801
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/r-and-l-landscaping-target.png",
+          "exists": true,
+          "size": 2879991
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/r-and-l-landscaping-prototype.png",
+          "exists": true,
+          "size": 854589
+        }
+      }
+    },
+    {
+      "slug": "wiggle-butts-mobile-dog-grooming",
+      "name": "Wiggle Butts Mobile Dog Grooming",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/wiggle-butts-mobile-dog-grooming-audit.md",
+          "exists": true,
+          "size": 7645
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/wiggle-butts-mobile-dog-grooming-offer.md",
+          "exists": true,
+          "size": 2834
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/wiggle-butts-mobile-dog-grooming/index.html",
+          "exists": true,
+          "size": 11984
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/wiggle-butts-mobile-dog-grooming-target.png",
+          "exists": true,
+          "size": 1695841
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/wiggle-butts-mobile-dog-grooming-prototype.png",
+          "exists": true,
+          "size": 1663945
+        }
+      }
+    },
+    {
+      "slug": "naperville-house-cleaning-service",
+      "name": "Naperville House Cleaning Service",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/naperville-house-cleaning-service-audit.md",
+          "exists": true,
+          "size": 7486
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/naperville-house-cleaning-service-offer.md",
+          "exists": true,
+          "size": 2852
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/naperville-house-cleaning-service/index.html",
+          "exists": true,
+          "size": 11668
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/naperville-house-cleaning-service-target.png",
+          "exists": true,
+          "size": 3142422
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/naperville-house-cleaning-service-prototype.png",
+          "exists": true,
+          "size": 717388
+        }
+      }
+    },
+    {
+      "slug": "perfect-manners-dog-training",
+      "name": "Perfect Manners Dog Training",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-2238-overnight-2/perfect-manners-dog-training-audit.md",
+          "exists": true,
+          "size": 7451
+        },
+        "offer": {
+          "path": "offers/2026-04-28-2238-overnight-2/perfect-manners-dog-training-offer.md",
+          "exists": true,
+          "size": 2843
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-2238-overnight-2/perfect-manners-dog-training/index.html",
+          "exists": true,
+          "size": 11728
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/perfect-manners-dog-training-target.png",
+          "exists": true,
+          "size": 2114277
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-2238-overnight-2/perfect-manners-dog-training-prototype.png",
+          "exists": true,
+          "size": 759574
+        }
+      }
+    }
+  ]
+}
