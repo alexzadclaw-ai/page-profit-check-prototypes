@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-29-0052-overnight-9",
+  "batchJson": "opportunities/2026-04-29-0052-overnight-9/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "anytime-heating-air-conditioning",
+      "name": "Anytime Heating & Air Conditioning Inc",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/anytime-heating-air-conditioning-audit.md",
+          "exists": true,
+          "size": 7008
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/anytime-heating-air-conditioning-offer.md",
+          "exists": true,
+          "size": 2430
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/anytime-heating-air-conditioning/index.html",
+          "exists": true,
+          "size": 8996
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/anytime-heating-air-conditioning-target.png",
+          "exists": true,
+          "size": 973862
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/anytime-heating-air-conditioning-prototype.png",
+          "exists": true,
+          "size": 811674
+        }
+      }
+    },
+    {
+      "slug": "adept-construction",
+      "name": "Adept Construction, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/adept-construction-audit.md",
+          "exists": true,
+          "size": 6877
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/adept-construction-offer.md",
+          "exists": true,
+          "size": 2268
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/adept-construction/index.html",
+          "exists": true,
+          "size": 8819
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/adept-construction-target.png",
+          "exists": true,
+          "size": 4241804
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/adept-construction-prototype.png",
+          "exists": true,
+          "size": 768028
+        }
+      }
+    },
+    {
+      "slug": "able-warnecke-roofing",
+      "name": "Able-Warnecke Roofing Inc",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/able-warnecke-roofing-audit.md",
+          "exists": true,
+          "size": 6888
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/able-warnecke-roofing-offer.md",
+          "exists": true,
+          "size": 2365
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/able-warnecke-roofing/index.html",
+          "exists": true,
+          "size": 8910
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/able-warnecke-roofing-target.png",
+          "exists": true,
+          "size": 6580029
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/able-warnecke-roofing-prototype.png",
+          "exists": true,
+          "size": 683008
+        }
+      }
+    },
+    {
+      "slug": "aurora-electric",
+      "name": "Aurora Electric",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/aurora-electric-audit.md",
+          "exists": true,
+          "size": 6804
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/aurora-electric-offer.md",
+          "exists": true,
+          "size": 2244
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/aurora-electric/index.html",
+          "exists": true,
+          "size": 8791
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/aurora-electric-target.png",
+          "exists": true,
+          "size": 1076917
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/aurora-electric-prototype.png",
+          "exists": true,
+          "size": 363056
+        }
+      }
+    },
+    {
+      "slug": "nifty-naperville-appliance-repair",
+      "name": "Nifty Naperville Appliance Repair",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/nifty-naperville-appliance-repair-audit.md",
+          "exists": true,
+          "size": 6622
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/nifty-naperville-appliance-repair-offer.md",
+          "exists": true,
+          "size": 2361
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/nifty-naperville-appliance-repair/index.html",
+          "exists": true,
+          "size": 8943
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/nifty-naperville-appliance-repair-target.png",
+          "exists": true,
+          "size": 1722968
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/nifty-naperville-appliance-repair-prototype.png",
+          "exists": true,
+          "size": 767328
+        }
+      }
+    },
+    {
+      "slug": "naperville-locksmith",
+      "name": "Naperville Locksmith",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/naperville-locksmith-audit.md",
+          "exists": true,
+          "size": 6515
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/naperville-locksmith-offer.md",
+          "exists": true,
+          "size": 2314
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/naperville-locksmith/index.html",
+          "exists": true,
+          "size": 8779
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-locksmith-target.png",
+          "exists": true,
+          "size": 792711
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-locksmith-prototype.png",
+          "exists": true,
+          "size": 615378
+        }
+      }
+    },
+    {
+      "slug": "naperville-fence-company",
+      "name": "Naperville Fence Company",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/naperville-fence-company-audit.md",
+          "exists": true,
+          "size": 6769
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/naperville-fence-company-offer.md",
+          "exists": true,
+          "size": 2293
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/naperville-fence-company/index.html",
+          "exists": true,
+          "size": 9019
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-fence-company-target.png",
+          "exists": true,
+          "size": 6813862
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-fence-company-prototype.png",
+          "exists": true,
+          "size": 823538
+        }
+      }
+    },
+    {
+      "slug": "naperville-gutters",
+      "name": "Naperville Gutters",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/naperville-gutters-audit.md",
+          "exists": true,
+          "size": 6641
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/naperville-gutters-offer.md",
+          "exists": true,
+          "size": 2272
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/naperville-gutters/index.html",
+          "exists": true,
+          "size": 8702
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-gutters-target.png",
+          "exists": true,
+          "size": 1957011
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-gutters-prototype.png",
+          "exists": true,
+          "size": 810917
+        }
+      }
+    },
+    {
+      "slug": "reliant-electrical",
+      "name": "Reliant Electrical",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/reliant-electrical-audit.md",
+          "exists": true,
+          "size": 6889
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/reliant-electrical-offer.md",
+          "exists": true,
+          "size": 2329
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/reliant-electrical/index.html",
+          "exists": true,
+          "size": 9196
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/reliant-electrical-target.png",
+          "exists": true,
+          "size": 1449082
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/reliant-electrical-prototype.png",
+          "exists": true,
+          "size": 404127
+        }
+      }
+    },
+    {
+      "slug": "naperville-deck-builders-proshield",
+      "name": "Naperville Deck Builders / ProShield Exteriors",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0052-overnight-9/naperville-deck-builders-proshield-audit.md",
+          "exists": true,
+          "size": 6879
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0052-overnight-9/naperville-deck-builders-proshield-offer.md",
+          "exists": true,
+          "size": 2447
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0052-overnight-9/naperville-deck-builders-proshield/index.html",
+          "exists": true,
+          "size": 8952
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-deck-builders-proshield-target.png",
+          "exists": true,
+          "size": 4065154
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0052-overnight-9/naperville-deck-builders-proshield-prototype.png",
+          "exists": true,
+          "size": 820240
+        }
+      }
+    }
+  ]
+}

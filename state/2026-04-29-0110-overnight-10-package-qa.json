@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-29-0110-overnight-10",
+  "batchJson": "opportunities/2026-04-29-0110-overnight-10/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "steve-piper-and-sons",
+      "name": "Steve Piper & Sons, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/steve-piper-and-sons-audit.md",
+          "exists": true,
+          "size": 7807
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/steve-piper-and-sons-offer.md",
+          "exists": true,
+          "size": 2537
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/steve-piper-and-sons/index.html",
+          "exists": true,
+          "size": 9275
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/steve-piper-and-sons-target.png",
+          "exists": true,
+          "size": 3283202
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/steve-piper-and-sons-prototype.png",
+          "exists": true,
+          "size": 805468
+        }
+      }
+    },
+    {
+      "slug": "american-floor-coatings",
+      "name": "American Floor Coatings",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/american-floor-coatings-audit.md",
+          "exists": true,
+          "size": 7706
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/american-floor-coatings-offer.md",
+          "exists": true,
+          "size": 2510
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/american-floor-coatings/index.html",
+          "exists": true,
+          "size": 8903
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/american-floor-coatings-target.png",
+          "exists": true,
+          "size": 960691
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/american-floor-coatings-prototype.png",
+          "exists": true,
+          "size": 795507
+        }
+      }
+    },
+    {
+      "slug": "father-son-pest-control",
+      "name": "Father & Son Pest Control",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/father-son-pest-control-audit.md",
+          "exists": true,
+          "size": 7372
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/father-son-pest-control-offer.md",
+          "exists": true,
+          "size": 2424
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/father-son-pest-control/index.html",
+          "exists": true,
+          "size": 8887
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/father-son-pest-control-target.png",
+          "exists": true,
+          "size": 1671923
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/father-son-pest-control-prototype.png",
+          "exists": true,
+          "size": 687763
+        }
+      }
+    },
+    {
+      "slug": "royal-contractors-remodeling",
+      "name": "Royal Contractors & Remodeling Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/royal-contractors-remodeling-audit.md",
+          "exists": true,
+          "size": 7631
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/royal-contractors-remodeling-offer.md",
+          "exists": true,
+          "size": 2526
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/royal-contractors-remodeling/index.html",
+          "exists": true,
+          "size": 9014
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/royal-contractors-remodeling-target.png",
+          "exists": true,
+          "size": 1996822
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/royal-contractors-remodeling-prototype.png",
+          "exists": true,
+          "size": 739116
+        }
+      }
+    },
+    {
+      "slug": "adv-masonry-contractor",
+      "name": "ADV Masonry Contractor",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/adv-masonry-contractor-audit.md",
+          "exists": true,
+          "size": 7781
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/adv-masonry-contractor-offer.md",
+          "exists": true,
+          "size": 2527
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/adv-masonry-contractor/index.html",
+          "exists": true,
+          "size": 9136
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/adv-masonry-contractor-target.png",
+          "exists": true,
+          "size": 3090616
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/adv-masonry-contractor-prototype.png",
+          "exists": true,
+          "size": 826727
+        }
+      }
+    },
+    {
+      "slug": "powers-masonry",
+      "name": "Powers Masonry",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/powers-masonry-audit.md",
+          "exists": true,
+          "size": 7436
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/powers-masonry-offer.md",
+          "exists": true,
+          "size": 2430
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/powers-masonry/index.html",
+          "exists": true,
+          "size": 8910
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/powers-masonry-target.png",
+          "exists": true,
+          "size": 2094887
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/powers-masonry-prototype.png",
+          "exists": true,
+          "size": 731232
+        }
+      }
+    },
+    {
+      "slug": "corwin-drywall-contracting",
+      "name": "Corwin Drywall Contracting LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/corwin-drywall-contracting-audit.md",
+          "exists": true,
+          "size": 7724
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/corwin-drywall-contracting-offer.md",
+          "exists": true,
+          "size": 2563
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/corwin-drywall-contracting/index.html",
+          "exists": true,
+          "size": 9300
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/corwin-drywall-contracting-target.png",
+          "exists": true,
+          "size": 2775865
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/corwin-drywall-contracting-prototype.png",
+          "exists": true,
+          "size": 745879
+        }
+      }
+    },
+    {
+      "slug": "copper-oak-remodeling",
+      "name": "Copper Oak Remodeling",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/copper-oak-remodeling-audit.md",
+          "exists": true,
+          "size": 7798
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/copper-oak-remodeling-offer.md",
+          "exists": true,
+          "size": 2544
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/copper-oak-remodeling/index.html",
+          "exists": true,
+          "size": 9132
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/copper-oak-remodeling-target.png",
+          "exists": true,
+          "size": 2980398
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/copper-oak-remodeling-prototype.png",
+          "exists": true,
+          "size": 777314
+        }
+      }
+    },
+    {
+      "slug": "proglass-windshield-repair",
+      "name": "ProGlass Windshield Repair",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/proglass-windshield-repair-audit.md",
+          "exists": true,
+          "size": 7563
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/proglass-windshield-repair-offer.md",
+          "exists": true,
+          "size": 2534
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/proglass-windshield-repair/index.html",
+          "exists": true,
+          "size": 9103
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/proglass-windshield-repair-target.png",
+          "exists": true,
+          "size": 3151894
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/proglass-windshield-repair-prototype.png",
+          "exists": true,
+          "size": 832466
+        }
+      }
+    },
+    {
+      "slug": "us-home-services",
+      "name": "U.S. Home Services",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0110-overnight-10/us-home-services-audit.md",
+          "exists": true,
+          "size": 7717
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0110-overnight-10/us-home-services-offer.md",
+          "exists": true,
+          "size": 2518
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0110-overnight-10/us-home-services/index.html",
+          "exists": true,
+          "size": 8996
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/us-home-services-target.png",
+          "exists": true,
+          "size": 3457853
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0110-overnight-10/us-home-services-prototype.png",
+          "exists": true,
+          "size": 773689
+        }
+      }
+    }
+  ]
+}
