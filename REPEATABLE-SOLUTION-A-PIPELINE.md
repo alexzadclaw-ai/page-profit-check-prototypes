@@ -10,6 +10,19 @@ Produce a believable improved homepage that:
 - can be shared via htmlpreview when needed
 
 
+
+
+### Report size rule
+
+Default visual review reports must stay lightweight:
+- keep report HTML small;
+- store screenshots as separate optimized `.webp` or `.jpg` files under `reports/assets/<report-id>/`;
+- reference screenshots via stable GitHub Pages/raw URLs;
+- include inline action links for original website, prototype, audit report, offer letter, contact point, and fingerprint inside each comparison card;
+- avoid base64-embedding screenshots except for tiny pilots or when external image hosting is failing and the user explicitly needs a self-contained file.
+
+Reason: embedding screenshots directly as base64 makes a 10-site report exceed 50 MB and would make a 100-site report hundreds of MB.
+
 ## Fidelity repair operating rule
 
 Do not scale a repair run until a small calibration pilot is approved. The approved Steve Piper pilot showed the bar:
@@ -17,7 +30,7 @@ Do not scale a repair run until a small calibration pilot is approved. The appro
 - preserve the original header/nav/utility-bar rhythm
 - keep the real brand colors and typography feel
 - recapture screenshots after every visual change
-- publish a timestamped embedded side-by-side report for review
+- publish a timestamped lightweight side-by-side report for review: HTML stays small, screenshots are separate optimized .webp/.jpg assets referenced by stable GitHub Pages/raw URLs; use embedded/base64 reports only for tiny pilots or fallback troubleshooting
 
 For each site, build from evidence:
 1. Capture live screenshot.

@@ -52,6 +52,12 @@ For Steve Piper, the accepted calibration used the real hero asset:
 
 The wrong attempts failed because they tried to manipulate the wrong background image (`wid4`) with zoom/crop changes. The fix was not “zoom more” or “zoom less”; the fix was to identify and use the correct original banner asset.
 
+
+
+### Report artifact standard
+
+For visual-fidelity review, the default report format is lightweight HTML plus separate optimized screenshot assets. Put report screenshots under `reports/assets/<report-id>/` as `.webp` or optimized `.jpg`, then reference them from the report with stable raw/GitHub Pages URLs. Do not base64-embed all screenshots for multi-site reports unless explicitly needed as a fallback.
+
 ### Visual fidelity gate
 
 A prototype cannot be marked complete until it passes this gate:
