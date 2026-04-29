@@ -1,0 +1,361 @@
+{
+  "batch": "2026-04-29-0004-overnight-6",
+  "batchJson": "opportunities/2026-04-29-0004-overnight-6/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "blue-ribbon-painting",
+      "name": "Blue Ribbon Painting & Decorating, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/blue-ribbon-painting-audit.md",
+          "exists": true,
+          "size": 8181
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/blue-ribbon-painting-offer.md",
+          "exists": true,
+          "size": 2971
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/blue-ribbon-painting/index.html",
+          "exists": true,
+          "size": 14147
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/blue-ribbon-painting-target.png",
+          "exists": true,
+          "size": 2306723
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/blue-ribbon-painting-prototype.png",
+          "exists": true,
+          "size": 1038407
+        }
+      }
+    },
+    {
+      "slug": "paint-right-painting",
+      "name": "Paint-Right Painting Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/paint-right-painting-audit.md",
+          "exists": true,
+          "size": 7678
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/paint-right-painting-offer.md",
+          "exists": true,
+          "size": 2799
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/paint-right-painting/index.html",
+          "exists": true,
+          "size": 13968
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/paint-right-painting-target.png",
+          "exists": true,
+          "size": 3649282
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/paint-right-painting-prototype.png",
+          "exists": true,
+          "size": 998305
+        }
+      }
+    },
+    {
+      "slug": "rr-painting-repair",
+      "name": "R&R Painting and Repair Inc.",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/rr-painting-repair-audit.md",
+          "exists": true,
+          "size": 7645
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/rr-painting-repair-offer.md",
+          "exists": true,
+          "size": 2792
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/rr-painting-repair/index.html",
+          "exists": true,
+          "size": 13964
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/rr-painting-repair-target.png",
+          "exists": true,
+          "size": 2025229
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/rr-painting-repair-prototype.png",
+          "exists": true,
+          "size": 959022
+        }
+      }
+    },
+    {
+      "slug": "tm-tree-service",
+      "name": "T&M Tree Service",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/tm-tree-service-audit.md",
+          "exists": true,
+          "size": 7833
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/tm-tree-service-offer.md",
+          "exists": true,
+          "size": 2788
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/tm-tree-service/index.html",
+          "exists": true,
+          "size": 13928
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/tm-tree-service-target.png",
+          "exists": true,
+          "size": 2371106
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/tm-tree-service-prototype.png",
+          "exists": true,
+          "size": 964186
+        }
+      }
+    },
+    {
+      "slug": "marquise-plumbing-backflow",
+      "name": "Marquise Plumbing & Backflow Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/marquise-plumbing-backflow-audit.md",
+          "exists": true,
+          "size": 7917
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/marquise-plumbing-backflow-offer.md",
+          "exists": true,
+          "size": 2899
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/marquise-plumbing-backflow/index.html",
+          "exists": true,
+          "size": 13963
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/marquise-plumbing-backflow-target.png",
+          "exists": true,
+          "size": 1176146
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/marquise-plumbing-backflow-prototype.png",
+          "exists": true,
+          "size": 1017505
+        }
+      }
+    },
+    {
+      "slug": "lopez-tree-service",
+      "name": "Lopez Tree Service Corp.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/lopez-tree-service-audit.md",
+          "exists": true,
+          "size": 7923
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/lopez-tree-service-offer.md",
+          "exists": true,
+          "size": 2890
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/lopez-tree-service/index.html",
+          "exists": true,
+          "size": 13922
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/lopez-tree-service-target.png",
+          "exists": true,
+          "size": 2162623
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/lopez-tree-service-prototype.png",
+          "exists": true,
+          "size": 1010523
+        }
+      }
+    },
+    {
+      "slug": "electric-enterprises-llc",
+      "name": "Electric Enterprises LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/electric-enterprises-llc-audit.md",
+          "exists": true,
+          "size": 7848
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/electric-enterprises-llc-offer.md",
+          "exists": true,
+          "size": 2851
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/electric-enterprises-llc/index.html",
+          "exists": true,
+          "size": 14027
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/electric-enterprises-llc-target.png",
+          "exists": true,
+          "size": 2789927
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/electric-enterprises-llc-prototype.png",
+          "exists": true,
+          "size": 966328
+        }
+      }
+    },
+    {
+      "slug": "blue-jay-appliance-services",
+      "name": "Blue Jay Appliance Services",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/blue-jay-appliance-services-audit.md",
+          "exists": true,
+          "size": 7893
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/blue-jay-appliance-services-offer.md",
+          "exists": true,
+          "size": 2858
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/blue-jay-appliance-services/index.html",
+          "exists": true,
+          "size": 13859
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/blue-jay-appliance-services-target.png",
+          "exists": true,
+          "size": 2485140
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/blue-jay-appliance-services-prototype.png",
+          "exists": true,
+          "size": 966721
+        }
+      }
+    },
+    {
+      "slug": "bsd-garage-doors",
+      "name": "BSD Garage Doors",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/bsd-garage-doors-audit.md",
+          "exists": true,
+          "size": 7716
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/bsd-garage-doors-offer.md",
+          "exists": true,
+          "size": 2771
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/bsd-garage-doors/index.html",
+          "exists": true,
+          "size": 13908
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/bsd-garage-doors-target.png",
+          "exists": true,
+          "size": 3726318
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/bsd-garage-doors-prototype.png",
+          "exists": true,
+          "size": 919881
+        }
+      }
+    },
+    {
+      "slug": "nortek-environmental",
+      "name": "Nortek Environmental, Inc.",
+      "priority": "medium",
+      "status": "qualified",
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-29-0004-overnight-6/nortek-environmental-audit.md",
+          "exists": true,
+          "size": 7735
+        },
+        "offer": {
+          "path": "offers/2026-04-29-0004-overnight-6/nortek-environmental-offer.md",
+          "exists": true,
+          "size": 2800
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-29-0004-overnight-6/nortek-environmental/index.html",
+          "exists": true,
+          "size": 14005
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/nortek-environmental-target.png",
+          "exists": true,
+          "size": 3105849
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-29-0004-overnight-6/nortek-environmental-prototype.png",
+          "exists": true,
+          "size": 983546
+        }
+      }
+    }
+  ]
+}

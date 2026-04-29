@@ -1,0 +1,123 @@
+{
+  "batch": "2026-04-29-0004-overnight-6",
+  "createdAt": "2026-04-29T00:04:00-05:00",
+  "controller": "overnight-ppc-batch6-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "blue-ribbon-painting",
+      "name": "Blue Ribbon Painting & Decorating, Inc.",
+      "url": "https://www.blueribbonpainting.com/",
+      "contact": "https://www.blueribbonpainting.com/contact",
+      "vertical": "residential and commercial painting contractor",
+      "location": "Naperville / DuPage County, IL",
+      "priority": "high",
+      "angle": "30+ years of painting proof is real, but duplicated navigation, repeated copy, and a generic \u201cGet It Now\u201d CTA bury the free-estimate path.",
+      "status": "qualified"
+    },
+    {
+      "slug": "paint-right-painting",
+      "name": "Paint-Right Painting Inc.",
+      "url": "https://www.paintrightpainting.com/",
+      "contact": "https://www.paintrightpainting.com/contact-us",
+      "vertical": "family-owned residential and commercial painting",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "angle": "Four-decade family-owned proof is excellent, but seasonal notices, social links, and sparse service cards make the quote form feel like a footer afterthought.",
+      "status": "qualified"
+    },
+    {
+      "slug": "rr-painting-repair",
+      "name": "R&R Painting and Repair Inc.",
+      "url": "https://www.rrpaintingrepair.com/",
+      "contact": "https://www.rrpaintingrepair.com/contact",
+      "vertical": "industrial, commercial, and residential painting service",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "The site has real testimonial proof and direct phone/email, but the homepage is thin and the main service path is mostly hidden behind generic \u201cTransforming Spaces\u201d copy.",
+      "status": "qualified"
+    },
+    {
+      "slug": "tm-tree-service",
+      "name": "T&M Tree Service",
+      "url": "https://www.tandmtreeservice.com/",
+      "contact": "https://www.tandmtreeservice.com/contact/",
+      "vertical": "tree removal, trimming, stump grinding, and lot clearing",
+      "location": "Lisle / Naperville, IL",
+      "priority": "high",
+      "angle": "Good awards and service proof are weakened by old staging-domain links, dense city/menu lists, and a form that appears after too much scrolling.",
+      "status": "qualified"
+    },
+    {
+      "slug": "marquise-plumbing-backflow",
+      "name": "Marquise Plumbing & Backflow Inc.",
+      "url": "https://www.marquiseplumbers.com/",
+      "contact": "https://www.marquiseplumbers.com/contact-us/",
+      "vertical": "plumbing and backflow services",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "angle": "The site has strong hometown proof and license information, but duplicated icon text, typos, and generic \u201cqualified agents\u201d copy reduce trust before the appointment CTA.",
+      "status": "qualified"
+    },
+    {
+      "slug": "lopez-tree-service",
+      "name": "Lopez Tree Service Corp.",
+      "url": "https://www.lopeztreeservicecorp.com/",
+      "contact": "https://www.lopeztreeservicecorp.com/contact-us",
+      "vertical": "tree care, landscaping, and winter services",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "angle": "The homepage has useful owner and contact proof, but a form appears before the value story and duplicated footer/contact blocks make the site feel less polished.",
+      "status": "qualified"
+    },
+    {
+      "slug": "electric-enterprises-llc",
+      "name": "Electric Enterprises LLC",
+      "url": "https://www.electricenterprisesllc.com/",
+      "contact": "https://www.electricenterprisesllc.com/request-a-free-quote",
+      "vertical": "residential and commercial electrical services",
+      "location": "Naperville and surrounding areas, IL",
+      "priority": "high",
+      "angle": "The site has a good CTA and broad service coverage, but huge service-area and service-list copy pushes visitors into SEO sprawl instead of a concise estimate path.",
+      "status": "qualified"
+    },
+    {
+      "slug": "blue-jay-appliance-services",
+      "name": "Blue Jay Appliance Services",
+      "url": "https://www.bluejayappliance.com/",
+      "contact": "https://www.bluejayappliance.com/contact-us",
+      "vertical": "same-day appliance repair service",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "The site has strong same/next-day and warranty proof, but many service cards and location links make the first action feel less direct than a broken-appliance visitor needs.",
+      "status": "qualified"
+    },
+    {
+      "slug": "bsd-garage-doors",
+      "name": "BSD Garage Doors",
+      "url": "https://www.bsdgarage.com/",
+      "contact": "https://bsdgarage.com/online-booking/",
+      "vertical": "garage door repair and emergency service",
+      "location": "Naperville / Chicagoland, IL",
+      "priority": "medium",
+      "angle": "The site pushes online booking and emergency service, but a huge location menu and deal messaging can overwhelm a homeowner with a stuck door.",
+      "status": "qualified"
+    },
+    {
+      "slug": "nortek-environmental",
+      "name": "Nortek Environmental, Inc.",
+      "url": "https://www.nortekenvironmental.com/",
+      "contact": "https://www.nortekenvironmental.com/schedule",
+      "vertical": "residential and commercial HVAC service",
+      "location": "Naperville / Aurora / DuPage County, IL",
+      "priority": "medium",
+      "angle": "The site has strong HVAC proof and clear scheduling, but the giant mega-menu and many service-area links bury the simple heating/cooling/maintenance decision.",
+      "status": "qualified"
+    }
+  ]
+}
