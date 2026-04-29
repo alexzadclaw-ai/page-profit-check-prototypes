@@ -1,0 +1,136 @@
+{
+  "batch": "2026-04-29-0052-overnight-9",
+  "createdAt": "2026-04-29T00:52:00-05:00",
+  "controller": "overnight-ppc-batch9-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "totalPublishedBeforeBatch": 80,
+  "targetItems": 10,
+  "selectionNotes": "Fresh non-duplicate U.S. independent/local service-business prospects selected with public lightweight browsing only. No outreach performed.",
+  "items": [
+    {
+      "slug": "anytime-heating-air-conditioning",
+      "name": "Anytime Heating & Air Conditioning Inc",
+      "url": "https://anytimeheating.com/",
+      "contact": "https://anytimeheating.com/#Contact",
+      "vertical": "HVAC repair, installation, indoor air quality, commercial, residential, and new construction",
+      "location": "Naperville, Kane, Kendall, and DuPage Counties, IL",
+      "priority": "high",
+      "angle": "A 1973 HVAC story, NATE/Rheem proof, and emergency service are strong, but hash-only navigation, scattered contact proof, and a buried service hierarchy make the booking path feel dated.",
+      "summary": "Long-running Naperville HVAC contractor with strong trust proof; a clearer phone-and-service homepage can convert urgent heating/cooling visits faster.",
+      "status": "qualified"
+    },
+    {
+      "slug": "adept-construction",
+      "name": "Adept Construction, Inc.",
+      "url": "https://excellentroofs.com/",
+      "contact": "https://excellentroofs.com/contact-us/",
+      "vertical": "residential roofing, commercial roofing, storm damage, siding, and gutters",
+      "location": "Naperville and surrounding suburbs, IL",
+      "priority": "high",
+      "angle": "Adept has strong roofing proof and a family-owned story, but broken-looking relative links, duplicated menus, and scattered quote links create avoidable friction before the free quote.",
+      "summary": "Naperville roofing contractor with excellent service depth; a quote-first homepage can make residential, commercial, and storm damage paths easier to choose.",
+      "status": "qualified"
+    },
+    {
+      "slug": "able-warnecke-roofing",
+      "name": "Able-Warnecke Roofing Inc",
+      "url": "https://www.ablewarneckeroofing.com/",
+      "contact": "https://www.ablewarneckeroofing.com/contact-us",
+      "vertical": "roof installations, roof repairs, tear-offs, chimney caps, gutter cleaning, and gutter guards",
+      "location": "Naperville and Chicago west suburbs, IL",
+      "priority": "high",
+      "angle": "Able-Warnecke has rare longevity and BBB proof, but template residue like field-label/slide-title content and duplicated menus distract from the free estimate path.",
+      "summary": "Established family-owned roofing company with 50+ years of proof; a cleaner homepage can protect trust and make estimate requests simpler.",
+      "status": "qualified"
+    },
+    {
+      "slug": "aurora-electric",
+      "name": "Aurora Electric",
+      "url": "https://www.auroraelectricinc.com/",
+      "contact": "https://www.auroraelectricinc.com/contact",
+      "vertical": "residential, commercial, industrial, and emergency electrical services",
+      "location": "Aurora and surrounding cities, IL",
+      "priority": "high",
+      "angle": "Aurora Electric has compelling 24-hour emergency, warranty, A+ BBB, and discount proof, but duplicated nav and mixed content make urgent service less direct than it should be.",
+      "summary": "Aurora electrical contractor with strong emergency/service proof; a clearer request-service homepage can help visitors choose residential, commercial, industrial, or emergency help.",
+      "status": "qualified"
+    },
+    {
+      "slug": "nifty-naperville-appliance-repair",
+      "name": "Nifty Naperville Appliance Repair",
+      "url": "https://www.napervilleappliance.com/",
+      "contact": "https://www.napervilleappliance.com/contact/",
+      "vertical": "same-day refrigerator, dishwasher, washer, dryer, stove, and oven appliance repair",
+      "location": "Naperville and DuPage County, IL",
+      "priority": "high",
+      "angle": "Same-day appliance repair and certified technicians are strong, but the homepage is text-heavy, has grammar issues, and buries the call-to-action below long service descriptions.",
+      "summary": "Local appliance repair site with urgent same-day intent; a tighter phone-first page can turn appliance breakdowns into calls faster.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-locksmith",
+      "name": "Naperville Locksmith",
+      "url": "https://www.napervillelocksmith.com/",
+      "contact": "https://www.napervillelocksmith.com/emergency-naperville-locksmith.html",
+      "vertical": "24/7 emergency, automotive, residential, and commercial locksmith service",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "angle": "The 24/7 locksmith promise is highly valuable, but the page repeats keyword-heavy copy and makes emergency, auto, home, and business paths feel cluttered.",
+      "summary": "Urgent local locksmith site with strong phone intent; a cleaner service-path homepage can help locked-out visitors act immediately.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-fence-company",
+      "name": "Naperville Fence Company",
+      "url": "https://www.napervillefence.com/",
+      "contact": "https://www.napervillefence.com/contact-us",
+      "vertical": "aluminum, cedar, vinyl, composite, pressure-treated, chain-link, staining, refinishing, and fence rental",
+      "location": "Naperville and Chicago suburbs, IL",
+      "priority": "high",
+      "angle": "The site has strong fence material coverage, but the enormous location menu and duplicated navigation bury the estimate path and make material selection harder than necessary.",
+      "summary": "Fence contractor site with broad material coverage; a material-first homepage can make estimate requests much easier to scan.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-gutters",
+      "name": "Naperville Gutters",
+      "url": "https://napervillegutters.com/",
+      "contact": "https://napervillegutters.com/contact/",
+      "vertical": "gutter cleaning, gutter repair, custom installation, and gutter guards",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "The site clearly offers gutter cleaning, repair, and guards, but all-caps urgency and long explanatory blocks can be tightened around schedule-now intent.",
+      "summary": "Local gutter service site with clear phone intent; a service-first homepage can turn seasonal gutter concerns into scheduled calls faster.",
+      "status": "qualified"
+    },
+    {
+      "slug": "reliant-electrical",
+      "name": "Reliant Electrical",
+      "url": "https://www.reliant-electrical.com/",
+      "contact": "https://www.reliant-electrical.com/contact-us/",
+      "vertical": "residential electrical repair, EV charging, panel upgrades, lighting, generators, safety inspections, emergency, and commercial work",
+      "location": "Naperville, St. Charles, and surrounding Illinois service areas",
+      "priority": "high",
+      "angle": "Reliant has a wide electrical service library, but the mega-menu overwhelms first-time visitors before they can choose repair, upgrade, EV, lighting, or emergency help.",
+      "summary": "Electrical contractor with deep service breadth; a simplified homepage can make the right electrical path easier to choose without losing expertise.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-deck-builders-proshield",
+      "name": "Naperville Deck Builders / ProShield Exteriors",
+      "url": "https://www.napervilledeckbuilders.com/",
+      "contact": "https://www.napervilledeckbuilders.com/contact.html",
+      "vertical": "custom decks, porches, fences, masonry, roofing, and home remodeling",
+      "location": "Naperville and Chicago suburbs, IL",
+      "priority": "high",
+      "angle": "ProShield has strong 30+ year outdoor-project proof, but the homepage mixes deck, porch, fence, masonry, roofing, and remodeling in a way that could guide project inquiries more clearly.",
+      "summary": "Outdoor living contractor with broad capabilities; a project-type homepage can help homeowners choose deck, porch, fence, or exterior work faster.",
+      "status": "qualified"
+    }
+  ]
+}
