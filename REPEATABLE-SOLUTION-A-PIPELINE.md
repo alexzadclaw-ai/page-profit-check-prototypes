@@ -106,3 +106,7 @@ Recommended audit sections:
 A Solution A prototype succeeds only if both are true:
 1. The owner would recognize it as their site family.
 2. The top audit findings are visibly fixed or improved.
+
+## Timestamped report convention
+
+Going forward, each Page Profit Check run should publish a separate timestamped HTML report file, preferably under `reports/`, instead of relying only on the root `index.html`. Use a filename that includes the run timestamp and purpose, for example `reports/page-profit-check-fidelity-repair-YYYYMMDD-HHMM.html` or `reports/page-profit-check-nightly-YYYYMMDD-HHMM.html`. The root `index.html` may remain a latest-run landing page, but final user-facing links should point to the timestamped report artifact so separate runs do not get mixed together.
