@@ -1,11 +1,12 @@
 # Repeatable Solution A Pipeline
 
-Use this pipeline for future prospects when the right deliverable is a **high-fidelity surgical clone** rather than a redesign.
+Use this pipeline for future prospects when the right deliverable is a **brand-faithful upgrade**: recognizable business DNA plus obvious improvements, not a generic redesign and not a pixel-copy clone.
 
 ## Outcome
 Produce a believable improved homepage that:
-- still feels like the prospect's existing site
+- still feels connected to the prospect's existing brand/site
 - fixes the highest-severity trust and conversion issues from the audit
+- visibly improves hierarchy, CTA flow, service clarity, trust proof, and mobile action
 - is reviewable as a static HTML prototype
 - can be shared via htmlpreview when needed
 
@@ -23,12 +24,13 @@ Default visual review reports must stay lightweight:
 
 Reason: embedding screenshots directly as base64 makes a 10-site report exceed 50 MB and would make a 100-site report hundreds of MB.
 
-## Fidelity repair operating rule
+## Brand-faithful upgrade operating rule
 
-Do not scale a repair run until a small calibration pilot is approved. The approved Steve Piper pilot showed the bar:
-- use the actual original hero/banner asset, not a similar service-card image
-- preserve the original header/nav/utility-bar rhythm
-- keep the real brand colors and typography feel
+Do not scale a repair run until a small calibration pilot is approved. The Steve Piper and PN Dog Grooming pilots define the bar:
+- use the actual original hero/banner asset when it matters for recognition, not a similar service-card image
+- preserve the original header/nav/utility-bar rhythm when it helps recognition
+- keep the real brand colors and typography feel, but improve spacing, hierarchy, and CTA clarity
+- do not stop at cloning; make the improvement obvious in the first screen
 - recapture screenshots after every visual change
 - publish a timestamped lightweight side-by-side report for review: HTML stays small, screenshots are separate optimized .webp/.jpg assets referenced by stable GitHub Pages/raw URLs; use embedded/base64 reports only for tiny pilots or fallback troubleshooting
 
@@ -36,12 +38,13 @@ For each site, build from evidence:
 1. Capture live screenshot.
 2. Inspect live assets/CSS for logo, hero/background, fonts, colors, nav/header.
 3. Write a visual fingerprint note.
-4. Build the prototype from that fingerprint.
-5. Recapture prototype screenshot.
-6. Compare original/prototype screenshots side by side.
-7. Only then run package QA and commit.
+4. Write a visible upgrade plan: what will be clearer, easier, more trustworthy, or more actionable.
+5. Build the prototype from the fingerprint and upgrade plan.
+6. Recapture prototype screenshot.
+7. Compare original/prototype screenshots side by side.
+8. Only then run package QA and commit.
 
-A worker that only creates a generic conversion layout has failed the task, even if all required files exist.
+A worker that only creates a generic conversion layout has failed the task, even if all required files exist. A worker that only clones the old page without a clear conversion/design improvement has also failed.
 
 ## Step 1 — Capture the live page
 Gather:
@@ -66,7 +69,7 @@ Rank findings by severity:
 - High
 - Medium
 
-## Step 3 — Create the visual fingerprint
+## Step 3 — Create the visual fingerprint and upgrade plan
 Before touching the prototype, note:
 - exact or approximate font family
 - dominant colors
@@ -76,6 +79,13 @@ Before touching the prototype, note:
 - service card / section pattern
 - quirks that make the site recognizable
 
+Then write the upgrade plan:
+- what gets clearer above the fold
+- what CTA/action path becomes easier
+- what trust proof moves higher
+- what service/package information becomes easier to scan
+- what mobile action improvement is visible
+
 ## Step 4 — Make the Audit-to-Prototype Coverage map
 For each Critical and High issue, define:
 - the problem
@@ -83,7 +93,7 @@ For each Critical and High issue, define:
 - where the fix will appear
 - whether it should be fixed, improved, or deferred
 
-Use: `templates/AUDIT-TO-PROTOTYPE-COVERAGE-TEMPLATE.md`
+Use: `templates/AUDIT-TO-PROTOTYPE-COVERAGE-TEMPLATE.md` and `templates/BRAND-FAITHFUL-UPGRADE-CHECKLIST.md`.
 
 ## Step 5 — Build in the right order
 1. Hero clarity
@@ -102,12 +112,13 @@ The page itself should:
 - avoid internal commentary
 - avoid calling itself a prototype, experiment, or concept
 - avoid explaining the cleanup inside the page
-- stay close to the original site's taste and structure
+- stay connected to the original site's taste and structure without becoming a clone
+- make the improvement obvious to a business owner and a prospective customer
 
 ## Step 7 — Run the acceptance checklist
-Use: `templates/SOLUTION-A-ACCEPTANCE-CHECKLIST.md`
+Use: `templates/SOLUTION-A-ACCEPTANCE-CHECKLIST.md` and `templates/BRAND-FAITHFUL-UPGRADE-CHECKLIST.md`.
 
-If a Critical issue is not clearly improved in the rendered page, revise before publishing.
+If a Critical issue is not clearly improved in the rendered page, revise before publishing. If the side-by-side review makes the prototype look generic or too close to the original, revise before publishing.
 
 ## Step 8 — Save required outputs
 For each prospect, save:
@@ -138,8 +149,9 @@ Recommended audit sections:
 
 ## Decision rule
 A Solution A prototype succeeds only if both are true:
-1. The owner would recognize it as their site family.
+1. The owner would recognize it as their business.
 2. The top audit findings are visibly fixed or improved.
+3. The owner can immediately see why the prototype is better, not just different or similar.
 
 ## Timestamped report convention
 

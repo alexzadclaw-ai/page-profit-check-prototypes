@@ -23,6 +23,7 @@ Use these docs/templates when building future prospects:
 - `templates/SOLUTION-A-BRIEF-TEMPLATE.md`
 - `templates/AUDIT-TO-PROTOTYPE-COVERAGE-TEMPLATE.md`
 - `templates/SOLUTION-A-ACCEPTANCE-CHECKLIST.md`
+- `templates/BRAND-FAITHFUL-UPGRADE-CHECKLIST.md`
 
 ## Canonical rule
 

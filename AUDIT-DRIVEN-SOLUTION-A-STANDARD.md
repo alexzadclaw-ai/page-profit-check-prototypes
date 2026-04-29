@@ -3,10 +3,10 @@
 Default prototype standard for future Page Profit Check prospects.
 
 ## Goal
-Create a **high-fidelity surgical clone** that still feels like the prospect's existing website, while visibly fixing the most important conversion and trust issues found in the audit.
+Create a **brand-faithful upgrade** that still feels connected to the prospect's existing website, while visibly fixing the most important conversion and trust issues found in the audit.
 
-This is not a redesign.
-It is **the same website family, cleaned up and clarified**.
+This is not a generic redesign, and it is not a pixel-copy clone.
+It should feel like **the same business, upgraded**: recognizable brand DNA plus obviously better clarity, hierarchy, CTA flow, trust proof, and mobile usefulness.
 
 ## When to use Solution A
 Use this as the default when:
@@ -36,9 +36,9 @@ Do not default to Solution A when the site is so broken that a minimal cleanup c
    No internal commentary, no "experiment" language, no explanation copy about what the prototype is doing.
 
 
-## Steve Piper calibration lesson — fidelity means using the actual site DNA
+## Calibration lessons — use site DNA, then improve it
 
-The Steve Piper pilot exposed a failure mode: prototypes can pass artifact QA and still be unusable if they share a generic layout/template instead of matching the original site. Treat this as a hard standard for all agents.
+The Steve Piper and PN Dog Grooming pilots exposed two opposite failure modes: prototypes can pass artifact QA and still be unusable if they share a generic layout/template, but they can also fail if they merely clone the original without making the improvement obvious. Treat this as a hard standard for all agents.
 
 Before coding any prototype, agents must capture and use the site's actual visual DNA:
 - original logo and real public image assets, especially hero/banner images
@@ -52,20 +52,24 @@ For Steve Piper, the accepted calibration used the real hero asset:
 
 The wrong attempts failed because they tried to manipulate the wrong background image (`wid4`) with zoom/crop changes. The fix was not “zoom more” or “zoom less”; the fix was to identify and use the correct original banner asset.
 
+For PN Dog Grooming, the first correction was too close to the old site. The approved direction kept only the useful brand cues (logo, orange, pet imagery, warm script personality) and rebuilt the page into a clearer booking-focused upgrade. The lesson: preserve enough DNA to be recognized, but make the value of the prototype obvious.
+
 
 
 ### Report artifact standard
 
 For visual-fidelity review, the default report format is lightweight HTML plus separate optimized screenshot assets. Put report screenshots under `reports/assets/<report-id>/` as `.webp` or optimized `.jpg`, then reference them from the report with stable raw/GitHub Pages URLs. Do not base64-embed all screenshots for multi-site reports unless explicitly needed as a fallback.
 
-### Visual fidelity gate
+### Brand-faithful upgrade gate
 
 A prototype cannot be marked complete until it passes this gate:
 1. Put the original screenshot and prototype screenshot side by side.
-2. Within three seconds, the prototype must look like the same site family.
-3. Header/logo/nav, hero image, colors, type feel, and section rhythm must be recognizably derived from the original.
-4. If the prototype looks like a house template shared with other leads, it fails even if the copy and CTA strategy are good.
-5. If an image/background looks wrong, inspect the live site assets and CSS instead of guessing with `background-size` tweaks.
+2. Within three seconds, the prototype must look connected to the same business.
+3. Header/logo/nav, hero image, colors, type feel, and section rhythm must be recognizably derived from the original where they help recognition.
+4. Within three seconds, the prototype must also look meaningfully better: clearer first screen, stronger CTA, easier service scanning, visible trust proof, and better mobile action path.
+5. If the prototype looks like a house template shared with other leads, it fails even if the copy and CTA strategy are good.
+6. If the prototype looks like a near-copy of the old site with only minor polish, it also fails.
+7. If an image/background looks wrong, inspect the live site assets and CSS instead of guessing with `background-size` tweaks.
 
 ### Agent process requirement
 
@@ -77,6 +81,7 @@ For large-scale repair or generation, every worker must include a short “visua
 - font/typography feel
 - header/nav pattern
 - one sentence explaining what makes the original recognizable
+- one sentence explaining how the prototype will visibly improve the experience without becoming generic
 
 Workers should not proceed to bulk prototype generation without this fingerprint. Supervisors must spot-check rendered screenshots, not just file existence.
 
@@ -128,7 +133,8 @@ The prototype is not complete until the answer is yes or mostly yes to all of th
 - Is there a clear explanation of what happens next?
 - Are obvious template leftovers removed?
 - Is the page easier to scan on mobile?
-- Would the owner recognize this as their site, just cleaned up?
+- Would the owner recognize this as their business, upgraded rather than cloned?
+- Would a prospect immediately understand the improvement: clearer next step, better service clarity, trust proof, and mobile action?
 
 If any Critical item is still missing, revise before publishing.
 
@@ -159,13 +165,13 @@ Every audit that ships with a Solution A prototype should include:
 - Prefer shorter paragraphs, stronger headings, clear CTA labels, and obvious next steps.
 
 ## Similarity rule
-The target is not "better looking in the abstract."
+The target is not "better looking in the abstract." It is also not "as close as possible."
 The target is:
-> Would the owner instantly recognize this as their same website, but clearer, more trustworthy, and easier to act on?
+> Would the owner instantly recognize their business, and would the improvement be obvious enough that they understand why the page will perform better?
 
 ## Recommended final verdicts in the audit
 End with both:
 - **Visual resemblance:** High / Medium / Low
 - **Audit coverage:** High / Medium / Low
 
-A prototype is not successful if it scores high on resemblance but low on audit coverage.
+A prototype is not successful if it scores high on resemblance but low on audit coverage. It is also not successful if it scores high on resemblance but low on visible improvement.
