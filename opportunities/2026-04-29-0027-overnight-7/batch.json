@@ -1,0 +1,136 @@
+{
+  "batch": "2026-04-29-0027-overnight-7",
+  "createdAt": "2026-04-29T00:27:00-05:00",
+  "controller": "overnight-ppc-batch7-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "totalPublishedBeforeBatch": 60,
+  "targetItems": 10,
+  "selectionNotes": "Fresh non-duplicate U.S. independent/local service-business prospects selected with public lightweight browsing only. No outreach performed.",
+  "items": [
+    {
+      "slug": "a-d-exteriors",
+      "name": "A&D Exteriors",
+      "url": "https://www.andexteriors.com/",
+      "contact": "https://www.andexteriors.com/contact/",
+      "vertical": "roofing, siding, windows, gutters, and home exterior remodeling",
+      "location": "Naperville / Chicagoland, IL",
+      "priority": "high",
+      "summary": "Family-owned exterior contractor with strong project proof and warranty language; the quote path can be made more direct before visitors hit project/blog/form density.",
+      "angle": "Local, licensed exterior proof is strong, but the homepage pushes visitors through many services, projects, blogs, and footer links before the quote request feels like the obvious next step.",
+      "status": "qualified"
+    },
+    {
+      "slug": "speedkleen-carpet-cleaners",
+      "name": "SpeedKleen Carpet Cleaners",
+      "url": "https://www.speedkleencarpetcleaners.com/",
+      "contact": "https://www.speedkleencarpetcleaners.com/contact-us",
+      "vertical": "eco-friendly carpet, rug, floor, and upholstery cleaning",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "summary": "Eco-friendly carpet cleaner with a clear green promise; scattered service lists, raw links, login clutter, and long pricing notes weaken the quick-quote path.",
+      "angle": "The green, family-safe positioning is strong, but the homepage feels like a long list of services and fine print instead of a fast quote/appointment flow.",
+      "status": "qualified"
+    },
+    {
+      "slug": "doa-pest-control",
+      "name": "D.O.A. Pest Control",
+      "url": "https://doapestinc.com/",
+      "contact": "https://doapestinc.com/contact-us.html",
+      "vertical": "residential and commercial pest control",
+      "location": "Yorkville, IL",
+      "priority": "high",
+      "summary": "Family-owned pest control company with 31+ years of proof; duplicated service blocks and placeholder-style links dilute the otherwise strong same-day guarantee story.",
+      "angle": "D.O.A. has a strong local pest-control story, but repeated Commercial/Residential blocks and duplicated pest sections make urgent visitors work harder than necessary.",
+      "status": "qualified"
+    },
+    {
+      "slug": "men-in-black-pest-control",
+      "name": "Men In Black Pest Control",
+      "url": "https://mibpestcontrol.com/",
+      "contact": "https://mibpestcontrol.com/#form",
+      "vertical": "residential and commercial pest control and exclusion services",
+      "location": "Naperville / Chicagoland, IL",
+      "priority": "medium",
+      "summary": "Strong brand, rating, and process already exist; repeated menu/CTA sections and a long SEO block can be tightened around estimate requests.",
+      "angle": "Men In Black already has a memorable brand and 4.9 rating, but duplicate navigation/CTA text and long local SEO copy create scroll friction after a strong first impression.",
+      "status": "qualified"
+    },
+    {
+      "slug": "stec-roofing-sg",
+      "name": "Stec Roofing S&G, Inc.",
+      "url": "https://www.stecroofinginc.com/",
+      "contact": "https://www.stecroofinginc.com/contact-us/",
+      "vertical": "residential, commercial, industrial, and institutional roofing",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "summary": "Long-running Naperville roofer with strong trust proof; inconsistent years and one visibly incorrect service link make this a high-value trust polish opportunity.",
+      "angle": "A 1966 family-owned roofing company has excellent credibility, but inconsistent experience claims and a wrong service link undercut trust before the free-estimate CTA.",
+      "status": "qualified"
+    },
+    {
+      "slug": "everlast-exteriors-il",
+      "name": "Everlast Exteriors of Illinois Inc",
+      "url": "https://www.everlastexteriorsil.com/",
+      "contact": "https://www.everlastexteriorsil.com/request-estimate-form",
+      "vertical": "windows, siding, roofing, and storm-damage exterior contractor",
+      "location": "Naperville / Chicagoland suburbs, IL",
+      "priority": "high",
+      "summary": "Established exterior contractor with 39+ years, warranty, and premium brands; duplicated nav/serving text and form-heavy opening dilute the estimate request.",
+      "angle": "Everlast has great proof — 39+ years, same-day consultations, free inspections, lifetime warranty — but repeated menu/serving lines make the top of the homepage feel less controlled.",
+      "status": "qualified"
+    },
+    {
+      "slug": "koshgarian-rug-cleaners",
+      "name": "Koshgarian Rug Cleaners",
+      "url": "https://www.koshgarianrugcleaners.com/",
+      "contact": "https://www.koshgarianrugcleaners.com/request-service/",
+      "vertical": "rug, carpet, upholstery, floor, and water-damage cleaning",
+      "location": "Hinsdale and Naperville, IL",
+      "priority": "high",
+      "summary": "Century-old family rug cleaner with two local locations; duplicate service grids and many utility links can be reduced around request-service and pickup/drop-off paths.",
+      "angle": "The 100+ year family story and new Naperville location are excellent, but service cards repeat and important pickup/drop-off/request-service choices compete with a large nav.",
+      "status": "qualified"
+    },
+    {
+      "slug": "russell-martin-carpet-rugs",
+      "name": "Russell Martin Carpet & Rugs",
+      "url": "https://rmcarpets.com/",
+      "contact": "https://rmcarpets.com/contact/",
+      "vertical": "carpet, rugs, installation, cleaning, and flooring services",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "summary": "Trusted Naperville carpet and rug brand with decades of proof; mismatched service links, typo-level polish issues, and long testimonial flow can be tightened.",
+      "angle": "Russell Martin has strong local trust and testimonials, but a few service-card link mismatches and dense storytelling distract from the free estimate path.",
+      "status": "qualified"
+    },
+    {
+      "slug": "executive-green-carpet-cleaning",
+      "name": "Executive Green Carpet Cleaning Services",
+      "url": "https://www.executivegreencarpetcleaning.com/",
+      "contact": "https://www.executivegreencarpetcleaning.com/contact-us/",
+      "vertical": "carpet, upholstery, rug, tile, hardwood, and commercial cleaning",
+      "location": "Naperville / Chicagoland suburbs, IL",
+      "priority": "high",
+      "summary": "Green cleaning company with strong reviews and 24/7 scheduling; duplicated menu text and malformed phone-link output suggest a quick trust and CTA polish win.",
+      "angle": "Executive Green already has strong service proof and reviews, but duplicate menu text and awkward phone-link output make the top of the page feel less polished than the work described.",
+      "status": "qualified"
+    },
+    {
+      "slug": "perfect-exteriors",
+      "name": "Perfect Exteriors",
+      "url": "https://perfectexteriors.com/",
+      "contact": "https://perfectexteriors.com/contact-us#contact-info",
+      "vertical": "roofing, siding, gutters, windows, doors, skylights, and exterior repair",
+      "location": "Naperville / Chicagoland, IL",
+      "priority": "high",
+      "summary": "Family-owned exterior contractor with BBB/licensed proof; cramped copy, missing spacing, and an oversized service list can be reframed around inspection booking.",
+      "angle": "Perfect Exteriors has valuable proof and a wide service offering, but copy spacing issues and a long service catalog make the Book Inspection path harder to feel confident about.",
+      "status": "qualified"
+    }
+  ]
+}
