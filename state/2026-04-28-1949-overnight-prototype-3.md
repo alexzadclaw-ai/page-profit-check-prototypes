@@ -1,0 +1,1 @@
+- Completed Donna's Home Fitness audit and Solution A prototype. Files: opportunities/2026-04-28-1949-overnight/donnas-home-fitness-audit.md and prototypes/2026-04-28-1949-overnight/donnas-home-fitness/index.html. Kept Wix/home-gym feel, strengthened hero CTA/proof, added services + first-visit flow, and elevated testimonial/contact clarity.

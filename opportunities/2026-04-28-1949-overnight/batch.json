@@ -1,0 +1,122 @@
+{
+  "batch": "2026-04-28-1949-overnight",
+  "createdAt": "2026-04-28T19:49:00-05:00",
+  "controller": "overnight-ppc-controller",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "items": [
+    {
+      "slug": "my-fitness-world",
+      "name": "My Fitness World",
+      "url": "https://myfitnessworldinc.com/",
+      "contact": "https://myfitnessworldinc.com/",
+      "vertical": "fitness",
+      "location": "Charlotte, NC",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "GoDaddy-style trainer site with duplicated hero text, weak CTA hierarchy, and underused trust proof."
+    },
+    {
+      "slug": "palmer-personal-training",
+      "name": "Palmer Personal Training",
+      "url": "https://palmerpersonaltraining.com/",
+      "contact": "https://palmerpersonaltraining.com/",
+      "vertical": "fitness",
+      "location": "Charlotte, NC",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Personal training site with repeated headline blocks, thin service proof, and generic CTA flow."
+    },
+    {
+      "slug": "hard-body-fitness-personal-training-group",
+      "name": "Hard Body Fitness Personal Training Group",
+      "url": "http://hardbodyfitnessptg.com/?redirect=false",
+      "contact": "https://m.hardbodyfitnessptg.com/",
+      "vertical": "fitness",
+      "location": "Charlotte, NC",
+      "status": "queued",
+      "priority": "medium",
+      "angle": "Sparse mobile-presence and outdated presentation make trust/next-step cleanup pitchable."
+    },
+    {
+      "slug": "trifecta-athletics",
+      "name": "Trifecta Athletics",
+      "url": "https://www.trifectaathletics.com/",
+      "contact": "https://www.trifectaathletics.com/",
+      "vertical": "fitness",
+      "location": "Charlotte, NC",
+      "status": "queued",
+      "priority": "medium",
+      "angle": "Busy multi-offer fitness page with placeholder-like heading residue and scattered CTA choices."
+    },
+    {
+      "slug": "earthworks-landscape-construction",
+      "name": "Earthworks Landscape Construction, Inc.",
+      "url": "https://www.earthworkslcinc.com/",
+      "contact": "https://www.earthworkslcinc.com/contact",
+      "vertical": "landscaping",
+      "location": "South Bay, CA",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Squarespace landscape site with repeated nav, thin proof, and shallow consultation story."
+    },
+    {
+      "slug": "landscape-construction-llc",
+      "name": "Landscape Construction LLC",
+      "url": "https://www.landscapeconstructionllc.com/",
+      "contact": "https://www.landscapeconstructionllc.com/contact_us",
+      "vertical": "landscaping",
+      "location": "Dodgeville, WI",
+      "status": "qualified",
+      "priority": "high",
+      "angle": "Aged Turbify site with dense copy, service sprawl, and dated trust presentation."
+    },
+    {
+      "slug": "donnas-home-fitness",
+      "name": "Donna's Home Fitness",
+      "url": "https://www.donnashomefitness.com/",
+      "contact": "https://www.donnashomefitness.com/",
+      "vertical": "fitness",
+      "location": "Naperville, IL",
+      "status": "queued",
+      "priority": "medium",
+      "angle": "Strong local personality but competing CTAs and scattered proof make a surgical cleanup easy to demonstrate."
+    },
+    {
+      "slug": "evolve-personal-trainer",
+      "name": "Evolve Personal Trainer",
+      "url": "https://napervillepersonaltrainer.com/",
+      "contact": "https://napervillepersonaltrainer.com/",
+      "vertical": "fitness",
+      "location": "Naperville, IL",
+      "status": "queued",
+      "priority": "high",
+      "angle": "Exact-match local fitness domain with likely template residue and consultation-path cleanup potential."
+    },
+    {
+      "slug": "sprintervision-nutrition",
+      "name": "Sprintervision Nutrition",
+      "url": "https://www.sprintervision.com/",
+      "contact": "https://www.sprintervision.com/",
+      "vertical": "nutrition",
+      "location": "Illinois",
+      "status": "queued",
+      "priority": "medium",
+      "angle": "Abstract coaching headline and soft consultation framing make first-screen clarity a likely win."
+    },
+    {
+      "slug": "wellabee",
+      "name": "Wellabee",
+      "url": "https://www.wellabee.com/",
+      "contact": "https://www.wellabee.com/",
+      "vertical": "wellness coaching",
+      "location": "Illinois",
+      "status": "queued",
+      "priority": "medium",
+      "angle": "Family wellness site with fragmented copy and parent-trust hierarchy issues."
+    }
+  ]
+}

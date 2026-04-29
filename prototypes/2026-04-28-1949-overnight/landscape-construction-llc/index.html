@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landscape Construction & Outdoor Projects in Southwest Wisconsin | Landscape Construction LLC</title>
+  <meta name="description" content="Family-owned landscape contractor serving Southwest and Southcentral Wisconsin with patios, retaining walls, planting, water features, lawn care, snowplowing, and outdoor living projects." />
+  <style>
+    :root {
+      --navy: #20344f;
+      --navy-deep: #17273d;
+      --sky: #eef4fb;
+      --white: #ffffff;
+      --gold: #d2b36b;
+      --gold-soft: #efe1b9;
+      --text: #223246;
+      --muted: #5f6e7f;
+      --line: #d7e0ea;
+      --shadow: 0 18px 42px rgba(22, 38, 58, 0.12);
+      --radius: 18px;
+      --max: 1180px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: #f7fafc;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+    .utility {
+      background: var(--navy-deep);
+      color: rgba(255,255,255,0.9);
+      font-size: 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .utility .wrap,
+    .nav .wrap,
+    .trust-grid,
+    .services,
+    .steps,
+    .contact-grid,
+    .footer-grid,
+    .stats-grid {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .utility .wrap {
+      justify-content: space-between;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+    .utility-links {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255,255,255,0.98);
+      border-bottom: 1px solid #e1e8ef;
+      backdrop-filter: blur(8px);
+    }
+    .nav .wrap {
+      justify-content: space-between;
+      padding: 18px 0;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .brand {
+      color: var(--navy);
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .brand span { display: block; font-size: 31px; }
+    .brand small {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      letter-spacing: 0.2em;
+      font-size: 11px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--navy);
+    }
+    .hero {
+      background:
+        linear-gradient(110deg, rgba(23,39,61,0.92) 0%, rgba(23,39,61,0.84) 46%, rgba(23,39,61,0.72) 100%),
+        linear-gradient(135deg, #4f647a 0%, #283d58 100%);
+      color: var(--white);
+      overflow: hidden;
+    }
+    .hero .wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+      gap: 32px;
+      align-items: center;
+      padding: 86px 0 74px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { margin: 0 0 14px; line-height: 1.08; }
+    h1 {
+      font-size: clamp(40px, 5vw, 68px);
+      max-width: 12ch;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    h2 { font-size: clamp(31px, 4vw, 46px); color: var(--navy); }
+    h3 { font-size: 25px; color: var(--navy); }
+    .hero-copy p {
+      max-width: 44rem;
+      margin: 0 0 24px;
+      font-size: 19px;
+      color: rgba(255,255,255,0.92);
+    }
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 220px;
+      padding: 15px 20px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--gold); color: var(--navy-deep); }
+    .btn-secondary { border-color: rgba(255,255,255,0.7); color: var(--white); }
+    .hero-note { font-size: 14px; color: rgba(255,255,255,0.78); }
+    .hero-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+    }
+    .hero-card h3, .hero-card p { color: var(--white); }
+    .hero-card ul { margin: 18px 0 0; padding-left: 18px; }
+    .hero-card li { margin: 10px 0; color: rgba(255,255,255,0.9); }
+    .trust-strip {
+      background: var(--white);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    .trust-grid {
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      flex: 1 1 180px;
+      padding: 8px 18px;
+      border-left: 1px solid var(--line);
+    }
+    .trust-item:first-child { border-left: 0; padding-left: 0; }
+    .trust-item strong {
+      display: block;
+      font-size: 28px;
+      color: var(--navy);
+      margin-bottom: 4px;
+      line-height: 1;
+    }
+    section { padding: 74px 0; }
+    .section-intro {
+      max-width: 760px;
+      margin-bottom: 30px;
+    }
+    .kicker {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .section-intro p, .text-muted { color: var(--muted); }
+    .services,
+    .steps,
+    .contact-grid,
+    .footer-grid,
+    .stats-grid {
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    .card,
+    .step,
+    .contact-box,
+    .footer-box,
+    .stat {
+      border-radius: var(--radius);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.06);
+    }
+    .card {
+      flex: 1 1 250px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+    .card p { margin: 0 0 12px; color: var(--muted); }
+    .card ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .card li { margin: 8px 0; }
+    .band {
+      background: linear-gradient(135deg, #f1f6fb, #ffffff);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .stats-grid .stat {
+      flex: 1 1 220px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 26px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 30px;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .steps .step {
+      flex: 1 1 240px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 26px;
+    }
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+    .contact-grid > * { flex: 1 1 320px; }
+    .contact-box {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 30px;
+    }
+    .contact-box ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .contact-box li { margin: 8px 0; }
+    .footer-band {
+      background: var(--navy-deep);
+      color: var(--white);
+    }
+    .footer-box {
+      flex: 1 1 260px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 26px;
+    }
+    .footer-box h3, .footer-box p, .footer-box a { color: var(--white); }
+    .footer-box p { color: rgba(255,255,255,0.82); }
+    .site-footer {
+      background: #122033;
+      color: rgba(255,255,255,0.74);
+      padding: 18px 0 34px;
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .hero .wrap { grid-template-columns: 1fr; }
+      .trust-item { border-left: 0; padding-left: 0; }
+    }
+    @media (max-width: 640px) {
+      .btn { width: 100%; min-width: 0; }
+      h1 { font-size: 40px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="utility">
+    <div class="wrap">
+      <div><strong>Family-owned since 1998</strong> · From dirt to design in Southwest Wisconsin</div>
+      <div class="utility-links">
+        <a href="tel:6089242065">Call 608-924-2065</a>
+        <a href="mailto:inquiries@landscapeconstructionllc.com">Email us</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span>Landscape</span>
+        <span>Construction LLC</span>
+        <small>From dirt to design</small>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#projects">Project types</a>
+        <a href="#process">How it starts</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-copy">
+        <div class="eyebrow">Outdoor living, hardscape, planting, and property services</div>
+        <h1>Outdoor projects that feel easier to trust from the first visit.</h1>
+        <p>Landscape Construction LLC helps homeowners and businesses across Southwest and Southcentral Wisconsin with patios, retaining walls, plantings, lawn care, water features, and seasonal property work.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Request a consultation</a>
+          <a class="btn btn-secondary" href="tel:6089242065">Call 608-924-2065</a>
+        </div>
+        <div class="hero-note">Residential and commercial projects · References available · Practical local service since 1998</div>
+      </div>
+      <aside class="hero-card">
+        <h3>Why this homepage cleanup matters</h3>
+        <p>The live site already has real substance. The cleanup simply makes that experience clearer by removing trust-damaging leftovers and guiding visitors to the right next step faster.</p>
+        <ul>
+          <li>Stronger consultation path instead of scattered service links</li>
+          <li>Clearer buckets for outdoor living, planting, and maintenance</li>
+          <li>Family-business proof surfaced near the top</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <div class="trust-strip">
+    <div class="wrap trust-grid">
+      <div class="trust-item"><strong>Since 1998</strong><span>Established family-owned contractor with long local roots</span></div>
+      <div class="trust-item"><strong>Southwest Wisconsin</strong><span>Serving Dodgeville, Madison-area communities, and surrounding towns</span></div>
+      <div class="trust-item"><strong>References available</strong><span>Project history and practical credibility for many service types</span></div>
+      <div class="trust-item"><strong>Residential + commercial</strong><span>Outdoor projects, property services, and seasonal upkeep</span></div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Clearer service paths</div>
+        <h2>The same company personality, organized into easier decisions.</h2>
+        <p>The live site tried to show everything at once. This version keeps the broad service mix but groups it in a way first-time visitors can actually scan.</p>
+      </div>
+      <div class="services">
+        <article class="card">
+          <h3>Patios, walls, and outdoor living</h3>
+          <p>Build a more usable yard with hardscape features that improve everyday enjoyment and curb appeal.</p>
+          <ul>
+            <li>Patios and seat walls</li>
+            <li>Retaining walls and walkways</li>
+            <li>Outdoor kitchens, fireplaces, and firepits</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Planting, turf, and landscape updates</h3>
+          <p>Refresh the structure and feel of the property with practical planting and lawn-focused improvements.</p>
+          <ul>
+            <li>Landscape plantings and beds</li>
+            <li>Lawn care maintenance</li>
+            <li>Nursery stock and site refresh work</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Water, seasonal, and specialty services</h3>
+          <p>Keep the broader service identity that longtime customers already recognize without overwhelming the homepage.</p>
+          <ul>
+            <li>Ponds and waterfalls</li>
+            <li>Snowplowing and salting support</li>
+            <li>Mole extermination and property-side specialty work</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="projects">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">What people need to know sooner</div>
+        <h2>Practical proof packaged higher on the page.</h2>
+        <p>The strongest trust builders were already on the site — they were just buried in long copy and cluttered navigation.</p>
+      </div>
+      <div class="stats-grid">
+        <article class="stat">
+          <strong>Family owned</strong>
+          <p>The same contractor identity stays intact instead of being redesigned into something generic.</p>
+        </article>
+        <article class="stat">
+          <strong>Broad project range</strong>
+          <p>From fire features to plantings to snowplowing, the service depth is still visible without turning into chaos.</p>
+        </article>
+        <article class="stat">
+          <strong>Estimate-first flow</strong>
+          <p>Contact details and next steps now work together so a visitor knows whether to call or request a consultation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">How your project gets started</div>
+        <h2>A simpler path than the original service sprawl.</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <div class="step-number">1</div>
+          <h3>Reach out</h3>
+          <p>Call or email to describe the property, the project type, and the timeline you are working toward.</p>
+        </article>
+        <article class="step">
+          <div class="step-number">2</div>
+          <h3>Talk through the site and goals</h3>
+          <p>Use the first conversation to narrow the main priority: hardscape, planting, maintenance, seasonal work, or a combination.</p>
+        </article>
+        <article class="step">
+          <div class="step-number">3</div>
+          <h3>Move toward an estimate</h3>
+          <p>Get a clearer recommendation and next-step direction without hunting through pages to figure out where to begin.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="band">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Contact Landscape Construction LLC</div>
+        <h2>Same local company. Cleaner consultation path.</h2>
+        <p>This keeps the company recognizable while removing the broken-looking path fragments and admin-style residue that were weakening trust.</p>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-box">
+          <h3>Reach the team directly</h3>
+          <ul>
+            <li><strong>Phone:</strong> <a href="tel:6089242065">608-924-2065</a></li>
+            <li><strong>Email:</strong> <a href="mailto:inquiries@landscapeconstructionllc.com">inquiries@landscapeconstructionllc.com</a></li>
+            <li><strong>Address:</strong> 2585 S Clay Hill Road, Dodgeville, WI 53533</li>
+            <li><strong>Service area:</strong> Southwest and Southcentral Wisconsin</li>
+          </ul>
+        </article>
+        <article class="contact-box">
+          <h3>Great fit for these first conversations</h3>
+          <ul>
+            <li>Patios, retaining walls, and walkways</li>
+            <li>Outdoor kitchens, fireplaces, and firepits</li>
+            <li>Plantings, lawn care, and seasonal property service</li>
+            <li>Commercial and residential outdoor projects</li>
+          </ul>
+          <p style="margin-top:18px;"><a class="btn btn-primary" href="mailto:inquiries@landscapeconstructionllc.com">Request a consultation</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-band">
+    <div class="wrap footer-grid" style="padding: 0;">
+      <article class="footer-box">
+        <h3>Landscape Construction LLC</h3>
+        <p>From dirt to design, with the same family-business tone and a cleaner homepage experience for first-time visitors.</p>
+      </article>
+      <article class="footer-box">
+        <h3>Quick links</h3>
+        <p><a href="#services">Services</a><br><a href="#projects">Project types</a><br><a href="#contact">Contact</a></p>
+      </article>
+      <article class="footer-box">
+        <h3>Contact</h3>
+        <p><a href="tel:6089242065">608-924-2065</a><br><a href="mailto:inquiries@landscapeconstructionllc.com">inquiries@landscapeconstructionllc.com</a><br>Dodgeville, Wisconsin</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">Landscape Construction LLC · Southwest Wisconsin landscape construction, outdoor living, and property services.</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Training in Charlotte, NC | Palmer Personal Training</title>
+  <meta name="description" content="Personal training in Charlotte, NC with Allen Palmer. Book your free first session for one-on-one, partner, or online coaching from a private studio gym." />
+  <style>
+    :root {
+      --black: #121314;
+      --charcoal: #1c1f22;
+      --graphite: #2a2f35;
+      --white: #ffffff;
+      --fog: #f5f6f7;
+      --mist: #d9dde1;
+      --text: #202327;
+      --muted: #5f6872;
+      --accent: #c7d36f;
+      --line: #d7dde3;
+      --shadow: 0 20px 48px rgba(0,0,0,0.12);
+      --radius: 18px;
+      --max: 1160px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+    .topbar {
+      background: var(--black);
+      color: rgba(255,255,255,0.88);
+      font-size: 14px;
+    }
+    .topbar .wrap,
+    .nav .wrap,
+    .trust-grid,
+    .services,
+    .results-grid,
+    .steps,
+    .contact-grid,
+    .footer-grid {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .topbar .wrap {
+      justify-content: space-between;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+    .mini-links {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255,255,255,0.98);
+      border-bottom: 1px solid #e5e8eb;
+      backdrop-filter: blur(8px);
+    }
+    .nav .wrap {
+      justify-content: space-between;
+      padding: 16px 0;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      line-height: 0.95;
+      color: var(--black);
+    }
+    .brand span { display: block; font-size: 34px; }
+    .brand small {
+      display: block;
+      margin-top: 8px;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      color: var(--muted);
+    }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--graphite);
+    }
+    .hero {
+      background:
+        linear-gradient(115deg, rgba(18,19,20,0.96) 0%, rgba(18,19,20,0.88) 46%, rgba(18,19,20,0.72) 100%),
+        radial-gradient(circle at top right, rgba(199,211,111,0.18), transparent 38%),
+        linear-gradient(135deg, #21262b, #101113);
+      color: var(--white);
+      overflow: hidden;
+    }
+    .hero .wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+      gap: 28px;
+      align-items: center;
+      padding: 88px 0 78px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { margin: 0 0 14px; line-height: 1.08; }
+    h1 {
+      font-size: clamp(42px, 5vw, 70px);
+      max-width: 11ch;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    h2 { font-size: clamp(32px, 4vw, 48px); color: var(--black); }
+    h3 { font-size: 26px; color: var(--black); }
+    .hero-copy p {
+      max-width: 44rem;
+      margin: 0 0 24px;
+      font-size: 19px;
+      color: rgba(255,255,255,0.92);
+    }
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 220px;
+      padding: 15px 20px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--accent); color: var(--black); }
+    .btn-secondary { border-color: rgba(255,255,255,0.7); color: var(--white); }
+    .hero-note { font-size: 14px; color: rgba(255,255,255,0.78); }
+    .hero-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+    }
+    .hero-card h3, .hero-card p { color: var(--white); }
+    .hero-card ul { margin: 18px 0 0; padding-left: 18px; }
+    .hero-card li { margin: 10px 0; color: rgba(255,255,255,0.9); }
+    .trust-strip {
+      background: var(--fog);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 20px 0;
+    }
+    .trust-grid {
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      flex: 1 1 180px;
+      padding: 6px 18px;
+      border-left: 1px solid var(--line);
+    }
+    .trust-item:first-child { border-left: 0; padding-left: 0; }
+    .trust-item strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 30px;
+      color: var(--black);
+      line-height: 1;
+    }
+    section { padding: 74px 0; }
+    .section-intro {
+      max-width: 760px;
+      margin-bottom: 30px;
+    }
+    .kicker {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .section-intro p, .text-muted { color: var(--muted); }
+    .services,
+    .results-grid,
+    .steps,
+    .contact-grid,
+    .footer-grid {
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    .card,
+    .panel,
+    .step,
+    .contact-box,
+    .footer-box {
+      border-radius: var(--radius);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.06);
+    }
+    .card {
+      flex: 1 1 250px;
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+    .card p { margin: 0 0 12px; color: var(--muted); }
+    .card ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .card li { margin: 8px 0; }
+    .feature-band {
+      background: linear-gradient(135deg, #1a1d21, #2c3138);
+      color: var(--white);
+    }
+    .feature-band h2, .feature-band h3, .feature-band .kicker { color: var(--white); }
+    .feature-band .section-intro p, .feature-band .panel p, .feature-band .panel li { color: rgba(255,255,255,0.82); }
+    .results-grid .panel,
+    .feature-band .panel {
+      flex: 1 1 320px;
+      padding: 28px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .results-grid ul, .panel ul { margin: 14px 0 0; padding-left: 18px; }
+    .steps .step {
+      flex: 1 1 240px;
+      background: var(--fog);
+      padding: 26px;
+      border: 1px solid var(--line);
+    }
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--white);
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+    .quote {
+      background: #fff;
+      border-left: 4px solid var(--accent);
+      padding: 24px;
+      color: var(--text);
+      box-shadow: var(--shadow);
+      margin-top: 28px;
+    }
+    .quote strong { display: block; margin-top: 10px; }
+    .contact-grid > * { flex: 1 1 320px; }
+    .contact-box {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 30px;
+    }
+    .contact-box ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .contact-box li { margin: 8px 0; }
+    .contact-strip {
+      background: var(--black);
+      color: var(--white);
+    }
+    .contact-strip .footer-grid {
+      padding: 0;
+      gap: 20px;
+    }
+    .footer-box {
+      flex: 1 1 260px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 26px;
+    }
+    .footer-box h3, .footer-box p, .footer-box a { color: var(--white); }
+    .footer-box p { color: rgba(255,255,255,0.8); }
+    .site-footer {
+      background: #0d0e10;
+      color: rgba(255,255,255,0.75);
+      padding: 18px 0 34px;
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .hero .wrap { grid-template-columns: 1fr; }
+      .trust-item { border-left: 0; padding-left: 0; }
+    }
+    @media (max-width: 640px) {
+      .btn { width: 100%; min-width: 0; }
+      .nav-links { font-size: 13px; }
+      h1 { font-size: 40px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div><strong>Charlotte personal training</strong> with Allen Palmer in a private studio gym</div>
+      <div class="mini-links">
+        <a href="tel:7046190489">Call 704-619-0489</a>
+        <a href="mailto:ADP906@gmail.com">ADP906@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span>Palmer</span>
+        <span>Personal Training</span>
+        <small>Private studio coaching in Charlotte</small>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-copy">
+        <div class="eyebrow">First session is free</div>
+        <h1>Personal training built around your goals.</h1>
+        <p>Work one-on-one with Allen Palmer in Charlotte for strength, fat loss, accountability, and smarter long-term fitness coaching in a private studio setting.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Book your complimentary first session</a>
+          <a class="btn btn-secondary" href="tel:7046190489">Call 704-619-0489</a>
+        </div>
+        <div class="hero-note">One-on-one training • Partner sessions • Online support • Nutrition guidance</div>
+      </div>
+      <aside class="hero-card">
+        <h3>What your first visit includes</h3>
+        <p>Start with a no-pressure conversation about your goals, injury history, schedule, and the style of support that fits you best.</p>
+        <ul>
+          <li>Tour the private studio and meet Allen</li>
+          <li>Talk through weight-loss, strength, or accountability goals</li>
+          <li>Leave with a clear recommendation for training frequency and next steps</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <div class="trust-strip">
+    <div class="wrap trust-grid">
+      <div class="trust-item"><strong>2 NASM certs</strong><span>Trainer credentials visitors can trust</span></div>
+      <div class="trust-item"><strong>Free first session</strong><span>Low-friction way to see if the fit feels right</span></div>
+      <div class="trust-item"><strong>Private studio</strong><span>Clean, fully insured, and focused on personalized coaching</span></div>
+      <div class="trust-item"><strong>Charlotte, NC</strong><span>In-person and online options with real local support</span></div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Choose your training path</div>
+        <h2>Clear options for how you want to train.</h2>
+        <p>Instead of making you hunt through paragraphs, the homepage now makes the main paths obvious from the first scroll.</p>
+      </div>
+      <div class="services">
+        <article class="card">
+          <h3>One-on-one coaching</h3>
+          <p>Private sessions for strength, weight loss, consistency, and proper technique.</p>
+          <ul>
+            <li>Customized programming</li>
+            <li>Strength-first coaching with cardio when it fits the goal</li>
+            <li>Attention to body mechanics and long-term progress</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Partner training</h3>
+          <p>Train with a spouse, friend, or accountability partner without losing individualized guidance.</p>
+          <ul>
+            <li>Shared sessions with clear structure</li>
+            <li>Built for motivation and consistency</li>
+            <li>Flexible for similar or different goals</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Online support</h3>
+          <p>Remote training guidance for clients who want Allen’s programming and coaching without being in Charlotte.</p>
+          <ul>
+            <li>Workout planning for non-session days</li>
+            <li>Nutrition guidance and calorie/protein help</li>
+            <li>Practical accountability and progress direction</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-band" id="approach">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Why clients feel comfortable here</div>
+        <h2>Less generic gym noise. More clear coaching.</h2>
+        <p>Palmer Personal Training already had the right raw ingredients — the cleanup is about surfacing them sooner and making the next step easier to trust.</p>
+      </div>
+      <div class="results-grid">
+        <article class="panel">
+          <h3>A stronger first impression</h3>
+          <ul>
+            <li>Free first session is clearly featured instead of buried.</li>
+            <li>Credentials, private-studio trust, and Charlotte relevance show up near the top.</li>
+            <li>The opening headline is more specific than a generic fitness promise.</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>A simpler decision path</h3>
+          <ul>
+            <li>Services are grouped by how people actually buy training.</li>
+            <li>The consultation path explains what happens before anyone commits.</li>
+            <li>Contact options feel like real coaching access, not a default builder form.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="quote" id="reviews">
+        “I own a clean, well-equipped private studio gym and build every program around the goals of the person in front of me. The point is progress you can actually sustain.”
+        <strong>Allen Palmer · Palmer Personal Training</strong>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">What happens next</div>
+        <h2>A simple three-step start for new clients.</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <div class="step-number">1</div>
+          <h3>Reach out</h3>
+          <p>Call, email, or use the free-session CTA to start the conversation.</p>
+        </article>
+        <article class="step">
+          <div class="step-number">2</div>
+          <h3>Meet for the free first session</h3>
+          <p>Talk through goals, experience level, training style, and scheduling in the studio.</p>
+        </article>
+        <article class="step">
+          <div class="step-number">3</div>
+          <h3>Train with a plan</h3>
+          <p>Leave with a clearer path for in-person, partner, or online coaching that fits your routine.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-strip" id="contact">
+    <div class="wrap">
+      <div class="section-intro">
+        <div class="kicker">Ready to get started?</div>
+        <h2 style="color:#fff;">Book a complimentary first session with Allen.</h2>
+        <p style="color:rgba(255,255,255,0.8);">This version keeps the same straightforward trainer-led feel while making the contact path more confident and specific.</p>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-box">
+          <h3>Best for first-time visitors</h3>
+          <ul>
+            <li><strong>Phone:</strong> <a href="tel:7046190489">704-619-0489</a></li>
+            <li><strong>Email:</strong> <a href="mailto:ADP906@gmail.com">ADP906@gmail.com</a></li>
+            <li><strong>Location:</strong> Charlotte, North Carolina 28270</li>
+            <li><strong>Hours:</strong> Open daily from 7:00 AM to 8:00 PM</li>
+          </ul>
+        </article>
+        <article class="contact-box">
+          <h3>What people usually ask about</h3>
+          <ul>
+            <li>Strength training and fat-loss support</li>
+            <li>Private sessions vs. partner sessions</li>
+            <li>Online coaching for out-of-town clients</li>
+            <li>How the free first session works</li>
+          </ul>
+          <p style="margin-top:18px;"><a class="btn btn-primary" href="mailto:ADP906@gmail.com">Ask about your free first session</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-box">
+        <h3>Palmer Personal Training</h3>
+        <p>Personalized fitness coaching for Charlotte clients who want clearer guidance, better accountability, and a private-studio experience.</p>
+      </div>
+      <div class="footer-box">
+        <h3>Quick links</h3>
+        <p><a href="#services">Services</a><br><a href="#approach">Approach</a><br><a href="#contact">Contact</a></p>
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p><a href="tel:7046190489">704-619-0489</a><br><a href="mailto:ADP906@gmail.com">ADP906@gmail.com</a><br>Charlotte, NC</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

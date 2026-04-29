@@ -1,0 +1,1 @@
+2026-04-28 20:03 CDT - Completed audits for earthworks-landscape-construction and landscape-construction-llc. Both were stable via lightweight fetch. Wrote production-ready audit markdown files under opportunities/2026-04-28-1949-overnight/.

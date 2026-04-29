@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Training & Small Group Fitness in Naperville | Donna's Home Fitness</title>
+  <meta name="description" content="Personal training, small-group circuit classes, Pilates, and supportive fitness coaching in Naperville. Book a free trial class or contact Donna for a personalized plan." />
+  <style>
+    :root {
+      --black: #131313;
+      --charcoal: #202020;
+      --cream: #f6f1eb;
+      --white: #ffffff;
+      --tan: #d9c9b7;
+      --line: rgba(255,255,255,0.16);
+      --line-dark: rgba(19,19,19,0.12);
+      --text: #222222;
+      --muted: #666666;
+      --shadow: 0 18px 44px rgba(0,0,0,0.12);
+      --radius: 26px;
+      --radius-sm: 18px;
+      --container: 1140px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(var(--container), calc(100% - 32px)); margin: 0 auto; }
+    .top-strip {
+      background: #0d0d0d;
+      color: rgba(255,255,255,0.88);
+      font-size: 13px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .top-strip-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+    .top-links, .socials { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: rgba(19,19,19,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 0;
+    }
+    .brand img { width: 168px; height: auto; }
+    .nav {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+      color: rgba(255,255,255,0.82);
+      font-size: 14px;
+      justify-content: center;
+    }
+    .btn, .btn-outline, .phone-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 13px 22px;
+      font-size: 15px;
+      font-weight: 700;
+      transition: .2s ease;
+    }
+    .btn {
+      background: var(--white);
+      color: var(--black);
+      box-shadow: var(--shadow);
+    }
+    .btn-outline {
+      border: 1px solid rgba(255,255,255,0.45);
+      color: var(--white);
+      background: transparent;
+    }
+    .phone-pill {
+      background: rgba(255,255,255,0.08);
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.15);
+      padding-inline: 18px;
+    }
+    .btn:hover, .btn-outline:hover, .phone-pill:hover { transform: translateY(-1px); }
+    .hero {
+      position: relative;
+      color: var(--white);
+      background:
+        linear-gradient(90deg, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.84) 42%, rgba(10,10,10,0.48) 100%),
+        url('https://static.wixstatic.com/media/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg/v1/fill/w_508,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg') center/cover no-repeat;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 34px;
+      align-items: center;
+      min-height: 690px;
+      padding: 72px 0;
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      font-size: 12px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(42px, 6vw, 72px);
+      line-height: 1.02;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    .hero .subhead {
+      margin: 0 0 14px;
+      font-size: 19px;
+      color: rgba(255,255,255,0.9);
+      max-width: 640px;
+    }
+    .hero .tagline {
+      margin: 0 0 24px;
+      color: rgba(255,255,255,0.76);
+      font-size: 15px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .hero-points {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 12px 18px;
+      font-size: 15px;
+      color: rgba(255,255,255,0.9);
+    }
+    .hero-points li::before {
+      content: '✓';
+      color: var(--tan);
+      font-weight: 700;
+      margin-right: 8px;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-card {
+      background: rgba(255,255,255,0.96);
+      color: var(--text);
+      border-radius: 30px;
+      padding: 28px;
+      box-shadow: 0 28px 55px rgba(0,0,0,0.2);
+    }
+    .hero-card h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      line-height: 1.1;
+      color: var(--black);
+      font-weight: 500;
+    }
+    .hero-card p { margin: 0 0 14px; color: #555; }
+    .hero-card .mini {
+      margin: 18px 0 22px;
+      padding: 0;
+      list-style: none;
+    }
+    .hero-card .mini li {
+      padding: 11px 0;
+      border-top: 1px solid rgba(0,0,0,0.08);
+      font-size: 15px;
+    }
+    .hero-card .mini li:first-child { border-top: 0; }
+    .trust-strip {
+      background: var(--cream);
+      border-top: 1px solid #ebdfd2;
+      border-bottom: 1px solid #ebdfd2;
+      padding: 22px 0;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      text-align: center;
+    }
+    .trust-item {
+      padding: 10px 12px;
+    }
+    .trust-item strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 28px;
+      color: var(--black);
+      font-weight: 700;
+    }
+    section { padding: 72px 0; }
+    .section-intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 32px;
+    }
+    .section-intro .kicker {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 12px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: #7b6a57;
+    }
+    .section-intro h2 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.1;
+      font-weight: 500;
+    }
+    .section-intro p { margin: 0; color: var(--muted); font-size: 17px; }
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line-dark);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .card img { width: 100%; aspect-ratio: 1.4 / 1; object-fit: cover; }
+    .card-body { padding: 24px; }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      line-height: 1.15;
+      font-weight: 500;
+    }
+    .card p { margin: 0 0 14px; color: #555; }
+    .service-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+    }
+    .service-list li { margin: 10px 0; }
+    .about-wrap {
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      gap: 26px;
+      align-items: center;
+    }
+    .about-photo {
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      min-height: 100%;
+    }
+    .about-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .about-copy {
+      background: var(--black);
+      color: var(--white);
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+    .about-copy h2 { margin: 0 0 14px; font-size: clamp(30px, 4vw, 42px); font-weight: 500; }
+    .about-copy p { margin: 0 0 14px; color: rgba(255,255,255,0.82); }
+    .about-badges {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .badge {
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 999px;
+      padding: 10px 14px;
+      color: rgba(255,255,255,0.92);
+      font-size: 14px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .step {
+      background: var(--cream);
+      border: 1px solid #ebdfd2;
+      border-radius: 22px;
+      padding: 26px;
+    }
+    .step-num {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--white);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .testimonial {
+      background: #fff;
+      border: 1px solid var(--line-dark);
+      border-radius: 26px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+      max-width: 880px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .testimonial p {
+      margin: 0 0 16px;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #3a3a3a;
+    }
+    .quote-mark { font-size: 44px; color: #b29a81; line-height: 1; margin-bottom: 14px; }
+    .cta-band {
+      background: var(--black);
+      color: var(--white);
+    }
+    .cta-wrap {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+      padding: 18px 0;
+    }
+    .cta-wrap h2 { margin: 0 0 10px; font-size: clamp(30px, 4vw, 44px); font-weight: 500; }
+    .cta-wrap p { margin: 0; color: rgba(255,255,255,0.8); }
+    .cta-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: flex-end; }
+    .site-footer {
+      background: #101010;
+      color: rgba(255,255,255,0.88);
+      padding: 34px 0 20px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr .9fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .footer-grid h3 { margin: 0 0 12px; font-size: 18px; color: var(--white); }
+    .footer-grid p, .footer-grid li { color: rgba(255,255,255,0.74); font-size: 14px; }
+    .footer-grid ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .copyright {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 13px;
+      color: rgba(255,255,255,0.56);
+      text-align: center;
+    }
+    @media (max-width: 1024px) {
+      .hero-inner, .about-wrap, .cta-wrap { grid-template-columns: 1fr; }
+      .benefits, .steps, .trust-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .cta-actions { justify-content: flex-start; }
+    }
+    @media (max-width: 760px) {
+      .nav { display: none; }
+      .header-inner { justify-content: center; }
+      .header-inner .phone-pill { display: none; }
+      .hero-inner { min-height: auto; padding: 56px 0; }
+      .hero-points, .benefits, .steps, .trust-grid, .footer-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 42px; }
+      .section-intro p, .hero .subhead { font-size: 17px; }
+      .hero-card, .about-copy, .testimonial, .step { padding: 22px; }
+      .top-strip-inner { justify-content: center; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <div class="top-links">
+        <a href="tel:16304790386">Call 630-479-0386</a>
+        <span>Naperville home gym near Plainfield, Aurora, Bolingbrook &amp; Oswego</span>
+      </div>
+      <div class="socials">
+        <a href="mailto:donna@donnashomefitness.com">donna@donnashomefitness.com</a>
+        <a href="https://www.facebook.com/Donnashomefitness/">Facebook</a>
+        <a href="https://www.linkedin.com/in/donna-anderson-56910b11/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Donna's Home Fitness home">
+        <img src="https://static.wixstatic.com/media/6148bd_de17f7ca0516462baf8edbd597d020e4~mv2.png" alt="Donna's Home Fitness logo" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#about">Meet Donna</a>
+        <a href="#how-it-works">First Visit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="phone-pill" href="tel:16304790386">630-479-0386</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="eyebrow">Personal Training &amp; Small-Group Classes in Naperville</span>
+          <p class="tagline">Strength, Confidence, Community — right in your neighborhood</p>
+          <h1>Supportive fitness coaching that feels personal from day one.</h1>
+          <p class="subhead">Train one-on-one, join a small-group circuit class, or build a plan that fits your goals, schedule, and comfort level in Donna's welcoming home gym.</p>
+          <ul class="hero-points">
+            <li>Personal training for beginners through experienced clients</li>
+            <li>Small-group classes with individualized attention</li>
+            <li>Pilates and fitness options for all ages and abilities</li>
+            <li>Flexible support for injuries, limitations, and busy schedules</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn" href="mailto:donna@donnashomefitness.com?subject=Book%20a%20Free%20Trial%20Class">Book a Free Trial Class</a>
+            <a class="btn-outline" href="tel:16304790386">Call Donna</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Not sure where to start?</h2>
+          <p>Donna helps you choose the right fit — whether you want accountability, a motivating class, or a safer path back into exercise.</p>
+          <ul class="mini">
+            <li><strong>Personal Training</strong> for focused 1-on-1 coaching</li>
+            <li><strong>Circuit Classes</strong> for full-body workouts in a small group</li>
+            <li><strong>Pilates</strong> for strength, mobility, and core control</li>
+            <li><strong>Flexible formats</strong> including in-person and some virtual support</li>
+          </ul>
+          <a class="btn" href="#contact">Ask About the Best Fit</a>
+        </aside>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>25+</strong><span>years of coaching experience</span></div>
+        <div class="trust-item"><strong>ACE</strong><span>certified with medical fitness expertise</span></div>
+        <div class="trust-item"><strong>All Levels</strong><span>from teens to seniors, beginners to athletes</span></div>
+        <div class="trust-item"><strong>Flexible</strong><span>small groups, 1-on-1, and personalized support</span></div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">Why people choose Donna's Home Fitness</span>
+          <h2>A neighborhood fitness space built on attention, encouragement, and real-life flexibility.</h2>
+          <p>Instead of getting lost in a crowded gym, you get clear coaching, thoughtful adjustments, and workouts designed around your goals.</p>
+        </div>
+        <div class="benefits">
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg/v1/fill/w_508,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg" alt="Personal training in a home gym" />
+            <div class="card-body">
+              <h3>Personal Training</h3>
+              <p>Work one-on-one with Donna to build strength, confidence, consistency, and a plan that matches your body and schedule.</p>
+              <ul class="service-list">
+                <li>• Personalized workouts and pacing</li>
+                <li>• Support for injuries or limitations</li>
+                <li>• Accountability without intimidation</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/6148bd_c43dafd1ec3a42b79b578d8c873e5f20~mv2.jpg/v1/fill/w_800,h_534,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6148bd_c43dafd1ec3a42b79b578d8c873e5f20~mv2.jpg" alt="Small-group fitness class" />
+            <div class="card-body">
+              <h3>Small-Group Circuit Classes</h3>
+              <p>Get a dynamic full-body workout with cardio, strength, and core intervals in a friendly small-group setting.</p>
+              <ul class="service-list">
+                <li>• Personalized coaching in every class</li>
+                <li>• Variety with dumbbells, kettlebells, TRX, rowing, ropes, and more</li>
+                <li>• Monthly pricing with make-up flexibility based on availability</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/6148bd_203013c577f84c6aaa542e5c4402fec2~mv2.jpg/v1/fill/w_900,h_675,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6148bd_203013c577f84c6aaa542e5c4402fec2~mv2.jpg" alt="Pilates and supportive fitness coaching" />
+            <div class="card-body">
+              <h3>Pilates &amp; Specialized Support</h3>
+              <p>Ask about Mat Pilates, Reformer Pilates, and coaching that meets you where you are — especially if you need a thoughtful, lower-pressure environment.</p>
+              <ul class="service-list">
+                <li>• Better core strength and mobility</li>
+                <li>• Supportive progress for varied fitness levels</li>
+                <li>• A comfortable path back into movement</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="background:#f8f8f8;">
+      <div class="container about-wrap">
+        <div class="about-photo">
+          <img src="https://static.wixstatic.com/media/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg/v1/fill/w_1000,h_714,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6148bd_b392c0d546704ea6b240e54f85a83550~mv2.jpeg" alt="Donna's Home Fitness training environment" />
+        </div>
+        <div class="about-copy">
+          <span class="kicker" style="color:#d3beaa;">Meet Donna</span>
+          <h2>Experienced coaching with heart, patience, and practical encouragement.</h2>
+          <p>Donna Anderson is an ACE Certified trainer and Medical Fitness Specialist with a Master's degree in Physical Education, a Bachelor of Science in Sports Management, and more than 25 years of fitness experience.</p>
+          <p>Her style is warm, adaptable, and personal — whether you're just getting started, returning after time away, or looking for a new challenge in a setting that feels welcoming instead of overwhelming.</p>
+          <div class="about-badges">
+            <span class="badge">ACE Certified</span>
+            <span class="badge">Medical Fitness Specialist</span>
+            <span class="badge">All ages &amp; abilities welcome</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">Your first visit</span>
+          <h2>Simple, friendly, and tailored to you.</h2>
+          <p>You do not need to show up knowing exactly what you need. Donna helps you figure that out.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Reach out</h3>
+            <p>Call or email Donna to ask about personal training, circuit classes, Pilates, or available openings.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Talk through your goals</h3>
+            <p>Share your current fitness level, schedule, and any injuries or limitations so Donna can recommend the right starting point.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Start with confidence</h3>
+            <p>Book a free trial class or set up your first session with a plan that feels realistic, supportive, and doable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#fcf8f3;">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">Class pricing</span>
+          <h2>Flexible small-group circuit training options.</h2>
+          <p>Classes are billed monthly, with small class sizes for more individual attention.</p>
+        </div>
+        <div class="benefits">
+          <article class="card"><div class="card-body"><h3>1 class per week</h3><p><strong>$92/month</strong></p><p>Great if you want structure and accountability without overloading your week.</p></div></article>
+          <article class="card"><div class="card-body"><h3>2 classes per week</h3><p><strong>$184/month</strong></p><p>A strong fit for clients who want faster momentum and more consistency.</p></div></article>
+          <article class="card"><div class="card-body"><h3>Unlimited classes</h3><p><strong>$276/month</strong></p><p>Best for clients who want maximum flexibility and frequent workouts.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="testimonial">
+          <div class="quote-mark">“</div>
+          <p>I highly recommend Donna's Home Fitness, and Donna, for her experience, expertise, and ability to provide a great workout in a friendly and comfortable environment. Donna manages to add variety to each class and encourages you to push yourself from your comfort zone. I honestly look forward to working out... even at 6 am!</p>
+          <strong>Meg Pawleski</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" id="contact">
+      <div class="container cta-wrap">
+        <div>
+          <h2>Ready to feel stronger in a space that feels welcoming?</h2>
+          <p>Donna's Home Fitness is conveniently located at 5024 Prairie Sage Lane in south Naperville, near Plainfield, Aurora, Bolingbrook, and Oswego.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn" href="mailto:donna@donnashomefitness.com?subject=Book%20a%20Free%20Trial%20Class">Book a Free Trial Class</a>
+          <a class="btn-outline" href="tel:16304790386">Call 630-479-0386</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="https://static.wixstatic.com/media/6148bd_de17f7ca0516462baf8edbd597d020e4~mv2.png" alt="Donna's Home Fitness logo" style="width:150px; margin-bottom:14px;" />
+        <p>Personal training, small-group circuit classes, and supportive coaching in a comfortable home-gym environment.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:16304790386">630-479-0386</a></li>
+          <li><a href="mailto:donna@donnashomefitness.com">donna@donnashomefitness.com</a></li>
+          <li>5024 Prairie Sage Lane, Naperville, IL 60564</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Popular paths</h3>
+        <ul>
+          <li><a href="https://www.donnashomefitness.com/circuit-training">Circuit Training</a></li>
+          <li><a href="#services">Personal Training &amp; Pilates</a></li>
+          <li><a href="https://www.facebook.com/Donnashomefitness/">Follow on Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copyright">© 2025 Donna's Home Fitness. Personal attention, flexibility, and real results in Naperville.</div>
+  </footer>
+</body>
+</html>

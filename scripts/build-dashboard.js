@@ -11,6 +11,15 @@ function relFile(p){return p && exists(p) ? p : ''}
 function rawUrl(p){return p ? `${rawBase}/${p}` : ''}
 function blobUrl(p){return p ? `${repo}/blob/${branch}/${p}` : ''}
 function previewUrl(p){return p ? `${previewBase}${rawUrl(p)}` : ''}
+function isPackaged(batch, slug) {
+  return [
+    `opportunities/${batch}/${slug}-audit.md`,
+    `offers/${batch}/${slug}-offer.md`,
+    `prototypes/${batch}/${slug}/index.html`,
+    `screenshots/${batch}/${slug}-target.png`,
+    `screenshots/${batch}/${slug}-prototype.png`
+  ].every(exists);
+}
 function batchRank(batch) {
   const m = batch.match(/^(\d{4})-(\d{2})-(\d{2})(?:-(\d{4}))?/);
   if (!m) return `000000000000-${batch}`;
@@ -40,7 +49,8 @@ for (const batch of batches) {
   const uniqueItems = [];
   for (const it of items) {
     const slug = it.slug;
-    if (seenSlugs.has(slug)) continue;
+    if (!slug || seenSlugs.has(slug)) continue;
+    if (!isPackaged(batch, slug)) continue;
     seenSlugs.add(slug);
     uniqueItems.push(it);
   }

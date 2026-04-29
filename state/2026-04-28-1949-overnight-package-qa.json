@@ -1,0 +1,425 @@
+{
+  "batch": "2026-04-28-1949-overnight",
+  "batchJson": "opportunities/2026-04-28-1949-overnight/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 0,
+  "incompleteCount": 10,
+  "missingByKind": {
+    "audit": 8,
+    "offer": 10,
+    "prototype": 10,
+    "targetScreenshot": 10,
+    "prototypeScreenshot": 10
+  },
+  "results": [
+    {
+      "slug": "my-fitness-world",
+      "name": "My Fitness World",
+      "priority": "high",
+      "status": "qualified",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/my-fitness-world-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/my-fitness-world-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/my-fitness-world/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/my-fitness-world-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/my-fitness-world-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "palmer-personal-training",
+      "name": "Palmer Personal Training",
+      "priority": "high",
+      "status": "qualified",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/palmer-personal-training-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/palmer-personal-training-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/palmer-personal-training/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/palmer-personal-training-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/palmer-personal-training-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "hard-body-fitness-personal-training-group",
+      "name": "Hard Body Fitness Personal Training Group",
+      "priority": "medium",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/hard-body-fitness-personal-training-group-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/hard-body-fitness-personal-training-group-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/hard-body-fitness-personal-training-group/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/hard-body-fitness-personal-training-group-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/hard-body-fitness-personal-training-group-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "trifecta-athletics",
+      "name": "Trifecta Athletics",
+      "priority": "medium",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/trifecta-athletics-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/trifecta-athletics-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/trifecta-athletics/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/trifecta-athletics-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/trifecta-athletics-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "earthworks-landscape-construction",
+      "name": "Earthworks Landscape Construction, Inc.",
+      "priority": "high",
+      "status": "qualified",
+      "complete": false,
+      "missing": [
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/earthworks-landscape-construction-audit.md",
+          "exists": true,
+          "size": 9300
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/earthworks-landscape-construction-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/earthworks-landscape-construction/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/earthworks-landscape-construction-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/earthworks-landscape-construction-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "landscape-construction-llc",
+      "name": "Landscape Construction LLC",
+      "priority": "high",
+      "status": "qualified",
+      "complete": false,
+      "missing": [
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/landscape-construction-llc-audit.md",
+          "exists": true,
+          "size": 10460
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/landscape-construction-llc-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/landscape-construction-llc/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/landscape-construction-llc-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/landscape-construction-llc-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "donnas-home-fitness",
+      "name": "Donna's Home Fitness",
+      "priority": "medium",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/donnas-home-fitness-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/donnas-home-fitness-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/donnas-home-fitness/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/donnas-home-fitness-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/donnas-home-fitness-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "evolve-personal-trainer",
+      "name": "Evolve Personal Trainer",
+      "priority": "high",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/evolve-personal-trainer-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/evolve-personal-trainer-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/evolve-personal-trainer/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/evolve-personal-trainer-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/evolve-personal-trainer-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "sprintervision-nutrition",
+      "name": "Sprintervision Nutrition",
+      "priority": "medium",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/sprintervision-nutrition-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/sprintervision-nutrition-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/sprintervision-nutrition/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/sprintervision-nutrition-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/sprintervision-nutrition-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    },
+    {
+      "slug": "wellabee",
+      "name": "Wellabee",
+      "priority": "medium",
+      "status": "queued",
+      "complete": false,
+      "missing": [
+        "audit",
+        "offer",
+        "prototype",
+        "targetScreenshot",
+        "prototypeScreenshot"
+      ],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-04-28-1949-overnight/wellabee-audit.md",
+          "exists": false,
+          "size": 0
+        },
+        "offer": {
+          "path": "offers/2026-04-28-1949-overnight/wellabee-offer.md",
+          "exists": false,
+          "size": 0
+        },
+        "prototype": {
+          "path": "prototypes/2026-04-28-1949-overnight/wellabee/index.html",
+          "exists": false,
+          "size": 0
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/wellabee-target.png",
+          "exists": false,
+          "size": 0
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-04-28-1949-overnight/wellabee-prototype.png",
+          "exists": false,
+          "size": 0
+        }
+      }
+    }
+  ]
+}

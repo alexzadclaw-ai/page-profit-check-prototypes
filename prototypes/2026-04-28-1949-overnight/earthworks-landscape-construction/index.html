@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>South Bay Landscape Construction & Outdoor Living | Earthworks Landscape Construction, Inc.</title>
+  <meta name="description" content="Family-run landscape construction in the South Bay since 1997. Explore pavers, retaining walls, planting, drainage, lighting, and outdoor living projects from Earthworks Landscape Construction, Inc." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+    :root {
+      --forest: #1a2f24;
+      --forest-deep: #102017;
+      --sage: #dbe3db;
+      --stone: #f5f1e8;
+      --sand: #b39a6b;
+      --sand-dark: #9a8254;
+      --text: #243127;
+      --muted: #5d6a60;
+      --line: rgba(255,255,255,0.18);
+      --shadow: 0 24px 50px rgba(0, 0, 0, 0.18);
+      --radius: 3px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Source Sans 3', Arial, sans-serif;
+      color: var(--text);
+      background: var(--forest-deep);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .topbar,
+    .nav,
+    .hero-inner,
+    .section-inner,
+    .footer-inner,
+    .trust-inner { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+
+    .site-shell { background: var(--forest); color: #fff; }
+
+    .topbar-wrap {
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.12);
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+      font-size: 0.92rem;
+      color: rgba(255,255,255,0.82);
+      flex-wrap: wrap;
+    }
+    .topbar strong { color: #fff; font-weight: 600; }
+
+    .nav-wrap {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(16, 32, 23, 0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 14px 0;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+    .brand img {
+      width: 78px;
+      height: 78px;
+      object-fit: contain;
+      background: rgba(255,255,255,0.96);
+      padding: 6px;
+      border-radius: 2px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+    }
+    .brand-text {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .brand-name {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 1.25rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+    .brand-sub {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: rgba(255,255,255,0.7);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+    .nav-links a:not(.btn) { color: rgba(255,255,255,0.86); }
+    .nav-links a:not(.btn):hover { color: #fff; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 13px 22px;
+      border: 1px solid rgba(255,255,255,0.4);
+      font-size: 0.86rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #fff;
+      transition: 0.2s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-solid {
+      background: var(--sand);
+      border-color: var(--sand);
+      color: #182319;
+    }
+    .btn-solid:hover { background: #c0aa7e; }
+    .btn-ghost:hover { background: rgba(255,255,255,0.08); }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(16,32,23,0.86) 0%, rgba(16,32,23,0.74) 45%, rgba(16,32,23,0.48) 100%),
+        url('https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618511387030-5LI1E5QMVTQ2RY9S00A4/20140228_Trade+151_0046+1.jpg') center/cover;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+      gap: 34px;
+      align-items: center;
+      padding: 82px 0 72px;
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 6px 10px;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.05);
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 {
+      margin: 0 0 16px;
+      font-family: 'Cinzel', Georgia, serif;
+      line-height: 1.08;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h1 { font-size: clamp(2.8rem, 5vw, 4.85rem); max-width: 11ch; }
+    h2 { font-size: clamp(1.9rem, 3vw, 3rem); }
+    h3 { font-size: 1.25rem; }
+    p { margin: 0 0 16px; }
+    .hero-copy .lead {
+      max-width: 56ch;
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.92);
+    }
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .hero-card {
+      background: rgba(245, 241, 232, 0.94);
+      color: var(--text);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      border-top: 4px solid var(--sand);
+    }
+    .hero-card h3 { color: var(--forest); }
+    .hero-list {
+      list-style: none;
+      margin: 18px 0 22px;
+      padding: 0;
+    }
+    .hero-list li {
+      padding: 11px 0;
+      border-top: 1px solid rgba(36,49,39,0.12);
+      color: var(--muted);
+    }
+    .hero-list li strong { color: var(--text); }
+
+    .trust-strip {
+      background: var(--stone);
+      color: var(--text);
+      border-top: 1px solid rgba(0,0,0,0.06);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+    .trust-inner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .trust-item {
+      padding: 22px 18px;
+      text-align: center;
+      border-right: 1px solid rgba(0,0,0,0.08);
+    }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .trust-item span { color: var(--muted); }
+
+    main { background: var(--forest); }
+    .section {
+      padding: 76px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .section-alt {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
+    }
+    .section-light {
+      background: var(--stone);
+      color: var(--text);
+    }
+    .section-light .kicker,
+    .section-light .lede,
+    .section-light .muted { color: var(--muted); }
+    .section-inner { width: min(var(--max), calc(100% - 32px)); }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 34px;
+      align-items: start;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .section-copy,
+    .service-card,
+    .process-card,
+    .contact-card,
+    .testimonial,
+    .stat-card {
+      color: rgba(255,255,255,0.88);
+    }
+    .kicker {
+      margin-bottom: 12px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: rgba(255,255,255,0.62);
+    }
+    .lede {
+      max-width: 60ch;
+      color: rgba(255,255,255,0.8);
+      font-size: 1.02rem;
+    }
+    .muted { color: rgba(255,255,255,0.74); }
+
+    .image-frame {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.14);
+      padding: 10px;
+      box-shadow: var(--shadow);
+    }
+    .image-frame img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    .service-card,
+    .process-card,
+    .testimonial,
+    .contact-card,
+    .stat-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 24px;
+      height: 100%;
+    }
+    .section-light .service-card,
+    .section-light .process-card,
+    .section-light .testimonial,
+    .section-light .contact-card,
+    .section-light .stat-card {
+      background: #fff;
+      border-color: rgba(26,47,36,0.1);
+      color: var(--text);
+    }
+    .service-card h3,
+    .process-card h3,
+    .contact-card h3,
+    .stat-card h3,
+    .testimonial strong { color: inherit; }
+    .service-card p,
+    .process-card p,
+    .contact-card p,
+    .testimonial p,
+    .stat-card p { margin-bottom: 0; }
+    .service-card ul,
+    .contact-card ul {
+      margin: 16px 0 0;
+      padding-left: 18px;
+    }
+    .service-card li,
+    .contact-card li { margin-bottom: 8px; }
+
+    .stat-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 2rem;
+      font-family: 'Cinzel', Georgia, serif;
+      color: var(--sand);
+    }
+    .section-light .stat-card strong { color: var(--sand-dark); }
+
+    .process-card { position: relative; padding-top: 58px; }
+    .process-step {
+      position: absolute;
+      top: 18px;
+      left: 24px;
+      font-family: 'Cinzel', Georgia, serif;
+      color: var(--sand);
+      font-size: 1.4rem;
+      letter-spacing: 0.08em;
+    }
+    .section-light .process-step { color: var(--sand-dark); }
+
+    .testimonial p {
+      font-size: 1.02rem;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+    .testimonial strong {
+      display: block;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .testimonial span { color: var(--muted); }
+
+    .cta-band {
+      background:
+        linear-gradient(rgba(16,32,23,0.84), rgba(16,32,23,0.84)),
+        url('https://images.squarespace-cdn.com/content/v1/64189119d9fcc9432336db76/3211684f-a789-4c38-a2ac-bfebc9904115/IMG_9389.PNG') center/cover;
+    }
+    .cta-band .section-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 28px;
+      align-items: start;
+    }
+    .contact-card a { color: var(--forest); font-weight: 700; }
+    .contact-panel {
+      background: #fff;
+      color: var(--text);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      border-top: 4px solid var(--sand);
+    }
+    .contact-panel h3 { color: var(--forest); }
+    form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .field,
+    .field-full { display: flex; flex-direction: column; gap: 8px; }
+    .field-full { grid-column: 1 / -1; }
+    label {
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--forest);
+    }
+    input, textarea, select {
+      width: 100%;
+      border: 1px solid rgba(26,47,36,0.18);
+      padding: 13px 14px;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+      border-radius: 0;
+    }
+    textarea { min-height: 140px; resize: vertical; }
+
+    .footer {
+      background: #0f1d14;
+      color: rgba(255,255,255,0.82);
+      padding: 30px 0 38px;
+    }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .footer-nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 980px) {
+      .hero-inner,
+      .grid-2,
+      .cta-band .section-inner,
+      .contact-layout,
+      .trust-inner,
+      .grid-3,
+      .grid-4 {
+        grid-template-columns: 1fr;
+      }
+      .nav { flex-direction: column; align-items: stretch; }
+      .nav-links { justify-content: flex-start; }
+      .trust-item { border-right: 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+      .trust-item:last-child { border-bottom: 0; }
+    }
+
+    @media (max-width: 640px) {
+      body { line-height: 1.55; }
+      .brand { align-items: flex-start; }
+      .brand img { width: 66px; height: 66px; }
+      h1 { max-width: none; }
+      .hero-inner { padding: 68px 0 58px; }
+      .section { padding: 58px 0; }
+      form { grid-template-columns: 1fr; }
+      .hero-actions,
+      .nav-links,
+      .footer-inner,
+      .topbar { gap: 12px; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <div class="topbar-wrap">
+      <div class="topbar">
+        <div><strong>Family-run since 1997</strong> • Serving South Bay outdoor living projects</div>
+        <div>CSL #948496 • <a href="tel:14086074653"><strong>(408) 607-4653</strong></a> • <a href="mailto:earthworkslcinc@gmail.com">earthworkslcinc@gmail.com</a></div>
+      </div>
+    </div>
+
+    <header class="nav-wrap">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Earthworks Landscape Construction, Inc. home">
+          <img src="https://images.squarespace-cdn.com/content/v1/64189119d9fcc9432336db76/4488374d-cb20-4b01-b416-8fbd4bbb3e98/EarthWorks+Logo+Package+READY-02.jpg?format=500w" alt="Earthworks Landscape Construction, Inc. logo" />
+          <span class="brand-text">
+            <span class="brand-name">Earthworks Landscape Construction, Inc.</span>
+            <span class="brand-sub">Landscape Construction • Outdoor Living • South Bay</span>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#work">Our Work</a>
+          <a href="#company">Company</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-solid" href="#contact">Request a Free Estimate</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Earthworks Landscape Construction, Inc.</span>
+          <h1>Built outdoor spaces that feel right at home.</h1>
+          <p class="lead">From paver patios and retaining walls to planting, drainage, lighting, and full outdoor living installations, Earthworks helps South Bay homeowners turn ideas into well-built landscapes that are made to last.</p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="#contact">Schedule Your Free Estimate</a>
+            <a class="btn btn-ghost" href="#work">View Recent Work</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Why homeowners choose Earthworks">
+          <h3>What you can expect</h3>
+          <p>Clear communication, detail-driven craftsmanship, and a crew that respects your budget, your timeline, and the final look of your property.</p>
+          <ul class="hero-list">
+            <li><strong>25+ years of experience</strong> working throughout South Bay communities.</li>
+            <li><strong>One contractor for the full job</strong> from hardscape to planting and lighting.</li>
+            <li><strong>Free estimate appointments</strong> with practical guidance and real next steps.</li>
+          </ul>
+          <a class="btn btn-solid" href="tel:14086074653">Call (408) 607-4653</a>
+        </aside>
+      </div>
+    </section>
+  </div>
+
+  <section class="trust-strip" aria-label="Trust signals">
+    <div class="trust-inner">
+      <div class="trust-item"><strong>Since 1997</strong><span>Family-run landscape construction experience</span></div>
+      <div class="trust-item"><strong>South Bay Focus</strong><span>Longstanding work across local communities</span></div>
+      <div class="trust-item"><strong>Full-Service Scope</strong><span>Hardscape, softscape, drainage, lighting, and builds</span></div>
+      <div class="trust-item"><strong>Licensed Contractor</strong><span>CSL #948496 with free estimate appointments</span></div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section" id="company">
+      <div class="section-inner grid-2">
+        <div class="section-copy">
+          <div class="kicker">A recognizable local company, clarified</div>
+          <h2>South Bay landscaping with a hands-on family approach.</h2>
+          <p class="lede">Eric and Dawn Jardine built Earthworks from the ground up in 1997. Over the years they raised their family, grew the business, and kept earning referrals by pairing quality workmanship with quality customer service.</p>
+          <p class="muted">That combination still shapes how projects are handled today: practical recommendations, steady progress on site, and a finished space that feels intentional rather than pieced together.</p>
+          <div class="grid-3" style="margin-top: 28px;">
+            <div class="stat-card">
+              <strong>25+</strong>
+              <p>Years of landscape construction experience behind every project.</p>
+            </div>
+            <div class="stat-card">
+              <strong>4</strong>
+              <p>Core service groups that cover the major parts of an outdoor build.</p>
+            </div>
+            <div class="stat-card">
+              <strong>1</strong>
+              <p>Point of contact to guide the estimate, scope, and scheduling process.</p>
+            </div>
+          </div>
+        </div>
+        <div class="image-frame">
+          <img src="https://images.squarespace-cdn.com/content/v1/64189119d9fcc9432336db76/3211684f-a789-4c38-a2ac-bfebc9904115/IMG_9389.PNG" alt="Completed Earthworks landscape construction project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="services">
+      <div class="section-inner">
+        <div class="kicker">Our services</div>
+        <h2>Landscape construction organized by what homeowners actually need.</h2>
+        <p class="lede">The original site hints at the range of work Earthworks does. Here it is laid out clearly, so first-time visitors can tell at a glance whether the company is the right fit.</p>
+        <div class="grid-4" style="margin-top: 30px;">
+          <article class="service-card">
+            <h3>Hardscape</h3>
+            <p>Pavers, retaining walls, flagstone, stepping stones, and walkways built with attention to grading, layout, and finish details.</p>
+            <ul>
+              <li>Patios and gathering spaces</li>
+              <li>Retaining and garden walls</li>
+              <li>Walkways, paths, and transitions</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Outdoor Builds</h3>
+            <p>Functional features that make the yard more usable for family time, entertaining, and everyday living.</p>
+            <ul>
+              <li>Outdoor kitchens</li>
+              <li>Pizza ovens and firepits</li>
+              <li>Pergolas and shade structures</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Softscape & Systems</h3>
+            <p>Planting and site systems chosen for the way your yard should look, perform, and be maintained over time.</p>
+            <ul>
+              <li>Drought tolerant and low-maintenance plantings</li>
+              <li>Artificial turf, sod, and tree planting</li>
+              <li>Drainage and watering systems</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Enhancements</h3>
+            <p>Finishing touches that complete the project and make the space easier to enjoy after the sun goes down.</p>
+            <ul>
+              <li>Low-voltage landscape lighting</li>
+              <li>Lighting integration with pathways and patios</li>
+              <li>Clean upgrades that support the full design</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="work">
+      <div class="section-inner">
+        <div class="kicker">Recent work & client feedback</div>
+        <h2>Amazing clients have allowed Earthworks to produce work they are proud of.</h2>
+        <p class="lede">The original gallery carries strong testimonials, but they sit too deep in the experience. Bringing that proof forward helps a new visitor trust the company sooner.</p>
+        <div class="grid-3" style="margin-top: 30px; margin-bottom: 30px;">
+          <div class="image-frame" style="background:#fff; border-color:rgba(26,47,36,0.1); box-shadow:none;">
+            <img src="https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618511387030-5LI1E5QMVTQ2RY9S00A4/20140228_Trade+151_0046+1.jpg" alt="Paver patio and landscape construction project" />
+          </div>
+          <div class="image-frame" style="background:#fff; border-color:rgba(26,47,36,0.1); box-shadow:none;">
+            <img src="https://images.squarespace-cdn.com/content/v1/64189119d9fcc9432336db76/3211684f-a789-4c38-a2ac-bfebc9904115/IMG_9389.PNG" alt="Outdoor living area completed by Earthworks" />
+          </div>
+          <div class="image-frame" style="background:#fff; border-color:rgba(26,47,36,0.1); box-shadow:none;">
+            <img src="https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618511387030-5LI1E5QMVTQ2RY9S00A4/20140228_Trade+151_0046+1.jpg" alt="Landscape feature installation by Earthworks" />
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="testimonial">
+            <p>“I did extensive research before choosing them, and I truly believe that they are superior to any other company in their field. Their high-quality work, excellent service, and vision creation set them apart.”</p>
+            <strong>Richard</strong>
+            <span>Marina, CA</span>
+          </article>
+          <article class="testimonial">
+            <p>“Eric and his team did an excellent job with our backyard. He was able to work with our budget and even gave other options without being pushy.”</p>
+            <strong>Jerome</strong>
+            <span>Gilroy, CA</span>
+          </article>
+          <article class="testimonial">
+            <p>“Eric stood out far above the rest: most professional, most knowledgeable, least salesy, and very detail minded. Wonderful experience and would strongly recommend.”</p>
+            <strong>Sal</strong>
+            <span>Morgan Hill, CA</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="kicker">What happens next</div>
+        <h2>A simple estimate process with clearer expectations.</h2>
+        <p class="lede">One of the biggest misses on the live site is the lack of a consultation story. This section fixes that by helping homeowners understand how a project begins.</p>
+        <div class="grid-3" style="margin-top: 30px;">
+          <article class="process-card">
+            <div class="process-step">01</div>
+            <h3>Tell Earthworks about the project</h3>
+            <p>Share the property location, the kind of work you are considering, and whether you already have ideas, photos, or a rough wish list.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-step">02</div>
+            <h3>Schedule a free estimate appointment</h3>
+            <p>Meet on site to walk the space, discuss budget and priorities, and get practical input on materials, features, and scope.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-step">03</div>
+            <h3>Move forward with a plan</h3>
+            <p>Once the direction is clear, Earthworks can outline the recommended work so the project can be scheduled and built efficiently.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="section-inner">
+        <div>
+          <div class="kicker">Ready to talk through your yard?</div>
+          <h2>From first ideas to final details, Earthworks would love to work with you.</h2>
+          <p class="lede">If you are planning pavers, retaining walls, a new planting plan, drainage work, or a complete outdoor living space, start with a free estimate appointment.</p>
+        </div>
+        <div>
+          <a class="btn btn-solid" href="#contact">Request a Free Estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="contact">
+      <div class="section-inner contact-layout">
+        <div class="contact-card">
+          <div class="kicker">Contact</div>
+          <h2>Let’s get your project on the calendar.</h2>
+          <p>Please fill out the form or reach out directly to request an appointment for a free estimate.</p>
+          <ul>
+            <li><strong>Phone:</strong> <a href="tel:14086074653">(408) 607-4653</a></li>
+            <li><strong>Email:</strong> <a href="mailto:earthworkslcinc@gmail.com">earthworkslcinc@gmail.com</a></li>
+            <li><strong>License:</strong> CSL #948496</li>
+            <li><strong>Service area:</strong> South Bay communities</li>
+          </ul>
+        </div>
+        <div class="contact-panel">
+          <h3>Request your free estimate</h3>
+          <form>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="Best number to reach you" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
+            <div class="field">
+              <label for="service">Project type</label>
+              <select id="service" name="service">
+                <option>Pavers / hardscape</option>
+                <option>Outdoor living build</option>
+                <option>Planting / softscape</option>
+                <option>Drainage / irrigation</option>
+                <option>Lighting / finishing work</option>
+              </select>
+            </div>
+            <div class="field-full">
+              <label for="message">Project details</label>
+              <textarea id="message" name="message" placeholder="Tell us about the space, goals, location, and any timing you have in mind."></textarea>
+            </div>
+            <div class="field-full">
+              <button class="btn btn-solid" type="submit">Request My Estimate</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© Earthworks Landscape Construction, Inc. • Family-run since 1997 • CSL #948496</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#company">Company</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
