@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-29-0052-overnight-9
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK anytime-heating-air-conditioning (Anytime Heating & Air Conditioning Inc)
+OK adept-construction (Adept Construction, Inc.)
+OK able-warnecke-roofing (Able-Warnecke Roofing Inc)
+OK aurora-electric (Aurora Electric)
+OK nifty-naperville-appliance-repair (Nifty Naperville Appliance Repair)
+OK naperville-locksmith (Naperville Locksmith)
+OK naperville-fence-company (Naperville Fence Company)
+OK naperville-gutters (Naperville Gutters)
+OK reliant-electrical (Reliant Electrical)
+OK naperville-deck-builders-proshield (Naperville Deck Builders / ProShield Exteriors)
