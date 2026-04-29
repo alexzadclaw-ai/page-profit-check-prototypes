@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-28-2326-overnight-4
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK pinpoint-maintenance (Pinpoint Maintenance)
+OK moons-handyman (Moon's Handyman Services)
+OK family-window-washing (Family Window Washing)
+OK xcellent-cleaning (Xcellent Cleaning, Inc.)
+OK naturally-maid-cleaning-co (Naturally Maid Cleaning Co.)
+OK helping-hands-naperville (Helping Hands Cleaning Services)
+OK power-wash-dudes (Power Wash Dudes)
+OK chicago-simply-clean (Chicago Simply Clean)
+OK elite-landscape-group (Elite Landscape Group)
+OK canini-dog-sitting (Canini Dog Sitting)
