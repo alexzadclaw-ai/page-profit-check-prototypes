@@ -1,0 +1,136 @@
+{
+  "batch": "2026-04-29-0039-overnight-8",
+  "createdAt": "2026-04-29T00:39:00-05:00",
+  "controller": "overnight-ppc-batch8-controller-gpt-5.5",
+  "model": "openai-codex/gpt-5.5",
+  "goal": {
+    "completedPackagesTargetCap": 100,
+    "freezeNewStartsAt": "2026-04-29T04:00:00-05:00",
+    "reportDueAt": "2026-04-29T06:00:00-05:00"
+  },
+  "totalPublishedBeforeBatch": 70,
+  "targetItems": 10,
+  "selectionNotes": "Fresh non-duplicate U.S. independent/local service-business prospects selected with public lightweight browsing only. No outreach performed.",
+  "items": [
+    {
+      "slug": "jb-concrete-contractor",
+      "name": "JB Concrete Contractor, Inc.",
+      "url": "https://jb-concrete.com/",
+      "contact": "https://jb-concrete.com/jb-concrete-contractor/",
+      "vertical": "commercial and residential concrete construction",
+      "location": "Naperville / Chicagoland suburbs, IL",
+      "priority": "high",
+      "angle": "40+ years of concrete proof is strong, but phone, form, service, and footer details can be organized around a clearer request-information path.",
+      "summary": "Established Naperville concrete contractor with real proof; the homepage can make commercial/residential quote intent much easier to act on.",
+      "status": "qualified"
+    },
+    {
+      "slug": "basement-bros-az",
+      "name": "Basement Bros A-Z",
+      "url": "https://www.basementbros.net/",
+      "contact": "https://www.basementbros.net/contact#OnlineScheduling",
+      "vertical": "basement waterproofing, foundation repair, crawl space, sump pump, and basement remodeling",
+      "location": "Aurora / Naperville, IL",
+      "priority": "high",
+      "angle": "Basement Bros has strong waterproofing and warranty proof, but placeholder details, generic social links, and mixed service copy dilute the urgent scheduling path.",
+      "summary": "Specialized basement waterproofing/remodeling company with clear proof; a tighter homepage can convert leak anxiety into scheduled visits faster.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-chimney-services",
+      "name": "Naperville Chimney Services",
+      "url": "https://www.napersweeps.com/",
+      "contact": "https://www.napersweeps.com/contact-chimney-experts",
+      "vertical": "chimney sweeping, inspections, repairs, gas logs, flue caps, and water prevention",
+      "location": "Oswego / Naperville, IL",
+      "priority": "high",
+      "angle": "Great credentials and community proof are buried under long testimonial/tip content and duplicated contact choices; a simpler booking path would make the safety story stronger.",
+      "summary": "Certified chimney company with strong trust proof; the homepage can shorten the path from safety concern to booked inspection.",
+      "status": "qualified"
+    },
+    {
+      "slug": "pave-tech-asphalt",
+      "name": "Pave Tech Asphalt, LLC",
+      "url": "https://www.pavetechasphalt.com/",
+      "contact": "https://www.pavetechasphalt.com/contact",
+      "vertical": "asphalt driveways, parking lots, tar and chip, walkways, and gravel paving",
+      "location": "Naperville / Chicago western suburbs, IL",
+      "priority": "high",
+      "angle": "The brand and project proof are polished, but duplicate nav/CTA text and repeated Learn More paths can be tightened around the quote request.",
+      "summary": "Quality paving company with strong project and owner proof; a quote-first homepage pass would reduce duplicated navigation friction.",
+      "status": "qualified"
+    },
+    {
+      "slug": "teran-concrete",
+      "name": "Teran Concrete Inc.",
+      "url": "https://www.teranconcrete.com/",
+      "contact": "https://www.teranconcrete.com/contact",
+      "vertical": "residential and commercial concrete driveways, patios, foundations, slabs, and decorative concrete",
+      "location": "Wheaton / Naperville / DuPage County, IL",
+      "priority": "high",
+      "angle": "Teran\u2019s 47-year proof is excellent, but crowded phone lines, duplicated menus, and service-list density make the free-estimate path harder than it needs to be.",
+      "summary": "Established DuPage concrete contractor with strong trust proof; a focused estimate-first homepage would make service selection easier.",
+      "status": "qualified"
+    },
+    {
+      "slug": "naperville-concrete-inc",
+      "name": "Naperville Concrete Inc.",
+      "url": "https://naperconcrete.com/",
+      "contact": "https://naperconcrete.com/#contact",
+      "vertical": "flat concrete, hardscaping, driveways, sidewalks, patios, fire pits, retaining walls, and decorative concrete",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "The site has good local proof and service categories, but the quote path and proof hierarchy can be tightened before visitors reach the lower contact section.",
+      "summary": "Naperville concrete/hardscape contractor with good project stats; a clearer first-screen quote path would improve conversion.",
+      "status": "qualified"
+    },
+    {
+      "slug": "royal-garage-doors-repair",
+      "name": "Royal Garage Doors Repair LLC",
+      "url": "https://royalgaragedoorsrepair.com/",
+      "contact": "https://royalgaragedoorsrepair.com/contact",
+      "vertical": "garage door repair, installation, openers, springs, panels, tracks, maintenance, and emergency service",
+      "location": "Naperville / Aurora / Chicagoland suburbs, IL",
+      "priority": "high",
+      "angle": "The 24/7 promise is strong, but duplicated review blocks, social-handle artifacts, and typo-level service text dilute trust before the call.",
+      "summary": "Naperville garage door company with urgent service proof; a tighter homepage can separate emergency repair from planned installation quickly.",
+      "status": "qualified"
+    },
+    {
+      "slug": "henson-concrete-construction",
+      "name": "Henson Concrete Construction",
+      "url": "https://www.hccil.com/",
+      "contact": "https://www.hccil.com/request-estimate",
+      "vertical": "commercial and residential concrete construction, foundations, driveways, patios, slabs, and parking lots",
+      "location": "Aurora / Naperville / Chicagoland and Southern Wisconsin",
+      "priority": "high",
+      "angle": "Henson has strong warranty, experience, and safety proof, but template residue, duplicated nav, and a long social feed make the estimate path feel less polished.",
+      "summary": "Concrete contractor with strong warranty and safety proof; template cleanup and estimate-path focus make this a high-fit Page Profit Check.",
+      "status": "qualified"
+    },
+    {
+      "slug": "wiz-plumbing",
+      "name": "Wiz Plumbing",
+      "url": "https://www.wizplumbingandsewer.com/",
+      "contact": "https://www.wizplumbingandsewer.com/contact/",
+      "vertical": "residential, sewer, detection, water systems, piping, outdoor, and commercial plumbing",
+      "location": "Naperville, IL",
+      "priority": "high",
+      "angle": "Wiz has memorable branding and review proof, but the giant duplicated mega-menu and playful service labels can slow urgent plumbing visitors.",
+      "summary": "High-proof plumbing brand with strong emergency/booking intent; a cleaner header and service grouping would help urgent users act faster.",
+      "status": "qualified"
+    },
+    {
+      "slug": "lacassa-plumbing",
+      "name": "LaCassa Plumbing",
+      "url": "https://lacassaplumbing.com/",
+      "contact": "https://lacassaplumbing.com/#call",
+      "vertical": "residential, commercial, emergency plumbing, water heaters, sewer repair, water softeners, filtration, and drain cleaning",
+      "location": "Naperville, IL",
+      "priority": "medium",
+      "angle": "LaCassa has strong proof and polished copy, but #call-only scheduling, 0% counters, and long service sections can be tightened around the booking path.",
+      "summary": "Strong Naperville plumbing site with credible proof; a focused Page Profit Check would remove counter friction and clarify scheduling.",
+      "status": "qualified"
+    }
+  ]
+}
