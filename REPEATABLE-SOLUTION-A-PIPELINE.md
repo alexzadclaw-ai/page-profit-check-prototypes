@@ -9,6 +9,27 @@ Produce a believable improved homepage that:
 - is reviewable as a static HTML prototype
 - can be shared via htmlpreview when needed
 
+
+## Fidelity repair operating rule
+
+Do not scale a repair run until a small calibration pilot is approved. The approved Steve Piper pilot showed the bar:
+- use the actual original hero/banner asset, not a similar service-card image
+- preserve the original header/nav/utility-bar rhythm
+- keep the real brand colors and typography feel
+- recapture screenshots after every visual change
+- publish a timestamped embedded side-by-side report for review
+
+For each site, build from evidence:
+1. Capture live screenshot.
+2. Inspect live assets/CSS for logo, hero/background, fonts, colors, nav/header.
+3. Write a visual fingerprint note.
+4. Build the prototype from that fingerprint.
+5. Recapture prototype screenshot.
+6. Compare original/prototype screenshots side by side.
+7. Only then run package QA and commit.
+
+A worker that only creates a generic conversion layout has failed the task, even if all required files exist.
+
 ## Step 1 — Capture the live page
 Gather:
 - homepage URL

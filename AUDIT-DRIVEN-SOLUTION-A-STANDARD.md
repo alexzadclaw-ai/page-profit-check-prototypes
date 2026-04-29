@@ -35,6 +35,45 @@ Do not default to Solution A when the site is so broken that a minimal cleanup c
 4. **The prototype must read like a believable improved homepage**
    No internal commentary, no "experiment" language, no explanation copy about what the prototype is doing.
 
+
+## Steve Piper calibration lesson — fidelity means using the actual site DNA
+
+The Steve Piper pilot exposed a failure mode: prototypes can pass artifact QA and still be unusable if they share a generic layout/template instead of matching the original site. Treat this as a hard standard for all agents.
+
+Before coding any prototype, agents must capture and use the site's actual visual DNA:
+- original logo and real public image assets, especially hero/banner images
+- exact header/nav/utility-bar structure and color treatment
+- real background image choice and crop/framing, not a substitute image
+- original font family or close typography feel
+- original section density, card rhythm, CTA/button style, and builder quirks
+
+For Steve Piper, the accepted calibration used the real hero asset:
+`https://lirp.cdn-website.com/dbc08bb1/dms3rep/multi/opt/banner-1920w.jpg`
+
+The wrong attempts failed because they tried to manipulate the wrong background image (`wid4`) with zoom/crop changes. The fix was not “zoom more” or “zoom less”; the fix was to identify and use the correct original banner asset.
+
+### Visual fidelity gate
+
+A prototype cannot be marked complete until it passes this gate:
+1. Put the original screenshot and prototype screenshot side by side.
+2. Within three seconds, the prototype must look like the same site family.
+3. Header/logo/nav, hero image, colors, type feel, and section rhythm must be recognizably derived from the original.
+4. If the prototype looks like a house template shared with other leads, it fails even if the copy and CTA strategy are good.
+5. If an image/background looks wrong, inspect the live site assets and CSS instead of guessing with `background-size` tweaks.
+
+### Agent process requirement
+
+For large-scale repair or generation, every worker must include a short “visual fingerprint evidence” note before implementation:
+- source screenshot path or URL
+- logo asset URL/path
+- hero/background asset URL/path
+- dominant colors
+- font/typography feel
+- header/nav pattern
+- one sentence explaining what makes the original recognizable
+
+Workers should not proceed to bulk prototype generation without this fingerprint. Supervisors must spot-check rendered screenshots, not just file existence.
+
 ## Required workflow
 
 ### 1) Build a visual fingerprint before coding
