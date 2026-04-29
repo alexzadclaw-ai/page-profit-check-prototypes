@@ -1,0 +1,15 @@
+Batch package QA: 2026-04-28-2303-overnight-3
+batch.json items: 10
+complete: 10
+incomplete: 0
+
+OK apn-cleaning-service (APN Cleaning Service LLC)
+OK alchemist-massage (Alchemist Massage, PLLC)
+OK midway-dog-academy (Midway Dog Academy)
+OK petes-powerhouse (Pete's POWERHOUSE Window Cleaning & Power Washing)
+OK eco-cleaning-services (Eco Cleaning Services)
+OK kelps-window-cleaning (Kelps Window Cleaning)
+OK pure-windows (Pure Windows)
+OK hearts-for-paws-llc (Hearts for Paws LLC)
+OK handyman-experts (Handyman Experts Inc.)
+OK ecoclean-carpet-cleaning (EcoClean Carpet Cleaning)

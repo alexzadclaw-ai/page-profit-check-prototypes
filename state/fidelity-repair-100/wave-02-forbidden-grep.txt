@@ -1,0 +1,10 @@
+Prototype forbidden terms:
+Report checks:
+base64=htmlpreview=wellabee=Original website=60
+Prototype=60
+Audit report=20
+Offer letter=20
+Contact point=20
+Fingerprint=20
+cards=20
+webp refs=40
