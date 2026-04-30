@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krystal Klean Cleaning Services | Phoenix House Cleaning & Move-Out Cleaning</title>
+  <meta name="description" content="Krystal Klean Cleaning Services offers house cleaning, window washing, and move in/out cleaning with direct phone and email contact in the Phoenix area.">
+  <style>
+    :root{
+      --ink:#191919;
+      --muted:#555f61;
+      --line:#d9d9d9;
+      --soft:#e9f8f7;
+      --panel:#f7f7f7;
+      --white:#fff;
+      --button:#050505;
+      --max:1180px;
+      --sans:"Avenir Light","Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;
+      --brand:"Brandon Grotesque","Helvetica Neue",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:var(--sans);color:var(--ink);background:#fff;font-size:15px;line-height:1.7;font-weight:300}
+    a{color:inherit;text-decoration:none}
+    .wix-bar{height:50px;background:#eff1f2;border-bottom:1px solid #c9d1d3;color:#20303c;display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px}
+    .wix-logo{font-weight:700;letter-spacing:.08em;color:#000}
+    .wix-pill{border:1px solid #166aea;color:#166aea;border-radius:999px;padding:4px 14px;font-size:12px;background:white}
+    .wrap{width:min(var(--max),calc(100% - 80px));margin:auto}
+    header{background:#fff;padding:34px 0 30px;border-bottom:0 solid var(--line)}
+    .header-grid{display:grid;grid-template-columns:1.1fr .8fr .65fr;align-items:start;gap:26px}
+    .brand{font-family:var(--brand);font-size:22px;letter-spacing:.03em;text-transform:uppercase;line-height:1.2;margin:0 0 7px;font-weight:300}
+    .tagline{font-size:14px;margin:0;color:#333}
+    nav{display:flex;gap:30px;padding-top:58px;font-size:14px}
+    nav a{position:relative}
+    nav a:first-child:after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:1px;background:#111}
+    .header-contact{display:grid;grid-template-columns:auto auto;gap:18px 26px;justify-content:end;align-items:start;font-size:14px;padding-top:7px}
+    .outline{border:1px solid #111;border-radius:999px;padding:11px 22px;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#fff}
+    .header-contact .mini{font-size:13px;text-align:left;padding-top:62px;line-height:1.55}
+    .hero{padding:42px 0 62px;background:#fff}
+    .split{display:grid;grid-template-columns:1fr 1fr;min-height:610px;background:var(--panel)}
+    .hero-copy{padding:118px 78px 86px;display:flex;flex-direction:column;justify-content:center}
+    .eyebrow{font-size:14px;margin:0 0 22px;color:#333}
+    h1,h2,h3{font-family:var(--brand);font-weight:300;letter-spacing:.035em;text-transform:uppercase;line-height:1.2;color:#1d1d1d}
+    h1{font-size:42px;margin:0 0 30px;max-width:520px}
+    h2{font-size:42px;margin:0 0 18px;text-align:center}
+    h3{font-size:24px;margin:0 0 10px}
+    p{margin:0 0 20px}
+    .hero-copy p.body{max-width:520px;color:#333;font-size:15px}
+    .button-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid #111;border-radius:999px;padding:10px 22px;min-height:42px;font-size:13px;background:#fff;color:#111}
+    .btn.dark{background:#050505;color:#fff;border-color:#050505;border-radius:0;min-width:210px}
+    .hero-img{background:url('assets/bedroom.jpg') center/cover no-repeat;min-height:610px}
+    .photo-band{background:var(--soft);padding:70px 0}
+    .wide-photo{height:260px;background:url('assets/carpet.jpg') center 58%/cover no-repeat}
+    .statement{background:var(--soft);padding:116px 0 94px;text-align:center}
+    .statement .inner{max-width:860px;margin:auto}
+    .statement h2{font-size:50px;line-height:1.25;margin-bottom:22px}
+    .statement p.lead{font-size:15px;color:#333;max-width:760px;margin:0 auto 28px}
+    .trust{display:grid;grid-template-columns:repeat(4,1fr);gap:0;max-width:960px;margin:42px auto 0;border-top:1px solid rgba(0,0,0,.18);border-bottom:1px solid rgba(0,0,0,.18)}
+    .trust div{padding:22px 18px;border-left:1px solid rgba(0,0,0,.14);font-size:13px;letter-spacing:.03em}
+    .trust div:first-child{border-left:0}
+    .trust strong{display:block;text-transform:uppercase;font-family:var(--brand);font-size:15px;font-weight:300;letter-spacing:.08em;margin-bottom:4px}
+    .services{background:#fff}
+    .tile-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+    .service-tile{position:relative;min-height:320px;overflow:hidden;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px}
+    .service-tile:before{content:"";position:absolute;inset:0;background:center/cover no-repeat;transform:scale(1.01)}
+    .service-tile:after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.26)}
+    .service-tile.house:before{background-image:url('assets/carpet.jpg')}
+    .service-tile.windows:before{background-image:url('assets/window-cleaners.jpg')}
+    .service-tile.move:before{background-image:url('assets/moving-boxes.jpg')}
+    .service-tile .content{position:relative;z-index:1;max-width:300px}
+    .service-tile h3{color:#fff;font-size:23px;margin-bottom:11px}
+    .service-tile p{font-size:13px;line-height:1.65;margin:0;color:#fff}
+    .details{padding:78px 0 88px;background:#fff}
+    .details-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:34px}
+    .detail-card{border:1px solid var(--line);padding:34px 30px;min-height:220px;background:#fff}
+    .detail-card h3{font-size:22px;text-align:left}
+    .detail-card p{color:#3c3c3c;font-size:14px}
+    .process{background:var(--soft);padding:86px 0;text-align:center}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:42px;text-align:left}
+    .step{background:rgba(255,255,255,.55);border:1px solid rgba(0,0,0,.12);padding:30px;min-height:180px}
+    .number{font-family:var(--brand);font-size:34px;line-height:1;margin-bottom:18px;color:#111}
+    .contact{background:#f7f7f7;padding:78px 0 150px}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.15fr;gap:96px;align-items:start}
+    .contact h2{text-align:left;font-size:34px;margin-bottom:26px}
+    .contact-info{text-align:center;padding-top:8px}
+    .contact-info h2{text-align:center}
+    .contact-info p{font-size:14px;margin-bottom:18px}
+    form{display:grid;grid-template-columns:1fr 1fr;gap:20px 22px}
+    label{display:block;font-size:12px;color:#222}
+    input,textarea{width:100%;border:0;border-bottom:1px solid #222;background:transparent;padding:8px 0 9px;font:inherit;font-size:13px;outline:none;border-radius:0;color:#111}
+    textarea{grid-column:1/-1;min-height:106px;resize:vertical}
+    .full{grid-column:1/-1}
+    button{font:inherit;cursor:pointer}
+    .submit{grid-column:1/-1;background:#050505;color:#fff;border:0;padding:12px 20px;margin-top:4px;font-size:13px}
+    footer{background:#fff;text-align:center;padding:30px 0 18px;font-size:13px;color:#111}
+    .footer-phone{margin-bottom:18px}
+    .footer-links{display:flex;justify-content:center;gap:22px;font-size:12px;margin-bottom:20px}
+    .copyright{background:#f1f1f1;padding:14px 0;font-size:12px;color:#333}
+    @media(max-width:980px){
+      .wrap{width:min(var(--max),calc(100% - 34px))}
+      .header-grid{grid-template-columns:1fr;gap:16px}
+      nav{padding-top:12px;flex-wrap:wrap}.header-contact{justify-content:start}.header-contact .mini{padding-top:0}.split,.contact-grid,.details-grid,.steps{grid-template-columns:1fr}.hero-copy{padding:60px 34px}.hero-img{min-height:420px}.tile-grid{grid-template-columns:1fr}.trust{grid-template-columns:1fr}.trust div{border-left:0;border-top:1px solid rgba(0,0,0,.12)}.trust div:first-child{border-top:0}form{grid-template-columns:1fr}.statement h2{font-size:38px}
+    }
+    @media(max-width:560px){.wix-bar{font-size:11px;padding:0 10px}.brand{font-size:19px}h1{font-size:34px}h2{font-size:32px}.button-row .btn{width:100%}.hero-copy{padding:44px 24px}.hero-img{min-height:320px}.wide-photo{height:210px}.contact{padding-bottom:88px}}
+  </style>
+</head>
+<body>
+  <div class="wix-bar"><span class="wix-logo">WIX</span><span>This website was built on Wix. Create yours today.</span><span class="wix-pill">Get Started</span></div>
+
+  <header>
+    <div class="wrap header-grid">
+      <div>
+        <p class="brand">KRYSTAL KLEAN CLEANING SERVICES</p>
+        <p class="tagline">Local People. Great Service.</p>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#services">Book Online</a>
+        </nav>
+      </div>
+      <div></div>
+      <div class="header-contact">
+        <a class="outline" href="#contact">Get In Touch</a>
+        <div></div>
+        <div class="mini"><a href="mailto:crystalbetkowski69@gmail.com">crystalbetkowski69@gmail.com</a></div>
+        <div class="mini"><a href="tel:+15306912345">530-691-2345</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="wrap split">
+        <div class="hero-copy">
+          <h1>House cleaning made clear, reliable, and easy to request.</h1>
+          <p class="eyebrow">Reliable &amp; Honest</p>
+          <p class="body">Krystal Klean Cleaning Services helps with regular house cleaning, window washing, and move in/out cleaning for homes that need careful attention and clear communication.</p>
+          <div class="button-row">
+            <a class="btn" href="#contact">Request a Cleaning Quote</a>
+            <a class="btn" href="tel:+15306912345">Call 530-691-2345</a>
+          </div>
+        </div>
+        <div class="hero-img" role="img" aria-label="Clean bedroom with fresh linens"></div>
+      </div>
+    </section>
+
+    <section class="photo-band" aria-label="Clean living room photo">
+      <div class="wrap"><div class="wide-photo"></div></div>
+    </section>
+
+    <section class="statement">
+      <div class="wrap inner">
+        <h2>KRYSTAL KLEAN<br>CLEANING SERVICES</h2>
+        <p class="eyebrow">Your Satisfaction Is Our Priority</p>
+        <p class="lead">Fair prices, quality service, and direct contact make it easier to schedule the right clean. Tell us what kind of help you need, where the job is, and when you would like it done.</p>
+        <a class="btn" href="#contact">Start With a Quote</a>
+        <div class="trust" aria-label="Trust highlights">
+          <div><strong>Local service</strong>Phoenix area cleaning help</div>
+          <div><strong>Direct contact</strong>Phone and email visible</div>
+          <div><strong>Clear options</strong>Home, window, and move cleans</div>
+          <div><strong>Next step</strong>Quote details before booking</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="tile-grid">
+        <article class="service-tile house">
+          <div class="content">
+            <h3>House Cleaning</h3>
+            <p>Routine cleaning for the rooms, surfaces, and details that keep a home feeling cared for.</p>
+          </div>
+        </article>
+        <article class="service-tile windows">
+          <div class="content">
+            <h3>Window Washing</h3>
+            <p>Attention to detail for windows and glass areas that need a brighter, cleaner finish.</p>
+          </div>
+        </article>
+        <article class="service-tile move">
+          <div class="content">
+            <h3>Move In &amp; Out Cleaning</h3>
+            <p>Cleaning support for transitions, empty rooms, and the details that matter before or after a move.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="wrap details-grid">
+        <article class="detail-card">
+          <h3>Regular home cleaning</h3>
+          <p>Share the rooms, timing, and priorities so the cleaning request starts with the right expectations.</p>
+        </article>
+        <article class="detail-card">
+          <h3>Detail-focused projects</h3>
+          <p>Window washing and specialty cleaning requests are easier to quote when the scope is clear up front.</p>
+        </article>
+        <article class="detail-card">
+          <h3>Move cleaning</h3>
+          <p>Move in and move out jobs often need flexible scheduling, address details, and a clear checklist.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="wrap">
+        <h2>How getting a clean works</h2>
+        <p class="lead">A simple next step helps customers know what to send before they book.</p>
+        <div class="steps">
+          <article class="step"><div class="number">01</div><h3>Tell us the service</h3><p>House cleaning, windows, move in/out cleaning, or a custom request.</p></article>
+          <article class="step"><div class="number">02</div><h3>Share the details</h3><p>Include the address or area, preferred timing, and what needs the most attention.</p></article>
+          <article class="step"><div class="number">03</div><h3>Confirm the quote</h3><p>Krystal Klean follows up so expectations are clear before the clean is scheduled.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <h2>GET IN TOUCH</h2>
+          <p>Phoenix, AZ, USA</p>
+          <p><a href="mailto:crystalbetkowski69@gmail.com">crystalbetkowski69@gmail.com</a></p>
+          <p><a href="tel:+15306912345">530-691-2345</a></p>
+        </div>
+        <form>
+          <label>Name<input type="text" name="name" autocomplete="name"></label>
+          <label>Email<input type="email" name="email" autocomplete="email"></label>
+          <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+          <label>Address / Area<input type="text" name="address" autocomplete="street-address"></label>
+          <label class="full">Service Needed<input type="text" name="service" placeholder="House cleaning, windows, move in/out, or other"></label>
+          <textarea name="message" placeholder="Tell us the timing, rooms, property details, and what needs the most attention..."></textarea>
+          <button class="submit" type="button">Request a Cleaning Quote</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-phone"><a href="tel:+15306912345">530-691-2345</a></div>
+    <div class="footer-links"><span>House Cleaning</span><span>Window Washing</span><span>Move In &amp; Out Cleaning</span></div>
+    <div class="copyright">©2018 by Krystal Klean Cleaning Services.</div>
+  </footer>
+</body>
+</html>

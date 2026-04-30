@@ -1,0 +1,98 @@
+{
+  "batch": "2026-04-29-0200-nightly",
+  "created": "2026-04-29",
+  "mode": "nationwide-nightly-page-profit-check-solution-a-gpt-5.5",
+  "note": "Fresh nationwide batch using audit-driven Solution A standards: surgical, high-fidelity homepage cleanup prototypes tied to concrete audit findings. Parent and workers targeted gpt-5.5.",
+  "items": [
+    {
+      "name": "JR Contracting & Handyman Services LLC",
+      "slug": "jr-contracting-handyman-services",
+      "url": "https://mercury1250.wixsite.com/website",
+      "contact": "mailto:mercury1250@gmail.com",
+      "priority": "A",
+      "summary": "Wix handyman site has generic template copy, weak service hierarchy, and a vague contact path despite clear Vancouver WA local-service intent.",
+      "source": "https://mercury1250.wixsite.com/website"
+    },
+    {
+      "name": "TOMY’S Mobile Detailing",
+      "slug": "tomys-mobile-detailing",
+      "url": "https://tomasmn11.wixsite.com/tomysdetailing",
+      "contact": "mailto:tomasmn11@gmail.com",
+      "priority": "A",
+      "summary": "Utah mobile detailing page has real packages and contact info but suffers from cramped service copy, weak trust proof, and no clear booking flow.",
+      "source": "https://tomasmn11.wixsite.com/tomysdetailing"
+    },
+    {
+      "name": "Wraggs Welding Repair",
+      "slug": "wraggs-welding-repair",
+      "url": "https://wraggswelding.wixsite.com/website",
+      "contact": "https://wraggswelding.wixsite.com/website/contact",
+      "priority": "A-",
+      "summary": "Welding repair site has a recognizable solo-tradesperson feel, but template-like headings, broad claims, and buried service proof leave a strong cleanup opportunity.",
+      "source": "https://wraggswelding.wixsite.com/website"
+    },
+    {
+      "name": "Houston Personal Concierge",
+      "slug": "houston-personal-concierge",
+      "url": "https://patsandel.wixsite.com/personalassistant/our-services",
+      "contact": "tel:+12817362914",
+      "priority": "A-",
+      "summary": "Service list is extensive but overwhelming; a buyer-intent homepage can make errand, executive, realtor, travel, and home-management paths clearer.",
+      "source": "https://patsandel.wixsite.com/personalassistant/our-services"
+    },
+    {
+      "name": "LQC Marketing Consulting",
+      "slug": "lqc-marketing-consulting",
+      "url": "https://lqcmarketing.wixsite.com/website",
+      "contact": "mailto:lqcmarketingconsulting@gmail.com",
+      "priority": "A-",
+      "summary": "Consulting site has credible experience but dense copy, repeated marketing categories, and a weak conversion path for project inquiries.",
+      "source": "https://lqcmarketing.wixsite.com/website"
+    },
+    {
+      "name": "PNW Mobile Detailing",
+      "slug": "pnw-mobile-detailing",
+      "url": "https://pnwmobiledetailing.wixsite.com/website",
+      "contact": "mailto:pnwmobiledetailing@gmail.com",
+      "priority": "B+",
+      "summary": "Mobile detailing site has seasonal offer residue, sparse service clarity, and minimal trust framing despite clear phone/email lead intent.",
+      "source": "https://pnwmobiledetailing.wixsite.com/website"
+    },
+    {
+      "name": "On The Level Handyman LLC",
+      "slug": "on-the-level-handyman-llc",
+      "url": "https://onthelevelhandyllc.wixsite.com/website",
+      "contact": "mailto:Onthelevelhandymanllc@yahoo.com",
+      "priority": "B+",
+      "summary": "WV handyman site has licensing credibility and estimate intent but generic Wix blocks, thin trust proof, and unclear service grouping.",
+      "source": "https://onthelevelhandyllc.wixsite.com/website"
+    },
+    {
+      "name": "L & M Contracting, LLC",
+      "slug": "lm-contracting-llc",
+      "url": "https://lmcontracting1.wixsite.com/lmcontractingllc",
+      "contact": "mailto:lmcontracting1@yahoo.com",
+      "priority": "B+",
+      "summary": "Michigan site-work contractor has a useful service list and contact info but needs a clearer quote path, service buckets, and commercial/residential trust cues.",
+      "source": "https://lmcontracting1.wixsite.com/lmcontractingllc"
+    },
+    {
+      "name": "Catalan Tree & Landscaping Service",
+      "slug": "catalan-tree-landscaping-service",
+      "url": "https://catalanservices201.wixsite.com/website",
+      "contact": "mailto:catalanservices2019@gmail.com",
+      "priority": "B+",
+      "summary": "Tree and landscaping site shows placeholder testimonials and scattered service copy, making trust cleanup and quote-flow clarity easy to demonstrate.",
+      "source": "https://catalanservices201.wixsite.com/website"
+    },
+    {
+      "name": "JW Home Improvements and Landscape LLC",
+      "slug": "jw-home-improvements-landscape",
+      "url": "https://jwhomeimprovementswi.wixsite.com/jw-home-improvements",
+      "contact": "mailto:josephwilkins86@gmail.com",
+      "priority": "B+",
+      "summary": "Madison home improvement/landscape site has clear local intent but template testimonials, thin differentiation, and service paths that need tightening.",
+      "source": "https://jwhomeimprovementswi.wixsite.com/jw-home-improvements"
+    }
+  ]
+}

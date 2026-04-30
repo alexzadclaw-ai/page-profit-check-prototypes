@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Handyman in Vacaville, CA | Ultimate Handyman, LLC</title>
+  <meta name="description" content="Ultimate Handyman, LLC provides small remodels, tile, custom projects, repairs, painting, welding and fabrication in Vacaville, Solano County and Yolo County. Request a free estimate." />
+  <style>
+    :root {
+      --black: #181818;
+      --black-2: #111111;
+      --blue: #22384d;
+      --green: #83f77d;
+      --green-soft: #d9f5c8;
+      --white: #ffffff;
+      --muted: rgba(255,255,255,.78);
+      --ink: #181818;
+      --max: 980px;
+      --font: Avenir, "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--blue);
+      color: var(--white);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .top-strip {
+      background: var(--black);
+      color: #fff;
+      border-bottom: 1px solid rgba(131,247,125,.25);
+    }
+    .top-strip .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 0 20px;
+      font-size: 15px;
+    }
+    .contact-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .contact-links a {
+      text-decoration: none;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .social {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    .social a {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--black);
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--black);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 8px 28px rgba(0,0,0,.24);
+    }
+    .brand-row {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 320px;
+    }
+    .brand img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 2px;
+    }
+    .brand-title {
+      font-size: 17px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      margin: 0 0 3px;
+      color: #fff;
+      font-weight: 400;
+    }
+    .brand-sub {
+      margin: 0;
+      color: rgba(255,255,255,.88);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 23px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    nav a:first-child { color: var(--green); }
+    nav .estimate-link {
+      color: var(--ink);
+      background: var(--green);
+      padding: 10px 15px;
+      font-weight: 700;
+    }
+
+    .hero {
+      background: var(--green);
+      color: var(--ink);
+      position: relative;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 54px;
+      background: rgba(0,0,0,.04);
+    }
+    .hero-inner {
+      max-width: var(--max);
+      min-height: 430px;
+      margin: 0 auto;
+      padding: 72px 20px 64px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 54px;
+      align-items: center;
+      position: relative;
+    }
+    .eyebrow {
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      margin: 0 0 14px;
+      font-weight: 800;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 6vw, 66px);
+      line-height: .98;
+      text-transform: uppercase;
+      letter-spacing: .01em;
+      font-weight: 900;
+      color: #181818;
+    }
+    .hero-lede {
+      font-size: 20px;
+      color: rgba(24,24,24,.86);
+      margin: 22px 0 26px;
+      max-width: 560px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 45px;
+      padding: 12px 22px;
+      text-decoration: none;
+      font-weight: 800;
+      border: 2px solid transparent;
+      color: var(--ink);
+      background: var(--green);
+      line-height: 1.1;
+    }
+    .hero .btn.primary {
+      background: var(--black);
+      color: var(--white);
+      border-color: var(--black);
+    }
+    .hero .btn.secondary {
+      background: transparent;
+      color: var(--ink);
+      border-color: var(--ink);
+    }
+    .hero-card {
+      background: var(--black);
+      color: var(--white);
+      padding: 28px;
+      border-left: 8px solid var(--blue);
+      box-shadow: 0 20px 45px rgba(0,0,0,.24);
+    }
+    .hero-card h2 {
+      margin: 0 0 16px;
+      font-size: 24px;
+      line-height: 1.18;
+      text-transform: uppercase;
+      color: var(--green-soft);
+    }
+    .hero-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+      color: rgba(255,255,255,.86);
+    }
+    .hero-list li::before {
+      content: "•";
+      color: var(--green);
+      font-weight: 900;
+      margin-right: 9px;
+    }
+
+    .trust-strip {
+      background: var(--black);
+      border-top: 1px solid rgba(255,255,255,.07);
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+    .trust-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 20px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+    .trust-item {
+      border-left: 4px solid var(--green);
+      padding-left: 14px;
+    }
+    .trust-item strong {
+      display: block;
+      color: var(--green-soft);
+      font-size: 16px;
+      line-height: 1.25;
+      margin-bottom: 4px;
+    }
+    .trust-item span {
+      display: block;
+      color: rgba(255,255,255,.74);
+      font-size: 13px;
+    }
+
+    .section-title-band {
+      background: var(--blue);
+      color: var(--green-soft);
+    }
+    .section-title-band.green {
+      background: var(--green);
+      color: var(--ink);
+    }
+    .title-inner {
+      max-width: var(--max);
+      min-height: 214px;
+      margin: 0 auto;
+      padding: 72px 20px 54px;
+    }
+    .title-inner.center { text-align: center; }
+    .title-inner h2 {
+      margin: 0;
+      font-size: clamp(40px, 5vw, 56px);
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: .01em;
+      color: inherit;
+    }
+    .title-inner p {
+      margin: 12px 0 0;
+      color: rgba(255,255,255,.86);
+      font-size: 20px;
+    }
+    .green .title-inner p { color: rgba(24,24,24,.82); }
+
+    .dark-section {
+      background: var(--black);
+    }
+    .service-row {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 74px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+    .service-copy h3 {
+      margin: 0 0 8px;
+      font-size: 25px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      color: var(--green-soft);
+      font-weight: 500;
+    }
+    .service-copy .sub {
+      margin: 0 0 18px;
+      color: #fff;
+      font-size: 20px;
+    }
+    .service-copy p {
+      color: rgba(255,255,255,.74);
+      margin: 0 0 22px;
+    }
+    .service-points {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 8px 14px;
+      margin: 0 0 24px;
+      padding: 0;
+      list-style: none;
+      color: rgba(255,255,255,.84);
+      font-size: 14px;
+    }
+    .service-points li::before {
+      content: "✓";
+      color: var(--green);
+      margin-right: 7px;
+      font-weight: 900;
+    }
+    .project-image {
+      position: relative;
+      background: var(--blue);
+      padding: 0;
+    }
+    .project-image img {
+      width: 100%;
+      min-height: 260px;
+      max-height: 360px;
+      object-fit: cover;
+      filter: contrast(1.05) saturate(.88);
+    }
+    .project-image figcaption {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(24,24,24,.86);
+      color: #fff;
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+
+    .support-grid {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 66px 20px 82px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .support-card {
+      background: #222;
+      border-top: 7px solid var(--green);
+      padding: 25px 23px 26px;
+      min-height: 190px;
+    }
+    .support-card h3 {
+      margin: 0 0 10px;
+      color: var(--green-soft);
+      text-transform: uppercase;
+      font-size: 21px;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+    .support-card p {
+      margin: 0;
+      color: rgba(255,255,255,.75);
+      font-size: 15px;
+    }
+
+    .projects {
+      background: var(--black);
+      padding: 70px 20px 92px;
+    }
+    .project-grid {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .project-card {
+      background: #222;
+      min-height: 100%;
+    }
+    .project-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+    .project-card div {
+      padding: 20px 18px 22px;
+    }
+    .project-card h3 {
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      color: var(--green-soft);
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+    .project-card p {
+      margin: 0;
+      color: rgba(255,255,255,.76);
+      font-size: 15px;
+    }
+
+    .testimonials {
+      background: var(--blue);
+      padding: 72px 20px 92px;
+    }
+    .testimonials h2 {
+      text-align: center;
+      color: var(--green);
+      text-transform: uppercase;
+      font-size: clamp(40px, 5vw, 56px);
+      margin: 0 0 42px;
+      line-height: 1;
+    }
+    .quote-grid {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    blockquote {
+      margin: 0;
+      background: rgba(24,24,24,.55);
+      border-left: 6px solid var(--green);
+      padding: 24px 22px;
+      color: rgba(255,255,255,.86);
+      min-height: 260px;
+    }
+    blockquote p {
+      margin: 0 0 18px;
+      font-size: 16px;
+    }
+    blockquote cite {
+      font-style: normal;
+      color: var(--green-soft);
+      font-weight: 800;
+      display: block;
+    }
+
+    .process {
+      background: var(--black);
+      padding: 72px 20px 82px;
+    }
+    .process-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 46px;
+      align-items: start;
+    }
+    .process h2 {
+      margin: 0 0 16px;
+      color: var(--green-soft);
+      text-transform: uppercase;
+      font-size: 42px;
+      line-height: 1.05;
+    }
+    .process p {
+      color: rgba(255,255,255,.75);
+      margin: 0 0 24px;
+    }
+    .steps {
+      display: grid;
+      gap: 18px;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 18px;
+      background: #222;
+      padding: 20px;
+      border-left: 5px solid var(--green);
+    }
+    .num {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      background: var(--green);
+      color: var(--ink);
+      font-weight: 900;
+    }
+    .step h3 {
+      margin: 0 0 5px;
+      color: #fff;
+      font-size: 20px;
+    }
+    .step p { margin: 0; font-size: 15px; }
+
+    .contact-section {
+      background: var(--green);
+      color: var(--ink);
+      padding: 70px 20px;
+    }
+    .contact-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .contact-section h2 {
+      margin: 0 0 14px;
+      font-size: clamp(40px, 5vw, 58px);
+      line-height: 1;
+      text-transform: uppercase;
+      color: var(--ink);
+    }
+    .contact-section p {
+      margin: 0 0 22px;
+      color: rgba(24,24,24,.82);
+      font-size: 19px;
+    }
+    .contact-card {
+      background: var(--black);
+      color: var(--white);
+      padding: 30px;
+      border-left: 8px solid var(--blue);
+    }
+    .contact-card a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      font-size: 21px;
+      margin: 0 0 12px;
+    }
+    .contact-card .addr {
+      color: rgba(255,255,255,.76);
+      margin-top: 18px;
+      font-size: 15px;
+    }
+
+    footer {
+      background: var(--black);
+      color: rgba(255,255,255,.74);
+      padding: 36px 20px;
+    }
+    footer .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 14px;
+    }
+    footer strong { color: #fff; }
+    footer a { color: var(--green-soft); text-decoration: none; }
+
+    @media (max-width: 900px) {
+      .top-strip .inner,
+      .brand-row {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      nav { justify-content: flex-start; gap: 14px 20px; }
+      .hero-inner,
+      .service-row,
+      .process-inner,
+      .contact-inner {
+        grid-template-columns: 1fr;
+      }
+      .hero-inner { gap: 26px; min-height: auto; }
+      .trust-inner,
+      .support-grid,
+      .project-grid,
+      .quote-grid {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+      }
+    }
+    @media (max-width: 620px) {
+      .contact-links { gap: 10px 16px; }
+      .brand { min-width: 0; }
+      .brand img { width: 64px; height: 64px; }
+      nav .estimate-link { width: 100%; text-align: center; }
+      .hero-inner, .title-inner, .service-row, .support-grid, .projects, .testimonials, .process, .contact-section { padding-left: 18px; padding-right: 18px; }
+      .trust-inner,
+      .support-grid,
+      .project-grid,
+      .quote-grid {
+        grid-template-columns: 1fr;
+      }
+      .service-points { grid-template-columns: 1fr; }
+      .title-inner { min-height: 170px; padding-top: 54px; }
+      blockquote { min-height: 0; }
+      footer .inner { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">
+    <div class="inner">
+      <div class="contact-links" aria-label="Contact Ultimate Handyman">
+        <a href="mailto:handykylem@gmail.com">handykylem@gmail.com</a>
+        <a href="tel:+17076894531">(707) 689-4531</a>
+      </div>
+      <div class="social" aria-label="Social links">
+        <a href="https://www.yelp.com/biz/ultimate-handyman-vacaville-6?osq=Handyman" aria-label="Yelp">Y</a>
+        <a href="https://www.facebook.com/HandyKyleM/" aria-label="Facebook">f</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <a class="brand" href="#top" aria-label="Ultimate Handyman home">
+        <img src="https://static.wixstatic.com/media/c0558c_59e06765c56442faa1403b0dd2327314~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_59e06765c56442faa1403b0dd2327314~mv2.jpg" alt="Kyle from Ultimate Handyman" />
+        <span>
+          <span class="brand-title">Ultimate Handyman, LLC</span>
+          <span class="brand-sub">Home Improvement You Can Trust<br />License # 029203</span>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#services">Services &amp; Skills</a>
+        <a href="#projects">My Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#process">About Me</a>
+        <a class="estimate-link" href="mailto:handykylem@gmail.com?subject=Free%20estimate%20request">Request Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Services &amp; Skills</p>
+          <h1 id="hero-title">Home improvement you can trust.</h1>
+          <p class="hero-lede">Small remodels, tile, custom projects, repairs, painting, welding and fabrication for homeowners in Vacaville, Solano County and Yolo County.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="mailto:handykylem@gmail.com?subject=Free%20estimate%20request">Request a Free Estimate</a>
+            <a class="btn secondary" href="tel:+17076894531">Call (707) 689-4531</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Why homeowners call Ultimate Handyman">
+          <h2>Professional, detailed and built around your project.</h2>
+          <ul class="hero-list">
+            <li>High-end remodel background with a local handyman approach.</li>
+            <li>Clear communication before the work starts.</li>
+            <li>Careful tile, upgrade, repair and custom work.</li>
+            <li>Free estimates for the right-fit projects.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Trust highlights">
+      <div class="trust-inner">
+        <div class="trust-item"><strong>License #029203</strong><span>Licensed local handyman business</span></div>
+        <div class="trust-item"><strong>Vacaville, CA</strong><span>Serving Solano &amp; Yolo County</span></div>
+        <div class="trust-item"><strong>Remodel + repair</strong><span>From upgrades to quick fixes</span></div>
+        <div class="trust-item"><strong>Real project proof</strong><span>Photos and customer testimonials</span></div>
+      </div>
+    </section>
+
+    <section id="services" class="section-title-band green" aria-labelledby="services-title">
+      <div class="title-inner">
+        <h2 id="services-title">Services &amp; Skills</h2>
+        <p>Find out what Kyle can do — then call or email with the project details.</p>
+      </div>
+    </section>
+
+    <section class="dark-section" aria-label="Main services">
+      <article class="service-row">
+        <div class="service-copy">
+          <h3>Small remodels &amp; upgrades</h3>
+          <p class="sub">Professional and Experienced</p>
+          <p>Need remodel or improvement work? Kyle brings years of high-end remodeling experience and focuses on quality workmanship, clear expectations, and practical next steps.</p>
+          <ul class="service-points">
+            <li>Bathrooms</li>
+            <li>Baseboards</li>
+            <li>Vanities</li>
+            <li>Lighting updates</li>
+          </ul>
+          <a class="btn" href="mailto:handykylem@gmail.com?subject=Small%20remodel%20estimate">Ask About a Remodel</a>
+        </div>
+        <figure class="project-image">
+          <img src="https://static.wixstatic.com/media/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg/v1/crop/x_0,y_46,w_960,h_705/fill/w_460,h_340,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg" alt="Bathroom remodel with barn door by Ultimate Handyman" />
+          <figcaption>Bathroom remodel and upgrade work</figcaption>
+        </figure>
+      </article>
+
+      <article class="service-row">
+        <div class="service-copy">
+          <h3>Tile</h3>
+          <p class="sub">Detailed and Conscientious</p>
+          <p>Tile work needs careful prep, even lines, and patience. Kyle handles tile installs with the kind of detail homeowners notice every day after the job is done.</p>
+          <ul class="service-points">
+            <li>Bathroom tile</li>
+            <li>Backsplashes</li>
+            <li>Floor prep</li>
+            <li>Clean grout lines</li>
+          </ul>
+          <a class="btn" href="mailto:handykylem@gmail.com?subject=Tile%20project%20estimate">Talk About Tile</a>
+        </div>
+        <figure class="project-image">
+          <img src="https://static.wixstatic.com/media/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg/v1/fill/w_460,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg" alt="Shower tile project by Ultimate Handyman" />
+          <figcaption>Clean tile work with careful layout</figcaption>
+        </figure>
+      </article>
+
+      <article class="service-row">
+        <div class="service-copy">
+          <h3>Custom projects</h3>
+          <p class="sub">Ultimate Craftsman</p>
+          <p>Have a custom idea for your home? If you know what you want, Kyle can help make it happen. If you only have the start of an idea, he can help figure out where to begin.</p>
+          <ul class="service-points">
+            <li>Built-ins</li>
+            <li>Display shelving</li>
+            <li>Custom finishes</li>
+            <li>Problem solving</li>
+          </ul>
+          <a class="btn" href="mailto:handykylem@gmail.com?subject=Custom%20project%20estimate">Start a Custom Project</a>
+        </div>
+        <figure class="project-image">
+          <img src="https://static.wixstatic.com/media/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg/v1/fill/w_460,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg" alt="Shiplap and display shelving project by Ultimate Handyman" />
+          <figcaption>Shiplap and display shelving upgrade</figcaption>
+        </figure>
+      </article>
+
+      <div class="support-grid" aria-label="Additional services">
+        <div class="support-card">
+          <h3>Painting</h3>
+          <p>Refresh rooms, trim, accents, and project finishes with practical prep and clean completion.</p>
+        </div>
+        <div class="support-card">
+          <h3>Welding &amp; Fabrication</h3>
+          <p>Useful for custom home, yard, repair, and metal-art related projects when the fit is right.</p>
+        </div>
+        <div class="support-card">
+          <h3>Quick Fixes &amp; Repairs</h3>
+          <p>Small tasks, punch-list items, and repair work are welcome when they match the schedule and scope.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-title-band" aria-labelledby="projects-title">
+      <div class="title-inner">
+        <h2 id="projects-title">Past Projects</h2>
+      </div>
+    </section>
+
+    <section class="projects" aria-label="Project examples">
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="https://static.wixstatic.com/media/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg/v1/crop/x_0,y_46,w_960,h_705/fill/w_460,h_340,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg" alt="Completed bathroom remodel by Ultimate Handyman" />
+          <div>
+            <h3>Bathroom Remodel</h3>
+            <p>New tile floor, shower, paint, baseboards, toilet, vanity, backsplash, medicine cabinet and light/fan.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="https://static.wixstatic.com/media/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg/v1/fill/w_460,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg" alt="Custom tile wall and mirror project by Ultimate Handyman" />
+          <div>
+            <h3>Custom Tile Wall</h3>
+            <p>A detailed tile installation that upgraded the look and feel of the room with a strong finished result.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="https://static.wixstatic.com/media/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg/v1/fill/w_460,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg" alt="Kitchen shiplap and display shelving project by Ultimate Handyman" />
+          <div>
+            <h3>Shiplap &amp; Shelving</h3>
+            <p>A simple, high-impact kitchen upgrade with shiplap, display shelving, and custom lighting.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials" aria-labelledby="testimonials-title">
+      <h2 id="testimonials-title">Testimonials</h2>
+      <div class="quote-grid">
+        <blockquote>
+          <p>“Kyle has expansive construction knowledge, does meticulous work, is reliable and a great communicator.”</p>
+          <cite>Pamela H. — Davis, CA</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Kyle did amazing work on my house. He has high standards and knows how to do an astounding number of things.”</p>
+          <cite>Lisa M. — Campbell, CA</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Very responsive, shows up when he says he will, is very professional and a true craftsman.”</p>
+          <cite>Cheri V. — Vacaville, CA</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="process" class="process" aria-labelledby="process-title">
+      <div class="process-inner">
+        <div>
+          <h2 id="process-title">What happens next</h2>
+          <p>Send a short description, a few photos if helpful, and where the project is located. Kyle can tell you whether it is a fit and what the estimate process should look like.</p>
+          <a class="btn" href="mailto:handykylem@gmail.com?subject=Free%20estimate%20request">Request a Free Estimate</a>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="num">1</div>
+            <div><h3>Share the project</h3><p>Describe what you want built, repaired, upgraded, or looked at.</p></div>
+          </article>
+          <article class="step">
+            <div class="num">2</div>
+            <div><h3>Talk through fit</h3><p>Kyle reviews the scope, answers questions, and explains the likely next step.</p></div>
+          </article>
+          <article class="step">
+            <div class="num">3</div>
+            <div><h3>Schedule the work</h3><p>If it is a good fit, you get a clear path from estimate to completed project.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner">
+        <div>
+          <h2 id="contact-title">Let’s talk.</h2>
+          <p>For remodels, tile, custom work, quick fixes, painting, welding or fabrication, call or email with your project details.</p>
+          <div class="cta-row">
+            <a class="btn primary" style="background:#181818;color:#fff" href="mailto:handykylem@gmail.com?subject=Free%20estimate%20request">Request a Free Estimate</a>
+            <a class="btn secondary" href="tel:+17076894531">Call Now</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:handykylem@gmail.com">handykylem@gmail.com</a>
+          <a href="tel:+17076894531">(707) 689-4531</a>
+          <div class="addr">Vacaville, CA 95687<br />Serving Solano &amp; Yolo County</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <div><strong>Ultimate Handyman, LLC</strong> · Home Improvement You Can Trust · License #029203</div>
+      <div><a href="https://www.yelp.com/biz/ultimate-handyman-vacaville-6?osq=Handyman">Yelp</a> · <a href="https://www.facebook.com/HandyKyleM/">Facebook</a></div>
+    </div>
+  </footer>
+</body>
+</html>

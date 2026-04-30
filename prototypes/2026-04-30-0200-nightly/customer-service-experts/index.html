@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customer Service Training in Johnson City, TN | Customer Service Experts</title>
+  <meta name="description" content="Customer Service Experts provides customer service skills training, business performance consulting, and training seminars for Johnson City and Tri-Cities area teams. Schedule a training class." />
+  <style>
+    :root {
+      --yellow: #fbbc0b;
+      --navy: #1f3149;
+      --gold: #d3ba83;
+      --pale: #f6f8f8;
+      --line: #d7dde4;
+      --ink: #1f3149;
+      --muted: #677080;
+      --white: #ffffff;
+      --max: 1080px;
+      --font: Raleway, Avenir, "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+      --heavy: Avenir, "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: var(--font);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .site-header {
+      background: var(--white);
+      min-height: 150px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(31,49,73,.06);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .header-inner {
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 28px 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    .logo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+    .logo-link img {
+      width: 45px;
+      height: 40px;
+      object-fit: contain;
+    }
+    .brand-wordmark {
+      font-family: var(--heavy);
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: var(--navy);
+      opacity: 0;
+      width: 1px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 28px;
+      font-size: 14px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--navy);
+      white-space: nowrap;
+    }
+    nav a:hover { color: var(--yellow); }
+    nav .nav-cta {
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 16px;
+      font-weight: 600;
+    }
+    nav .nav-cta:hover { color: #fff; background: #15253a; }
+
+    .hero {
+      position: relative;
+      min-height: 740px;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      background: #f8fafb;
+    }
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      filter: saturate(.92) brightness(1.06);
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,.08) 20%, rgba(255,255,255,.15) 54%, rgba(255,255,255,.72) 100%);
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px 42px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-family: var(--heavy);
+      margin: 0;
+      color: var(--yellow);
+      font-size: clamp(46px, 6.4vw, 82px);
+      line-height: 1.03;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      font-weight: 900;
+      text-shadow: 0 2px 14px rgba(255,255,255,.72);
+    }
+    .hero-panel {
+      margin: 24px auto 0;
+      max-width: 820px;
+      background: rgba(255,255,255,.92);
+      border-top: 8px solid rgba(31,49,73,.62);
+      padding: 22px 30px 26px;
+      box-shadow: 0 18px 50px rgba(31,49,73,.12);
+    }
+    .hero-kicker {
+      margin: 0 0 9px;
+      font-size: 19px;
+      color: var(--navy);
+    }
+    .hero-panel p:not(.hero-kicker) {
+      margin: 0 auto 20px;
+      color: var(--muted);
+      max-width: 700px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 45px;
+      padding: 12px 22px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .btn.primary { background: var(--navy); color: #fff; }
+    .btn.secondary { background: var(--yellow); color: var(--navy); }
+    .btn.outline { border-color: var(--navy); color: var(--navy); background: transparent; }
+    .btn.gold { background: var(--gold); color: #fff; }
+
+    .trust-strip {
+      background: var(--navy);
+      color: #fff;
+    }
+    .trust-grid {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 26px 24px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,.22);
+    }
+    .trust-item {
+      background: var(--navy);
+      padding: 10px 18px;
+      text-align: center;
+    }
+    .trust-item strong {
+      display: block;
+      color: var(--yellow);
+      font-family: var(--heavy);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 5px;
+    }
+    .trust-item span {
+      display: block;
+      color: rgba(255,255,255,.82);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    section { scroll-margin-top: 150px; }
+    .yellow-band {
+      background: var(--yellow);
+      color: var(--navy);
+      padding: 116px 24px 96px;
+      text-align: center;
+    }
+    .section-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+    .section-title {
+      font-family: var(--heavy);
+      font-size: clamp(30px, 4vw, 42px);
+      line-height: 1.15;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+      margin: 0 0 26px;
+      font-weight: 900;
+    }
+    .section-subtitle {
+      margin: 0 0 24px;
+      font-size: 17px;
+    }
+    .narrow {
+      max-width: 740px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .yellow-band .narrow { color: rgba(31,49,73,.9); }
+
+    .white-section {
+      background: #fff;
+      padding: 88px 24px;
+    }
+    .pale-section {
+      background: var(--pale);
+      padding: 88px 24px;
+    }
+    .navy-section {
+      background: var(--navy);
+      color: #fff;
+      padding: 82px 24px;
+      text-align: center;
+    }
+    .navy-section .section-title { color: var(--yellow); }
+    .navy-section p { color: rgba(255,255,255,.82); }
+
+    .booking-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 32px;
+    }
+    .booking-card {
+      border: 1px solid var(--line);
+      background: #fff;
+      min-height: 100%;
+    }
+    .booking-media {
+      height: 330px;
+      background: #d8dbe0;
+      overflow: hidden;
+    }
+    .booking-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .booking-body { padding: 32px 34px 34px; }
+    .booking-card h3 {
+      font-family: var(--heavy);
+      color: var(--navy);
+      font-size: 24px;
+      line-height: 1.25;
+      margin: 0 0 18px;
+    }
+    .rule {
+      height: 1px;
+      background: var(--line);
+      margin: 0 0 24px;
+    }
+    .price-line {
+      display: grid;
+      gap: 3px;
+      margin: 0 0 18px;
+      color: var(--navy);
+      font-size: 15px;
+    }
+    .booking-card p {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+
+    .split-services {
+      display: grid;
+      gap: 0;
+      border-top: 1px solid rgba(31,49,73,.08);
+      border-bottom: 1px solid rgba(31,49,73,.08);
+    }
+    .service-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 420px;
+      background: #fff;
+    }
+    .service-row:nth-child(even) .service-copy { order: 1; }
+    .service-row:nth-child(even) .service-img { order: 2; }
+    .service-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .service-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 68px clamp(36px, 7vw, 96px);
+      background: #fff;
+    }
+    .service-copy h3 {
+      margin: 0 0 20px;
+      font-family: var(--heavy);
+      color: var(--yellow);
+      text-transform: uppercase;
+      letter-spacing: .02em;
+      font-size: clamp(22px, 3vw, 30px);
+      line-height: 1.18;
+    }
+    .service-copy p {
+      margin: 0 0 24px;
+      color: var(--muted);
+      max-width: 480px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 42px;
+    }
+    .step {
+      background: #fff;
+      border: 1px solid rgba(31,49,73,.12);
+      padding: 30px 28px;
+      text-align: left;
+    }
+    .step-num {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 18px;
+      background: var(--yellow);
+      color: var(--navy);
+      font-weight: 900;
+      font-family: var(--heavy);
+    }
+    .step h3 {
+      margin: 0 0 10px;
+      color: var(--navy);
+      font-family: var(--heavy);
+      font-size: 20px;
+    }
+    .step p { margin: 0; color: var(--muted); }
+
+    .contact-section {
+      background: #fff;
+      padding: 92px 24px 110px;
+    }
+    .contact-grid {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: .86fr 1.14fr;
+      gap: 70px;
+      align-items: start;
+    }
+    .contact-details h2 {
+      color: var(--yellow);
+      margin-bottom: 30px;
+    }
+    .contact-details p { color: var(--navy); margin: 0 0 18px; }
+    .contact-list {
+      display: grid;
+      gap: 13px;
+      margin-top: 26px;
+      color: var(--navy);
+    }
+    .contact-list a { text-decoration: none; }
+    .contact-list a:hover { color: var(--yellow); }
+    .form-card {
+      background: #fff;
+      border: 1px solid rgba(31,49,73,.12);
+      padding: 10px 0 0;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 24px;
+    }
+    .field { display: grid; gap: 6px; }
+    .field.full { grid-column: 1 / -1; }
+    label {
+      font-size: 14px;
+      color: var(--navy);
+    }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid var(--navy);
+      min-height: 42px;
+      padding: 8px 0;
+      font: inherit;
+      color: var(--navy);
+      background: transparent;
+      outline: none;
+    }
+    textarea { min-height: 92px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: #8c95a2; }
+    .form-button {
+      margin-top: 22px;
+      width: 100%;
+      min-height: 50px;
+      border: 0;
+      background: var(--navy);
+      color: #fff;
+      font: inherit;
+      cursor: pointer;
+    }
+    .form-note {
+      color: var(--muted);
+      margin: 18px 0 0;
+      font-size: 13px;
+    }
+
+    .contact-image {
+      margin-top: 46px;
+      height: 380px;
+      overflow: hidden;
+    }
+    .contact-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+
+    footer {
+      padding: 44px 24px 52px;
+      text-align: center;
+      background: #fff;
+      color: var(--navy);
+      border-top: 1px solid rgba(31,49,73,.08);
+      font-size: 14px;
+    }
+    .footer-phones {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    @media (max-width: 900px) {
+      .site-header { min-height: 112px; position: static; }
+      .header-inner { padding: 22px 24px; }
+      nav { gap: 16px; font-size: 13px; }
+      nav .nav-cta { display: none; }
+      .hero { min-height: 660px; }
+      .trust-grid { grid-template-columns: repeat(2, 1fr); }
+      .booking-grid, .contact-grid { grid-template-columns: 1fr; }
+      .service-row { grid-template-columns: 1fr; min-height: auto; }
+      .service-row:nth-child(even) .service-copy, .service-row:nth-child(even) .service-img { order: initial; }
+      .service-img { height: 300px; }
+      .steps { grid-template-columns: 1fr; }
+      .contact-image { height: 300px; }
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 14px; }
+      .header-inner {
+        padding: 18px 18px;
+        align-items: flex-start;
+      }
+      nav {
+        max-width: 230px;
+        justify-content: flex-end;
+        gap: 10px 15px;
+      }
+      .hero { min-height: 620px; }
+      .hero-content { padding: 0 18px 30px; }
+      .hero h1 { font-size: 43px; }
+      .hero-panel { padding: 20px 18px 22px; }
+      .cta-row { align-items: stretch; }
+      .btn { width: 100%; }
+      .trust-grid { grid-template-columns: 1fr; padding: 0; }
+      .yellow-band, .white-section, .pale-section, .navy-section, .contact-section { padding: 64px 18px; }
+      .booking-media { height: 230px; }
+      .booking-body { padding: 26px 22px 28px; }
+      .service-copy { padding: 44px 22px; }
+      .form-grid { grid-template-columns: 1fr; }
+      .contact-grid { gap: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" aria-label="Site header">
+    <div class="header-inner">
+      <a class="logo-link" href="#home" aria-label="Customer Service Experts home">
+        <img src="https://static.wixstatic.com/media/f44071_3acae59f7c72485db34b830c231b732a~mv2.png/v1/fill/w_45,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/support-logo.png" alt="Customer Service Experts support logo" />
+        <span class="brand-wordmark" aria-hidden="true">Customer Service Experts</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#book">Book Online</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="mailto:customerservice.expert.heather@gmail.com?subject=Training%20Class%20Request">Schedule Class</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Customer Service Experts">
+      <img class="hero-img" src="https://static.wixstatic.com/media/4f8f5a805e504f0c95afe05b01d26d77.jpg/v1/fill/w_1365,h_900,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4f8f5a805e504f0c95afe05b01d26d77.jpg" alt="Modern meeting room for customer service training" />
+      <div class="hero-content">
+        <h1>Customer Service<br />Experts</h1>
+        <div class="hero-panel">
+          <p class="hero-kicker">Professional Customer Success Consultant</p>
+          <p>Customer service skills training and business-performance consulting for Johnson City and Tri-Cities area teams that need a clear, practical class.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="mailto:customerservice.expert.heather@gmail.com?subject=Training%20Class%20Request">Schedule a Training Class</a>
+            <a class="btn outline" href="tel:4236621963">Call 4236621963</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Quick details">
+      <div class="trust-grid">
+        <div class="trust-item"><strong>Johnson City, TN</strong><span>Serving the Tri-Cities area</span></div>
+        <div class="trust-item"><strong>1 hr classes</strong><span>Simple scheduling options</span></div>
+        <div class="trust-item"><strong>$60 bookings</strong><span>Published training options</span></div>
+        <div class="trust-item"><strong>Training + Consulting</strong><span>Customer service and performance focus</span></div>
+      </div>
+    </section>
+
+    <section class="yellow-band" id="about">
+      <div class="section-inner">
+        <h2 class="section-title">About Our Dedication</h2>
+        <p class="section-subtitle">Consulting with Purpose</p>
+        <p class="narrow">Projects can be challenging; the Customer Service Experts team is here to lighten the load. The focus is capability, adaptability, and scalability, with a practical crash course in customer service for employees and teams across the Tri-Cities area.</p>
+        <div class="cta-row" style="margin-top: 28px;">
+          <a class="btn primary" href="mailto:customerservice.expert.heather@gmail.com?subject=Training%20Class%20Request">Get in Touch</a>
+          <a class="btn outline" href="#book">View Training Options</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="white-section" id="book">
+      <div class="section-inner">
+        <h2 class="section-title" style="text-align:center; color: var(--navy); margin-bottom: 46px; text-transform:none; font-size: clamp(30px, 4vw, 40px);">Our Services</h2>
+        <div class="booking-grid">
+          <article class="booking-card">
+            <div class="booking-media">
+              <img src="https://static.wixstatic.com/media/7c41782c1010453c86fcb413fed190ed.jpg/v1/fill/w_683,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c41782c1010453c86fcb413fed190ed.jpg" alt="Team discussion for customer service skills training" />
+            </div>
+            <div class="booking-body">
+              <h3>Customer Service Experts</h3>
+              <div class="rule"></div>
+              <div class="price-line"><span>1 hr</span><span>$60</span></div>
+              <p>A focused customer-service training class for employees who need practical expectations, language, and service habits they can use quickly.</p>
+              <a class="btn gold" href="mailto:customerservice.expert.heather@gmail.com?subject=Customer%20Service%20Experts%20Booking">Book Now</a>
+            </div>
+          </article>
+
+          <article class="booking-card">
+            <div class="booking-media">
+              <img src="https://static.wixstatic.com/media/4fa872fd75d046b8a227a5202176ab14.jpg/v1/fill/w_565,h_565,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/4fa872fd75d046b8a227a5202176ab14.jpg" alt="Business consultant explaining performance recommendations" />
+            </div>
+            <div class="booking-body">
+              <h3>Business Performance Consulting</h3>
+              <div class="rule"></div>
+              <div class="price-line"><span>1 hr</span><span>$60</span></div>
+              <p>A working session for call center growth, customer-service processes, training plans, or a timely seminar around service performance.</p>
+              <a class="btn gold" href="mailto:customerservice.expert.heather@gmail.com?subject=Business%20Performance%20Consulting%20Booking">Book Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="navy-section" id="services">
+      <div class="section-inner">
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">Your Strategic Partner</p>
+        <p class="narrow">Training can be shaped around a new project, an existing team, a call-center expansion, or a customer-service seminar.</p>
+      </div>
+    </section>
+
+    <section class="split-services" aria-label="Service categories">
+      <article class="service-row">
+        <div class="service-img">
+          <img src="https://static.wixstatic.com/media/7c41782c1010453c86fcb413fed190ed.jpg/v1/fill/w_683,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c41782c1010453c86fcb413fed190ed.jpg" alt="Customer service skills training meeting" />
+        </div>
+        <div class="service-copy">
+          <h3>Customer Service Skills Training</h3>
+          <p>Give new or existing employees a practical customer-service foundation in a focused class that is built around your team’s needs.</p>
+          <a class="btn secondary" href="mailto:customerservice.expert.shanna@gmail.com?subject=Customer%20Service%20Skills%20Training">Get in Touch</a>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <div class="service-copy">
+          <h3>Business Performance Consulting</h3>
+          <p>Talk through customer-service process, call-center expansion, and performance questions with consultants who focus on capability and scalability.</p>
+          <a class="btn secondary" href="mailto:customerservice.expert.heather@gmail.com?subject=Business%20Performance%20Consulting">Get in Touch</a>
+        </div>
+        <div class="service-img">
+          <img src="https://static.wixstatic.com/media/55d9dfa3e2d341bd891263e2d0491c1b.jpg/v1/fill/w_683,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/55d9dfa3e2d341bd891263e2d0491c1b.jpg" alt="Business training convention room" />
+        </div>
+      </article>
+
+      <article class="service-row">
+        <div class="service-img">
+          <img src="https://static.wixstatic.com/media/95d9be60e88844eaa92ed30f871d5bae.jpg/v1/fill/w_683,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/95d9be60e88844eaa92ed30f871d5bae.jpg" alt="Business meeting for customer service training seminars" />
+        </div>
+        <div class="service-copy">
+          <h3>Customer Service Training Seminars</h3>
+          <p>Plan a timely customer-service seminar for teams that need shared language, clearer service expectations, and a stronger customer experience.</p>
+          <a class="btn secondary" href="mailto:customerservice.expert.shanna@gmail.com?subject=Customer%20Service%20Training%20Seminars">Get in Touch</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="pale-section" aria-label="What happens next">
+      <div class="section-inner">
+        <h2 class="section-title" style="text-align:center; color:var(--navy);">What Happens Next</h2>
+        <p class="narrow" style="text-align:center; color:var(--muted);">Send a few details, choose the right class or consulting path, and confirm the best appointment time.</p>
+        <div class="steps">
+          <article class="step">
+            <div class="step-num">1</div>
+            <h3>Share the training goal</h3>
+            <p>Include the team need, class topic, and whether the request is for customer-service training or business-performance consulting.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">2</div>
+            <h3>Confirm class details</h3>
+            <p>Customer Service Experts can clarify timing, team context, and the best fit for a 1-hour session or seminar.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">3</div>
+            <h3>Run the session</h3>
+            <p>Your employees get a practical customer-service crash course or consulting conversation focused on the result you need.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-grid">
+        <div class="contact-details">
+          <h2 class="section-title">Contact Us</h2>
+          <p>Contact us to schedule an appointment for your training class.</p>
+          <div class="contact-list">
+            <strong>JOHNSON CITY, TN</strong>
+            <a href="mailto:customerservice.expert.heather@gmail.com">customerservice.expert.heather@gmail.com</a>
+            <a href="mailto:customerservice.expert.shanna@gmail.com">customerservice.expert.shanna@gmail.com</a>
+            <a href="tel:4236621963">4236621963</a>
+            <a href="tel:4239488861">4239488861</a>
+          </div>
+          <div class="contact-image">
+            <img src="https://static.wixstatic.com/media/54f3100f2aaa441f80eaab12cc44c8a9.jpg/v1/fill/w_603,h_920,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/54f3100f2aaa441f80eaab12cc44c8a9.jpg" alt="Business consultant meeting with a client" />
+          </div>
+        </div>
+
+        <div class="form-card" aria-label="Contact form">
+          <form action="mailto:customerservice.expert.heather@gmail.com" method="post" enctype="text/plain">
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name *</label>
+                <input id="name" name="name" placeholder="Enter your name" />
+              </div>
+              <div class="field">
+                <label for="email">Email *</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email" />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" placeholder="Enter your phone number" />
+              </div>
+              <div class="field">
+                <label for="address">Address</label>
+                <input id="address" name="address" placeholder="Enter your address" />
+              </div>
+              <div class="field full">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" placeholder="Training class, consulting, or seminar" />
+              </div>
+              <div class="field full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us your team size, training goal, and preferred appointment time..."></textarea>
+              </div>
+            </div>
+            <button class="form-button" type="submit">Submit</button>
+            <p class="form-note">You can also email or call directly if that is easier.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-phones">
+      <a href="tel:4236621963">4236621963</a>
+      <a href="tel:4239488861">4239488861</a>
+    </div>
+    <div>© Customer Service Experts</div>
+  </footer>
+</body>
+</html>

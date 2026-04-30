@@ -1,0 +1,98 @@
+{
+  "batch": "2026-04-30-0200-nightly",
+  "created": "2026-04-30",
+  "mode": "nationwide-nightly-page-profit-check-solution-a-gpt-5.5",
+  "note": "Fresh nationwide batch using audit-driven Solution A standards: high-fidelity surgical homepage cleanup prototypes tied to concrete audit findings. Parent and workers targeted gpt-5.5.",
+  "items": [
+    {
+      "name": "Serrano's Detailing",
+      "slug": "serranos-detailing",
+      "url": "https://serranosdetailing.wixsite.com/detailing/mobile-detailing",
+      "contact": "mailto:SerranosDetailing@gmail.com",
+      "priority": "A",
+      "summary": "Mobile detailing service page has clear packages and contact info, but long price blocks, repeated generic CTAs, and weak trust/booking hierarchy make a focused quote flow easy to demonstrate.",
+      "source": "https://serranosdetailing.wixsite.com/detailing/mobile-detailing"
+    },
+    {
+      "name": "Ultimate Handyman, LLC",
+      "slug": "ultimate-handyman-llc",
+      "url": "https://handykylem.wixsite.com/website",
+      "contact": "mailto:handykylem@gmail.com",
+      "priority": "A",
+      "summary": "Vacaville/Winters handyman site has real licensing/contact cues and service depth, but verbose service copy and weak estimate path dilute the local conversion opportunity.",
+      "source": "https://handykylem.wixsite.com/website"
+    },
+    {
+      "name": "A Job Well Done Handy Man",
+      "slug": "a-job-well-done-handyman",
+      "url": "https://gku803.wixsite.com/handyman",
+      "contact": "mailto:T.P.P.1957@gmail.com",
+      "priority": "A",
+      "summary": "Western Upstate SC handyman page has strong service coverage but overwhelming all-caps copy, crowded lists, and unclear first-step CTA for commercial maintenance leads.",
+      "source": "https://gku803.wixsite.com/handyman"
+    },
+    {
+      "name": "Flawless Handyman Service",
+      "slug": "flawless-handyman-service",
+      "url": "https://flawlesshandyman.wixsite.com/website",
+      "contact": "mailto:flawlesshandyman@gmail.com",
+      "priority": "A-",
+      "summary": "Orange County handyman site shows many services and a quote form, but spelling issues, cluttered service lists, duplicated contact areas, and weak trust ordering hurt credibility.",
+      "source": "https://flawlesshandyman.wixsite.com/website"
+    },
+    {
+      "name": "Jake's Home Solutions",
+      "slug": "jakes-home-solutions",
+      "url": "https://3436261.wixsite.com/handyman",
+      "contact": "mailto:3436261@gmail.com",
+      "priority": "A-",
+      "summary": "Anniston-area home repair page has useful insurance/experience cues but all-caps messaging, broad service grouping, and a buried email/phone flow create a clear cleanup sprint.",
+      "source": "https://3436261.wixsite.com/handyman"
+    },
+    {
+      "name": "A Honey Do List Handyman Services LLC",
+      "slug": "a-honey-do-list-handyman-services",
+      "url": "https://ahdlhandyman.wixsite.com/website",
+      "contact": "mailto:ahdlhandyman@gmail.com",
+      "priority": "B+",
+      "summary": "Handyman site has real project photos and services, but the homepage leads with informal bio copy, project fragments, and scattered CTAs instead of estimate-focused service paths.",
+      "source": "https://ahdlhandyman.wixsite.com/website"
+    },
+    {
+      "name": "Jaslar Mobile Detailing",
+      "slug": "jaslar-mobile-detailing",
+      "url": "https://nsjaslar2.wixsite.com/website-1",
+      "contact": "mailto:jaslardetailing@gmail.com",
+      "priority": "B+",
+      "summary": "Lower Bucks mobile detailing site has packages and clear phone/email, but dense pricing text, typos, and limited top-of-page proof make a cleaner booking path pitchable.",
+      "source": "https://nsjaslar2.wixsite.com/website-1"
+    },
+    {
+      "name": "Krystal Klean Cleaning Services",
+      "slug": "krystal-klean-cleaning-services",
+      "url": "https://crystalbetkowski69.wixsite.com/website",
+      "contact": "mailto:crystalbetkowski69@gmail.com",
+      "priority": "B+",
+      "summary": "Cleaning service site has direct phone/email and service categories, but generic Wix copy, repeated claims, and inconsistent location cues create trust and clarity issues.",
+      "source": "https://crystalbetkowski69.wixsite.com/website"
+    },
+    {
+      "name": "TWS Cleaning",
+      "slug": "tws-cleaning",
+      "url": "https://twscleaningpros.wixsite.com/website",
+      "contact": "mailto:twscleaningpros@gmail.com",
+      "priority": "B+",
+      "summary": "Arkansas office cleaning site has local service intent and contact info, but generic hero language, awkward section copy, and placeholder-style testimonial/trust flow need tightening.",
+      "source": "https://twscleaningpros.wixsite.com/website"
+    },
+    {
+      "name": "Customer Service Experts",
+      "slug": "customer-service-experts",
+      "url": "https://customerserviceexp04.wixsite.com/website",
+      "contact": "mailto:customerservice.expert.heather@gmail.com",
+      "priority": "B+",
+      "summary": "Customer-success consulting page has a bookable service concept but vague positioning, low-trust generic copy, and a scattered contact/booking path for Tri-Cities businesses.",
+      "source": "https://customerserviceexp04.wixsite.com/website"
+    }
+  ]
+}

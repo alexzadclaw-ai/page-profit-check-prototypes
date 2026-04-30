@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site Work, Demolition & Grading in Casco, MI | L & M Contracting, LLC.</title>
+  <meta name="description" content="L & M Contracting, LLC. provides site work, trucking, land clearing, concrete removal, demolition, grading, pool prep, and snow removal. Request a free estimate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #181818;
+      --yellow: #ffdd32;
+      --yellow-deep: #e2bd00;
+      --white: #ffffff;
+      --muted: #efefef;
+      --ink: #202020;
+      --line: rgba(255,255,255,.18);
+      --shadow: 0 24px 70px rgba(0,0,0,.22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: Raleway, Arial, sans-serif;
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+
+    .site-header {
+      background: var(--black);
+      color: var(--white);
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+    .topbar {
+      min-height: 132px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 28px;
+      padding: 22px 0 18px;
+    }
+    .brand {
+      font-family: Oswald, Impact, sans-serif;
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .quick-contact {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: .92rem;
+      flex-wrap: wrap;
+    }
+    .quick-contact a:not(.btn) { opacity: .94; }
+    .quick-contact a:not(.btn):hover { color: var(--yellow); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 12px 20px;
+      background: var(--yellow);
+      color: var(--black);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      border: 2px solid var(--yellow);
+      box-shadow: 0 8px 0 rgba(0,0,0,.22);
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 11px 0 rgba(0,0,0,.18); }
+    .btn.ghost { background: transparent; color: var(--white); border-color: rgba(255,255,255,.75); box-shadow: none; }
+    .btn.ghost:hover { border-color: var(--yellow); color: var(--yellow); }
+    .navrow {
+      border-top: 1px solid rgba(255,255,255,.12);
+      padding: 0;
+    }
+    nav { display: flex; gap: 1px; align-items: center; }
+    nav a {
+      padding: 17px 22px;
+      color: var(--white);
+      font-size: .93rem;
+      border-left: 1px solid rgba(255,255,255,.08);
+    }
+    nav a:hover { background: rgba(255,221,50,.1); color: var(--yellow); }
+
+    .hero {
+      background:
+        linear-gradient(90deg, rgba(24,24,24,.96), rgba(24,24,24,.88) 46%, rgba(24,24,24,.62)),
+        radial-gradient(circle at 76% 28%, rgba(255,221,50,.34), transparent 24%),
+        var(--black);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(135deg, transparent 0 44%, rgba(255,221,50,.15) 44% 47%, transparent 47% 100%),
+        repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 82px);
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 42px;
+      align-items: center;
+      padding: 68px 0 76px;
+    }
+    .eyebrow {
+      color: var(--yellow);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .85rem;
+      margin: 0 0 14px;
+    }
+    h1, h2, h3 {
+      font-family: Oswald, Impact, sans-serif;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin: 0;
+    }
+    h1 { font-size: clamp(3rem, 6vw, 6.15rem); letter-spacing: .01em; max-width: 760px; }
+    .lead {
+      max-width: 660px;
+      margin: 24px 0 0;
+      font-size: clamp(1.05rem, 1.6vw, 1.28rem);
+      color: rgba(255,255,255,.9);
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 34px; }
+    .hero-note {
+      margin-top: 26px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: rgba(255,255,255,.84);
+      font-weight: 700;
+      font-size: .94rem;
+    }
+    .hero-card {
+      background: linear-gradient(180deg, #2a2a2a, #101010);
+      border: 1px solid rgba(255,255,255,.14);
+      min-height: 430px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: 26px 26px 112px;
+      background:
+        linear-gradient(140deg, rgba(255,221,50,.95) 0 19%, transparent 19% 26%, rgba(255,221,50,.88) 26% 38%, transparent 38%),
+        linear-gradient(0deg, rgba(255,255,255,.1), rgba(255,255,255,.1));
+      clip-path: polygon(6% 62%, 28% 32%, 46% 43%, 61% 18%, 92% 72%, 92% 88%, 6% 88%);
+      opacity: .92;
+    }
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      left: 48px; right: 48px; bottom: 132px; height: 28px;
+      background: repeating-linear-gradient(90deg, var(--yellow) 0 34px, var(--black) 34px 68px);
+      transform: skewX(-16deg);
+      box-shadow: 0 42px 0 rgba(255,255,255,.06), 0 86px 0 rgba(255,221,50,.14);
+    }
+    .card-caption { position: relative; z-index: 1; border-top: 3px solid var(--yellow); padding-top: 18px; }
+    .card-caption strong { display: block; font-family: Oswald, sans-serif; font-size: 1.8rem; text-transform: uppercase; color: var(--yellow); }
+    .card-caption span { color: rgba(255,255,255,.82); }
+
+    .trust {
+      background: var(--yellow);
+      color: var(--black);
+      padding: 28px 0;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(24,24,24,.18);
+    }
+    .trust-item { background: var(--yellow); padding: 18px 20px; }
+    .trust-item strong { display: block; font-family: Oswald, sans-serif; font-size: 1.45rem; text-transform: uppercase; line-height: 1.1; }
+    .trust-item span { display: block; margin-top: 5px; font-size: .93rem; font-weight: 700; }
+
+    section { padding: 82px 0; }
+    .section-head { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin-bottom: 34px; }
+    .section-head h2 { font-size: clamp(2.35rem, 4vw, 4rem); }
+    .section-head p { max-width: 540px; margin: 0; color: #4b4b4b; font-weight: 600; }
+
+    .about { background: #f6f6f2; }
+    .about-box {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 34px;
+      align-items: stretch;
+    }
+    .about-title { background: var(--black); color: var(--yellow); padding: 36px; display: flex; align-items: center; }
+    .about-title h2 { font-size: clamp(2.6rem, 5vw, 5rem); }
+    .about-copy { background: var(--white); padding: 36px; border-left: 10px solid var(--yellow); box-shadow: 0 20px 45px rgba(0,0,0,.08); }
+    .about-copy p { margin: 0 0 18px; font-size: 1.06rem; }
+
+    .services { background: var(--yellow); }
+    .services .section-head p { color: rgba(24,24,24,.78); }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+    .service-card {
+      background: var(--black);
+      color: var(--white);
+      min-height: 280px;
+      padding: 28px;
+      border: 1px solid rgba(0,0,0,.18);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .service-card h3 { color: var(--yellow); font-size: 1.7rem; margin-bottom: 16px; }
+    .service-card p { color: rgba(255,255,255,.82); margin: 0 0 18px; }
+    .service-card ul { padding: 0; margin: 0; list-style: none; }
+    .service-card li { padding: 8px 0 8px 20px; border-top: 1px solid rgba(255,255,255,.13); position: relative; font-weight: 700; font-size: .94rem; }
+    .service-card li::before { content: ""; position: absolute; left: 0; top: 17px; width: 8px; height: 8px; background: var(--yellow); }
+
+    .process { background: var(--black); color: var(--white); }
+    .process .section-head p { color: rgba(255,255,255,.78); }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .step { border: 1px solid var(--line); padding: 28px; background: rgba(255,255,255,.04); }
+    .num { color: var(--yellow); font-family: Oswald, sans-serif; font-size: 3.8rem; line-height: .9; margin-bottom: 20px; }
+    .step h3 { font-size: 1.75rem; margin-bottom: 12px; }
+    .step p { color: rgba(255,255,255,.78); margin: 0; }
+
+    .contact { background: #f3f3ef; }
+    .contact-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 28px; align-items: start; }
+    .contact-card {
+      background: var(--black);
+      color: var(--white);
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+    .contact-card h2 { font-size: clamp(2.3rem, 4vw, 4.6rem); color: var(--yellow); margin-bottom: 22px; }
+    .contact-line { display: block; padding: 14px 0; border-top: 1px solid var(--line); font-weight: 700; }
+    .form-panel { background: var(--white); padding: 34px; border-top: 12px solid var(--yellow); box-shadow: 0 22px 50px rgba(0,0,0,.1); }
+    label { display: block; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; font-size: .82rem; margin: 0 0 7px; }
+    input, textarea, select {
+      width: 100%; border: 2px solid #d8d8d8; padding: 14px 13px; margin-bottom: 16px;
+      font: inherit; background: #fff; color: var(--ink);
+    }
+    textarea { min-height: 126px; resize: vertical; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-panel .btn { width: 100%; cursor: pointer; }
+
+    footer { background: var(--black); color: rgba(255,255,255,.72); padding: 28px 0; }
+    .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+    footer strong { color: var(--white); font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 1.25rem; }
+
+    @media (max-width: 980px) {
+      .topbar, .hero-grid, .about-box, .contact-grid { grid-template-columns: 1fr; }
+      .quick-contact { justify-content: flex-start; }
+      .hero-grid { min-height: auto; }
+      .trust-grid, .service-grid { grid-template-columns: repeat(2, 1fr); }
+      .section-head { display: block; }
+      .section-head p { margin-top: 14px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 28px, 1120px); }
+      .topbar { min-height: auto; }
+      .brand { font-size: 2.1rem; }
+      nav { overflow-x: auto; }
+      nav a { padding: 14px 15px; white-space: nowrap; }
+      .quick-contact { gap: 10px; font-size: .88rem; }
+      .quick-contact .btn { width: 100%; }
+      .hero-grid { padding: 44px 0 52px; }
+      .hero-card { min-height: 300px; padding: 20px; }
+      .hero-actions .btn { width: 100%; }
+      .trust-grid, .service-grid, .steps, .form-grid { grid-template-columns: 1fr; }
+      section { padding: 56px 0; }
+      .about-title, .about-copy, .contact-card, .form-panel { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <a class="brand" href="#top" aria-label="L & M Contracting, LLC. home">L &amp; M Contracting, LLC.</a>
+      <div class="quick-contact" aria-label="Contact L & M Contracting">
+        <a href="mailto:lmcontracting1@yahoo.com">lmcontracting1@yahoo.com</a>
+        <a href="tel:+15867098606">(586) 709-8606</a>
+        <a class="btn" href="#contact">Request Estimate</a>
+      </div>
+    </div>
+    <div class="navrow">
+      <div class="wrap">
+        <nav aria-label="Primary navigation">
+          <a href="#top">Home</a>
+          <a href="#services">Services</a>
+          <a href="#process">Estimate Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Residential &amp; commercial site work</p>
+          <h1 id="hero-title">Site Work, Demolition, Grading &amp; Hauling</h1>
+          <p class="lead">L &amp; M Contracting, LLC. helps prepare, clear, remove, grade, and support job sites for homeowners, builders, and commercial properties.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Request a Free Site Work Estimate</a>
+            <a class="btn ghost" href="tel:+15867098606">Call (586) 709-8606</a>
+          </div>
+          <div class="hero-note">
+            <span>Casco, MI</span>
+            <span>Free estimates</span>
+            <span>Direct owner-style contact</span>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Construction site visual">
+          <div class="card-caption">
+            <strong>Complete Site Work</strong>
+            <span>Clearing, removal, grading, trucking, demolition, pool prep, and snow removal.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust" aria-label="Trust and contact highlights">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Residential</strong><span>Site prep, demolition, grading &amp; pool prep</span></div>
+        <div class="trust-item"><strong>Commercial</strong><span>Clearing, trucking, removals &amp; support work</span></div>
+        <div class="trust-item"><strong>Free Estimates</strong><span>Call or email with your project details</span></div>
+        <div class="trust-item"><strong>Local Contact</strong><span>Casco, MI • (586) 709-8606</span></div>
+      </div>
+    </div>
+
+    <section class="about" aria-labelledby="about-title">
+      <div class="wrap about-box">
+        <div class="about-title"><h2 id="about-title">About Us</h2></div>
+        <div class="about-copy">
+          <p><strong>L &amp; M Contracting, LLC.</strong> is a full service construction company dedicated to building and improving residential and commercial sites according to client needs and desires.</p>
+          <p>From clearing land and removing concrete to grading, trucking, demolition, pool prep, and winter snow removal, the goal is simple: help get the site ready for the next step.</p>
+          <a class="btn" href="#contact">Get a Free Estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="services-title">Services We Provide</h2>
+          <p>The same L &amp; M service list, organized so visitors can quickly find the kind of work they need quoted.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div>
+              <h3>Site Work &amp; Grading</h3>
+              <p>Preparation and shaping work for residential and commercial projects.</p>
+            </div>
+            <ul>
+              <li>Complete site work</li>
+              <li>Grading</li>
+              <li>Pool prep</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Demolition &amp; Removal</h3>
+              <p>Removal work to clear the way for repairs, rebuilds, or new projects.</p>
+            </div>
+            <ul>
+              <li>Concrete removal</li>
+              <li>Home demolition</li>
+              <li>Residential &amp; commercial demolition</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Trucking &amp; Materials</h3>
+              <p>Material hauling support for active job sites and property projects.</p>
+            </div>
+            <ul>
+              <li>Trucking of materials</li>
+              <li>To and from sites</li>
+              <li>Project support hauling</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Land &amp; Seasonal</h3>
+              <p>Outdoor site support for property access, cleanup, and weather needs.</p>
+            </div>
+            <ul>
+              <li>Land clearing</li>
+              <li>Snow removal</li>
+              <li>Site access support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="process-title">What Happens Next</h2>
+          <p>A clearer estimate path helps the right customers call with the right information.</p>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="num">01</div>
+            <h3>Describe the Site</h3>
+            <p>Call or email with the location, type of work needed, timing, and any access details.</p>
+          </article>
+          <article class="step">
+            <div class="num">02</div>
+            <h3>Schedule a Look</h3>
+            <p>L &amp; M can review the project needs and determine the right equipment, removal, hauling, or grading approach.</p>
+          </article>
+          <article class="step">
+            <div class="num">03</div>
+            <h3>Get the Estimate</h3>
+            <p>You receive a clear free estimate for the work and next steps to get the site moving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-card">
+          <h2 id="contact-title">Contact Us</h2>
+          <a class="contact-line" href="tel:+15867098606">(586) 709-8606</a>
+          <a class="contact-line" href="mailto:lmcontracting1@yahoo.com">lmcontracting1@yahoo.com</a>
+          <span class="contact-line">3963 Church Rd, Casco, MI 48064, USA</span>
+          <p style="margin:24px 0 0;color:rgba(255,255,255,.78)">For the fastest estimate, include the property address, the service needed, and whether the project is residential or commercial.</p>
+        </div>
+        <form class="form-panel" action="mailto:lmcontracting1@yahoo.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" /></div>
+            <div><label for="phone">Phone</label><input id="phone" name="phone" autocomplete="tel" /></div>
+          </div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" />
+          <label for="service">Service needed</label>
+          <select id="service" name="service">
+            <option>Complete site work / grading</option>
+            <option>Demolition / concrete removal</option>
+            <option>Trucking materials</option>
+            <option>Land clearing</option>
+            <option>Snow removal</option>
+            <option>Pool prep</option>
+          </select>
+          <label for="details">Project details</label>
+          <textarea id="details" name="details" placeholder="Tell us where the site is and what needs to be cleared, removed, hauled, graded, or prepared."></textarea>
+          <button class="btn" type="submit">Request a Free Site Work Estimate</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <strong>L &amp; M Contracting, LLC.</strong>
+      <span>©2026 L &amp; M Contracting, LLC. • Casco, MI</span>
+    </div>
+  </footer>
+</body>
+</html>
