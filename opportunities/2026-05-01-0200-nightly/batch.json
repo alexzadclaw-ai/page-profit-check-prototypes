@@ -1,0 +1,98 @@
+{
+  "batch": "2026-05-01-0200-nightly",
+  "created": "2026-05-01",
+  "mode": "nationwide-nightly-page-profit-check-solution-a-gpt-5.5",
+  "note": "Fresh nationwide batch using audit-driven Solution A standards: high-fidelity surgical homepage cleanup prototypes tied to concrete audit findings. Parent and workers targeted gpt-5.5.",
+  "items": [
+    {
+      "name": "CR's Mobile Detailing Services",
+      "slug": "crs-mobile-detailing-services",
+      "url": "https://crsmobiledetail.wixsite.com/website",
+      "contact": "mailto:crsmobiledetail@gmail.com",
+      "priority": "A",
+      "summary": "Waynesville mobile detailing site has clear package intent and testimonials, but generic Wix copy, repeated package CTAs, and a buried quote path make a focused booking cleanup easy to demonstrate.",
+      "source": "https://crsmobiledetail.wixsite.com/website"
+    },
+    {
+      "name": "HandyMan At Your Service NC",
+      "slug": "handyman-at-your-service-nc",
+      "url": "https://bcjack831.wixsite.com/website",
+      "contact": "tel:+17048402700",
+      "priority": "A",
+      "summary": "North Carolina handyman site has direct phone contact and service breadth, but duplicate generic CTAs, long template-style service text, and weak trust hierarchy create a strong estimate-flow cleanup pitch.",
+      "source": "https://bcjack831.wixsite.com/website"
+    },
+    {
+      "name": "West Coast Mobile Detailing",
+      "slug": "west-coast-mobile-detailing",
+      "url": "https://ctpmobiledetailing.wixsite.com/website",
+      "contact": "mailto:ctpmobiledetailing55@gmail.com",
+      "priority": "A-",
+      "summary": "Medford mobile detailing page has real service and hours information, but dated copy, typo-heavy service descriptions, and a form-heavy contact flow weaken trust and booking clarity.",
+      "source": "https://ctpmobiledetailing.wixsite.com/website"
+    },
+    {
+      "name": "JC Mobile Detailing",
+      "slug": "jc-mobile-detailing",
+      "url": "https://jcmovement.wixsite.com/jc-mobile-detailing",
+      "contact": "mailto:jcmovement@gmail.com",
+      "priority": "A-",
+      "summary": "Detailing page shows bookable packages and pricing, but generic hero language, repeated price blocks, and a vague contact section make a cleaner service-to-booking path valuable.",
+      "source": "https://jcmovement.wixsite.com/jc-mobile-detailing"
+    },
+    {
+      "name": "R&R's Handyman Service's",
+      "slug": "rr-handyman-services",
+      "url": "https://rrhandyman2019.wixsite.com/website",
+      "contact": "mailto:rrhandyman2019@gmail.com",
+      "priority": "A-",
+      "summary": "Handyman homepage has an estimate CTA and service imagery, but awkward punctuation, stock/service repetition, and generic section copy create obvious trust and scanability fixes.",
+      "source": "https://rrhandyman2019.wixsite.com/website"
+    },
+    {
+      "name": "Shark Mobile Detailing",
+      "slug": "shark-mobile-detailing",
+      "url": "https://sharkmobiledetaili.wixsite.com/sharkmobiledetailing",
+      "contact": "tel:+14692000845",
+      "priority": "B+",
+      "summary": "Dallas detailing site has local SEO terms and a phone number, but keyword-stuffed copy, thin service cards, and Wix footer residue are trust-damaging quick-win issues.",
+      "source": "https://sharkmobiledetaili.wixsite.com/sharkmobiledetailing"
+    },
+    {
+      "name": "CYS Cleaning",
+      "slug": "cys-cleaning",
+      "url": "https://cyscleaning.wixsite.com/website/services",
+      "contact": "mailto:cyscleaning@yahoo.com",
+      "priority": "B+",
+      "summary": "Cleaning service page includes detailed package pricing, but dense checklists, buried CTA structure, and service-page-first navigation make it hard to scan and request the right cleaning.",
+      "source": "https://cyscleaning.wixsite.com/website/services"
+    },
+    {
+      "name": "High Shine Mobile Detailing",
+      "slug": "high-shine-mobile-detailing",
+      "url": "https://highshinemobiledet.wixsite.com/website",
+      "contact": "mailto:highshinemobiledetails@gmail.com",
+      "priority": "B+",
+      "summary": "Sacramento mobile detailer has strong capabilities and contact info, but the homepage starts with mission copy, large dense service lists, and weak top-level booking hierarchy.",
+      "source": "https://highshinemobiledet.wixsite.com/website"
+    },
+    {
+      "name": "Pure Form Cleaning Group",
+      "slug": "pure-form-cleaning-group",
+      "url": "https://optimumcleaningco.wixsite.com/website",
+      "contact": "mailto:Pureformcg@gmail.com",
+      "priority": "B+",
+      "summary": "Cleaning group has bookable janitorial/residential services and pricing, but the page leans on generic Wix booking blocks, weak proof, and unclear buyer paths for residential vs construction vs janitorial leads.",
+      "source": "https://optimumcleaningco.wixsite.com/website"
+    },
+    {
+      "name": "S4L Personal Training & Coaching",
+      "slug": "s4l-personal-training-coaching",
+      "url": "https://synergy4life247.wixsite.com/synergy4life",
+      "contact": "mailto:synergy4life247@gmail.com",
+      "priority": "B+",
+      "summary": "Marietta personal-training site has credentials, location, and offer hooks, but crowded typography, scattered program copy, and mixed CTAs obscure the best first session path.",
+      "source": "https://synergy4life247.wixsite.com/synergy4life"
+    }
+  ]
+}

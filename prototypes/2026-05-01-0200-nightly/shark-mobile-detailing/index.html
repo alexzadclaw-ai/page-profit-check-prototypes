@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shark Mobile Detailing | Mobile Auto Detailing in Dallas, TX</title>
+  <meta name="description" content="Mobile auto detailing in Dallas and Preston Hollow. Call Shark Mobile Detailing for exterior wash, interior detailing, and complete detail service at your location.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#12139c;
+      --blue-2:#292ac1;
+      --pink:#f4d4d7;
+      --pink-2:#f8e1e3;
+      --ink:#171757;
+      --soft:#f7f7fb;
+      --white:#fff;
+      --gold:#ffd21f;
+      --shadow:0 18px 50px rgba(18,19,156,.16);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Poppins,Arial,Helvetica,sans-serif;color:var(--blue);background:#fff;line-height:1.55}
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1180px,calc(100% - 56px));margin:0 auto}
+    .site-header{background:#fff;position:sticky;top:0;z-index:30;box-shadow:0 1px 0 rgba(18,19,156,.08)}
+    .nav{height:98px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{font-weight:700;font-size:23px;letter-spacing:-.02em;color:var(--blue)}
+    .links{display:flex;align-items:center;gap:30px;font-size:14px;color:var(--blue)}
+    .links a{font-weight:500}
+    .call-small{border:2px solid var(--blue);padding:11px 18px;border-radius:999px;font-weight:700}
+    .hero{position:relative;min-height:660px;display:grid;place-items:center;text-align:center;color:#fff;overflow:hidden;background:url('https://static.wixstatic.com/media/322e7dc6bd8b4049a32ae72633425f28.jpg/v1/fill/w_1440,h_1200,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/322e7dc6bd8b4049a32ae72633425f28.jpg') center/cover no-repeat}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,19,156,.35),rgba(18,19,156,.10) 42%,rgba(244,212,215,.40)),linear-gradient(0deg,rgba(18,19,156,.28),rgba(18,19,156,.18))}
+    .hero-inner{position:relative;width:min(850px,calc(100% - 40px));padding:40px 0}
+    h1{font-size:clamp(44px,7.2vw,84px);line-height:1.08;letter-spacing:-.045em;margin:0 0 18px;font-weight:800;text-wrap:balance}
+    .hero p{font-size:clamp(17px,2vw,22px);margin:0 auto 30px;max-width:720px;font-weight:500;text-shadow:0 2px 18px rgba(0,0,0,.24)}
+    .hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 22px;border-radius:0;font-weight:700;font-size:14px;letter-spacing:.01em;border:2px solid transparent;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+    .btn.primary{background:var(--blue);color:#fff}
+    .btn.light{background:#fff;color:var(--blue)}
+    .trust-strip{position:relative;margin-top:-52px;z-index:5}
+    .trust-card{background:#fff;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(18,19,156,.10)}
+    .trust-card div{padding:25px 24px;border-right:1px solid rgba(18,19,156,.10)}
+    .trust-card div:last-child{border-right:0}
+    .trust-card b{display:block;font-size:15px;margin-bottom:5px;color:var(--blue)}
+    .trust-card span{display:block;font-size:13px;color:#44458f}
+    .split{display:grid;grid-template-columns:1fr 1fr;min-height:620px}
+    .split-img{background:url('https://static.wixstatic.com/media/322e7dc6bd8b4049a32ae72633425f28.jpg/v1/fill/w_720,h_760,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/322e7dc6bd8b4049a32ae72633425f28.jpg') center/cover no-repeat;min-height:420px}
+    .about-panel{background:var(--pink);padding:92px min(9vw,110px);display:flex;align-items:center}
+    .about-panel h2,.services h2,.contact h2{font-size:clamp(34px,4vw,46px);line-height:1.1;margin:0 0 25px;font-weight:800;color:var(--blue)}
+    .eyebrow{font-size:16px;font-weight:600;margin-bottom:22px;color:var(--blue)}
+    .about-panel p{font-size:16px;margin:0 0 16px;color:#17177e;max-width:520px}
+    .about-list{margin:26px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#17177e;font-size:15px}
+    .about-list li{display:flex;gap:10px;align-items:flex-start}
+    .about-list li:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--blue);margin-top:8px;flex:0 0 auto}
+    .service-split{display:grid;grid-template-columns:1fr 1fr;min-height:680px}
+    .service-split .services{order:1}
+    .service-split .detail-img{order:2}
+    .detail-img{background:url('https://static.wixstatic.com/media/e7296194ce854ff7aeb315040516958e.jpg/v1/fill/w_720,h_784,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e7296194ce854ff7aeb315040516958e.jpg') center/cover no-repeat;min-height:460px}
+    .services{background:#fff;padding:82px min(9vw,110px);display:flex;align-items:center}
+    .service-list{display:grid;gap:22px;width:min(520px,100%)}
+    .service-item{display:grid;grid-template-columns:46px 1fr;gap:18px;align-items:start}
+    .star{width:35px;height:35px;color:var(--blue);font-size:34px;line-height:1;transform:translateY(-2px)}
+    .service-item h3{font-size:22px;line-height:1.2;margin:0 0 5px;font-weight:800;color:var(--blue)}
+    .service-item p{margin:0;color:#3b3c9f;font-size:15px}
+    .next{background:#fff;padding:70px 0;border-top:1px solid rgba(18,19,156,.08);border-bottom:1px solid rgba(18,19,156,.08)}
+    .next-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:center}
+    .next h2{font-size:clamp(32px,4vw,44px);line-height:1.1;margin:0 0 14px;color:var(--blue)}
+    .next p{margin:0;color:#3b3c9f;font-size:16px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .step{background:var(--soft);padding:22px;border-left:5px solid var(--blue)}
+    .step b{display:block;color:var(--blue);font-size:17px;margin-bottom:6px}
+    .step span{font-size:13px;color:#4a4b99}
+    .contact{background:var(--pink);padding:76px 0 90px;text-align:center}
+    .contact h2{margin-bottom:12px}
+    .contact .phone{display:inline-block;font-weight:700;margin:0 0 22px;color:var(--blue)}
+    .form-card{width:min(940px,100%);margin:16px auto 0;text-align:left;display:grid;gap:12px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    input,textarea{width:100%;border:2px solid var(--blue-2);background:transparent;color:var(--blue);font-family:inherit;font-size:14px;padding:16px 18px;outline:none;border-radius:0}
+    textarea{min-height:126px;resize:vertical}
+    ::placeholder{color:var(--blue)}
+    .submit-row{display:flex;justify-content:flex-end;margin-top:4px}
+    .footer{background:#fff;text-align:center;padding:38px 20px;color:var(--blue);font-size:13px}
+    .mobile-bar{display:none}
+    @media(max-width:900px){
+      .wrap{width:min(100% - 32px,680px)}
+      .nav{height:auto;padding:20px 0;align-items:flex-start}.brand{font-size:20px}.links{justify-content:flex-end;gap:14px;flex-wrap:wrap;font-size:13px}.links .hide-mobile{display:none}.call-small{padding:8px 12px}
+      .hero{min-height:560px}.trust-strip{margin:0}.trust-card{grid-template-columns:1fr 1fr}.trust-card div{border-bottom:1px solid rgba(18,19,156,.10)}
+      .split,.service-split,.next-grid{grid-template-columns:1fr}.about-panel,.services{padding:48px 24px}.service-split .detail-img{order:-1}.steps{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.submit-row{justify-content:stretch}.submit-row .btn{width:100%}.footer{padding-bottom:86px}.mobile-bar{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:60;background:var(--blue);color:#fff;text-align:center;padding:15px;border-radius:2px;font-weight:800;box-shadow:0 14px 34px rgba(0,0,0,.28)}
+    }
+    @media(max-width:560px){.trust-card{grid-template-columns:1fr}.trust-card div{border-right:0}.hero-actions{align-items:stretch;flex-direction:column}.btn{width:100%}h1{font-size:42px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">Shark Mobile Detailing</a>
+      <nav class="links" aria-label="Primary navigation">
+        <a class="hide-mobile" href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="call-small" href="tel:+14692000845">Call Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Shark Mobile Detailing hero">
+      <div class="hero-inner">
+        <h1>Mobile Auto Detailing in Dallas</h1>
+        <p>Interior and exterior detailing brought to your driveway, office, or parking spot. Serving Dallas, Preston Hollow, and nearby neighborhoods since 2017.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:+14692000845">Call (469) 200-0845</a>
+          <a class="btn light" href="#contact">Request a Detail</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Service highlights">
+      <div class="wrap trust-card">
+        <div><b>Mobile service</b><span>Detailing comes to your location.</span></div>
+        <div><b>Dallas, TX 75231</b><span>Preston Hollow and nearby areas.</span></div>
+        <div><b>Interior + exterior</b><span>Clear packages for common needs.</span></div>
+        <div><b>Fast phone booking</b><span>Call for availability and pricing.</span></div>
+      </div>
+    </section>
+
+    <section class="split" id="about">
+      <div class="split-img" role="img" aria-label="Blue and yellow car wash brushes"></div>
+      <div class="about-panel">
+        <div>
+          <h2>A Bit About Us</h2>
+          <div class="eyebrow">Local mobile detailing with attention to detail.</div>
+          <p>Shark Mobile Detailing helps Dallas drivers keep their vehicles looking clean without losing time at a shop. Call to talk through your vehicle, the condition, and the level of detail you need.</p>
+          <p>From basic refreshes to interior and exterior cleanups, the goal is simple: a cleaner vehicle, a clearer appointment, and service that fits your day.</p>
+          <ul class="about-list">
+            <li>Serving Dallas, TX 75231 and Preston Hollow</li>
+            <li>Mobile auto detailing available by phone reservation</li>
+            <li>Focused on car wash, interior, and exterior detail needs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-split" id="services">
+      <div class="services">
+        <div class="service-list">
+          <h2>Services</h2>
+          <article class="service-item">
+            <div class="star">☆</div>
+            <div><h3>Mobile Auto Detailing</h3><p>Convenient detail service at your home, workplace, or approved parking location.</p></div>
+          </article>
+          <article class="service-item">
+            <div class="star">☆</div>
+            <div><h3>Exterior Car Cleaning</h3><p>Wash, wipe-down, shine, and finish-focused care for a cleaner first impression.</p></div>
+          </article>
+          <article class="service-item">
+            <div class="star">☆</div>
+            <div><h3>Interior Car Detailing</h3><p>Cabin refresh, dust and surface cleanup, and interior detail options based on vehicle condition.</p></div>
+          </article>
+          <article class="service-item">
+            <div class="star">☆</div>
+            <div><h3>Quality Detail Packages</h3><p>Call to match the right package to your vehicle, schedule, and budget before booking.</p></div>
+          </article>
+        </div>
+      </div>
+      <div class="detail-img" role="img" aria-label="Detailer wiping a vehicle exterior"></div>
+    </section>
+
+    <section class="next" aria-label="How booking works">
+      <div class="wrap next-grid">
+        <div>
+          <h2>What happens next?</h2>
+          <p>A quick call keeps the appointment simple: vehicle type, location, condition, and the detail service that makes the most sense.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><b>1. Call</b><span>Tell us what you drive and where you are in Dallas.</span></div>
+          <div class="step"><b>2. Choose service</b><span>Pick interior, exterior, or a combined detail.</span></div>
+          <div class="step"><b>3. Get cleaned</b><span>Mobile detailing arrives at the agreed location.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Get in Touch</h2>
+        <a class="phone" href="tel:+14692000845">(469) 200-0845</a>
+        <div class="form-card" aria-label="Contact form">
+          <div class="form-row"><input type="text" placeholder="Name" aria-label="Name"><input type="email" placeholder="Email" aria-label="Email"></div>
+          <input type="text" placeholder="Vehicle and preferred service" aria-label="Vehicle and preferred service">
+          <textarea placeholder="Tell us your location, vehicle condition, and the best time to call." aria-label="Message"></textarea>
+          <div class="submit-row"><a class="btn primary" href="tel:+14692000845">Call to Submit</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© Shark Mobile Detailing · Dallas, TX 75231 · <a href="tel:+14692000845">(469) 200-0845</a></div>
+  </footer>
+  <a class="mobile-bar" href="tel:+14692000845">Call Shark Mobile Detailing</a>
+</body>
+</html>

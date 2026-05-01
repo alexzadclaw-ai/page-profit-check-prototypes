@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HandyMan At Your Service NC | Charlotte Handyman Repairs</title>
+  <meta name="description" content="HandyMan At Your Service NC provides handyman repairs, cabinet installation, deck staining, drywall repairs, painting, outdoor jobs, and free estimate calls in Charlotte, NC.">
+  <style>
+    :root{
+      --ink:#191919;
+      --bluegreen:#194056;
+      --bluegreen-2:#113246;
+      --yellow:#fddb4d;
+      --cream:#fffdf8;
+      --soft:#f6f7f7;
+      --line:rgba(25,64,86,.18);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.58}
+    img{display:block;max-width:100%}
+    a{color:inherit}
+    .skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip:focus{left:16px;top:16px;width:auto;height:auto;background:#fff;padding:10px;z-index:99}
+    .site-header{background:#fff;color:#000;border-bottom:1px solid #efefef;padding:30px 5.85% 28px;position:relative;z-index:3}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:30px;max-width:1245px;margin:0 auto}
+    .brand{text-decoration:none;display:grid;gap:6px;min-width:360px}
+    .brand-name{font-size:22px;line-height:1.18;letter-spacing:.02em;text-transform:uppercase;font-weight:400}
+    .brand-tag{font-size:15px;font-weight:300;color:#333}
+    .nav{display:flex;align-items:center;gap:32px;font-size:14px}
+    .nav a{text-decoration:none;white-space:nowrap}
+    .nav a:hover{text-decoration:underline;text-underline-offset:5px}
+    .phone-top{font-size:14px;text-decoration:none;white-space:nowrap}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 24px;border:1px solid var(--bluegreen);background:var(--bluegreen);color:#fff;text-decoration:none;font-size:15px;font-weight:300;transition:.18s ease;white-space:nowrap}
+    .button:hover{transform:translateY(-1px);box-shadow:0 10px 22px rgba(0,0,0,.16)}
+    .button.light{background:#fff;color:var(--bluegreen);border-color:#fff}
+    .button.outline{background:transparent;color:var(--bluegreen);border-color:var(--bluegreen)}
+    .button.yellow{background:var(--yellow);color:#111;border-color:var(--yellow)}
+    h1,h2,h3{font-family:Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:400;line-height:1.12;margin:0;color:inherit}
+    .hero{background:#fff;position:relative}
+    .hero-media{height:560px;position:relative;overflow:hidden;background:#ddd}
+    .hero-media:before{content:"";position:absolute;inset:0;background:url("https://static.wixstatic.com/media/6e10219f11314e1babe61a59ef135376.jpg/v1/fill/w_1600,h_960,al_c,q_85,usm_0.66_1.00_0.01/6e10219f11314e1babe61a59ef135376.jpg") center/cover no-repeat;transform:scale(1.02)}
+    .hero-media:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.88) 0%,rgba(255,255,255,.68) 35%,rgba(255,255,255,.16) 68%,rgba(0,0,0,.12) 100%)}
+    .hero-card{position:absolute;left:calc(5.85% + 20px);top:50%;transform:translateY(-50%);z-index:1;max-width:650px;background:rgba(255,255,255,.92);padding:46px 50px 44px;border-left:9px solid var(--yellow);box-shadow:0 22px 46px rgba(0,0,0,.16)}
+    .eyebrow{margin:0 0 14px;color:var(--bluegreen);letter-spacing:.14em;text-transform:uppercase;font-size:13px}
+    h1{font-size:clamp(2.5rem,5vw,4.65rem);color:var(--bluegreen);letter-spacing:.01em}
+    .hero-card p{font-size:18px;margin:22px 0 27px;max-width:540px;color:#22323a}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+    .pager{position:absolute;left:0;right:0;bottom:20px;z-index:2;text-align:center;color:#fff;letter-spacing:8px;font-size:24px;text-shadow:0 1px 8px rgba(0,0,0,.45)}
+    .intro-band{background:var(--bluegreen);color:#fff;text-align:center;padding:86px 5.85% 76px}
+    .intro-band h2{font-size:clamp(2rem,3.4vw,2.9rem);margin-bottom:24px;color:#fff;letter-spacing:.03em}
+    .intro-band .lead{max-width:940px;margin:0 auto;color:#fff;font-size:16px}
+    .trust-row{max-width:1000px;margin:38px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;border:1px solid rgba(255,255,255,.28)}
+    .trust-item{padding:22px 20px;background:rgba(255,255,255,.06)}
+    .trust-item strong{display:block;text-transform:uppercase;letter-spacing:.08em;font-size:14px;margin-bottom:5px}
+    .trust-item span{font-size:14px;color:#e7f0f3}
+    .service-grid{background:var(--bluegreen);padding:0 5.85% 92px;color:#fff}
+    .services{max-width:1205px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+    .service-card{background:var(--bluegreen);border:1px solid rgba(255,255,255,.16);border-right:0;min-height:100%;display:flex;flex-direction:column}
+    .service-card:last-child{border-right:1px solid rgba(255,255,255,.16)}
+    .service-photo{height:390px;position:relative;overflow:hidden;background:#000}
+    .service-photo img{width:100%;height:100%;object-fit:cover;opacity:.78;filter:saturate(.94)}
+    .service-photo h3{position:absolute;inset:auto 28px 32px;text-align:center;color:#fff;font-size:22px;letter-spacing:.045em;text-shadow:0 2px 16px rgba(0,0,0,.55)}
+    .service-body{padding:34px 38px 40px;text-align:center;display:grid;gap:16px;align-content:start;flex:1}
+    .service-body p{margin:0;color:#edf6f8;font-size:15px;text-align:left}
+    .mini-list{list-style:none;padding:0;margin:0;display:grid;gap:8px;color:#fff;text-align:left;font-size:14px}
+    .mini-list li{position:relative;padding-left:18px}
+    .mini-list li:before{content:"";position:absolute;left:0;top:.73em;width:7px;height:1px;background:#fff}
+    .white-section{background:#fff;color:var(--bluegreen);padding:92px 5.85% 72px;text-align:center}
+    .white-section h2{font-size:clamp(2rem,3.4vw,2.9rem);letter-spacing:.035em;margin-bottom:24px}
+    .white-section .intro{max-width:900px;margin:0 auto 58px;color:#202020;font-size:16px}
+    .wide-services{max-width:1205px;margin:0 auto;display:grid;gap:36px}
+    .wide-card{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;border:1px solid var(--line);background:#fff;text-align:left;min-height:360px}
+    .wide-card:nth-child(even) .wide-copy{order:2}
+    .wide-card img{width:100%;height:100%;object-fit:cover;min-height:360px}
+    .wide-copy{display:flex;flex-direction:column;justify-content:center;padding:48px 70px;color:#111}
+    .wide-copy h3{font-size:24px;color:var(--bluegreen);letter-spacing:.05em;margin-bottom:18px}
+    .wide-copy p{margin:0 0 22px;color:#303030}
+    .wide-copy ul{margin:0;padding-left:18px;color:#303030;display:grid;gap:8px}
+    .process{background:var(--soft);padding:78px 5.85%;text-align:center;color:#111}
+    .process h2{color:var(--bluegreen);font-size:clamp(2rem,3.4vw,2.8rem);letter-spacing:.03em;margin-bottom:18px}
+    .process .intro{max-width:780px;margin:0 auto 42px;color:#303030}
+    .steps{max-width:1050px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:left}
+    .step{background:#fff;border:1px solid #e1e3e4;padding:32px 28px;min-height:190px}
+    .step-num{font-size:42px;line-height:1;color:var(--yellow);font-family:Helvetica,Arial,sans-serif;margin-bottom:18px;text-shadow:0 1px 0 #b28c00}
+    .step h3{font-size:20px;color:var(--bluegreen);letter-spacing:.045em;margin-bottom:12px}
+    .step p{margin:0;color:#333;font-size:15px}
+    .contact-photo{height:400px;background:url("https://static.wixstatic.com/media/ce6db1f583c53c5191d93f6dfb49801b.jpg/v1/fill/w_1500,h_620,al_c,q_85,usm_0.66_1.00_0.01/ce6db1f583c53c5191d93f6dfb49801b.jpg") center/cover no-repeat}
+    .contact{background:var(--yellow);padding:72px 5.85% 78px;color:#111}
+    .contact-inner{max-width:1050px;margin:0 auto;display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:start}
+    .contact h2{font-size:clamp(2rem,3.3vw,2.85rem);color:var(--bluegreen);letter-spacing:.03em;margin-bottom:18px}
+    .contact p{margin:0 0 24px;color:#1b1b1b}
+    .contact-lines{display:grid;gap:12px;margin-top:22px;font-size:16px}
+    .contact-lines strong{text-transform:uppercase;color:var(--bluegreen);letter-spacing:.07em;font-size:13px}
+    .contact-form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .contact-form label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#3b3100;margin-bottom:5px}
+    .field{display:grid}
+    .field.full{grid-column:1/-1}
+    input,textarea{width:100%;border:1px solid rgba(0,0,0,.35);background:rgba(255,255,255,.35);padding:14px 14px;font:inherit;color:#111}
+    textarea{min-height:120px;resize:vertical}
+    .form-note{grid-column:1/-1;margin-top:4px;color:#332900;font-size:13px}
+    .form-actions{grid-column:1/-1;display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .footer{background:#fff;color:#111;text-align:center;padding:42px 5.85%;font-size:14px}
+    .socials{display:flex;justify-content:center;gap:14px;margin-bottom:22px}
+    .socials span{width:20px;height:20px;border-radius:50%;background:var(--bluegreen);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700}
+    .floating-call{position:fixed;right:18px;bottom:18px;background:var(--bluegreen);color:#fff;text-decoration:none;padding:13px 18px;box-shadow:0 12px 26px rgba(0,0,0,.25);z-index:9;font-size:14px}
+    @media (max-width:980px){
+      .site-header{padding:22px 24px}.header-inner{display:grid;gap:18px}.brand{min-width:0}.nav{gap:18px;flex-wrap:wrap}.hero-media{height:620px}.hero-card{left:24px;right:24px;max-width:none;padding:36px 32px}.trust-row,.services,.steps,.contact-inner{grid-template-columns:1fr}.service-card{border-right:1px solid rgba(255,255,255,.16);border-bottom:0}.wide-card,.wide-card:nth-child(even) .wide-copy{display:block;order:initial}.wide-copy{padding:38px 28px}.wide-card img{height:300px}.contact-form{grid-template-columns:1fr}.floating-call{display:none}}
+    @media (max-width:620px){
+      .brand-name{font-size:18px}.brand-tag,.phone-top,.nav{font-size:13px}.hero-media{height:650px}.hero-card{padding:28px 22px;border-left-width:6px}h1{font-size:2.12rem}.hero-actions,.form-actions{display:grid}.button{width:100%}.intro-band,.white-section,.process,.contact{padding-left:22px;padding-right:22px}.service-grid{padding-left:22px;padding-right:22px}.service-photo{height:260px}.contact-photo{height:260px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to Main Content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="HandyMan At Your Service NC home">
+        <span class="brand-name">HandyMan At Your Service NC</span>
+        <span class="brand-tag">The Handyman You Can Count On</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#top">Home</a>
+        <a href="#services">Services</a>
+        <a href="#estimate">Estimate</a>
+        <a class="phone-top" href="tel:+17048402700">704-840-2700</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="HandyMan At Your Service NC hero">
+      <div class="hero-media">
+        <div class="hero-card">
+          <p class="eyebrow">Charlotte, NC handyman service</p>
+          <h1>Repairs, installs, staining &amp; small jobs handled</h1>
+          <p>Residential, commercial, outdoor, and lawn-related handyman help from the front gate to the back parking lot. Have an unusual job? Send the details and get a clear next step.</p>
+          <div class="hero-actions">
+            <a class="button" href="tel:+17048402700">Call for a Free Estimate</a>
+            <a class="button outline" href="mailto:Handyman.atyour.service9181@gmail.com?subject=Handyman%20estimate%20request">Email Project Details</a>
+          </div>
+        </div>
+        <div class="pager" aria-hidden="true">• • • • • •</div>
+      </div>
+    </section>
+
+    <section class="intro-band" id="services">
+      <h2>At your service</h2>
+      <p class="lead">I handle many kinds of handyman work, including residential improvements, commercial jobs, and outdoor projects. You get a practical conversation about what needs to be fixed, installed, refreshed, or improved — then a simple estimate path.</p>
+      <div class="trust-row" aria-label="Service highlights">
+        <div class="trust-item"><strong>No job too small</strong><span>Repairs, maintenance, installs, and odd jobs</span></div>
+        <div class="trust-item"><strong>Free estimate call</strong><span>Call or email details before scheduling</span></div>
+        <div class="trust-item"><strong>Charlotte based</strong><span>Local help for homes, businesses, and outdoor spaces</span></div>
+      </div>
+    </section>
+
+    <section class="service-grid" aria-label="Core handyman services">
+      <div class="services">
+        <article class="service-card">
+          <div class="service-photo">
+            <img src="https://static.wixstatic.com/media/768baac01a7f478197dbb4e9f03d2e50.jpg/v1/fill/w_600,h_520,al_c,q_85,usm_0.66_1.00_0.01/768baac01a7f478197dbb4e9f03d2e50.jpg" alt="Carpenter sawing wood for cabinet and repair work">
+            <h3>Cabinet Installation</h3>
+          </div>
+          <div class="service-body">
+            <p>Help with cabinet installation, repair, replacement, and home improvement tasks that need careful finishing.</p>
+            <ul class="mini-list">
+              <li>Install and repair help</li>
+              <li>Small remodel support</li>
+              <li>Project questions answered up front</li>
+            </ul>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo">
+            <img src="https://static.wixstatic.com/media/4bae6d8c83e744958780351ea53fb5d9.jpg/v1/fill/w_600,h_520,al_c,q_85,usm_0.66_1.00_0.01/4bae6d8c83e744958780351ea53fb5d9.jpg" alt="Brush varnishing a wood deck">
+            <h3>Deck Staining</h3>
+          </div>
+          <div class="service-body">
+            <p>Refresh outdoor woodwork with prep, staining, and a cleaner finish for decks, rails, and other exterior surfaces.</p>
+            <ul class="mini-list">
+              <li>Deck and railing staining</li>
+              <li>Material and labor options</li>
+              <li>Outdoor improvement projects</li>
+            </ul>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo">
+            <img src="https://static.wixstatic.com/media/258595d19fcb69f895ac155f687ecbc4.jpg/v1/fill/w_600,h_520,al_c,q_85,usm_0.66_1.00_0.01/258595d19fcb69f895ac155f687ecbc4.jpg" alt="Carpenter tools ready for drywall and handyman repair work">
+            <h3>Drywall Repairs</h3>
+          </div>
+          <div class="service-body">
+            <p>Patch, repair, and prep damaged walls so rooms are ready for paint, finish work, or the next improvement step.</p>
+            <ul class="mini-list">
+              <li>Holes, cracks, and dents</li>
+              <li>Repair and installation help</li>
+              <li>Affordable improvement options</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="white-section" aria-label="Additional services">
+      <h2>Any service you need</h2>
+      <p class="intro">Put your mind at ease with efficient, cost-conscious handyman help for the job you have in front of you. If it is not listed here, call and describe it — unusual jobs are welcome.</p>
+      <div class="wide-services">
+        <article class="wide-card">
+          <div class="wide-copy">
+            <h3>Drywall, Painting &amp; Repair Touch-Ups</h3>
+            <p>One visit can often cover the wall repair, prep, and painting-related work that makes a space feel finished again.</p>
+            <ul>
+              <li>Drywall fixes and prep work</li>
+              <li>Painting-related handyman tasks</li>
+              <li>Small repairs before or after a remodel</li>
+            </ul>
+          </div>
+          <img src="https://static.wixstatic.com/media/258595d19fcb69f895ac155f687ecbc4.jpg/v1/fill/w_760,h_480,al_c,q_85,usm_0.66_1.00_0.01/258595d19fcb69f895ac155f687ecbc4.jpg" alt="Tools used for drywall repairs and painting prep">
+        </article>
+        <article class="wide-card">
+          <div class="wide-copy">
+            <h3>Outdoor, Lawn &amp; Commercial Jobs</h3>
+            <p>From the front gate to the back parking lot, get help with practical repairs and improvements around the property.</p>
+            <ul>
+              <li>Outdoor and lawn-related repairs</li>
+              <li>Commercial handyman jobs</li>
+              <li>Odd jobs and unusual requests</li>
+            </ul>
+          </div>
+          <img src="https://static.wixstatic.com/media/0224de6bdd8a4e9d95f6fbc4e1c948fb.jpg/v1/fill/w_760,h_480,al_c,q_85,usm_0.66_1.00_0.01/0224de6bdd8a4e9d95f6fbc4e1c948fb.jpg" alt="Handyman working on a home improvement project">
+        </article>
+      </div>
+    </section>
+
+    <section class="process" id="estimate">
+      <h2>How to get started</h2>
+      <p class="intro">The current site asks people to “Get In Touch.” This version makes the next step clearer so a homeowner knows exactly what to send.</p>
+      <div class="steps">
+        <article class="step">
+          <div class="step-num">01</div>
+          <h3>Call or email</h3>
+          <p>Share what needs repair, installation, staining, painting, or outdoor help. Photos are useful if you have them.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">02</div>
+          <h3>Review the job</h3>
+          <p>I will ask the right questions, confirm the type of work, and let you know whether a visit is needed.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">03</div>
+          <h3>Schedule the work</h3>
+          <p>Once the scope is clear, we choose a practical time and keep expectations simple before the appointment.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="contact-photo" aria-hidden="true"></div>
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div>
+          <h2>Let’s get going!</h2>
+          <p>Do not put off your next handyman repair or renovation project any longer. Tell HandyMan At Your Service NC what you need done, and I will get back to you swiftly with an initial estimate path.</p>
+          <div class="hero-actions">
+            <a class="button" href="tel:+17048402700">Call 704-840-2700</a>
+            <a class="button outline" href="mailto:Handyman.atyour.service9181@gmail.com?subject=Handyman%20estimate%20request">Email for Estimate</a>
+          </div>
+          <div class="contact-lines">
+            <span><strong>Address:</strong> Charlotte, NC</span>
+            <span><strong>Email:</strong> <a href="mailto:Handyman.atyour.service9181@gmail.com">Handyman.atyour.service9181@gmail.com</a></span>
+            <span><strong>Phone:</strong> <a href="tel:+17048402700">704-840-2700</a></span>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Estimate request form">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" placeholder="Your name"></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" placeholder="Best number"></div>
+          <div class="field full"><label for="email">Email</label><input id="email" name="email" placeholder="you@example.com"></div>
+          <div class="field full"><label for="details">What do you need done?</label><textarea id="details" name="details" placeholder="Cabinet install, deck staining, drywall repair, painting, outdoor job..."></textarea></div>
+          <p class="form-note">For the fastest response, call directly or email project photos with your message.</p>
+          <div class="form-actions">
+            <a class="button" href="mailto:Handyman.atyour.service9181@gmail.com?subject=Handyman%20estimate%20request">Send Project Details</a>
+            <a class="button outline" href="tel:+17048402700">Call Instead</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="socials" aria-hidden="true"><span>f</span><span>x</span><span>in</span></div>
+    <p>©2018 by HandyMan At Your Service NC · Charlotte, NC · <a href="tel:+17048402700">704-840-2700</a></p>
+  </footer>
+  <a class="floating-call" href="tel:+17048402700">Call for Estimate</a>
+</body>
+</html>
