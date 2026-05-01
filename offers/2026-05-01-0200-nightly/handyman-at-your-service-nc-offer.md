@@ -1,4 +1,4 @@
-# UNSENT/DRAFT — HandyMan At Your Service NC Page Profit Check Offer
+# UNSENT/DRAFT — $99 Page Profit Check Offer for HandyMan At Your Service NC
 
 Hi HandyMan At Your Service NC,
 
@@ -8,7 +8,7 @@ I also saw a few small issues that can quietly cost calls: the first screen is m
 
 I put together a quick cleaned-up homepage sample that keeps the same site feel — white header, large handyman photo, blue-green service section, yellow contact block, and the same practical repair imagery — but makes the estimate path much clearer.
 
-For **$99**, I can do a Page Profit Check for your site with:
+For a **$99 Page Profit Check**, I can review your site with:
 
 - a short prioritized homepage audit,
 - a cleaner service/estimate flow mockup,

@@ -1,7 +1,7 @@
 # HandyMan At Your Service NC — Page Profit Check Audit
 
 ## Quick take
-HandyMan At Your Service NC has a real local-service foundation: a clear business name, phone number, visible Charlotte contact details, service photos, a handyman-specific tagline, and a simple Wix structure. The best opportunity is a same-site cleanup that keeps the white header, slideshow/photo hero, dark blue-green service band, white service section, yellow contact block, and practical handyman imagery while making the first screen and estimate path much clearer.
+HandyMan At Your Service NC has a real local-service foundation: a clear business name, phone number, visible Charlotte contact details, service photos, a handyman-specific tagline, and a simple Wix structure. The best opportunity is an **Audit-Driven Solution A / same-site-cleaner** cleanup that keeps the white header, slideshow/photo hero, dark blue-green service band, white service section, yellow contact block, and practical handyman imagery while making the first screen and estimate path much clearer.
 
 Priority: **A-**
 
