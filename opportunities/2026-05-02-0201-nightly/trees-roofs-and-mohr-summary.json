@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "trees-roofs-and-mohr",
+  "businessName": "Trees, Roofs and Mohr LLC",
+  "originalUrl": "https://treesroofsandmohr.wixsite.com/mysite",
+  "contactUrl": "mailto:treesroofsandmohr@gmail.com",
+  "sourceUrl": "https://treesroofsandmohr.wixsite.com/mysite",
+  "category": "home services / roofing / tree service",
+  "locationHint": "Iowa",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/trees-roofs-and-mohr/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/trees-roofs-and-mohr-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/trees-roofs-and-mohr-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/trees-roofs-and-mohr-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/trees-roofs-and-mohr-prototype.png",
+  "issueSummary": "The site has real local trust signals but buries them under generic Wix copy, vague CTAs, broad ungrouped services, and unfinished template leftovers.",
+  "recommendationScore": 86,
+  "topFindings": [
+    "Generic hero CTA and service labels do not guide visitors toward calling for an estimate.",
+    "Unused Wix-style Blog/Book/Shop/Subscribe clutter and template language weaken trust.",
+    "Broad roofing, tree, remodeling, siding, fence and snow services need clearer buyer-intent grouping."
+  ],
+  "preservedDesign": "Preserved the Wix-like stacked sections, dark header, top email/phone bar, Playfair-style serif headings, simple local-contractor tone, and broad-service positioning.",
+  "criticalCoverageStatus": "All critical findings fixed or improved in the prototype: CTA clarified, template clutter removed, trust moved near top, and services reorganized.",
+  "screenshotBlockers": []
+}

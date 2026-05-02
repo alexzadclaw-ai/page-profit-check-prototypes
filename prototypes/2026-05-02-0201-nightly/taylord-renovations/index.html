@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taylor'd Renovations, LLC | Crozet Home Renovation & Design</title>
+  <meta name="description" content="Taylor'd Renovations, LLC helps Crozet and Central Virginia homeowners refresh kitchens, rooms, cabinets, furniture, landscapes, and home projects with attainable-budget design and renovation help." />
+  <style>
+    :root{
+      --ink:#111;
+      --paper:#ffffff;
+      --soft:#f4f2ef;
+      --line:#ddd8d1;
+      --charcoal:#2b2b2b;
+      --gold:#b5905a;
+      --muted:#68635d;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;font-weight:300;line-height:1.65;}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:#111;color:#fff;text-align:center;padding:10px 16px;font-size:14px;letter-spacing:.03em}
+    .topbar a{text-decoration:underline;text-underline-offset:3px}
+    header{padding:34px 22px 28px;text-align:center;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+    .brand{font-family:Oswald,"Arial Narrow",Arial,sans-serif;font-size:26px;letter-spacing:.11em;font-weight:300;text-transform:uppercase}
+    nav{margin-top:17px;display:flex;gap:28px;justify-content:center;flex-wrap:wrap;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#444}
+    nav a:hover{color:var(--gold)}
+    .hero{min-height:610px;display:grid;grid-template-columns:1fr 1fr;background:linear-gradient(90deg,rgba(0,0,0,.62),rgba(0,0,0,.28)),url('https://static.wixstatic.com/media/11062b_8eb2dd6ebff24b60a29c82dbd76da287~mv2.jpg') center/cover;color:#fff}
+    .hero-inner{max-width:660px;padding:96px 60px 78px;align-self:center}
+    h1{font-family:"Playfair Display",Georgia,serif;font-size:62px;line-height:1.04;font-weight:400;margin:0 0 22px}
+    .tagline{font-size:22px;letter-spacing:.02em;margin:0 0 28px;max-width:560px}
+    .hero p{color:#f7f4ef}
+    .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px;align-items:center}
+    .btn{display:inline-block;border:1px solid #111;background:#111;color:#fff;padding:14px 24px;text-transform:uppercase;letter-spacing:.12em;font-size:13px;min-width:166px;text-align:center}
+    .hero .btn{background:#fff;color:#111;border-color:#fff}
+    .btn.secondary{background:transparent;color:#fff;border-color:#fff}
+    .trust-strip{background:var(--soft);display:grid;grid-template-columns:repeat(4,1fr);gap:1px;border-bottom:1px solid var(--line)}
+    .trust-strip div{padding:22px 18px;text-align:center;background:rgba(255,255,255,.42);font-family:Oswald,"Arial Narrow",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:15px}
+    section{padding:72px 7vw}
+    .intro{display:grid;grid-template-columns:.85fr 1.15fr;gap:62px;align-items:start}
+    h2{font-family:Oswald,"Arial Narrow",Arial,sans-serif;font-size:32px;letter-spacing:.12em;text-transform:uppercase;font-weight:300;margin:0 0 22px;line-height:1.2}
+    h3{font-family:Oswald,"Arial Narrow",Arial,sans-serif;font-size:22px;letter-spacing:.11em;text-transform:uppercase;font-weight:300;margin:0 0 12px}
+    .eyebrow{font-family:Oswald,"Arial Narrow",Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-size:14px;margin-bottom:10px}
+    .lede{font-family:"Playfair Display",Georgia,serif;font-size:28px;line-height:1.35;margin:0 0 20px}
+    .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
+    .card{border:1px solid var(--line);padding:30px;background:#fff;min-height:220px}
+    .card p{margin-bottom:0;color:#4c4741}
+    .soft{background:var(--soft)}
+    .people{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+    .person{background:#fff;border:1px solid var(--line);padding:34px}
+    .portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .tile{min-height:230px;background:#d8d2c8;position:relative;overflow:hidden;display:flex;align-items:end;justify-content:center;text-align:center;color:#fff}
+    .tile:nth-child(1){background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.48)),url('https://static.wixstatic.com/media/11062b_9debd115272c407c98767520a86ac7a8~mv2.jpg') center/cover}
+    .tile:nth-child(2){background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.5)),url('https://static.wixstatic.com/media/11062b_1c4f35f6ecab445592cf015cf78707f0~mv2.jpg') center/cover}
+    .tile:nth-child(3){background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.5)),url('https://static.wixstatic.com/media/11062b_791a5c5d71b14a9283f28f2bf01a4753~mv2.jpg') center/cover}
+    .tile span{font-family:Oswald,"Arial Narrow",Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:21px;padding:0 16px 28px}
+    .process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:step}
+    .step{border-top:2px solid var(--gold);padding-top:18px}
+    .step:before{counter-increment:step;content:"0" counter(step);font-family:"Playfair Display",Georgia,serif;font-size:34px;color:var(--gold);display:block;margin-bottom:10px}
+    .quote{background:#222;color:#fff;text-align:center;padding:78px 7vw}
+    .quote h2{color:#fff}
+    .quote p{max-width:760px;margin:0 auto 28px;color:#e8e1d7}
+    .quote .btn{background:#fff;color:#111;border-color:#fff}
+    footer{padding:46px 7vw;background:#fff;text-align:center;border-top:1px solid var(--line)}
+    footer .brand{font-size:22px;margin-bottom:12px}
+    footer p{margin:6px 0;color:#38332f}
+    .fine{font-size:13px;color:#777;margin-top:22px}
+    @media(max-width:850px){
+      header{position:static}.hero{display:block;min-height:auto}.hero-inner{padding:72px 24px}.hero:after{display:none}h1{font-size:42px}.tagline{font-size:19px}.trust-strip,.intro,.people,.card-grid,.portfolio,.process{grid-template-columns:1fr}section{padding:54px 24px}.card{min-height:auto}nav{gap:16px}.topbar{font-size:13px}.btn{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Crozet, VA renovation help for attainable-budget home projects · <a href="tel:17579953053">757-995-3053</a></div>
+  <header>
+    <a class="brand" href="#top">Taylor'd Renovations, LLC</a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#story">Who We Are</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#quote">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Home renovation in Crozet Virginia">
+      <div class="hero-inner">
+        <div class="eyebrow">Design · Refresh · Remodel</div>
+        <h1>Reinvention within reach.</h1>
+        <p class="tagline">Home renovation and design help for Crozet-area projects that need creativity, practical budgets, and careful hands.</p>
+        <p>From cabinet face lifts and room-by-room remodels to custom woodworking and outdoor improvements, Taylor'd Renovations helps you make the next right move without starting from scratch.</p>
+        <div class="cta-row">
+          <a class="btn" href="mailto:taylordrenovationsllc@gmail.com?subject=Free%20quote%20request%20for%20Taylor'd%20Renovations">Request a Free Quote</a>
+          <a class="btn secondary" href="tel:17579953053">Call 757-995-3053</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-strip" aria-label="Quick trust points">
+      <div>Crozet, Virginia</div>
+      <div>Budget-minded planning</div>
+      <div>Design + hands-on work</div>
+      <div>DIY-friendly partner</div>
+    </div>
+
+    <section id="services">
+      <div class="intro">
+        <div>
+          <div class="eyebrow">Professional Services</div>
+          <h2>Start with the project you have.</h2>
+        </div>
+        <div>
+          <p class="lede">Not every home needs a total tear-out. Sometimes the smartest renovation is a focused plan, a repaired surface, or one room completed well.</p>
+          <p>Taylor'd Renovations works with homeowners who want beautiful, functional spaces while keeping timing and budget realistic.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Design</h3>
+          <p>Plan practical updates, choose finishes, rethink layouts, and find the path that makes your space feel uniquely yours.</p>
+        </article>
+        <article class="card">
+          <h3>Refresh</h3>
+          <p>Give cabinets, furniture, and tired surfaces a second life with cleaning, sanding, painting, refacing, and careful detail work.</p>
+        </article>
+        <article class="card">
+          <h3>Do</h3>
+          <p>Tackle complete room renovations, one-wall improvements, landscape installs, or collaborative projects with DIYers and contractors.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="soft" id="story">
+      <div class="intro">
+        <div>
+          <div class="eyebrow">Who We Are</div>
+          <h2>Creative, practical renovation partners.</h2>
+        </div>
+        <p class="lede">Built from restored dreams, reclaimed materials, and years of hands-on fixer-upper experience.</p>
+      </div>
+      <div class="people">
+        <article class="person">
+          <h3>Christie Taylor</h3>
+          <p>Christie formed the company to serve clients like her: busy homeowners who need creativity, flexibility, and a realistic plan. She grew up around contractors, bought her first fixer-upper at 19, and brings personal renovation experience to every project.</p>
+        </article>
+        <article class="person">
+          <h3>Michael Christman</h3>
+          <p>Michael brings a lifelong love of wood, design, and making. Through Closer to the Heart Woodworking, he focuses where possible on sustainable, locally cut, salvaged, and milled wood that gives each piece a second story.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="intro">
+        <div>
+          <div class="eyebrow">Project Portfolio</div>
+          <h2>A few ways we help homes feel renewed.</h2>
+        </div>
+        <p class="lede">Landscape installation, kitchen installation, interior design, woodworking, and room-by-room renovation support.</p>
+      </div>
+      <div class="portfolio" aria-label="Portfolio categories">
+        <div class="tile"><span>Landscape Installation</span></div>
+        <div class="tile"><span>Kitchen Installation</span></div>
+        <div class="tile"><span>Interior Design</span></div>
+      </div>
+    </section>
+
+    <section class="soft" aria-label="What happens next">
+      <div class="intro">
+        <div>
+          <div class="eyebrow">What Happens Next</div>
+          <h2>A simple quote process.</h2>
+        </div>
+        <p class="lede">Tell us what you want to change. We’ll reply to schedule a time, look at the project, and talk through realistic options.</p>
+      </div>
+      <div class="process">
+        <div class="step"><h3>Share the idea</h3><p>Email or call with the room, repair, or renovation you have in mind.</p></div>
+        <div class="step"><h3>Schedule a look</h3><p>We set a time for a free quote and gather the details that affect scope.</p></div>
+        <div class="step"><h3>Choose a path</h3><p>We discuss practical options for budget, timeline, materials, and phasing.</p></div>
+        <div class="step"><h3>Start the work</h3><p>Your project moves forward one clear, manageable step at a time.</p></div>
+      </div>
+    </section>
+
+    <section class="quote" id="quote">
+      <h2>Get a Free Quote</h2>
+      <p>Tell us a little about you and your project, and we will get back to you to schedule a time for your free quote.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a class="btn" href="mailto:taylordrenovationsllc@gmail.com?subject=Free%20quote%20request%20for%20Taylor'd%20Renovations&body=Hi%20Taylor'd%20Renovations%2C%0A%0AI'd%20like%20to%20talk%20about%20a%20project.%20Here%20are%20a%20few%20details%3A%0A%0AProject%20type%3A%0ALocation%3A%0ATimeline%3A%0ABest%20phone%20number%3A%0A">Email Project Details</a>
+        <a class="btn secondary" href="https://www.facebook.com/Taylord-Renovations-114176660125761/">Visit Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">Taylor'd Renovations, LLC</div>
+    <p><a href="mailto:taylordrenovationsllc@gmail.com">taylordrenovationsllc@gmail.com</a></p>
+    <p><a href="tel:17579953053">757-995-3053</a></p>
+    <p>Crozet, VA</p>
+    <p class="fine">©2026 Taylor'd Renovations, LLC</p>
+  </footer>
+</body>
+</html>

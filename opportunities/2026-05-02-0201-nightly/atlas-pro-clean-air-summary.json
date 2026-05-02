@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "atlas-pro-clean-air",
+  "businessName": "Atlas Pro Clean Air LLC",
+  "originalUrl": "https://airductcleaninguta.wixsite.com/atlasprocleanair",
+  "contactUrl": "https://airductcleaninguta.wixsite.com/atlasprocleanair/contact-us",
+  "sourceUrl": "https://airductcleaninguta.wixsite.com/atlasprocleanair",
+  "category": "air duct / dryer vent cleaning",
+  "locationHint": "Utah",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/atlas-pro-clean-air/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/atlas-pro-clean-air-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/atlas-pro-clean-air-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/atlas-pro-clean-air-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/atlas-pro-clean-air-prototype.png",
+  "issueSummary": "The homepage has a recognizable local-service look but lacks a clear above-fold service promise, task-specific service paths, next-step guidance, and has trust issues from Wix residue plus a captured phone-link mismatch.",
+  "recommendationScore": 84,
+  "topFindings": [
+    "Homepage hero is mostly an equipment image with no clear air duct/dryer vent value proposition or specific CTA before the contact form.",
+    "Visible Wix builder banner and dated/template cues weaken trust for a home-service contractor.",
+    "Services and next steps are hidden or unclear; homeowners need faster routing to air duct cleaning, dryer vent cleaning, and commercial duct cleaning."
+  ],
+  "preservedDesign": "Preserved white header, Atlas-style blue logo mark, hours/phone/badge row, black/gray nav tabs, large equipment-image hero feel, royal-blue contact block, map/form layout, and floating chat cue.",
+  "criticalCoverageStatus": "All critical findings were fixed or improved in the prototype: clearer hero/CTAs, removed builder banner, and standardized phone CTA to the visible (385) 497-6505 number.",
+  "screenshotBlockers": []
+}

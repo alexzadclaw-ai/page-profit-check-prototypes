@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "taylord-renovations",
+  "businessName": "Taylor'd Renovations LLC",
+  "originalUrl": "https://taylordrenovations.wixsite.com/website",
+  "contactUrl": "mailto:taylordrenovationsllc@gmail.com",
+  "sourceUrl": "https://taylordrenovations.wixsite.com/website",
+  "category": "remodeling / renovation contractor",
+  "locationHint": "Crozet, VA, USA",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/taylord-renovations/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/taylord-renovations-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/taylord-renovations-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/taylord-renovations-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/taylord-renovations-prototype.png",
+  "issueSummary": "Warm local renovation story is undermined by weak hero clarity, buried trust, vague quote flow, and Wix/template residue.",
+  "recommendationScore": 87,
+  "topFindings": [
+    "Hero does not immediately communicate renovation services, Crozet-area relevance, or a specific quote CTA.",
+    "Contact/quote path is unclear and lacks reassuring next steps.",
+    "Valuable trust and service details are buried below long biography copy while Wix/template residue remains visible."
+  ],
+  "preservedDesign": "Preserved the sparse Wix-style layout, centered uppercase brand, neutral black/white palette, serif tagline, Oswald-like headings, personal story, portfolio categories, and Crozet contact details.",
+  "criticalCoverageStatus": "All critical issues improved: hero now states service/location with direct quote and phone CTAs; quote flow now explains next steps and offers clear email/phone actions.",
+  "screenshotBlockers": []
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "juarez-lawn-landscaping",
+  "businessName": "Juarez Lawn & Landscaping LLC",
+  "originalUrl": "https://juarezoutdoor.wixsite.com/website",
+  "contactUrl": "https://juarezoutdoor.wixsite.com/website/contact",
+  "sourceUrl": "https://juarezoutdoor.wixsite.com/website",
+  "category": "lawn care / landscaping",
+  "locationHint": "Kansas / USA",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/juarez-lawn-landscaping/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/juarez-lawn-landscaping-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/juarez-lawn-landscaping-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/juarez-lawn-landscaping-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/juarez-lawn-landscaping-prototype.png",
+  "issueSummary": "The current Wix homepage has real local service information, but generic hero copy, template artifacts, and misleading booking prices weaken trust before visitors request a quote.",
+  "recommendationScore": 82,
+  "topFindings": [
+    "Hero does not quickly state the service mix, Dodge City area, or quote CTA.",
+    "Booking-widget prices such as $2/$8 for project work look like placeholders and damage credibility.",
+    "Trust signals and next-step quote flow are buried or vague."
+  ],
+  "preservedDesign": "Kept the simple Wix-style nav, large outdoor green/lime hero feel, about/services/contact rhythm, Arial typography, and service-card structure while removing trust-damaging template artifacts.",
+  "criticalCoverageStatus": "All critical findings were fixed or materially improved in the prototype: specific hero/CTA, quote-based services instead of placeholder prices, and cleaned-up template/contact/footer elements.",
+  "screenshotBlockers": []
+}

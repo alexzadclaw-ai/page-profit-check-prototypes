@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "battle-born-maintenance",
+  "businessName": "Battle Born Maintenance LLC",
+  "originalUrl": "https://kingdomcoachinglv.wixsite.com/bbmllc",
+  "contactUrl": "https://kingdomcoachinglv.wixsite.com/bbmllc#contact",
+  "sourceUrl": "https://kingdomcoachinglv.wixsite.com/bbmllc",
+  "category": "property maintenance / handyman",
+  "locationHint": "Las Vegas, Nevada",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/battle-born-maintenance/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/battle-born-maintenance-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/battle-born-maintenance-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/battle-born-maintenance-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/battle-born-maintenance-prototype.png",
+  "issueSummary": "A memorable Las Vegas handyman site is weakened by a mismatched Wix account URL/banner, dense hero copy, buried trust proof, and unclear quote/contact path.",
+  "recommendationScore": 91,
+  "topFindings": [
+    "Mismatched kingdomcoachinglv Wix URL and Wix banner create immediate trust friction for a maintenance business.",
+    "Hero copy is long and all-caps, delaying the clear promise, proof, and next step.",
+    "Licensed/bonded, 20+ years, owner story, services, and testimonials exist but need stronger first-screen hierarchy."
+  ],
+  "preservedDesign": "Preserved the gray header, logo/nav layout, red/black/blue Battle Born color system, watermark backgrounds, bold stencil/Impact typography feel, service-card rhythm, owner quote, testimonials, and contact/footer flow.",
+  "criticalCoverageStatus": "All critical findings were fixed or improved in the prototype: Wix/banner residue removed from the improved page shell, hero clarified, trust proof moved near the top, and CTA choices made specific.",
+  "screenshotBlockers": []
+}

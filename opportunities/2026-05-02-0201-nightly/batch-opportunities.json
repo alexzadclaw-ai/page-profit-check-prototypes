@@ -1,0 +1,98 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "createdAt": "2026-05-02T07:01:00Z",
+  "siteCountCap": 25,
+  "targetCount": 10,
+  "opportunities": [
+    {
+      "slug": "landmark-steel-buildings",
+      "businessName": "Landmark Steel Buildings LLC",
+      "originalUrl": "https://pynrn1.wixsite.com/steelbuildings",
+      "sourceUrl": "https://pynrn1.wixsite.com/steelbuildings",
+      "category": "steel building contractor / construction",
+      "locationHint": "Kentucky / regional USA",
+      "curationNote": "Wix-hosted small contractor site; likely quick-win clarity, trust, CTA, and service-path cleanup opportunity."
+    },
+    {
+      "slug": "trees-roofs-and-mohr",
+      "businessName": "Trees, Roofs and Mohr LLC",
+      "originalUrl": "https://treesroofsandmohr.wixsite.com/mysite",
+      "sourceUrl": "https://treesroofsandmohr.wixsite.com/mysite",
+      "category": "home services / roofing / tree service",
+      "locationHint": "Iowa",
+      "curationNote": "Broad-service home contractor page with likely hierarchy and buyer-path issues."
+    },
+    {
+      "slug": "taylord-renovations",
+      "businessName": "Taylor'd Renovations LLC",
+      "originalUrl": "https://taylordrenovations.wixsite.com/website",
+      "sourceUrl": "https://taylordrenovations.wixsite.com/website",
+      "category": "remodeling / renovation contractor",
+      "locationHint": "USA",
+      "curationNote": "Local renovation site likely benefits from above-the-fold trust, service organization, and lead CTA cleanup."
+    },
+    {
+      "slug": "wise-choice-services",
+      "businessName": "Wise Choice Services LLC",
+      "originalUrl": "https://wisechoiceservices.wixsite.com/website",
+      "sourceUrl": "https://wisechoiceservices.wixsite.com/website",
+      "category": "security guard / private security service",
+      "locationHint": "Florida",
+      "curationNote": "Service business with clear need for trust-first hero, compliance/training cues, and lead-flow clarity."
+    },
+    {
+      "slug": "tlc-bookkeeping-services",
+      "businessName": "TLC Bookkeeping Services LLC",
+      "originalUrl": "https://traceyleigh22.wixsite.com/website",
+      "sourceUrl": "https://traceyleigh22.wixsite.com/website",
+      "category": "bookkeeping / administrative services",
+      "locationHint": "Florida",
+      "curationNote": "Professional-service site with likely pitchable conversion clarity and service packaging opportunity."
+    },
+    {
+      "slug": "juarez-lawn-landscaping",
+      "businessName": "Juarez Lawn & Landscaping LLC",
+      "originalUrl": "https://juarezoutdoor.wixsite.com/website",
+      "sourceUrl": "https://juarezoutdoor.wixsite.com/website",
+      "category": "lawn care / landscaping",
+      "locationHint": "Kansas / USA",
+      "curationNote": "Local outdoor services site; likely quick wins around seasonal service paths, quote CTA, and trust."
+    },
+    {
+      "slug": "chapmans-pressure-cleaning",
+      "businessName": "Chapman's Pressure Cleaning LLC",
+      "originalUrl": "https://chapmanspressurecl.wixsite.com/mysite",
+      "sourceUrl": "https://chapmanspressurecl.wixsite.com/mysite",
+      "category": "pressure washing / exterior cleaning",
+      "locationHint": "North Carolina",
+      "curationNote": "Exterior cleaning service with clear before/after, quote CTA, and trust-signal opportunities."
+    },
+    {
+      "slug": "dreamscape-erie",
+      "businessName": "Dreamscape Erie LLC",
+      "originalUrl": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc",
+      "sourceUrl": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc",
+      "category": "landscaping / hardscaping",
+      "locationHint": "Erie, Pennsylvania",
+      "curationNote": "Local landscaping business; likely needs clearer hero, project/service sections, and quote flow."
+    },
+    {
+      "slug": "battle-born-maintenance",
+      "businessName": "Battle Born Maintenance LLC",
+      "originalUrl": "https://kingdomcoachinglv.wixsite.com/bbmllc",
+      "sourceUrl": "https://kingdomcoachinglv.wixsite.com/bbmllc",
+      "category": "property maintenance / handyman",
+      "locationHint": "Las Vegas, Nevada",
+      "curationNote": "Maintenance business using a mismatched Wix account URL; likely trust/clarity/CTA cleanup."
+    },
+    {
+      "slug": "atlas-pro-clean-air",
+      "businessName": "Atlas Pro Clean Air LLC",
+      "originalUrl": "https://airductcleaninguta.wixsite.com/atlasprocleanair",
+      "sourceUrl": "https://airductcleaninguta.wixsite.com/atlasprocleanair",
+      "category": "air duct / dryer vent cleaning",
+      "locationHint": "Utah",
+      "curationNote": "Home-service site with likely quick wins around service cards, booking CTA, proof, and what-happens-next."
+    }
+  ]
+}

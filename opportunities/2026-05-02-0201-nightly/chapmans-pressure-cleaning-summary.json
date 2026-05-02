@@ -1,0 +1,24 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "chapmans-pressure-cleaning",
+  "businessName": "Chapman's Pressure Cleaning LLC",
+  "originalUrl": "https://chapmanspressurecl.wixsite.com/mysite",
+  "contactUrl": "mailto:chapmanspressurecleaning@gmail.com?subject=Free%20Quote!",
+  "sourceUrl": "https://chapmanspressurecl.wixsite.com/mysite",
+  "category": "pressure washing / exterior cleaning",
+  "locationHint": "North Carolina",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/chapmans-pressure-cleaning/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/chapmans-pressure-cleaning-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/chapmans-pressure-cleaning-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/chapmans-pressure-cleaning-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/chapmans-pressure-cleaning-prototype.png",
+  "issueSummary": "The site has real services and quote intent, but the homepage is undermined by unfinished Wix/template artifacts and unclear above-the-fold positioning.",
+  "recommendationScore": 86,
+  "topFindings": [
+    "Visible Wix/template leftovers, placeholder links, login/account items, and old template copyright damage trust.",
+    "Homepage does not quickly explain exterior cleaning services, location, trust signals, or quote process."
+  ],
+  "preservedDesign": "Kept the simple Wix-style fixed-width layout, centered CPC LLC. 2.0 brand, black/white header, rectangular buttons, Avenir/Lulo typography feel, and footer contact-column rhythm.",
+  "criticalCoverageStatus": "All critical findings fixed or improved in the prototype: template leftovers removed, hero clarified, CTAs and trust signals moved above the fold.",
+  "screenshotBlockers": []
+}

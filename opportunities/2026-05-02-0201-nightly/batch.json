@@ -1,0 +1,119 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "createdAt": "2026-05-02T07:01:00Z",
+  "items": [
+    {
+      "slug": "battle-born-maintenance",
+      "name": "Battle Born Maintenance LLC",
+      "url": "https://kingdomcoachinglv.wixsite.com/bbmllc",
+      "contact": "https://kingdomcoachinglv.wixsite.com/bbmllc#contact",
+      "summary": "A memorable Las Vegas handyman site is weakened by a mismatched Wix account URL/banner, dense hero copy, buried trust proof, and unclear quote/contact path.",
+      "score": "A",
+      "recommendationScore": 91,
+      "category": "property maintenance / handyman",
+      "locationHint": "Las Vegas, Nevada"
+    },
+    {
+      "slug": "dreamscape-erie",
+      "name": "Dreamscape Erie LLC",
+      "url": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc",
+      "contact": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc/book-online",
+      "summary": "The Wix homepage has real local contact/service info but loses trust through template leftovers, fake testimonials, vague CTAs, thin service descriptions, and no clear estimate flow.",
+      "score": "A",
+      "recommendationScore": 88,
+      "category": "landscaping / hardscaping",
+      "locationHint": "Erie, Pennsylvania"
+    },
+    {
+      "slug": "taylord-renovations",
+      "name": "Taylor'd Renovations LLC",
+      "url": "https://taylordrenovations.wixsite.com/website",
+      "contact": "mailto:taylordrenovationsllc@gmail.com",
+      "summary": "Warm local renovation story is undermined by weak hero clarity, buried trust, vague quote flow, and Wix/template residue.",
+      "score": "A-",
+      "recommendationScore": 87,
+      "category": "remodeling / renovation contractor",
+      "locationHint": "Crozet, VA, USA"
+    },
+    {
+      "slug": "chapmans-pressure-cleaning",
+      "name": "Chapman's Pressure Cleaning LLC",
+      "url": "https://chapmanspressurecl.wixsite.com/mysite",
+      "contact": "mailto:chapmanspressurecleaning@gmail.com?subject=Free%20Quote!",
+      "summary": "The site has real services and quote intent, but the homepage is undermined by unfinished Wix/template artifacts and unclear above-the-fold positioning.",
+      "score": "A-",
+      "recommendationScore": 86,
+      "category": "pressure washing / exterior cleaning",
+      "locationHint": "North Carolina"
+    },
+    {
+      "slug": "trees-roofs-and-mohr",
+      "name": "Trees, Roofs and Mohr LLC",
+      "url": "https://treesroofsandmohr.wixsite.com/mysite",
+      "contact": "mailto:treesroofsandmohr@gmail.com",
+      "summary": "The site has real local trust signals but buries them under generic Wix copy, vague CTAs, broad ungrouped services, and unfinished template leftovers.",
+      "score": "A-",
+      "recommendationScore": 86,
+      "category": "home services / roofing / tree service",
+      "locationHint": "Iowa"
+    },
+    {
+      "slug": "wise-choice-services",
+      "name": "Wise Choice Services LLC",
+      "url": "https://wisechoiceservices.wixsite.com/website",
+      "contact": "mailto:wisechoiceservicesllc@gmail.com",
+      "summary": "The site has credible service basics but feels like a default Wix template, burying trust proof and leaving security buyers without a clear call path.",
+      "score": "A-",
+      "recommendationScore": 86,
+      "category": "security guard / private security service",
+      "locationHint": "Florida"
+    },
+    {
+      "slug": "atlas-pro-clean-air",
+      "name": "Atlas Pro Clean Air LLC",
+      "url": "https://airductcleaninguta.wixsite.com/atlasprocleanair",
+      "contact": "https://airductcleaninguta.wixsite.com/atlasprocleanair/contact-us",
+      "summary": "The homepage has a recognizable local-service look but lacks a clear above-fold service promise, task-specific service paths, next-step guidance, and has trust issues from Wix residue plus a captured phone-link mismatch.",
+      "score": "B+",
+      "recommendationScore": 84,
+      "category": "air duct / dryer vent cleaning",
+      "locationHint": "Utah"
+    },
+    {
+      "slug": "tlc-bookkeeping-services",
+      "name": "TLC Bookkeeping Services LLC",
+      "url": "https://traceyleigh22.wixsite.com/website",
+      "contact": "mailto:tstevens0422@yahoo.com",
+      "summary": "The site has contact basics but needs clearer hero positioning, service packaging, and a specific inquiry path.",
+      "score": "B+",
+      "recommendationScore": 83,
+      "category": "bookkeeping / administrative services",
+      "locationHint": "Florida"
+    },
+    {
+      "slug": "juarez-lawn-landscaping",
+      "name": "Juarez Lawn & Landscaping LLC",
+      "url": "https://juarezoutdoor.wixsite.com/website",
+      "contact": "https://juarezoutdoor.wixsite.com/website/contact",
+      "summary": "The current Wix homepage has real local service information, but generic hero copy, template artifacts, and misleading booking prices weaken trust before visitors request a quote.",
+      "score": "B+",
+      "recommendationScore": 82,
+      "category": "lawn care / landscaping",
+      "locationHint": "Kansas / USA"
+    },
+    {
+      "slug": "landmark-steel-buildings",
+      "name": "Landmark Steel Buildings LLC",
+      "url": "https://pynrn1.wixsite.com/steelbuildings",
+      "contact": "mailto:pynrn@aol.com",
+      "summary": "The Wix site has useful contact and service information, but weak hero clarity, typo/template noise, and unclear service paths make the contractor look less credible than it should.",
+      "score": "B+",
+      "recommendationScore": 82,
+      "category": "steel building contractor / construction",
+      "locationHint": "Kentucky / regional USA"
+    }
+  ],
+  "count": 10,
+  "model": "gpt-5.5",
+  "note": "Nightly Page Profit Check batch. Prototypes intentionally preserve original design direction while applying audit-driven conversion fixes."
+}

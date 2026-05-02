@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "dreamscape-erie",
+  "businessName": "Dreamscape Erie LLC",
+  "originalUrl": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc",
+  "contactUrl": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc/book-online",
+  "sourceUrl": "https://dreamscapeerie21.wixsite.com/dreamscapeeriellc",
+  "category": "landscaping / hardscaping",
+  "locationHint": "Erie, Pennsylvania",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/dreamscape-erie/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/dreamscape-erie-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/dreamscape-erie-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/dreamscape-erie-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/dreamscape-erie-prototype.png",
+  "issueSummary": "The Wix homepage has real local contact/service info but loses trust through template leftovers, fake testimonials, vague CTAs, thin service descriptions, and no clear estimate flow.",
+  "recommendationScore": 88,
+  "topFindings": [
+    "Critical trust damage from Wix/template leftovers and placeholder testimonials.",
+    "Hero CTA is generic instead of driving a free estimate request.",
+    "Services and quote process need clearer homeowner decision paths."
+  ],
+  "preservedDesign": "Kept the Wix-style single-page rhythm, garden imagery, serif headline feel, simple centered sections, natural/sage color direction, and original contact details while lightly cleaning trust and conversion copy.",
+  "criticalCoverageStatus": "All critical findings fixed or improved in the static prototype: fake/template content removed from the page experience and the hero now drives a specific free-estimate CTA.",
+  "screenshotBlockers": []
+}

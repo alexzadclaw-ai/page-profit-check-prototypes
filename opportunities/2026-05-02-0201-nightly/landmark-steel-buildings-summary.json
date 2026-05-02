@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "landmark-steel-buildings",
+  "businessName": "Landmark Steel Buildings LLC",
+  "originalUrl": "https://pynrn1.wixsite.com/steelbuildings",
+  "contactUrl": "mailto:pynrn@aol.com",
+  "sourceUrl": "https://pynrn1.wixsite.com/steelbuildings",
+  "category": "steel building contractor / construction",
+  "locationHint": "Kentucky / regional USA",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/landmark-steel-buildings/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/landmark-steel-buildings-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/landmark-steel-buildings-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/landmark-steel-buildings-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/landmark-steel-buildings-prototype.png",
+  "issueSummary": "The Wix site has useful contact and service information, but weak hero clarity, typo/template noise, and unclear service paths make the contractor look less credible than it should.",
+  "recommendationScore": 82,
+  "topFindings": [
+    "Hero and CTAs do not clearly guide quote-ready steel building prospects.",
+    "Typos, repeated contact blocks, and Wix/template leftovers weaken trust.",
+    "Services and next steps need simpler scan-friendly structure."
+  ],
+  "preservedDesign": "Kept a simple one-page local contractor feel with brown/tan construction tones, centered hero, phone-first contact, plain service sections, and modest builder-site styling.",
+  "criticalCoverageStatus": "All critical findings fixed or improved in prototype: clearer hero/CTA, corrected wording, removed obvious template leftovers, and stronger trust cues near top.",
+  "screenshotBlockers": []
+}

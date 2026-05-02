@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "tlc-bookkeeping-services",
+  "businessName": "TLC Bookkeeping Services LLC",
+  "originalUrl": "https://traceyleigh22.wixsite.com/website",
+  "contactUrl": "mailto:tstevens0422@yahoo.com",
+  "sourceUrl": "https://traceyleigh22.wixsite.com/website",
+  "category": "bookkeeping / administrative services",
+  "locationHint": "Florida",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/tlc-bookkeeping-services/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/tlc-bookkeeping-services-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/tlc-bookkeeping-services-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/tlc-bookkeeping-services-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/tlc-bookkeeping-services-prototype.png",
+  "issueSummary": "The site has contact basics but needs clearer hero positioning, service packaging, and a specific inquiry path.",
+  "recommendationScore": 83,
+  "topFindings": [
+    "Hero copy is brand-focused and does not quickly explain the bookkeeping outcome or buyer fit.",
+    "Services are not packaged into scannable paths, leaving prospects to infer what TLC can do.",
+    "The inquiry path is generic and lacks a reassuring next-step explanation."
+  ],
+  "preservedDesign": "Preserved the simple Wix-builder feel, pale blue/white palette, top contact strip, right-aligned TLC brand block, large uppercase hero, centered sections, and contact/footer structure.",
+  "criticalCoverageStatus": "All critical and high findings were addressed in the prototype with clearer hero copy, specific CTAs, service cards, next-step section, and light cleanup.",
+  "screenshotBlockers": []
+}

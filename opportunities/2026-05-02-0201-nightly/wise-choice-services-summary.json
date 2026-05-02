@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-02-0201-nightly",
+  "slug": "wise-choice-services",
+  "businessName": "Wise Choice Services LLC",
+  "originalUrl": "https://wisechoiceservices.wixsite.com/website",
+  "contactUrl": "mailto:wisechoiceservicesllc@gmail.com",
+  "sourceUrl": "https://wisechoiceservices.wixsite.com/website",
+  "category": "security guard / private security service",
+  "locationHint": "Florida",
+  "prototypePath": "prototypes/2026-05-02-0201-nightly/wise-choice-services/index.html",
+  "auditPath": "opportunities/2026-05-02-0201-nightly/wise-choice-services-audit.md",
+  "offerPath": "offers/2026-05-02-0201-nightly/wise-choice-services-offer.md",
+  "targetScreenshot": "screenshots/2026-05-02-0201-nightly/wise-choice-services-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-02-0201-nightly/wise-choice-services-prototype.png",
+  "issueSummary": "The site has credible service basics but feels like a default Wix template, burying trust proof and leaving security buyers without a clear call path.",
+  "recommendationScore": 86,
+  "topFindings": [
+    "Hero copy is too generic for a high-trust security guard buyer and does not quickly explain service fit.",
+    "Visible template leftovers and generic contact flow weaken credibility.",
+    "Services and next steps need clearer buyer-intent language before a prospect calls."
+  ],
+  "preservedDesign": "Kept the white Wix-style header, logo/company lockup, red accent color, large hero, dark Why Choose Us section, four-card services rhythm, gallery band, testimonials, and footer contact pattern.",
+  "criticalCoverageStatus": "All critical findings fixed or improved in the prototype: clearer hero/CTA and removal of template-style internal labels in the cleaned-up page flow.",
+  "screenshotBlockers": []
+}

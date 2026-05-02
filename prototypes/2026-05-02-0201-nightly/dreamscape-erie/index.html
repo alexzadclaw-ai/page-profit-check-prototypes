@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dreamscape Erie LLC | Landscaping & Hardscapes in Erie, PA</title>
+  <meta name="description" content="Dreamscape Erie LLC creates landscaping, seasonal property care, hardscapes, pool surrounds, patios, walkways, and outdoor spaces around Erie and McKean, Pennsylvania." />
+  <style>
+    :root{
+      --ink:#1e2025;
+      --muted:#555b61;
+      --paper:#fff;
+      --soft:#f2f0ec;
+      --sage:#87907f;
+      --sage-dark:#596251;
+      --line:#d9d4cb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--ink);font-family:Arial, Helvetica, sans-serif;background:#fff;line-height:1.65;font-size:15px}
+    h1,h2,h3,.brand,.tagline{font-family:Georgia, 'Times New Roman', serif;font-weight:400;line-height:1.1;margin:0;color:var(--ink)}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:#f3f4f4;color:#334;padding:9px 18px;text-align:center;font-size:13px;border-bottom:1px solid #e1e1e1}
+    .topbar a{text-decoration:underline;text-underline-offset:3px}
+    header{position:sticky;top:0;z-index:4;background:rgba(89,98,81,.94);color:#fff;box-shadow:0 2px 14px rgba(0,0,0,.13)}
+    .nav{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:24px;justify-content:space-between;padding:16px 28px}
+    .brandwrap{display:flex;align-items:center;gap:13px;min-width:260px}
+    .logo{width:48px;height:56px;border-radius:2px;object-fit:cover;border:1px solid rgba(255,255,255,.55)}
+    .brand{font-size:22px;color:#fff;text-transform:none}.tagline{font-size:14px;color:#f4f1e9;font-family:Arial, Helvetica, sans-serif;letter-spacing:.02em}
+    nav{display:flex;align-items:center;gap:24px;font-size:14px;letter-spacing:.04em} nav a{color:#fff} nav a:hover{text-decoration:underline;text-underline-offset:6px}
+    .phone{border:1px solid rgba(255,255,255,.75);padding:8px 12px;border-radius:1px}
+    .hero{min-height:650px;display:grid;place-items:center;text-align:center;background:linear-gradient(rgba(255,255,255,.22),rgba(255,255,255,.48)),url('https://static.wixstatic.com/media/38ce18485e744aba97b55341ff6025d3.jpg/v1/fill/w_1440,h_1400,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/38ce18485e744aba97b55341ff6025d3.jpg') center/cover no-repeat;padding:90px 24px 70px}
+    .hero-card{max-width:760px;background:rgba(255,255,255,.78);padding:54px 46px;border:1px solid rgba(255,255,255,.75);box-shadow:0 18px 55px rgba(0,0,0,.12)}
+    h1{font-size:72px;margin-bottom:14px}.subtitle{font-family:Georgia, 'Times New Roman', serif;font-size:22px;margin:0 0 18px}.lede{max-width:610px;margin:0 auto 28px;color:#333}
+    .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.btn{display:inline-block;border:1px solid var(--ink);padding:12px 24px;min-width:160px;background:var(--ink);color:#fff;font-size:14px;letter-spacing:.04em}.btn.secondary{background:transparent;color:var(--ink)}
+    .trust{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.trust-grid{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;padding:0 24px}.trust-item{padding:23px 20px;text-align:center;border-left:1px solid var(--line)}.trust-item:last-child{border-right:1px solid var(--line)}.trust strong{display:block;font-family:Georgia,serif;font-size:21px;font-weight:400}.trust span{font-size:13px;color:var(--muted)}
+    section{padding:76px 28px}.split{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:460px 1fr;gap:70px;align-items:center}.split img,.card img{width:100%;height:520px;object-fit:cover;display:block}.eyebrow{font-family:Georgia,serif;font-size:18px;margin-bottom:8px;color:#464a42}h2{font-size:40px;margin-bottom:18px}.text p{margin:0 0 18px;color:#3b3f43}.note-list{display:grid;gap:10px;margin-top:22px}.note{border-left:3px solid var(--sage);padding:6px 0 6px 15px;color:#333}
+    .soft{background:var(--soft)}.center{max-width:790px;margin:0 auto 44px;text-align:center}.center p{color:#4d5355;margin:0}.services{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.card{background:#fff;border:1px solid var(--line)}.card img{height:300px}.card-body{padding:28px}.card h3{font-size:28px;margin-bottom:8px}.card .mini{font-family:Georgia,serif;font-size:18px;margin-bottom:14px}.card ul{padding-left:19px;margin:14px 0 22px;color:#3c4144}.card li{margin:5px 0}.linkbtn{font-size:13px;letter-spacing:.08em;border-bottom:1px solid var(--ink);padding-bottom:4px}
+    .banner{background:linear-gradient(rgba(30,32,37,.50),rgba(30,32,37,.50)),url('https://static.wixstatic.com/media/38ce18485e744aba97b55341ff6025d3.jpg/v1/fill/w_1440,h_560,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/38ce18485e744aba97b55341ff6025d3.jpg') center/cover no-repeat;color:#fff;text-align:center}.banner h2,.banner p{color:#fff}.banner .btn{border-color:#fff;background:#fff;color:#1e2025}
+    .steps{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{border:1px solid var(--line);padding:26px;background:#fff}.num{font-family:Georgia,serif;font-size:34px;color:var(--sage-dark)}.step h3{font-size:24px;margin:5px 0 9px}
+    .contact{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:52px}.contact-box{background:#fff;border:1px solid var(--line);padding:34px}.fields{display:grid;gap:12px}.field{border:1px solid #beb8ad;padding:13px 14px;color:#666;background:#fff}.field.big{min-height:108px}.details p{margin:8px 0}.footer{background:#596251;color:#fff;padding:34px 28px}.footer-inner{max-width:1120px;margin:0 auto;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer a{text-decoration:underline;text-underline-offset:3px}.small{font-size:13px;color:#edf0e8}
+    @media(max-width:850px){.nav{display:block;text-align:center}.brandwrap{justify-content:center;margin-bottom:13px}.nav nav{justify-content:center;flex-wrap:wrap;gap:13px}.phone{padding:6px 9px}h1{font-size:44px}.hero{min-height:560px}.hero-card{padding:36px 24px}.trust-grid,.services,.steps,.split,.contact{grid-template-columns:1fr}.trust-item{border-right:1px solid var(--line)}.split{gap:30px}.split img,.card img{height:330px}section{padding:54px 20px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Serving Erie, McKean, and nearby Pennsylvania properties — call <a href="tel:18148440102">814-844-0102</a> for a free consultation and estimate.</div>
+  <header>
+    <div class="nav">
+      <a class="brandwrap" href="#top" aria-label="Dreamscape Erie LLC home">
+        <img class="logo" src="https://static.wixstatic.com/media/389e4c_f8365fea12544e4195f5f0f31e5b48c1~mv2.jpg/v1/fill/w_65,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg" alt="Dreamscape Erie LLC logo">
+        <span><span class="brand">Dreamscape erie llc</span><br><span class="tagline">Where dreams become reality</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#top">HOME</a>
+        <a href="#services">Services</a>
+        <a href="#estimate">Free Estimate</a>
+        <a href="mailto:Dreamscapeerie21@gmail.com">Dreamscapeerie21@gmail.com</a>
+        <a class="phone" href="tel:18148440102">8148440102</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Dreamscape erie llc</h1>
+        <p class="subtitle">Dreams built on hard work and true value</p>
+        <p class="lede">Create the outdoor oasis you’ve always dreamed of with local landscaping, seasonal care, hardscapes, pool surrounds, patios, and walkways built with detail and reliability.</p>
+        <div class="actions"><a class="btn" href="#estimate">Request a Free Estimate</a><a class="btn secondary" href="#services">View Services</a></div>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div class="trust-grid">
+        <div class="trust-item"><strong>Erie Area</strong><span>Local landscaping & hardscaping</span></div>
+        <div class="trust-item"><strong>Free Estimate</strong><span>Clear next step before work begins</span></div>
+        <div class="trust-item"><strong>All Seasons</strong><span>Summer, fall, winter & spring</span></div>
+        <div class="trust-item"><strong>814-844-0102</strong><span>Fast phone or email contact</span></div>
+      </div>
+    </div>
+
+    <section>
+      <div class="split">
+        <img src="https://static.wixstatic.com/media/a691de7ecc4b4d699a1f6d7ca1bc1133.jpg/v1/fill/w_460,h_700,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Designed%20Grass%20Field.jpg" alt="Designed grass field">
+        <div class="text">
+          <div class="eyebrow">About Dreamscape erie llc</div>
+          <h2>A Top-Tier Landscaping Company</h2>
+          <p>Dreamscape erie llc is known for eco-friendly, quality landscaping that clients in Erie, Pennsylvania appreciate and trust. From small neighborhood gardens to lawns, outdoor living areas, and commercial spaces, each project is approached with care and meticulous detail.</p>
+          <p>We believe in building lasting relationships with our clients, getting to know their property, personal style, and goals so we can bring their vision and dream to life.</p>
+          <div class="note-list">
+            <div class="note">Residential and commercial property improvements</div>
+            <div class="note">Hardscape planning, pool surrounds, and seasonal care</div>
+            <div class="note">Reliable communication from estimate through cleanup</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft" id="services">
+      <div class="center">
+        <div class="eyebrow">Dreamscape erie llc Services</div>
+        <h2>What We Offer</h2>
+        <p>Quality and professionalism come first. Choose the service path that matches what you want done, then get a free consultation and estimate.</p>
+      </div>
+      <div class="services">
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/11062b_b74a196d021e47498c854a136b03ff8c~mv2.jpg/v1/fill/w_625,h_879,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b74a196d021e47498c854a136b03ff8c~mv2.jpg" alt="Seasonal landscaping service">
+          <div class="card-body"><h3>Seasonal</h3><div class="mini">Summer, fall, winter, spring — we do it all year round</div><p>Seasonal property care that keeps your outdoor space clean, healthy, and ready for the months ahead.</p><ul><li>Spring and fall cleanups</li><li>Planting bed refreshes</li><li>Ongoing property upkeep</li></ul><a class="linkbtn" href="#estimate">BOOK NOW</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/22edd206ba064da7876cf88b659eb545.jpg/v1/fill/w_625,h_879,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/22edd206ba064da7876cf88b659eb545.jpg" alt="Pool surround and hardscape">
+          <div class="card-body"><h3>Hardscapes / Pool Surrounds</h3><div class="mini">Attention to Detail</div><p>Custom hardscape services for outdoor spaces that need structure, durability, and a finished look.</p><ul><li>Pool surrounds</li><li>Patios and walkways</li><li>Stone and outdoor living features</li></ul><a class="linkbtn" href="#estimate">BOOK NOW</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/be7461f7efb4452e9a3d968060f9b631.jpeg/v1/fill/w_940,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Designed%20Backyard.jpeg" alt="Designed backyard landscaping">
+          <div class="card-body"><h3>Outdoor Oases</h3><div class="mini">Bring the full vision together</div><p>Landscape and hardscape planning for homeowners who want a more comfortable, useful backyard.</p><ul><li>Design ideas and priorities</li><li>Phased project planning</li><li>Budget-conscious recommendations</li></ul><a class="linkbtn" href="#estimate">GET IN TOUCH</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="center">
+        <h2>Sign up for a free consultation and estimate.</h2>
+        <p>Tell us what you want to improve, where the property is located, and the best way to reach you.</p><br>
+        <a class="btn" href="#estimate">Contact Us</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="center"><div class="eyebrow">What happens next</div><h2>A simple quote flow</h2></div>
+      <div class="steps">
+        <div class="step"><div class="num">01</div><h3>Share your project</h3><p>Send a few details about your landscaping, seasonal, or hardscape goal.</p></div>
+        <div class="step"><div class="num">02</div><h3>Schedule a look</h3><p>We confirm the property, talk through priorities, and review practical options.</p></div>
+        <div class="step"><div class="num">03</div><h3>Get your estimate</h3><p>You receive a clear next step before work begins, with expectations set up front.</p></div>
+      </div>
+    </section>
+
+    <section class="soft" id="estimate">
+      <div class="contact">
+        <div class="details">
+          <div class="eyebrow">Contact Us</div>
+          <h2>Let us know if you have questions or would like more information about our services.</h2>
+          <p><strong>Address:</strong><br>8991 Main Street<br>Mckean, PA 16426</p>
+          <p><strong>Email:</strong><br><a href="mailto:Dreamscapeerie21@gmail.com">Dreamscapeerie21@gmail.com</a></p>
+          <p><strong>Phone:</strong><br><a href="tel:18148440102">8148440102</a></p>
+        </div>
+        <div class="contact-box" aria-label="Contact form preview">
+          <div class="fields">
+            <div class="field">Name</div><div class="field">Email</div><div class="field">Subject</div><div class="field big">Message</div><a class="btn" href="mailto:Dreamscapeerie21@gmail.com?subject=Free%20consultation%20and%20estimate%20request">Submit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div><div class="brand">Dreamscape erie llc</div><div class="small">Where dreams become reality</div></div>
+      <div><strong>Contact</strong><br><a href="mailto:Dreamscapeerie21@gmail.com">Dreamscapeerie21@gmail.com</a><br><a href="tel:18148440102">8148440102</a></div>
+      <div><strong>Address</strong><br>8991 Main Street<br>Mckean PA 16426</div>
+    </div>
+  </footer>
+</body>
+</html>
