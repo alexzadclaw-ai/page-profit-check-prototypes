@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfect Shot Media | Photography & Videography Sessions</title>
+  <meta name="description" content="Perfect Shot Media captures portraits, graduations, birthdays, family sessions, headshots, events, and business marketing visuals with clear packages and an easy booking path." />
+  <style>
+    :root{
+      --ink:#060606;--paper:#fff;--soft:#f6f4f1;--muted:#696969;--line:#dedbd4;--red:#d11904;--charcoal:#171717;--gold:#b8944d;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:var(--paper);line-height:1.45} a{color:inherit;text-decoration:none} img{max-width:100%;display:block}
+    .topbar{background:#050505;color:#fff;font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-align:center;padding:9px 18px}.topbar a{text-decoration:underline;text-underline-offset:3px}
+    header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:22px;padding:14px 22px}.brand{display:flex;align-items:center;gap:13px;font-weight:800;letter-spacing:.18em}.brand img{width:70px;height:70px;object-fit:contain}.nav nav{display:flex;align-items:center;gap:28px;font-size:14px;letter-spacing:.08em;text-transform:uppercase}.nav .active{border-bottom:2px solid var(--red);padding-bottom:5px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);padding:13px 20px;min-height:48px;text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:800;background:#fff;transition:.2s}.btn:hover{background:#111;color:#fff}.btn.primary{background:var(--red);border-color:var(--red);color:#fff}.btn.primary:hover{background:#a91404}.btn.dark{background:#111;color:#fff}.btn.ghost{background:transparent;color:#fff;border-color:#fff}
+    .hero{background:#0c0c0c;color:#fff;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 10%,rgba(209,25,4,.25),transparent 28%),linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.56) 48%,rgba(0,0,0,.25));z-index:1}.hero-grid{position:relative;z-index:2;max-width:1180px;margin:auto;display:grid;grid-template-columns:1.02fr .98fr;gap:46px;align-items:center;padding:76px 22px 64px}.eyebrow{font-size:14px;letter-spacing:.24em;text-transform:uppercase;color:#e5e5e5;margin-bottom:12px}.hero h1{font-size:clamp(44px,7vw,92px);line-height:.9;margin:0 0 24px;letter-spacing:.02em;text-transform:uppercase}.hero h1 span{display:block;color:#fff}.hero p{max-width:590px;font-size:19px;color:#e8e8e8;margin:0 0 28px}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0}.note{font-size:14px;color:#d7d7d7}.photo-stack{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:210px 210px;gap:13px;transform:rotate(-1deg)}.photo-stack img{width:100%;height:100%;object-fit:cover;border:7px solid #fff;box-shadow:0 16px 40px rgba(0,0,0,.35)}.photo-stack img:first-child{grid-row:span 2}.trust{background:#fff;border-bottom:1px solid var(--line)}.trust-inner{max-width:1180px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-left:1px solid var(--line)}.trust .item{padding:22px;border-right:1px solid var(--line)}.trust b{display:block;text-transform:uppercase;letter-spacing:.08em;font-size:14px}.trust span{display:block;color:var(--muted);margin-top:6px;font-size:14px}.section{max-width:1180px;margin:auto;padding:70px 22px}.section.alt{max-width:none;background:var(--soft)}.section.alt>.inner{max-width:1180px;margin:auto}.kicker{color:var(--red);text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:13px}.section h2{font-size:clamp(31px,4vw,54px);line-height:1;margin:10px 0 18px;text-transform:uppercase}.section-intro{max-width:720px;color:#4e4e4e;font-size:18px;margin-bottom:32px}.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);padding:28px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between}.card h3{text-transform:uppercase;letter-spacing:.06em;font-size:22px;margin:0 0 10px}.card p{color:#555;margin:0 0 20px}.price{font-size:14px;color:#222;font-weight:800}.packages{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}.package{background:#fff;border:1px solid var(--line);padding:18px}.package b{display:block;text-transform:uppercase;font-size:14px;min-height:38px}.package span{display:block;color:var(--muted);font-size:13px;margin-top:8px}.gallery{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:14px;margin-top:34px}.gallery img{width:100%;height:310px;object-fit:cover}.gallery img:first-child{height:634px;grid-row:span 2}.process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:step}.step{border-top:4px solid var(--red);background:#fff;padding:24px;min-height:205px}.step:before{counter-increment:step;content:"0" counter(step);font-size:15px;font-weight:900;color:var(--red);letter-spacing:.18em}.step h3{text-transform:uppercase;margin:12px 0 8px}.contact{background:#0d0d0d;color:#fff}.contact .section{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:start}.contact h2{color:#fff}.contact p{color:#dedede}.contact-box{background:#fff;color:#111;padding:30px}.contact-box a{display:block;margin:10px 0;text-decoration:underline;text-underline-offset:3px}.mini-form{display:grid;gap:12px;margin-top:22px}.mini-form input,.mini-form textarea{width:100%;padding:14px;border:1px solid #cfcfcf;font:inherit}.mini-form button{cursor:default}.fine{font-size:13px;color:#777;margin-top:16px}.footer{background:#050505;color:#aaa;text-align:center;padding:26px;font-size:13px}.mobile-cta{display:none}
+    @media (max-width:850px){.nav{align-items:flex-start}.nav nav{display:none}.brand img{width:56px;height:56px}.hero-grid,.contact .section{grid-template-columns:1fr;padding-top:42px}.photo-stack{grid-template-rows:150px 150px}.trust-inner,.paths,.packages,.process{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img,.gallery img:first-child{height:260px;grid-row:auto}.mobile-cta{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:50;box-shadow:0 10px 30px rgba(0,0,0,.3)}body{padding-bottom:70px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Questions before booking? Call <a href="tel:13183945006">318-394-5006</a> or email <a href="mailto:Cedric@perfectshotmedia.biz">Cedric@perfectshotmedia.biz</a></div>
+  <header>
+    <div class="nav">
+      <a class="brand" href="#top"><img src="https://static.wixstatic.com/media/84770f_b1cd12d1108449a68e8036d250cb5f03.png/v1/fill/w_115,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_b1cd12d1108449a68e8036d250cb5f03.png" alt="Perfect Shot Media logo"><span>Perfect Shot<br>Media</span></a>
+      <nav><a class="active" href="#top">Home</a><a href="#packages">Packages</a><a href="#portfolio">Portfolio</a><a href="#next">Next Steps</a><a href="#contact">Contact</a></nav>
+      <a class="btn primary" href="#packages">Book Online</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Captured with intention</div>
+          <h1><span>Perfect Shot</span><span>Media.</span></h1>
+          <p>Photography and videography for milestones, portraits, events, and business marketing — with clear session paths, package pricing, and a simple booking flow.</p>
+          <div class="hero-actions"><a class="btn primary" href="#packages">Choose Your Session</a><a class="btn ghost" href="#portfolio">View Portfolio</a></div>
+          <div class="note">Serving clients across the United States • Last-minute rescheduling fee: $25</div>
+        </div>
+        <div class="photo-stack" aria-label="Perfect Shot Media portfolio preview">
+          <img src="https://static.wixstatic.com/media/c5c5e9_8c74483b1ce446229ec38d1344e4d3d7~mv2.jpg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_8c74483b1ce446229ec38d1344e4d3d7~mv2.jpg" alt="Portrait session by Perfect Shot Media">
+          <img src="https://static.wixstatic.com/media/c5c5e9_b8f4469c04644c85866468faa30335a9~mv2.jpeg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_b8f4469c04644c85866468faa30335a9~mv2.jpeg" alt="Studio portrait sample">
+          <img src="https://static.wixstatic.com/media/c5c5e9_55df21775544444bb16d46965e1c4330~mv2.jpg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_55df21775544444bb16d46965e1c4330~mv2.jpg" alt="Professional headshot sample">
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="trust-inner">
+        <div class="item"><b>Portraits + video</b><span>Graduation, birthdays, maternity, newborn, family, lifestyle.</span></div>
+        <div class="item"><b>Business ready</b><span>Headshots, group headshots, brand content, marketing visuals.</span></div>
+        <div class="item"><b>Transparent pricing</b><span>Popular sessions from $125 with package durations shown upfront.</span></div>
+        <div class="item"><b>Direct contact</b><span>Cedric and Melvin listed clearly for booking questions.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="packages">
+      <div class="kicker">Choose by occasion</div>
+      <h2>Start with the session type that fits your moment.</h2>
+      <p class="section-intro">Instead of making visitors scroll through every booking item at once, the upgraded homepage groups the same services into buyer-friendly paths.</p>
+      <div class="paths">
+        <article class="card"><div><h3>Milestones</h3><p>Graduation, birthdays, maternity, newborn, Mother’s Day, engagement, and family portraits.</p></div><div><div class="price">Popular range: $175–$325</div><a class="btn" href="#popular">See milestone packages</a></div></article>
+        <article class="card"><div><h3>Studio + portraits</h3><p>Clean individual portraits, lifestyle sessions, creative VFX edits, and studio looks.</p></div><div><div class="price">Popular range: $195–$375</div><a class="btn" href="#popular">Compare portrait options</a></div></article>
+        <article class="card"><div><h3>Business + events</h3><p>Individual or group headshots, business marketing shoots, parties, events, and content days.</p></div><div><div class="price">Popular range: $125–$500</div><a class="btn" href="#contact">Ask what fits</a></div></article>
+      </div>
+      <div class="packages" id="popular">
+        <div class="package"><b>Individual Headshots</b><span>15 min • $125 • fast professional update</span></div>
+        <div class="package"><b>Graduation Package 1</b><span>30 min • $175 • simple milestone session</span></div>
+        <div class="package"><b>Family Photography</b><span>1 hr 30 min • $300 • family portraits</span></div>
+        <div class="package"><b>Business Marketing</b><span>1 day • $500 • content for brands</span></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="portfolio"><div class="inner">
+      <div class="kicker">Portfolio proof</div>
+      <h2>Show the work before asking people to book.</h2>
+      <p class="section-intro">A stronger homepage keeps the visual portfolio close to the top so visitors can feel the style, then choose a package with confidence.</p>
+      <div class="gallery">
+        <img src="https://static.wixstatic.com/media/c5c5e9_1d5bbb5d0d79493c8f301e302862817d~mv2.jpg/v1/fill/w_760,h_760,fp_0.50_0.50,q_82,enc_auto/c5c5e9_1d5bbb5d0d79493c8f301e302862817d~mv2.jpg" alt="Perfect Shot Media portrait portfolio">
+        <img src="https://static.wixstatic.com/media/c5c5e9_c0fc995ed6264d16ac11b07a063e949c~mv2.png/v1/fill/w_676,h_676,fp_0.50_0.50,q_85,enc_auto/c5c5e9_c0fc995ed6264d16ac11b07a063e949c~mv2.png" alt="Creative studio portfolio image">
+        <img src="https://static.wixstatic.com/media/c5c5e9_e84c4ad8f4bf4ef3b8514db27656d1b9~mv2.jpg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_e84c4ad8f4bf4ef3b8514db27656d1b9~mv2.jpg" alt="Portrait portfolio sample">
+        <img src="https://static.wixstatic.com/media/c5c5e9_2994cbbdc74042d0ac3397db86c6e2fd~mv2.jpg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_2994cbbdc74042d0ac3397db86c6e2fd~mv2.jpg" alt="Perfect Shot Media session example">
+        <img src="https://static.wixstatic.com/media/c5c5e9_11c124b7aa1b480cab980f97d15a62bd~mv2.jpeg/v1/fill/w_676,h_676,fp_0.50_0.50,q_82,enc_auto/c5c5e9_11c124b7aa1b480cab980f97d15a62bd~mv2.jpeg" alt="Portrait portfolio example">
+      </div>
+    </div></section>
+
+    <section class="section" id="next">
+      <div class="kicker">What happens next</div>
+      <h2>A cleaner booking path in three steps.</h2>
+      <div class="process">
+        <div class="step"><h3>Pick a session lane</h3><p>Choose milestone, portrait, business, or event so the package list feels manageable.</p></div>
+        <div class="step"><h3>Confirm time + details</h3><p>Use Book Online for direct scheduling, or contact the team if you are unsure which package fits.</p></div>
+        <div class="step"><h3>Arrive ready</h3><p>Get the session length, price, and rescheduling note upfront so there are fewer surprises.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section">
+        <div><div class="kicker">Booking questions</div><h2>Need help choosing a package?</h2><p>If your session does not fit neatly into a listed package, contact Cedric or Melvin before booking. The goal is to get you into the right session, not make you guess.</p><div class="hero-actions"><a class="btn primary" href="tel:13183945006">Call 318-394-5006</a><a class="btn ghost" href="mailto:Cedric@perfectshotmedia.biz">Email Cedric</a></div></div>
+        <div class="contact-box"><strong>Perfect Shot Media</strong><a href="tel:13183945006">318-394-5006</a><a href="tel:13184366717">318-436-6717</a><a href="mailto:Cedric@perfectshotmedia.biz">Cedric@perfectshotmedia.biz</a><a href="mailto:Melvin@perfectshotmedia.biz">Melvin@perfectshotmedia.biz</a><form class="mini-form"><input placeholder="Name"><input placeholder="Email / phone"><textarea rows="4" placeholder="Tell us the session type and date you have in mind"></textarea><button class="btn dark" type="button">Send Session Question</button></form><div class="fine">Last Minute Rescheduling Fee is $25.00</div></div>
+      </div>
+    </section>
+  </main>
+  <a class="btn primary mobile-cta" href="#packages">Choose Your Session</a>
+  <footer class="footer">© Perfect Shot Media. Photography and videography captured with intention.</footer>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Celestial Touch Massage | Women’s Healing Arts in Cordova, TN</title>
+  <meta name="description" content="Celestial Touch Massage offers intuitive women’s healing arts, therapeutic massage, ambiance therapy, self-care classes, gift cards, and online touch courses in Cordova / Memphis, TN.">
+  <link rel="preconnect" href="https://images.squarespace-cdn.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange: #e45e0a;
+      --orange-soft: rgba(228, 94, 10, .50);
+      --cream: #fef8c5;
+      --ink: #17120e;
+      --white: #fffef8;
+      --brown: #51301f;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--orange-soft);
+      font-family: "Julius Sans One", Arial, sans-serif;
+      text-transform: capitalize;
+      line-height: 1.45;
+    }
+    a { color: inherit; }
+    .site-header {
+      position: absolute;
+      inset: 0 0 auto 0;
+      z-index: 5;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 28px;
+      padding: 0 30px;
+      min-height: 170px;
+    }
+    .logo img {
+      width: 168px;
+      height: 168px;
+      object-fit: cover;
+      display: block;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px 34px;
+      max-width: 890px;
+      padding-top: 12px;
+      font-family: proxima-nova, "Helvetica Neue", Arial, sans-serif;
+      font-size: clamp(18px, 2.35vw, 34px);
+      font-weight: 400;
+      letter-spacing: .01em;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #050505;
+      padding-bottom: 5px;
+      border-bottom: 3px solid transparent;
+    }
+    .nav a:first-child { border-color: #050505; }
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--white);
+      text-align: center;
+      padding: 190px 30px 85px;
+      isolation: isolate;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(20, 11, 5, .18), rgba(20, 11, 5, .45)), url("https://images.squarespace-cdn.com/content/v1/599e06ac03596e3f176b5f07/aef534c3-698b-4365-89f5-d48c794ed288/6EE0D431-E01A-44E0-A4BF-6754EF62D0DF+2.png?format=1500w");
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.02);
+      z-index: -2;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 26%;
+      background: linear-gradient(transparent, rgba(228,94,10,.55));
+      z-index: -1;
+    }
+    .hero-kicker {
+      font-size: 22px;
+      margin: 0 0 18px;
+      color: #fff;
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    .hero h1 {
+      font-size: clamp(46px, 6.45vw, 93px);
+      line-height: 1.04;
+      font-weight: 400;
+      color: #fff;
+      margin: 0 0 26px;
+      text-shadow: 0 3px 18px rgba(0,0,0,.25);
+    }
+    .hero-card {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 30px 34px 34px;
+      background: rgba(23, 18, 14, .54);
+      border: 1px solid rgba(254,248,197,.48);
+      box-shadow: 0 22px 60px rgba(0,0,0,.28);
+      backdrop-filter: blur(2px);
+    }
+    .hero-card p {
+      color: var(--cream);
+      font-size: clamp(20px, 2vw, 29px);
+      line-height: 1.36;
+      margin-bottom: 24px;
+    }
+    .button-row { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      border: 2px solid var(--cream);
+      background: var(--cream);
+      color: #272727;
+      text-decoration: none;
+      padding: 16px 24px 14px;
+      font-family: proxima-nova, "Helvetica Neue", Arial, sans-serif;
+      font-size: 20px;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      min-width: 210px;
+    }
+    .btn.secondary { background: transparent; color: #fff; }
+    .section { padding: 92px 8vw; }
+    .orange-band { background: rgba(228,94,10,.55); }
+    .white-band { background: #fffdf3; }
+    .section-title {
+      text-align: center;
+      color: var(--orange);
+      font-size: clamp(34px, 4vw, 56px);
+      font-weight: 400;
+      margin-bottom: 22px;
+    }
+    .lead {
+      max-width: 930px;
+      margin: 0 auto 42px;
+      text-align: center;
+      font-size: clamp(19px, 1.65vw, 24px);
+    }
+    .trust-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 18px;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .trust-item, .service-card, .next-card {
+      background: rgba(255,253,243,.90);
+      border: 1px solid rgba(81,48,31,.18);
+      padding: 26px;
+      box-shadow: 0 12px 30px rgba(81,48,31,.10);
+    }
+    .trust-item strong, .service-card h3, .next-card h3 {
+      display: block;
+      color: var(--orange);
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    .trust-item span, .service-card p, .next-card p { font-size: 17px; text-transform: none; }
+    .split {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      align-items: center;
+      gap: 54px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .split img {
+      width: 100%;
+      display: block;
+      border: 12px solid #fffdf3;
+      box-shadow: 0 20px 55px rgba(0,0,0,.22);
+    }
+    .split h2 { text-align: left; margin-bottom: 22px; }
+    .split p { font-size: 21px; text-transform: none; }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 22px;
+      max-width: 1180px;
+      margin: 0 auto 36px;
+    }
+    .service-card h3 { font-size: 27px; }
+    .next-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 22px;
+      max-width: 1080px;
+      margin: 0 auto 34px;
+    }
+    .gift {
+      text-align: center;
+      max-width: 980px;
+      margin: 0 auto;
+      color: #fff;
+    }
+    .gift h2 { color: var(--cream); font-size: clamp(34px, 4vw, 56px); font-weight: 400; }
+    .gift p { font-size: 21px; text-transform: none; }
+    footer {
+      background: #fffdf3;
+      padding: 58px 8vw;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 28px;
+      font-size: 18px;
+      text-transform: none;
+    }
+    footer h3 { color: var(--orange); font-size: 24px; font-weight: 400; margin-bottom: 10px; }
+    .mobile-sticky { display: none; }
+    @media (max-width: 850px) {
+      .site-header { position: absolute; padding: 10px 16px; min-height: auto; align-items: center; }
+      .logo img { width: 92px; height: 92px; }
+      .nav { font-size: 14px; gap: 6px 12px; max-width: 235px; }
+      .hero { padding: 130px 18px 60px; align-items: end; }
+      .hero-card { padding: 24px 18px; }
+      .trust-strip, .service-grid, .next-grid, .split, footer { grid-template-columns: 1fr; }
+      .section { padding: 64px 22px; }
+      .split h2 { text-align: center; }
+      .mobile-sticky {
+        display: block;
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        z-index: 10;
+        text-align: center;
+        background: var(--cream);
+        color: #272727;
+        padding: 14px 18px 13px;
+        text-decoration: none;
+        font-family: proxima-nova, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        box-shadow: 0 8px 30px rgba(0,0,0,.25);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Celestial Touch Massage home"><img src="https://images.squarespace-cdn.com/content/v1/599e06ac03596e3f176b5f07/7f80886f-406b-475e-ae95-ddc824f53c77/IMG_7088+2.jpg?format=1500w" alt="Celestial Touch Massage"></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top">Home</a>
+      <a href="#book">Book Now!</a>
+      <a href="#txt">Join Our TXT List</a>
+      <a href="#lovers-touch">Lovers Touch</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Celestial Touch Healing Arts">
+      <div>
+        <p class="hero-kicker">Welcome To</p>
+        <h1>Celestial Touch Healing Arts</h1>
+        <div class="hero-card">
+          <p>Women’s healing arts, holistic self-care, and self love empowerment spa experiences for hard working women ready to take the pain and stress out of every day success.</p>
+          <div class="button-row">
+            <a class="btn" href="https://celestialtouchmassage.as.me/">Book Appts Here!</a>
+            <a class="btn secondary" href="#services">See Celestial Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section orange-band" id="book">
+      <div class="trust-strip" aria-label="Why clients book Celestial Touch">
+        <div class="trust-item"><strong>17+ Years</strong><span>Therapeutic knowledge shaped into creative, intuitive healing work.</span></div>
+        <div class="trust-item"><strong>Women’s Healing Arts</strong><span>A safe, intimate sacred space for stress relief, pain relief, and restoration.</span></div>
+        <div class="trust-item"><strong>Ambiance Therapy</strong><span>Art, plants, candles, music, books, stars, and sensory details curated around the visit.</span></div>
+        <div class="trust-item"><strong>Cordova / Memphis</strong><span>Located at 1150 Dexter Ln, Unit 102, with Friday–Monday appointment hours.</span></div>
+      </div>
+    </section>
+
+    <section class="section white-band">
+      <div class="split">
+        <img src="https://images.squarespace-cdn.com/content/v1/599e06ac03596e3f176b5f07/1753417693180-7HWOZXTV86LUQZO9ED9H/IMG_8387.jpg?format=1000w" alt="Celestial Touch massage room ambiance">
+        <div>
+          <h2 class="section-title">Women’s Healing Arts</h2>
+          <p>The Celestial Touch Healing Arts experience is a creative and powerfully intuitive approach to healing. Each session blends therapeutic bodywork, art therapy sensory techniques, playlist and ambiance therapy, and a sacred spa setting that feels personal from the moment you arrive.</p>
+          <p>Choose the service that fits what your body and spirit need now, then book the next available appointment online.</p>
+          <a class="btn" href="https://celestialtouchmassage.as.me/">Book Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section orange-band" id="services">
+      <h2 class="section-title">Celestial Services</h2>
+      <p class="lead">A simpler way to scan the menu: start with the outcome you want, then choose the experience that matches your season.</p>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Pain & Stress Relief</h3>
+          <p>Therapeutic massage for hardworking bodies carrying shoulder tension, stagnant energy, daily stress, and recurring discomfort.</p>
+        </article>
+        <article class="service-card">
+          <h3>Seasonal Healing Rituals</h3>
+          <p>Quali-tea time, lifeversations, footscrub ritual, emotional release, Thai stretch, and table relaxation woven into one restorative visit.</p>
+        </article>
+        <article class="service-card">
+          <h3>Self-Care Classes</h3>
+          <p>One-on-one pain relief classes and a full body online course for learning the stretches and techniques that support everyday mobility.</p>
+        </article>
+        <article class="service-card" id="lovers-touch">
+          <h3>Lovers Touch Course</h3>
+          <p>Guided online couples massage lessons designed to help partners heal, nurture, and explore the love language of touch together.</p>
+        </article>
+        <article class="service-card">
+          <h3>Gift Cards</h3>
+          <p>A peaceful gift for friends or loved ones. Check the booking menu first so the gift amount matches the service you want to give.</p>
+        </article>
+        <article class="service-card">
+          <h3>Before You Book</h3>
+          <p>Celestial Touch no longer accepts insurance, HSA, FSA, or related benefit payments. Online booking is the fastest next step.</p>
+        </article>
+      </div>
+      <div class="button-row">
+        <a class="btn" href="https://celestialtouchmassage.as.me/">Click Here To Book Now You Deserve It!</a>
+        <a class="btn secondary" href="mailto:Siedel@CelestialTouchMassage.com">Ask A Question</a>
+      </div>
+    </section>
+
+    <section class="section white-band">
+      <h2 class="section-title">What Happens Next</h2>
+      <div class="next-grid">
+        <div class="next-card"><h3>1. Choose Your Service</h3><p>Use the booking menu to compare current services, prices, and available appointment times.</p></div>
+        <div class="next-card"><h3>2. Arrive Ready To Unwind</h3><p>Come into a boutique spa ambiance filled with art, nature, aromatic candles, music, dream catchers, books, and stars.</p></div>
+        <div class="next-card"><h3>3. Leave With Care</h3><p>Your session can include intuitive bodywork and self-care direction so your relief continues beyond the table.</p></div>
+      </div>
+      <div class="button-row"><a class="btn" href="tel:+19014633088">Call (901) 463-3088</a><a class="btn secondary" href="mailto:Siedel@CelestialTouchMassage.com">Email Siedel</a></div>
+    </section>
+
+    <section class="section orange-band" id="txt">
+      <div class="gift">
+        <h2>A Massage Is The Perfect Gift!!!</h2>
+        <p>Gift your friends or loved ones some well deserved peace and healing with one of the most beautiful massage experiences on earth.</p>
+        <div class="button-row"><a class="btn" href="https://celestialtouchmassage.as.me/">Gift The Celestial Touch</a><a class="btn secondary" href="https://celestialtouchmassage.as.me/">Join Now For Lifetime Access</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h3>Celestial Touch LLC</h3>
+      <p>1150 Dexter Ln<br>Unit 102<br>Cordova, TN 38016</p>
+    </div>
+    <div>
+      <h3>Hours</h3>
+      <p>Friday - Monday<br>10am - 9pm</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p><a href="tel:+19014633088">(901) 463-3088</a><br><a href="mailto:Siedel@CelestialTouchMassage.com">Siedel@CelestialTouchMassage.com</a></p>
+    </div>
+  </footer>
+  <a class="mobile-sticky" href="https://celestialtouchmassage.as.me/">Book Appts Here!</a>
+</body>
+</html>

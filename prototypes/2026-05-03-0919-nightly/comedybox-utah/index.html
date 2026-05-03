@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ComedyBox Utah | Improv Comedy Shows in Provo, UT</title>
+  <meta name="description" content="ComedyBox Utah is Provo's interactive improv comedy club at 36 W Center St. See upcoming shows, buy tickets, book private events, and join improv workshops." />
+  <style>
+    :root{--ink:#050505;--paper:#fff;--cream:#fff8e5;--yellow:#ffd32a;--red:#ed2b35;--blue:#184ce0;--cyan:#00a6ff;--muted:#5b5b5b;--line:#111}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:#050505;color:var(--ink);font-family:Arial, Helvetica, sans-serif;line-height:1.45} a{color:inherit;text-decoration:none} img{max-width:100%;display:block}
+    .page{max-width:980px;margin:0 auto;background:#fff;box-shadow:0 0 0 1px rgba(255,255,255,.16)}
+    .top-note{background:var(--yellow);color:#000;text-align:center;font-weight:900;letter-spacing:.02em;padding:9px 16px;border-bottom:4px solid #000;text-transform:uppercase;font-size:14px}.top-note a{text-decoration:underline;text-underline-offset:3px}
+    header{background:#050505;color:#fff;position:sticky;top:0;z-index:10;border-bottom:4px solid var(--yellow)}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 26px}.logo{width:240px;max-width:48vw}.links{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:flex-end;font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:.05em}.links a{padding:5px 0}.links .pill{background:var(--red);color:#fff;border:2px solid #fff;border-radius:999px;padding:9px 15px;box-shadow:4px 4px 0 var(--yellow)}
+    .hero{position:relative;min-height:610px;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.75)),url('https://static.wixstatic.com/media/bd446e_76683bf9c0254567895fa58bcd54b0fa~mv2.jpg/v1/fill/w_1440,h_511,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd446e_76683bf9c0254567895fa58bcd54b0fa~mv2.jpg') center top/cover no-repeat;color:#fff;display:grid;align-items:end;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,rgba(255,211,42,.42),transparent 28%),radial-gradient(circle at 88% 18%,rgba(24,76,224,.45),transparent 25%)}.hero-content{position:relative;padding:190px 38px 44px;display:grid;grid-template-columns:1fr 285px;gap:24px;align-items:end}.tag{display:inline-block;background:#000;border:3px solid var(--yellow);padding:8px 12px;font-size:15px;font-weight:900;text-transform:uppercase;box-shadow:6px 6px 0 var(--blue);margin-bottom:18px}h1{margin:0 0 14px;font-size:61px;line-height:.95;letter-spacing:-.05em;text-transform:uppercase;text-shadow:5px 5px 0 #000}.lede{font-size:20px;max-width:590px;margin:0 0 24px;font-weight:800;text-shadow:2px 2px 0 #000}.actions{display:flex;gap:13px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--yellow);border:3px solid #000;color:#000;font-weight:900;text-transform:uppercase;letter-spacing:.04em;padding:13px 18px;box-shadow:5px 5px 0 #000;min-width:170px}.btn.red{background:var(--red);color:#fff;border-color:#fff}.btn.ghost{background:#fff;color:#000}.next-card{background:#fff;color:#000;border:4px solid #000;box-shadow:9px 9px 0 var(--yellow);padding:20px;transform:rotate(-1deg)}.next-card .label{font-weight:900;color:var(--red);text-transform:uppercase;font-size:12px;letter-spacing:.08em}.next-card h2{font-size:26px;margin:5px 0 8px;text-transform:uppercase;line-height:1}.next-card p{margin:0 0 13px;color:#222;font-weight:700}.next-card .mini{border-top:2px solid #000;margin-top:14px;padding-top:12px;font-size:13px;color:#444}
+    .trust{display:grid;grid-template-columns:repeat(4,1fr);border-top:4px solid #000;border-bottom:4px solid #000;background:#fff}.trust div{padding:19px 15px;text-align:center;border-right:3px solid #000}.trust div:last-child{border-right:0}.trust strong{display:block;font-size:22px;text-transform:uppercase}.trust span{font-size:12px;font-weight:800;color:#555;text-transform:uppercase}
+    section{padding:64px 36px}.section-head{text-align:center;max-width:760px;margin:0 auto 34px}.eyebrow{display:inline-block;background:#000;color:#fff;padding:7px 12px;text-transform:uppercase;font-weight:900;font-size:12px;letter-spacing:.07em;box-shadow:4px 4px 0 var(--yellow);margin-bottom:14px}h2{font-size:42px;line-height:1;margin:0 0 12px;text-transform:uppercase;letter-spacing:-.035em}.section-head p{font-size:18px;font-weight:700;color:#333;margin:0}.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.path{border:4px solid #000;background:var(--cream);padding:24px;min-height:260px;box-shadow:7px 7px 0 #000}.path:nth-child(2){background:#eef4ff}.path:nth-child(3){background:#fff1f2}.path h3{margin:0 0 10px;font-size:29px;text-transform:uppercase;line-height:1}.path p{font-weight:700;color:#333}.path ul{padding-left:18px;margin:14px 0 20px;font-weight:700}.linkline{font-weight:900;text-transform:uppercase;border-bottom:3px solid currentColor;color:var(--blue)}
+    .split{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;align-items:center;background:#070707;color:#fff;border-top:4px solid var(--yellow);border-bottom:4px solid var(--yellow)}.split h2,.split p{color:#fff}.cast-art{position:relative;min-height:360px}.cast-art img{position:absolute;filter:drop-shadow(8px 8px 0 #000)}.cast-art .one{left:25px;top:22px;width:42%}.cast-art .two{right:30px;top:55px;width:38%}.cast-art .three{left:34%;bottom:10px;width:35%}.quote{background:#fff;color:#000;border:4px solid var(--yellow);padding:28px;box-shadow:9px 9px 0 var(--red);transform:rotate(1deg)}.quote p{color:#000;font-weight:900;font-size:20px;margin:0}.quote small{display:block;margin-top:12px;font-weight:900;color:#555;text-transform:uppercase}
+    .events{background:#f2f2f2}.event-list{display:grid;gap:16px;max-width:820px;margin:0 auto}.event{background:#fff;border:4px solid #000;display:grid;grid-template-columns:130px 1fr auto;gap:18px;align-items:center;padding:18px;box-shadow:6px 6px 0 var(--yellow)}.date{background:#000;color:#fff;text-align:center;padding:14px 8px;text-transform:uppercase}.date strong{display:block;font-size:32px;line-height:1}.event h3{font-size:24px;text-transform:uppercase;margin:0 0 4px}.event p{margin:0;color:#333;font-weight:700}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{border:3px solid #000;padding:22px;background:#fff}.num{font-size:44px;font-weight:900;color:var(--red);line-height:1}.step h3{text-transform:uppercase;margin:6px 0 8px;font-size:22px}.step p{font-weight:700;color:#333;margin:0}.contact{background:var(--yellow);border-top:4px solid #000}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.contact-box{background:#fff;border:4px solid #000;padding:25px;box-shadow:8px 8px 0 #000}.contact-box p{font-weight:800}.footer{background:#050505;color:#fff;padding:28px 36px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:4px solid var(--red);font-weight:800}.footer a{text-decoration:underline;text-underline-offset:3px}
+    @media(max-width:760px){.page{max-width:none}.nav{display:block;text-align:center}.logo{margin:0 auto 14px}.links{justify-content:center;gap:10px}.hero-content{grid-template-columns:1fr;padding:125px 24px 34px}h1{font-size:43px}.lede{font-size:18px}.trust,.paths,.split,.event,.steps,.contact-grid{grid-template-columns:1fr}.trust div{border-right:0;border-bottom:3px solid #000}.event{gap:12px}.btn{width:100%}section{padding:48px 22px}.cast-art{min-height:300px}.footer{display:block;text-align:center}.footer div+div{margin-top:12px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top-note">Psssst! Next shows are coming up — <a href="https://www.comedyboxutah.com/event-list">grab tickets before the bit gets spoiled.</a></div>
+    <header>
+      <div class="nav">
+        <a href="#top"><img class="logo" src="https://static.wixstatic.com/media/bd446e_9e5a87bde3b644eb899835383976b7d1~mv2.png/v1/fill/w_512,h_113,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Comedybox%20white%20horizontal.png" alt="ComedyBox Utah"></a>
+        <nav class="links" aria-label="Main navigation">
+          <a href="#shows">Shows</a><a href="#workshops">Workshops</a><a href="#events">Private Events</a><a href="#faq">FAQ</a><a class="pill" href="https://www.comedyboxutah.com/event-list">Tickets</a>
+        </nav>
+      </div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <div>
+            <span class="tag">Formerly ComedySportz • Provo since 1999</span>
+            <h1>The world’s most bestest improv comedy</h1>
+            <p class="lede">Interactive, clean-ish chaos at 36 W Center Street. Pick a show, bring your people, and help the cast make up a night that only happens once.</p>
+            <div class="actions"><a class="btn" href="https://www.comedyboxutah.com/event-list">Buy Tickets Now</a><a class="btn red" href="#events">Book a Private Event</a></div>
+          </div>
+          <aside class="next-card" aria-label="Next show">
+            <div class="label">Next public show</div>
+            <h2>Friday 7:30 Show</h2>
+            <p>May 8 • Doors open 30 minutes early • Seats are first come, first served.</p>
+            <a class="btn" href="https://www.comedyboxutah.com/event-details/friday-7-30-show-2026-05-08-19-30">Get Friday Tickets</a>
+            <div class="mini">Running time: about 90 minutes with a 10-minute intermission.</div>
+          </aside>
+        </div>
+      </section>
+      <div class="trust">
+        <div><strong>Since 1999</strong><span>Utah improv favorite</span></div>
+        <div><strong>Downtown Provo</strong><span>36 W Center St</span></div>
+        <div><strong>Weekend Shows</strong><span>Fast ticket path</span></div>
+        <div><strong>801-377-9700</strong><span>Questions? Call us</span></div>
+      </div>
+      <section id="shows">
+        <div class="section-head"><span class="eyebrow">Choose your laugh track</span><h2>What are you here for?</h2><p>Shows, workshops, and private-event laughs are all here — pick the path that fits your night.</p></div>
+        <div class="paths">
+          <article class="path"><h3>See a show</h3><p>Our classic ComedyBox weekend shows are interactive, fast, and made up on the spot with audience suggestions.</p><ul><li>Buy tickets in a couple clicks</li><li>Know doors, seating, and runtime</li><li>Find the next date immediately</li></ul><a class="linkline" href="https://www.comedyboxutah.com/event-list">Showtimes & tickets</a></article>
+          <article class="path" id="workshops"><h3>Try improv</h3><p>Beginner-friendly workshops help new performers practice confidence, listening, and spontaneous fun.</p><ul><li>Upcoming beginner workshops</li><li>Clear dates and registration</li><li>Great for curious first-timers</li></ul><a class="linkline" href="https://www.comedyboxutah.com/workshops">View workshops</a></article>
+          <article class="path" id="events"><h3>Hire the cast</h3><p>Bring ComedyBox to corporate events, birthdays, holiday parties, school nights, and group celebrations.</p><ul><li>Interactive entertainment</li><li>Built around your audience</li><li>Easy private-event request</li></ul><a class="linkline" href="https://www.comedyboxutah.com/hire-us">Book us now</a></article>
+        </div>
+      </section>
+      <section class="split">
+        <div class="cast-art" aria-hidden="true">
+          <img class="one" src="https://static.wixstatic.com/media/bd446e_b010803ce6634cbeadca97260d4223bd~mv2.png/v1/fill/w_221,h_321,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd446e_b010803ce6634cbeadca97260d4223bd~mv2.png" alt="">
+          <img class="two" src="https://static.wixstatic.com/media/bd446e_4972943b35bc4cbab9680d88028b9be8~mv2.png/v1/crop/x_0,y_0,w_648,h_746/fill/w_192,h_221,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd446e_4972943b35bc4cbab9680d88028b9be8~mv2.png" alt="">
+          <img class="three" src="https://static.wixstatic.com/media/bd446e_05c0cb1d28114dd7b4e8e9b8b8dfa1ac~mv2.png/v1/fill/w_124,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dallin%20stroke_edited.png" alt="">
+        </div>
+        <div><span class="eyebrow">Still weird. Very on purpose.</span><h2>Big ComedyBox personality with an easy first click.</h2><div class="quote"><p>“Stop missing out on the fun” means picking a show fast, knowing when to arrive, and letting the cast handle the rest.</p><small>Useful for date night, groups, and first-time guests</small></div></div>
+      </section>
+      <section class="events" id="faq">
+        <div class="section-head"><span class="eyebrow">Upcoming Events</span><h2>Two obvious next steps</h2><p>Grab a seat for a weekend show or jump into a beginner workshop.</p></div>
+        <div class="event-list">
+          <article class="event"><div class="date">Tue<strong>05</strong>May</div><div><h3>Comedy Box Beginner Workshop</h3><p>Provo • A low-pressure way to jump into improv.</p></div><a class="btn" href="https://www.comedyboxutah.com/event-details/comedy-box-beginner-workshop-2">Buy Tickets</a></article>
+          <article class="event"><div class="date">Fri<strong>08</strong>May</div><div><h3>Friday 7:30 Show</h3><p>ComedyBox Utah • Classic weekend improv show.</p></div><a class="btn red" href="https://www.comedyboxutah.com/event-details/friday-7-30-show-2026-05-08-19-30">Buy Tickets</a></article>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><span class="eyebrow">What happens next?</span><h2>Less mystery before the laughs</h2></div>
+        <div class="steps"><div class="step"><div class="num">1</div><h3>Pick a show</h3><p>Use the ticket list or the featured next-show card.</p></div><div class="step"><div class="num">2</div><h3>Arrive early</h3><p>Doors open 30 minutes before showtime. Seats are first come, first served.</p></div><div class="step"><div class="num">3</div><h3>Make it up</h3><p>The cast uses audience suggestions to create a one-night-only show.</p></div></div>
+      </section>
+      <section class="contact">
+        <div class="contact-grid">
+          <div><span class="eyebrow">Find us</span><h2>Downtown Provo, ready for chaos.</h2><p><strong>ComedyBox Utah</strong><br>36 West Center Street<br>Provo, UT 84604</p></div>
+          <div class="contact-box"><p>Email: <a href="mailto:comedyboxutah@gmail.com">comedyboxutah@gmail.com</a></p><p>Phone: <a href="tel:18013779700">801-377-9700</a></p><div class="actions"><a class="btn" href="https://www.comedyboxutah.com/event-list">Buy Tickets</a><a class="btn ghost" href="https://www.comedyboxutah.com/hire-us">Private Events</a></div></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div>ComedyBox Utah • formerly ComedySportz</div><div><a href="https://www.instagram.com/comedyboxutah/">Instagram</a> · <a href="https://www.youtube.com/@ComedyBoxUtah">YouTube</a> · <a href="https://www.tiktok.com/@cbxutah">TikTok</a></div></footer>
+  </div>
+</body>
+</html>
