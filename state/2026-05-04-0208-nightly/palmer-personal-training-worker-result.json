@@ -1,0 +1,48 @@
+{
+  "slug": "palmer-personal-training",
+  "business": "Palmer Personal Training",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A-",
+  "target_url": "https://www.palmerpersonaltraining.com/",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "status": "complete",
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/palmer-personal-training-audit.md",
+    "offers/2026-05-04-0208-nightly/palmer-personal-training-offer.md",
+    "prototypes/2026-05-04-0208-nightly/palmer-personal-training/index.html",
+    "screenshots/2026-05-04-0208-nightly/palmer-personal-training-target.png",
+    "screenshots/2026-05-04-0208-nightly/palmer-personal-training-prototype.png",
+    "state/2026-05-04-0208-nightly/palmer-personal-training-worker-result.json"
+  ],
+  "screenshot_status": {
+    "target": "captured via Playwright/system Chromium; live page included GoDaddy banner, cookie notice, and free-session pop-up overlay",
+    "prototype": "captured via Playwright/system Chromium from local HTTP server",
+    "mobile_check": "viewport check passed; no horizontal overflow detected at 390px"
+  },
+  "visual_fingerprint": {
+    "logo_asset": "https://isteam.wsimg.com/studio-projects/over-projects-api/logos/41448eb6-7721-48c4-8da7-9b7da1e803d9/e9513085-b58f-418f-a659-77c35716b7d5/logo.jpg/:/gis/:/rs=w:674,h:100,cg:true,m/cr=w:674,h:100/qt=q:95",
+    "hero_asset": "https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Gym%20pic%20for%20GoDaddy.JPEG/:/rs=w:1535,m",
+    "dominant_style": "dark gym hero, blue rectangular logo, sparse white nav, uppercase centered hero typography, black rectangular CTAs, spacious white sections, circular trainer image, GoDaddy-builder section rhythm",
+    "recognition_strategy": "kept the same logo, hero gym photo, button style, white section rhythm, trainer photos, testimonials, and simple contact footer while cleaning hierarchy and CTA flow"
+  },
+  "top_findings_fixed": [
+    "Removed off-brand GoDaddy/banner, cookie, pop-up, and builder-residue clutter from the user-facing prototype.",
+    "Rebuilt the hero around Charlotte private-studio personal training, strength/weight-loss outcomes, and a direct free-session CTA.",
+    "Moved NASM, CPR/AED, 5.0 reviews, and private-studio trust proof immediately below the hero.",
+    "Organized training options by buyer intent instead of long paragraphs.",
+    "Added a three-step next-action path and sticky mobile phone CTA."
+  ],
+  "acceptance_gate": {
+    "hero_clearer": true,
+    "cta_specific": true,
+    "trust_near_top": true,
+    "services_by_intent": true,
+    "clear_next_steps": true,
+    "off_brand_leftovers_removed": true,
+    "mobile_easier": true,
+    "same_site_recognition": true
+  },
+  "blockers": []
+}

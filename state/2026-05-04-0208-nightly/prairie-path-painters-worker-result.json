@@ -1,0 +1,57 @@
+{
+  "slug": "prairie-path-painters",
+  "business": "Prairie Path Painters",
+  "batch": "2026-05-04-0208-nightly",
+  "completed_at": "2026-05-04T02:30:36-05:00",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "scope_compliance": {
+    "worked_on_only_assigned_site": true,
+    "did_not_touch_root_index": true,
+    "did_not_edit_batch_json": true,
+    "did_not_commit_or_push": true,
+    "same_domain_only_browsing": true,
+    "no_forms_submitted_or_contact_made": true
+  },
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/prairie-path-painters-audit.md",
+    "offers/2026-05-04-0208-nightly/prairie-path-painters-offer.md",
+    "prototypes/2026-05-04-0208-nightly/prairie-path-painters/index.html",
+    "screenshots/2026-05-04-0208-nightly/prairie-path-painters-target.png",
+    "screenshots/2026-05-04-0208-nightly/prairie-path-painters-prototype.png",
+    "state/2026-05-04-0208-nightly/prairie-path-painters-worker-result.json"
+  ],
+  "screenshot_status": {
+    "target": "captured with Playwright and /snap/bin/chromium --no-sandbox",
+    "prototype": "captured with Playwright and /snap/bin/chromium --no-sandbox"
+  },
+  "visual_fingerprint": {
+    "brand_treatment": "centered text logo: ~ Prairie Path Painters ~ with Beautifying Homes tagline",
+    "dominant_colors": ["white", "charcoal #181818", "sky blue #299cee", "soft gray overlays"],
+    "typography": "Cormorant Garamond-style serif headings and Raleway-style sans body",
+    "section_rhythm": "large paint-supply hero, centered intro, photo service banner, six image tiles, lake/contact split",
+    "assets_preserved": "original Wix hero, service banner, service tile images, and lake contact image"
+  },
+  "top_findings_fixed": [
+    "Specific free-estimate CTA brought into header, hero, service banner, quote section, and mobile call bar",
+    "Trust proof moved near the top with scannable Free Estimates / Clean Work / Color Help / Illinois Homes strip",
+    "Service tiles kept visually recognizable but given clearer homeowner-facing descriptions",
+    "Added what-happens-next estimate steps and clearer call/text/email quote section",
+    "Removed Wix/template residue and unrelated Wix Facebook footer link in the improved static page"
+  ],
+  "known_notes": [
+    "Supplied contact/source URL https://www.prairiepathpainters.com/contact returned 404 during lightweight browsing; homepage contains the quote/contact path.",
+    "User-facing page avoids prototype/concept/experiment/audit language."
+  ],
+  "acceptance": {
+    "clearer_hero": true,
+    "specific_cta": true,
+    "trust_near_top": true,
+    "buyer_intent_service_paths": true,
+    "clear_next_steps": true,
+    "template_leftovers_removed": true,
+    "mobile_scanability": true,
+    "owner_recognition": true
+  }
+}

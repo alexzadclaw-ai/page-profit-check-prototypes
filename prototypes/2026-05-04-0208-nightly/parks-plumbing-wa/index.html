@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Park's Plumbing | Arlington & Snohomish County Plumbing</title>
+  <meta name="description" content="Park's Plumbing is a family owned Arlington, WA plumbing company serving Snohomish County. Call or text for water heaters, drain cleaning, fixture repair, camera inspections, leaks, clogs, and commercial plumbing.">
+  <style>
+    :root{
+      --teal:#007d9f;
+      --dark-teal:#003d4d;
+      --red:#d11f00;
+      --text:#5a5959;
+      --ink:#252424;
+      --light:#f5fbfd;
+      --line:#d9e5e9;
+      --white:#fff;
+      --shadow:0 12px 28px rgba(0,61,77,.13);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--text);font-family:Arial,"MS PGothic",Helvetica,sans-serif;font-size:18px;line-height:1.45}
+    a{color:inherit}
+    .site-shell{max-width:980px;margin:0 auto;background:#fff;min-height:100vh}
+    .top-wrap{background:var(--dark-teal)}
+    .banner{height:331px;background:var(--dark-teal);overflow:hidden;display:flex;align-items:center;justify-content:center}
+    .banner img{width:100%;height:100%;object-fit:cover;display:block}
+    .brand-row{min-height:124px;display:grid;grid-template-columns:minmax(230px,448px) 1fr;align-items:center;background:#fff}
+    .brand-logo{display:block;width:448px;max-width:100%;height:auto}
+    .phone-top{justify-self:end;text-align:right;padding:14px 26px 12px 10px;font-size:23px;color:var(--teal)}
+    .phone-top strong{color:var(--ink);font-weight:700}
+    .phone-top a{font-size:30px;text-decoration:none;font-weight:700;color:var(--teal);white-space:nowrap}
+    nav{border-top:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;background:#fff}
+    nav ul{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:0;padding:0}
+    nav a{display:block;text-align:center;text-decoration:none;padding:10px 6px;font-size:16px;color:var(--ink);min-height:40px}
+    nav a.active{background:var(--red);color:#fff}
+    main{background:#fff}
+    .hero{padding:18px 34px 26px;border-bottom:1px solid var(--line)}
+    .eyebrow{text-align:center;margin:0 0 18px;color:var(--teal);font-size:36px;line-height:1.15;font-weight:700}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 405px;gap:34px;align-items:start}
+    .welcome-word{margin:0 0 4px;color:var(--text);font-size:50px;line-height:1;font-weight:400;letter-spacing:-1px}
+    h1{margin:0 0 12px;color:var(--teal);font-size:38px;line-height:1.08;font-weight:700;letter-spacing:-.5px}
+    .lead{font-size:21px;color:var(--text);margin:0 0 18px;max-width:520px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 16px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;text-decoration:none;font-size:15px;font-weight:700;letter-spacing:.02em;text-transform:uppercase;border:2px solid var(--red)}
+    .btn.primary{background:var(--red);color:#fff}
+    .btn.secondary{background:#fff;color:var(--red)}
+    .mini-contact{font-size:16px;color:var(--ink);margin:0}
+    .mini-contact a{color:var(--teal);font-weight:700;text-decoration:none}
+    .hero-photo{box-shadow:var(--shadow);border:8px solid #fff;margin:0;background:#eee}
+    .hero-photo img{display:block;width:100%;height:auto}
+    .trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);margin-top:22px;border:1px solid var(--line)}
+    .trust-item{background:var(--light);padding:13px 12px;min-height:82px;color:var(--ink);font-size:14px}
+    .trust-item b{display:block;color:var(--teal);font-size:18px;margin-bottom:2px}
+    section{padding:34px}
+    .section-title{font-family:"Arial Black",Arial,sans-serif;color:var(--teal);font-size:40px;line-height:1.1;margin:0 0 18px;font-weight:900}
+    .services-intro{max-width:760px;margin:0 0 24px}
+    .service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .service-card{border-left:7px solid var(--teal);background:#fff;padding:18px 18px 16px;box-shadow:0 0 0 1px var(--line);min-height:155px}
+    .service-card h3{margin:0 0 8px;color:var(--ink);font-size:23px;line-height:1.15;font-weight:700}
+    .service-card p{margin:0 0 10px;font-size:16px}
+    .service-card ul{margin:0;padding-left:18px;font-size:15px;color:var(--text)}
+    .service-card li{margin:4px 0}
+    .divider-call{margin:30px -34px 0;padding:24px 34px;background:var(--dark-teal);color:#fff;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .divider-call strong{font-size:27px;line-height:1.15;color:#fff}
+    .divider-call span{display:block;font-size:16px;color:#ccebf2;margin-top:4px}
+    .divider-call .btn{background:#fff;border-color:#fff;color:var(--red)}
+    .steps{background:var(--light);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .step{background:#fff;border:1px solid var(--line);padding:18px}
+    .step .num{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;background:var(--red);color:#fff;font-weight:700;margin-bottom:10px}
+    .step h3{margin:0 0 8px;color:var(--ink);font-size:21px}
+    .step p{margin:0;font-size:16px}
+    .testimonials{display:grid;grid-template-columns:1fr 270px;gap:34px;align-items:start}
+    blockquote{margin:0 0 16px;padding:0 0 16px 30px;border-bottom:1px solid var(--line);font-size:16px;color:var(--text);position:relative}
+    blockquote:before{content:'“';position:absolute;left:0;top:-10px;color:var(--teal);font-size:48px;line-height:1}
+    blockquote cite{display:block;color:var(--ink);font-style:normal;margin-top:4px}
+    .test-photo img{display:block;width:100%;height:auto;box-shadow:var(--shadow)}
+    .license{font-size:14px;font-weight:700;color:var(--ink);margin-top:18px}
+    .contact-panel{background:#fff;border:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:24px;box-shadow:var(--shadow)}
+    .contact-panel h3{margin:0 0 8px;color:var(--ink);font-size:25px}
+    .contact-panel p{margin:0 0 10px;font-size:16px}
+    .contact-actions{display:grid;gap:10px;align-content:start}
+    .footer{background:var(--dark-teal);color:#d7eef3;padding:22px 34px;font-size:14px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    .footer strong{color:#fff}
+    .sticky-mobile{display:none}
+    @media (max-width:760px){
+      body{font-size:16px;padding-bottom:72px}
+      .site-shell{max-width:none}
+      .banner{height:34vw;min-height:155px;max-height:260px}
+      .brand-row{grid-template-columns:1fr;min-height:auto;text-align:center;padding:0 14px 12px}
+      .brand-logo{margin:0 auto}
+      .phone-top{justify-self:center;text-align:center;padding:8px 0 0;font-size:18px}.phone-top a{font-size:25px}
+      nav ul{grid-template-columns:repeat(2,1fr)}
+      .hero,section{padding:24px 18px}
+      .eyebrow{font-size:28px;text-align:left}
+      .hero-grid,.testimonials,.contact-panel{grid-template-columns:1fr;gap:20px}
+      .welcome-word{font-size:42px} h1{font-size:33px}.lead{font-size:19px}
+      .hero-photo{max-width:405px;margin:0 auto}
+      .trust-strip{grid-template-columns:repeat(2,1fr)}
+      .section-title{font-size:32px}
+      .service-grid,.step-grid{grid-template-columns:1fr}
+      .divider-call{margin:24px -18px 0;padding:22px 18px}.divider-call strong{font-size:23px}
+      .btn{width:100%}
+      .sticky-mobile{position:fixed;left:0;right:0;bottom:0;z-index:20;display:grid;grid-template-columns:1fr 1fr;background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 18px rgba(0,0,0,.13)}
+      .sticky-mobile a{padding:14px 8px;text-align:center;text-decoration:none;font-weight:700;color:#fff;background:var(--red)}
+      .sticky-mobile a + a{background:var(--teal)}
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="top-wrap">
+      <div class="banner"><img src="https://static.wixstatic.com/media/f1b9ed_24227629399a4970a9833bd3cebda851~mv2.gif" alt="Park's Plumbing service banner"></div>
+      <div class="brand-row">
+        <a href="#top" aria-label="Park's Plumbing home"><img class="brand-logo" src="https://static.wixstatic.com/media/41d000_177d8f66ee3bfc09bea7f331e4a98295.png/v1/fill/w_448,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_177d8f66ee3bfc09bea7f331e4a98295.png" alt="Park's Plumbing"></a>
+        <div class="phone-top"><strong>Call or text now</strong><br><a href="tel:14258704940">425-870-4940</a></div>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a class="active" href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="about">
+        <h2 class="eyebrow">Arlington WA's Plumbing Expert!</h2>
+        <div class="hero-grid">
+          <div>
+            <p class="welcome-word">Welcome!</p>
+            <h1>Plumbing help in Arlington & Snohomish County</h1>
+            <p class="lead">Family owned service for homes and businesses — with clear call/text next steps for repairs, water heaters, drains, fixtures, and camera inspections.</p>
+            <p>Park's Plumbing, LLC takes pride in great service at a great price. Call or text for water heaters, drain cleaning, fixture work, sewer camera inspection, leaks, clogs, and water piping repairs.</p>
+            <div class="cta-row">
+              <a class="btn primary" href="tel:14258704940">Call 425-870-4940</a>
+              <a class="btn secondary" href="sms:14258704940">Text for a free estimate</a>
+            </div>
+            <p class="mini-contact">Prefer email? <a href="mailto:parksplumbing@gmail.com">parksplumbing@gmail.com</a></p>
+          </div>
+          <figure class="hero-photo"><img src="https://static.wixstatic.com/media/cda1d93da6c629e2dd581a7a58b21ec8.jpg/v1/fill/w_405,h_567,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/cda1d93da6c629e2dd581a7a58b21ec8.jpg" alt="Residential plumbing fixture service"></figure>
+        </div>
+        <div class="trust-strip" aria-label="Trust highlights">
+          <div class="trust-item"><b>Family owned</b>Local service at a fair price</div>
+          <div class="trust-item"><b>Licensed</b>LIC. # PARKSPH910DW</div>
+          <div class="trust-item"><b>Snohomish County</b>Arlington, Marysville, Lake Stevens, Everett, Stanwood</div>
+          <div class="trust-item"><b>Home + business</b>Residential and commercial plumbing needs</div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2 class="section-title">Our Services</h2>
+        <p class="services-intro">Choose the path that matches what is happening now. If you are unsure, call or text and describe the problem — Park's Plumbing can help you find the right next step.</p>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Leaks, clogs & urgent repairs</h3>
+            <p>Fast troubleshooting for plumbing problems that need attention.</p>
+            <ul><li>Sinks, toilets, faucets, tubs</li><li>Leaks and clogged lines</li><li>Residential and commercial repairs</li></ul>
+          </article>
+          <article class="service-card">
+            <h3>Water heater repair & installation</h3>
+            <p>Help with hot-water problems, replacement questions, and installation.</p>
+            <ul><li>Repair or replace water heaters</li><li>Installation planning</li><li>Free estimate by call or text</li></ul>
+          </article>
+          <article class="service-card">
+            <h3>Drain cleaning & sewer camera</h3>
+            <p>Clear blocked drains and inspect sewer lines before guessing.</p>
+            <ul><li>Hydro-jet drain cleaning</li><li>Mechanical drain cleaning</li><li>Sewer camera inspections and locating</li></ul>
+          </article>
+          <article class="service-card">
+            <h3>Fixtures, disposals & remodel plumbing</h3>
+            <p>Repair, replacement, and installation for common fixture upgrades.</p>
+            <ul><li>Sinks, garbage disposals, toilets</li><li>Plumbing fixtures</li><li>Tub / shower replacement support</li></ul>
+          </article>
+          <article class="service-card">
+            <h3>Water piping repair & installation</h3>
+            <p>Repair or install piping when fixtures, drains, or water lines are not enough.</p>
+            <ul><li>Water piping repairs</li><li>Installation work</li><li>Leak source troubleshooting</li></ul>
+          </article>
+          <article class="service-card">
+            <h3>Commercial plumbing help</h3>
+            <p>Plain-language plumbing support for local Snohomish County businesses.</p>
+            <ul><li>Fixture and drain issues</li><li>Water heater needs</li><li>Repair scheduling by phone or text</li></ul>
+          </article>
+        </div>
+        <div class="divider-call">
+          <div><strong>Need a plumber in Arlington or Snohomish County?</strong><span>Call or text now for a free estimate and a clear next step.</span></div>
+          <a class="btn" href="tel:14258704940">Call now</a>
+        </div>
+      </section>
+
+      <section class="steps" aria-label="What happens next">
+        <h2 class="section-title">What happens next</h2>
+        <div class="step-grid">
+          <div class="step"><span class="num">1</span><h3>Call or text</h3><p>Share the problem, location, and any photos that help explain what is happening.</p></div>
+          <div class="step"><span class="num">2</span><h3>Get a practical estimate</h3><p>Park's Plumbing will help sort out the likely repair path and estimate expectations.</p></div>
+          <div class="step"><span class="num">3</span><h3>Schedule service</h3><p>Residential or commercial plumbing work is handled with local, family-owned care.</p></div>
+        </div>
+      </section>
+
+      <section aria-label="Testimonials and license">
+        <div class="testimonials">
+          <div>
+            <h2 class="section-title">Testimonials</h2>
+            <blockquote>Great job guys, keep up the great work!<cite>Mark Jackson</cite></blockquote>
+            <blockquote>Thanks to everyone involved and keep up the great work guys!<cite>Jessica York</cite></blockquote>
+            <blockquote>Quick and reliable service!<cite>Sarah Smith</cite></blockquote>
+            <blockquote>Came out to fix the plumbing on New Years Eve - life savers!<cite>John Richmond</cite></blockquote>
+            <p class="license">LIC. # PARKSPH910DW</p>
+          </div>
+          <figure class="test-photo"><img src="https://static.wixstatic.com/media/a6bd209816b54d1eca7231d293d682f7.jpg/v1/fill/w_270,h_345,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a6bd209816b54d1eca7231d293d682f7.jpg" alt="Plumbing service work"></figure>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">Contact us&nbsp;&nbsp; Arlington, WA</h2>
+        <div class="contact-panel">
+          <div>
+            <h3>Tell us what plumbing help you need.</h3>
+            <p>For a free estimate, call or text the number below. Include your city, the plumbing issue, and whether it is a home or business.</p>
+            <p><strong>Service area:</strong> Arlington, Marysville, Lake Stevens, Everett, Stanwood, and Snohomish County.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn primary" href="tel:14258704940">Call 425-870-4940</a>
+            <a class="btn secondary" href="sms:14258704940">Text 425-870-4940</a>
+            <a class="btn secondary" href="mailto:parksplumbing@gmail.com">Email Park's Plumbing</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span><strong>Park's Plumbing, LLC</strong> — family owned and operated in Arlington, WA</span>
+      <span>LIC. # PARKSPH910DW</span>
+    </footer>
+  </div>
+  <div class="sticky-mobile" aria-label="Quick contact links">
+    <a href="tel:14258704940">Call now</a>
+    <a href="sms:14258704940">Text now</a>
+  </div>
+</body>
+</html>

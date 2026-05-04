@@ -1,0 +1,51 @@
+{
+  "batch": "2026-05-04-0208-nightly",
+  "slug": "keep-it-greeen",
+  "business": "Keep It Greeen, Inc.",
+  "priority": "A",
+  "target_url": "https://www.keepitgreeen.com/",
+  "contact_source_url": "https://www.keepitgreeen.com/contact-us",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "status": "completed",
+  "scope": "one-site only; Keep It Greeen, Inc.",
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/keep-it-greeen-audit.md",
+    "offers/2026-05-04-0208-nightly/keep-it-greeen-offer.md",
+    "prototypes/2026-05-04-0208-nightly/keep-it-greeen/index.html",
+    "screenshots/2026-05-04-0208-nightly/keep-it-greeen-target.png",
+    "screenshots/2026-05-04-0208-nightly/keep-it-greeen-prototype.png",
+    "state/2026-05-04-0208-nightly/keep-it-greeen-worker-result.json"
+  ],
+  "screenshot_status": {
+    "target": "captured with Playwright and /snap/bin/chromium --no-sandbox",
+    "prototype": "captured with Playwright and /snap/bin/chromium --no-sandbox via local http server"
+  },
+  "top_findings_fixed": [
+    "Removed visible Wix placeholder paragraphs from the user-facing page copy.",
+    "Replaced generic architecture/construction template labels with real landscaping and lawn-care service categories.",
+    "Made the hero estimate-focused with landscaping/lawn care in Winston-Salem and call/text/email CTAs.",
+    "Moved licensed/insured, owner-operated, free-estimate, and service-area trust signals near the top.",
+    "Added a clear what-happens-next estimate flow and mobile-tappable contact details."
+  ],
+  "blockers_or_notes": [
+    "The provided contact/source URL https://www.keepitgreeen.com/contact-us returned a Wix 404; contact details were available on the homepage and reflected in the prototype.",
+    "No forms were submitted and no external contact was made.",
+    "Root index.html and batch.json were not edited; no commit or push was performed."
+  ],
+  "acceptance_gate": {
+    "hero_clearer": true,
+    "specific_cta": true,
+    "trust_near_top": true,
+    "services_by_buyer_intent": true,
+    "clear_next_steps": true,
+    "template_leftovers_removed": true,
+    "mobile_easier": true,
+    "same_site_cleaned_up": true
+  },
+  "final_scores": {
+    "visual_resemblance": "High",
+    "audit_coverage": "High"
+  }
+}

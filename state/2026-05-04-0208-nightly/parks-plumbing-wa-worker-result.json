@@ -1,0 +1,75 @@
+{
+  "slug": "parks-plumbing-wa",
+  "business": "Park's Plumbing",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A-",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "fallback_note": "Runtime reported openai-codex/gpt-5.5; no fallback observed.",
+  "scope": {
+    "target_url": "https://www.parksplumbingwa.com/",
+    "contact_url": "https://www.parksplumbingwa.com/contact",
+    "same_domain_pages_inspected": [
+      "https://www.parksplumbingwa.com/",
+      "https://www.parksplumbingwa.com/contact",
+      "https://www.parksplumbingwa.com/services"
+    ],
+    "other_sites_inspected": false
+  },
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/parks-plumbing-wa-audit.md",
+    "offers/2026-05-04-0208-nightly/parks-plumbing-wa-offer.md",
+    "prototypes/2026-05-04-0208-nightly/parks-plumbing-wa/index.html",
+    "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-target.png",
+    "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-prototype.png",
+    "state/2026-05-04-0208-nightly/parks-plumbing-wa-worker-result.json"
+  ],
+  "screenshots": {
+    "target": {
+      "status": "captured",
+      "path": "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-target.png",
+      "bytes": 649530
+    },
+    "prototype": {
+      "status": "captured",
+      "path": "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-prototype.png",
+      "bytes": 821371
+    },
+    "tooling": "Captured with Playwright using system Chromium at /snap/bin/chromium --no-sandbox."
+  },
+  "visual_fingerprint": {
+    "dominant_colors": ["#003d4d", "#007d9f", "#d11f00", "#5a5959", "#ffffff"],
+    "preserved_cues": [
+      "Centered 980px Wix-style shell with tall dark teal banner/header",
+      "Original logo, banner, phone row, white nav, and red active Home tab",
+      "Arial/Wix typography feel, teal section headings, red CTA buttons, original plumbing photos"
+    ]
+  },
+  "top_findings_fixed": [
+    "Hero now states Arlington/Snohomish County plumbing help instead of relying on generic Welcome copy.",
+    "Call/text actions are explicit, click-ready, repeated in hero/contact/CTA band, and available as mobile sticky actions.",
+    "Trust proof moved near the top: family owned, licensed, service area, residential/commercial.",
+    "Services reorganized by buyer intent: urgent repairs, water heaters, drains/sewer/camera, fixtures/remodel, piping, commercial.",
+    "Added what-happens-next flow and cleaned the contact/footer path without user-facing template residue."
+  ],
+  "acceptance_gate": {
+    "hero_clearer": true,
+    "cta_specific": true,
+    "trust_near_top": true,
+    "services_by_task_path": true,
+    "next_steps_clear": true,
+    "template_leftovers_removed": true,
+    "mobile_easier": true,
+    "same_site_recognition": true,
+    "no_user_facing_internal_language": true
+  },
+  "qa": {
+    "html_contains_tel_link": true,
+    "html_contains_sms_link": true,
+    "html_contains_license": true,
+    "user_facing_banned_terms_found": [],
+    "final_render_check": "Prototype rendered successfully and screenshot was captured."
+  },
+  "blockers": []
+}

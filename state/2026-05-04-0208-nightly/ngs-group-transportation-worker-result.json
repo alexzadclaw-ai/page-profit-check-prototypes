@@ -1,0 +1,64 @@
+{
+  "slug": "ngs-group-transportation",
+  "business": "NG's Group Transportation",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A-",
+  "modelRequested": "gpt-5.5",
+  "modelUsed": "openai-codex/gpt-5.5",
+  "fallback": false,
+  "status": "complete",
+  "filesCreated": [
+    "opportunities/2026-05-04-0208-nightly/ngs-group-transportation-audit.md",
+    "offers/2026-05-04-0208-nightly/ngs-group-transportation-offer.md",
+    "prototypes/2026-05-04-0208-nightly/ngs-group-transportation/index.html",
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-target.png",
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-prototype.png"
+  ],
+  "supportingCheckFiles": [
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-prototype-mobile-check.png",
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-target-top-small.jpg",
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-prototype-top-small.jpg",
+    "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-prototype-mobile-top-small.jpg"
+  ],
+  "screenshotStatus": {
+    "target": "captured with Playwright and /snap/bin/chromium --no-sandbox after switching from networkidle to domcontentloaded plus wait because Wix did not go network-idle",
+    "prototype": "captured with Playwright and /snap/bin/chromium --no-sandbox via local HTTP server",
+    "mobileCheck": "captured as supporting QA screenshot"
+  },
+  "visualFingerprint": {
+    "preserved": [
+      "black header with compact truck-logo treatment",
+      "full-height orange quote tab",
+      "original transportation hero image with plane, cargo ship, trucks, and boxes",
+      "oversized bold Helvetica/Arial-style headline",
+      "hot-orange and black split-panel rhythm",
+      "Wix-style image service cards"
+    ],
+    "dominantColors": ["#000000", "#ff5829", "sky blue", "white/off-white"]
+  },
+  "topFindingsFixed": [
+    "Replaced generic moving quote language with freight-specific quote CTAs",
+    "Changed the form from moving-room fields to pickup, destination, timing, service type, and cargo details",
+    "Removed fake testimonial/placeholder copy from the main user-facing flow",
+    "Moved trust proof directly below the hero",
+    "Organized services by buyer task path",
+    "Added a clear what-happens-next sequence",
+    "Kept real contact details and removed fake license/Wix/template residue from the prototype footer"
+  ],
+  "acceptanceGate": {
+    "heroClearer": true,
+    "ctaSpecific": true,
+    "trustNearTop": true,
+    "servicesByBuyerIntent": true,
+    "clearNextSteps": true,
+    "templateLeftoversRemoved": true,
+    "mobileEasier": true,
+    "sameSiteRecognizable": true
+  },
+  "qa": {
+    "forbiddenPrototypeWordingGrep": "clean for prototype/mockup/concept/experiment/audit/cleanup/same-brand/same site",
+    "screenshotsVerifiedNonEmpty": true,
+    "notes": "Did not edit root index.html, batch.json, or any other opportunity/site files. No commit or push performed."
+  },
+  "blockers": []
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dream-design-kitchen-bath",
+  "business": "Dream Design Kitchen & Bath",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A",
+  "status": "complete",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "target_url": "https://www.dreamdesignkb.com/about/",
+  "contact_url": "https://www.dreamdesignkb.com/contact",
+  "files_created": {
+    "audit": "opportunities/2026-05-04-0208-nightly/dream-design-kitchen-bath-audit.md",
+    "offer": "offers/2026-05-04-0208-nightly/dream-design-kitchen-bath-offer.md",
+    "prototype": "prototypes/2026-05-04-0208-nightly/dream-design-kitchen-bath/index.html",
+    "target_screenshot": "screenshots/2026-05-04-0208-nightly/dream-design-kitchen-bath-target.png",
+    "prototype_screenshot": "screenshots/2026-05-04-0208-nightly/dream-design-kitchen-bath-prototype.png"
+  },
+  "screenshots": {
+    "target": "captured",
+    "prototype": "captured",
+    "mobile_check": "state/2026-05-04-0208-nightly/dream-design-kitchen-bath-prototype-mobile-check.png"
+  },
+  "visual_fingerprint": {
+    "logo": "three-part Dream Design Kitchen + Bath logo using cabinet, tub, and horizontal wordmark assets",
+    "hero_image": "large modern kitchen photo from live About page",
+    "colors": ["white", "light gray", "charcoal", "teal logo accent", "orange logo/accent"],
+    "layout_cues_kept": ["oversized white header with logo/nav/phone", "gray intro section", "full-width kitchen photo", "checkerboard process grid", "dark final CTA"]
+  },
+  "top_findings_fixed": [
+    "Removed live Wix placeholder paragraphs from About, Process, step descriptions, and Quality Guarantee areas",
+    "Removed Wix promotional/footer residue and replaced it with real contact details",
+    "Added clear Jacksonville kitchen and bath remodeling hero with specific free in-home consultation CTA",
+    "Moved trust proof near the top using service areas, consultation path, kitchen+bath focus, and next-step clarity",
+    "Rewrote process and services around homeowner buyer intent and next actions",
+    "Improved mobile scanning with responsive stacking and sticky call/contact actions"
+  ],
+  "acceptance_gate": {
+    "hero_clearer": true,
+    "cta_specific": true,
+    "trust_near_top": true,
+    "services_process_by_buyer_intent": true,
+    "clear_next_steps": true,
+    "template_leftovers_removed": true,
+    "mobile_easier": true,
+    "owner_recognizes_same_site_cleaned_up": true
+  },
+  "blockers": [],
+  "notes": "Target capture used Playwright with system Chromium /snap/bin/chromium --no-sandbox. The live Wix page did not settle with networkidle on the first attempt, so the successful capture used domcontentloaded plus a fixed wait. No forms, signups, or contact actions were submitted."
+}

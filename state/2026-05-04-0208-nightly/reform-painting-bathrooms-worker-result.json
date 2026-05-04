@@ -1,0 +1,59 @@
+{
+  "slug": "reform-painting-bathrooms",
+  "business": "Reform Painting Services",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A",
+  "targetUrl": "https://www.reformpainting.com/bathrooms",
+  "contactUrl": "https://www.reformpainting.com/contact",
+  "modelRequested": "gpt-5.5",
+  "modelUsed": "openai-codex/gpt-5.5",
+  "modelFallback": false,
+  "status": "completed",
+  "filesCreated": [
+    "opportunities/2026-05-04-0208-nightly/reform-painting-bathrooms-audit.md",
+    "offers/2026-05-04-0208-nightly/reform-painting-bathrooms-offer.md",
+    "prototypes/2026-05-04-0208-nightly/reform-painting-bathrooms/index.html",
+    "screenshots/2026-05-04-0208-nightly/reform-painting-bathrooms-target.png",
+    "screenshots/2026-05-04-0208-nightly/reform-painting-bathrooms-prototype.png",
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-worker-result.json"
+  ],
+  "supportingFilesCreated": [
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-target-inspect.json",
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-contact-inspect.json",
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-prototype-inspect.json",
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-mobile-check.json",
+    "state/2026-05-04-0208-nightly/reform-painting-bathrooms-mobile-check.png"
+  ],
+  "screenshotStatus": {
+    "target": "captured with Playwright and /snap/bin/chromium --no-sandbox",
+    "prototype": "captured with Playwright via local http.server and /snap/bin/chromium --no-sandbox",
+    "blockers": []
+  },
+  "visualFingerprint": {
+    "dominantStyle": "light gray Wix contractor canvas, sparse header, Poppins headings, square bathroom image grid, dark CTA band, simple footer",
+    "preservedCues": [
+      "logo/nav/phone/social header pattern",
+      "centered bathroom heading and 3-column square gallery using original Wix image assets",
+      "black closing CTA band with small square estimate button"
+    ]
+  },
+  "topFindingsFixed": [
+    "Removed live placeholder paragraph and replaced it with bathroom-specific painting/refresh copy.",
+    "Corrected wrong business/page title from M&B Remodeling to Reform Painting Services in prototype metadata.",
+    "Added trust cues near the top: family-owned, Acworth/Northwest Atlanta, Georgia service area, company roots, free quote path.",
+    "Made CTA specific: Request a Bathroom Painting Estimate, with phone backup.",
+    "Organized bathroom services by homeowner task path and added a clear four-step next-process section.",
+    "Cleaned footer/template residue and improved mobile scan path with responsive cards and sticky mobile CTA."
+  ],
+  "acceptanceGate": {
+    "heroClearerThanOriginal": true,
+    "mainCtaSpecific": true,
+    "trustNearTop": true,
+    "servicesByBuyerIntent": true,
+    "clearWhatHappensNext": true,
+    "templateLeftoversRemoved": true,
+    "mobileEasierToScan": true,
+    "ownerRecognizesSameSiteCleanedUp": true
+  },
+  "notes": "Stayed scoped to Reform Painting Services same-domain pages only for public content/context. Did not edit root index.html, batch.json, or commit/push."
+}

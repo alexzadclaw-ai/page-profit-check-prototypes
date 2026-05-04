@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "batch": "2026-05-04-0208-nightly",
+  "slug": "bowerbird-organizing",
+  "business": "Bowerbird Organizing",
+  "target_url": "https://www.bowerbirdorganizing.com/",
+  "contact_source_url": "https://www.bowerbirdorganizing.com/contact",
+  "contact_source_observation": {
+    "status": 404,
+    "observed_at_local": "2026-05-04 02:15 CDT",
+    "note": "Provided /contact URL returned a 404. Homepage appears to use an on-page contact section and homepage/self-links for contact CTAs."
+  },
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/bowerbird-organizing-audit.md",
+    "offers/2026-05-04-0208-nightly/bowerbird-organizing-offer.md",
+    "prototypes/2026-05-04-0208-nightly/bowerbird-organizing/index.html",
+    "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-target.png",
+    "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-prototype.png",
+    "state/2026-05-04-0208-nightly/bowerbird-organizing-worker-result.json"
+  ],
+  "screenshots": {
+    "target": {
+      "path": "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-target.png",
+      "status": "captured"
+    },
+    "prototype": {
+      "path": "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-prototype.png",
+      "status": "captured"
+    }
+  },
+  "visual_fingerprint": {
+    "dominant_colors": ["white", "black", "charcoal gray", "soft blush", "sand", "teal/mint accent"],
+    "typography": "Raleway-style uppercase headings with simple Arial/Avenir-like body copy",
+    "header_nav": "large centered transparent logo, Fort Wayne tagline, centered horizontal nav, 980px Wix page rhythm",
+    "image_treatment": "wide organizing banner, testimonial image band, square service thumbnails, owner photo, bowerbird image",
+    "site_builder_feel": "Wix fixed-width centered sections with simple rectangular buttons and generous white space"
+  },
+  "top_findings_fixed": [
+    "Critical: CTA/self-link loop and broken /contact path addressed in prototype with visible #start consultation section and direct email/phone actions.",
+    "Critical: Free consult offer moved into hero as the primary action with a quick explanation card.",
+    "High: Trust signals moved near top via no-shaming/projects-big-or-small/owner-led-consult strip.",
+    "High: Services reorganized into buyer-readable task paths while preserving original package names and prices.",
+    "High: Consultation next-step flow clarified with send a note, talk with Lauren, get your plan."
+  ],
+  "acceptance_gate": {
+    "hero_clearer_than_original": true,
+    "main_cta_specific": true,
+    "trust_near_top": true,
+    "services_by_buyer_intent": true,
+    "clear_next_step": true,
+    "template_leftovers_removed": true,
+    "mobile_easier_to_scan": true,
+    "owner_would_recognize_same_site_cleaned_up": true,
+    "no_internal_prototype_language_on_page": true,
+    "semantic_h1_count": 1
+  },
+  "final_scores": {
+    "visual_resemblance": "High",
+    "audit_coverage": "High"
+  },
+  "blockers": []
+}

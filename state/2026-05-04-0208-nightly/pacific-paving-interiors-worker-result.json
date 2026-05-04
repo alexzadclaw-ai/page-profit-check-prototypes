@@ -1,0 +1,60 @@
+{
+  "slug": "pacific-paving-interiors",
+  "business": "Pacific Paving, Inc.",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "A",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "scope": {
+    "target_url": "https://www.pacificpavinginc.com/interiors",
+    "contact_url": "https://www.pacificpavinginc.com/contact",
+    "same_domain_pages_inspected": [
+      "https://www.pacificpavinginc.com/interiors",
+      "https://www.pacificpavinginc.com/contact",
+      "https://www.pacificpavinginc.com/",
+      "https://www.pacificpavinginc.com/services",
+      "https://www.pacificpavinginc.com/work",
+      "https://www.pacificpavinginc.com/about"
+    ]
+  },
+  "files_created": [
+    "opportunities/2026-05-04-0208-nightly/pacific-paving-interiors-audit.md",
+    "offers/2026-05-04-0208-nightly/pacific-paving-interiors-offer.md",
+    "prototypes/2026-05-04-0208-nightly/pacific-paving-interiors/index.html",
+    "screenshots/2026-05-04-0208-nightly/pacific-paving-interiors-target.png",
+    "screenshots/2026-05-04-0208-nightly/pacific-paving-interiors-prototype.png",
+    "state/2026-05-04-0208-nightly/pacific-paving-interiors-worker-result.json"
+  ],
+  "screenshot_status": {
+    "target": "captured",
+    "prototype": "captured",
+    "tooling": "Playwright with /snap/bin/chromium --no-sandbox"
+  },
+  "top_findings_fixed": [
+    "Removed the misplaced M&B Remodeling / Interiors framing from the page direction.",
+    "Replaced placeholder copy with paving/asphalt service copy for Southern Oregon.",
+    "Turned the buried generic CTA into a specific free on-site estimate path near the top and repeated lower on page.",
+    "Moved Oregon CCB/license/local trust proof into a near-top trust strip while preserving the original header proof.",
+    "Replaced unrelated interiors gallery with real Pacific Paving service photos organized by buyer task.",
+    "Added a clear three-step next-action flow and mobile call/estimate actions.",
+    "Removed Wix/template footer residue from the user-facing page."
+  ],
+  "acceptance_gate": {
+    "hero_clearer": true,
+    "cta_specific": true,
+    "license_trust_near_top": true,
+    "services_by_task_path": true,
+    "clear_next_steps": true,
+    "template_leftovers_removed": true,
+    "mobile_easier": true,
+    "owner_recognizes_same_site_cleaned_up": true,
+    "user_facing_internal_language_removed": true
+  },
+  "qa": {
+    "prototype_render_check": "passed desktop and mobile render checks via local HTTP server",
+    "forbidden_user_facing_terms_grep": "clean for M&B, Remodeling, Interiors, placeholder, Wix.com, prototype/mockup/concept/experiment/audit in prototype HTML",
+    "notes": "No forms were submitted; no commits/pushes were made; batch.json and root index.html were not edited."
+  },
+  "blockers": []
+}

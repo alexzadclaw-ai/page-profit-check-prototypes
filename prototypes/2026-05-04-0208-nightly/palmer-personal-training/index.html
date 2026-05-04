@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palmer Personal Training | Charlotte Personal Trainer</title>
+  <meta name="description" content="Charlotte personal training in a clean private studio with NASM-certified coach Allen Palmer. Book a free first session for strength, weight loss, nutrition guidance, and custom workouts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#151515;
+      --muted:#6d6d6d;
+      --blue:#0d3975;
+      --line:#e7e7e7;
+      --soft:#f7f7f7;
+      --white:#fff;
+      --shadow:0 18px 45px rgba(0,0,0,.13);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);font-family:"Source Sans 3", Arial, sans-serif;background:#fff;font-size:17px;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .wrap{width:min(1160px, calc(100% - 48px));margin:0 auto}
+    .topbar{background:transparent;border-bottom:1px solid rgba(255,255,255,.14);position:absolute;z-index:5;width:100%;top:0;left:0;color:#fff}
+    .nav{height:118px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .logo-card{background:#103d78;padding:8px 14px;box-shadow:0 8px 20px rgba(0,0,0,.18);display:inline-flex;align-items:center;width:390px;max-width:42vw;min-height:50px}
+    .logo-card img{width:100%;height:auto;filter:none}
+    .nav-links{display:flex;align-items:center;gap:34px;font-family:Lato,Arial,sans-serif;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:rgba(255,255,255,.82)}
+    .nav-phone{font-weight:700;color:#fff;border-bottom:1px solid rgba(255,255,255,.45)}
+    .hero{min-height:820px;background:linear-gradient(rgba(0,0,0,.56),rgba(0,0,0,.5)),url("https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Gym%20pic%20for%20GoDaddy.JPEG/:/rs=w:1535,m") center center/cover no-repeat;display:grid;align-items:center;text-align:center;color:#fff;position:relative;padding:150px 0 80px}
+    .hero-content{width:min(900px,calc(100% - 40px));margin:0 auto;padding-top:30px}
+    .eyebrow{font-family:Lato,Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;font-weight:900;font-size:13px;margin-bottom:18px;color:rgba(255,255,255,.84)}
+    h1,h2,h3{font-family:Lato,Arial,sans-serif;line-height:1.12;margin:0;color:inherit}
+    h1{font-size:clamp(45px,7vw,84px);font-weight:900;text-transform:uppercase;letter-spacing:.03em;text-shadow:0 2px 20px rgba(0,0,0,.36)}
+    .hero .rule{width:290px;height:1px;background:rgba(255,255,255,.48);margin:26px auto 22px}
+    .hero p{font-size:clamp(19px,2.2vw,25px);max-width:770px;margin:0 auto 30px;color:rgba(255,255,255,.9)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#050505;color:#fff;border:2px solid #050505;padding:15px 25px;min-height:54px;font-family:Lato,Arial,sans-serif;font-weight:900;letter-spacing:.06em;text-transform:uppercase;font-size:13px;transition:.2s ease;cursor:pointer}
+    .btn:hover{transform:translateY(-1px);background:#222;border-color:#222}
+    .btn.secondary{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.8);color:#fff}
+    .hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .hero-note{margin-top:18px!important;font-size:16px!important;color:rgba(255,255,255,.78)!important}
+    .trust-strip{background:#fff;box-shadow:var(--shadow);margin:-64px auto 0;position:relative;z-index:3;width:min(1080px,calc(100% - 36px));display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line)}
+    .trust-item{padding:25px 22px;text-align:center;border-right:1px solid var(--line)}
+    .trust-item:last-child{border-right:0}
+    .trust-item strong{display:block;font-family:Lato,Arial,sans-serif;font-size:16px;text-transform:uppercase;letter-spacing:.05em;color:#111;margin-bottom:5px}
+    .trust-item span{display:block;color:var(--muted);font-size:15px;line-height:1.35}
+    section{padding:88px 0}
+    .section-title{text-align:center;margin-bottom:44px}
+    .section-title h2{font-size:clamp(25px,3vw,38px);text-transform:uppercase;letter-spacing:.04em;color:#151515}
+    .section-title .mini-rule{width:92px;height:1px;background:#d8d8d8;margin:18px auto 0}
+    .about-grid{display:grid;grid-template-columns:410px 1fr;gap:70px;align-items:center}
+    .circle-photo{border-radius:50%;overflow:hidden;aspect-ratio:1/1;box-shadow:0 10px 35px rgba(0,0,0,.13);background:#ddd}
+    .circle-photo img{width:100%;height:100%;object-fit:cover}
+    .copy h3{font-size:26px;margin-bottom:14px;font-weight:700}
+    .copy p{color:#555;margin:0 0 16px}
+    .credential-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:25px}
+    .check{border:1px solid var(--line);padding:13px 14px;background:#fff;font-weight:700;font-size:15px}
+    .services{background:var(--soft)}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .card{background:#fff;border:1px solid var(--line);padding:28px 24px;min-height:245px;box-shadow:0 8px 18px rgba(0,0,0,.04)}
+    .card .num{font-family:Lato,Arial,sans-serif;color:var(--blue);font-weight:900;letter-spacing:.08em;font-size:13px;margin-bottom:16px;text-transform:uppercase}
+    .card h3{font-size:21px;margin-bottom:12px}
+    .card p{color:#585858;margin:0;font-size:16px;line-height:1.5}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+    .studio-photo{min-height:560px;background:url("https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Allen%20seated%20with%20dumbbells.jpeg/:/cr=t:3.59%25,l:0%25,w:100%25,h:92.83%25/rs=w:600,h:600,cg:true") center/cover no-repeat;box-shadow:var(--shadow)}
+    .steps{counter-reset:step;display:grid;gap:16px;margin:24px 0 30px}
+    .step{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:16px}
+    .step:before{counter-increment:step;content:counter(step);width:42px;height:42px;background:#111;color:#fff;border-radius:50%;display:grid;place-items:center;font-family:Lato,Arial,sans-serif;font-weight:900}
+    .step strong{font-family:Lato,Arial,sans-serif;display:block;margin-bottom:3px}
+    .step span{color:#606060;font-size:16px}
+    .reviews{background:#111;color:#fff;text-align:center}
+    .reviews .section-title h2{color:#fff}
+    .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:left}
+    .review{background:#fff;color:#161616;padding:28px;min-height:245px}
+    .stars{color:#111;font-weight:900;letter-spacing:.1em;margin-bottom:12px}
+    .review p{margin:0 0 18px;color:#3f3f3f;line-height:1.55}
+    .review cite{font-style:normal;font-weight:700;color:#111}
+    .gallery{padding-top:80px}
+    .gallery-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:16px}
+    .gallery-grid img{width:100%;height:360px;object-fit:cover;filter:grayscale(100%)}
+    .gallery-grid img:first-child{height:360px;filter:none}
+    .contact{background:#f8f8f8;padding-bottom:110px}
+    .contact-box{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);padding:44px;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}
+    .contact h2{font-size:36px;text-transform:uppercase;margin-bottom:14px}
+    .contact p{color:#5a5a5a;margin:0 0 20px}
+    .contact-lines{display:grid;gap:10px;font-size:18px;margin-bottom:26px}
+    .contact-lines a{font-weight:700;border-bottom:1px solid #cfcfcf;width:max-content}
+    .hours{border-left:4px solid #111;padding:16px 0 16px 20px;background:#fafafa}
+    footer{padding:36px 0;text-align:center;background:#fff;color:#696969;font-size:15px;border-top:1px solid var(--line)}
+    .mobile-call{display:none;position:fixed;bottom:0;left:0;right:0;z-index:10;background:#111;color:#fff;padding:12px 18px;text-align:center;font-family:Lato,Arial,sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:.05em}
+    @media (max-width:900px){
+      .wrap{width:min(100% - 30px,1160px)}
+      .nav{height:auto;padding:18px 0;align-items:flex-start}.logo-card{width:285px;max-width:54vw;padding:8px 12px}.nav-links{gap:16px;font-size:12px;flex-wrap:wrap;justify-content:flex-end}.hero{min-height:720px;padding-top:120px}.trust-strip{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}.about-grid,.split,.contact-box{grid-template-columns:1fr;gap:32px}.circle-photo{max-width:360px;margin:0 auto}.service-grid,.review-grid{grid-template-columns:1fr 1fr}.gallery-grid{grid-template-columns:1fr}.gallery-grid img,.gallery-grid img:first-child{height:320px}.studio-photo{min-height:430px}
+    }
+    @media (max-width:620px){
+      body{font-size:16px}.topbar{position:absolute;background:rgba(0,0,0,.12)}.nav{gap:16px}.logo-card{width:225px;max-width:62vw}.nav-links a:not(.nav-phone){display:none}.nav-phone{font-size:13px}.hero{min-height:690px;text-align:left;align-items:end;padding:120px 0 95px;background-position:center}.hero-content{width:calc(100% - 30px);padding-top:0}.eyebrow{font-size:12px}.hero .rule{margin-left:0;width:180px}.hero p{margin-left:0;font-size:18px}.hero-actions{justify-content:flex-start}.btn{width:100%;padding:14px 18px}.trust-strip{margin-top:0;width:100%;grid-template-columns:1fr;box-shadow:none}.trust-item{border-right:0;border-bottom:1px solid var(--line);padding:20px 18px}.trust-item:last-child{border-bottom:0}section{padding:62px 0}.section-title{text-align:left;margin-bottom:30px}.section-title .mini-rule{margin-left:0}.credential-list,.service-grid,.review-grid{grid-template-columns:1fr}.card{min-height:auto}.contact-box{padding:28px 22px}.contact h2{font-size:30px}.mobile-call{display:block}footer{padding-bottom:78px}.gallery{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="logo-card" href="#top" aria-label="Palmer Personal Training home">
+        <img src="https://isteam.wsimg.com/studio-projects/over-projects-api/logos/41448eb6-7721-48c4-8da7-9b7da1e803d9/e9513085-b58f-418f-a659-77c35716b7d5/logo.jpg/:/gis/:/rs=w:674,h:100,cg:true,m/cr=w:674,h:100/qt=q:95" alt="Palmer Personal Training" />
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#top">Home</a>
+        <a href="#services">Training</a>
+        <a href="#next">First Session</a>
+        <a class="nav-phone" href="tel:+17046190489">704.619.0489</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Palmer Personal Training hero">
+      <div class="hero-content">
+        <div class="eyebrow">Charlotte private studio personal training</div>
+        <h1>Get stronger, leaner, and more confident</h1>
+        <div class="rule"></div>
+        <p>Train one-on-one with Allen Palmer, a NASM-certified Charlotte personal trainer, in a clean private studio built for strength, weight loss, and sustainable progress.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+17046190489">Text or Call for Your Free First Session</a>
+          <a class="btn secondary" href="#services">See Training Options</a>
+        </div>
+        <p class="hero-note">No membership required. Pay by the session or save with packages of 10+ sessions.</p>
+      </div>
+    </section>
+
+    <div class="trust-strip" aria-label="Trust and credentials">
+      <div class="trust-item"><strong>NASM Certified</strong><span>CPT, PES, MMA conditioning specialist</span></div>
+      <div class="trust-item"><strong>CPR + AED</strong><span>Safety-minded coaching in every session</span></div>
+      <div class="trust-item"><strong>5.0 Google Rating</strong><span>Clients praise Allen's personal attention</span></div>
+      <div class="trust-item"><strong>Private Studio</strong><span>Clean, insured gym with Rogue equipment</span></div>
+    </div>
+
+    <section id="about" class="about">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>About Palmer Personal Training</h2>
+          <div class="mini-rule"></div>
+        </div>
+        <div class="about-grid">
+          <div class="circle-photo"><img src="https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Allen%20pic%20arms%20crossed.jpeg/:/cr=t:0%25,l:12.62%25,w:74.76%25,h:100%25/rs=w:600,h:600,cg:true" alt="Allen Palmer of Palmer Personal Training" /></div>
+          <div class="copy">
+            <h3>Coaching that starts with your goal, then builds the plan around you.</h3>
+            <p>Allen Palmer helps Charlotte clients get stronger, lose weight, and move better with individualized strength-based programs. Training happens in a private studio gym equipped with modern strength and cardio tools.</p>
+            <p>Your first session is complimentary, so you can meet Allen, talk through your goals, and feel what training would be like before deciding what comes next.</p>
+            <div class="credential-list">
+              <div class="check">NASM Certified Personal Trainer</div>
+              <div class="check">Performance Enhancement Specialist</div>
+              <div class="check">MMA Conditioning Specialist</div>
+              <div class="check">College degree + years of coaching</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Training options by goal</h2>
+          <div class="mini-rule"></div>
+        </div>
+        <div class="service-grid">
+          <article class="card">
+            <div class="num">For focused coaching</div>
+            <h3>One-on-one private training</h3>
+            <p>Individual sessions built around strength, weight loss, body mechanics, confidence, and consistency.</p>
+          </article>
+          <article class="card">
+            <div class="num">For two people</div>
+            <h3>Partner training</h3>
+            <p>Train with a friend, partner, or family member while keeping the workout structured and goal-specific.</p>
+          </article>
+          <article class="card">
+            <div class="num">For out-of-town clients</div>
+            <h3>Remote online training</h3>
+            <p>Custom programming and coaching support when you want Allen's guidance outside the Charlotte studio.</p>
+          </article>
+          <article class="card">
+            <div class="num">For better follow-through</div>
+            <h3>Nutrition + extra workouts</h3>
+            <p>Protein and calorie guidance plus workouts to use on days you are not training in person.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="next" class="next">
+      <div class="wrap split">
+        <div class="studio-photo" role="img" aria-label="Allen Palmer training in the private studio"></div>
+        <div class="copy">
+          <div class="section-title" style="text-align:left;margin-bottom:24px">
+            <h2>What happens after you reach out</h2>
+            <div class="mini-rule" style="margin-left:0"></div>
+          </div>
+          <p>No complicated signup flow. Text or call Allen, choose a time for your complimentary first session, and use that session to talk goals and experience the coaching style.</p>
+          <div class="steps">
+            <div class="step"><div><strong>Text or call 704.619.0489</strong><span>Share your main goal and the best times to train.</span></div></div>
+            <div class="step"><div><strong>Come in for a free first session</strong><span>Meet Allen, see the private studio, and go through a guided workout.</span></div></div>
+            <div class="step"><div><strong>Leave with a clear training path</strong><span>If it fits, Allen builds your program around your goals, schedule, and current fitness level.</span></div></div>
+          </div>
+          <a class="btn" href="tel:+17046190489">Book the Complimentary Session</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <div class="mini-rule"></div>
+        </div>
+        <div class="review-grid">
+          <article class="review"><div class="stars">★★★★★</div><p>“I highly recommend Allen for anyone serious about their fitness.”</p><cite>Alaric Thorne</cite></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“Decided to get back into shape after many years. Pushing 60, I wanted personal guidance.”</p><cite>Michael Marsee</cite></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“New to the Charlotte area and ready to improve after years on the road. Allen made the plan feel doable.”</p><cite>Busy Business</cite></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" aria-label="Photo gallery">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Private studio and training photos</h2>
+          <div class="mini-rule"></div>
+        </div>
+        <div class="gallery-grid">
+          <img src="https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/0630AEF2-617A-499F-A4EF-D749793252CC.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160,h:1450" alt="Palmer Personal Training studio equipment" />
+          <img src="https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Preview-139.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/fx-gs/rs=w:1160,h:1740" alt="Personal training equipment" />
+          <img src="https://img1.wsimg.com/isteam/ip/efa9862d-e351-4521-ac2e-8c00711693b5/Preview-144%20(1).jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/fx-gs/rs=w:1160,h:1740" alt="Strength training area" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap contact-box">
+        <div>
+          <h2>Contact Us</h2>
+          <p>Ready to see if Palmer Personal Training is the right fit? The first session is free and designed to help you understand the training style before you commit.</p>
+          <div class="contact-lines">
+            <a href="tel:+17046190489">704.619.0489</a>
+            <a href="mailto:ADP906@gmail.com">ADP906@gmail.com</a>
+            <span>Charlotte, North Carolina 28270</span>
+          </div>
+          <a class="btn" href="tel:+17046190489">Text or Call Allen</a>
+        </div>
+        <div class="hours">
+          <strong>Hours</strong><br>
+          Open today<br>
+          07:00 am – 08:00 pm<br><br>
+          <strong>Best next step</strong><br>
+          Text Allen with your goal and ask for the complimentary first session.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Palmer Personal Training · Charlotte, NC · <a href="tel:+17046190489">704.619.0489</a><br>
+    Copyright © 2026 Palmer Personal Training. All Rights Reserved.
+  </footer>
+  <a class="mobile-call" href="tel:+17046190489">Text or Call for a Free First Session</a>
+</body>
+</html>

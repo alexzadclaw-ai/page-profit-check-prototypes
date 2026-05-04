@@ -1,0 +1,71 @@
+{
+  "slug": "premier-aquariums-nj",
+  "business": "Premier Aquariums",
+  "batch": "2026-05-04-0208-nightly",
+  "priority": "B+",
+  "target_url": "https://www.premieraquariumsnj.com/",
+  "contact_source": "mailto:premieraquariums@gmail.com",
+  "model_requested": "gpt-5.5",
+  "model_used": "openai-codex/gpt-5.5",
+  "model_fallback": false,
+  "scope_compliance": {
+    "worked_on_only_assigned_site": true,
+    "inspected_same_domain_only": true,
+    "did_not_edit_root_index": true,
+    "did_not_edit_batch_json": true,
+    "did_not_commit_or_push": true
+  },
+  "deliverables": {
+    "audit": "opportunities/2026-05-04-0208-nightly/premier-aquariums-nj-audit.md",
+    "offer": "offers/2026-05-04-0208-nightly/premier-aquariums-nj-offer.md",
+    "prototype": "prototypes/2026-05-04-0208-nightly/premier-aquariums-nj/index.html",
+    "target_screenshot": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-target.png",
+    "prototype_screenshot": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-prototype.png"
+  },
+  "screenshots": {
+    "target": {
+      "status": "captured",
+      "path": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-target.png",
+      "method": "Playwright with /snap/bin/chromium --no-sandbox"
+    },
+    "prototype": {
+      "status": "captured",
+      "path": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-prototype.png",
+      "method": "Playwright with /snap/bin/chromium --no-sandbox via local HTTP server"
+    },
+    "blockers": []
+  },
+  "visual_fingerprint": {
+    "dominant_style": "white Wix-style layout, black text-only Raleway wordmark, thin divider, simple nav/email row, large centered brand hero, full-width reef/eel image, alternating aquarium photo/text sections",
+    "assets_preserved": [
+      "original Premier Aquariums wordmark treatment",
+      "original hero aquarium/eel image",
+      "original aquarium service photos",
+      "header/nav rhythm and typography feel"
+    ]
+  },
+  "top_findings_fixed": [
+    "Hero now states custom aquarium installation, scheduled maintenance, safe moves, reef/saltwater/freshwater, and New Jersey service context.",
+    "Specific consultation and phone CTAs added above the original hero image.",
+    "Karl/15+ years/free consultation/service-area trust proof moved near the top.",
+    "Long service paragraphs reframed into buyer-intent service cards.",
+    "Three-step next-step section added for consultation, planning, installation/maintenance.",
+    "Template/footer residue removed from the prototype; SEO title/meta/heading structure tightened."
+  ],
+  "acceptance_gate": {
+    "clearer_hero": true,
+    "specific_cta": true,
+    "trust_near_top": true,
+    "buyer_intent_service_paths": true,
+    "clear_next_steps": true,
+    "template_leftovers_removed": true,
+    "mobile_scanability_checked": true,
+    "owner_recognition": true
+  },
+  "verification": {
+    "prototype_rendered": true,
+    "remote_images_loaded": true,
+    "mobile_no_horizontal_overflow_390px": true,
+    "internal_commentary_absent_from_page": true
+  }
+}

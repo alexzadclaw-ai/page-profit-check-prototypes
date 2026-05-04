@@ -1,0 +1,361 @@
+{
+  "batch": "2026-05-04-0208-nightly",
+  "batchJson": "opportunities/2026-05-04-0208-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "bowerbird-organizing",
+      "name": "Bowerbird Organizing",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/bowerbird-organizing-audit.md",
+          "exists": true,
+          "size": 11593
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/bowerbird-organizing-offer.md",
+          "exists": true,
+          "size": 3224
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/bowerbird-organizing/index.html",
+          "exists": true,
+          "size": 19040
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-target.png",
+          "exists": true,
+          "size": 1609136
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/bowerbird-organizing-prototype.png",
+          "exists": true,
+          "size": 1850911
+        }
+      }
+    },
+    {
+      "slug": "prairie-path-painters",
+      "name": "Prairie Path Painters",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/prairie-path-painters-audit.md",
+          "exists": true,
+          "size": 9277
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/prairie-path-painters-offer.md",
+          "exists": true,
+          "size": 2480
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/prairie-path-painters/index.html",
+          "exists": true,
+          "size": 18531
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/prairie-path-painters-target.png",
+          "exists": true,
+          "size": 2790160
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/prairie-path-painters-prototype.png",
+          "exists": true,
+          "size": 2877441
+        }
+      }
+    },
+    {
+      "slug": "reform-painting-bathrooms",
+      "name": "Reform Painting Services",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/reform-painting-bathrooms-audit.md",
+          "exists": true,
+          "size": 10082
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/reform-painting-bathrooms-offer.md",
+          "exists": true,
+          "size": 1896
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/reform-painting-bathrooms/index.html",
+          "exists": true,
+          "size": 17152
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/reform-painting-bathrooms-target.png",
+          "exists": true,
+          "size": 799887
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/reform-painting-bathrooms-prototype.png",
+          "exists": true,
+          "size": 895662
+        }
+      }
+    },
+    {
+      "slug": "premier-aquariums-nj",
+      "name": "Premier Aquariums",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/premier-aquariums-nj-audit.md",
+          "exists": true,
+          "size": 9531
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/premier-aquariums-nj-offer.md",
+          "exists": true,
+          "size": 2996
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/premier-aquariums-nj/index.html",
+          "exists": true,
+          "size": 20293
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-target.png",
+          "exists": true,
+          "size": 3353992
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/premier-aquariums-nj-prototype.png",
+          "exists": true,
+          "size": 3610116
+        }
+      }
+    },
+    {
+      "slug": "ngs-group-transportation",
+      "name": "NG's Group Transportation",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/ngs-group-transportation-audit.md",
+          "exists": true,
+          "size": 9833
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/ngs-group-transportation-offer.md",
+          "exists": true,
+          "size": 2968
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/ngs-group-transportation/index.html",
+          "exists": true,
+          "size": 20848
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-target.png",
+          "exists": true,
+          "size": 2698471
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/ngs-group-transportation-prototype.png",
+          "exists": true,
+          "size": 2520035
+        }
+      }
+    },
+    {
+      "slug": "parks-plumbing-wa",
+      "name": "Park's Plumbing",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/parks-plumbing-wa-audit.md",
+          "exists": true,
+          "size": 10695
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/parks-plumbing-wa-offer.md",
+          "exists": true,
+          "size": 2920
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/parks-plumbing-wa/index.html",
+          "exists": true,
+          "size": 16328
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-target.png",
+          "exists": true,
+          "size": 649530
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/parks-plumbing-wa-prototype.png",
+          "exists": true,
+          "size": 821371
+        }
+      }
+    },
+    {
+      "slug": "palmer-personal-training",
+      "name": "Palmer Personal Training",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/palmer-personal-training-audit.md",
+          "exists": true,
+          "size": 9212
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/palmer-personal-training-offer.md",
+          "exists": true,
+          "size": 2849
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/palmer-personal-training/index.html",
+          "exists": true,
+          "size": 19475
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/palmer-personal-training-target.png",
+          "exists": true,
+          "size": 2345052
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/palmer-personal-training-prototype.png",
+          "exists": true,
+          "size": 1883957
+        }
+      }
+    },
+    {
+      "slug": "keep-it-greeen",
+      "name": "Keep It Greeen, Inc.",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/keep-it-greeen-audit.md",
+          "exists": true,
+          "size": 9938
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/keep-it-greeen-offer.md",
+          "exists": true,
+          "size": 2187
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/keep-it-greeen/index.html",
+          "exists": true,
+          "size": 14901
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/keep-it-greeen-target.png",
+          "exists": true,
+          "size": 2976374
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/keep-it-greeen-prototype.png",
+          "exists": true,
+          "size": 1857120
+        }
+      }
+    },
+    {
+      "slug": "pacific-paving-interiors",
+      "name": "Pacific Paving, Inc.",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/pacific-paving-interiors-audit.md",
+          "exists": true,
+          "size": 10065
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/pacific-paving-interiors-offer.md",
+          "exists": true,
+          "size": 3156
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/pacific-paving-interiors/index.html",
+          "exists": true,
+          "size": 18142
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/pacific-paving-interiors-target.png",
+          "exists": true,
+          "size": 842571
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/pacific-paving-interiors-prototype.png",
+          "exists": true,
+          "size": 1353668
+        }
+      }
+    },
+    {
+      "slug": "dream-design-kitchen-bath",
+      "name": "Dream Design Kitchen & Bath",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-04-0208-nightly/dream-design-kitchen-bath-audit.md",
+          "exists": true,
+          "size": 10578
+        },
+        "offer": {
+          "path": "offers/2026-05-04-0208-nightly/dream-design-kitchen-bath-offer.md",
+          "exists": true,
+          "size": 2917
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-04-0208-nightly/dream-design-kitchen-bath/index.html",
+          "exists": true,
+          "size": 16964
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/dream-design-kitchen-bath-target.png",
+          "exists": true,
+          "size": 1515335
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-04-0208-nightly/dream-design-kitchen-bath-prototype.png",
+          "exists": true,
+          "size": 1602739
+        }
+      }
+    }
+  ]
+}

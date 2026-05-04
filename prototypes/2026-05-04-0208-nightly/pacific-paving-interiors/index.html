@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paving & Asphalt Services | Pacific Paving, Inc.</title>
+  <meta name="description" content="Pacific Paving, Inc. provides residential paving, commercial paving, asphalt repairs, sealcoating, crackfilling, and crushed rock roads across Medford, Ashland, Grants Pass, and Southern Oregon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1e1e1e;
+      --muted: #646464;
+      --panel: #f5f5f5;
+      --line: #d9d9d9;
+      --accent: #b82428;
+      --accent-dark: #86181b;
+      --warm: #f8f6f1;
+      --max: 1205px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fff;
+      font-family: Poppins, Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+    .skip { position: absolute; left: -999px; top: 8px; background: #fff; padding: 8px 12px; z-index: 5; }
+    .skip:focus { left: 8px; }
+
+    .site-header {
+      width: min(var(--max), calc(100% - 36px));
+      min-height: 218px;
+      margin: 18px auto 0;
+      position: relative;
+    }
+    .top-strip {
+      position: absolute;
+      inset: 0 0 auto 0;
+      width: 100%;
+      height: 185px;
+      object-fit: cover;
+      display: block;
+    }
+    .brand {
+      position: absolute;
+      left: 100px;
+      top: 19px;
+      width: 385px;
+      height: auto;
+      display: block;
+    }
+    .quick-contact {
+      position: absolute;
+      right: 17px;
+      top: 30px;
+      width: 274px;
+      text-align: center;
+      background: rgba(255,255,255,.82);
+      padding: 4px 10px 9px;
+    }
+    .phone {
+      display: block;
+      font-size: clamp(25px, 2.65vw, 36px);
+      line-height: 1.15;
+      text-decoration: none;
+      letter-spacing: -.03em;
+      font-weight: 300;
+    }
+    .license-line {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .nav {
+      position: absolute;
+      right: 210px;
+      top: 129px;
+      display: flex;
+      gap: 0;
+      align-items: center;
+      font-family: Raleway, Arial, sans-serif;
+      font-size: 18px;
+      background: rgba(255,255,255,.72);
+    }
+    .nav a {
+      text-decoration: none;
+      padding: 5px 10px;
+      min-width: 64px;
+      text-align: center;
+    }
+    .nav a:hover, .nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 5px; }
+
+    main { overflow: hidden; }
+    .intro {
+      width: min(780px, calc(100% - 40px));
+      margin: 42px auto 54px;
+      text-align: center;
+    }
+    h1, h2, h3 { margin: 0; font-weight: 600; line-height: 1.2; }
+    h1 { font-size: clamp(36px, 4.1vw, 54px); letter-spacing: -.02em; }
+    .lead {
+      margin: 22px auto 0;
+      max-width: 720px;
+      font-size: 16px;
+      color: #333;
+    }
+    .cta-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 43px;
+      padding: 10px 24px;
+      border: 1px solid var(--ink);
+      background: var(--panel);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      letter-spacing: .02em;
+    }
+    .button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .button:hover { transform: translateY(-1px); }
+
+    .trust-strip {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto 54px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+    .trust-strip div {
+      min-height: 105px;
+      padding: 20px 18px;
+      text-align: center;
+      border-right: 1px solid var(--line);
+    }
+    .trust-strip div:last-child { border-right: 0; }
+    .trust-strip strong {
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .trust-strip span { display: block; font-size: 13px; color: var(--muted); }
+
+    .services {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto 70px;
+    }
+    .section-head {
+      width: min(780px, 100%);
+      margin: 0 auto 36px;
+      text-align: center;
+    }
+    .section-head h2 { font-size: clamp(30px, 3vw, 40px); }
+    .section-head p { margin: 14px auto 0; color: var(--muted); }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    .service-card {
+      background: #fff;
+      border: 1px solid #e6e6e6;
+      min-height: 420px;
+    }
+    .service-card img {
+      width: 100%;
+      height: 245px;
+      object-fit: cover;
+      display: block;
+      background: var(--panel);
+    }
+    .service-card .copy { padding: 22px 24px 24px; }
+    .service-card h3 { font-size: 21px; }
+    .service-card p { margin: 10px 0 0; font-size: 14px; color: #3d3d3d; }
+
+    .process {
+      background: var(--warm);
+      padding: 58px 0 64px;
+      border-top: 1px solid #eee7da;
+      border-bottom: 1px solid #eee7da;
+    }
+    .process-inner {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(260px, 410px) 1fr;
+      gap: 54px;
+      align-items: start;
+    }
+    .process h2 { font-size: clamp(30px, 3.2vw, 42px); }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .step {
+      background: #fff;
+      border: 1px solid #e8e1d5;
+      padding: 22px;
+      min-height: 170px;
+    }
+    .step b {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--ink);
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 15px;
+    }
+    .step h3 { font-size: 18px; }
+    .step p { font-size: 14px; margin: 8px 0 0; color: #4b4b4b; }
+
+    .contact-panel {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 64px auto 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border: 1px solid var(--line);
+    }
+    .contact-panel > div { padding: 42px 48px; }
+    .contact-panel .dark {
+      background: #222;
+      color: #fff;
+    }
+    .contact-panel h2 { font-size: clamp(28px, 3vw, 40px); }
+    .contact-panel p { margin: 16px 0 0; }
+    .contact-list { margin: 22px 0 0; padding: 0; list-style: none; }
+    .contact-list li { margin: 8px 0; }
+    .contact-list a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .contact-panel .button { margin-top: 25px; }
+
+    footer {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto 38px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      font-size: 14px;
+      color: #333;
+    }
+    .social img { width: 23px; height: 23px; display: block; }
+
+    .mobile-bar { display: none; }
+
+    @media (max-width: 900px) {
+      .site-header { min-height: auto; margin-top: 0; width: 100%; padding: 0 18px 18px; }
+      .top-strip { position: relative; height: 130px; margin: 0 -18px; width: calc(100% + 36px); }
+      .brand, .quick-contact, .nav { position: static; }
+      .brand { width: min(330px, 82vw); margin: -98px auto 10px; background: rgba(255,255,255,.86); padding: 5px 10px; }
+      .quick-contact { width: 100%; margin: 8px auto 12px; }
+      .nav { justify-content: center; flex-wrap: wrap; background: #fff; font-size: 16px; }
+      .nav a { min-width: auto; padding: 7px 9px; }
+      .intro { margin-top: 25px; }
+      .trust-strip { grid-template-columns: repeat(2, 1fr); width: calc(100% - 28px); }
+      .trust-strip div:nth-child(2) { border-right: 0; }
+      .trust-strip div { min-height: 92px; padding: 16px 10px; }
+      .service-grid { grid-template-columns: 1fr; gap: 20px; }
+      .service-card { min-height: auto; }
+      .service-card img { height: 230px; }
+      .process-inner, .contact-panel { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .contact-panel > div { padding: 30px 24px; }
+      footer { padding-bottom: 74px; align-items: flex-start; }
+      .mobile-bar {
+        position: fixed;
+        left: 0; right: 0; bottom: 0;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-shadow: 0 -6px 22px rgba(0,0,0,.16);
+      }
+      .mobile-bar a {
+        padding: 14px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background: var(--accent);
+        color: #fff;
+      }
+      .mobile-bar a:first-child { background: #1e1e1e; }
+    }
+
+    @media (max-width: 560px) {
+      h1 { font-size: 34px; }
+      .cta-row { align-items: stretch; }
+      .button { width: 100%; }
+      .trust-strip { grid-template-columns: 1fr; }
+      .trust-strip div, .trust-strip div:nth-child(2) { border-right: 0; border-bottom: 1px solid var(--line); }
+      .trust-strip div:last-child { border-bottom: 0; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to Main Content</a>
+
+  <header class="site-header" aria-label="Pacific Paving site header">
+    <img class="top-strip" src="https://static.wixstatic.com/media/11062b_d578b9d4ffba48c68d086ec29fe9e6f0f000.jpg/v1/fill/w_1205,h_185,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_d578b9d4ffba48c68d086ec29fe9e6f0f000.jpg" alt="Asphalt surface texture">
+    <img class="brand" src="https://static.wixstatic.com/media/bd5c4c_8d439d0ed63d4dcc9662cf1385555a71~mv2.png/v1/crop/x_0,y_47,w_638,h_195/fill/w_385,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pac%20Pav%20Logo_bmp.png" alt="Pacific Paving, Inc.">
+    <div class="quick-contact">
+      <a class="phone" href="tel:15417724616">541-772-4616</a>
+      <span class="license-line">Oregon CCB# 50835</span>
+      <span class="license-line">Licensed, Bonded &amp; Insured</span>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="https://www.pacificpavinginc.com/">Home</a>
+      <a href="https://www.pacificpavinginc.com/about">About</a>
+      <a href="https://www.pacificpavinginc.com/services" aria-current="page">Services</a>
+      <a href="https://www.pacificpavinginc.com/work">Work</a>
+      <a href="https://www.pacificpavinginc.com/contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Paving &amp; Asphalt Services</h1>
+      <p class="lead">Residential driveways, commercial parking lots, asphalt repairs, sealcoating, crackfilling, and crushed-rock roads for Medford, Ashland, Grants Pass, White City, and Southern Oregon.</p>
+      <div class="cta-row">
+        <a class="button primary" href="https://www.pacificpavinginc.com/contact">Request a Free On-Site Estimate</a>
+        <a class="button" href="tel:15417724616">Call 541-772-4616</a>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Pacific Paving trust details">
+      <div><strong>Since 1985</strong><span>Over 40 years serving Southern Oregon</span></div>
+      <div><strong>CCB# 50835</strong><span>Licensed, bonded &amp; insured in Oregon</span></div>
+      <div><strong>Free Estimates</strong><span>On-site consultation before scheduling</span></div>
+      <div><strong>Local Service Area</strong><span>Medford, Ashland, Grants Pass &amp; White City</span></div>
+    </section>
+
+    <section class="services" aria-labelledby="services-title">
+      <div class="section-head">
+        <h2 id="services-title">Choose the right path for your project</h2>
+        <p>Start with the work you need done, then Pacific Paving can review the site, discuss options, and provide a clear estimate.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_dc76520055ea4a8facd6a1d40f4c429a~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/bd5c4c_dc76520055ea4a8facd6a1d40f4c429a~mv2.jpg" alt="Residential asphalt driveway paving">
+          <div class="copy">
+            <h3>Residential Paving</h3>
+            <p>New asphalt driveways, driveway replacement, access lanes, and custom layout help for homeowners.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_6ad5a9ecf0334e0ba08a3e72a08108c1~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/bd5c4c_6ad5a9ecf0334e0ba08a3e72a08108c1~mv2.jpg" alt="Commercial parking lot paving">
+          <div class="copy">
+            <h3>Commercial Paving</h3>
+            <p>Parking lots, business access, subdivisions, and public-works asphalt projects with experienced crews.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_6b7ed6efd62a4326b3cce115ef13b85f~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/bd5c4c_6b7ed6efd62a4326b3cce115ef13b85f~mv2.jpg" alt="Sealcoating and crackfilling work">
+          <div class="copy">
+            <h3>Sealcoating &amp; Crackfilling</h3>
+            <p>Maintenance that helps protect finished asphalt, improve appearance, and slow water intrusion.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_5c92e1432df44ee2be083976a0bf2b57~mv2.jpg/v1/fit/w_408,h_223,q_90,enc_avif,quality_auto/bd5c4c_5c92e1432df44ee2be083976a0bf2b57~mv2.jpg" alt="Asphalt repair project">
+          <div class="copy">
+            <h3>Asphalt Repairs</h3>
+            <p>Patching, drainage-related repairs, edge cleanup, and practical fixes for worn asphalt surfaces.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_67cc220fadab417096389091284a2208~mv2.jpg/v1/fit/w_400,h_290,q_90,enc_avif,quality_auto/bd5c4c_67cc220fadab417096389091284a2208~mv2.jpg" alt="Crushed rock driveway and road surface">
+          <div class="copy">
+            <h3>Crushed Rock Drives &amp; Roads</h3>
+            <p>Crushed rock driveways and roadways planned around access, grade, drainage, and long-term use.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/bd5c4c_a8af1041e3f54637a06a3280b7b47f62~mv2.jpg/v1/fill/w_341,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd5c4c_a8af1041e3f54637a06a3280b7b47f62~mv2.jpg" alt="Paving project planning plans">
+          <div class="copy">
+            <h3>Custom Design &amp; Layout</h3>
+            <p>Site review, layout planning, and estimate guidance before the crew schedules the work.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process" aria-labelledby="process-title">
+      <div class="process-inner">
+        <div>
+          <h2 id="process-title">Tell us about your paving project today.</h2>
+          <p>Call or send the basics of the property, surface, and timeline. A qualified estimator can review the project and answer questions before work is scheduled.</p>
+          <a class="button primary" href="https://www.pacificpavinginc.com/contact">Get a Free Estimate</a>
+        </div>
+        <div class="steps">
+          <article class="step"><b>1</b><h3>Share the project</h3><p>Send the address, surface type, and whether you need paving, repairs, sealcoating, or rock work.</p></article>
+          <article class="step"><b>2</b><h3>Get an on-site estimate</h3><p>Pacific Paving reviews layout, drainage, access, materials, and scheduling needs.</p></article>
+          <article class="step"><b>3</b><h3>Plan the work</h3><p>The crew schedules the job and completes the paving or maintenance with a focus on a clean finish.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-panel" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Let's Discuss Your Next Project</h2>
+        <p>Fill out the contact form on the Pacific Paving website, call, or email to set up a free estimate on your upcoming project.</p>
+        <a class="button primary" href="https://www.pacificpavinginc.com/contact">Open Contact Form</a>
+      </div>
+      <div class="dark">
+        <h2>Service Areas</h2>
+        <p>Medford, Ashland, Grants Pass, White City, and nearby Southern Oregon communities.</p>
+        <ul class="contact-list">
+          <li>7420 Kershaw Rd., White City, OR 97503</li>
+          <li><a href="mailto:pacpavinginc@gmail.com">pacpavinginc@gmail.com</a></li>
+          <li><a href="tel:15417724616">541-772-4616</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2026 Pacific Paving, Inc. · Oregon CCB# 50835 · Licensed, Bonded &amp; Insured</div>
+    <a class="social" href="https://www.facebook.com/profile.php?id=100067997035452" aria-label="Pacific Paving on Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/facebook.png" alt="facebook"></a>
+  </footer>
+
+  <div class="mobile-bar" aria-label="Mobile quick actions">
+    <a href="tel:15417724616">Call</a>
+    <a href="https://www.pacificpavinginc.com/contact">Free Estimate</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "batch": "2026-05-04-0208-nightly",
+  "createdAt": "2026-05-04T07:00:00Z",
+  "runType": "nightly",
+  "model": "gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "items": [
+    {
+      "slug": "bowerbird-organizing",
+      "name": "Bowerbird Organizing",
+      "url": "https://www.bowerbirdorganizing.com/",
+      "contact": "https://www.bowerbirdorganizing.com/contact",
+      "location": "Fort Wayne, IN",
+      "vertical": "professional home organizing and decluttering",
+      "summary": "Professional-organizer site has a warm local story but the first screen can make consultation CTA, trust, and service paths easier to scan.",
+      "angle": "same-site cleanup: clearer hero, service paths by project type, trust/reviews near the top, and a simpler consultation next-step flow.",
+      "priority": "B+"
+    },
+    {
+      "slug": "prairie-path-painters",
+      "name": "Prairie Path Painters",
+      "url": "https://www.prairiepathpainters.com/",
+      "contact": "https://www.prairiepathpainters.com/contact",
+      "location": "Illinois",
+      "vertical": "interior/exterior painting and wallpapering",
+      "summary": "Older Wix-style painting page lists services and free estimates, but CTA hierarchy, proof, and scanability can be tightened without changing the brand feel.",
+      "angle": "preserve the simple painterly identity while bringing free-estimate action, trust proof, and service grouping higher on the page.",
+      "priority": "B+"
+    },
+    {
+      "slug": "reform-painting-bathrooms",
+      "name": "Reform Painting Services",
+      "url": "https://www.reformpainting.com/bathrooms",
+      "contact": "https://www.reformpainting.com/contact",
+      "location": "Georgia",
+      "vertical": "painting, remodeling, bathroom project page",
+      "summary": "Live Wix service page still shows M&B Remodeling template residue and placeholder paragraph copy, making it a clean pitch for a surgical cleanup.",
+      "angle": "keep the existing Wix contractor layout but replace template leftovers with real bathroom/painting value, stronger estimate CTA, and trust cues.",
+      "priority": "A"
+    },
+    {
+      "slug": "premier-aquariums-nj",
+      "name": "Premier Aquariums",
+      "url": "https://www.premieraquariumsnj.com/",
+      "contact": "mailto:premieraquariums@gmail.com",
+      "location": "New Jersey",
+      "vertical": "custom aquarium installation and maintenance",
+      "summary": "Simple Wix aquarium site has real service proof and email, but the homepage can better route reef, freshwater, maintenance, and consultation intent.",
+      "angle": "retain the aquatic visual language while clarifying service cards, maintenance trust, consultation CTA, and next steps.",
+      "priority": "B+"
+    },
+    {
+      "slug": "ngs-group-transportation",
+      "name": "NG's Group Transportation",
+      "url": "https://www.ngsgroupinc.com/",
+      "contact": "https://www.ngsgroupinc.com/contact",
+      "location": "Bay Area, CA",
+      "vertical": "cargo delivery and freight transportation",
+      "summary": "Transportation site has a useful phone/quote path but the page can clean up template trust residue and make delivery services easier to choose.",
+      "angle": "same freight-brand page with stronger quote CTA, local delivery/truckload paths, proof near hero, and placeholder/testimonial cleanup.",
+      "priority": "A-"
+    },
+    {
+      "slug": "parks-plumbing-wa",
+      "name": "Park's Plumbing",
+      "url": "https://www.parksplumbingwa.com/",
+      "contact": "https://www.parksplumbingwa.com/contact",
+      "location": "Arlington / Snohomish County, WA",
+      "vertical": "residential and commercial plumbing",
+      "summary": "Local plumbing page has phone and service breadth, but dense copy and repeated service lists make urgent visitors work too hard.",
+      "angle": "preserve the plain local plumbing style while separating emergency, water heater, drain, fixture, and camera-inspection paths with clear call/text action.",
+      "priority": "A-"
+    },
+    {
+      "slug": "palmer-personal-training",
+      "name": "Palmer Personal Training",
+      "url": "https://www.palmerpersonaltraining.com/",
+      "contact": "tel:17046190489",
+      "location": "Charlotte, NC",
+      "vertical": "personal training",
+      "summary": "Personal trainer site has good credibility but opens with off-brand payment-processing banner copy before the fitness promise, creating a quick-win hero cleanup.",
+      "angle": "keep the straightforward trainer site feel while foregrounding fitness outcome, credentials, session CTA, and what happens after booking.",
+      "priority": "A-"
+    },
+    {
+      "slug": "keep-it-greeen",
+      "name": "Keep It Greeen, Inc.",
+      "url": "https://www.keepitgreeen.com/",
+      "contact": "https://www.keepitgreeen.com/contact-us",
+      "location": "Winston-Salem, NC",
+      "vertical": "commercial and residential landscaping",
+      "summary": "Landscaping site has real phone numbers/licensed-insured proof but critical Wix placeholder paragraphs and generic service names remain on the homepage.",
+      "angle": "same green landscaping site, cleaned of placeholders, with estimate CTA, licensed/insured trust, and real service categories above photos.",
+      "priority": "A"
+    },
+    {
+      "slug": "pacific-paving-interiors",
+      "name": "Pacific Paving, Inc.",
+      "url": "https://www.pacificpavinginc.com/interiors",
+      "contact": "https://www.pacificpavinginc.com/contact",
+      "location": "Medford, OR",
+      "vertical": "paving contractor / misplaced interiors page",
+      "summary": "Contractor page shows a mismatched M&B Remodeling Interiors template and placeholder copy despite visible phone/license proof.",
+      "angle": "preserve the contractor template skeleton but realign content around paving/asphalt services, estimate CTA, and Oregon CCB trust proof.",
+      "priority": "A"
+    },
+    {
+      "slug": "dream-design-kitchen-bath",
+      "name": "Dream Design Kitchen & Bath",
+      "url": "https://www.dreamdesignkb.com/about/",
+      "contact": "https://www.dreamdesignkb.com/contact",
+      "location": "Jacksonville, FL",
+      "vertical": "kitchen and bath design/remodeling",
+      "summary": "About/process page contains multiple Wix placeholder paragraphs, but the brand promise and online appointment path are already present.",
+      "angle": "keep the clean remodeling layout while replacing placeholders with a credible process, trust proof, consultation CTA, and clearer next steps.",
+      "priority": "A"
+    }
+  ]
+}

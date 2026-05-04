@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premier Aquariums | Custom Aquarium Installation & Maintenance in New Jersey</title>
+  <meta name="description" content="Premier Aquariums provides custom aquarium installation, scheduled maintenance, aquarium moving, and reef, saltwater, and freshwater aquarium care across New Jersey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#050505;
+      --muted:#4f5d64;
+      --line:#d9e7e8;
+      --water:#0e7380;
+      --water-deep:#07515c;
+      --foam:#f3fbfb;
+      --sand:#f8f6f0;
+      --white:#fff;
+      --max:1280px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--ink);font-family:"Nunito Sans", "Avenir Next", Avenir, Arial, sans-serif;font-size:16px;line-height:1.6}
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    .page{overflow:hidden;background:#fff}
+    .site-header{background:#fff;padding:30px 60px 28px}
+    .brand-row{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:63px}
+    .brand{font-family:Raleway, sans-serif;font-size:40px;letter-spacing:.01em;font-weight:400;line-height:1.1;white-space:nowrap}
+    .header-actions{display:flex;align-items:center;gap:18px;color:#111;font-size:14px}
+    .header-actions .phone{font-weight:700;color:var(--water-deep)}
+    .rule{height:2px;background:#111;max-width:var(--max);margin:15px auto 0;opacity:.85}
+    .nav-row{max-width:var(--max);margin:0 auto;padding-top:10px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    nav{display:flex;flex-wrap:wrap;gap:0;font-size:14px;color:#111}
+    nav a{padding:10px 16px 10px 0;margin-right:12px;white-space:nowrap}
+    nav a:hover,.email:hover{text-decoration:underline}
+    .email{font-size:14px;white-space:nowrap}
+    .hero{padding:42px 60px 40px;background:#fff;text-align:center}
+    .hero-inner{max-width:var(--max);margin:0 auto}
+    h1,h2,h3{font-family:Raleway, sans-serif;font-weight:400;line-height:1.18;margin:0;color:#050505}
+    h1{font-size:clamp(42px,5vw,72px);letter-spacing:.01em;text-transform:uppercase}
+    .tagline{margin:18px auto 0;font-size:20px;max-width:820px;color:#111;line-height:1.45}
+    .hero-actions{margin:28px auto 18px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 24px;border:1px solid #111;font-size:14px;letter-spacing:.03em;text-transform:uppercase;transition:.18s ease;background:#111;color:#fff}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(0,0,0,.13)}
+    .btn.secondary{background:#fff;color:#111;border-color:#111}
+    .proof-line{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 22px;margin:0 auto 34px;color:var(--muted);font-size:15px}
+    .proof-line span{position:relative}
+    .proof-line span:not(:last-child)::after{content:"";position:absolute;right:-12px;top:.55em;width:4px;height:4px;border-radius:50%;background:#9fb8bd}
+    .hero-photo{position:relative;max-width:var(--max);height:455px;margin:0 auto;overflow:hidden}
+    .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:45% 43%}
+    .hero-photo::after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(0deg,rgba(0,48,58,.50),rgba(0,48,58,0))}
+    .photo-caption{position:absolute;left:32px;bottom:24px;color:#fff;text-align:left;font-size:15px;letter-spacing:.02em;z-index:1;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+    .trust-strip{max-width:var(--max);margin:34px auto 0;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:var(--foam);text-align:left}
+    .trust-item{padding:22px 26px;border-right:1px solid var(--line)}
+    .trust-item:last-child{border-right:0}
+    .trust-item strong{display:block;font-family:Raleway,sans-serif;font-size:24px;font-weight:500;color:var(--water-deep);line-height:1.2}
+    .trust-item span{display:block;margin-top:6px;color:#2e3a3e;font-size:14px;line-height:1.45}
+    .section{padding:80px 60px}
+    .section.alt{background:var(--foam)}
+    .split{max-width:980px;margin:0 auto;display:grid;grid-template-columns:460px 460px;gap:60px;align-items:center}
+    .split.wide{max-width:1280px;grid-template-columns:630px 1fr;gap:85px}
+    .split.reverse{grid-template-columns:1fr 630px}
+    h2{font-size:40px;text-transform:uppercase;margin-bottom:24px}
+    h3{font-size:22px;text-transform:uppercase;margin-bottom:16px}
+    p{margin:0 0 16px}
+    .lead{font-size:17px;color:#1b2428}
+    .owner-card{margin-top:24px;padding:20px 22px;border-left:3px solid var(--water);background:#fff;box-shadow:0 12px 28px rgba(0,0,0,.06)}
+    .owner-card strong{display:block;color:var(--water-deep);font-size:18px;margin-bottom:5px}
+    .image-tall{width:460px;height:600px;object-fit:cover}
+    .image-square{width:630px;height:600px;object-fit:cover}
+    .image-wide{width:630px;height:440px;object-fit:cover}
+    .center-title{max-width:940px;margin:0 auto 56px;text-align:center}
+    .service-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .service-card{border:1px solid var(--line);background:#fff;padding:28px 24px;min-height:250px;display:flex;flex-direction:column;justify-content:space-between}
+    .service-card h3{font-size:21px;margin-bottom:12px}
+    .service-card p{font-size:15px;color:#253237;margin-bottom:18px}
+    .mini-link{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--water-deep);font-weight:700;margin-top:auto}
+    .feature-list{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#253237;font-size:15px}
+    .feature-list li{padding-left:24px;position:relative}
+    .feature-list li::before{content:"";position:absolute;left:0;top:.65em;width:8px;height:8px;border-radius:50%;background:var(--water)}
+    .steps{max-width:980px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{padding:28px 26px;background:#fff;border:1px solid var(--line)}
+    .step-num{font-family:Raleway,sans-serif;color:var(--water);font-size:32px;line-height:1;margin-bottom:18px}
+    .step h3{font-size:19px;margin-bottom:10px}
+    .gallery{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .gallery img{width:100%;height:360px;object-fit:cover}
+    .contact-band{background:#071f25;color:#fff;padding:70px 60px;text-align:center}
+    .contact-band h2{color:#fff;margin-bottom:15px}
+    .contact-band p{max-width:650px;margin:0 auto 24px;color:#d8e9eb;font-size:17px}
+    .contact-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .contact-actions .btn.secondary{background:transparent;color:#fff;border-color:#fff}
+    footer{padding:36px 60px;background:#fff;text-align:center;color:#303030;font-size:14px}
+    .socials{display:flex;justify-content:center;gap:14px;margin-bottom:18px}
+    .socials a{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;font-size:12px;color:var(--water-deep)}
+    @media(max-width:1000px){
+      .site-header,.hero,.section,.contact-band,footer{padding-left:24px;padding-right:24px}
+      .brand-row,.nav-row{display:block;text-align:center}.brand{font-size:32px;white-space:normal}.header-actions{justify-content:center;margin-top:14px;flex-wrap:wrap}.nav-row{padding-top:14px}nav{justify-content:center}.email{display:block;margin-top:8px}.hero-photo{height:360px}.trust-strip{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}.split,.split.wide,.split.reverse{max-width:680px;grid-template-columns:1fr;gap:28px}.image-tall,.image-square,.image-wide{width:100%;height:auto;max-height:620px}.service-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:auto;max-height:520px}
+    }
+    @media(max-width:640px){
+      body{font-size:15px}.site-header{padding-top:24px}.brand{font-size:28px}.header-actions{gap:10px}.rule{margin-top:12px}nav{gap:8px}nav a{margin:0;padding:7px 8px;border:1px solid #eee}.hero{padding-top:30px}h1{font-size:40px}.tagline{font-size:17px}.hero-actions{display:grid}.btn{width:100%}.proof-line{display:block}.proof-line span{display:block;margin:4px 0}.proof-line span::after{display:none}.hero-photo{height:250px}.photo-caption{left:18px;bottom:16px;font-size:13px}.trust-strip,.service-grid{grid-template-columns:1fr}.trust-item{border-right:0!important;border-bottom:1px solid var(--line)}.trust-item:last-child{border-bottom:0}.section{padding-top:56px;padding-bottom:56px}h2{font-size:30px}.center-title{margin-bottom:34px}.service-card{min-height:0}.contact-actions{display:grid}.contact-actions .btn{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand-row">
+        <a class="brand" href="#top">PREMIER AQUARIUMS</a>
+        <div class="header-actions">
+          <a class="phone" href="tel:+19739198200">973-919-8200</a>
+          <a href="mailto:premieraquariums@gmail.com">premieraquariums@gmail.com</a>
+        </div>
+      </div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="nav-row">
+        <nav aria-label="Main navigation">
+          <a href="#top">Home</a>
+          <a href="#contact">Contact</a>
+          <a href="#services">Reef &amp; Saltwater Aquariums</a>
+          <a href="#services">Freshwater Aquariums</a>
+          <a href="#services">Unique Aquarium Additions</a>
+        </nav>
+        <a class="email" href="mailto:premieraquariums@gmail.com">premieraquariums@gmail.com</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <h1 id="hero-title">PREMIER AQUARIUMS</h1>
+          <p class="tagline">Custom aquarium installation, scheduled maintenance, and safe aquarium moves for reef, saltwater, and freshwater tanks across New Jersey.</p>
+          <div class="hero-actions">
+            <a class="btn" href="mailto:premieraquariums@gmail.com?subject=Free%20aquarium%20consultation%20request">Request a free consultation</a>
+            <a class="btn secondary" href="tel:+19739198200">Call 973-919-8200</a>
+          </div>
+          <div class="proof-line" aria-label="Premier Aquariums highlights">
+            <span>Owner-led by Karl Tulp</span>
+            <span>15+ years in the aquarium trade</span>
+            <span>Serving New Jersey</span>
+            <span>Recurring maintenance available</span>
+          </div>
+          <figure class="hero-photo">
+            <img src="https://static.wixstatic.com/media/6855cc_5b98efc33a4b431f81bafc034e6bad07~mv2.jpg/v1/fill/w_1280,h_455,fp_0.45_0.43,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6855cc_5b98efc33a4b431f81bafc034e6bad07~mv2.jpg" alt="Colorful reef aquarium with eel and fish" />
+            <figcaption class="photo-caption">Design, installation, and care for aquariums that stay beautiful.</figcaption>
+          </figure>
+          <div class="trust-strip">
+            <div class="trust-item"><strong>Free</strong><span>initial consultations for new aquarium clients</span></div>
+            <div class="trust-item"><strong>15+ years</strong><span>of aquarium trade experience led by Karl Tulp</span></div>
+            <div class="trust-item"><strong>Reef, salt &amp; fresh</strong><span>installation and regular care for each aquarium type</span></div>
+            <div class="trust-item"><strong>NJ + NY moves</strong><span>aquarium moving services with price estimates by request</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="split">
+          <div>
+            <h2>About Us</h2>
+            <p class="lead">Premier Aquariums is a full-service aquarium company providing installation and maintenance of reef, saltwater, and freshwater aquariums.</p>
+            <p>We install new custom aquariums of all shapes and sizes, along with standard rectangle and square tank sizes. After installation, we can return on a regular schedule to keep the aquarium clean, healthy, and looking its best.</p>
+            <div class="owner-card">
+              <strong>Owner, Karl Tulp</strong>
+              <span>Karl has more than 15 years of experience in the aquarium trade and is based in Morris County, New Jersey with his family.</span>
+            </div>
+          </div>
+          <img class="image-tall" src="https://static.wixstatic.com/media/6855cc_61ed87c147be43e99fe0d44bec03b6cd~mv2.jpg/v1/fill/w_460,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20230224_092351_136.jpg" alt="Tall custom aquarium maintained by Premier Aquariums" />
+        </div>
+      </section>
+
+      <section class="section alt" id="services">
+        <div class="center-title">
+          <h2>Our Services</h2>
+          <p class="lead">Choose the path that matches what you need now: a new aquarium, a better maintenance plan, an engaging public-space tank, or a safe move.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div>
+              <h3>New Aquarium Installation</h3>
+              <p>Custom and standard-size aquariums including tank, stand, lights, equipment, fish, rocks, and decorations.</p>
+            </div>
+            <a class="mini-link" href="mailto:premieraquariums@gmail.com?subject=New%20aquarium%20installation">Plan an installation</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Scheduled Maintenance</h3>
+              <p>Regular visits for water changes, testing, glass cleaning, new fish, decorations, and ongoing aquarium care.</p>
+            </div>
+            <a class="mini-link" href="mailto:premieraquariums@gmail.com?subject=Aquarium%20maintenance%20request">Set up maintenance</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Children's &amp; Waiting Room Aquariums</h3>
+              <p>Daycare, school, library, doctor, and dentist aquariums designed to be memorable, educational, and calming.</p>
+            </div>
+            <a class="mini-link" href="mailto:premieraquariums@gmail.com?subject=Children%27s%20or%20waiting%20room%20aquarium">Build a public-space tank</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Aquarium Moving Services</h3>
+              <p>Moving support throughout New Jersey and New York, with price estimates available before the move.</p>
+            </div>
+            <a class="mini-link" href="mailto:premieraquariums@gmail.com?subject=Aquarium%20moving%20estimate">Request a moving estimate</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split wide">
+          <img class="image-square" src="https://static.wixstatic.com/media/6855cc_7ec12c7b09c043d39f96f27be6df2f51~mv2.jpg/v1/fill/w_630,h_600,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6855cc_7ec12c7b09c043d39f96f27be6df2f51~mv2.jpg" alt="Bright aquarium installation with live plants and fish" />
+          <div>
+            <h2>Installation &amp; Maintenance</h2>
+            <p class="lead">A new aquarium should be exciting—not confusing. Premier Aquariums helps with the setup and the long-term routine that keeps it looking polished.</p>
+            <ul class="feature-list">
+              <li>Custom, rectangle, and square aquarium options</li>
+              <li>Reef, saltwater, and freshwater systems</li>
+              <li>Equipment, lighting, fish, rocks, and decorations</li>
+              <li>Recurring water changes, testing, and glass cleaning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="center-title">
+          <h2>What Happens Next</h2>
+          <p class="lead">Start with a clear conversation, then get a practical plan for the aquarium and care schedule that fits your space.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><div class="step-num">01</div><h3>Free consultation</h3><p>Share the space, tank goals, current setup, or move details so the right next step is clear.</p></div>
+          <div class="step"><div class="step-num">02</div><h3>Plan the aquarium</h3><p>Choose the tank size, equipment, fish, decorations, and maintenance needs for the project.</p></div>
+          <div class="step"><div class="step-num">03</div><h3>Install and maintain</h3><p>Get the aquarium installed or serviced, then keep it looking perfect with scheduled visits.</p></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split reverse">
+          <div>
+            <h2>Children's Aquariums</h2>
+            <p class="lead">Aquariums can become a favorite part of a daycare, school, library, doctor office, or dentist waiting room.</p>
+            <p>Premier Aquariums designs aquariums that children enjoy watching and learning from—from naming fish to discovering more about the animals in the tank.</p>
+            <a class="btn secondary" href="mailto:premieraquariums@gmail.com?subject=Children%27s%20aquarium%20consultation">Ask about children's aquariums</a>
+          </div>
+          <img class="image-square" src="https://static.wixstatic.com/media/6855cc_2adf948d74e745de95c0362c3f316ca7~mv2.jpg/v1/fill/w_630,h_600,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6855cc_2adf948d74e745de95c0362c3f316ca7~mv2.jpg" alt="Aquarium with colorful fish for a public or child-friendly space" />
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="split wide">
+          <img class="image-wide" src="https://static.wixstatic.com/media/6855cc_0a0f11548826496a8048470c42a43685~mv2.jpg/v1/fill/w_630,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6855cc_0a0f11548826496a8048470c42a43685~mv2.jpg" alt="Established aquarium cared for by Premier Aquariums" />
+          <div>
+            <h2>Moving Services</h2>
+            <p class="lead">Moving an aquarium requires planning, timing, and care for the system and livestock.</p>
+            <p>Premier Aquariums offers aquarium moving services throughout New Jersey and New York. Contact us with the tank size, location, and timing to request a price estimate.</p>
+            <a class="btn" href="mailto:premieraquariums@gmail.com?subject=Aquarium%20moving%20estimate">Request a price estimate</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contact">
+        <h2>Ready to Talk Aquariums?</h2>
+        <p>Send a note or call Premier Aquariums to request a free consultation, maintenance plan, new installation, or aquarium moving estimate.</p>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:premieraquariums@gmail.com?subject=Free%20aquarium%20consultation%20request">Email Premier Aquariums</a>
+          <a class="btn secondary" href="tel:+19739198200">Call 973-919-8200</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="socials" aria-label="Social links">
+        <a href="https://www.facebook.com/premieraquariums" aria-label="Premier Aquariums on Facebook">f</a>
+        <a href="https://www.instagram.com/premier_aquariums/" aria-label="Premier Aquariums on Instagram">ig</a>
+        <a href="https://www.youtube.com/@premier_aquariums" aria-label="Premier Aquariums on YouTube">yt</a>
+      </div>
+      <div>© 2026 Premier Aquariums · New Jersey Aquarium Installation &amp; Maintenance</div>
+    </footer>
+  </div>
+</body>
+</html>
