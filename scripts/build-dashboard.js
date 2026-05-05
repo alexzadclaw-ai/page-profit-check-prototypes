@@ -10,7 +10,7 @@ function exists(p){return fs.existsSync(path.join(root,p));}
 function relFile(p){return p && exists(p) ? p : ''}
 function rawUrl(p){return p ? `${rawBase}/${p}` : ''}
 function blobUrl(p){return p ? `${repo}/blob/${branch}/${p}` : ''}
-function previewUrl(p){return p ? `${previewBase}${rawUrl(p)}` : ''}
+function previewUrl(p){return p ? `${previewBase}${blobUrl(p)}` : ''}
 function isPackaged(batch, slug) {
   return [
     `opportunities/${batch}/${slug}-audit.md`,
@@ -74,8 +74,8 @@ for (const batch of batches) {
       <h2>${esc(it.name || slug)}</h2>
       <p>${esc(it.summary || it.angle || 'Audit/prototype package prepared for review.')}</p>
       <div class="shots">
-        <figure class="shot">${target ? `<img src="${esc(target)}" alt="Target screenshot for ${esc(it.name||slug)}">` : `<div class="placeholder">Target screenshot unavailable</div>`}<figcaption>Current site</figcaption></figure>
-        <figure class="shot">${pshot ? `<img src="${esc(pshot)}" alt="Prototype screenshot for ${esc(it.name||slug)}">` : `<div class="placeholder">Prototype screenshot unavailable</div>`}<figcaption>Prototype</figcaption></figure>
+        <figure class="shot"><figcaption>Current site</figcaption>${target ? `<img src="${esc(target)}" alt="Target screenshot for ${esc(it.name||slug)}">` : `<div class="placeholder">Target screenshot unavailable</div>`}</figure>
+        <figure class="shot"><figcaption>Prototype</figcaption>${pshot ? `<img src="${esc(pshot)}" alt="Prototype screenshot for ${esc(it.name||slug)}">` : `<div class="placeholder">Prototype screenshot unavailable</div>`}</figure>
       </div>
       <div class="links">
         ${it.url ? `<a href="${esc(it.url)}">Original site</a>` : ''}
