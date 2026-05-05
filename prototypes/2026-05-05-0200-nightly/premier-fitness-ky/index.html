@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premier Fitness | Personal Training in Madisonville, KY</title>
+  <meta name="description" content="Group training, personal training, and online fitness programs from Premier Fitness in Madisonville, KY. Start with a simple consultation." />
+  <style>
+    :root{
+      --charcoal:#323337;
+      --charcoal-2:#3b3c40;
+      --ink:#191a1d;
+      --paper:#f0eee6;
+      --white:#ffffff;
+      --muted:#c7c7c7;
+      --line:#737478;
+      --accent:#ece9df;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--white);background:var(--charcoal);line-height:1.45}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:#fff;color:#333;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:12px 7vw;display:flex;gap:24px;justify-content:flex-end;align-items:center;min-height:44px}
+    .social{display:flex;gap:12px;align-items:center}.dot{width:18px;height:18px;border-radius:50%;border:2px solid #333;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:bold}
+    header{background:var(--charcoal);border-bottom:1px solid rgba(255,255,255,.18)}
+    .brand{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;max-width:1120px;margin:0 auto;padding:26px 24px 18px}
+    .brandmark{text-align:center}.brandmark .name{font-size:34px;letter-spacing:.17em;font-weight:700}.brandmark .tag{font-size:13px;letter-spacing:.27em;margin-top:4px;color:#ddd}.mini-logo{justify-self:start;width:58px;height:58px;border-radius:50%;background:#f4f4f4 url('https://static.wixstatic.com/media/8a488f_8191517b6b9b4affb6198b102b4e8147~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg') center/cover no-repeat}
+    .quick-cta{justify-self:end;border:1px solid #fff;padding:10px 16px;text-transform:uppercase;font-size:13px;letter-spacing:.08em}.quick-cta:hover,.btn:hover{background:#fff;color:#333}
+    nav{border-top:1px solid rgba(255,255,255,.22);max-width:1120px;margin:0 auto;display:flex;justify-content:center;gap:44px;padding:15px 20px;color:#eee;font-size:15px}.active{color:#fff;border-bottom:1px solid #fff;padding-bottom:3px}
+    .hero{min-height:610px;background:linear-gradient(90deg,rgba(45,46,50,.92),rgba(45,46,50,.7),rgba(45,46,50,.15)),url('https://static.wixstatic.com/media/ae05886c0fb64b20b27102bc315585e8.jpg/v1/fill/w_1440,h_1600,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/ae05886c0fb64b20b27102bc315585e8.jpg') center/cover no-repeat;display:flex;align-items:center;padding:70px 8vw}
+    .hero-inner{max-width:560px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:#ddd;font-size:13px;margin-bottom:16px}.hero h1{font-size:52px;line-height:1.05;margin:0 0 18px;font-weight:700}.hero p{font-size:19px;color:#f2f2f2;margin:0 0 26px}.btns{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-block;border:1px solid #fff;padding:14px 24px;text-transform:uppercase;letter-spacing:.08em;font-size:13px}.btn.primary{background:#fff;color:#333}.btn.primary:hover{background:transparent;color:#fff}.trust-strip{background:#f1f0eb;color:#2b2c30;padding:22px 8vw;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;text-align:center;border-bottom:1px solid #ddd}.trust-strip strong{display:block;text-transform:uppercase;letter-spacing:.08em;font-size:13px}.trust-strip span{font-size:14px;color:#555}
+    section{padding:66px 8vw}.section-title{text-align:center;font-size:32px;margin:0 0 38px;letter-spacing:.02em}.programs{background:var(--paper);color:#333}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1120px;margin:0 auto}.card{background:#fff;color:#333}.card img{width:100%;height:245px;object-fit:cover;display:block}.card-body{padding:26px 26px 30px;min-height:275px}.card h3{font-size:25px;margin:0 0 8px}.card .sub{text-transform:uppercase;font-size:13px;letter-spacing:.08em;color:#666;margin-bottom:16px}.card p{color:#555}.textlink{display:inline-block;margin-top:10px;border:1px solid #333;padding:10px 16px;text-transform:uppercase;font-size:12px;letter-spacing:.08em}
+    .coach{background:var(--charcoal);}.coach-wrap{max-width:980px;margin:0 auto;display:grid;grid-template-columns:360px 1fr;gap:52px;align-items:center}.coach img{width:100%;background:#eee}.coach h2{text-align:left;margin-bottom:10px}.coach h3{font-size:30px;margin:0}.coach .role{text-transform:uppercase;letter-spacing:.12em;color:#d7d7d7;margin:8px 0 18px}.proof{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}.proof div{border:1px solid rgba(255,255,255,.35);padding:14px;text-align:center;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+    .next{background:#f7f7f7;color:#333}.steps{max-width:980px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{border-top:3px solid #333;background:#fff;padding:24px}.step b{font-size:26px}.contact{background:#3a3b3f;color:#fff}.contact-wrap{max-width:980px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:40px}.contact h2{text-align:left;margin-bottom:14px}.contact-info{font-size:17px}.contact-info p{margin:10px 0}.form{display:grid;gap:12px}input,textarea{width:100%;padding:13px;border:1px solid #bbb;background:#fff;font:inherit}textarea{min-height:105px}.submit{border:1px solid #fff;background:transparent;color:#fff;padding:13px;text-transform:uppercase;letter-spacing:.08em}footer{background:#f1f0eb;color:#333;text-align:center;padding:28px;font-size:14px}.footer-social{margin-top:10px;display:flex;gap:14px;justify-content:center}
+    @media(max-width:800px){.topbar{justify-content:center;flex-wrap:wrap;text-align:center}.brand{grid-template-columns:1fr;gap:14px}.mini-logo,.quick-cta{justify-self:center}.brandmark .name{font-size:26px}nav{gap:18px;overflow:auto;justify-content:flex-start}.hero{min-height:auto;padding:58px 24px;background-position:center}.hero h1{font-size:38px}.trust-strip,.cards,.coach-wrap,.steps,.contact-wrap{grid-template-columns:1fr}.card-body{min-height:auto}section{padding:48px 24px}.proof{grid-template-columns:1fr}.topbar{font-size:12px}.btns .btn{width:100%;text-align:center}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a href="mailto:greg@vaughnfitness.com">GREG@VAUGHNFITNESS.COM</a>
+    <span>(502) 821-2012</span>
+    <span class="social"><span class="dot">f</span><span class="dot">ig</span></span>
+  </div>
+  <header>
+    <div class="brand">
+      <div class="mini-logo" aria-label="Premier Fitness logo mark"></div>
+      <div class="brandmark"><div class="name">PREMIER FITNESS</div><div class="tag">CHANGING THE WORLD OF FITNESS FOREVER</div></div>
+      <a class="quick-cta" href="mailto:greg@vaughnfitness.com?subject=Premier%20Fitness%20Consultation">Book a consult</a>
+    </div>
+    <nav><a class="active" href="#home">Home</a><a href="#programs">Programs</a><a href="#coach">Coach</a><a href="#next">Start Here</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Madisonville personal training, group training, and online programs</div>
+        <h1>The Future of Fitness Is Here</h1>
+        <p>All-inclusive coaching for everyday athletes who want to look, feel, and perform better while avoiding injury.</p>
+        <div class="btns"><a class="btn primary" href="mailto:greg@vaughnfitness.com?subject=Premier%20Fitness%20Consultation">Schedule a consultation</a><a class="btn" href="#programs">Compare programs</a></div>
+      </div>
+    </section>
+    <div class="trust-strip">
+      <div><strong>Training since 2009</strong><span>Led by Greg Vaughn, owner and health coach</span></div>
+      <div><strong>Built for everyday athletes</strong><span>Fitness, performance, and injury prevention together</span></div>
+      <div><strong>Madisonville, KY</strong><span>210 E Arch St plus online coaching options</span></div>
+    </div>
+    <section class="programs" id="programs">
+      <h2 class="section-title">Choose the Program That Fits Your Life</h2>
+      <div class="cards">
+        <article class="card"><img src="https://static.wixstatic.com/media/a18fec941113443c98ee3103ad7fb5bd.jpg/v1/fill/w_490,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pilates%20Work%20Out%20.jpg" alt="Group fitness class"><div class="card-body"><h3>Group Training</h3><div class="sub">For structure, energy, and accountability</div><p>Everyday Athlete classes help you train consistently, feel stronger, and stay motivated in a supportive setting.</p><a class="textlink" href="mailto:greg@vaughnfitness.com?subject=Group%20Training">Ask about classes</a></div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/26662e77a47842deb8ac636a0ad5fb08.jpg/v1/fill/w_490,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Kettle%20Ball%20Squats.jpg" alt="Kettlebell squats"><div class="card-body"><h3>Personal Training</h3><div class="sub">For a plan built around you</div><p>Greg assesses your goals, fitness level, movement needs, and personality to build a complete customized program.</p><a class="textlink" href="mailto:greg@vaughnfitness.com?subject=Personal%20Training">Start personal training</a></div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/ba7ed308c8f44a769e71785919dfa75d.jpg/v1/fill/w_490,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Workout.jpg" alt="Workout program"><div class="card-body"><h3>Online Programs</h3><div class="sub">For home, travel, or on-the-go training</div><p>Complete programs delivered through the app, with monthly group challenges to keep you moving toward your goals.</p><a class="textlink" href="mailto:greg@vaughnfitness.com?subject=Online%20Programs">Ask about online coaching</a></div></article>
+      </div>
+    </section>
+    <section class="coach" id="coach">
+      <div class="coach-wrap"><img src="https://static.wixstatic.com/media/8a488f_44482ddaeff840339e6124d7cfd494f1~mv2.png/v1/crop/x_104,y_27,w_477,h_415/fill/w_460,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/headshot_PNG.png" alt="Greg Vaughn, Premier Fitness coach"><div><h2 class="section-title">Meet Your Coach</h2><h3>Greg Vaughn</h3><div class="role">Owner, Health Coach</div><p>Greg has been a personal trainer since 2009. He has multiple certifications and has been featured on several international fitness industry platforms for his work.</p><div class="proof"><div>Personal trainer since 2009</div><div>Multiple certifications</div><div>Featured fitness work</div></div></div></div>
+    </section>
+    <section class="next" id="next">
+      <h2 class="section-title">What Happens Next</h2>
+      <div class="steps"><div class="step"><b>1</b><h3>Tell Greg your goal</h3><p>Send a quick note about where you are now and what you want to improve.</p></div><div class="step"><b>2</b><h3>Pick the right path</h3><p>Choose group training, personal training, or online programming based on your schedule and needs.</p></div><div class="step"><b>3</b><h3>Start with a plan</h3><p>Begin with a program that matches your level, goals, and injury-prevention needs.</p></div></div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-wrap"><div><h2 class="section-title">Contact Us</h2><p>Let us know how we can help you reach your full potential. Send a note or call today.</p><div class="contact-info"><p>210 E Arch St, Madisonville, KY 42431</p><p><a href="mailto:greg@vaughnfitness.com">greg@vaughnfitness.com</a></p><p><a href="tel:+15028212012">(502) 821-2012</a></p></div></div><form class="form"><input placeholder="Name" aria-label="Name"><input placeholder="Email" aria-label="Email"><textarea placeholder="What are you looking for help with?" aria-label="Message"></textarea><button class="submit" type="button">Send message</button></form></div>
+    </section>
+  </main>
+  <footer>© Premier Fitness. Madisonville, Kentucky. <div class="footer-social"><span class="dot">f</span><span class="dot">ig</span></div></footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harvest Accounting LLC | Bookkeeping for Oregon Small Businesses</title>
+  <meta name="description" content="Harvest Accounting LLC provides QuickBooks bookkeeping and accounting support for small and medium businesses, including Oregon wine industry clients." />
+  <style>
+    :root{
+      --blue:#39ace3;
+      --teal:#42c4be;
+      --ink:#4a4a4a;
+      --muted:#676767;
+      --light:#f7f7f7;
+      --line:#e4e4e4;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff;font-size:15px;line-height:1.6}
+    a{color:inherit}
+    .topbar{background:var(--blue);color:#fff;font-size:12px;height:42px;display:flex;align-items:center;justify-content:center}
+    .topbar-inner{width:980px;max-width:94%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    nav a{color:#fff;text-decoration:none;margin-right:24px;opacity:.95}
+    .contact-strip{display:flex;align-items:center;gap:22px;white-space:nowrap}
+    .contact-strip a{text-decoration:none;color:#fff}
+    .social{letter-spacing:11px;font-weight:bold;font-size:13px;opacity:.9}
+    header.brand{height:112px;display:flex;align-items:center;justify-content:center;text-align:center;background:#fff}
+    header.brand h1{font-size:20px;font-weight:400;margin:0;color:#525252}
+    .hero{min-height:510px;background:linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.18)),url('https://static.wixstatic.com/media/11062b_6743da5900054f1f8e69f53302930a6af000.jpg/v1/fill/w_1440,h_720,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_6743da5900054f1f8e69f53302930a6af000.jpg') center/cover no-repeat;display:flex;align-items:flex-start;justify-content:center;padding-top:95px}
+    .hero-card{background:#fff;width:740px;max-width:78%;padding:34px 42px 38px;text-align:center;box-shadow:0 1px 1px rgba(0,0,0,.04)}
+    .hero-card h2{font-size:50px;line-height:1.08;font-weight:300;margin:0 0 18px;color:#464646;letter-spacing:-1px}
+    .hero-card p{margin:0 auto 24px;max-width:600px;color:#5c5c5c;font-size:18px;line-height:1.45}
+    .btn{display:inline-block;border:1px solid var(--blue);background:#fff;color:var(--blue);text-decoration:none;padding:10px 24px;font-size:13px;line-height:1;border-radius:0;transition:.15s ease}
+    .btn:hover{background:var(--blue);color:#fff}
+    .btn-solid{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .band{background:var(--teal);color:#fff;text-align:center;padding:48px 20px;font-size:18px;font-weight:300}
+    section{padding:78px 20px}
+    .wrap{width:940px;max-width:92%;margin:0 auto}
+    .split{display:grid;grid-template-columns:1fr 1.25fr;gap:88px;align-items:start}
+    .eyebrow{font-size:15px;line-height:1.25;margin:0 0 10px;color:#555}
+    h2.section-title{font-size:38px;line-height:1.05;font-weight:300;margin:0 0 22px;color:var(--blue)}
+    h3{font-size:25px;font-weight:300;line-height:1.2;margin:0 0 14px;color:#fff}
+    .copy p{margin:0 0 18px;color:#5f5f5f}
+    .trust-row{display:grid;grid-template-columns:1fr;gap:12px;margin:28px 0 30px}
+    .trust-card{border:1px solid var(--line);padding:16px 18px;background:#fff;min-height:0}
+    .trust-card strong{display:block;color:#4b4b4b;margin-bottom:6px;font-weight:600}
+    .trust-card span{color:#686868;font-size:14px;line-height:1.45;display:block}
+    .blue-section{background:var(--blue);color:#fff;text-align:center;padding:72px 20px}
+    .blue-section .wrap{width:900px}
+    .blue-section h2{font-size:40px;font-weight:300;line-height:1.15;margin:0 0 18px;color:#fff}
+    .blue-section p{max-width:720px;margin:0 auto 26px;color:#fff;font-size:17px;opacity:.96}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px;text-align:left}
+    .service{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);padding:24px 22px;min-height:210px}
+    .service ul{padding-left:18px;margin:12px 0 0}
+    .service li{margin:7px 0;color:#fff}
+    .steps{background:#fff}
+    .steps-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;margin-top:28px}
+    .step{border-top:4px solid var(--teal);background:#fafafa;padding:24px 22px;min-height:155px}
+    .step b{display:block;font-size:22px;color:var(--blue);font-weight:300;margin-bottom:8px}
+    .contact{background:#f8f8f8;border-top:1px solid #ededed}
+    .contact .split{grid-template-columns:1fr 1fr;gap:70px}
+    .contact-list{list-style:none;margin:20px 0 0;padding:0;color:#555}
+    .contact-list li{margin:10px 0}
+    .form-box{background:#fff;border:1px solid var(--line);padding:28px}
+    .field{height:44px;border:1px solid #d7d7d7;margin-bottom:12px;padding:10px;color:#888;background:#fff}
+    .textarea{height:106px}
+    footer{background:#fff;color:#666;text-align:center;padding:34px 20px 44px;font-size:13px;border-top:1px solid #eee}
+    footer a{color:var(--blue);text-decoration:none}
+    @media(max-width:760px){
+      .topbar{height:auto;padding:12px 0}.topbar-inner{display:block;text-align:center}nav{margin-bottom:8px}.contact-strip{display:block;line-height:1.8}.social{display:none}
+      header.brand{height:82px}.hero{min-height:430px;padding:56px 18px}.hero-card{max-width:100%;padding:28px 22px}.hero-card h2{font-size:34px}.hero-card p{font-size:16px}
+      section{padding:54px 18px}.split,.contact .split{grid-template-columns:1fr;gap:28px}.trust-row,.service-grid,.steps-grid{grid-template-columns:1fr}h2.section-title,.blue-section h2{font-size:32px}.band{padding:34px 18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <nav><a href="#home">Home</a><a href="#quickbooks">Blog</a></nav>
+      <div class="contact-strip">
+        <a href="mailto:scott.harvest.acct@gmail.com">scott.harvest.acct@gmail.com</a>
+        <a href="tel:17137753660">713-775-3660</a>
+        <span class="social">f t in</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="brand" id="home"><h1>Harvest Accounting LLC</h1></header>
+
+  <main>
+    <section class="hero" aria-label="Bookkeeping services">
+      <div class="hero-card">
+        <h2>Small / Medium Business Bookkeeping &amp; Accounting</h2>
+        <p>QuickBooks bookkeeping support for Oregon businesses, wineries, vineyards, and growing local teams that need cleaner numbers and less administrative drag.</p>
+        <a class="btn btn-solid" href="mailto:scott.harvest.acct@gmail.com?subject=Bookkeeping%20consultation%20request">Request a Bookkeeping Consultation</a>
+      </div>
+    </section>
+
+    <div class="band">Harvest Accounting LLC</div>
+
+    <section id="about">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Solid &amp; Professional Business Bookkeeping Services</p>
+          <h2 class="section-title">About Harvest</h2>
+        </div>
+        <div class="copy">
+          <p>Harvest Accounting LLC is a dedicated bookkeeping and accounting service for small to medium businesses using QuickBooks and other accounting packages. The firm specializes in the Oregon wine industry while also supporting many other business types.</p>
+          <p>Based in the Willamette Valley wine region, Harvest can serve clients beyond Beaverton and NW Oregon through digital bookkeeping workflows. The firm can also partner with your existing CPA or tax accountant to create a seamless financial support team.</p>
+          <div class="trust-row">
+            <div class="trust-card"><strong>QuickBooks Certified ProAdvisor</strong><span>Digital bookkeeping guidance from a certified QuickBooks resource.</span></div>
+            <div class="trust-card"><strong>Wine industry familiarity</strong><span>Support for wineries, vineyards, and related Oregon businesses.</span></div>
+            <div class="trust-card"><strong>Business finance background</strong><span>Manager Scott Philbrook brings Fortune 500 and consulting experience.</span></div>
+          </div>
+          <a class="btn" href="mailto:scott.harvest.acct@gmail.com?subject=Hey%20Scott%20I%20was%20on%20your%20Harvest%20Accounting%20Website!">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="blue-section" id="quickbooks">
+      <div class="wrap">
+        <h2>QuickBooks Certified ProAdvisor for Digital Bookkeeping</h2>
+        <p>Get practical bookkeeping help that keeps daily transactions, reporting, and CPA coordination easier to manage.</p>
+        <div class="service-grid">
+          <div class="service"><h3>For wineries &amp; vineyards</h3><ul><li>Bookkeeping built around seasonal business needs</li><li>QuickBooks cleanup and ongoing support</li><li>Clean reporting for ownership and advisors</li></ul></div>
+          <div class="service"><h3>For small businesses</h3><ul><li>Monthly bookkeeping and account organization</li><li>Digital workflows for remote collaboration</li><li>Financial clarity without hiring in-house staff</li></ul></div>
+          <div class="service"><h3>For CPA coordination</h3><ul><li>Work alongside your current tax accountant</li><li>Prepare cleaner books for tax season</li><li>Reduce time, money, and frustration</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Simple next steps</p>
+            <h2 class="section-title">Start with a short conversation</h2>
+          </div>
+          <div class="copy"><p>Use the consultation request to describe your business, your current bookkeeping setup, and whether you are looking for monthly support, QuickBooks help, or coordination with your CPA.</p></div>
+        </div>
+        <div class="steps-grid">
+          <div class="step"><b>1. Reach out</b><span>Email or call with a few details about your business and current books.</span></div>
+          <div class="step"><b>2. Review fit</b><span>Scott can confirm the best support path for your industry, software, and timeline.</span></div>
+          <div class="step"><b>3. Clean up the workflow</b><span>Move toward clearer books, better reporting, and smoother tax coordination.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Contact Us</p>
+          <h2 class="section-title">Bookkeeping support from Beaverton, Oregon</h2>
+          <p>Contact Harvest Accounting LLC to see how personalized bookkeeping and accounting support can save time, money, and frustration with managing your finances.</p>
+          <ul class="contact-list">
+            <li>Beaverton, OR, USA</li>
+            <li><a href="mailto:scott.harvest.acct@gmail.com">scott.harvest.acct@gmail.com</a></li>
+            <li><a href="tel:17137753660">713-775-3660</a></li>
+          </ul>
+        </div>
+        <div class="form-box" aria-label="Contact form preview">
+          <div class="field">Name</div>
+          <div class="field">Email</div>
+          <div class="field textarea">Tell us what kind of bookkeeping help you need</div>
+          <a class="btn btn-solid" href="mailto:scott.harvest.acct@gmail.com?subject=Bookkeeping%20consultation%20request">Submit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>©2017 by Harvest Accounting LLC. Beaverton, OR. <a href="mailto:scott.harvest.acct@gmail.com">Contact Harvest Accounting</a></footer>
+</body>
+</html>

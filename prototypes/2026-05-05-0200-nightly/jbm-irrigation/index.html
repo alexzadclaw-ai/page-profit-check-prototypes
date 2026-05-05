@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JBM Landscape & Irrigation, LLC</title>
+  <meta name="description" content="Licensed Tomball irrigation contractor for sprinkler installation, repairs, redesigns, backflow repair, sod, grading, flower beds, patios and walkways." />
+  <style>
+    :root{
+      --green:#375c32;
+      --deep:#21371f;
+      --light:#f6f7f2;
+      --tan:#e8e1d2;
+      --ink:#333333;
+      --muted:#6d6d6d;
+      --line:#ded9ce;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Avenir, "Avenir Next", Arial, sans-serif;color:var(--ink);background:white;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:var(--green);color:white;font-size:15px;text-align:center;padding:13px 18px;letter-spacing:.02em}
+    .topbar a{text-decoration:underline;text-underline-offset:3px;margin:0 12px;color:white}
+    header{background:white;border-bottom:1px solid #e7e2d8;position:sticky;top:0;z-index:3}
+    .nav{max-width:980px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 22px}
+    .brand{display:flex;align-items:center;gap:18px;min-width:255px}
+    .brand img{width:86px;height:auto;display:block}
+    .brand strong{display:block;font-size:18px;letter-spacing:.12em;color:#2f4e2b;font-weight:800;line-height:1.25;text-transform:uppercase}
+    .brand span{display:block;color:#6b6b6b;font-size:13px;letter-spacing:.14em;margin-top:4px;text-transform:uppercase}
+    nav{display:flex;gap:24px;font-size:14px;color:#434343;align-items:center}
+    nav a{padding:8px 0;border-bottom:2px solid transparent}
+    nav a:hover{border-color:var(--green)}
+    .hero{min-height:610px;display:grid;place-items:center;text-align:center;color:white;background:linear-gradient(rgba(24,42,22,.54),rgba(24,42,22,.54)),url('https://static.wixstatic.com/media/277ea815dce04a0991b4bbfe7d344264.jpg/v1/fill/w_920,h_1040,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/277ea815dce04a0991b4bbfe7d344264.jpg') center/cover fixed;position:relative;padding:70px 20px}
+    .hero-card{max-width:850px;margin:auto;padding:42px 34px;border:1px solid rgba(255,255,255,.45);background:rgba(0,0,0,.16)}
+    .eyebrow{letter-spacing:.2em;text-transform:uppercase;font-size:14px;font-weight:800;margin-bottom:16px}
+    h1{font-size:48px;line-height:1.15;margin:0 0 15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .hero p{font-size:20px;margin:0 auto 24px;max-width:690px}
+    .btn{display:inline-block;background:var(--green);color:white;padding:13px 24px;border:1px solid var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:13px;min-width:180px;text-align:center}
+    .btn.alt{background:white;color:var(--green);border-color:white;margin-left:10px}
+    .trust-strip{background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.08);max-width:980px;margin:-48px auto 40px;position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #eee}
+    .trust-strip div{padding:22px 18px;text-align:center;border-right:1px solid #ece8de;font-size:14px;color:#575757}
+    .trust-strip div:last-child{border-right:0}
+    .trust-strip b{display:block;color:var(--green);font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+    section{padding:70px 22px}
+    .wrap{max-width:980px;margin:auto}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center}
+    .section-kicker{text-align:center;color:var(--green);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:13px;margin-bottom:10px}
+    h2{text-align:center;font-size:34px;margin:0 0 22px;letter-spacing:.08em;text-transform:uppercase;color:#333;line-height:1.2}
+    h3{font-size:24px;margin:0 0 13px;color:#333;letter-spacing:.04em;text-transform:uppercase}
+    .about h2,.about .section-kicker{text-align:left}
+    .about img{width:100%;display:block;box-shadow:0 14px 34px rgba(0,0,0,.15)}
+    .about p{font-size:16px;color:#555;margin:0 0 16px}
+    .license-box{border-left:4px solid var(--green);background:var(--light);padding:18px 20px;margin-top:22px;color:#404040}
+    .services{background:#f8f7f3}
+    .service-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:32px}
+    .service-card{background:white;border:1px solid var(--line);display:grid;grid-template-columns:170px 1fr;min-height:270px;box-shadow:0 8px 20px rgba(0,0,0,.04)}
+    .service-card img{width:100%;height:100%;object-fit:cover}
+    .service-copy{padding:28px}
+    .service-copy ul{margin:10px 0 20px;padding-left:20px;color:#555}
+    .service-copy li{margin-bottom:7px}
+    .note{font-size:15px;color:#696969;margin-top:8px}
+    .steps{background:white}
+    .step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
+    .step{border-top:3px solid var(--green);background:var(--light);padding:26px 22px;text-align:center;min-height:190px}
+    .step b{display:block;color:var(--green);font-size:38px;line-height:1;margin-bottom:13px}
+    .projects{background:#fff}
+    .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}
+    .project{border:1px solid var(--line);background:white}
+    .project img{width:100%;height:210px;object-fit:cover;display:block}
+    .project div{padding:21px}
+    .project h3{font-size:20px;margin-bottom:9px}
+    .cta{background:linear-gradient(rgba(37,60,33,.88),rgba(37,60,33,.88)),url('https://static.wixstatic.com/media/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg/v1/fill/w_880,h_880,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg') center/cover;color:white;text-align:center}
+    .cta h2,.cta .section-kicker{color:white;text-align:center}
+    .cta p{max-width:660px;margin:0 auto 24px;font-size:18px}
+    .cta .btn{background:white;color:var(--green);border-color:white}
+    footer{background:#222;color:white;text-align:center;padding:45px 22px;font-size:14px}
+    footer .footgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:0 auto 28px;text-align:left}
+    footer b{display:block;text-transform:uppercase;letter-spacing:.12em;color:#d8e1d4;margin-bottom:8px}
+    footer a{text-decoration:underline;text-underline-offset:3px}
+    .tceq{font-size:12px;color:#d7d7d7;max-width:800px;margin:20px auto 0}
+    @media(max-width:760px){
+      .topbar a{display:block;margin:4px 0}.nav{display:block;text-align:center}.brand{justify-content:center;margin-bottom:12px}nav{justify-content:center;flex-wrap:wrap;gap:13px}.hero{min-height:560px;background-attachment:scroll;padding:48px 18px}.hero-card{padding:30px 18px}h1{font-size:31px}.hero p{font-size:17px}.btn{display:block;margin:10px auto 0}.btn.alt{margin-left:auto}.trust-strip{grid-template-columns:1fr;margin:-28px 18px 22px}.trust-strip div{border-right:0;border-bottom:1px solid #eee}.split,.service-grid,.step-grid,.project-grid,footer .footgrid{grid-template-columns:1fr}.service-card{grid-template-columns:1fr}.service-card img{height:210px}section{padding:52px 18px}h2{font-size:28px}.about h2,.about .section-kicker{text-align:center}footer .footgrid{text-align:center}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar"><a href="mailto:jbmirrigation@gmail.com">jbmirrigation@gmail.com</a> <a href="tel:+18323927959">(832) 392-7959</a></div>
+  <header>
+    <div class="nav">
+      <a class="brand" href="#home" aria-label="JBM Landscape and Irrigation home">
+        <img src="https://static.wixstatic.com/media/44504e_e7d4e856308d477fb6736cdfbbbb1d1a~mv2.png/v1/fill/w_284,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/44504e_e7d4e856308d477fb6736cdfbbbb1d1a~mv2.png" alt="JBM Landscape & Irrigation logo">
+        <span><strong>JBM Landscape<br>& Irrigation, LLC</strong><span>LI 23085</span></span>
+      </a>
+      <nav aria-label="Primary navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="eyebrow">Licensed Tomball Irrigation Contractor</div>
+        <h1>Sprinkler Systems, Repairs & Landscape Prep</h1>
+        <p>JBM designs, installs, redesigns and repairs irrigation systems for homeowners around Tomball, with landscape services that help the yard finish cleanly.</p>
+        <a class="btn" href="mailto:jbmirrigation@gmail.com?subject=Free%20estimate%20request">Request a Free Estimate</a>
+        <a class="btn alt" href="tel:+18323927959">Call JBM</a>
+      </div>
+    </section>
+
+    <div class="trust-strip" aria-label="Trust details">
+      <div><b>LI 23085</b>Texas Irrigator's License</div>
+      <div><b>Bonded & Insured</b>Clear contractor trust</div>
+      <div><b>Family Owned</b>Local Tomball business</div>
+      <div><b>Veteran Owned</b>US Army veteran</div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="wrap split">
+        <div>
+          <div class="section-kicker">Professional Consulting Services</div>
+          <h2>Precision. Punctuality. Commitment to Excellence.</h2>
+          <p>JBM Landscape & Irrigation, LLC provides a practical contractor approach to sprinkler systems, redesigns and landscape services. Every system is planned with attention to detail and coverage.</p>
+          <p>As an Oil & Gas Designer, the owner brings CAD design thinking into irrigation work, helping clients see how coverage will work before the yard is finished.</p>
+          <div class="license-box"><strong>Licensed, bonded and insured.</strong><br>Irrigation in Texas is regulated by the Texas Commission on Environmental Quality.</div>
+        </div>
+        <img src="https://static.wixstatic.com/media/277ea815dce04a0991b4bbfe7d344264.jpg/v1/fill/w_490,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/277ea815dce04a0991b4bbfe7d344264.jpg" alt="Green lawn with irrigation water">
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-kicker">Services</div>
+        <h2>Sprinkler & Landscape Services</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg/v1/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg" alt="Water sprinkler running in lawn">
+            <div class="service-copy">
+              <h3>Sprinkler System</h3>
+              <ul><li>New irrigation installations</li><li>System redesigns</li><li>Valve repair and locating</li><li>Reroutes for pools and new landscaping</li><li>Backflow preventer repair</li></ul>
+              <a class="btn" href="mailto:jbmirrigation@gmail.com?subject=Sprinkler%20system%20estimate">Ask About Sprinklers</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/44504e_c5d12ee99b614b3280a3adffee88067e~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_490,h_620,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/44504e_c5d12ee99b614b3280a3adffee88067e~mv2_d_3024_4032_s_4_2.jpg" alt="Landscape and sod project photo">
+            <div class="service-copy">
+              <h3>Landscape Services</h3>
+              <ul><li>Flower beds and mulch</li><li>SOD installation</li><li>Grading and yard prep</li><li>Patios and walkways</li><li>Irrigation support for finished landscapes</li></ul>
+              <a class="btn" href="mailto:jbmirrigation@gmail.com?subject=Landscape%20service%20estimate">Ask About Landscape</a>
+            </div>
+          </article>
+        </div>
+        <p class="note">Have a pool, new landscape bed or patchy coverage problem? JBM can look at the layout and recommend the right repair, reroute or redesign.</p>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="wrap">
+        <div class="section-kicker">Next Steps</div>
+        <h2>How to Get Started</h2>
+        <div class="step-grid">
+          <div class="step"><b>1</b><h3>Call or Email</h3><p>Share the address, the issue and whether it is install, repair, reroute or landscape work.</p></div>
+          <div class="step"><b>2</b><h3>Review the Yard</h3><p>JBM looks at coverage, grading, valves, backflow and the project goal before quoting.</p></div>
+          <div class="step"><b>3</b><h3>Approve the Plan</h3><p>You get a clear scope, schedule expectations and a practical path to finish the work.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrap">
+        <div class="section-kicker">Projects</div>
+        <h2>Recent Work</h2>
+        <div class="project-grid">
+          <article class="project"><img src="https://static.wixstatic.com/media/44504e_c02ec36106164ff3a802cbff4ea68ad4~mv2.jpg/v1/fill/w_520,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/44504e_c02ec36106164ff3a802cbff4ea68ad4~mv2.jpg" alt="Irrigation install project"><div><h3>Irrigation Install</h3><p>New irrigation system installation for a customer in Albury Trails Subdivision.</p></div></article>
+          <article class="project"><img src="https://static.wixstatic.com/media/44504e_b00870be4f6043baafeb341de22a092b~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_520,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/44504e_b00870be4f6043baafeb341de22a092b~mv2_d_4032_3024_s_4_2.jpg" alt="Landscape and irrigation project"><div><h3>Landscape & SOD</h3><p>Clearing, grading, irrigation system installation and SOD for a finished yard.</p></div></article>
+          <article class="project"><img src="https://static.wixstatic.com/media/44504e_4e8827793e6047079199fde35071e382~mv2.jpg/v1/fill/w_520,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/44504e_4e8827793e6047079199fde35071e382~mv2.jpg" alt="Irrigation redesign after pool construction"><div><h3>Pool Reroute</h3><p>Irrigation redesign after pool construction with site prep for SOD and trees.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="wrap">
+        <div class="section-kicker">Contact</div>
+        <h2>Ready for a Free Estimate?</h2>
+        <p>Shoot an email, or give JBM Landscape & Irrigation, LLC a ring to talk through your sprinkler or landscape project.</p>
+        <a class="btn" href="mailto:jbmirrigation@gmail.com?subject=Free%20estimate%20request">Email JBM</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footgrid">
+      <div><b>Contact</b><a href="mailto:jbmirrigation@gmail.com">jbmirrigation@gmail.com</a><br><a href="tel:+18323927959">(832) 392-7959</a></div>
+      <div><b>Address</b>Tomball, TX 77375, USA</div>
+      <div><b>License</b>JBM Landscape & Irrigation, LLC<br>LI 23085</div>
+    </div>
+    <div class="tceq">Irrigation in Texas is regulated by the Texas Commission on Environmental Quality (TCEQ), MC-178, P.O. Box 13087, Austin, TX 78711-3087. TCEQ website: www.tceq.state.tx.us</div>
+  </footer>
+</body>
+</html>
