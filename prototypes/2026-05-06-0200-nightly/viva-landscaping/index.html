@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viva Landscaping LLC | Seattle Area Landscaping, Hardscape & Drainage</title>
+  <meta name="description" content="Viva Landscaping LLC provides landscaping, hardscape, irrigation, drainage, lawn care and outdoor living services in the Seattle area. Licensed, bonded and insured.">
+  <style>
+    :root{
+      --dark:#161517;
+      --dark-2:#222124;
+      --green:#ccd47c;
+      --green-2:#d8df91;
+      --white:#ffffff;
+      --muted:#d7d7d7;
+      --line:rgba(255,255,255,.18);
+      --shadow:0 22px 60px rgba(0,0,0,.34);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--dark);color:var(--white);font-family:Arial, Helvetica, sans-serif;line-height:1.55;font-size:16px}
+    a{color:inherit;text-decoration:none}
+    .page{overflow:hidden;background:var(--dark)}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(22,21,23,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+    .nav{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 30px}
+    .brand{letter-spacing:.12em;text-transform:uppercase;font-size:18px;font-weight:600;white-space:nowrap}
+    .links{display:flex;gap:34px;font-size:14px;color:#f2f2f2;letter-spacing:.02em}
+    .links a:hover{color:var(--green)}
+    .nav-cta{border:1px solid var(--green);color:var(--green);padding:10px 18px;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+    .nav-cta:hover{background:var(--green);color:#171719}
+    .hero{min-height:690px;display:grid;place-items:center;text-align:center;position:relative;background:linear-gradient(rgba(16,15,17,.62),rgba(16,15,17,.68)),url('https://static.wixstatic.com/media/ad3c40_2fa2f30eeedd41e3957f7284d14a1101~mv2.jpg/v1/fill/w_1600,h_805,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/ad3c40_2fa2f30eeedd41e3957f7284d14a1101~mv2.jpg') center/cover no-repeat}
+    .hero-inner{max-width:850px;padding:96px 28px 72px}
+    .eyebrow{font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--green);margin-bottom:22px}
+    h1{font-family:Georgia, 'Times New Roman', serif;font-size:clamp(44px,7vw,92px);line-height:.98;margin:0 0 22px;font-weight:400;letter-spacing:.01em}
+    .hero p{max-width:720px;margin:0 auto 30px;color:#f2f2f2;font-size:clamp(18px,2vw,23px)}
+    .buttons{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 24px;border:1px solid var(--green);background:var(--green);color:#171719;text-transform:uppercase;letter-spacing:.06em;font-size:13px;font-weight:700}
+    .btn.secondary{background:transparent;color:var(--white);border-color:rgba(255,255,255,.65)}
+    .btn.secondary:hover{border-color:var(--green);color:var(--green)}
+    .trust-strip{background:var(--green);color:#171719;text-align:center;padding:22px 20px;font-size:17px;letter-spacing:.03em}
+    .trust-strip strong{font-weight:800}
+    section{padding:86px 28px}
+    .wrap{max-width:1120px;margin:0 auto}
+    .section-title{text-align:center;margin-bottom:46px}
+    .section-title .small{color:var(--green);letter-spacing:.18em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
+    h2{font-family:Georgia, 'Times New Roman', serif;font-size:clamp(34px,4.5vw,58px);line-height:1.05;margin:0;font-weight:400}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+    .about-copy p{color:var(--muted);font-size:18px;margin:18px 0 0}
+    .about-card{border:1px solid var(--line);background:var(--dark-2);padding:34px;box-shadow:var(--shadow)}
+    .about-card ul{margin:0;padding:0;list-style:none;display:grid;gap:17px}
+    .about-card li{border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:15px;color:#efefef}
+    .about-card li:last-child{border-bottom:0;padding-bottom:0}
+    .services{background:var(--green);color:#171719}
+    .services .section-title .small{color:#171719}.services h2{color:#171719}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .service-card{background:#171719;color:var(--white);min-height:245px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;position:relative;overflow:hidden}
+    .service-card:before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.76),rgba(0,0,0,.2)),var(--img) center/cover no-repeat;opacity:.82;transition:.25s}
+    .service-card:hover:before{transform:scale(1.04)}
+    .service-card>*{position:relative}.service-card h3{font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:400;margin:0 0 10px}.service-card p{margin:0;color:#eeeeee}
+    .paths{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+    .path{background:rgba(23,23,25,.1);border:1px solid rgba(23,23,25,.22);padding:18px;font-weight:700;text-align:center}
+    .gallery{background:#111013;padding-top:86px}
+    .photo-row{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:18px}.photo{min-height:270px;background:center/cover no-repeat;border:1px solid rgba(255,255,255,.1)}.photo.tall{min-height:558px;grid-row:span 2}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}.step{border:1px solid var(--line);padding:28px;background:var(--dark-2)}.step span{display:block;color:var(--green);font-size:13px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}.step h3{font-size:23px;margin:0 0 10px;font-family:Georgia,'Times New Roman',serif;font-weight:400}.step p{color:var(--muted);margin:0}
+    .contact{background:var(--green);color:#171719;text-align:center}.contact .section-title .small{color:#171719}.contact p{font-size:19px;max-width:690px;margin:16px auto 0}.contact-box{margin:34px auto 0;max-width:680px;background:#fff;padding:34px;box-shadow:var(--shadow);display:grid;gap:14px}.contact-box a{font-size:22px;font-weight:700}.contact-box .btn{margin:10px auto 0;background:#171719;color:#fff;border-color:#171719}
+    footer{background:#111013;text-align:center;color:#aaa;padding:32px 20px;font-size:14px}
+    @media (max-width:860px){.nav{padding:16px 20px;align-items:flex-start}.links{display:none}.nav-cta{padding:9px 12px}.brand{font-size:15px}.hero{min-height:620px}.about-grid,.service-grid,.photo-row,.steps{grid-template-columns:1fr}.paths{grid-template-columns:1fr 1fr}.photo,.photo.tall{min-height:230px}.contact-box a{font-size:18px}section{padding:64px 22px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#home">Viva Landscaping LLC.</a>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="tel:+12069929646">Call for Estimate</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Viva Landscaping LLC outdoor living services">
+        <div class="hero-inner">
+          <div class="eyebrow">Seattle Area Landscaping</div>
+          <h1>Outdoor spaces built with care.</h1>
+          <p>Hardscape, irrigation, drainage, lawn care and complete landscaping services from a licensed, bonded and insured team with over 25 years of experience.</p>
+          <div class="buttons">
+            <a class="btn" href="tel:+12069929646">Call (206) 992-9646</a>
+            <a class="btn secondary" href="mailto:vivalandscapingllc@gmail.com?subject=Free%20Estimate%20Request">Request a Free Estimate</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-strip"><strong>Licensed, Bonded, Insured.</strong> Over 25 years of landscaping experience.</div>
+
+      <section id="about">
+        <div class="wrap about-grid">
+          <div class="about-copy">
+            <div class="section-title" style="text-align:left;margin-bottom:0">
+              <div class="small">About Viva Landscaping LLC.</div>
+              <h2>Dedication. Commitment. Excellence.</h2>
+            </div>
+            <p>Viva Landscaping LLC helps homeowners shape outdoor living spaces that fit their property, their budget and the way they want to use the yard.</p>
+            <p>From routine lawn care to drainage corrections, fencing, water features and hardscape work, the goal is simple: make the next step easy and deliver clean, dependable results.</p>
+          </div>
+          <div class="about-card" aria-label="Why choose Viva Landscaping">
+            <ul>
+              <li><strong>Free estimates</strong> for landscaping and outdoor improvement projects.</li>
+              <li><strong>Wide service range</strong> including hardscape, irrigation, pruning, cleanups and barking.</li>
+              <li><strong>Direct contact</strong> by phone or email without digging through forms.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="wrap">
+          <div class="section-title">
+            <div class="small">Our Services</div>
+            <h2>What We Provide</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/ad3c40_1ee966acbd184767ac8f776a6080cbf7~mv2.jpg/v1/fill/w_670,h_670,q_90,enc_auto/ad3c40_1ee966acbd184767ac8f776a6080cbf7~mv2.jpg')"><h3>Build & Improve</h3><p>Hardscape, fencing, water features and low voltage lighting for more usable outdoor living space.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/ad3c40_c97ca410e09c48ca9c73d54031117e3e~mv2.jpg/v1/fill/w_670,h_670,q_90,enc_auto/ad3c40_c97ca410e09c48ca9c73d54031117e3e~mv2.jpg')"><h3>Water & Drainage</h3><p>Irrigation and drainage work to keep landscapes healthier and reduce water problems around the property.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/ad3c40_2c9a8fc187ec4c649ca228187403b206~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_2c9a8fc187ec4c649ca228187403b206~mv2.jpg')"><h3>Care & Cleanup</h3><p>Lawn care, maintenance, pruning, pressure washing, cleanups, barking and full landscaping service.</p></article>
+          </div>
+          <div class="paths" aria-label="Common service paths">
+            <div class="path">Hardscape</div><div class="path">Irrigation</div><div class="path">Drainage</div><div class="path">Cleanups</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" aria-label="Landscaping work examples">
+        <div class="wrap photo-row">
+          <div class="photo tall" style="background-image:url('https://static.wixstatic.com/media/ad3c40_1ccdf01091ed4ef9a7ef253c882c15be~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_1ccdf01091ed4ef9a7ef253c882c15be~mv2.jpg')"></div>
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/ad3c40_32d64b7124be4229bb0b9881b1f2c503~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_32d64b7124be4229bb0b9881b1f2c503~mv2.jpg')"></div>
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/ad3c40_b0ce70f6987f4ef89a9a7eb9e00ebcca~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_b0ce70f6987f4ef89a9a7eb9e00ebcca~mv2.jpg')"></div>
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/ad3c40_398310341a2e461798d6d0055a303bf0~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_398310341a2e461798d6d0055a303bf0~mv2.jpg')"></div>
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/ad3c40_4549a008ebb243e1ba621662faadfba2~mv2.jpg/v1/fill/w_554,h_554,q_90,enc_auto/ad3c40_4549a008ebb243e1ba621662faadfba2~mv2.jpg')"></div>
+        </div>
+      </section>
+
+      <section aria-label="Next steps">
+        <div class="wrap">
+          <div class="section-title">
+            <div class="small">Getting Started</div>
+            <h2>Simple next steps</h2>
+          </div>
+          <div class="steps">
+            <div class="step"><span>01</span><h3>Tell us what you need</h3><p>Call or email with the service you are considering and the best way to reach you.</p></div>
+            <div class="step"><span>02</span><h3>Schedule an estimate</h3><p>Viva reviews the property, answers questions and talks through the right scope.</p></div>
+            <div class="step"><span>03</span><h3>Improve the space</h3><p>The crew handles the landscaping, hardscape, irrigation, drainage or cleanup work.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <div class="section-title">
+            <div class="small">Contact Us</div>
+            <h2>Request a free estimate</h2>
+          </div>
+          <p>Let us know if you have any questions or would like a free estimate for landscaping, hardscape, irrigation, drainage or maintenance work.</p>
+          <div class="contact-box">
+            <a href="mailto:vivalandscapingllc@gmail.com">vivalandscapingllc@gmail.com</a>
+            <a href="tel:+12069929646">(206) 992-9646</a>
+            <a class="btn" href="mailto:vivalandscapingllc@gmail.com?subject=Free%20Estimate%20Request">Email for a Free Estimate</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>©2026 by Viva Landscaping LLC.</footer>
+  </div>
+</body>
+</html>

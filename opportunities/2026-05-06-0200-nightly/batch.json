@@ -1,0 +1,121 @@
+{
+  "batch": "2026-05-06-0200-nightly",
+  "createdAt": "2026-05-06T07:00:00Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh nationwide Page Profit Check nightly batch. Ten public small-business opportunities only; one isolated worker per opportunity; no outreach is sent.",
+  "items": [
+    {
+      "slug": "ninja-window-washing",
+      "name": "Ninja Window Washing, LLC",
+      "url": "https://ninjawindowwashing.wixsite.com/home",
+      "contact": "mailto:NinjaWindowWashing@gmail.com",
+      "location": "Central Montana / Florida Panhandle",
+      "vertical": "window washing and gutter cleaning",
+      "summary": "Family-owned window washing site has clear services and phones, but the first screen and quote path can be tightened with stronger service-area trust and buyer paths.",
+      "angle": "preserve the simple Wix/logo/photo style while clarifying residential, commercial, and gutter paths plus a stronger free-estimate next step.",
+      "priority": "A-"
+    },
+    {
+      "slug": "garcia-installation-carpentry",
+      "name": "Garcia Installation and Carpentry LLC",
+      "url": "https://garciainstallation0.wixsite.com/website",
+      "contact": "mailto:garciainstallationllc@gmail.com",
+      "location": "Tampa, FL area",
+      "vertical": "carpentry, doors, trim, remodeling",
+      "summary": "Carpentry site has real service lists/photos and free-estimate contact info, but the homepage reads thin and can organize door/trim work into clearer project paths.",
+      "angle": "keep the straightforward construction-template look while improving hero clarity, trust cues, service groupings, and what happens after requesting an estimate.",
+      "priority": "A-"
+    },
+    {
+      "slug": "bzp-handyman-service",
+      "name": "BZP Handyman Service LLC",
+      "url": "https://przezdziecki.wixsite.com/mysite",
+      "contact": "mailto:bzphandyman@gmail.com",
+      "location": "Minneapolis/St. Paul, MN area",
+      "vertical": "handyman and home repair",
+      "summary": "Handyman site has a useful service list and visible phone/email, but a giant undifferentiated list makes it hard for buyers to choose a next step.",
+      "angle": "preserve the honest/fair/reliable handyman feel while turning the service list into scan-friendly repair paths and a specific quote CTA.",
+      "priority": "A"
+    },
+    {
+      "slug": "airaid-heating-cooling",
+      "name": "AirAid Heating & Cooling LLC",
+      "url": "https://airaidcool.wixsite.com/mysite",
+      "contact": "tel:520-450-2721",
+      "location": "Arizona",
+      "vertical": "HVAC installation and service",
+      "summary": "HVAC site has strong trust cues like licensed/bonded/insured, ROC number, warranty, and discounts, but the page is cluttered and CTA hierarchy is weak.",
+      "angle": "keep the bilingual, local HVAC contractor feel while surfacing license/warranty proof, service categories, and a call/text/email estimate flow.",
+      "priority": "A-"
+    },
+    {
+      "slug": "pristine-power-clean",
+      "name": "Pristine Power Clean LLC",
+      "url": "https://pristinepowerclean.wixsite.com/website",
+      "contact": "mailto:pristinpowercleanllc@gmail.com",
+      "location": "Fenton, MO",
+      "vertical": "pressure washing and exterior cleaning",
+      "summary": "Pressure-washing site exposes real address/email/phone but still includes obvious Wix template service names and a fake testimonial block.",
+      "angle": "preserve the blue/white exterior-cleaning template while replacing template residue with real wash packages, proof, and a free-estimate path.",
+      "priority": "A"
+    },
+    {
+      "slug": "kirgans-property-solutions",
+      "name": "Kirgan's Property Solutions, LLC",
+      "url": "https://kirganspropertysol.wixsite.com/website",
+      "contact": "mailto:kirganspropertysolutions@gmail.com",
+      "location": "Illinois / Quad Cities area",
+      "vertical": "tree service, excavating, land clearing",
+      "summary": "Weekend family property-solutions site lists valuable heavy-equipment services, but the homepage needs stronger hierarchy, service grouping, and estimate clarity.",
+      "angle": "keep the hobby/family-owned rural equipment feel while organizing tree, excavation, cleanup, and hauling work into clearer buyer tasks.",
+      "priority": "A-"
+    },
+    {
+      "slug": "jpds-general-contractors",
+      "name": "JPDS General Contractors, LLC",
+      "url": "https://jpdsgc.wixsite.com/website",
+      "contact": "mailto:jpdsgc@gmail.com",
+      "location": "Greater Cincinnati / Northern Kentucky",
+      "vertical": "remodeling, decks, carpentry, exterior improvements",
+      "summary": "General contractor site has long-term experience and project categories, but the first screen is generic and the quote path/service hierarchy can be sharper.",
+      "angle": "preserve the remodeler portfolio feel while making free estimates, core project categories, experience, and consultation next steps more visible.",
+      "priority": "A-"
+    },
+    {
+      "slug": "simon-professional-services",
+      "name": "Simon Professional Services LLC",
+      "url": "https://simonprofessionals.wixsite.com/website",
+      "contact": "mailto:simonprofessionals@gmail.com",
+      "location": "Douglasville, GA",
+      "vertical": "home improvement and lawn care",
+      "summary": "Home-improvement site has a real logo, address, email, phone, and service list, but much of the copy remains generic and the free-estimate action is buried.",
+      "angle": "keep the simple contractor/template style while bringing the logo, service mix, location trust, and free-estimate CTA into a cleaner first screen.",
+      "priority": "A-"
+    },
+    {
+      "slug": "patriot-pros-ga",
+      "name": "Patriot Pros GA, LLC",
+      "url": "https://patriotprosga.wixsite.com/website",
+      "contact": "mailto:patriotprosga@gmail.com",
+      "location": "Chatham, Effingham, Bryan & Liberty Counties, GA",
+      "vertical": "residential and commercial pressure washing",
+      "summary": "Pressure-washing site has a strong veteran/law-enforcement story and county service area, but the offer path can clarify packages and next steps sooner.",
+      "angle": "preserve the patriotic/service-oriented look while tightening hero copy, residential/commercial paths, licensed-insured proof, and quote CTA hierarchy.",
+      "priority": "A-"
+    },
+    {
+      "slug": "viva-landscaping",
+      "name": "Viva Landscaping LLC",
+      "url": "https://vivalandscapingllc.wixsite.com/website",
+      "contact": "mailto:vivalandscapingllc@gmail.com",
+      "location": "Seattle, WA area",
+      "vertical": "landscaping, hardscape, irrigation, drainage",
+      "summary": "Landscaping site has authentic project photos, licensing proof, and a broad service list, but the homepage needs clearer service paths and quote expectations.",
+      "angle": "preserve the photo-led green landscape feel while organizing outdoor living, maintenance, irrigation/drainage, and pressure-washing paths around a free estimate.",
+      "priority": "A-"
+    }
+  ]
+}

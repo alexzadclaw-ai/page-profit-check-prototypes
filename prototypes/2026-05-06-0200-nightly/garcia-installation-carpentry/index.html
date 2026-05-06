@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Garcia Installation and Carpentry LLC | Doors, Trim & Carpentry in Tampa, FL</title>
+  <meta name="description" content="Garcia Installation and Carpentry LLC provides door installation, trim, crown molding, baseboards, casing, window details, and remodeling work in the Tampa, FL area.">
+  <style>
+    :root{
+      --ink:#31403f;
+      --ink-soft:#3e5150;
+      --tan:#b38a4c;
+      --tan-dark:#987139;
+      --cream:#f7f4ee;
+      --white:#ffffff;
+      --line:rgba(49,64,63,.18);
+      --shadow:0 18px 55px rgba(30,37,35,.16);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);font-family:"Avenir Next",Avenir,Helvetica,Arial,sans-serif;background:var(--white);font-size:16px;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .site-header{position:absolute;top:0;left:0;right:0;z-index:5;padding:31px 6vw;display:flex;align-items:center;justify-content:space-between;gap:30px;color:var(--ink)}
+    .brand{font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-size:22px;letter-spacing:.01em;font-weight:500;white-space:nowrap;text-shadow:0 1px 18px rgba(255,255,255,.75)}
+    .nav{display:flex;align-items:center;gap:38px;font-size:14px;color:var(--ink-soft)}
+    .nav a{padding:8px 0;border-bottom:1px solid transparent}
+    .nav a:hover{border-color:var(--ink-soft)}
+    .insta{width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;border:1px solid var(--ink);font-size:12px;font-weight:700}
+    .hero{min-height:820px;background:linear-gradient(90deg,rgba(247,244,238,.94) 0%,rgba(247,244,238,.78) 42%,rgba(247,244,238,.20) 100%),url('https://static.wixstatic.com/media/90032cdb489d445d883826c0b36f3c52.jpg/v1/fill/w_1365,h_1600,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/90032cdb489d445d883826c0b36f3c52.jpg') center right/cover no-repeat;display:flex;align-items:center;padding:130px 6vw 70px}
+    .hero-inner{max-width:760px;padding-top:70px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:13px;color:var(--tan-dark);margin:0 0 24px;font-weight:600}
+    h1,h2,h3{font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-weight:500;line-height:1.08;color:var(--ink);margin:0}
+    h1{font-size:clamp(48px,7vw,86px);letter-spacing:.01em;max-width:720px}
+    .lead{font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-weight:300;font-size:clamp(19px,2.1vw,25px);line-height:1.55;max-width:680px;margin:26px 0 34px;color:var(--ink)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 25px;background:var(--tan);color:#101412;border:1px solid var(--tan);font-size:15px;letter-spacing:.02em;transition:.18s ease;font-weight:500}
+    .btn:hover{background:var(--tan-dark);border-color:var(--tan-dark)}
+    .btn.alt{background:rgba(255,255,255,.72);border-color:var(--ink);color:var(--ink)}
+    .btn.alt:hover{background:var(--ink);color:var(--white)}
+    .section{padding:84px 6vw}
+    .section.narrow{padding-top:64px;padding-bottom:64px}
+    .wrap{max-width:1120px;margin:0 auto}
+    .trust{background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+    .trust-item{background:var(--cream);padding:28px 24px;text-align:center;min-height:128px;display:flex;flex-direction:column;justify-content:center}
+    .trust-item strong{display:block;font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-size:24px;font-weight:500;margin-bottom:5px}
+    .trust-item span{font-size:14px;color:var(--ink-soft)}
+    .split{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}
+    h2{font-size:clamp(36px,4vw,48px);margin-bottom:20px}
+    .copy{font-size:16px;max-width:690px;color:var(--ink-soft)}
+    .about-card{border-left:4px solid var(--tan);padding:28px 32px;background:var(--cream);box-shadow:var(--shadow)}
+    .about-card p{margin:0}
+    .services{background:#fff}
+    .services-intro{text-align:center;max-width:760px;margin:0 auto 42px}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .service-card{border:1px solid var(--line);padding:34px 30px;background:#fff;min-height:335px;box-shadow:0 10px 28px rgba(30,37,35,.06)}
+    .service-card h3{font-size:24px;margin-bottom:18px}
+    .service-card ul{list-style:none;margin:0;padding:0;color:var(--ink-soft);font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-size:18px;line-height:1.72;font-weight:300}
+    .service-card li{position:relative;padding-left:18px;margin:3px 0}
+    .service-card li:before{content:"•";position:absolute;left:0;color:var(--tan-dark)}
+    .gallery{background:var(--cream)}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:34px}
+    .work-card{background:#fff;box-shadow:var(--shadow)}
+    .work-card img{display:block;width:100%;height:280px;object-fit:cover}
+    .work-card h3{font-size:22px;padding:20px 22px 24px;text-align:center}
+    .estimate{background:linear-gradient(90deg,rgba(49,64,63,.96),rgba(49,64,63,.86)),url('https://static.wixstatic.com/media/90032cdb489d445d883826c0b36f3c52.jpg/v1/fill/w_1365,h_900,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/90032cdb489d445d883826c0b36f3c52.jpg') center/cover;color:#fff}
+    .estimate h2,.estimate h3{color:#fff}
+    .estimate .copy{color:rgba(255,255,255,.84)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+    .step{border:1px solid rgba(255,255,255,.24);padding:26px;background:rgba(255,255,255,.07)}
+    .step strong{display:block;color:#dec390;font-family:Barlow,"Arial Narrow",Arial,sans-serif;font-size:22px;margin-bottom:8px}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:46px;align-items:start}
+    .contact-card{background:var(--cream);padding:34px;border:1px solid var(--line)}
+    .contact-card p{margin:0 0 12px}
+    .mini-form{display:grid;gap:14px}
+    .field{border:1px solid var(--line);padding:14px 16px;min-height:50px;color:rgba(49,64,63,.75);background:#fff}
+    .field.message{min-height:120px}
+    footer{padding:34px 6vw;text-align:center;color:var(--ink-soft);font-size:14px;border-top:1px solid var(--line);background:#fff}
+    @media (max-width:900px){
+      .site-header{position:relative;padding:22px 22px;background:rgba(247,244,238,.96);flex-direction:column;align-items:flex-start;gap:10px}
+      .nav{gap:18px;flex-wrap:wrap}
+      .hero{min-height:auto;padding:72px 22px;background-position:center right}
+      .hero-inner{padding-top:0}
+      .section{padding:58px 22px}
+      .split,.contact-grid{grid-template-columns:1fr;gap:32px}
+      .trust-grid,.service-grid,.gallery-grid,.steps{grid-template-columns:1fr}
+      .trust-item{text-align:left;min-height:auto}
+      .work-card img{height:240px}
+    }
+    @media (max-width:520px){
+      .brand{font-size:20px;white-space:normal}
+      .nav{font-size:13px;gap:14px}
+      .hero-actions{align-items:stretch;flex-direction:column}
+      .btn{width:100%}
+      h1{font-size:43px}
+      .lead{font-size:19px}
+      .service-card,.about-card,.contact-card{padding:26px 22px}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Garcia Installation &amp; Carpentry</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="https://www.instagram.com/garciainstallationllc/" target="_blank" rel="noopener">Instagram</a>
+      <a class="insta" href="https://www.instagram.com/garciainstallationllc/" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Tampa, FL area carpentry</p>
+        <h1>Garcia Installation and Carpentry LLC</h1>
+        <p class="lead">Dedicated to high-quality door installation, trim, crown molding, window details, and remodeling work with honest service and quality workmanship.</p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:garciainstallationllc@gmail.com?subject=Free%20estimate%20request">Request a Free Estimate</a>
+          <a class="btn alt" href="tel:8135803811">Call 813-580-3811</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section narrow trust" aria-label="Trust highlights">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>10 Years</strong><span>Quality experience in carpentry and installation</span></div>
+        <div class="trust-item"><strong>Free Estimates</strong><span>Send project details and photos to get started</span></div>
+        <div class="trust-item"><strong>Doors, Trim, Windows</strong><span>Interior and exterior finish work for homes</span></div>
+        <div class="trust-item"><strong>Tampa Area</strong><span>Local service with honesty and integrity</span></div>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="wrap split">
+        <div>
+          <h2>About us</h2>
+        </div>
+        <div class="about-card">
+          <p>Garcia Installation and Carpentry offers 10 years of quality experience, providing exceptional service and quality workmanship. We believe in honesty and integrity, and we take care to complete every installation with a clean, finished look.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="wrap">
+        <div class="services-intro">
+          <h2>Services</h2>
+          <p class="copy">Choose the type of work you need, then request a free estimate with a few project details, measurements, and photos if available.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Door Installation</h3>
+            <ul>
+              <li>Interior doors</li>
+              <li>Interior double doors</li>
+              <li>Exterior front doors</li>
+              <li>French exterior doors</li>
+              <li>Garage doors</li>
+              <li>Bifold doors</li>
+              <li>Interior door hardware</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Trim &amp; Finish Carpentry</h3>
+            <ul>
+              <li>Casing</li>
+              <li>Baseboards</li>
+              <li>Crown molding</li>
+              <li>Brickmold for exterior doors</li>
+              <li>Base doors</li>
+              <li>Clean finish details</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Windows &amp; Remodeling Details</h3>
+            <ul>
+              <li>Window installation</li>
+              <li>Window sills</li>
+              <li>Carpentry repairs</li>
+              <li>Construction support</li>
+              <li>Remodeling finish work</li>
+              <li>Custom installation requests</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" aria-label="Recent work examples">
+      <div class="wrap">
+        <div class="services-intro">
+          <h2>Work examples</h2>
+          <p class="copy">A simple look at the kind of door, molding, and window finish work Garcia Installation and Carpentry handles.</p>
+        </div>
+        <div class="gallery-grid">
+          <article class="work-card">
+            <img src="https://static.wixstatic.com/media/7cfc03_3f4f949614d240f388025c0656f0ff82~mv2.jpg/v1/fill/w_375,h_310,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7cfc03_3f4f949614d240f388025c0656f0ff82~mv2.jpg" alt="Finished crown molding carpentry work">
+            <h3>Crown molding</h3>
+          </article>
+          <article class="work-card">
+            <img src="https://static.wixstatic.com/media/7cfc03_f8a6a5ff1d2d416eaf32f55a60b5ad4a~mv2.jpg/v1/fill/w_375,h_310,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7cfc03_f8a6a5ff1d2d416eaf32f55a60b5ad4a~mv2.jpg" alt="Exterior front door installation work">
+            <h3>Front door</h3>
+          </article>
+          <article class="work-card">
+            <img src="https://static.wixstatic.com/media/7cfc03_59e5d9ac08224bc3b8feabe63212a54d~mv2.jpg/v1/fill/w_375,h_310,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7cfc03_59e5d9ac08224bc3b8feabe63212a54d~mv2.jpg" alt="Window installation and finish detail work">
+            <h3>Window installation</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section estimate">
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Free estimates</p>
+            <h2>Ready to talk through your project?</h2>
+            <p class="copy">Contact Garcia Installation and Carpentry with the work you need done, your location in the Tampa area, and any photos or measurements that help explain the job.</p>
+          </div>
+          <div class="steps">
+            <div class="step"><strong>1</strong>Describe the door, trim, window, or remodeling work you need.</div>
+            <div class="step"><strong>2</strong>Share photos, rough measurements, and your preferred timing.</div>
+            <div class="step"><strong>3</strong>Get a clear next step for your free estimate.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="copy">Contact us today for free estimates.</p>
+          <div class="contact-card">
+            <p><strong>Email</strong><br><a href="mailto:garciainstallationllc@gmail.com">garciainstallationllc@gmail.com</a></p>
+            <p><strong>Phone</strong><br><a href="tel:8135803811">813-580-3811</a></p>
+            <p><strong>Service area</strong><br>Tampa, FL area</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Estimate request details</h3>
+          <p>When you reach out, include your name, phone number, project type, and a short message about the work.</p>
+          <div class="mini-form" aria-label="Estimate request information">
+            <div class="field">Name</div>
+            <div class="field">Email</div>
+            <div class="field">Phone</div>
+            <div class="field message">Message</div>
+            <a class="btn" href="mailto:garciainstallationllc@gmail.com?subject=Free%20estimate%20request">Send Estimate Request</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Garcia Installation and Carpentry LLC · Tampa, FL area · <a href="mailto:garciainstallationllc@gmail.com">garciainstallationllc@gmail.com</a> · <a href="tel:8135803811">813-580-3811</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JPDS General Contractors, LLC. | Remodeling, Decks & Custom Carpentry</title>
+  <meta name="description" content="JPDS General Contractors, LLC. provides remodeling, custom decks, carpentry, tile, painting and exterior improvements in Greater Cincinnati and Northern Kentucky.">
+  <style>
+    :root{
+      --ink:#393f44;
+      --muted:#6b7176;
+      --pale:#e5f0f1;
+      --soft:#f6f6f6;
+      --line:#d9e5e6;
+      --teal:#70b2b9;
+      --dark:#2d3338;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--ink);font-family:"Open Sans",Arial,Helvetica,sans-serif;font-weight:300;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    img{display:block;width:100%;height:auto}
+    .page{max-width:940px;margin:0 auto}
+    .topline{font-size:14px;letter-spacing:.02em;color:var(--ink);padding:27px 0 18px;display:flex;gap:26px;align-items:center}
+    .topline a:hover,.nav a:hover{color:var(--teal)}
+    header{padding:0 20px 34px;background:#fff}
+    .brandrow{display:flex;align-items:flex-end;justify-content:space-between;gap:25px}
+    .brand{font-family:"Helvetica Neue",Arial,sans-serif;font-size:24px;letter-spacing:.02em;font-weight:300;text-transform:uppercase;line-height:1.25;color:var(--ink)}
+    .nav{display:flex;gap:0;font-size:14px;align-items:center}
+    .nav a{padding:8px 15px;color:var(--ink)}
+    .nav a.active{color:var(--teal)}
+    .hero-img{height:400px;background:url('https://static.wixstatic.com/media/61aee8_880a1205da9c4c28afa20237efb3359e~mv2.jpg/v1/fill/w_940,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/10410636_645526425543065_4930917288167433228_n.jpg') center/cover no-repeat}
+    .hero-copy{text-align:center;padding:64px 20px 70px;background:#fff}
+    h1,h2,h3{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:300;margin:0;text-transform:uppercase;color:var(--ink);line-height:1.18}
+    h1{font-size:64px;letter-spacing:.01em;max-width:900px;margin:0 auto 26px}
+    .subtitle{font-family:"Helvetica Neue",Arial,sans-serif;font-size:30px;line-height:1.35;margin:0 auto 35px;color:var(--ink)}
+    .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 25px;border:1px solid var(--dark);background:var(--dark);color:#fff;font-size:16px;letter-spacing:.01em;transition:.2s ease}
+    .btn:hover{background:#111820;border-color:#111820}
+    .btn.secondary{background:#fff;color:var(--ink);border-color:#bfcacc}
+    .btn.secondary:hover{border-color:var(--teal);color:#477d83}
+    .intro{background:var(--pale);padding:55px 20px 58px;text-align:center}
+    .intro h2{font-size:40px;margin-bottom:18px}
+    .intro p{font-family:"Helvetica Neue",Arial,sans-serif;font-size:20px;max-width:790px;margin:0 auto;color:var(--ink)}
+    .trust{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+    .trust div{padding:24px 16px;text-align:center;border-right:1px solid var(--line)}
+    .trust div:last-child{border-right:0}
+    .trust strong{display:block;text-transform:uppercase;font-weight:300;font-size:22px;line-height:1.2;color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif}
+    .trust span{display:block;font-size:13px;color:var(--muted);margin-top:7px;letter-spacing:.03em;text-transform:uppercase}
+    .section{padding:72px 20px;background:#fff}
+    .section-title{text-align:center;margin-bottom:38px}
+    .section-title h2{font-size:40px;margin-bottom:10px}
+    .section-title p{font-size:18px;color:var(--muted);max-width:680px;margin:0 auto}
+    .service-list{display:grid;gap:52px}
+    .service-card{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:36px}
+    .service-card:nth-child(even){grid-template-columns:.92fr 1.08fr}
+    .service-card:nth-child(even) .photo{order:2}
+    .photo{height:300px;background:#ddd center/cover no-repeat}
+    .copy h3{font-size:25px;margin-bottom:15px;letter-spacing:.01em}
+    .copy p{margin:0 0 18px;font-size:17px;color:var(--ink)}
+    .copy ul{margin:0 0 22px;padding-left:18px;color:var(--muted);font-size:15px}
+    .textlink{font-size:16px;border-bottom:1px solid var(--teal);padding-bottom:3px;color:var(--ink)}
+    .textlink:hover{color:#477d83}
+    .steps{background:var(--soft);padding:62px 20px}
+    .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:940px;margin:0 auto}
+    .step{background:#fff;padding:30px 25px;text-align:center;border:1px solid #ececec;min-height:185px}
+    .step b{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:34px;font-weight:300;color:var(--teal);margin-bottom:8px}
+    .step h3{font-size:20px;margin-bottom:10px}
+    .step p{margin:0;color:var(--muted);font-size:15px}
+    .contact{background:var(--pale);padding:66px 20px;text-align:center}
+    .contact h2{font-size:40px;margin-bottom:16px}
+    .contact p{font-size:18px;margin:0 auto 28px;max-width:650px;color:var(--ink)}
+    .contact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:940px;margin:35px auto 0;text-align:left}
+    .contact-card{background:#fff;padding:24px;border:1px solid var(--line);min-height:130px}
+    .contact-card h3{font-size:18px;margin-bottom:9px}
+    .contact-card a,.contact-card span{font-size:15px;color:var(--muted);word-break:break-word}
+    footer{padding:32px 20px;text-align:center;background:#fff;color:var(--muted);font-size:13px;letter-spacing:.03em;text-transform:uppercase}
+    .mobilebar{display:none}
+    @media (max-width:800px){
+      .page{max-width:100%}
+      header{padding:0 18px 25px}
+      .topline{display:grid;gap:8px;padding-top:20px}
+      .brandrow{align-items:flex-start;display:grid;gap:18px}
+      .brand{font-size:21px}
+      .nav a{padding:5px 18px 5px 0}
+      .hero-img{height:285px}
+      .hero-copy{padding:42px 18px 50px}
+      h1{font-size:42px}
+      .subtitle{font-size:23px}
+      .trust{grid-template-columns:repeat(2,1fr)}
+      .trust div:nth-child(2){border-right:0}
+      .trust div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+      .intro{padding:44px 18px}
+      .intro h2,.section-title h2,.contact h2{font-size:34px}
+      .intro p{font-size:18px}
+      .section{padding:54px 18px}
+      .service-card,.service-card:nth-child(even){grid-template-columns:1fr;gap:22px}
+      .service-card:nth-child(even) .photo{order:0}
+      .photo{height:250px}
+      .steps-grid,.contact-cards{grid-template-columns:1fr}
+      .mobilebar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;z-index:20;box-shadow:0 -6px 18px rgba(0,0,0,.08)}
+      .mobilebar a{padding:14px 10px;text-align:center;font-size:15px;color:#fff;background:var(--dark)}
+      .mobilebar a:last-child{background:#fff;color:var(--ink);border-left:1px solid var(--line)}
+      body{padding-bottom:50px}
+    }
+    @media (max-width:460px){
+      h1{font-size:34px}
+      .subtitle{font-size:20px}
+      .btn{width:100%}
+      .trust{grid-template-columns:1fr}
+      .trust div{border-right:0;border-bottom:1px solid var(--line)}
+      .trust div:last-child{border-bottom:0}
+      .photo{height:220px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="page">
+      <div class="topline">
+        <a href="mailto:JPDSGC@GMAIL.COM">JPDSGC@GMAIL.COM</a>
+        <a href="tel:15139222400">513-922-2400</a>
+      </div>
+      <div class="brandrow">
+        <a class="brand" href="#top">JPDS General Contractors, LLC.</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a class="active" href="#top">Home</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="page">
+      <div class="hero-img" role="img" aria-label="JPDS General Contractors finished remodeling project"></div>
+    </section>
+
+    <section class="hero-copy page" aria-labelledby="main-heading">
+      <h1 id="main-heading">Remodeling, Decks & Custom Carpentry</h1>
+      <p class="subtitle">Serving Greater Cincinnati and Northern Kentucky with quality craftsmanship, affordable prices, and free estimates.</p>
+      <div class="btns">
+        <a class="btn" href="mailto:jpdsgc@gmail.com?subject=Free%20Estimate%20Request">Request a Free Estimate</a>
+        <a class="btn secondary" href="tel:15139222400">Call 513-922-2400</a>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="page">
+        <h2>Free Estimates</h2>
+        <p>JPDS General Contractors, LLC. provides a comprehensive approach to remodeling, repairs, decks, tile, painting, custom carpentry and exterior improvements. Since 2014, customer satisfaction has been the priority on projects large and small.</p>
+      </div>
+    </section>
+
+    <section class="trust page" aria-label="Company highlights">
+      <div><strong>Since 2014</strong><span>Local business</span></div>
+      <div><strong>20+ Years</strong><span>Remodeling experience</span></div>
+      <div><strong>Free Estimates</strong><span>Start with a conversation</span></div>
+      <div><strong>Cincinnati & NKY</strong><span>Service area</span></div>
+    </section>
+
+    <section class="section page" id="services">
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>Choose the project path closest to what you need. JPDS can handle focused repairs, detailed finish work, and larger remodeling projects.</p>
+      </div>
+
+      <div class="service-list">
+        <article class="service-card">
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/61aee8_fe71708355da41ac9dc7e8c29e904147~mv2.jpg/v1/fill/w_880,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Deck1.jpg')" role="img" aria-label="Custom deck project by JPDS"></div>
+          <div class="copy">
+            <h3>Custom Decks & Exterior Improvements</h3>
+            <p>Deck builds, repairs, exterior upgrades and outdoor improvements planned around how you want to use your home.</p>
+            <ul><li>Custom designed decks</li><li>Exterior repairs and improvements</li><li>Painting and finish work</li></ul>
+            <a class="textlink" href="mailto:jpdsgc@gmail.com?subject=Deck%20or%20Exterior%20Estimate">Schedule a Consultation</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/61aee8_e057aa4bfc1a4e49948415461ace42e4~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Kitchen.jpg')" role="img" aria-label="Kitchen remodeling project by JPDS"></div>
+          <div class="copy">
+            <h3>Kitchen, Bath & Basement Remodeling</h3>
+            <p>Practical remodeling help for the spaces homeowners use every day, from tile and fixture updates to fuller room transformations.</p>
+            <ul><li>Kitchen remodeling</li><li>Bathroom remodeling</li><li>Basement remodeling</li><li>Custom tile</li></ul>
+            <a class="textlink" href="mailto:jpdsgc@gmail.com?subject=Remodeling%20Estimate">Get In Touch</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="photo" style="background-image:url('https://static.wixstatic.com/media/61aee8_7c3da697ebd14c72b9800d63e9524dde~mv2.jpg/v1/fill/w_880,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Munzer%20Builtins.jpg')" role="img" aria-label="Custom built-ins and carpentry by JPDS"></div>
+          <div class="copy">
+            <h3>Custom Carpentry, Built-Ins & Repairs</h3>
+            <p>Finish carpentry, custom made built-ins, trim details, repair work, and the many smaller projects that make a home work better.</p>
+            <ul><li>Custom made built-ins</li><li>Interior carpentry</li><li>General remodeling and repairs</li></ul>
+            <a class="textlink" href="mailto:jpdsgc@gmail.com?subject=Carpentry%20Estimate">Contact JPDS</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="steps" aria-labelledby="steps-heading">
+      <div class="section-title page">
+        <h2 id="steps-heading">How to Start</h2>
+        <p>A simple path from first call to free estimate.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step"><b>1</b><h3>Call or Email</h3><p>Share the project address, the type of work, and the best way to reach you.</p></div>
+        <div class="step"><b>2</b><h3>Describe the Work</h3><p>Send photos or a short description so JPDS can understand the scope.</p></div>
+        <div class="step"><b>3</b><h3>Free Estimate</h3><p>Review the project, ask questions, and get a clear next step.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="page">
+        <h2>Contact</h2>
+        <p>Ready to talk about a remodel, deck, tile, painting, exterior improvement or custom carpentry project? Reach out for your free estimate.</p>
+        <div class="btns">
+          <a class="btn" href="tel:15139222400">Call 513-922-2400</a>
+          <a class="btn secondary" href="mailto:jpdsgc@gmail.com?subject=Free%20Estimate%20Request">Email JPDS</a>
+        </div>
+        <div class="contact-cards">
+          <div class="contact-card"><h3>Address</h3><span>Cincinnati, OH 45238, USA</span></div>
+          <div class="contact-card"><h3>Contact</h3><a href="mailto:jpdsgc@gmail.com">jpdsgc@gmail.com</a><br><a href="tel:15139222400">513-922-2400</a></div>
+          <div class="contact-card"><h3>Follow</h3><a href="https://www.facebook.com/pages/JPDS-General-Contractors-LLC/687273321332924">Facebook</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © JPDS General Contractors, LLC. Greater Cincinnati / Northern Kentucky
+  </footer>
+
+  <div class="mobilebar" aria-label="Quick contact options">
+    <a href="tel:15139222400">Call</a>
+    <a href="mailto:jpdsgc@gmail.com?subject=Free%20Estimate%20Request">Free Estimate</a>
+  </div>
+</body>
+</html>

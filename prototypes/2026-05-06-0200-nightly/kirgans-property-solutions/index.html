@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kirgan's Property Solutions, LLC | Tree Service, Excavating & Land Clearing</title>
+  <meta name="description" content="Family-owned tree service, storm clean-up, excavating, dirt work, hauling and land clearing for the Illinois Quad Cities area. Call Kirgan's Property Solutions for a free estimate.">
+  <style>
+    :root{
+      --ink:#181818;
+      --muted:#5f5f5f;
+      --line:#e8e5e1;
+      --paper:#ffffff;
+      --soft:#f8f6f2;
+      --orange:#f47d4a;
+      --orange-dark:#d96332;
+      --charcoal:#222222;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Avenir, "Avenir Next", Arial, Helvetica, sans-serif;font-size:16px;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1040px, calc(100% - 40px));margin:0 auto}
+    .topbar{border-bottom:1px solid var(--line);background:#fff}
+    .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:96px}
+    .brand{display:flex;align-items:center;gap:16px}
+    .brand img{width:76px;height:64px;object-fit:contain}
+    .brand-name{font-family:Helvetica, Arial, sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:14px;line-height:1.3}
+    .brand-name strong{display:block;font-weight:400;font-size:18px;letter-spacing:.06em}
+    .top-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+    .plain-link{font-size:14px;color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 22px;border-radius:0;background:var(--orange);color:#111;font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--orange);box-shadow:none;transition:.18s ease}
+    .btn:hover{background:var(--orange-dark);border-color:var(--orange-dark);color:#fff}
+    .btn.secondary{background:#fff;border-color:var(--ink);color:var(--ink)}
+    .btn.secondary:hover{background:var(--ink);color:#fff}
+    .hero{padding:70px 0 42px;text-align:center;background:#fff}
+    .eyebrow{margin:0 0 16px;color:var(--muted);font-size:14px;letter-spacing:.18em;text-transform:uppercase}
+    h1{margin:0 auto 24px;max-width:970px;font-family:Helvetica, Arial, sans-serif;font-weight:400;font-size:clamp(42px, 6.4vw, 72px);line-height:.98;letter-spacing:.035em;text-transform:uppercase;color:var(--ink)}
+    .lead{max-width:760px;margin:0 auto 28px;font-size:18px;color:#2b2b2b}
+    .hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:28px 0 8px}
+    .photo-row{display:grid;grid-template-columns:repeat(3, 1fr);gap:10px;margin:48px auto 0;max-width:980px}
+    .photo-card{position:relative;overflow:hidden;background:#ddd;min-height:260px}
+    .photo-card img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block;filter:saturate(.96) contrast(1.02)}
+    .caption{position:absolute;left:0;bottom:0;width:100%;padding:12px 14px;background:linear-gradient(transparent, rgba(0,0,0,.72));color:#fff;font-size:13px;text-align:left;letter-spacing:.03em;text-transform:uppercase}
+    .trust{padding:22px 0;background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+    .trust-item{background:#fff;padding:20px 18px;text-align:center;min-height:106px;display:flex;flex-direction:column;justify-content:center}
+    .trust-item strong{display:block;font-family:Helvetica, Arial, sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.09em;font-size:14px;margin-bottom:5px}
+    .trust-item span{font-size:14px;color:var(--muted)}
+    section{padding:70px 0}
+    .section-title{text-align:center;margin-bottom:34px}
+    h2{margin:0;font-family:Helvetica, Arial, sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(32px, 4vw, 48px);line-height:1.05}
+    .section-title p{max-width:680px;margin:16px auto 0;color:var(--muted)}
+    .story{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center;padding-top:58px}
+    .story p{margin:0 0 16px}
+    .story-box{border:1px solid var(--line);padding:30px;background:#fff}
+    .story-box h3{margin:0 0 12px;font-family:Helvetica, Arial, sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.07em;font-size:20px}
+    .wide-img{width:100%;min-height:320px;object-fit:cover;display:block}
+    .services{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .service-card{background:#fff;border:1px solid var(--line);padding:24px 22px;min-height:280px}
+    .service-card h3{margin:0 0 12px;font-family:Helvetica, Arial, sans-serif;font-size:20px;font-weight:400;text-transform:uppercase;letter-spacing:.06em;line-height:1.25}
+    .service-card ul{margin:0;padding-left:18px;color:#303030}
+    .service-card li{margin:7px 0}
+    .estimate-band{background:var(--charcoal);color:#fff;padding:50px 0;text-align:center}
+    .estimate-band h2{color:#fff;font-size:clamp(30px, 4vw, 44px)}
+    .estimate-band p{max-width:720px;margin:14px auto 24px;color:#e8e8e8}
+    .estimate-band .btn.secondary{border-color:#fff;color:#fff;background:transparent}
+    .estimate-band .btn.secondary:hover{background:#fff;color:#111}
+    .contact{padding-bottom:48px}
+    .contact-card{max-width:760px;margin:0 auto;border:1px solid var(--line);padding:34px;background:#fff;text-align:center}
+    .contact-card h2{font-size:40px;margin-bottom:18px}
+    .phone-lines{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:22px 0;font-size:22px;font-family:Helvetica, Arial, sans-serif;letter-spacing:.02em}
+    .email{display:inline-block;margin-bottom:18px;text-decoration:underline;text-underline-offset:4px}
+    .next-steps{margin:22px auto 0;max-width:560px;text-align:left;color:var(--muted);font-size:15px}
+    .next-steps strong{color:var(--ink);font-weight:600}
+    footer{padding:24px 0;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:14px}
+    @media (max-width: 900px){
+      .service-grid,.trust-grid{grid-template-columns:repeat(2,1fr)}
+      .story{grid-template-columns:1fr;gap:26px}
+      .photo-row{grid-template-columns:1fr 1fr}
+      .photo-card:last-child{grid-column:1 / -1}
+    }
+    @media (max-width: 640px){
+      .wrap{width:min(100% - 28px, 1040px)}
+      .topbar .wrap{align-items:flex-start;flex-direction:column;padding:18px 0;gap:14px}
+      .top-actions{width:100%;justify-content:stretch}
+      .top-actions .btn,.hero-actions .btn{width:100%}
+      .plain-link{display:none}
+      .brand img{width:64px;height:54px}
+      .brand-name strong{font-size:15px}
+      .hero{padding:44px 0 30px;text-align:left}
+      .hero .wrap{text-align:left}
+      .eyebrow{text-align:left;font-size:12px}
+      h1{font-size:42px;margin-left:0;margin-right:0;letter-spacing:.02em}
+      .lead{font-size:17px;margin-left:0}
+      .hero-actions{justify-content:flex-start}
+      .photo-row{grid-template-columns:1fr;margin-top:34px}
+      .photo-card,.photo-card img{min-height:230px}
+      .trust-grid,.service-grid{grid-template-columns:1fr}
+      section{padding:48px 0}
+      .section-title{text-align:left}
+      .service-card{min-height:auto}
+      .phone-lines{font-size:20px;gap:10px;flex-direction:column}
+      .contact-card{padding:26px 18px}
+      .contact-card h2{font-size:32px}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Kirgan's Property Solutions home">
+        <img src="https://static.wixstatic.com/media/61ea7c_47372d9ed0d648b3952c6210d83be3af~mv2.png/v1/fill/w_95,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/61ea7c_47372d9ed0d648b3952c6210d83be3af~mv2.png" alt="Kirgan's Property Solutions logo">
+        <span class="brand-name"><strong>Kirgan's Property Solutions</strong> LLC</span>
+      </a>
+      <div class="top-actions">
+        <a class="plain-link" href="mailto:kirganspropertysolutions@gmail.com">kirganspropertysolutions@gmail.com</a>
+        <a class="btn" href="tel:13094290128">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Family-owned • Dependable • Honest</p>
+        <h1>Tree Service, Excavating & Land Clearing</h1>
+        <p class="lead">Kirgan's Property Solutions, LLC helps property owners in the Illinois Quad Cities area with tree removal, trimming, storm clean-up, dirt work, hauling, driveways, ponds, ditches, under brushing and land clearing.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:13094290128">Call for a Free Estimate</a>
+          <a class="btn secondary" href="mailto:kirganspropertysolutions@gmail.com">Email Job Details</a>
+        </div>
+        <div class="photo-row" aria-label="Kirgan's Property Solutions work photos">
+          <figure class="photo-card">
+            <img src="https://static.wixstatic.com/media/61ea7c_9c9eed429d254054ba52938ed716c0f6~mv2.jpg/v1/fill/w_479,h_380,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/61ea7c_9c9eed429d254054ba52938ed716c0f6~mv2.jpg" alt="Property clearing and outdoor equipment work by Kirgan's Property Solutions">
+            <figcaption class="caption">Property solutions</figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img src="https://static.wixstatic.com/media/a1ae9efb1d18475aa04163e8aa80d47d.jpg/v1/fill/w_481,h_380,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1ae9efb1d18475aa04163e8aa80d47d.jpg" alt="Logger cutting wood with chainsaw for tree service work">
+            <figcaption class="caption">Tree service</figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img src="https://static.wixstatic.com/media/61ea7c_d2d2eb1f31fb4850b0ee3b807c46e5f1~mv2_d_1200_1800_s_2.jpg/v1/fill/w_480,h_380,al_tr,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/61ea7c_d2d2eb1f31fb4850b0ee3b807c46e5f1~mv2_d_1200_1800_s_2.jpg" alt="Equipment work for land clearing and dirt work">
+            <figcaption class="caption">Dirt work and clearing</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <aside class="trust" aria-label="Why choose Kirgan's Property Solutions">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Free Estimates</strong><span>Call and talk through the job.</span></div>
+        <div class="trust-item"><strong>Family-Owned</strong><span>Chad and Troy Kirgan run the work.</span></div>
+        <div class="trust-item"><strong>Tree & Dirt Work</strong><span>One crew for property problems.</span></div>
+        <div class="trust-item"><strong>Equipment Ready</strong><span>Solutions for tough outdoor jobs.</span></div>
+      </div>
+    </aside>
+
+    <section class="story">
+      <div class="wrap story">
+        <div>
+          <img class="wide-img" src="https://static.wixstatic.com/media/61ea7c_7b2bc47f9bc74e71b41f8d99a3bb7993~mv2_d_2048_1536_s_2.jpg/v1/fill/w_720,h_375,al_bl,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/61ea7c_7b2bc47f9bc74e71b41f8d99a3bb7993~mv2_d_2048_1536_s_2.jpg" alt="Kirgan's Property Solutions equipment on a property job">
+        </div>
+        <div class="story-box">
+          <h3>Welcome to Kirgan's Property Solutions</h3>
+          <p>Kirgan's Property Solutions, LLC is a family-owned business between Chad and Troy Kirgan. They both have families and enjoy helping property owners get tough outdoor work handled the right way.</p>
+          <p>Dependable and honest service matters. When it comes to excavating, tree service and bulldozer work, Kirgan's has solutions to meet your needs and equipment to do the job.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Services We Provide</h2>
+          <p>Tell us what is happening on the property and we will help point you toward the right kind of work.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Tree Work</h3>
+            <ul>
+              <li>Tree service</li>
+              <li>Tree trimming</li>
+              <li>Tree removal</li>
+              <li>Problem trees near open areas</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Storm & Debris Clean-up</h3>
+            <ul>
+              <li>Storm clean-up</li>
+              <li>Debris removal</li>
+              <li>Hauling</li>
+              <li>Property clean-out help</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Excavating & Dirt Work</h3>
+            <ul>
+              <li>Excavating</li>
+              <li>Dirt work</li>
+              <li>Pond digging</li>
+              <li>Ditch digging and cleaning</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Land & Driveways</h3>
+            <ul>
+              <li>Under brushing</li>
+              <li>Land clearing</li>
+              <li>Parking lots</li>
+              <li>Driveways</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="estimate-band">
+      <div class="wrap">
+        <h2>Need a Free Estimate?</h2>
+        <p>Call with the property address, the type of work needed, and any photos or details that will help Chad and Troy understand the job.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:13094290128">Call (309) 429-0128</a>
+          <a class="btn secondary" href="tel:13092247051">Call (309) 224-7051</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="contact-card">
+          <h2>Contact Us At:</h2>
+          <a class="email" href="mailto:kirganspropertysolutions@gmail.com">kirganspropertysolutions@gmail.com</a>
+          <div class="phone-lines">
+            <a href="tel:13094290128">(309) 429-0128</a>
+            <span>or</span>
+            <a href="tel:13092247051">(309) 224-7051</a>
+          </div>
+          <a class="btn" href="mailto:kirganspropertysolutions@gmail.com">Send Job Details</a>
+          <p class="next-steps"><strong>Helpful details to include:</strong> service needed, property location, timing, access notes, and whether you need tree work, storm clean-up, land clearing, excavating, dirt work or hauling.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">©2018 by Kirgan's Property Solutions, LLC.</div>
+  </footer>
+</body>
+</html>

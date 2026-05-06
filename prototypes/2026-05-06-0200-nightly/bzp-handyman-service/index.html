@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BZP Handyman Service LLC | Honest, Fair, & Reliable</title>
+  <style>
+    :root{
+      --wood:#b9824e;
+      --wood-dark:#5b3822;
+      --ink:#171717;
+      --muted:#555;
+      --paper:#fffdf8;
+      --soft:#f4f0e8;
+      --line:#ded6ca;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+    a{color:inherit}
+    .topbar{background:#fff;border-bottom:1px solid #e8e0d6;position:sticky;top:0;z-index:5}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:16px;text-decoration:none}
+    .brand img{width:112px;height:auto;display:block;border:1px solid #eee}
+    .brand-text strong{display:block;font-size:22px;letter-spacing:.04em;font-weight:500}
+    .brand-text span{display:block;font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:#6a523d}
+    nav{display:flex;align-items:center;gap:24px;font-size:14px;letter-spacing:.12em;text-transform:uppercase}
+    nav a{text-decoration:none;color:#222}
+    .phone{font-weight:700;letter-spacing:0;text-transform:none;color:#000}
+    .btn{display:inline-block;text-decoration:none;background:#111;color:#fff;padding:13px 22px;border:2px solid #111;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+    .btn.light{background:#fff;color:#111}
+    .hero{position:relative;background:#111;min-height:560px;display:grid;align-items:center;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:0;background:url('https://static.wixstatic.com/media/774931_8d74470dca574b39830e4db2935ad408~mv2.jpg/v1/fill/w_1600,h_890,al_c,q_85,usm_0.66_1.00_0.01/774931_8d74470dca574b39830e4db2935ad408~mv2.jpg') center/cover no-repeat;filter:grayscale(100%);opacity:.78}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.42),rgba(0,0,0,.16))}
+    .hero .wrap{position:relative;z-index:1;width:100%}
+    .hero-card{max-width:650px;color:#fff;padding:42px 0}
+    .eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:13px;color:#ead8c6;font-weight:700}
+    h1{font-size:56px;line-height:1.05;margin:14px 0 14px;font-weight:500;letter-spacing:.02em}
+    .sub{font-size:22px;margin:0 0 20px;color:#f6f0ea}
+    .hero ul{display:grid;gap:8px;margin:0 0 28px;padding:0;list-style:none;font-size:17px}
+    .hero li:before{content:"✓";margin-right:10px;color:#e6be93;font-weight:700}
+    .quote-strip{background:var(--wood-dark);color:#fff}
+    .quote-strip .wrap{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-top:18px;padding-bottom:18px}
+    .quote-strip strong{font-size:20px;font-weight:500}
+    .section{padding:62px 0}
+    .section.soft{background:var(--soft)}
+    .center{text-align:center}
+    h2{font-size:34px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;margin:0 0 12px}
+    .lead{max-width:760px;margin:0 auto 34px;color:#4f4f4f;font-size:18px}
+    .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
+    .trust-card{background:#fff;border:1px solid var(--line);padding:22px;text-align:center;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+    .trust-card strong{display:block;font-size:18px;margin-bottom:6px}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .service{background:#fff;border:1px solid var(--line);padding:26px;min-height:250px}
+    .service h3{font-size:22px;margin:0 0 10px;font-weight:500;color:#2b1c12}
+    .service ul{margin:0;padding-left:20px;color:#444}
+    .service li{margin:6px 0}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+    .wood-panel{background:url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_900,h_600,al_c,q_85,usm_0.66_1.00_0.01/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center/cover no-repeat;min-height:420px;border:10px solid #fff;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+    .about h2{text-align:left}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .step{border-top:4px solid var(--wood);background:#fff;padding:22px;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .step b{display:block;font-size:28px;color:var(--wood-dark)}
+    .reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    blockquote{margin:0;background:#fff;border:1px solid var(--line);padding:24px;font-size:16px;color:#333}
+    blockquote footer{margin-top:14px;color:#6d533c;font-weight:700}
+    .contact{background:#161616;color:#fff}
+    .contact h2{color:#fff}
+    .contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:30px 0}
+    .contact-card{border:1px solid #3a3a3a;padding:20px;background:#202020}
+    .contact-card span{display:block;color:#d3b592;text-transform:uppercase;letter-spacing:.16em;font-size:12px;margin-bottom:8px}
+    .fine{color:#d8d8d8;max-width:780px}
+    footer.page{padding:20px 0;background:#0b0b0b;color:#aaa;text-align:center;font-size:13px}
+    @media (max-width:850px){
+      header{align-items:flex-start}.brand-text strong{font-size:18px}nav{display:none}.hero{min-height:auto}.hero-card{padding:72px 0}h1{font-size:40px}.quote-strip .wrap,.split{display:block}.quote-strip .btn{margin-top:14px}.trust,.service-grid,.steps,.reviews,.contact-grid{grid-template-columns:1fr}.wood-panel{min-height:260px;margin-top:25px}.section{padding:44px 0}.brand img{width:92px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <header>
+        <a class="brand" href="#top" aria-label="BZP Handyman Service LLC home">
+          <img src="https://static.wixstatic.com/media/774931_fcdc24458e774cea8009f7fead8ab7f8~mv2.jpg/v1/fill/w_223,h_135,al_c,q_80,usm_0.66_1.00_0.01/BZP%20Handyman%20Logo%20Feb%202021%20%282%29.jpg" alt="BZP Handyman Service LLC logo">
+          <span class="brand-text"><strong>BZP Handyman Service LLC</strong><span>Honest, Fair, & Reliable</span></span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#reviews">Happy Customers</a>
+          <a href="#contact">Contact</a>
+          <a class="phone" href="tel:16128161586">612-816-1586</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">St. Louis Park and surrounding Twin Cities communities</div>
+          <h1>Small repairs, odd jobs, and custom projects done right.</h1>
+          <p class="sub">Call Brandon for honest, fair, and reliable handyman help around your home or business.</p>
+          <ul>
+            <li>Free estimate after an in-person project review</li>
+            <li>Household, kitchen, bathroom, electrical, exterior, garage, seasonal, and DIY project help</li>
+            <li>Clear communication, organized work, and quality handiwork</li>
+          </ul>
+          <a class="btn" href="mailto:bzphandyman@gmail.com?subject=Free%20quote%20request%20for%20handyman%20work">Get a free quote</a>
+          <a class="btn light" href="tel:16128161586">Call 612-816-1586</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-strip" aria-label="Quick contact">
+      <div class="wrap">
+        <strong>Need help with a repair list, installation, or custom home project?</strong>
+        <a class="btn light" href="#contact">See the next steps</a>
+      </div>
+    </section>
+
+    <section class="section soft center" aria-labelledby="trust-title">
+      <div class="wrap">
+        <h2 id="trust-title">Why choose BZP</h2>
+        <p class="lead">A local St. Louis Park handyman service built around integrity, practical problem solving, and work that feels easy to schedule.</p>
+        <div class="trust">
+          <div class="trust-card"><strong>Local and community focused</strong><p>Serving St. Louis Park and surrounding communities in the Twin Cities metro area.</p></div>
+          <div class="trust-card"><strong>Clear estimates</strong><p>Talk through the work first, then receive a free estimate for the requested project.</p></div>
+          <div class="trust-card"><strong>Reliable communication</strong><p>Customers consistently mention professionalism, friendliness, communication, and fair pricing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="wrap center">
+        <h2 id="services-title">Services</h2>
+        <p class="lead">Choose the task path that matches what you need. If it is not listed, reach out, because it is not possible to list everything BZP can help with.</p>
+        <div class="service-grid">
+          <article class="service"><h3>Household repairs</h3><ul><li>Small repairs and drywall patches</li><li>Shelving, curtain rods, blinds, hooks</li><li>TV wall mounts, picture and mirror hanging</li><li>Furniture assembly and interior trim repairs</li></ul></article>
+          <article class="service"><h3>Kitchen and bath</h3><ul><li>Cabinet and drawer hardware</li><li>Faucet, hose, shower head, and toilet part replacements</li><li>Microwave mounting</li><li>Caulking around sinks, tubs, tile, and backsplash</li></ul></article>
+          <article class="service"><h3>Electrical fixtures</h3><ul><li>Light switch and outlet replacement</li><li>Interior and exterior light fixtures</li><li>Ceiling fan installation in existing fixture locations</li><li>Smoke and CO detector replacements</li></ul></article>
+          <article class="service"><h3>Exterior and seasonal</h3><ul><li>Deck and fence repairs</li><li>Gutter and downspout repair</li><li>Storm doors, windows, siding, and trim</li><li>Cleanup, mowing, snow removal, and roof raking</li></ul></article>
+          <article class="service"><h3>Garage and organization</h3><ul><li>Garage cleaning and organizing</li><li>Custom shelving</li><li>Rafter storage plywood installation</li><li>Pre-hung garage service door replacement</li></ul></article>
+          <article class="service"><h3>Custom DIY projects</h3><ul><li>Pinterest, Etsy, and custom build ideas</li><li>Raised garden beds and flower boxes</li><li>Hand rails and practical wooden projects</li><li>Special projects that need a capable extra set of hands</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft about" id="about">
+      <div class="wrap split">
+        <div>
+          <h2>About BZP Handyman Service LLC</h2>
+          <p>Hi friends! My name is Brandon Przezdziecki, pronounced “per-jes-ki.” My wife and I have been residents of St. Louis Park since 2002, and we love being part of this community.</p>
+          <p>BZP Handyman Service helps homeowners and businesses get small repairs and odd jobs done in a timely and efficient manner. I am committed to providing service with a high level of integrity that is honest, fair, and reliable.</p>
+          <a class="btn" href="mailto:bzphandyman@gmail.com?subject=Free%20quote%20request%20for%20handyman%20work">Ask about your project</a>
+        </div>
+        <div class="wood-panel" role="img" aria-label="Warm wood texture matching the BZP Handyman visual style"></div>
+      </div>
+    </section>
+
+    <section class="section center" aria-labelledby="steps-title">
+      <div class="wrap">
+        <h2 id="steps-title">Get a free quote</h2>
+        <p class="lead">A clearer path from the first visit to an estimate, while keeping the same direct “contact me” approach.</p>
+        <div class="steps">
+          <div class="step"><b>1</b><strong>Call or email</strong><p>Share the repair list, installation, or project idea you have in mind.</p></div>
+          <div class="step"><b>2</b><strong>Meet to review the work</strong><p>Brandon discusses your handyman needs and looks at the project details.</p></div>
+          <div class="step"><b>3</b><strong>Receive a free estimate</strong><p>You get a clear estimate for the work requested before moving forward.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="reviews" aria-labelledby="reviews-title">
+      <div class="wrap center">
+        <h2 id="reviews-title">Happy customers</h2>
+        <div class="reviews">
+          <blockquote>“He helped us install our new mounted microwave. He was excellent to work with! Super kind and reliable.”<footer>Jim Gefroh, St. Louis Park</footer></blockquote>
+          <blockquote>“Very professional, has great communication, and fair pricing. We were more than impressed with the results.”<footer>Abbi Colby, St. Louis Park</footer></blockquote>
+          <blockquote>“Brandon does great work! He’s honest, reliable, and friendly!”<footer>Alan Scott, St. Louis Park</footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="fine">Please contact BZP directly to set up an appointment to discuss your handyman needs. After reviewing the project, Brandon will provide a free estimate for the requested work.</p>
+        <div class="contact-grid">
+          <div class="contact-card"><span>Call</span><a href="tel:16128161586">612-816-1586</a></div>
+          <div class="contact-card"><span>Email</span><a href="mailto:bzphandyman@gmail.com">bzphandyman@gmail.com</a></div>
+          <div class="contact-card"><span>Service area</span>St. Louis Park, MN and surrounding communities</div>
+          <div class="contact-card"><span>Best first step</span>Call or email with your repair list and location</div>
+        </div>
+        <a class="btn light" href="mailto:bzphandyman@gmail.com?subject=Free%20quote%20request%20for%20handyman%20work">Get a free quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page">BZP Handyman Service LLC · Honest, Fair, & Reliable</footer>
+</body>
+</html>
