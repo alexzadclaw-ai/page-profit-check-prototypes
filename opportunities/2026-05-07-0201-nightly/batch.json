@@ -1,0 +1,121 @@
+{
+  "batch": "2026-05-07-0201-nightly",
+  "createdAt": "2026-05-07T07:01:00Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh nationwide Page Profit Check nightly batch. Ten public small-business opportunities only; one isolated worker per opportunity; no outreach is sent.",
+  "items": [
+    {
+      "slug": "crfs-metal-fabrication",
+      "name": "CRFS, LLC",
+      "url": "https://crfsllc.wixsite.com/website",
+      "contact": "mailto:crfsllc@gmail.com",
+      "location": "Filer / Twin Falls, ID",
+      "vertical": "metal fabrication, welding, CNC plasma cutting, laser engraving, 3D printing, CAD design",
+      "summary": "Metal-fabrication Wix site has real services, email, phone, and service-area cues, but the homepage still shows template booking leftovers like repeated Service Name / $19.99 blocks and misspelled service labels.",
+      "angle": "keep the straightforward industrial/welding look while replacing template residue with clear fabrication paths, proof, and a quote-starting flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "stark-electric-llc",
+      "name": "Stark Electric LLC",
+      "url": "https://tedstark405.wixsite.com/website",
+      "contact": "mailto:tedstark405@gmail.com",
+      "location": "Michigan / Metro Detroit area",
+      "vertical": "residential and commercial electrical services",
+      "summary": "Licensed and insured electrician site has phone/email and 24-hour/free-estimate language, but the first screen and service cards rely on generic Wix structure and weak estimate hierarchy.",
+      "angle": "preserve the simple electrician template and tool imagery while lifting license proof, emergency availability, core service paths, and the estimate CTA.",
+      "priority": "A-"
+    },
+    {
+      "slug": "going-places-cleaning-service",
+      "name": "Going Places Cleaning Service, LLC",
+      "url": "https://goingplacescleanin.wixsite.com/website",
+      "contact": "mailto:goingplacescleaning@gmail.com",
+      "location": "McDonough, GA",
+      "vertical": "cleaning service, floor care, window cleaning, post-construction cleaning, pressure washing",
+      "summary": "Cleaning site lists several valuable services plus address/email/phone, but it opens with generic service-company copy, duplicate contact details, and a weak buyer path.",
+      "angle": "keep the simple Wix cleaning-service style while organizing residential, floor care, post-construction, windows, and pressure-washing paths around a quote request.",
+      "priority": "A-"
+    },
+    {
+      "slug": "let-us-plan-it-events",
+      "name": "Let Us Plan It, LLC",
+      "url": "https://letusplanitllc.wixsite.com/home",
+      "contact": "mailto:letusplanitllc@gmail.com",
+      "location": "Cincinnati, OH area",
+      "vertical": "event planning, wedding packages, party packages, showers, personalized and rental items",
+      "summary": "Event-planning Wix site has concrete packages and pricing, but the page jumps straight into booking cards without trust proof, event-fit guidance, or a clear consultation flow.",
+      "angle": "preserve the lightweight event-package feel while adding occasion paths, planning proof, pricing context, and a consult-first next step.",
+      "priority": "A-"
+    },
+    {
+      "slug": "mikes-xtreme-golf-carts",
+      "name": "Mike's X-Treme LLC",
+      "url": "https://mikesxtreme.wixsite.com/website",
+      "contact": "mailto:mikesxtreme@gmail.com",
+      "location": "McHenry, IL",
+      "vertical": "golf cart upgrades and repair, batteries, lift kits, audio, wraps, tires, wheels",
+      "summary": "Golf-cart repair/upgrades site has a distinctive niche, address, hours, phone, and service list, but the homepage can make repair vs upgrade intent and free estimates much clearer.",
+      "angle": "keep the casual golf-cart shop personality while grouping repairs, upgrades, and diagnostics into scan-friendly quote paths.",
+      "priority": "A-"
+    },
+    {
+      "slug": "dig-it-landscaping-llc",
+      "name": "Dig It Landscaping LLC",
+      "url": "https://digitlandscapingll.wixsite.com/digitlandscapingllc",
+      "contact": "mailto:digitlandscapingllc@gmail.com",
+      "location": "Phoenix / East Valley, AZ",
+      "vertical": "landscaping, lawn care, irrigation repair, trimming, yard maintenance, installation",
+      "summary": "Landscaping site has owner story, email, phone, and valuable services, but it still includes repeated Service Name / $19.99 template blocks and fake testimonial copy.",
+      "angle": "preserve the personal owner-operated landscape feel while removing template leftovers and surfacing irrigation, lawn care, trimming, and maintenance quote paths.",
+      "priority": "A"
+    },
+    {
+      "slug": "leon-home-innovations",
+      "name": "Leon Home Innovations LLC",
+      "url": "https://leoninnovationsllc.wixsite.com/website",
+      "contact": "mailto:leoninnovationsllc@gmail.com",
+      "location": "New Jersey / NYC metro area",
+      "vertical": "home improvement service, repair, renovation, virtual and in-person estimates",
+      "summary": "Home-improvement site has email, phone, estimate options, and a service promise, but generic copy and a fake testimonial block weaken trust before visitors inquire.",
+      "angle": "keep the straightforward home-improvement Wix style while clarifying project types, estimate options, proof, and what happens after reaching out.",
+      "priority": "A"
+    },
+    {
+      "slug": "hms-handyman-services",
+      "name": "HMS, LLC",
+      "url": "https://hmsservices.wixsite.com/website",
+      "contact": "mailto:hmsservicesllc1@gmail.com",
+      "location": "Southwest Florida / Fort Myers area",
+      "vertical": "handyman services, home improvement, repairs, renovations, odd jobs",
+      "summary": "Handyman site has a personable neighborhood positioning, free-estimate language, email, and phone, but the service paths and first-screen CTA can be much sharper.",
+      "angle": "preserve the neighborhood-handyman feel while turning odd jobs, repairs, and projects into clear task paths with a free-estimate next step.",
+      "priority": "A-"
+    },
+    {
+      "slug": "de-spotless-cleaning",
+      "name": "D & E Spotless Cleaning Services LLC",
+      "url": "https://despotlesscleaning.wixsite.com/website",
+      "contact": "mailto:d.espotlesscleaning@gmail.com",
+      "location": "North Carolina area",
+      "vertical": "residential and commercial cleaning, move-in/move-out, deep cleaning, basic cleaning",
+      "summary": "Cleaning-service Wix site has real service cards, email, phone, and a quote link, but obvious menu/template leftovers and placeholder testimonial copy damage trust.",
+      "angle": "keep the simple cleaning-company design while removing leftovers, clarifying cleaning packages, and making quote requests feel safer and more specific.",
+      "priority": "A"
+    },
+    {
+      "slug": "cs-window-cleaning-llc",
+      "name": "C&S Window Cleaning LLC",
+      "url": "https://cswindowcleaningllc.wixsite.com/website",
+      "contact": "mailto:cswindowcleaningllc541@gmail.com",
+      "location": "Medford, OR",
+      "vertical": "window cleaning, walkthroughs, basic/advanced cleaning, restoration cleaning",
+      "summary": "Window-cleaning site has a clear local service, phone/email, guarantee, and service pages, but long generic sections and spelling/template issues dilute the quote path.",
+      "angle": "preserve the bright window-cleaning Wix look while organizing walkthrough, basic, advanced, and restoration options around a clear schedule/request path.",
+      "priority": "A-"
+    }
+  ]
+}

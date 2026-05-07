@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HMS, LLC | Handyman Services in Southwest Florida</title>
+  <meta name="description" content="HMS, LLC provides handyman services, home repairs, odd jobs, improvements, and renovation help in the Fort Myers and Southwest Florida area. Call for a free estimate.">
+  <style>
+    :root {
+      --cream: #fcfcf4;
+      --paper: #ffffff;
+      --ink: #111111;
+      --muted: #5f5f5f;
+      --rust: #993a23;
+      --rust-dark: #7d2e1d;
+      --line: #e8e4db;
+      --soft: #f4f1e8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1280px, calc(100% - 80px));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .nav {
+      min-height: 108px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: 48px;
+      height: 70px;
+      object-fit: cover;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: 20px;
+      letter-spacing: .03em;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      color: #303030;
+      font-size: 15px;
+    }
+
+    .nav-links a { text-decoration: none; }
+
+    .nav-call {
+      padding: 11px 18px;
+      border: 1px solid var(--rust);
+      color: var(--rust);
+      font-weight: 700;
+    }
+
+    .hero {
+      background: var(--cream);
+      padding: 92px 0 80px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 49%;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 20px;
+      color: var(--rust);
+      font-weight: 700;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h1, h2, h3 { line-height: 1.12; }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(46px, 6vw, 86px);
+      font-weight: 500;
+      letter-spacing: -.04em;
+    }
+
+    .hero h1 span {
+      display: block;
+      font-size: .58em;
+      letter-spacing: -.02em;
+      margin-top: 12px;
+      color: #2b2b2b;
+    }
+
+    .hero-copy {
+      max-width: 580px;
+      margin: 28px 0 0;
+      font-size: 19px;
+      color: #3f3f3f;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 13px 22px;
+      border: 1px solid var(--ink);
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform .18s ease, background .18s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn.primary {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .btn.rust {
+      background: var(--rust);
+      color: #fff;
+      border-color: var(--rust);
+    }
+
+    .hero-photo {
+      margin: 0;
+      min-height: 620px;
+      background: #ddd;
+      overflow: hidden;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 620px;
+      display: block;
+      object-fit: cover;
+    }
+
+    .trust-strip {
+      background: #fff;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+
+    .trust-item {
+      padding: 28px 26px;
+      border-right: 1px solid var(--line);
+    }
+
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong { display: block; margin-bottom: 5px; }
+    .trust-item span { color: var(--muted); font-size: 14px; }
+
+    .section { padding: 92px 0; }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 43% 1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .repair-photo img, .wide-photo img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .repair-photo img { aspect-ratio: 1 / .88; }
+
+    h2 {
+      margin: 0 0 22px;
+      font-size: clamp(34px, 4vw, 58px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+    }
+
+    .lead {
+      font-size: 18px;
+      color: #404040;
+      max-width: 680px;
+    }
+
+    .services {
+      background: var(--soft);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 38px;
+    }
+
+    .section-head p { margin: 0; max-width: 520px; color: var(--muted); }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 28px;
+      min-height: 240px;
+    }
+
+    .card h3 {
+      margin: 0 0 14px;
+      font-size: 23px;
+      font-weight: 600;
+    }
+
+    .card p { margin: 0; color: #4f4f4f; }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 34px;
+    }
+
+    .step {
+      border-top: 4px solid var(--rust);
+      padding: 24px 24px 0 0;
+    }
+
+    .step .num {
+      color: var(--rust);
+      font-weight: 800;
+      letter-spacing: .08em;
+      font-size: 13px;
+    }
+
+    .contact-band {
+      background: var(--rust);
+      color: #fff;
+      padding: 76px 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .contact-band h2 { color: #fff; }
+    .contact-band p { color: rgba(255,255,255,.86); }
+
+    .contact-box {
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.24);
+      padding: 30px;
+    }
+
+    .contact-row {
+      display: block;
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(255,255,255,.22);
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .contact-row:last-child { border-bottom: 0; }
+
+    .wide-photo {
+      padding: 80px 0 0;
+      background: #fff;
+    }
+
+    .wide-photo img {
+      width: min(1280px, calc(100% - 80px));
+      height: 360px;
+      margin: 0 auto;
+      object-fit: cover;
+    }
+
+    footer {
+      background: #fff;
+      padding: 54px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer a { color: var(--ink); text-decoration: none; }
+
+    @media (max-width: 950px) {
+      .wrap { width: min(100% - 34px, 1280px); }
+      .nav { min-height: 86px; }
+      .nav-links { display: none; }
+      .hero { padding: 54px 0 34px; }
+      .hero-grid, .intro-grid, .contact-grid { grid-template-columns: 1fr; gap: 34px; }
+      .hero-photo, .hero-photo img { min-height: 360px; }
+      .trust-grid, .service-grid, .process-grid { grid-template-columns: 1fr; }
+      .trust-item { border-right: 0; border-bottom: 1px solid var(--line); padding: 22px 0; }
+      .section { padding: 58px 0; }
+      .section-head { display: block; }
+      .wide-photo img { width: calc(100% - 34px); height: 230px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="HMS, LLC home">
+        <img src="https://static.wixstatic.com/media/3d613f_04c3af2d095f4698ba5dfd055b8711da~mv2.jpg/v1/fill/w_80,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/our%20company.jpg" alt="HMS, LLC logo">
+        <span><strong>HMS, LLC</strong><span>Handyman Services</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="mailto:hmsservicesllc1@gmail.com">Email</a>
+        <a class="nav-call" href="tel:+12392232823">239-223-2823</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Professional Handyman Services</p>
+          <h1 id="hero-title">Your Neighborhood Handyman <span>for repairs, odd jobs, and home projects</span></h1>
+          <p class="hero-copy">HMS, LLC helps Southwest Florida homeowners take care of the growing to-do list, from small fixes and errands around the house to larger home improvement and renovation projects. Tell me what you need done and I’ll help you start with a free estimate.</p>
+          <div class="hero-actions" aria-label="Contact HMS for an estimate">
+            <a class="btn primary" href="tel:+12392232823">Call for a Free Estimate</a>
+            <a class="btn" href="mailto:hmsservicesllc1@gmail.com?subject=Free%20estimate%20request%20for%20HMS%2C%20LLC">Email Your To-Do List</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="https://static.wixstatic.com/media/6e10219f11314e1babe61a59ef135376.jpg/v1/fill/w_630,h_720,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6e10219f11314e1babe61a59ef135376.jpg" alt="Handyman ready to help with home repairs and projects">
+        </figure>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Why homeowners call HMS">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Homes treated with care</strong><span>I work in your home the way I would want someone to work in mine.</span></div>
+        <div class="trust-item"><strong>Small jobs welcome</strong><span>Knock out the repairs and odd errands that keep sitting on the list.</span></div>
+        <div class="trust-item"><strong>Project help available</strong><span>From fixes to larger improvements, start with a practical estimate.</span></div>
+        <div class="trust-item"><strong>Free estimates</strong><span>Call or email the job details and get a clear next step.</span></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="do-it-right">
+      <div class="wrap intro-grid">
+        <figure class="repair-photo">
+          <img src="https://static.wixstatic.com/media/11062b_aae85a27bea04ef4b7a401e9b1671501~mv2.jpeg/v1/fill/w_1280,h_940,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_aae85a27bea04ef4b7a401e9b1671501~mv2.jpeg" alt="Handyman fixing a light fixture">
+        </figure>
+        <div>
+          <p class="eyebrow">HMS, LLC: Handyman Services</p>
+          <h2 id="do-it-right">Do It Right The First Time</h2>
+          <p class="lead">It can be tough to find time for every repair, fixture, improvement, and project around the house. HMS, LLC gives you one straightforward place to start, whether you need a quick fix, a few odd jobs, or help planning a larger project.</p>
+          <div class="hero-actions">
+            <a class="btn rust" href="tel:+12392232823">Talk Through the Job</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">What can HMS help with?</p>
+            <h2 id="services-title">Clear help for the jobs on your list</h2>
+          </div>
+          <p>Start with the category that sounds closest. If you are not sure where your project fits, send the details and ask for a free estimate.</p>
+        </div>
+        <div class="service-grid">
+          <article class="card">
+            <h3>Home repairs</h3>
+            <p>Fixes, adjustments, replacements, and the practical repair work that keeps your home working the way it should.</p>
+          </article>
+          <article class="card">
+            <h3>Odd jobs</h3>
+            <p>The small errands and nagging to-do items that are easy to postpone but feel great to finally finish.</p>
+          </article>
+          <article class="card">
+            <h3>Home improvements</h3>
+            <p>Updates, installations, and project help when you want the house to look better or work better.</p>
+          </article>
+          <article class="card">
+            <h3>Renovation projects</h3>
+            <p>Larger-scale work starts with a conversation, a practical scope, and an estimate before anything moves forward.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <p class="eyebrow">Let’s get going</p>
+        <h2 id="process-title">What happens next</h2>
+        <p class="lead">You do not need to know the exact trade name or scope before reaching out. A clear description, a few photos if helpful, and the best way to contact you are enough to get started.</p>
+        <div class="process-grid">
+          <div class="step">
+            <span class="num">01</span>
+            <h3>Call or email the job</h3>
+            <p>Share the repair, odd job, or project you want handled and where you are located in the Southwest Florida area.</p>
+          </div>
+          <div class="step">
+            <span class="num">02</span>
+            <h3>Review the details</h3>
+            <p>HMS will ask the right follow-up questions so the estimate is based on the work you actually need.</p>
+          </div>
+          <div class="step">
+            <span class="num">03</span>
+            <h3>Get a free estimate</h3>
+            <p>You get a practical next step for getting the work done without letting the to-do list keep growing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow" style="color:#fff;">Free estimate</p>
+          <h2 id="contact-title">Ready to start feeling at ease?</h2>
+          <p class="lead">Call today or send your to-do list by email. HMS, LLC will help you figure out the best next step for the work you need done.</p>
+        </div>
+        <div class="contact-box">
+          <a class="contact-row" href="tel:+12392232823">239-223-2823</a>
+          <a class="contact-row" href="mailto:hmsservicesllc1@gmail.com?subject=Free%20estimate%20request%20for%20HMS%2C%20LLC">hmsservicesllc1@gmail.com</a>
+          <a class="btn primary" style="margin-top:20px; width:100%;" href="mailto:hmsservicesllc1@gmail.com?subject=Free%20estimate%20request%20for%20HMS%2C%20LLC">Request a Free Estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wide-photo" aria-label="Handyman tools at work">
+      <img src="https://static.wixstatic.com/media/11062b_ad793d403e0d431ea1b7db0bb66f728f~mv2.jpeg/v1/fill/w_1280,h_500,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ad793d403e0d431ea1b7db0bb66f728f~mv2.jpeg" alt="Tools ready for home repair and handyman work">
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>HMS, LLC</strong> | Handyman Services in Southwest Florida</p>
+      <p><a href="tel:+12392232823">239-223-2823</a> | <a href="mailto:hmsservicesllc1@gmail.com">hmsservicesllc1@gmail.com</a> | <a href="https://www.instagram.com/hms.llc/">Instagram</a></p>
+      <p>©2026 HMS, LLC. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

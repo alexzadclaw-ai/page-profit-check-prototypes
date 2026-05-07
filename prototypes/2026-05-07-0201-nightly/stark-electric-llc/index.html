@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stark Electric LLC | Licensed Electrician in Metro Detroit</title>
+  <meta name="description" content="Licensed and insured residential and commercial electrical services in the Metro Detroit area. Call Stark Electric LLC for wiring, repairs, installations, 24-hour service, and free estimates." />
+  <style>
+    :root{
+      --black:#070707;
+      --panel:#17171b;
+      --ink:#ffffff;
+      --muted:#d7d7d7;
+      --line:#6d6d6d;
+      --button:#c8bab7;
+      --buttonText:#111111;
+      --blue:#2e63c8;
+      --yellow:#f2c337;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--black);color:var(--ink);font-family:Arial, Helvetica, sans-serif;line-height:1.45}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:#f3f3f5;color:#111;text-align:center;font-size:13px;padding:7px 12px;border-bottom:1px solid #d7d7dd}
+    .site-header{background:#070707;padding:31px 8vw;display:flex;align-items:center;justify-content:space-between;gap:28px;position:sticky;top:0;z-index:5;border-bottom:1px solid rgba(255,255,255,.06)}
+    .brand{display:flex;align-items:center;gap:18px;min-width:max-content}
+    .brand img{width:111px;height:auto;display:block}
+    .brand-name{font-size:20px;margin-bottom:3px}.brand-small{font-size:13px;color:#f1f1f1}
+    nav{display:flex;align-items:center;gap:23px;font-size:12px;white-space:nowrap}.nav-cta{border:1px solid #fff;padding:9px 13px}.phone{font-weight:700}
+    .hero{background-image:linear-gradient(rgba(0,0,0,.08),rgba(0,0,0,.12)),url('https://static.wixstatic.com/media/12dfec54c92d4869b1d17ffb39e85310.jpg/v1/fill/w_1440,h_2200,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/12dfec54c92d4869b1d17ffb39e85310.jpg');background-size:cover;background-position:center 32%;min-height:720px;padding:86px 7vw 76px;display:flex;align-items:flex-start}
+    .hero-panel{background:var(--panel);width:min(1280px,100%);padding:110px 11vw 92px;margin:0 auto;box-shadow:0 20px 45px rgba(0,0,0,.35)}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:13px;color:#e9e9e9;margin-bottom:20px;font-weight:700}.hero h1{font-size:64px;line-height:1.13;margin:0 0 25px;max-width:850px}.hero p{font-size:18px;margin:0 0 28px;color:#f3f3f3;max-width:700px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:12px 20px;border:1px solid #fff;font-size:14px;font-weight:700}.btn.primary{background:#fff;color:#111}.btn.soft{background:transparent;color:#fff}.micro{font-size:13px;color:#dcdcdc}
+    .trust{max-width:1180px;margin:-48px auto 0;position:relative;z-index:2;padding:0 7vw;display:grid;grid-template-columns:repeat(4,1fr);gap:1px}.trust div{background:#101010;border:1px solid #4e4e4e;padding:22px 18px;text-align:center;font-size:14px}.trust strong{display:block;font-size:17px;margin-bottom:4px}.trust span{color:#cfcfcf}
+    section{padding:88px 7vw}.section-title{text-align:center;font-size:30px;margin:0 0 52px}.services{max-width:1250px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:34px}.card{border:1px solid var(--line);background:#0a0a0a}.card img{width:100%;height:300px;object-fit:cover;display:block}.card-body{padding:30px 31px 32px}.card h3{font-size:23px;font-weight:400;margin:0 0 20px}.rule{height:1px;background:#d7d7d7;margin-bottom:22px;opacity:.65}.card p{font-size:14px;color:#d4d4d4;min-height:62px;margin:0 0 24px}.mini-btn{display:inline-block;background:var(--button);color:var(--buttonText);padding:11px 18px;font-size:13px}
+    .next{max-width:1130px;margin:0 auto;border-top:1px solid #555;border-bottom:1px solid #555;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}.step{padding:31px 28px;border-right:1px solid #555}.step:last-child{border-right:0}.step b{display:block;font-size:18px;margin-bottom:9px}.step p{color:#d5d5d5;margin:0;font-size:14px}
+    .contact{display:grid;grid-template-columns:.86fr 1.14fr;gap:75px;max-width:1160px;margin:0 auto;align-items:start}.contact h2{font-size:34px;line-height:1.2;margin:0 0 20px;text-align:center}.contact-copy{text-align:center}.contact-copy p{font-size:14px;color:#d8d8d8}.contact-lines{margin-top:30px;display:grid;gap:13px;font-size:15px}.form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form label{display:grid;gap:5px;font-size:12px}.form input,.form textarea{background:#070707;border:1px solid #888;color:#fff;min-height:42px;padding:10px}.form textarea{grid-column:1/-1;min-height:105px}.form .full{grid-column:1/-1}.form button{grid-column:1/-1;border:0;background:#fff;color:#111;font-weight:700;min-height:43px}
+    footer{padding:86px 7vw 38px;text-align:center;font-size:12px;color:#e2e2e2}.footer-phone{display:block;margin-bottom:18px;font-size:14px;font-weight:700}.social{letter-spacing:15px;margin-bottom:28px}.copyright{color:#aaa}.floating{position:fixed;right:24px;bottom:24px;background:#4a403c;color:#fff;border-radius:9px;padding:15px 19px;font-weight:700;box-shadow:0 12px 28px rgba(0,0,0,.35);font-size:14px;z-index:6}
+    @media(max-width:900px){.topbar{display:none}.site-header{position:static;padding:22px 22px;align-items:flex-start}.brand img{width:92px}nav{display:none}.hero{min-height:auto;padding:34px 18px 54px;background-position:center top}.hero-panel{padding:45px 27px;margin-top:0}.hero h1{font-size:37px}.hero p{font-size:16px}.trust{margin:0;padding:0;grid-template-columns:1fr 1fr}.services{grid-template-columns:1fr}.card img{height:230px}.next{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid #555}.contact{grid-template-columns:1fr;gap:38px}.form{grid-template-columns:1fr}.floating{left:18px;right:18px;text-align:center}.section-title{font-size:27px}section{padding:62px 22px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Stark Electric LLC | Licensed &amp; Insured Electrical Service</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Stark Electric LLC home">
+      <img src="https://static.wixstatic.com/media/1a0b3b_24127c2c92ee4056b42f3ced0811b79e~mv2.png/v1/fill/w_111,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/stark_edited.png" alt="Stark Electric LLC logo" />
+      <span><span class="brand-name">Stark Electric LLC</span><br><span class="brand-small">Licensed &amp; Insured</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#next">What to expect</a><a href="mailto:tedstark405@gmail.com">tedstark405@gmail.com</a><a class="phone" href="tel:5866257887">5866257887</a><a class="nav-cta" href="tel:5866257887">Free Estimate</a>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-label="Residential and commercial electrical services">
+      <div class="hero-panel">
+        <div class="eyebrow">24-hour service available</div>
+        <h1>Residential &amp; Commercial Electrical Services</h1>
+        <p>Licensed and insured electrician for new wiring, rewiring, repairs, and installations across the Metro Detroit area.</p>
+        <div class="actions"><a class="btn primary" href="tel:5866257887">Call 5866257887 for a Free Estimate</a><a class="btn soft" href="mailto:tedstark405@gmail.com">Email Ted</a><span class="micro">Quality work. Professional service.</span></div>
+      </div>
+    </section>
+    <div class="trust" aria-label="Service highlights">
+      <div><strong>Licensed &amp; insured</strong><span>Proof first, not buried</span></div>
+      <div><strong>24-hour availability</strong><span>For urgent electrical needs</span></div>
+      <div><strong>Free estimates</strong><span>Call or send the form</span></div>
+      <div><strong>Residential + commercial</strong><span>Small repairs to larger projects</span></div>
+    </div>
+    <section id="services">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services">
+        <article class="card"><img src="https://static.wixstatic.com/media/ce43cd42692f4781848be5b68cbee274.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ce43cd42692f4781848be5b68cbee274.jpg" alt="New electrical wiring"><div class="card-body"><h3>New Wiring</h3><div class="rule"></div><p>Clean wiring for additions, remodels, garages, basements, equipment, and new project needs.</p><a class="mini-btn" href="tel:5866257887">Get wiring estimate</a></div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/425014d58197494bb47a0738af2c5a8e.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/425014d58197494bb47a0738af2c5a8e.jpg" alt="Electrical panel rewiring and repairs"><div class="card-body"><h3>Rewiring &amp; Repairs</h3><div class="rule"></div><p>Troubleshooting, fixture issues, repair work, panel concerns, and safer replacement of problem wiring.</p><a class="mini-btn" href="tel:5866257887">Request repair help</a></div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/1a0b3b_5770fdfec7da456c96b44046ddbac142~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/1a0b3b_5770fdfec7da456c96b44046ddbac142~mv2.jpg" alt="Interior electrical installations"><div class="card-body"><h3>Installations</h3><div class="rule"></div><p>Lighting, outlets, switches, circuits, equipment hookups, and finished-space electrical installation.</p><a class="mini-btn" href="tel:5866257887">Plan an installation</a></div></article>
+      </div>
+    </section>
+    <section id="next">
+      <h2 class="section-title">What Happens Next</h2>
+      <div class="next"><div class="step"><b>1. Call or send details</b><p>Share the address, project type, and how urgent the electrical issue is.</p></div><div class="step"><b>2. Get a practical estimate</b><p>Stark Electric confirms the scope, timing, and next step for the work.</p></div><div class="step"><b>3. Schedule the service</b><p>A licensed and insured electrician handles the work with professional follow-through.</p></div></div>
+    </section>
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-copy"><h2>No matter the challenge... We deliver the power!</h2><p>We are here for every project, from residential repairs to larger commercial work. Available for 24-hour services. Reach out today for your free estimate.</p><div class="contact-lines"><a href="mailto:tedstark405@gmail.com">tedstark405@gmail.com</a><a href="tel:5866257887">5866257887</a></div></div>
+        <form class="form"><label>Name *<input type="text" placeholder="Enter your name"></label><label>Email *<input type="email" placeholder="Enter your email"></label><label>Phone<input type="tel" placeholder="Enter your phone number"></label><label>Address<input type="text" placeholder="Enter your address"></label><label class="full">Subject<input type="text" placeholder="Type the subject"></label><label class="full">Message<textarea placeholder="Tell us what you need help with..."></textarea></label><button type="submit">Submit Estimate Request</button></form>
+      </div>
+    </section>
+  </main>
+  <a class="floating" href="tel:5866257887">Let's Chat: 5866257887</a>
+  <footer><a class="footer-phone" href="tel:5866257887">5866257887</a><div class="social" aria-label="Social links">f ♥ in</div><div class="copyright">©2026 by Stark Electric LLC.</div></footer>
+</body>
+</html>

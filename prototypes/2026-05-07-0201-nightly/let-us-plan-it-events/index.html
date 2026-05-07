@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cincinnati Event Planner | Weddings, Parties & Showers | Let Us Plan It, LLC</title>
+  <meta name="description" content="Let Us Plan It, LLC helps Cincinnati-area clients plan weddings, parties, baby showers, personalized items, and event rentals with clear packages and a consultation-first process." />
+  <style>
+    :root{
+      --ink:#17131f;
+      --muted:#625b6b;
+      --soft:#fbf7fb;
+      --lav:#eadcf3;
+      --blush:#f6dce8;
+      --gold:#c7a060;
+      --line:#eadfe8;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+    header{background:#fff;border-bottom:1px solid #f0e8ef}
+    .topbar{min-height:150px;display:flex;align-items:center;justify-content:space-between;gap:34px}
+    .brand{display:flex;align-items:center;gap:18px;font-size:18px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    .brand img{width:116px;height:auto;display:block}
+    nav{display:flex;gap:42px;font-size:15px;letter-spacing:.03em}
+    nav a{padding:8px 0;border-bottom:1px solid transparent}
+    nav a:hover{border-color:var(--ink)}
+    .social{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
+    .social span{width:24px;height:24px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:12px}
+    .hero{padding:70px 0 56px;background:linear-gradient(180deg,#fff 0%,#fff 58%,var(--soft) 58%,var(--soft) 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:50px}
+    .hero-copy{padding-left:18px}
+    .eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:#8d6c91;font-weight:700;margin-bottom:16px}
+    h1{font-size:clamp(38px,5vw,66px);line-height:1.02;margin:0 0 18px;font-weight:700;letter-spacing:-.04em}
+    .sub{font-size:20px;max-width:610px;color:var(--muted);margin:0 0 28px}
+    .actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:15px 24px;font-weight:700;border:1px solid var(--ink);transition:.2s ease;min-height:50px}
+    .btn.primary{background:var(--ink);color:#fff}
+    .btn.primary:hover{background:#3a2944}
+    .btn.secondary{background:#fff;color:var(--ink)}
+    .btn.secondary:hover{background:var(--soft)}
+    .note{font-size:14px;color:var(--muted);margin-top:14px}
+    .hero-card{background:#fff;border:1px solid var(--line);box-shadow:0 18px 55px rgba(54,31,61,.12);padding:18px;position:relative}
+    .hero-card:before{content:"";position:absolute;inset:20px -18px -18px 28px;background:linear-gradient(135deg,var(--lav),var(--blush));z-index:-1}
+    .hero-card img{width:100%;display:block;aspect-ratio:808/455;object-fit:cover}
+    .trust{padding:30px 0;background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+    .trust-item{background:#fff;padding:24px 22px;min-height:120px}
+    .trust-item strong{display:block;font-size:18px;margin-bottom:6px}
+    .trust-item span{font-size:14px;color:var(--muted)}
+    section{padding:74px 0}
+    .section-head{max-width:760px;margin:0 auto 36px;text-align:center}
+    .section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.08;margin:0 0 12px;letter-spacing:-.03em}
+    .section-head p{margin:0;color:var(--muted);font-size:18px}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+    .service{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-height:100%;box-shadow:0 10px 30px rgba(37,23,43,.05)}
+    .service img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+    .service-body{padding:24px}
+    .kicker{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:#8d6c91;font-weight:700;margin-bottom:9px}
+    .service h3{font-size:24px;line-height:1.12;margin:0 0 8px}
+    .price{font-weight:700;color:#4c374f;margin-bottom:12px}
+    .service p{color:var(--muted);margin:0 0 16px}
+    .mini-link{font-weight:700;border-bottom:1px solid var(--gold);display:inline-block;padding-bottom:3px}
+    .services .service:nth-child(4), .services .service:nth-child(5){grid-column:span 1}
+    .process{background:linear-gradient(135deg,#21162a,#3b2445);color:#fff}
+    .process .section-head p{color:#e9ddeb}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .step{border:1px solid rgba(255,255,255,.18);padding:28px;background:rgba(255,255,255,.06)}
+    .num{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#25172b;font-weight:700;margin-bottom:18px}
+    .step h3{margin:0 0 8px;font-size:22px}
+    .step p{margin:0;color:#eadfea}
+    .gallery-strip{padding:0;background:#fff}
+    .photo-row{display:grid;grid-template-columns:repeat(5,1fr)}
+    .photo-row img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+    .contact{background:var(--soft)}
+    .contact-panel{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;background:#fff;border:1px solid var(--line);padding:44px;box-shadow:0 14px 42px rgba(37,23,43,.07)}
+    .contact h2{font-size:42px;line-height:1.08;margin:0 0 12px;letter-spacing:-.03em}
+    .contact p{color:var(--muted);margin:0 0 22px;font-size:18px}
+    .contact-list{display:grid;gap:12px;color:var(--muted)}
+    .contact-list a{font-weight:700;color:var(--ink)}
+    .quote{padding:32px;background:linear-gradient(135deg,var(--lav),var(--blush));font-size:22px;line-height:1.35;font-weight:700;color:#2c2032}
+    footer{padding:36px 0;text-align:center;color:var(--muted);font-size:14px;background:#fff}
+    .mobile-bar{display:none}
+    @media (max-width:900px){
+      .wrap{padding:0 22px}.topbar{min-height:auto;padding:22px 0;align-items:flex-start}.brand{font-size:15px}.brand img{width:88px}nav{gap:18px}.social{display:none}
+      .hero{padding:42px 0;background:linear-gradient(180deg,#fff 0%,#fff 70%,var(--soft) 70%)}.hero-grid{grid-template-columns:1fr;gap:30px}.hero-copy{padding-left:0}.sub{font-size:18px}.hero-card:before{inset:14px -10px -10px 16px}
+      .trust-grid,.services,.steps,.contact-panel{grid-template-columns:1fr}.services{gap:22px}.photo-row{grid-template-columns:repeat(2,1fr)}section{padding:54px 0}.contact-panel{padding:28px}.mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 14px}.mobile-bar .btn{padding:12px 10px;min-height:44px;font-size:14px}body{padding-bottom:74px}
+    }
+    @media (max-width:620px){.topbar{display:grid;gap:16px}nav{order:3;width:100%;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px}.actions .btn{width:100%}h1{font-size:40px}.trust-item{min-height:auto}.photo-row{grid-template-columns:1fr 1fr}.contact h2{font-size:34px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="#top" aria-label="Let Us Plan It, LLC home">
+        <img src="https://static.wixstatic.com/media/ae1cb6_c9a647dee1974f7f8b58a76f4d0084aa~mv2.png/v1/fill/w_116,h_79,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6665_PNG.png" alt="Let Us Plan It, LLC logo">
+        <span>Let Us Plan It, LLC</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#services">Packages</a>
+        <a href="#contact">Book Online</a>
+      </nav>
+      <div class="social" aria-label="Social links">
+        <span>f</span><span>ig</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Any occasion, any event, let us plan it</div>
+          <h1>Cincinnati-area event planning for the moments you want to feel easy.</h1>
+          <p class="sub">Weddings, parties, baby showers, personalized items, and rentals with clear starting packages and a consultation-first plan.</p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:letusplanitllc@gmail.com?subject=Event%20consultation%20request">Start with a consultation</a>
+            <a class="btn secondary" href="tel:15132577956">Call (513) 257-7956</a>
+          </div>
+          <div class="note">Share your date, occasion, guest count, and the kind of help you need. We will guide the right package before you book.</div>
+        </div>
+        <div class="hero-card">
+          <img src="https://static.wixstatic.com/media/ae1cb6_ecb085840478479fbe5ad9be556bb614~mv2.png/v1/fill/w_808,h_455,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Owner_%20Natasha%20Price.png" alt="Owner Natasha Price of Let Us Plan It, LLC">
+        </div>
+      </div>
+    </section>
+
+    <section class="trust" aria-label="Planning highlights">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Packages from $400</strong><span>Helpful starting points for parties, showers, weddings, personalized details, and rentals.</span></div>
+        <div class="trust-item"><strong>Consult-first booking</strong><span>Confirm the date, scope, and event needs before choosing the right support.</span></div>
+        <div class="trust-item"><strong>Owner-led details</strong><span>A personal planning touch for decor, coordination, custom items, and event setup needs.</span></div>
+        <div class="trust-item"><strong>Cincinnati-area help</strong><span>Local planning support for celebrations that need organization, style, and calm.</span></div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Choose the kind of help you need.</h2>
+          <p>Keep the package path simple: start with your occasion, then confirm details before reserving planning time or rental items.</p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <img src="https://static.wixstatic.com/media/e276cb66d98a4e0ab11859b70a72dd57.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/e276cb66d98a4e0ab11859b70a72dd57.jpg" alt="Wedding event table styling">
+            <div class="service-body"><div class="kicker">6 hr planning support</div><h3>Wedding Package</h3><div class="price">Starting at $3,500</div><p>For couples who want help bringing the day together, from planning details to a smoother celebration flow.</p><a class="mini-link" href="mailto:letusplanitllc@gmail.com?subject=Wedding%20package%20consultation">Ask about wedding dates</a></div>
+          </article>
+          <article class="service">
+            <img src="https://static.wixstatic.com/media/ae1cb6_60af71a416ca453fba149c14815eaedf~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_60af71a416ca453fba149c14815eaedf~mv2.jpg" alt="Party decor setup">
+            <div class="service-body"><div class="kicker">2 hr package</div><h3>Party Packages</h3><div class="price">Starting at $400</div><p>For birthdays, private celebrations, and special gatherings that need a planned look without overwhelming the host.</p><a class="mini-link" href="mailto:letusplanitllc@gmail.com?subject=Party%20package%20consultation">Plan a party package</a></div>
+          </article>
+          <article class="service">
+            <img src="https://static.wixstatic.com/media/ae1cb6_c4d6a9e7f56d483cb648049ee0413925~mv2.jpeg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_c4d6a9e7f56d483cb648049ee0413925~mv2.jpeg" alt="Baby shower event decor">
+            <div class="service-body"><div class="kicker">6 hr shower package</div><h3>Baby Shower Package</h3><div class="price">Starting at $550</div><p>For showers that need setup, styling, and a coordinated feel so family can focus on celebrating.</p><a class="mini-link" href="mailto:letusplanitllc@gmail.com?subject=Baby%20shower%20consultation">Check shower availability</a></div>
+          </article>
+          <article class="service">
+            <img src="https://static.wixstatic.com/media/ae1cb6_28ed59fd5efb4452bc03c9fb115671e4~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_28ed59fd5efb4452bc03c9fb115671e4~mv2.jpg" alt="Personalized event items">
+            <div class="service-body"><div class="kicker">1 hr custom item support</div><h3>Personalized Items</h3><div class="price">Starting at $50</div><p>Add custom touches, keepsakes, and event details that make the setup feel personal and finished.</p><a class="mini-link" href="mailto:letusplanitllc@gmail.com?subject=Personalized%20items%20request">Request custom items</a></div>
+          </article>
+          <article class="service">
+            <img src="https://static.wixstatic.com/media/ae1cb6_34a3c865c5fb4b538db0323d8a7ebfbd~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,lg_1,q_80,enc_auto/ae1cb6_34a3c865c5fb4b538db0323d8a7ebfbd~mv2.jpg" alt="Event rental items and decor">
+            <div class="service-body"><div class="kicker">1 hr rental support</div><h3>Rental Items</h3><div class="price">$100</div><p>Reserve decor and event pieces that help complete your setup without buying everything yourself.</p><a class="mini-link" href="mailto:letusplanitllc@gmail.com?subject=Rental%20items%20request">Ask about rentals</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How planning starts</h2>
+          <p>A quick consultation keeps the booking simple and helps match your event to the right package.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><div class="num">1</div><h3>Send the basics</h3><p>Share the event type, date, location, estimated guest count, and any ideas you already have.</p></div>
+          <div class="step"><div class="num">2</div><h3>Confirm the fit</h3><p>We talk through planning needs, custom items, rentals, setup timing, and which package makes sense.</p></div>
+          <div class="step"><div class="num">3</div><h3>Reserve your plan</h3><p>Once the scope and date are clear, book the package or rental support that fits your occasion.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-strip" aria-label="Event gallery">
+      <div class="photo-row">
+        <img src="https://static.wixstatic.com/media/e276cb66d98a4e0ab11859b70a72dd57.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/e276cb66d98a4e0ab11859b70a72dd57.jpg" alt="Event table decor">
+        <img src="https://static.wixstatic.com/media/ae1cb6_60af71a416ca453fba149c14815eaedf~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_60af71a416ca453fba149c14815eaedf~mv2.jpg" alt="Celebration decor display">
+        <img src="https://static.wixstatic.com/media/ae1cb6_c4d6a9e7f56d483cb648049ee0413925~mv2.jpeg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_c4d6a9e7f56d483cb648049ee0413925~mv2.jpeg" alt="Baby shower decor">
+        <img src="https://static.wixstatic.com/media/ae1cb6_28ed59fd5efb4452bc03c9fb115671e4~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/ae1cb6_28ed59fd5efb4452bc03c9fb115671e4~mv2.jpg" alt="Personalized event detail">
+        <img src="https://static.wixstatic.com/media/ae1cb6_34a3c865c5fb4b538db0323d8a7ebfbd~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,lg_1,q_80,enc_auto/ae1cb6_34a3c865c5fb4b538db0323d8a7ebfbd~mv2.jpg" alt="Rental and event detail">
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap contact-panel">
+        <div>
+          <h2>Ready to talk through your event?</h2>
+          <p>Start with a quick message. Include your event date, occasion, city, guest count, and whether you need planning, personalized items, rentals, or all of the above.</p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:letusplanitllc@gmail.com?subject=Event%20consultation%20request">Email for a consultation</a>
+            <a class="btn secondary" href="tel:15132577956">Call now</a>
+          </div>
+        </div>
+        <div class="quote">
+          “Any Occasion, Any Event, Let Us Plan It.”
+          <div class="contact-list" style="margin-top:22px;font-size:16px;font-weight:400">
+            <div>Email: <a href="mailto:letusplanitllc@gmail.com">letusplanitllc@gmail.com</a></div>
+            <div>Phone: <a href="tel:15132577956">(513) 257-7956</a></div>
+            <div>Follow: Facebook and Instagram @letusplanitllc</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">©2026 Let Us Plan It, LLC. Cincinnati-area event planning, packages, personalized items, and rentals.</div>
+  </footer>
+
+  <div class="mobile-bar" aria-label="Quick contact actions">
+    <a class="btn primary" href="mailto:letusplanitllc@gmail.com?subject=Event%20consultation%20request">Consultation</a>
+    <a class="btn secondary" href="tel:15132577956">Call</a>
+  </div>
+</body>
+</html>

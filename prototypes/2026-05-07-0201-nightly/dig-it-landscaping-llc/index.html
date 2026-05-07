@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dig It Landscaping LLC | Lawn Care & Irrigation Repair in Phoenix / East Valley</title>
+  <meta name="description" content="Owner-operated landscaping, lawn care, irrigation and drip line repair, tree and bush trimming, yard maintenance, and installs in Phoenix and the East Valley.">
+  <style>
+    :root{
+      --ink:#292421;
+      --muted:#6d6a64;
+      --line:#e5e0d8;
+      --olive:#76805f;
+      --olive-dark:#596044;
+      --cream:#f8f7f2;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:var(--white);font-size:14px;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .wixline{height:36px;border-bottom:1px solid #d8e3ea;background:#f7fbff;color:#223;display:flex;align-items:center;justify-content:center;font-size:12px;gap:12px}
+    .wixline strong{font-weight:700;letter-spacing:.08em}
+    .wixline span{color:#5c6973}
+    .topbar{border-bottom:1px solid var(--line);background:#fff}
+    .topbar-inner{max-width:1120px;margin:0 auto;padding:12px 28px;display:flex;justify-content:space-between;align-items:center;color:#5f5d58;font-size:13px}
+    .topbar a{color:#5f5d58}
+    .shell{max-width:1120px;margin:0 auto;padding:0 28px}
+    header{background:#fff;border-bottom:1px solid #eee}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:28px 0}
+    .brand{display:flex;align-items:center;gap:13px;font-size:22px;letter-spacing:.01em}
+    .brand img{width:42px;height:42px;border-radius:50%;border:1px solid #111;object-fit:cover}
+    nav{display:flex;align-items:center;gap:26px;font-size:13px;color:#686660}
+    .nav-cta{border:1px solid #bbb;padding:8px 17px;color:#333;background:#fff}
+    .hero{text-align:center;padding:48px 0 42px}
+    .hero-photo{width:min(820px,100%);height:384px;object-fit:cover;display:block;margin:0 auto 44px;border:0}
+    h1{font-size:42px;line-height:1.18;font-weight:400;margin:0 auto 18px;max-width:820px;letter-spacing:-.02em}
+    .lead{max-width:680px;margin:0 auto 22px;color:#55504a;font-size:16px}
+    .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-block;background:var(--olive);color:#fff;padding:10px 20px;font-size:13px;border:1px solid var(--olive);transition:.18s ease}
+    .btn:hover{background:var(--olive-dark);border-color:var(--olive-dark)}
+    .btn.secondary{background:#fff;color:var(--ink);border-color:#b9b2a8}
+    .trust{max-width:910px;margin:0 auto 62px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);text-align:center;background:#fff}
+    .trust div{padding:22px 16px;border-right:1px solid var(--line);min-height:92px}
+    .trust div:last-child{border-right:0}
+    .trust b{display:block;font-size:13px;font-weight:700;letter-spacing:.03em;margin-bottom:4px}
+    .trust span{display:block;color:var(--muted);font-size:12px;line-height:1.45}
+    section{padding:44px 0}
+    .center{text-align:center}
+    h2{font-size:28px;font-weight:400;margin:0 0 12px;letter-spacing:-.01em}
+    .section-intro{max-width:650px;margin:0 auto 34px;color:#625d56}
+    .owner{max-width:760px;margin:0 auto;text-align:center;padding:6px 0 12px}
+    .owner h2{margin-bottom:20px}
+    .owner p{color:#504c46;margin:0 auto 18px;max-width:680px}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:30px}
+    .card{border:1px solid var(--line);background:#fff;min-height:100%;display:flex;flex-direction:column}
+    .card img{width:100%;height:224px;object-fit:cover;display:block;background:#eee}
+    .card-body{padding:22px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+    .card h3{font-size:15px;font-weight:400;margin:0;border-bottom:1px solid var(--line);padding-bottom:12px;color:#27231f}
+    .card p{margin:0;color:#625d56;font-size:13px;line-height:1.55;flex:1}
+    .small-btn{align-self:flex-start;background:var(--olive);color:#fff;padding:7px 12px;font-size:12px;margin-top:7px}
+    .steps-wrap{background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:22px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:28px;text-align:left}
+    .step{background:#fff;border:1px solid var(--line);padding:24px;min-height:160px}
+    .step .num{width:30px;height:30px;border-radius:50%;background:var(--olive);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;margin-bottom:14px}
+    .step h3{margin:0 0 8px;font-weight:400;font-size:17px}
+    .step p{margin:0;color:#625d56;font-size:13px}
+    .review{max-width:760px;margin:0 auto;text-align:center;color:#5a554e}
+    .review .quote{font-size:17px;line-height:1.8;margin:20px auto 0;max-width:640px}
+    .contact{max-width:760px;margin:0 auto;text-align:center}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;text-align:left;margin-top:28px;align-items:start}
+    form{display:grid;gap:10px}
+    input,textarea{width:100%;border:0;border-bottom:1px solid #bfb8af;padding:9px 3px;font-family:Arial, Helvetica, sans-serif;font-size:13px;background:#fff;color:#222}
+    textarea{min-height:92px;resize:vertical}
+    button{border:0;background:#2b2522;color:#fff;padding:10px 16px;font-family:Arial, Helvetica, sans-serif;font-size:12px;cursor:pointer;margin-top:8px}
+    .contact-card{border:1px solid var(--line);background:var(--cream);padding:26px;color:#504c46}
+    .contact-card h3{font-weight:400;font-size:19px;margin:0 0 12px;color:#292421}
+    .contact-card p{margin:0 0 10px}
+    footer{text-align:center;padding:46px 20px 38px;border-top:1px solid var(--line);font-size:12px;color:#625d56}
+    footer .name{font-size:14px;color:#2b2723;margin-bottom:8px}
+    .facebook{font-weight:700;font-size:18px;margin:14px 0;color:#1d1d1d}
+    @media (max-width:820px){
+      .wixline{font-size:10px;padding:0 8px;text-align:center}
+      .topbar-inner{display:none}
+      .shell{padding:0 20px}
+      .nav{padding:18px 0;align-items:flex-start;gap:14px;flex-direction:column}
+      nav{width:100%;gap:14px;flex-wrap:wrap;font-size:12px}
+      .nav-cta{margin-left:auto}
+      .brand{font-size:19px}
+      .hero{padding:28px 0 28px}
+      .hero-photo{height:230px;margin-bottom:30px}
+      h1{font-size:31px}
+      .lead{font-size:15px}
+      .actions .btn{width:100%;text-align:center;padding:12px 18px}
+      .trust{grid-template-columns:1fr 1fr;margin-bottom:34px}
+      .trust div:nth-child(2){border-right:0}
+      .trust div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+      .services,.steps,.contact-grid{grid-template-columns:1fr;gap:18px}
+      section{padding:34px 0}
+      h2{font-size:25px}
+      .card img{height:210px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a href="mailto:digitlandscapingllc@gmail.com">digitlandscapingllc@gmail.com</a>
+      <a href="tel:4802898391">480-289-8391</a>
+    </div>
+  </div>
+
+  <header>
+    <div class="shell">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Dig It Landscaping LLC home">
+          <img src="https://static.wixstatic.com/media/1e5196_063c6674b27a4192af24f4e29047d4a2~mv2.jpeg/v1/fill/w_78,h_79,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg" alt="Dig It Landscaping LLC logo">
+          <span>Dig It Landscaping LLC</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="tel:4802898391">Call/ Text</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell" id="home">
+      <img class="hero-photo" src="https://static.wixstatic.com/media/1e5196_8ae10b6ef0734cf7a5f23a61208ee94e~mv2.png/v1/fill/w_820,h_384,al_c,lg_1,q_85,enc_avif,quality_auto/Screen%20Shot%202021-05-12%20at%204_32_22%20PM.png" alt="Finished front yard landscaping by Dig It Landscaping LLC">
+      <h1>Owner-operated landscaping, lawn care, and irrigation help</h1>
+      <p class="lead">Dig It Landscaping LLC helps Phoenix and East Valley homeowners keep yards clean, healthy, and ready to enjoy, from drip line repair and lawn care to trimming, maintenance, and installs.</p>
+      <div class="actions">
+        <a class="btn" href="tel:4802898391">Call or Text 480-289-8391</a>
+        <a class="btn secondary" href="mailto:digitlandscapingllc@gmail.com?subject=Landscaping%20Quote%20Request">Email for a Quote</a>
+      </div>
+    </section>
+
+    <div class="shell">
+      <div class="trust" aria-label="Trust highlights">
+        <div><b>Owner-operated</b><span>Kyle Harris works hard until the job is done right.</span></div>
+        <div><b>Call or text</b><span>Fast direct contact for questions and quote requests.</span></div>
+        <div><b>Irrigation help</b><span>Drip line repair, installs, and yard water issues.</span></div>
+        <div><b>Phoenix / East Valley</b><span>Local landscaping and maintenance service area.</span></div>
+      </div>
+    </div>
+
+    <section class="owner shell">
+      <h2>About Dig It Landscaping LLC</h2>
+      <p><strong>Our Story</strong></p>
+      <p>Dig It Landscaping LLC is my pride. My name is Kyle Harris and I will work hard and tirelessly until the job is done, light or dark, wind or rain, to provide you with a landscape you can enjoy and are proud of.</p>
+      <a class="btn secondary" href="mailto:digitlandscapingllc@gmail.com?subject=Question%20for%20Dig%20It%20Landscaping">Have a Question?</a>
+    </section>
+
+    <section class="shell" id="services">
+      <div class="center">
+        <h2>Landscaping Services</h2>
+        <p class="section-intro">Choose the service that fits your yard, then call or text to confirm details, timing, and pricing.</p>
+      </div>
+      <div class="services">
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/11062b_d596b2e902ce47a5a77e28eca5e3de84~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_d596b2e902ce47a5a77e28eca5e3de84~mv2.jpg" alt="Freshly mowed lawn care service">
+          <div class="card-body"><h3>Lawn Care</h3><p>Routine lawn care to keep your yard neat, healthy, and easier to enjoy.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/11062b_d00559f81ba84b968b58859c3dbdf4aa~mv2_d_3762_2508_s_4_2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_d00559f81ba84b968b58859c3dbdf4aa~mv2_d_3762_2508_s_4_2.jpg" alt="Drip line irrigation close up">
+          <div class="card-body"><h3>Irrigation / Drip Line Repair</h3><p>Help with leaks, broken drip lines, dry spots, and irrigation issues before plants suffer.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/11062b_0c38ef3c732948b7af9083cc851294f0~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_0c38ef3c732948b7af9083cc851294f0~mv2.jpg" alt="Tree and bush trimming work">
+          <div class="card-body"><h3>Tree / Bush Trimming</h3><p>Clean up overgrowth, shape bushes, and make your landscape look cared for again.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/11062b_2a49e182ac724ddcad8265ca7fab0179~mv2.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_2a49e182ac724ddcad8265ca7fab0179~mv2.jpg" alt="Landscape maintenance and cleanup">
+          <div class="card-body"><h3>Yard Maintenance Service</h3><p>Ongoing maintenance and cleanups for yards that need reliable hands-on attention.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/80f0106d8af54acea421b4cb01e38674.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/80f0106d8af54acea421b4cb01e38674.jpg" alt="Irrigation and drip line installation">
+          <div class="card-body"><h3>Irrigation / Drip Line Install</h3><p>Install drip line and irrigation support for new plants, trees, and landscape areas.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+        <article class="card">
+          <img src="https://static.wixstatic.com/media/51e9a7619af24e65b60352752e34762c.jpg/v1/fill/w_390,h_390,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/51e9a7619af24e65b60352752e34762c.jpg" alt="Tree and bush installation">
+          <div class="card-body"><h3>Tree / Bush Installation</h3><p>Add new plants, trees, and bushes with a practical plan for placement and watering.</p><a class="small-btn" href="tel:4802898391">Call/Text</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="steps-wrap">
+      <div class="shell center">
+        <h2>What Happens Next</h2>
+        <p class="section-intro">Most landscaping jobs need a few details before a fair price. Start with a quick call, text, or email.</p>
+        <div class="steps">
+          <div class="step"><div class="num">1</div><h3>Send the yard details</h3><p>Share the service you need, your area, and a few photos if helpful.</p></div>
+          <div class="step"><div class="num">2</div><h3>Confirm the scope</h3><p>Kyle confirms what needs to be done, timing, and whether a visit is needed.</p></div>
+          <div class="step"><div class="num">3</div><h3>Get the work handled</h3><p>Dig It Landscaping gets to work so your yard is cleaner, healthier, and easier to enjoy.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell" id="reviews">
+      <div class="review">
+        <h2>Reviews &amp; Feedback</h2>
+        <p class="quote">Kyle's promise is simple: work hard, communicate directly, and leave you with a landscape you are proud of. For recent feedback or photos of completed work, call/text or visit the Dig It Landscaping LLC Facebook page.</p>
+      </div>
+    </section>
+
+    <section class="shell" id="contact">
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <p class="section-intro">Tell us what your yard needs. For the fastest response, call or text directly.</p>
+        <div class="actions">
+          <a class="btn" href="tel:4802898391">Call or Text 480-289-8391</a>
+          <a class="btn secondary" href="mailto:digitlandscapingllc@gmail.com?subject=Landscaping%20Quote%20Request">digitlandscapingllc@gmail.com</a>
+        </div>
+        <div class="contact-grid">
+          <form action="mailto:digitlandscapingllc@gmail.com" method="post" enctype="text/plain">
+            <input name="name" placeholder="Name" aria-label="Name">
+            <input name="email" type="email" placeholder="Email" aria-label="Email">
+            <input name="subject" placeholder="Subject" aria-label="Subject">
+            <textarea name="message" placeholder="Type your message here..." aria-label="Message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <div class="contact-card">
+            <h3>Dig It Landscaping LLC</h3>
+            <p><a href="mailto:digitlandscapingllc@gmail.com">digitlandscapingllc@gmail.com</a></p>
+            <p><a href="tel:4802898391">480-289-8391</a></p>
+            <p>Phoenix / East Valley, AZ</p>
+            <p><a href="https://www.facebook.com/Dig-It-Landscaping-LLC-103545005239706">Facebook</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="name">Dig It Landscaping LLC</div>
+    <div><a href="mailto:digitlandscapingllc@gmail.com">digitlandscapingllc@gmail.com</a></div>
+    <div><a href="tel:4802898391">480-289-8391</a></div>
+    <div class="facebook">f</div>
+    <div>©2021 Dig It Landscaping LLC by Kyle Harris</div>
+  </footer>
+</body>
+</html>

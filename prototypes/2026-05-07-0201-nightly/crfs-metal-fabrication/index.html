@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRFS LLC | Metal Fabrication, Welding & CNC Plasma Cutting in Filer, ID</title>
+  <meta name="description" content="CRFS LLC provides metal fabrication, welding, CNC plasma cutting, laser engraving, 3D printing, CAD design, and repair services for Filer, Twin Falls, Burley, and nearby Idaho areas.">
+  <style>
+    :root {
+      --ink: #111111;
+      --steel: #323436;
+      --muted: #6d6d6d;
+      --panel: #f4f4f2;
+      --line: #dedbd4;
+      --gold: #c6902d;
+      --gold-dark: #936815;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .utility {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 34px;
+      padding: 8px 24px;
+      font-size: 14px;
+      color: #2a2a2a;
+      border-bottom: 1px solid #ece8df;
+      background: #fff;
+    }
+    .utility a { border-bottom: 1px solid transparent; }
+    .utility a:hover { border-bottom-color: var(--gold); }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid #e8e5de;
+      backdrop-filter: blur(8px);
+    }
+    .nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 15px 28px;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; min-width: 210px; }
+    .brand img { width: 74px; height: 52px; object-fit: contain; }
+    .brand-text strong { display: block; letter-spacing: .08em; font-size: 15px; }
+    .brand-text span { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .12em; }
+    .links { display: flex; align-items: center; gap: 28px; font-size: 14px; }
+    .links a { color: #1f1f1f; }
+    .quote-small {
+      border: 1px solid var(--ink);
+      padding: 10px 16px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .hero {
+      min-height: 760px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(420px, .92fr);
+      background: #fff;
+    }
+    .hero-copy {
+      padding: 76px clamp(28px, 7vw, 112px) 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo-large { width: 188px; margin-bottom: 46px; }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      color: var(--gold-dark);
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: clamp(44px, 6vw, 78px);
+      line-height: .98;
+      margin: 0 0 26px;
+      letter-spacing: -.04em;
+      max-width: 760px;
+    }
+    .lead {
+      max-width: 650px;
+      font-size: clamp(18px, 2vw, 24px);
+      color: #303030;
+      margin: 0 0 34px;
+    }
+    .hero-actions, .contact-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 14px 22px;
+      border: 1px solid var(--ink);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 13px;
+    }
+    .btn.primary { background: var(--ink); color: var(--white); }
+    .btn.gold { background: var(--gold); border-color: var(--gold); color: #111; }
+    .hero-photo {
+      min-height: 760px;
+      background-image: linear-gradient(90deg, rgba(0,0,0,.18), rgba(0,0,0,.02)), url('https://static.wixstatic.com/media/34d3d94481d145e19d068133f1dbe772.jpg/v1/fill/w_524,h_1801,fp_0.50_0.50,q_85,enc_avif,quality_auto/34d3d94481d145e19d068133f1dbe772.jpg');
+      background-size: cover;
+      background-position: center top;
+    }
+    .trust {
+      max-width: 1160px;
+      margin: -52px auto 0;
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--steel);
+      color: #fff;
+      box-shadow: 0 22px 50px rgba(0,0,0,.18);
+    }
+    .trust div { padding: 26px 24px; border-right: 1px solid rgba(255,255,255,.16); }
+    .trust div:last-child { border-right: 0; }
+    .trust strong { display: block; font-size: 17px; margin-bottom: 5px; }
+    .trust span { color: #d5d5d5; font-size: 14px; }
+    section { padding: 92px 28px; }
+    .wrap { max-width: 1160px; margin: 0 auto; }
+    .intro { display: grid; grid-template-columns: .78fr 1.22fr; gap: 58px; align-items: end; }
+    h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.05; margin: 0 0 18px; letter-spacing: -.035em; }
+    .section-kicker { text-transform: uppercase; letter-spacing: .16em; color: var(--gold-dark); font-weight: 700; font-size: 13px; margin-bottom: 12px; }
+    .intro p { margin: 0; color: #383838; font-size: 19px; }
+    .services { background: var(--panel); }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 42px; }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 30px;
+      min-height: 224px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card .num { color: var(--gold-dark); font-weight: 700; letter-spacing: .16em; font-size: 12px; }
+    .card h3 { text-transform: uppercase; letter-spacing: .06em; margin: 18px 0 12px; font-size: 18px; }
+    .card p { margin: 0; color: #555; }
+    .banner {
+      min-height: 390px;
+      background-image: linear-gradient(90deg, rgba(0,0,0,.62), rgba(0,0,0,.12)), url('https://static.wixstatic.com/media/189591530206413c91d3ac4848692e8e.jpg/v1/fill/w_1440,h_560,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/189591530206413c91d3ac4848692e8e.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+    .banner .wrap { width: 100%; }
+    .banner h2 { max-width: 670px; }
+    .banner p { max-width: 620px; font-size: 20px; color: #ececec; }
+    .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 38px; }
+    .step { border-top: 4px solid var(--gold); padding: 24px 4px 0; }
+    .step strong { display: block; font-size: 20px; margin-bottom: 10px; }
+    .step p { margin: 0; color: #555; }
+    .contact {
+      background: #111;
+      color: #fff;
+      padding-bottom: 78px;
+    }
+    .contact .wrap { display: grid; grid-template-columns: 1fr .9fr; gap: 48px; align-items: center; }
+    .contact p { color: #dedede; font-size: 19px; max-width: 650px; }
+    .contact-box { background: #fff; color: #111; padding: 34px; border-left: 6px solid var(--gold); }
+    .contact-box a { display: block; margin-top: 12px; font-weight: 700; font-size: 20px; }
+    footer { background: #f7f7f5; text-align: center; padding: 34px 20px; color: #555; font-size: 14px; }
+    footer strong { color: #111; }
+    @media (max-width: 900px) {
+      .utility { flex-direction: column; gap: 4px; }
+      .nav { align-items: flex-start; }
+      .links { display: none; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-copy { padding-top: 46px; }
+      .hero-photo { min-height: 420px; order: -1; background-position: center 16%; }
+      .logo-large { width: 145px; margin-bottom: 28px; }
+      .trust { margin: 0; grid-template-columns: 1fr 1fr; box-shadow: none; }
+      .intro, .contact .wrap { grid-template-columns: 1fr; }
+      .grid, .process-grid { grid-template-columns: 1fr; }
+      section { padding: 66px 22px; }
+    }
+    @media (max-width: 560px) {
+      .brand-text span { display: none; }
+      .trust { grid-template-columns: 1fr; }
+      .trust div { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.16); }
+      .btn { width: 100%; }
+      .hero-copy { padding-inline: 22px; }
+      h1 { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="utility">
+    <a href="mailto:crfsllc@gmail.com">crfsllc@gmail.com</a>
+    <a href="tel:+12084218915">1 (208) 421-8915</a>
+    <span>Filer, Idaho • Serving Twin Falls, Filer & Burley</span>
+  </div>
+
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="CRFS LLC home">
+        <img src="https://static.wixstatic.com/media/bac2c6_916f130b6d8540b8af55f977f97f7f63~mv2.jpg/v1/fill/w_232,h_159,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/crfsllc%20logo.jpg" alt="CRFS LLC logo">
+        <span class="brand-text"><strong>CRFS LLC</strong><span>Metal fabrication</span></span>
+      </a>
+      <div class="links">
+        <a href="#services">Services</a>
+        <a href="#process">Start a Project</a>
+        <a href="#contact">Contact</a>
+        <a class="quote-small" href="mailto:crfsllc@gmail.com?subject=Fabrication%20quote%20request">Get a Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="CRFS metal fabrication">
+      <div class="hero-copy">
+        <img class="logo-large" src="https://static.wixstatic.com/media/bac2c6_916f130b6d8540b8af55f977f97f7f63~mv2.jpg/v1/fill/w_232,h_159,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/crfsllc%20logo.jpg" alt="CRFS LLC logo">
+        <div class="eyebrow">Welding • CNC plasma cutting • CAD design</div>
+        <h1>Custom metal fabrication made straightforward.</h1>
+        <p class="lead">CRFS LLC helps Idaho customers turn repairs, parts, signs, brackets, custom metal pieces, and CAD drawings into finished work.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:crfsllc@gmail.com?subject=Fabrication%20quote%20request">Request a Fabrication Quote</a>
+          <a class="btn" href="tel:+12084218915">Call 1 (208) 421-8915</a>
+        </div>
+      </div>
+      <div class="hero-photo" role="img" aria-label="Welder working on metal fabrication"></div>
+    </section>
+
+    <div class="trust" aria-label="CRFS trust signals">
+      <div><strong>Local Idaho shop</strong><span>Filer based, serving Twin Falls, Filer, Burley, and nearby areas.</span></div>
+      <div><strong>Custom work welcome</strong><span>One-off parts, repairs, signage, brackets, fixtures, and small runs.</span></div>
+      <div><strong>CAD to finished piece</strong><span>Design support, cutting, engraving, printing, and fabrication paths.</span></div>
+      <div><strong>Quote-first process</strong><span>Send photos, dimensions, drawings, or a quick project description.</span></div>
+    </div>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="intro">
+          <div>
+            <div class="section-kicker">Fabrication services</div>
+            <h2>Choose the work you need, then send the project details.</h2>
+          </div>
+          <p>Instead of guessing through generic booking blocks, start with the service that fits your job. CRFS can help with practical shop work, custom pieces, and repair projects.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><span class="num">01</span><div><h3>Welding Service</h3><p>Repair, join, reinforce, or modify metal parts and assemblies for practical use.</p></div></article>
+          <article class="card"><span class="num">02</span><div><h3>CNC Plasma Cutting</h3><p>Cut custom shapes, brackets, panels, signs, and parts from supplied drawings or project specs.</p></div></article>
+          <article class="card"><span class="num">03</span><div><h3>Laser Engraving</h3><p>Add precise markings, labels, decorative details, and personalization to compatible materials.</p></div></article>
+          <article class="card"><span class="num">04</span><div><h3>3D Printing</h3><p>Print sample parts, fit-check pieces, fixtures, and small components before or alongside metal work.</p></div></article>
+          <article class="card"><span class="num">05</span><div><h3>CAD Design</h3><p>Turn sketches, measurements, or rough ideas into cleaner files for fabrication and cutting.</p></div></article>
+          <article class="card"><span class="num">06</span><div><h3>Repair & Restoration</h3><p>Bring in damaged pieces, equipment parts, or restoration needs and get a practical path forward.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" aria-label="Metal engraving and shop capability">
+      <div class="wrap">
+        <div class="section-kicker">Built for real projects</div>
+        <h2>From a rough idea to a cleaner finished piece.</h2>
+        <p>Share what you are trying to build, fix, mark, cut, or restore. CRFS can help identify the right fabrication path before the work starts.</p>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="intro">
+          <div>
+            <div class="section-kicker">How to start</div>
+            <h2>A simple quote process for custom work.</h2>
+          </div>
+          <p>Custom fabrication is easier when the first step is clear. Send the basic details and CRFS will follow up with questions, feasibility, and next steps.</p>
+        </div>
+        <div class="process-grid">
+          <div class="step"><strong>1. Send the idea</strong><p>Email photos, sketches, measurements, material notes, or what needs to be repaired.</p></div>
+          <div class="step"><strong>2. Confirm the path</strong><p>CRFS reviews the request and identifies whether it needs welding, cutting, CAD, engraving, printing, or repair work.</p></div>
+          <div class="step"><strong>3. Schedule the work</strong><p>Once the scope is clear, you get timing, next steps, and a straightforward way to move the job forward.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div>
+          <div class="section-kicker">Get in touch</div>
+          <h2>Need a metal part made, repaired, cut, engraved, or designed?</h2>
+          <p>Contact CRFS LLC in Filer, Idaho. Include the project goal, size, material if known, photos or drawings, and the best way to reach you.</p>
+          <div class="contact-actions">
+            <a class="btn gold" href="mailto:crfsllc@gmail.com?subject=Fabrication%20quote%20request">Email Project Details</a>
+            <a class="btn" href="tel:+12084218915">Call Now</a>
+          </div>
+        </div>
+        <aside class="contact-box" aria-label="CRFS contact details">
+          <strong>CRFS LLC</strong>
+          <span>Filer, Idaho</span>
+          <a href="mailto:crfsllc@gmail.com">crfsllc@gmail.com</a>
+          <a href="tel:+12084218915">1 (208) 421-8915</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>CRFS LLC</strong> • Metal fabrication, welding, CNC plasma cutting, laser engraving, 3D printing, CAD design, and repair services.
+  </footer>
+</body>
+</html>

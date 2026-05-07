@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golf Cart Repair & Upgrades in McHenry, IL | Mike's X-Treme LLC</title>
+  <meta name="description" content="Mike's X-Treme LLC in McHenry, IL handles golf cart repairs, batteries, lift kits, audio, vinyl wraps, tires, rims, and free estimates.">
+  <style>
+    :root {
+      --ink: #0c0c0d;
+      --charcoal: #18191e;
+      --soft: #f4f4f2;
+      --line: #dadada;
+      --muted: #62656a;
+      --silver: #cfd3d7;
+      --bluegray: #87acba;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: var(--white); }
+    a { color: inherit; }
+    .topbar { background: #09090a; color: #fff; text-align: center; font-size: 13px; letter-spacing: .04em; padding: 9px 16px; }
+    .topbar a { color: #fff; font-weight: 700; text-decoration: none; }
+    header { position: sticky; top: 0; z-index: 5; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
+    .nav { max-width: 1180px; margin: 0 auto; min-height: 74px; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 26px; }
+    .brand { font-size: 21px; font-weight: 700; letter-spacing: .01em; text-decoration: none; }
+    nav { display: flex; align-items: center; gap: 28px; font-size: 14px; }
+    nav a { text-decoration: none; color: #25262a; }
+    .nav-cta { border: 1px solid #111; padding: 11px 17px; font-weight: 700; }
+    .hero { min-height: 760px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(420px, 50vw); background: var(--soft); }
+    .hero-copy { display: flex; align-items: center; justify-content: center; padding: 86px 40px; }
+    .hero-card { max-width: 560px; background: rgba(255,255,255,.9); padding: 54px 50px; border: 1px solid var(--line); box-shadow: 0 18px 50px rgba(0,0,0,.08); }
+    .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: 12px; font-weight: 700; color: var(--muted); margin: 0 0 18px; }
+    h1 { font-size: clamp(42px, 6vw, 78px); line-height: .95; margin: 0 0 22px; letter-spacing: -.055em; }
+    .tagline { font-size: 22px; line-height: 1.35; margin: 0 0 16px; color: #232428; }
+    .subcopy { color: #50535a; line-height: 1.7; margin: 0 0 30px; font-size: 16px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border: 1px solid #111; text-decoration: none; font-weight: 700; background: #111; color: #fff; }
+    .button.secondary { background: #fff; color: #111; }
+    .hero-image { min-height: 760px; background: #111 url('https://static.wixstatic.com/media/77f185_6a307117bc35463b8e1b24487331a146~mv2.jpg/v1/fill/w_760,h_1600,fp_0.50_0.50,q_85,enc_auto/77f185_6a307117bc35463b8e1b24487331a146~mv2.jpg') center top / cover no-repeat; position: relative; }
+    .hero-image:after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(244,244,242,.22), rgba(0,0,0,.05)); }
+    .trust { max-width: 1180px; margin: -58px auto 0; position: relative; z-index: 2; padding: 0 28px; }
+    .trust-grid { background: #fff; border: 1px solid var(--line); box-shadow: 0 14px 34px rgba(0,0,0,.08); display: grid; grid-template-columns: repeat(4, 1fr); }
+    .trust-item { padding: 24px 22px; border-right: 1px solid var(--line); }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong { display: block; font-size: 16px; margin-bottom: 6px; }
+    .trust-item span { color: var(--muted); font-size: 14px; line-height: 1.45; }
+    section { padding: 86px 28px; }
+    .wrap { max-width: 1180px; margin: 0 auto; }
+    .section-head { display: grid; grid-template-columns: .85fr 1.15fr; gap: 44px; align-items: end; margin-bottom: 34px; }
+    h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1; letter-spacing: -.04em; margin: 0; }
+    .section-head p { color: var(--muted); line-height: 1.75; margin: 0; }
+    .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .service-card { border: 1px solid var(--line); background: #fff; min-height: 240px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between; }
+    .service-card.feature { background: var(--charcoal); color: #fff; border-color: var(--charcoal); }
+    .service-card h3 { margin: 0 0 12px; font-size: 24px; letter-spacing: -.02em; }
+    .service-card p { color: inherit; opacity: .76; line-height: 1.6; margin: 0 0 22px; }
+    .mini-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill { border: 1px solid currentColor; padding: 7px 10px; font-size: 12px; opacity: .8; }
+    .photo-band { background: #111; color: #fff; padding: 0; display: grid; grid-template-columns: 1fr 1fr; }
+    .photo { min-height: 430px; background: url('https://static.wixstatic.com/media/77f185_e847129261df400caa86df2463a1479f~mv2.jpg/v1/fill/w_900,h_650,fp_0.50_0.50,q_85,enc_auto/77f185_e847129261df400caa86df2463a1479f~mv2.jpg') center / cover no-repeat; }
+    .photo-copy { padding: 70px clamp(28px, 6vw, 86px); display: flex; flex-direction: column; justify-content: center; }
+    .photo-copy h2 { margin-bottom: 20px; }
+    .photo-copy p { color: #d6d6d6; line-height: 1.75; max-width: 540px; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: step; }
+    .step { border-top: 4px solid #111; background: var(--soft); padding: 26px; min-height: 190px; position: relative; }
+    .step:before { counter-increment: step; content: "0" counter(step); display: block; color: var(--bluegray); font-weight: 700; margin-bottom: 22px; }
+    .step h3 { margin: 0 0 10px; font-size: 22px; }
+    .step p { margin: 0; color: var(--muted); line-height: 1.6; }
+    .hours-contact { background: var(--soft); }
+    .contact-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 24px; align-items: stretch; }
+    .panel { background: #fff; border: 1px solid var(--line); padding: 34px; }
+    .panel.dark { background: var(--charcoal); color: #fff; }
+    .panel h2 { margin-bottom: 24px; }
+    .hours { list-style: none; padding: 0; margin: 0; }
+    .hours li { display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid rgba(0,0,0,.12); }
+    .panel.dark .hours li { border-bottom-color: rgba(255,255,255,.16); }
+    .contact-lines { display: grid; gap: 14px; margin: 26px 0; color: #dcdcdc; }
+    .contact-lines a { color: #fff; font-weight: 700; }
+    footer { background: #09090a; color: #d8d8d8; padding: 32px 28px; text-align: center; font-size: 14px; }
+    footer a { color: #fff; }
+    @media (max-width: 900px) {
+      .topbar { font-size: 12px; }
+      .nav { padding: 16px 18px; align-items: flex-start; flex-direction: column; gap: 14px; }
+      nav { width: 100%; gap: 14px; flex-wrap: wrap; }
+      .hero { grid-template-columns: 1fr; min-height: 0; }
+      .hero-copy { padding: 42px 18px; }
+      .hero-card { padding: 34px 24px; }
+      .hero-image { min-height: 420px; order: -1; }
+      .trust { margin-top: 0; padding: 0; }
+      .trust-grid, .services, .steps, .photo-band, .contact-grid, .section-head { grid-template-columns: 1fr; }
+      .trust-item { border-right: 0; border-bottom: 1px solid var(--line); }
+      section { padding: 58px 18px; }
+      .photo { min-height: 300px; }
+      .actions .button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">McHenry golf cart repairs and upgrades. Call <a href="tel:13128100826">312-810-0826</a> for a free estimate.</div>
+  <header>
+    <div class="nav">
+      <a class="brand" href="#top">Mike's X-Treme LLC</a>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#process">Free Estimates</a>
+        <a href="#hours">Hours</a>
+        <a href="mailto:mikesxtreme@gmail.com">Email Us!</a>
+        <a class="nav-cta" href="tel:13128100826">Call Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-card">
+          <p class="eyebrow">Golf cart upgrades and repair in McHenry, IL</p>
+          <h1 id="hero-title">You think it. We do it.</h1>
+          <p class="tagline">Repairs, batteries, lift kits, audio, wraps, rims, tires, and custom upgrades for your golf cart.</p>
+          <p class="subcopy">Tell Mike's X-Treme what is wrong, what you want changed, or how you want the cart to look and ride. We will point you toward the right fix and start with a free estimate.</p>
+          <div class="actions">
+            <a class="button" href="tel:13128100826">Call for a Free Estimate</a>
+            <a class="button secondary" href="mailto:mikesxtreme@gmail.com?subject=Free%20golf%20cart%20estimate">Email Cart Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image" role="img" aria-label="Mike's X-Treme golf cart shop graphic"></div>
+    </section>
+
+    <div class="trust" aria-label="Shop highlights">
+      <div class="trust-grid">
+        <div class="trust-item"><strong>Free estimates</strong><span>Start with a clear next step before work begins.</span></div>
+        <div class="trust-item"><strong>Repair and custom work</strong><span>Diagnostics, fixes, appearance upgrades, and accessories.</span></div>
+        <div class="trust-item"><strong>Local McHenry shop</strong><span>4906 Wildwood Dr., McHenry, IL 60051.</span></div>
+        <div class="trust-item"><strong>Easy phone contact</strong><span>Call 312-810-0826 with questions or to set up a visit.</span></div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Choose the path that fits your cart.</h2>
+          <p>The old service list is easier when it is grouped by why someone is calling: fix a problem, upgrade performance and comfort, or customize the look and sound.</p>
+        </div>
+        <div class="services">
+          <article class="service-card feature">
+            <div>
+              <h3>Repair and diagnostics</h3>
+              <p>For carts that will not run right, need electrical attention, or are due for battery service.</p>
+            </div>
+            <div class="mini-list"><span class="pill">Electrical service</span><span class="pill">Battery service</span><span class="pill">Wheel alignment</span></div>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Performance and ride</h3>
+              <p>Make the cart sit, ride, and handle the way you want for neighborhood, campground, course, or lake life.</p>
+            </div>
+            <div class="mini-list"><span class="pill">Performance upgrades</span><span class="pill">Lift kits</span><span class="pill">Tires</span><span class="pill">Rims</span></div>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Custom look and sound</h3>
+              <p>Add personality with clean audio installs, vinyl wrapping, wheels, and finish details.</p>
+            </div>
+            <div class="mini-list"><span class="pill">Audio installation</span><span class="pill">Vinyl wrapping</span><span class="pill">Wheels</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-band">
+      <div class="photo" role="img" aria-label="ATV and golf cart at Mike's X-Treme"></div>
+      <div class="photo-copy">
+        <p class="eyebrow">Casual shop feel, clearer quote flow</p>
+        <h2>Bring the idea. We will help sort the parts, repair, and estimate.</h2>
+        <p>Whether the cart needs a practical fix or a full X-Treme upgrade, the fastest first step is a quick call or email with what you have and what you want done.</p>
+        <div class="actions">
+          <a class="button" href="tel:13128100826">Talk Through My Cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What happens next.</h2>
+          <p>A free estimate works better when the page explains the next move. This keeps shoppers from guessing whether to book, call, email, or just show up.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><h3>Call or email</h3><p>Share the cart make, issue or upgrade idea, and the best way to reach you.</p></div>
+          <div class="step"><h3>Confirm the right service</h3><p>We sort whether this is repair, battery, performance, audio, wrap, tire, rim, or lift kit work.</p></div>
+          <div class="step"><h3>Set the estimate</h3><p>Schedule the free estimate and get a realistic direction before the cart comes in.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hours-contact" id="hours">
+      <div class="wrap contact-grid">
+        <div class="panel">
+          <h2>Opening hours</h2>
+          <ul class="hours">
+            <li><span>Mon - Fri</span><strong>9am - 6pm</strong></li>
+            <li><span>Saturday</span><strong>10am - 2pm</strong></li>
+            <li><span>Sunday</span><strong>Closed</strong></li>
+          </ul>
+        </div>
+        <div class="panel dark">
+          <p class="eyebrow">Contact Us</p>
+          <h2>Call us for questions and to set up your free estimate today.</h2>
+          <div class="contact-lines">
+            <div>4906 Wildwood Dr., McHenry, IL 60051</div>
+            <div><a href="tel:13128100826">312-810-0826</a></div>
+            <div><a href="mailto:mikesxtreme@gmail.com">mikesxtreme@gmail.com</a></div>
+          </div>
+          <div class="actions">
+            <a class="button" href="tel:13128100826">Call 312-810-0826</a>
+            <a class="button secondary" href="mailto:mikesxtreme@gmail.com?subject=Free%20golf%20cart%20estimate">Email for Estimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ©2026 Mike's X-Treme LLC. Golf cart upgrades and repair in McHenry, IL.
+  </footer>
+</body>
+</html>
