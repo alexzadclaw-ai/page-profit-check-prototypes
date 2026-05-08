@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sergent's Cleaning Services | Residential and Commercial Cleaning in Marion, OH</title>
+  <meta name="description" content="Sergent's Cleaning Services provides residential cleaning, commercial cleaning, move-in and move-out cleaning, disinfecting, carpet cleaning, and free estimates in Marion, Ohio and surrounding areas.">
+  <style>
+    :root{
+      --navy:#0e1f58;
+      --navy2:#102467;
+      --blue:#255bfe;
+      --cream:#f7f6ef;
+      --soft:#eff1f2;
+      --line:#d8dde8;
+      --text:#1d2430;
+      --muted:#5d6878;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Avenir, "Helvetica Neue", Arial, sans-serif;color:var(--text);background:white;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .top-note{background:var(--soft);color:var(--navy);font-size:14px;text-align:center;padding:9px 18px;letter-spacing:.02em}
+    .top-note a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+    .brand{max-width:1180px;margin:auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;padding:22px 24px 12px}
+    .brand-left,.brand-right{display:flex;align-items:center;gap:20px;font-size:14px;color:var(--navy)}
+    .brand-right{justify-content:flex-end}
+    .brand-center{text-align:center;color:var(--navy)}
+    .brand-center img{width:85px;height:80px;object-fit:contain;display:block;margin:0 auto 8px}
+    .brand-name{font-family:Questrial, Avenir, sans-serif;font-size:23px;letter-spacing:.02em;font-weight:400}
+    .tagline{font-size:14px;margin-top:2px;color:var(--navy2)}
+    nav{max-width:1180px;margin:auto;display:flex;justify-content:center;gap:36px;padding:0 24px 20px;color:var(--navy);font-size:15px}
+    nav a{padding:4px 0;border-bottom:1px solid transparent}
+    nav a:hover{border-color:var(--navy)}
+    .phone-pill{border:1px solid var(--navy);padding:8px 14px;white-space:nowrap}
+    .hero{min-height:560px;background:linear-gradient(90deg,rgba(247,246,239,.92) 0%,rgba(247,246,239,.78) 42%,rgba(247,246,239,.18) 100%),url('https://static.wixstatic.com/media/0b150d41b502424784613e85cbcdf662.jpg/v1/fill/w_1205,h_440,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0b150d41b502424784613e85cbcdf662.jpg') center/cover no-repeat;display:flex;align-items:center}
+    .hero-inner{max-width:1180px;margin:auto;width:100%;padding:72px 24px}
+    .eyebrow{color:var(--navy);letter-spacing:.16em;text-transform:uppercase;font-size:13px;margin-bottom:18px}
+    h1,h2,h3{font-family:Questrial, Avenir, sans-serif;color:var(--navy);font-weight:400;line-height:1.12;margin:0}
+    h1{font-size:clamp(42px,6vw,74px);max-width:760px}
+    .hero p{max-width:600px;margin:22px 0 26px;font-size:20px;color:#20303c}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:13px 24px;background:var(--navy);color:#fff;border:1px solid var(--navy);font-size:15px;letter-spacing:.02em}
+    .btn.secondary{background:#fff;color:var(--navy)}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:32px;max-width:720px}
+    .chip{background:#fff;border:1px solid rgba(14,31,88,.28);color:var(--navy);padding:8px 13px;font-size:14px}
+    section{padding:78px 24px}
+    .wrap{max-width:1180px;margin:auto}
+    .section-title{text-align:center;margin-bottom:44px}
+    .section-title h2{font-size:42px;margin-bottom:12px}
+    .section-title p{margin:0 auto;max-width:720px;color:var(--muted)}
+    .trust{background:#fff;padding:34px 24px;border-bottom:1px solid var(--line)}
+    .trust-grid{max-width:1040px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center;color:var(--navy)}
+    .trust-card{border-right:1px solid var(--line);padding:8px 18px}
+    .trust-card:last-child{border-right:0}
+    .trust-card strong{display:block;font-family:Questrial, Avenir, sans-serif;font-size:20px;font-weight:400;margin-bottom:5px}
+    .trust-card span{font-size:14px;color:var(--muted)}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+    .photo-card{min-height:480px;background:url('https://static.wixstatic.com/media/851ee9a3fdd542869ddff81ccaf27cd9.jpg/v1/fill/w_460,h_580,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Cleaning%20Materials.jpg') center/cover no-repeat;box-shadow:0 20px 50px rgba(14,31,88,.12)}
+    .about-copy h2{font-size:40px;margin-bottom:18px}
+    .about-copy .lead{font-size:20px;color:var(--navy);margin:0 0 16px}
+    .about-copy p{color:var(--muted);margin:0 0 18px}
+    .hours{background:var(--cream);border-left:4px solid var(--navy);padding:22px 24px;margin-top:24px;color:var(--navy)}
+    .hours h3{font-size:24px;margin-bottom:10px}
+    .services{background:var(--soft)}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .service-card{background:#fff;border:1px solid var(--line);padding:30px;min-height:330px;display:flex;flex-direction:column;justify-content:space-between}
+    .service-card h3{font-size:27px;margin-bottom:12px}
+    .service-card p{color:var(--muted);margin:0 0 14px}
+    ul.clean{list-style:none;margin:0 0 20px;padding:0;color:#293445;font-size:15px}
+    ul.clean li{padding-left:18px;position:relative;margin:7px 0}
+    ul.clean li:before{content:"";width:6px;height:6px;background:var(--blue);border-radius:50%;position:absolute;left:0;top:.75em}
+    .small-link{color:var(--navy);font-weight:700;text-decoration:underline;text-underline-offset:4px;font-size:15px}
+    .band{background:linear-gradient(rgba(14,31,88,.72),rgba(14,31,88,.72)),url('https://static.wixstatic.com/media/11062b_bd4cf07de78546c39a6f362c57505476~mv2.jpg/v1/fill/w_1365,h_440,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_bd4cf07de78546c39a6f362c57505476~mv2.jpg') center/cover no-repeat;color:#fff;text-align:center;padding:76px 24px}
+    .band h2{color:#fff;font-size:42px;margin-bottom:16px}
+    .band p{max-width:760px;margin:0 auto 26px;font-size:19px;color:rgba(255,255,255,.88)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .step{border:1px solid var(--line);padding:30px;background:#fff}
+    .num{width:42px;height:42px;border:1px solid var(--navy);color:var(--navy);display:flex;align-items:center;justify-content:center;border-radius:50%;margin-bottom:18px;font-family:Questrial, Avenir, sans-serif;font-size:20px}
+    .step h3{font-size:25px;margin-bottom:10px}
+    .step p{color:var(--muted);margin:0}
+    .quote-panel{background:var(--cream)}
+    .contact-box{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;background:#fff;border:1px solid var(--line);padding:38px;box-shadow:0 18px 45px rgba(14,31,88,.08)}
+    .contact-box h2{font-size:40px;margin-bottom:14px}
+    .contact-box p{color:var(--muted);margin:0 0 20px}
+    .contact-list{display:grid;gap:12px;margin-top:20px;color:var(--navy)}
+    .contact-list a,.contact-list div{border-bottom:1px solid var(--line);padding-bottom:12px}
+    form{display:grid;gap:12px}
+    input,textarea{width:100%;border:1px solid var(--line);padding:14px 15px;font:inherit;color:var(--text);background:#fff}
+    textarea{min-height:126px;resize:vertical}
+    .form-note{font-size:13px;color:var(--muted);line-height:1.45}
+    footer{background:#fff;text-align:center;color:var(--navy);padding:42px 24px;border-top:1px solid var(--line)}
+    footer img{width:64px;height:60px;object-fit:contain;margin-bottom:10px}
+    footer .foot-name{font-family:Questrial, Avenir, sans-serif;font-size:22px;margin-bottom:6px}
+    footer p{margin:5px 0;color:var(--muted);font-size:14px}
+    @media (max-width:900px){
+      .brand{grid-template-columns:1fr}.brand-left,.brand-right{justify-content:center;flex-wrap:wrap}.brand-left{order:2}.brand-center{order:1}.brand-right{order:3}nav{gap:18px;flex-wrap:wrap}.hero{min-height:auto}.trust-grid,.service-grid,.steps,.split,.contact-box{grid-template-columns:1fr}.trust-card{border-right:0;border-bottom:1px solid var(--line)}.trust-card:last-child{border-bottom:0}.photo-card{min-height:340px}section{padding:58px 20px}
+    }
+  </style>
+</head>
+<body>
+  <div class="top-note">Free estimates for Marion, Ohio and surrounding areas. Call or text <a href="tel:+17402420847">740-242-0847</a>.</div>
+
+  <header>
+    <div class="brand">
+      <div class="brand-left">
+        <a href="mailto:sergentscleaningservices@gmail.com">sergentscleaningservices@gmail.com</a>
+      </div>
+      <a class="brand-center" href="#home" aria-label="Sergent's Cleaning Services home">
+        <img src="https://static.wixstatic.com/media/a139ab_69a6e255013d41a4b16f574e553ceb49~mv2.png/v1/fill/w_85,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png" alt="Sergent's Cleaning Services logo">
+        <div class="brand-name">Sergent's Cleaning Services</div>
+        <div class="tagline">Residential &amp; Commercial Cleaning</div>
+      </a>
+      <div class="brand-right">
+        <a class="phone-pill" href="tel:+17402420847">740-242-0847</a>
+      </div>
+    </div>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#hours">Hours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Sergent's Cleaning Services hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Always at your service</div>
+        <h1>Cleaning services for homes, offices, and move-outs around Marion, Ohio.</h1>
+        <p>Fair prices, reliable communication, and detailed cleaning for residential and commercial spaces. Call, text, or email to schedule a free estimate.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:sergentscleaningservices@gmail.com?subject=Free%20cleaning%20estimate%20request&body=Hi%20Sergent's%20Cleaning%20Services,%0A%0AI'd%20like%20a%20free%20estimate.%20The%20space%20is:%0AService%20needed:%0APreferred%20timing:%0AAddress%20or%20area:%0A%0AThank%20you.">Request a Free Estimate</a>
+          <a class="btn secondary" href="tel:+17402420847">Call 740-242-0847</a>
+        </div>
+        <div class="chips" aria-label="Service highlights">
+          <span class="chip">Residential cleaning</span>
+          <span class="chip">Commercial cleaning</span>
+          <span class="chip">Move-in and move-out</span>
+          <span class="chip">Disinfecting</span>
+          <span class="chip">Carpet cleaning</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust" aria-label="Service quick facts">
+      <div class="trust-grid">
+        <div class="trust-card"><strong>Free estimates</strong><span>Call or text to schedule</span></div>
+        <div class="trust-card"><strong>Local owners</strong><span>Serving Marion and nearby areas</span></div>
+        <div class="trust-card"><strong>One-time or recurring</strong><span>Daily, weekly, bi-weekly, or monthly</span></div>
+        <div class="trust-card"><strong>Homes and businesses</strong><span>From houses to offices and apartments</span></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap split">
+        <div class="photo-card" role="img" aria-label="Cleaning materials ready for a detailed cleaning visit"></div>
+        <div class="about-copy">
+          <div class="eyebrow">About Us</div>
+          <h2>Reliable cleaning service with clear communication.</h2>
+          <p class="lead">Sergent's Cleaning Services is here to provide quality cleaning for Marion, Ohio and surrounding areas.</p>
+          <p>Every job is different. Homes, offices, move-outs, property cleanouts, and post-construction spaces all need a cleaning plan that fits the space. The goal is simple: efficient service, clear expectations, and results you can feel good about.</p>
+          <p>Tell us what needs cleaned, how often you need service, and when you would like it done. We will help you decide the right next step for a free estimate.</p>
+          <div class="hours" id="hours">
+            <h3>Opening Hours</h3>
+            <div>Mon - Fri: 9am - 6pm</div>
+            <div>Sat: 10am - 2pm</div>
+            <div>Sun: Closed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Cleaning Services</h2>
+          <p>Choose the service that fits your space, then call, text, or email to schedule a free estimate.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div>
+              <h3>Residential Cleaning</h3>
+              <p>For daily, weekly, bi-weekly, monthly, seasonal, or one-time home cleaning.</p>
+              <ul class="clean">
+                <li>Deep cleaning and regular upkeep</li>
+                <li>Hard surfaces cleaned by hand</li>
+                <li>Windows, holiday cleaning, and home sale prep</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Residential%20cleaning%20estimate">Ask for a residential estimate</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Commercial Cleaning</h3>
+              <p>Professional cleaning support for smaller commercial spaces that need consistent care.</p>
+              <ul class="clean">
+                <li>Offices, banks, and apartment complexes</li>
+                <li>Trash, vacuuming, mopping, and dusting</li>
+                <li>Breakrooms, bathrooms, and common areas</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Commercial%20cleaning%20estimate">Schedule a commercial walkthrough</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Move-In / Move-Out</h3>
+              <p>Detailed cleaning before you move into a new place or after you move out of the old one.</p>
+              <ul class="clean">
+                <li>Deposit-return and rental turnover cleaning</li>
+                <li>Move-in ready freshening</li>
+                <li>Property cleanouts and home sale preparation</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Move-in%20or%20move-out%20cleaning%20estimate">Request move-out cleaning</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Disinfectant Service</h3>
+              <p>Extra cleaning support when you want your home or office to feel safer and fresher.</p>
+              <ul class="clean">
+                <li>Common-touch areas</li>
+                <li>Home and office spaces</li>
+                <li>Useful during cold, flu, or high-traffic seasons</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Disinfectant%20cleaning%20estimate">Ask about disinfecting</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Carpet Cleaning</h3>
+              <p>Carpet cleaning, deodorizing, and extractions for homes and commercial spaces.</p>
+              <ul class="clean">
+                <li>Carpet refreshes</li>
+                <li>Deodorizing</li>
+                <li>Extractions when the job needs deeper care</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Carpet%20cleaning%20estimate">Get carpet cleaning details</a>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Laundry Services</h3>
+              <p>Coming soon: laundry help with available pickup and drop-off options.</p>
+              <ul class="clean">
+                <li>Designed as a time saver for busy schedules</li>
+                <li>Pickup and drop-off planned</li>
+                <li>Ask to be notified when service opens</li>
+              </ul>
+            </div>
+            <a class="small-link" href="mailto:sergentscleaningservices@gmail.com?subject=Laundry%20service%20notification">Ask about laundry service</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <h2>Need a clean space without adding stress to your day?</h2>
+      <p>Tell us what kind of space you have, what needs attention, and when you need cleaning. We will help you set up the right free estimate.</p>
+      <a class="btn secondary" href="mailto:sergentscleaningservices@gmail.com?subject=Cleaning%20estimate%20request">Get in Touch</a>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>How Estimates Work</h2>
+          <p>A clear process makes it easier to request cleaning help and know what information to send.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="num">1</div>
+            <h3>Tell us the space</h3>
+            <p>Home, office, move-out, apartment complex, post-construction, carpet cleaning, or disinfecting.</p>
+          </div>
+          <div class="step">
+            <div class="num">2</div>
+            <h3>Share timing and details</h3>
+            <p>Include your preferred schedule, service area, size of the space, and any priority rooms or tasks.</p>
+          </div>
+          <div class="step">
+            <div class="num">3</div>
+            <h3>Schedule a free estimate</h3>
+            <p>We will confirm the best next step by phone, text, or email so the cleaning plan is clear.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-panel" id="contact">
+      <div class="wrap contact-box">
+        <div>
+          <div class="eyebrow">Get a Quote</div>
+          <h2>Ready for a free cleaning estimate?</h2>
+          <p>For the fastest response, include the type of cleaning, location or service area, approximate size, and your preferred timing.</p>
+          <div class="contact-list">
+            <a href="tel:+17402420847">Call or text: 740-242-0847</a>
+            <a href="mailto:sergentscleaningservices@gmail.com">sergentscleaningservices@gmail.com</a>
+            <div>Serving Marion, Ohio and surrounding areas</div>
+          </div>
+        </div>
+        <form aria-label="Cleaning estimate request form">
+          <input type="text" name="name" placeholder="Name" aria-label="Name">
+          <input type="email" name="email" placeholder="Email" aria-label="Email">
+          <input type="text" name="subject" placeholder="Cleaning service needed" aria-label="Cleaning service needed">
+          <textarea name="message" placeholder="Tell us about the space, timing, and cleaning priorities." aria-label="Message"></textarea>
+          <a class="btn" href="mailto:sergentscleaningservices@gmail.com?subject=Free%20cleaning%20estimate%20request">Submit Estimate Request</a>
+          <div class="form-note">This button opens your email so you can send the request directly to Sergent's Cleaning Services.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="https://static.wixstatic.com/media/a139ab_69a6e255013d41a4b16f574e553ceb49~mv2.png/v1/fill/w_85,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.png" alt="Sergent's Cleaning Services logo">
+    <div class="foot-name">Sergent's Cleaning Services</div>
+    <p>Residential &amp; Commercial Cleaning</p>
+    <p><a href="tel:+17402420847">740-242-0847</a> · <a href="mailto:sergentscleaningservices@gmail.com">sergentscleaningservices@gmail.com</a></p>
+    <p>©2026 Sergent's Cleaning Services</p>
+  </footer>
+</body>
+</html>

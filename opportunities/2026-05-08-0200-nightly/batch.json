@@ -1,0 +1,121 @@
+{
+  "batch": "2026-05-08-0200-nightly",
+  "createdAt": "2026-05-08T07:00:00Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh nationwide Page Profit Check nightly batch. Ten public small-business opportunities only; one isolated worker per opportunity; no outreach is sent.",
+  "items": [
+    {
+      "slug": "a-honey-do-list-handyman",
+      "name": "A Honey Do List Handyman Services LLC",
+      "url": "https://ahdlhandyman.wixsite.com/website",
+      "contact": "mailto:ahdlhandyman@gmail.com",
+      "location": "Daytona Beach / Volusia County, FL",
+      "vertical": "handyman services, fencing, painting, deck staining, flooring, minor electrical, minor plumbing",
+      "summary": "Handyman Wix site has real project photos, email, phone, and a strong no-job-too-small positioning, but the homepage makes visitors scroll through broad project blocks before a clear estimate path.",
+      "angle": "keep the owner-operated handyman feel while clarifying service categories, near-top trust proof, and a faster free-estimate CTA.",
+      "priority": "A-"
+    },
+    {
+      "slug": "personalized-touch-cleaning",
+      "name": "Personalized Touch Cleaning Service",
+      "url": "https://personalizedtouch.wixsite.com/cleaning",
+      "contact": "mailto:personalizedtouchcleaning@gmail.com",
+      "location": "Hackensack / Northern New Jersey and NYC metro",
+      "vertical": "residential cleaning, commercial cleaning, specialty cleaning",
+      "summary": "Cleaning site already states its NJ/NY service area and free-estimate offer, but the first screen and service cards are generic and do not quickly separate residential, commercial, and specialty buyers.",
+      "angle": "preserve the clean apartment/office visual style while making service paths and estimate requests clearer above the fold.",
+      "priority": "A-"
+    },
+    {
+      "slug": "flawless-handyman-service",
+      "name": "Flawless Handyman Service",
+      "url": "https://flawlesshandyman.wixsite.com/website",
+      "contact": "mailto:flawlesshandyman@gmail.com",
+      "location": "Orange County, CA",
+      "vertical": "handyman repairs, installations, maintenance, drywall, painting, electrical, carpentry, flooring, plumbing",
+      "summary": "Orange County handyman site has detailed service lists, quote forms, phone/email, and a testimonial, but spelling issues, long dense lists, and duplicated contact flows weaken trust and mobile scanning.",
+      "angle": "keep the high-coverage handyman services feel while turning long lists into buyer-friendly repair paths with stronger quote CTAs.",
+      "priority": "A"
+    },
+    {
+      "slug": "sergents-cleaning-services",
+      "name": "Sergent's Cleaning Services",
+      "url": "https://sergentscleaningse.wixsite.com/website",
+      "contact": "mailto:sergentscleaningservices@gmail.com",
+      "location": "Marion, OH area",
+      "vertical": "residential and commercial cleaning",
+      "summary": "Cleaning site has email, phone, local service language, and a simple form, but the page leans on generic Wix service-company copy and does not explain packages, trust proof, or next steps clearly.",
+      "angle": "preserve the simple local cleaning-company tone while adding clearer residential/commercial paths and a quote-first flow.",
+      "priority": "A-"
+    },
+    {
+      "slug": "vip-home-improvement-specialists",
+      "name": "VIP Home Improvement Specialists, Inc.",
+      "url": "https://viphomeimprovements.wixsite.com/website",
+      "contact": "mailto:viphomeimprovementspeacialists@gmail.com",
+      "location": "Brevard County, FL",
+      "vertical": "home improvement, windows, doors, hurricane-resistant upgrades",
+      "summary": "Home-improvement site has 30+ years experience, phone/email, and service pages, but the misspelled email/domain signals, generic sections, and buried estimate path create trust friction.",
+      "angle": "keep the VIP Treatment/home-improvement positioning while surfacing experience, services, and estimate steps sooner.",
+      "priority": "A"
+    },
+    {
+      "slug": "a-deep-clean-cleaning-services",
+      "name": "A Deep Clean Cleaning Services",
+      "url": "https://adeepcln.wixsite.com/website",
+      "contact": "mailto:adeepcln@gmail.com",
+      "location": "Raleigh / Wake County and eastern NC",
+      "vertical": "deep cleaning, move-in/move-out cleaning, recurring cleaning, vacation/concierge services",
+      "summary": "Cleaning site has a broad service area, promotion, Thumbtack rating claim, email, and phone, but Wix residue, fake testimonial copy, and mixed service categories dilute conversion trust.",
+      "angle": "preserve the practical cleaning-service Wix look while separating cleaning packages from concierge extras and removing template leftovers.",
+      "priority": "A"
+    },
+    {
+      "slug": "bb-home-improvement-llc",
+      "name": "B&B Home Improvement LLC",
+      "url": "https://bbhomeimprovementl.wixsite.com/website",
+      "contact": "mailto:bbhomeimprovementllc@gmail.com",
+      "location": "Rock Hill, SC / Charlotte metro",
+      "vertical": "licensed general contractor, remodels, maintenance, kitchen, bath, flooring, wainscoting, lighting",
+      "summary": "Licensed GC site has license numbers, real project categories, review proof, phone/email, and strong service fit, but the homepage hierarchy and free-estimate CTA can be much clearer.",
+      "angle": "keep the remodel portfolio/project-photo feel while lifting license proof, project categories, and estimate next steps into a sharper first-screen flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "pixi-cleaning-services",
+      "name": "Pixi Cleaning Services",
+      "url": "https://pixicleaningservic.wixsite.com/website",
+      "contact": "mailto:pixicleaningservices@gmail.com",
+      "location": "Lakes Region, NH",
+      "vertical": "house cleaning, deep cleaning, weekly/biweekly/monthly cleaning, one-time cleaning",
+      "summary": "Cleaning site has a friendly tagline, insured claim, service-frequency options, email, and phone, but the top copy is generic and the quote path is not organized around buyer intent.",
+      "angle": "preserve the warm home-cleaning feel while clarifying deep, recurring, and one-time cleaning paths with a more specific contact CTA.",
+      "priority": "A-"
+    },
+    {
+      "slug": "ultimate-handyman-llc",
+      "name": "Ultimate Handyman, LLC",
+      "url": "https://handykylem.wixsite.com/website",
+      "contact": "mailto:handykylem@gmail.com",
+      "location": "Vacaville / Winters, CA",
+      "vertical": "licensed handyman, small remodels, upgrades, tile, repair projects",
+      "summary": "Licensed handyman site has a license number, strong craftsmanship language, phone/email, and project-specific detail, but visitors need a clearer service overview and estimate path before reading long descriptions.",
+      "angle": "keep the craftsman/project-detail personality while moving license proof and free-estimate actions into a cleaner scan path.",
+      "priority": "A"
+    },
+    {
+      "slug": "cl-home-improvement-llc",
+      "name": "C&L Home Improvement LLC",
+      "url": "https://iroofing3.wixsite.com/homeimprovement",
+      "contact": "mailto:iroofing3@gmail.com",
+      "location": "New Jersey",
+      "vertical": "roofing repair, gutters, roof replacement, home improvement",
+      "summary": "Roofing/home-improvement site has phone numbers, email, and estimate language, but spelling issues, generic Wix service cards, and unclear service hierarchy reduce confidence for higher-value projects.",
+      "angle": "preserve the straightforward contractor style while cleaning up credibility, service paths, and the free-estimate process.",
+      "priority": "A"
+    }
+  ]
+}

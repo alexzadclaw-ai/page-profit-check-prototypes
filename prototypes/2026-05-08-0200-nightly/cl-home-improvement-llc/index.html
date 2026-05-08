@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roofing Repair, Gutters & Roof Replacement in New Jersey | C&L Home Improvement LLC</title>
+  <meta name="description" content="C&L Home Improvement LLC provides roofing repair, roof replacement, gutter cleaning, repair, and replacement for New Jersey homeowners. Call for a free estimate.">
+  <style>
+    :root {
+      --ink: #252525;
+      --muted: #666;
+      --soft: #f5f2ee;
+      --line: #ded7cf;
+      --tan: #c4a87c;
+      --tan-dark: #93784e;
+      --white: #fff;
+      --footer: #303030;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    .topbar {
+      background: #f8f8f8;
+      color: #333;
+      font-size: 14px;
+      border-bottom: 1px solid #e6e2de;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+    .topbar .wrap {
+      min-height: 44px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 28px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header {
+      background: var(--white);
+      border-bottom: 1px solid #e9e5df;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .nav {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+      min-width: 260px;
+    }
+    .brand img { width: 62px; height: 62px; object-fit: contain; }
+    .brand strong {
+      display: block;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: .02em;
+      white-space: nowrap;
+    }
+    .brand span { display: block; font-size: 12px; color: var(--muted); letter-spacing: .18em; text-transform: uppercase; }
+    nav { display: flex; align-items: center; gap: 28px; font-size: 14px; }
+    nav a { text-decoration: none; color: #3d3d3d; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 12px 22px;
+      border: 1px solid var(--tan-dark);
+      background: var(--tan-dark);
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: .03em;
+      transition: .2s ease;
+    }
+    .button:hover { background: #785f37; }
+    .button.secondary { background: transparent; color: var(--tan-dark); }
+    .button.secondary:hover { background: #f7f0e6; }
+    .hero {
+      background: linear-gradient(90deg, rgba(37,37,37,.70), rgba(37,37,37,.18)), url('https://static.wixstatic.com/media/87d217_e22bff6067f6416cb83b4b48b001f934~mv2.jpg/v1/fill/w_1200,h_760,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/87d217_e22bff6067f6416cb83b4b48b001f934~mv2.jpg') center/cover;
+      min-height: 540px;
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+    .hero-card {
+      max-width: 650px;
+      padding: 70px 0;
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .24em;
+      font-size: 13px;
+      margin-bottom: 16px;
+      color: #f1e4d2;
+    }
+    h1, h2, h3 { margin: 0; font-weight: 400; line-height: 1.18; }
+    h1 { font-size: clamp(42px, 6vw, 72px); letter-spacing: .01em; }
+    h2 { font-size: clamp(32px, 4vw, 48px); }
+    h3 { font-size: 23px; }
+    p { margin: 0; }
+    .hero p { font-size: 19px; margin-top: 22px; max-width: 590px; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 32px; }
+    .trust-strip {
+      background: var(--soft);
+      border-bottom: 1px solid var(--line);
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .trust-item {
+      padding: 28px 24px;
+      border-left: 1px solid var(--line);
+      min-height: 112px;
+    }
+    .trust-item:last-child { border-right: 1px solid var(--line); }
+    .trust-item strong { display: block; font-size: 18px; font-weight: 400; }
+    .trust-item span { display: block; color: var(--muted); font-size: 14px; margin-top: 5px; }
+    section { padding: 86px 0; }
+    .intro {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 54px;
+      align-items: center;
+    }
+    .intro img, .full-img img { width: 100%; display: block; object-fit: cover; }
+    .intro img { min-height: 460px; max-height: 540px; }
+    .section-label { color: var(--tan-dark); letter-spacing: .22em; text-transform: uppercase; font-size: 13px; margin-bottom: 16px; }
+    .copy { color: #565656; margin-top: 22px; font-size: 17px; }
+    .split-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
+    .services { background: var(--soft); }
+    .center { text-align: center; max-width: 760px; margin: 0 auto 46px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid #e5ded5;
+    }
+    .card img { width: 100%; height: 250px; object-fit: cover; display: block; }
+    .card-body { padding: 30px; }
+    .tag { color: var(--tan-dark); font-size: 13px; text-transform: uppercase; letter-spacing: .16em; margin-bottom: 10px; }
+    .card p { color: #5d5d5d; margin-top: 14px; min-height: 100px; }
+    .card .button { margin-top: 24px; width: 100%; }
+    .process {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .steps { display: grid; gap: 18px; }
+    .step {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 18px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .num {
+      width: 54px;
+      height: 54px;
+      border: 1px solid var(--tan-dark);
+      color: var(--tan-dark);
+      display: grid;
+      place-items: center;
+      font-size: 22px;
+    }
+    .service-note { background: #292929; color: white; }
+    .service-note .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: center; }
+    .service-note .copy { color: #e4e4e4; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .gallery-grid img { width: 100%; height: 330px; object-fit: cover; display: block; }
+    .contact { background: var(--soft); }
+    .contact-box {
+      background: white;
+      border: 1px solid var(--line);
+      padding: 42px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 38px;
+      align-items: center;
+    }
+    .contact-list { display: grid; gap: 14px; margin-top: 24px; color: #4f4f4f; }
+    .contact-list a { color: #4f4f4f; }
+    footer { background: var(--footer); color: #e8e8e8; padding: 34px 0; font-size: 14px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    @media (max-width: 900px) {
+      .topbar .wrap { justify-content: center; }
+      .nav { flex-direction: column; padding: 20px 0; }
+      nav { flex-wrap: wrap; justify-content: center; gap: 18px; }
+      .trust-grid, .intro, .cards, .process, .service-note .wrap, .contact-box { grid-template-columns: 1fr; }
+      .trust-item, .trust-item:last-child { border: 0; border-bottom: 1px solid var(--line); }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .hero { min-height: auto; }
+      .brand { justify-content: center; min-width: 0; }
+      .brand strong { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <a href="mailto:cnl.improvements.llc@gmail.com">cnl.improvements.llc@gmail.com</a>
+      <a href="tel:+19739018022">(973) 901-8022</a>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="C&L Home Improvement LLC home">
+        <img src="https://static.wixstatic.com/media/87d217_ccc80a3920dd48c5971762fd96ab1e72~mv2_d_3000_3000_s_4_2.png/v1/fill/w_160,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4674_PNG.png" alt="C&L Home Improvement LLC logo">
+        <span><strong>C&amp;L Home Improvement LLC</strong><span>Professional &amp; Reliable</span></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a class="button" href="#contact">Free Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Roofing and gutter services in New Jersey">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">New Jersey roofing and home improvement</div>
+          <h1>Roofing repair, gutters, and roof replacement done with reliable care.</h1>
+          <p>C&amp;L Home Improvement LLC handles shingle, aluminum, metal, and flat roof projects, plus gutter cleaning, repair, and replacement. Call today to schedule a free estimate.</p>
+          <div class="hero-actions">
+            <a class="button" href="tel:+19739018022">Call (973) 901-8022</a>
+            <a class="button secondary" href="mailto:cnl.improvements.llc@gmail.com">Email for an Estimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Fully certified team</strong><span>Professional contractor support for repairs and larger projects.</span></div>
+        <div class="trust-item"><strong>Free estimates</strong><span>Simple next step for homeowners comparing roof or gutter work.</span></div>
+        <div class="trust-item"><strong>New Jersey service</strong><span>Local roofing and home improvement help in the Garden State.</span></div>
+        <div class="trust-item"><strong>Roof systems handled</strong><span>Shingle, aluminum, metal, and flat roof experience.</span></div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="wrap intro">
+        <div>
+          <img src="https://static.wixstatic.com/media/87d217_25f1b5f4fd3b47efb2d7d0a35a45ac9e~mv2_d_2016_1512_s_2.jpg/v1/fill/w_1013,h_1512,fp_0.50_0.50,q_85,enc_avif,quality_auto/87d217_25f1b5f4fd3b47efb2d7d0a35a45ac9e~mv2_d_2016_1512_s_2.jpg" alt="Roofing work by C&L Home Improvement LLC">
+        </div>
+        <div>
+          <div class="section-label">Who We Are</div>
+          <h2>Professional, reliable, and focused on satisfied clients.</h2>
+          <p class="copy">C&amp;L Home Improvement LLC serves New Jersey homeowners with roofing, gutters, roof replacement, and home improvement support. The team takes on everything from smaller repairs to more involved projects, with a commitment to clear work and client satisfaction.</p>
+          <p class="copy">If you need a few helpful tips or an experienced professional to manage the job, the next step is simple: call, email, and ask for a free estimate.</p>
+          <div class="split-actions">
+            <a class="button" href="#services">View Services</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="center">
+          <div class="section-label">Our Services</div>
+          <h2>Quality work, clear service paths, and great rates.</h2>
+          <p class="copy">Choose the service that fits your home, then get in touch for an estimate and next-step guidance.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/87d217_55188eb09ca945ce9f3bf93975a2b23a~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_454,h_380,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/87d217_55188eb09ca945ce9f3bf93975a2b23a~mv2_d_3024_4032_s_4_2.jpg" alt="Roofing repair project">
+            <div class="card-body">
+              <div class="tag">Efficient. Reliable. Exceptional.</div>
+              <h3>Roofing Repair</h3>
+              <p>For leaks, damaged roof areas, chimney cap needs, or a roof issue that should be checked before it gets worse.</p>
+              <a class="button secondary" href="#contact">Ask About Roofing Repair</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/7a8d568bb0854271ae4ccd297497644c.jpg/v1/fill/w_456,h_380,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7a8d568bb0854271ae4ccd297497644c.jpg" alt="Metal rain gutter">
+            <div class="card-body">
+              <div class="tag">It’s All in the Details</div>
+              <h3>Clean, Repair &amp; Replace Gutters</h3>
+              <p>Gutter cleaning, repair, and replacement help protect the roofline, siding, and foundation from avoidable water damage.</p>
+              <a class="button secondary" href="#contact">Ask About Gutters</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://static.wixstatic.com/media/87d217_e19c112fac1e46b7bf52bc340f92c05c~mv2.jpg/v1/fill/w_456,h_380,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/87d217_e19c112fac1e46b7bf52bc340f92c05c~mv2.jpg" alt="Roof replacement work">
+            <div class="card-body">
+              <div class="tag">Customized to Your Preferences</div>
+              <h3>Roof Replacement</h3>
+              <p>When repairs are not enough, get guidance on shingle, aluminum, metal, or flat roof replacement options for your home.</p>
+              <a class="button secondary" href="#contact">Ask About Replacement</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-note">
+      <div class="wrap">
+        <div>
+          <div class="section-label">Roofing materials</div>
+          <h2>Support for shingle, aluminum, metal, and flat roof work.</h2>
+        </div>
+        <div>
+          <p class="copy">The site mentions shingle, aluminum, metal, and flat roof projects, along with lead-coated copper chimney caps. This keeps the service message specific while making it easier for homeowners to understand what C&amp;L can help with.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="center">
+          <div class="section-label">Projects</div>
+          <h2>Real work, presented clearly.</h2>
+          <p class="copy">A clean project area helps homeowners connect the service list to actual roofing and exterior work.</p>
+        </div>
+        <div class="gallery-grid">
+          <img src="https://static.wixstatic.com/media/87d217_25f1b5f4fd3b47efb2d7d0a35a45ac9e~mv2_d_2016_1512_s_2.jpg/v1/fill/w_1013,h_1512,fp_0.50_0.50,q_85,enc_avif,quality_auto/87d217_25f1b5f4fd3b47efb2d7d0a35a45ac9e~mv2_d_2016_1512_s_2.jpg" alt="C&L roofing project photo">
+          <img src="https://static.wixstatic.com/media/87d217_55188eb09ca945ce9f3bf93975a2b23a~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_454,h_380,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/87d217_55188eb09ca945ce9f3bf93975a2b23a~mv2_d_3024_4032_s_4_2.jpg" alt="Roof repair detail photo">
+          <img src="https://static.wixstatic.com/media/87d217_e19c112fac1e46b7bf52bc340f92c05c~mv2.jpg/v1/fill/w_456,h_380,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/87d217_e19c112fac1e46b7bf52bc340f92c05c~mv2.jpg" alt="Roof replacement project photo">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-box">
+        <div>
+          <div class="section-label">Get in Touch</div>
+          <h2>Schedule a free roofing or gutter estimate.</h2>
+          <p class="copy">Tell C&amp;L what you need repaired, cleaned, replaced, or reviewed. A clearer request helps the team respond with the right next step.</p>
+          <div class="contact-list">
+            <a href="tel:+19739018022">Phone: (973) 901-8022</a>
+            <a href="mailto:cnl.improvements.llc@gmail.com">Email: cnl.improvements.llc@gmail.com</a>
+            <span>Service area: New Jersey</span>
+          </div>
+        </div>
+        <div class="steps" aria-label="Estimate process">
+          <div class="step"><div class="num">1</div><div><h3>Choose the service</h3><p>Roof repair, gutter work, roof replacement, or a project review.</p></div></div>
+          <div class="step"><div class="num">2</div><div><h3>Share the issue</h3><p>Call or email with the location, visible problem, and timing.</p></div></div>
+          <div class="step"><div class="num">3</div><div><h3>Get an estimate</h3><p>Discuss the scope and receive a practical next step for the work.</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>©2026 by C&amp;L Home Improvement LLC</span>
+      <span>New Jersey • (973) 901-8022</span>
+    </div>
+  </footer>
+</body>
+</html>

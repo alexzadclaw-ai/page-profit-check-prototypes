@@ -1,0 +1,361 @@
+{
+  "batch": "2026-05-08-0200-nightly",
+  "batchJson": "opportunities/2026-05-08-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "a-honey-do-list-handyman",
+      "name": "A Honey Do List Handyman Services LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/a-honey-do-list-handyman-audit.md",
+          "exists": true,
+          "size": 9044
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/a-honey-do-list-handyman-offer.md",
+          "exists": true,
+          "size": 2060
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/a-honey-do-list-handyman/index.html",
+          "exists": true,
+          "size": 10821
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/a-honey-do-list-handyman-target.png",
+          "exists": true,
+          "size": 2258170
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/a-honey-do-list-handyman-prototype.png",
+          "exists": true,
+          "size": 1433182
+        }
+      }
+    },
+    {
+      "slug": "personalized-touch-cleaning",
+      "name": "Personalized Touch Cleaning Service",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/personalized-touch-cleaning-audit.md",
+          "exists": true,
+          "size": 14147
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/personalized-touch-cleaning-offer.md",
+          "exists": true,
+          "size": 1842
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/personalized-touch-cleaning/index.html",
+          "exists": true,
+          "size": 13035
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/personalized-touch-cleaning-target.png",
+          "exists": true,
+          "size": 468264
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/personalized-touch-cleaning-prototype.png",
+          "exists": true,
+          "size": 1106606
+        }
+      }
+    },
+    {
+      "slug": "flawless-handyman-service",
+      "name": "Flawless Handyman Service",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/flawless-handyman-service-audit.md",
+          "exists": true,
+          "size": 16214
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/flawless-handyman-service-offer.md",
+          "exists": true,
+          "size": 2854
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/flawless-handyman-service/index.html",
+          "exists": true,
+          "size": 23596
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/flawless-handyman-service-target.png",
+          "exists": true,
+          "size": 2313652
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/flawless-handyman-service-prototype.png",
+          "exists": true,
+          "size": 2530284
+        }
+      }
+    },
+    {
+      "slug": "sergents-cleaning-services",
+      "name": "Sergent's Cleaning Services",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/sergents-cleaning-services-audit.md",
+          "exists": true,
+          "size": 10729
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/sergents-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1654
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/sergents-cleaning-services/index.html",
+          "exists": true,
+          "size": 20164
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/sergents-cleaning-services-target.png",
+          "exists": true,
+          "size": 4537360
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/sergents-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 2052843
+        }
+      }
+    },
+    {
+      "slug": "vip-home-improvement-specialists",
+      "name": "VIP Home Improvement Specialists, Inc.",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/vip-home-improvement-specialists-audit.md",
+          "exists": true,
+          "size": 12819
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/vip-home-improvement-specialists-offer.md",
+          "exists": true,
+          "size": 3189
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/vip-home-improvement-specialists/index.html",
+          "exists": true,
+          "size": 18971
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/vip-home-improvement-specialists-target.png",
+          "exists": true,
+          "size": 2101185
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/vip-home-improvement-specialists-prototype.png",
+          "exists": true,
+          "size": 1384095
+        }
+      }
+    },
+    {
+      "slug": "a-deep-clean-cleaning-services",
+      "name": "A Deep Clean Cleaning Services",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/a-deep-clean-cleaning-services-audit.md",
+          "exists": true,
+          "size": 11660
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/a-deep-clean-cleaning-services-offer.md",
+          "exists": true,
+          "size": 2160
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/a-deep-clean-cleaning-services/index.html",
+          "exists": true,
+          "size": 14831
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/a-deep-clean-cleaning-services-target.png",
+          "exists": true,
+          "size": 910128
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/a-deep-clean-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 1537432
+        }
+      }
+    },
+    {
+      "slug": "bb-home-improvement-llc",
+      "name": "B&B Home Improvement LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/bb-home-improvement-llc-audit.md",
+          "exists": true,
+          "size": 9189
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/bb-home-improvement-llc-offer.md",
+          "exists": true,
+          "size": 1631
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/bb-home-improvement-llc/index.html",
+          "exists": true,
+          "size": 21653
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/bb-home-improvement-llc-target.png",
+          "exists": true,
+          "size": 4441775
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/bb-home-improvement-llc-prototype.png",
+          "exists": true,
+          "size": 2011495
+        }
+      }
+    },
+    {
+      "slug": "pixi-cleaning-services",
+      "name": "Pixi Cleaning Services",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/pixi-cleaning-services-audit.md",
+          "exists": true,
+          "size": 9883
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/pixi-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1906
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/pixi-cleaning-services/index.html",
+          "exists": true,
+          "size": 16164
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/pixi-cleaning-services-target.png",
+          "exists": true,
+          "size": 1110831
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/pixi-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 1039023
+        }
+      }
+    },
+    {
+      "slug": "ultimate-handyman-llc",
+      "name": "Ultimate Handyman, LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/ultimate-handyman-llc-audit.md",
+          "exists": true,
+          "size": 11845
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/ultimate-handyman-llc-offer.md",
+          "exists": true,
+          "size": 2616
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/ultimate-handyman-llc/index.html",
+          "exists": true,
+          "size": 27944
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/ultimate-handyman-llc-target.png",
+          "exists": true,
+          "size": 733677
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/ultimate-handyman-llc-prototype.png",
+          "exists": true,
+          "size": 1193580
+        }
+      }
+    },
+    {
+      "slug": "cl-home-improvement-llc",
+      "name": "C&L Home Improvement LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-08-0200-nightly/cl-home-improvement-llc-audit.md",
+          "exists": true,
+          "size": 14041
+        },
+        "offer": {
+          "path": "offers/2026-05-08-0200-nightly/cl-home-improvement-llc-offer.md",
+          "exists": true,
+          "size": 3125
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-08-0200-nightly/cl-home-improvement-llc/index.html",
+          "exists": true,
+          "size": 17184
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/cl-home-improvement-llc-target.png",
+          "exists": true,
+          "size": 2394884
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-08-0200-nightly/cl-home-improvement-llc-prototype.png",
+          "exists": true,
+          "size": 3346726
+        }
+      }
+    }
+  ]
+}
