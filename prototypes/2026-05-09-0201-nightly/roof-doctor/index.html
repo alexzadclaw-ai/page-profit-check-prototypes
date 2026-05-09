@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roof Doctor | Roofing Contractor in Pelham, NC</title>
+  <meta name="description" content="Roof Doctor provides roofing, shingle repair, gutters, tree work, remodeling, and repair services in Pelham and surrounding areas. Call for a free estimate." />
+  <style>
+    :root{
+      --black:#191919;
+      --wine:#500008;
+      --wine2:#710a14;
+      --paper:#ededed;
+      --muted:#cfc7c7;
+      --ink:#1a1a1a;
+      --line:rgba(237,237,237,.22);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:var(--black);color:var(--paper);line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:980px;margin:0 auto;padding:0 28px}
+    .topbar{background:var(--black);border-bottom:1px solid rgba(255,255,255,.12)}
+    .mast{min-height:190px;display:grid;grid-template-columns:1fr auto;gap:26px;align-items:center;padding:34px 0 24px}
+    .brand{display:flex;align-items:center;gap:18px;color:var(--paper)}
+    .brand img{width:80px;height:80px;border-radius:2px;object-fit:cover;background:#333}
+    .brand h2{font-family:Avenir,"Helvetica Neue",Arial,sans-serif;letter-spacing:.02em;font-size:24px;margin:0 0 2px;text-transform:uppercase;font-weight:800}
+    .brand p{margin:0;color:#cfcfcf;font-size:16px;font-weight:300}
+    .contact-top{text-align:right;font-size:14px;color:#ededed;display:flex;gap:18px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+    .nav{border-top:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:space-between;padding:0 0 10px;gap:16px}
+    .navlinks a{display:inline-flex;min-width:78px;height:30px;align-items:center;justify-content:center;font-size:14px;color:#ededed}
+    .navlinks a.active{background:rgba(255,255,255,.08)}
+    .call-small{font-size:14px;border:1px solid var(--paper);padding:7px 14px;color:#fff}
+    .hero{position:relative;min-height:720px;background:linear-gradient(rgba(25,25,25,.58),rgba(25,25,25,.58)),url('https://static.wixstatic.com/media/903dc0975fc447e287e835093f0bb984.jpg/v1/fill/w_1280,h_1000,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/903dc0975fc447e287e835093f0bb984.jpg') center/cover no-repeat;display:flex;align-items:center;text-align:center;color:#ededed}
+    .hero-card{max-width:860px;margin:0 auto;padding:78px 36px;background:rgba(80,0,8,.72);border:1px solid rgba(255,255,255,.25)}
+    .eyebrow{font-size:20px;font-weight:300;margin:0 0 14px;color:#f2eaea}
+    h1{font-family:Avenir,"Helvetica Neue",Arial,sans-serif;font-size:82px;line-height:.98;margin:0;text-transform:uppercase;letter-spacing:.03em;font-weight:800;color:#fff}
+    .hero p.copy{max-width:760px;margin:24px auto 34px;font-size:18px;color:#f2eaea;font-weight:300}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 28px;background:#fff;color:#111;font-size:14px;border:1px solid #fff;letter-spacing:.02em}
+    .btn.dark{background:transparent;color:#fff;margin-left:10px}
+    .trust{background:var(--wine2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center}
+    .trust-item{padding:26px 14px;border-right:1px solid var(--line)}
+    .trust-item:last-child{border-right:0}.trust-item strong{display:block;font-family:Avenir,"Helvetica Neue",Arial,sans-serif;font-size:18px;text-transform:uppercase;color:#fff}.trust-item span{font-size:14px;color:#dfd5d5}
+    section.band{padding:78px 0}.wine{background:var(--wine)}.red{background:var(--wine2)}.black{background:var(--black)}
+    .section-title{text-align:center;margin:0 0 18px;font-family:Avenir,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;font-size:40px;letter-spacing:.02em;color:#fff}
+    .intro{max-width:900px;margin:0 auto 44px;text-align:center;color:#e8dfdf;font-weight:300}
+    .about{max-width:860px;text-align:center;margin:0 auto;color:#e8dfdf;font-size:17px}
+    .services{display:grid;gap:34px}.service{display:grid;grid-template-columns:1fr 480px;gap:55px;align-items:center;min-height:420px}.service:nth-child(even){grid-template-columns:480px 1fr}.service:nth-child(even) .service-text{order:2}.service:nth-child(even) img{order:1}.service img{width:100%;height:420px;object-fit:cover}.service-text{padding:20px 0}.service h3{font-family:Avenir,"Helvetica Neue",Arial,sans-serif;font-size:24px;margin:0 0 12px;text-transform:uppercase;color:#fff}.service p,.service li{color:#e6dddd;font-weight:300}.service ul{margin:8px 0 14px;padding-left:22px}
+    .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.card{border:1px solid var(--line);padding:34px;background:rgba(25,25,25,.22)}.card h3{font-family:Avenir,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;margin:0 0 10px;font-size:24px;color:#fff}.card p{margin:0 0 20px;color:#e6dddd}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:step}.step{padding:30px;border:1px solid var(--line);background:rgba(255,255,255,.04)}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:42px;height:42px;border:1px solid #fff;margin-bottom:18px;font-family:Avenir,"Helvetica Neue",Arial,sans-serif}.step h3{margin:0 0 8px;text-transform:uppercase;font-size:20px}.step p{margin:0;color:#e3dada}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}.contact-box{border:1px solid var(--line);padding:34px;background:rgba(25,25,25,.2)}.contact-box p{margin:0 0 12px}.contact-list a{display:block;margin:0 0 12px;color:#fff}.footer{background:var(--black);padding:34px 0;text-align:center;color:#d8d8d8;font-size:14px;border-top:1px solid rgba(255,255,255,.12)}
+    @media(max-width:780px){.mast,.contact,.service,.service:nth-child(even){grid-template-columns:1fr}.contact-top{text-align:left;justify-content:flex-start}.nav{align-items:flex-start;flex-direction:column}.hero{min-height:auto;padding:72px 0}.hero-card{padding:48px 22px}.hero h1,h1{font-size:52px}.trust-grid,.cards,.steps{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.service:nth-child(even) .service-text,.service:nth-child(even) img{order:initial}.service img{height:280px}.btn.dark{margin:12px 0 0}.section-title{font-size:34px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="mast">
+        <a class="brand" href="#top" aria-label="Roof Doctor home">
+          <img src="https://static.wixstatic.com/media/24f847_7951f850305f4ed781be661358b8ba88~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg" alt="Roof Doctor logo">
+          <span><h2>Roof Doctor</h2><p>Home Improvement · Local Service</p></span>
+        </a>
+        <div class="contact-top">
+          <a href="mailto:roofdoctords@gmail.com">roofdoctords@gmail.com</a>
+          <a href="tel:3369393991">(336) 939-3991</a>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Main navigation">
+        <div class="navlinks"><a class="active" href="#top">Home</a><a href="#services">Services</a><a href="#contact">Contact</a></div>
+        <a class="call-small" href="tel:3369393991">Call for a Free Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <p class="eyebrow">Roofing Contractor at Your Service</p>
+          <h1>Roof Doctor</h1>
+          <p class="copy">Roofing, shingle repair, gutters, remodeling, additions, and tree work for homeowners and businesses in Pelham and surrounding areas. Since 1992, call for a clear free estimate before work begins.</p>
+          <a class="btn" href="tel:3369393991">Call Now for a Free Estimate</a>
+          <a class="btn dark" href="mailto:roofdoctords@gmail.com">Email Roof Doctor</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>Since 1992</strong><span>Serving Pelham area clients</span></div>
+        <div class="trust-item"><strong>Roofing First</strong><span>Shingles, metal, rubber</span></div>
+        <div class="trust-item"><strong>Free Estimate</strong><span>Call before you schedule</span></div>
+        <div class="trust-item"><strong>Residential & Commercial</strong><span>Repair and improvement work</span></div>
+      </div>
+    </section>
+
+    <section class="band red">
+      <div class="wrap">
+        <h2 class="section-title">About Me</h2>
+        <p class="about">Since 1992, Roof Doctor has been recognized as a roofing contractor in Pelham and surrounding areas. We help with roofing, remodeling, repairing, gutters, room additions, tree and stump removal, and other home improvement needs. Whether the job is a repair or a larger project, the goal is high quality service at affordable prices.</p>
+      </div>
+    </section>
+
+    <section class="band black" id="services">
+      <div class="wrap">
+        <h2 class="section-title">Services</h2>
+        <p class="intro">Choose the path that matches the job you need done. Roof Doctor handles roofing work first, then supports related exterior and home improvement projects when you need one reliable local pro.</p>
+        <div class="services">
+          <article class="service">
+            <div class="service-text"><h3>Complete Re-Roofing</h3><p>We specialize in all types of roofing, including:</p><ul><li>Shingles</li><li>Metal</li><li>Rubber</li></ul><p>Get a free estimate for high quality service at affordable prices.</p><a class="btn" href="tel:3369393991">Call About Roofing</a></div>
+            <img src="https://static.wixstatic.com/media/f8b94c6bd4cc4a1e9d20c56fd59457f2.jpg/v1/fill/w_480,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Climbing%20a%20Ladder.jpg" alt="Roofing contractor climbing a ladder for roof work">
+          </article>
+          <article class="service">
+            <div class="service-text"><h3>Shingle Repair</h3><p>If a specific problem needs professional attention, call to talk through the issue, the roof type, and the best repair path. Roof Doctor focuses on satisfied clients and careful work on complex repairs.</p><a class="btn" href="tel:3369393991">Call About Repair</a></div>
+            <img src="https://static.wixstatic.com/media/24f847_9de4bac0e2d84bbfb90f310f5e56451f~mv2.jpg/v1/crop/x_20,y_0,w_228,h_198/fill/w_317,h_277,al_c,lg_1,q_80,enc_avif,quality_auto/10801841_1421033451523075_6409828808288149704_n.jpg" alt="Roof Doctor finished exterior improvement work">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band wine">
+      <div class="wrap">
+        <h2 class="section-title">Other Home Improvement Needs</h2>
+        <div class="cards">
+          <div class="card"><h3>Gutters</h3><p>Leaky gutters can create problems around your home. Roof Doctor handles new seamless gutters, gutter guard, and gutter declogging.</p><a class="btn" href="tel:3369393991">Ask About Gutters</a></div>
+          <div class="card"><h3>Tree Work</h3><p>Tree and stump removal services are available when your project needs exterior cleanup or removal support.</p><a class="btn" href="tel:3369393991">Ask About Tree Work</a></div>
+          <div class="card"><h3>Residential</h3><p>Roofing, repairs, remodeling, gutters, and additions for homeowners who want a practical estimate and a clear next step.</p><a class="btn" href="mailto:roofdoctords@gmail.com">Email Details</a></div>
+          <div class="card"><h3>Commercial</h3><p>Roofing and repair support for local commercial properties. Call with your location, roof issue, and timing needs.</p><a class="btn" href="tel:3369393991">Call to Schedule</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band red">
+      <div class="wrap">
+        <h2 class="section-title">What Happens Next</h2>
+        <div class="steps">
+          <div class="step"><h3>Call or Email</h3><p>Share the address, roof or project type, and the problem you want solved.</p></div>
+          <div class="step"><h3>Talk Through the Job</h3><p>Roof Doctor confirms the work needed, timing, and whether an on-site look makes sense.</p></div>
+          <div class="step"><h3>Get a Free Estimate</h3><p>You get a practical estimate before moving forward with roofing, gutter, repair, or tree work.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band red" id="contact">
+      <div class="wrap">
+        <h2 class="section-title">Contact</h2>
+        <p class="intro">Ready to talk through roofing, gutters, repairs, additions, or tree work? Call Roof Doctor directly or send project details by email.</p>
+        <div class="contact">
+          <div class="contact-box contact-list"><p><strong>Roof Doctor</strong></p><a href="mailto:roofdoctords@gmail.com">roofdoctords@gmail.com</a><a href="tel:3369393991">(336) 939-3991</a><a href="tel:3369399944">(336) 939-9944</a><a href="https://www.facebook.com/roofdoctords/">Facebook</a></div>
+          <div class="contact-box"><p><strong>Location</strong></p><p>480 Bradley Rd<br>Pelham, NC 27311<br>United States</p><p>Serving Pelham and surrounding areas.</p><a class="btn" href="tel:3369393991">Call Now</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap">© 2026 Roof Doctor · Roofing, gutters, repairs, remodeling, and tree work in Pelham, NC</div></footer>
+</body>
+</html>

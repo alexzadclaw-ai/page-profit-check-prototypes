@@ -1,0 +1,18 @@
+{
+  "slug": "bc-home-improvement",
+  "name": "BC Home Improvement",
+  "url": "https://nburns217.wixsite.com/bchimprovement",
+  "contact": {
+    "phone": "857-417-6281",
+    "email": "bchimprovement@gmail.com",
+    "facebook": "https://www.facebook.com/BCHImprovement/"
+  },
+  "location": "Boston, MA and surrounding areas",
+  "vertical": "Home remodeling and improvement contractor",
+  "summary": "Boston-area home improvement site with strong service coverage and trust hooks, but major conversion friction from Wix branding, placeholder services copy, conflicting Services page title, and unclear next steps.",
+  "angle": "Audit-driven surgical cleanup that preserves the existing Wix visual language while removing trust-damaging template leftovers, clarifying CTAs, surfacing trust signals, and grouping services by buyer intent.",
+  "priority": "high",
+  "emailFound": true,
+  "phoneFound": true,
+  "status": "completed"
+}

@@ -1,0 +1,131 @@
+{
+  "batch": "2026-05-09-0201-nightly",
+  "createdAt": "2026-05-09T07:01:00Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh nationwide Page Profit Check nightly batch. Ten pitchable public small-business opportunities only; Wix 404 recovery packages for lms-landscaping and martinez-pavers are documented in state but excluded from this review batch.",
+  "excluded": [
+    {
+      "slug": "lms-landscaping",
+      "reason": "Assigned public URL returned Wix 404; recovery package not counted as pitchable."
+    },
+    {
+      "slug": "martinez-pavers",
+      "reason": "Replacement public URL returned Wix 404; recovery package not counted as pitchable."
+    }
+  ],
+  "items": [
+    {
+      "slug": "bc-home-improvement",
+      "name": "BC Home Improvement",
+      "url": "https://nburns217.wixsite.com/bchimprovement",
+      "contact": "mailto:bchimprovement@gmail.com",
+      "location": "Boston, MA and surrounding areas",
+      "vertical": "Home remodeling and improvement contractor",
+      "summary": "Boston-area home improvement site with strong service coverage and trust hooks, but major conversion friction from Wix branding, placeholder services copy, conflicting Services page title, and unclear next steps.",
+      "angle": "Audit-driven surgical cleanup that preserves the existing Wix visual language while removing trust-damaging template leftovers, clarifying CTAs, surfacing trust signals, and grouping services by buyer intent.",
+      "priority": "A"
+    },
+    {
+      "slug": "diamond-pt-window-cleaning",
+      "name": "Diamond PT Window Cleaning",
+      "url": "https://diamondptwindows.wixsite.com/website",
+      "contact": "mailto:diamond.pt.windows@gmail.com",
+      "location": "Monroe, WA, USA",
+      "vertical": "Window cleaning",
+      "summary": "Single-page Wix site with strong trust potential, but the top of the page is too broad and the service paths are not broken out clearly enough for quick quote decisions.",
+      "angle": "Cleaner local-service homepage with a more specific hero, trust near the top, clearer service buckets, and a simpler call or text path.",
+      "priority": "A"
+    },
+    {
+      "slug": "griffith-handyman-services",
+      "name": "Griffith Handyman Services",
+      "url": "https://bgriffithhandyman.wixsite.com/website",
+      "contact": "mailto:bgriffith.handyman@gmail.com",
+      "location": "Riverbank, California",
+      "vertical": "Handyman services",
+      "summary": "Wix one-page handyman site with strong tool/service imagery and visible contact info, but trust and conversion are weakened by Wix/template branding, a vague hero, buried credibility, task-light service organization, and no clear next-step flow.",
+      "angle": "Brand-faithful trust cleanup: preserve the dark Wix-style visual language, coral accents, handyman imagery, and simple structure while clarifying hero copy, adding tap-to-call/email CTAs, surfacing since-2014/free-estimate/local trust cues, organizing services by buyer task path, and removing template leftovers.",
+      "priority": "A"
+    },
+    {
+      "slug": "king-home-improvements",
+      "name": "King Home Improvements",
+      "url": "https://kinghomeimprovements.wixsite.com/kinghomeimprovements",
+      "contact": "mailto:KingHomeImprovements11@gmail.com",
+      "location": "Primarily serving Essex, Middlesex, and Suffolk Counties in MA",
+      "vertical": "Home improvement / handyman / remodeling contractor",
+      "summary": "Wix home improvement site with recognizable dark contractor styling, logo, phone, email, free estimate form, MA county service area, and services including decks, flooring, remodeling, painting, and renovations. Main opportunity is a surgical cleanup for hero clarity, CTA consistency, top trust cues, service task paths, what-happens-next clarity, mobile scanability, SEO basics, and template residue removal.",
+      "angle": "Same dark Wix contractor site, cleaned up around a clearer free-estimate path for decks, flooring, remodeling, painting, renovations, and home repairs in MA counties.",
+      "priority": "A"
+    },
+    {
+      "slug": "liberty-plumbing-willis",
+      "name": "Liberty Plumbing",
+      "url": "https://libertyplumbing000.wixsite.com/website",
+      "contact": "mailto:libertyplumbing0008@gmail.com",
+      "location": "Willis, TX, USA",
+      "vertical": "Plumbing",
+      "summary": "Wix plumbing site with strong local basics but visible builder residue, a generic hero, and service grouping that can be made clearer for call conversion.",
+      "angle": "Surgical Wix-style cleanup that keeps the blue, white, and dark neutral site-builder feel while improving hero clarity, CTA specificity, trust cues, service paths, and next-step clarity.",
+      "priority": "A"
+    },
+    {
+      "slug": "monis-cleaning",
+      "name": "Moni's Professional Cleaning Services",
+      "url": "https://moniscleaning.wixsite.com/monis",
+      "contact": "mailto:moniscleaning@gmail.com",
+      "location": "Fayetteville, NC",
+      "vertical": "Cleaning",
+      "summary": "Wix cleaning site with a real local history, but a generic homepage, template residue, and buried service paths.",
+      "angle": "Solution A surgical homepage cleanup",
+      "priority": "A-"
+    },
+    {
+      "slug": "my-city-cleaning-services",
+      "name": "My City Cleaning Services",
+      "url": "https://mycitycleaning.wixsite.com/website",
+      "contact": "mailto:mycitycleaning@gmail.com",
+      "location": "Nashville, Franklin, Brentwood, Murfreesboro, TN and surrounding areas",
+      "vertical": "Residential, commercial, move-out, specialty, and exterior cleaning",
+      "summary": "Nashville-area cleaning site has usable local content, phone, email, and service range, but the hero is generic, services are hard to scan, trust cues are buried, and Wix/template leftovers weaken confidence.",
+      "angle": "Surgical Wix-style cleanup that preserves the simple local cleaning feel while clarifying the hero, trust strip, service task paths, quote CTA, and what-happens-next flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "radiance-multi-cleaning",
+      "name": "Radiance Multi-cleaning / Sierra Vista Window Cleaning",
+      "url": "https://rwindoww.wixsite.com/website",
+      "contact": "mailto:rwindoww@gmail.com",
+      "location": "Sierra Vista, Hereford, Bisbee, Douglas, AZ and surrounding areas",
+      "vertical": "Window cleaning, junk removal, and general cleaning",
+      "summary": "Local Wix site with strong service proof and owner story, but visible Wix leftovers, vague CTAs, buried trust cues, and weak estimate guidance reduce conversion confidence.",
+      "angle": "Brand-faithful Wix cleanup that keeps the same light gray/white/blue photo-led feel while clarifying the hero, trust strip, service paths, estimate request, and mobile call path.",
+      "priority": "A"
+    },
+    {
+      "slug": "roof-doctor",
+      "name": "Roof Doctor",
+      "url": "https://roofdr.wixsite.com/roofdoctor",
+      "contact": "mailto:roofdoctords@gmail.com",
+      "location": "480 Bradley Rd, Pelham, NC 27311, United States",
+      "vertical": "Roofing contractor / home improvement",
+      "summary": "Older Wix contractor site with real trust assets, direct contact, since-1992 history, roofing/gutter/tree-work services, and recognizable black/burgundy visual language. Main gaps are unclear hero promise, generic CTA, scattered trust proof, hard-to-scan service paths, unclear next steps, and visible Wix/template residue.",
+      "angle": "Brand-faithful Wix homepage cleanup that keeps the Roof Doctor look while making the free-estimate call path, trust proof, service categories, and contact section clearer.",
+      "priority": "A"
+    },
+    {
+      "slug": "royal-rooter-plumbing",
+      "name": "Royal Rooter & Plumbing",
+      "url": "https://drod669.wixsite.com/website",
+      "contact": "mailto:Drod669@gmail.com",
+      "location": "La Puente, CA 91744",
+      "vertical": "Plumbing",
+      "summary": "Wix plumbing site with clear contact details and services, but visible Wix/template residue, broad hero messaging, scattered trust cues, and thin service grouping reduce conversion confidence.",
+      "angle": "Surgical Wix-style cleanup that preserves the blue/black/white centered-card layout while improving hero clarity, phone CTA, trust placement, service paths, next-step clarity, and SEO basics.",
+      "priority": "A"
+    }
+  ]
+}

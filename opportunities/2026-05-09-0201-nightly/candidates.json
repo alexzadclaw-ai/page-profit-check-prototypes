@@ -1,0 +1,17 @@
+{
+  "batch": "2026-05-09-0201-nightly",
+  "hardCap": 25,
+  "selectedSiteCount": 10,
+  "items": [
+    {"slug":"monis-cleaning","name":"Moni's Professional Cleaning Services","url":"https://moniscleaning.wixsite.com/monis"},
+    {"slug":"bc-home-improvement","name":"BC Home Improvement","url":"https://nburns217.wixsite.com/bchimprovement"},
+    {"slug":"king-home-improvements","name":"King Home Improvements","url":"https://kinghomeimprovements.wixsite.com/kinghomeimprovements"},
+    {"slug":"radiance-multi-cleaning","name":"Radiance Multi-cleaning / Sierra Vista Window Cleaning","url":"https://rwindoww.wixsite.com/website"},
+    {"slug":"roof-doctor","name":"Roof Doctor","url":"https://roofdr.wixsite.com/roofdoctor"},
+    {"slug":"lms-landscaping","name":"LMS Landscaping","url":"https://lmsincorporated.wixsite.com/my-site"},
+    {"slug":"royal-rooter-plumbing","name":"Royal Rooter & Plumbing","url":"https://drod669.wixsite.com/website"},
+    {"slug":"my-city-cleaning-services","name":"My City Cleaning Services","url":"https://mycitycleaning.wixsite.com/website"},
+    {"slug":"diamond-pt-window-cleaning","name":"Diamond PT Window Cleaning","url":"https://diamondptwindows.wixsite.com/website"},
+    {"slug":"liberty-plumbing-willis","name":"Liberty Plumbing","url":"https://libertyplumbing000.wixsite.com/website"}
+  ]
+}

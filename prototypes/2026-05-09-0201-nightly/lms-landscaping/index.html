@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LMS Landscaping | Landscaping, Lawn Care & Outdoor Maintenance</title>
+  <meta name="description" content="LMS Landscaping helps homeowners and property managers with dependable landscaping, lawn care, cleanups, mulch, trimming, and seasonal outdoor maintenance." />
+  <style>
+    :root{
+      --green:#214d2a;
+      --leaf:#5e8f3f;
+      --sage:#edf3e7;
+      --tan:#d7bf8d;
+      --charcoal:#1f2420;
+      --white:#fff;
+      --muted:#626960;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--charcoal);background:#fff;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:#111;color:#fff;font-size:14px;text-align:center;padding:9px 16px;letter-spacing:.02em}
+    .nav{height:84px;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;border-bottom:1px solid #e6e6e6;background:#fff;position:sticky;top:0;z-index:5}
+    .brand{display:flex;align-items:center;gap:13px;font-weight:700;letter-spacing:.05em;color:var(--green)}
+    .mark{width:50px;height:50px;border:3px solid var(--green);display:grid;place-items:center;border-radius:50%;font-family:Georgia,serif;font-size:24px;background:var(--sage)}
+    .links{display:flex;gap:28px;align-items:center;font-size:14px;text-transform:uppercase;letter-spacing:.07em}
+    .call{font-weight:700;color:var(--green)}
+    .btn{display:inline-block;background:var(--leaf);color:#fff;padding:13px 24px;border-radius:0;text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:700;border:2px solid var(--leaf)}
+    .btn:hover{background:var(--green);border-color:var(--green)}
+    .btn.secondary{background:transparent;color:#fff;border-color:#fff}
+    .hero{min-height:630px;display:grid;grid-template-columns:1.08fr .92fr;background:linear-gradient(90deg,rgba(18,42,24,.92),rgba(18,42,24,.72)),url('https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1600&q=75') center/cover;color:#fff}
+    .hero-copy{padding:96px 7vw 70px;display:flex;flex-direction:column;justify-content:center;max-width:760px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:13px;color:#dbe8cf;font-weight:700;margin-bottom:18px}
+    h1{font-family:Georgia,'Times New Roman',serif;font-size:68px;line-height:.98;margin:0 0 22px;font-weight:400}
+    .hero p{font-size:20px;max-width:610px;margin:0 0 30px;color:#f1f5ed}
+    .cta-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px}
+    .trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:650px}
+    .trust{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.24);padding:17px 18px;font-size:14px;color:#fff}
+    .trust strong{display:block;font-size:17px;margin-bottom:4px;color:#fff}
+    .hero-card{align-self:end;background:rgba(255,255,255,.94);color:var(--charcoal);margin:0 7vw 70px 0;padding:34px;max-width:420px;border-top:7px solid var(--tan);box-shadow:0 18px 40px rgba(0,0,0,.25)}
+    .hero-card h2{font-family:Georgia,serif;font-weight:400;font-size:31px;margin:0 0 14px;color:var(--green)}
+    .hero-card ul{margin:0;padding:0;list-style:none}
+    .hero-card li{padding:10px 0 10px 28px;border-bottom:1px solid #e8e4da;position:relative}
+    .hero-card li:before{content:'✓';position:absolute;left:0;color:var(--leaf);font-weight:700}
+    section{padding:78px 7vw}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+    h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;color:var(--green);font-size:42px;line-height:1.12;margin:0 0 18px}
+    .lead{font-size:18px;color:#42483f;margin-bottom:24px}
+    .photo-panel{min-height:460px;background:linear-gradient(rgba(33,77,42,.05),rgba(33,77,42,.05)),url('https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1200&q=75') center/cover;border:14px solid var(--sage)}
+    .why{background:var(--sage);text-align:center;padding-top:64px}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:30px;text-align:center}
+    .feature{background:#fff;padding:34px 26px;min-height:190px;border-bottom:5px solid var(--tan)}
+    .feature h3{margin:0 0 9px;color:var(--green);font-size:22px;font-family:Georgia,serif;font-weight:400}
+    .services{text-align:center}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px;text-align:left}
+    .service{min-height:270px;color:#fff;display:flex;align-items:flex-end;padding:24px;position:relative;overflow:hidden;background:#345}
+    .service:before{content:'';position:absolute;inset:0;background:linear-gradient(transparent,rgba(0,0,0,.72));z-index:1}
+    .service:nth-child(1){background:url('https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=900&q=75') center/cover}
+    .service:nth-child(2){background:url('https://images.unsplash.com/photo-1601001815894-4bb6c81416d7?auto=format&fit=crop&w=900&q=75') center/cover}
+    .service:nth-child(3){background:url('https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=75') center/cover}
+    .service div{position:relative;z-index:2}
+    .service h3{font-family:Georgia,serif;font-weight:400;font-size:27px;margin:0 0 8px}
+    .process{background:#f8f6f0}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:30px}
+    .step{background:#fff;padding:28px;border-left:5px solid var(--leaf)}
+    .step span{font-size:13px;letter-spacing:.15em;color:var(--leaf);font-weight:700}
+    .step h3{margin:8px 0;color:var(--green)}
+    .final{background:var(--green);color:#fff;text-align:center;padding:72px 7vw}
+    .final h2{color:#fff;margin-bottom:15px}
+    .final p{max-width:740px;margin:0 auto 28px;color:#e8f0e2;font-size:18px}
+    footer{background:#141714;color:#ddd;padding:36px 7vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:14px}
+    footer strong{color:#fff}
+    @media(max-width:900px){
+      .nav{height:auto;padding:18px 5vw;align-items:flex-start}.links{display:none}.hero{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:72px 6vw 38px}h1{font-size:47px}.hero-card{margin:0 6vw 46px;max-width:none}.trust-strip,.features,.service-grid,.steps,.split{grid-template-columns:1fr}section{padding:58px 6vw}.photo-panel{min-height:320px}footer{display:block}.topbar{text-align:left}.cta-row .btn{width:100%;text-align:center}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Landscaping, lawn care, cleanups, mulch, trimming, and seasonal maintenance</div>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="LMS Landscaping home"><span class="mark">L</span><span>LMS<br>Landscaping</span></a>
+    <nav class="links" aria-label="Primary navigation">
+      <a href="#services">Services</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#process">What Happens Next</a>
+      <a class="call" href="#contact">Request Estimate</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Residential and commercial outdoor care</div>
+        <h1>Landscaping that keeps your property looking cared for.</h1>
+        <p>LMS Landscaping helps homeowners and property managers handle the work that makes a property look clean, healthy, and ready for the season.</p>
+        <div class="cta-row">
+          <a class="btn" href="#contact">Request a Landscaping Estimate</a>
+          <a class="btn secondary" href="#services">See Services</a>
+        </div>
+        <div class="trust-strip" aria-label="Service highlights">
+          <div class="trust"><strong>Local service</strong>Prompt outdoor care for nearby properties.</div>
+          <div class="trust"><strong>Clear estimates</strong>Walkthrough, scope, and next steps up front.</div>
+          <div class="trust"><strong>Season-ready</strong>Cleanups, trimming, mulch, and maintenance.</div>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Common service requests">
+        <h2>Common requests</h2>
+        <ul>
+          <li>Lawn care and recurring maintenance</li>
+          <li>Spring and fall yard cleanups</li>
+          <li>Mulch, bed edging, and plant refreshes</li>
+          <li>Shrub trimming and overgrowth cleanup</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="split">
+      <div class="photo-panel" role="img" aria-label="Freshly maintained residential lawn and landscaping"></div>
+      <div>
+        <h2>A straightforward landscaping company page, cleaned up for people ready to hire.</h2>
+        <p class="lead">Visitors should know what you do, where to start, and what happens after they ask for an estimate within the first few seconds.</p>
+        <p>This page keeps the simple Wix-style structure: logo header, large photo hero, service sections, reasons to choose the company, and a final contact push. The difference is that every section answers a buyer question instead of leaving them to guess.</p>
+        <a class="btn" href="#process">How Estimates Work</a>
+      </div>
+    </section>
+
+    <section id="why" class="why">
+      <h2>Why Choose LMS Landscaping</h2>
+      <p class="lead">The trust details customers look for before they call.</p>
+      <div class="features">
+        <article class="feature"><h3>Property-focused</h3><p>Recommendations are organized around what the yard needs now and what will keep it easier to maintain later.</p></article>
+        <article class="feature"><h3>Clean, reliable work</h3><p>Service pages explain the work clearly so customers can ask for the right help without a long back-and-forth.</p></article>
+        <article class="feature"><h3>Easy next step</h3><p>One main estimate request replaces generic buttons and dead-end navigation.</p></article>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Services by What You Need Done</h2>
+      <p class="lead">Grouped for buyers who may not know the exact landscaping term.</p>
+      <div class="service-grid">
+        <article class="service"><div><h3>Make the yard presentable</h3><p>Lawn care, mowing, edging, and routine maintenance.</p></div></article>
+        <article class="service"><div><h3>Refresh the landscape beds</h3><p>Mulch, bed cleanout, trimming, edging, and seasonal color.</p></div></article>
+        <article class="service"><div><h3>Clean up overgrowth</h3><p>Spring cleanups, fall cleanups, brush removal, and property resets.</p></div></article>
+      </div>
+    </section>
+
+    <section id="process" class="process">
+      <h2>What Happens Next</h2>
+      <p class="lead">A clear process reduces hesitation before someone reaches out.</p>
+      <div class="steps">
+        <article class="step"><span>STEP 01</span><h3>Request an estimate</h3><p>Share the property type and the outdoor work you need done.</p></article>
+        <article class="step"><span>STEP 02</span><h3>Review the scope</h3><p>LMS Landscaping confirms the right service, timing, and visible problem areas.</p></article>
+        <article class="step"><span>STEP 03</span><h3>Get on the schedule</h3><p>Once approved, the work is scheduled and the property gets cleaned up.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="final">
+      <h2>Ready to clean up the property?</h2>
+      <p>Ask LMS Landscaping for an estimate on lawn care, landscape bed refreshes, cleanups, trimming, or seasonal maintenance.</p>
+      <a class="btn" href="mailto:info@example.com?subject=Landscaping%20Estimate%20Request">Request an Estimate</a>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>LMS Landscaping</strong><br>Landscaping, lawn care, and outdoor maintenance</div>
+    <div>Serving local residential and commercial properties</div>
+  </footer>
+</body>
+</html>
