@@ -1,0 +1,361 @@
+{
+  "batch": "2026-05-10-0200-nightly-repair-20260510-0950",
+  "batchJson": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/bay-area-builders-llc-audit.md",
+          "exists": true,
+          "size": 1353
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/bay-area-builders-llc-offer.md",
+          "exists": true,
+          "size": 867
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/bay-area-builders-llc/index.html",
+          "exists": true,
+          "size": 7333
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/bay-area-builders-llc-target.png",
+          "exists": true,
+          "size": 2701933
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/bay-area-builders-llc-prototype.png",
+          "exists": true,
+          "size": 2071866
+        }
+      }
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/miami-frameless-shower-doors-audit.md",
+          "exists": true,
+          "size": 1328
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/miami-frameless-shower-doors-offer.md",
+          "exists": true,
+          "size": 835
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/miami-frameless-shower-doors/index.html",
+          "exists": true,
+          "size": 8911
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/miami-frameless-shower-doors-target.png",
+          "exists": true,
+          "size": 2024269
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/miami-frameless-shower-doors-prototype.png",
+          "exists": true,
+          "size": 850810
+        }
+      }
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/grind-nation-moving-audit.md",
+          "exists": true,
+          "size": 1225
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/grind-nation-moving-offer.md",
+          "exists": true,
+          "size": 788
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/grind-nation-moving/index.html",
+          "exists": true,
+          "size": 4957
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/grind-nation-moving-target.png",
+          "exists": true,
+          "size": 1192766
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/grind-nation-moving-prototype.png",
+          "exists": true,
+          "size": 1327145
+        }
+      }
+    },
+    {
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/clints-automotive-fabrication-audit.md",
+          "exists": true,
+          "size": 1319
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/clints-automotive-fabrication-offer.md",
+          "exists": true,
+          "size": 858
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/clints-automotive-fabrication/index.html",
+          "exists": true,
+          "size": 6984
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/clints-automotive-fabrication-target.png",
+          "exists": true,
+          "size": 4177661
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/clints-automotive-fabrication-prototype.png",
+          "exists": true,
+          "size": 2788834
+        }
+      }
+    },
+    {
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/the-nauti-details-audit.md",
+          "exists": true,
+          "size": 1248
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/the-nauti-details-offer.md",
+          "exists": true,
+          "size": 792
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/the-nauti-details/index.html",
+          "exists": true,
+          "size": 5226
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/the-nauti-details-target.png",
+          "exists": true,
+          "size": 2499457
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/the-nauti-details-prototype.png",
+          "exists": true,
+          "size": 2134451
+        }
+      }
+    },
+    {
+      "slug": "harvest-accounting-llc",
+      "name": "Harvest Accounting LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/harvest-accounting-llc-audit.md",
+          "exists": true,
+          "size": 1256
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/harvest-accounting-llc-offer.md",
+          "exists": true,
+          "size": 788
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/harvest-accounting-llc/index.html",
+          "exists": true,
+          "size": 4784
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/harvest-accounting-llc-target.png",
+          "exists": true,
+          "size": 906892
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/harvest-accounting-llc-prototype.png",
+          "exists": true,
+          "size": 648137
+        }
+      }
+    },
+    {
+      "slug": "clean-freak-services",
+      "name": "Clean Freak Services LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/clean-freak-services-audit.md",
+          "exists": true,
+          "size": 1222
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/clean-freak-services-offer.md",
+          "exists": true,
+          "size": 818
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/clean-freak-services/index.html",
+          "exists": true,
+          "size": 6211
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/clean-freak-services-target.png",
+          "exists": true,
+          "size": 1405223
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/clean-freak-services-prototype.png",
+          "exists": true,
+          "size": 1047554
+        }
+      }
+    },
+    {
+      "slug": "premier-fitness-ky",
+      "name": "Premier Fitness",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/premier-fitness-ky-audit.md",
+          "exists": true,
+          "size": 1199
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/premier-fitness-ky-offer.md",
+          "exists": true,
+          "size": 744
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/premier-fitness-ky/index.html",
+          "exists": true,
+          "size": 5800
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/premier-fitness-ky-target.png",
+          "exists": true,
+          "size": 1678691
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/premier-fitness-ky-prototype.png",
+          "exists": true,
+          "size": 1840949
+        }
+      }
+    },
+    {
+      "slug": "zensai-kauai-style",
+      "name": "Zensai Kauai Style LLC",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/zensai-kauai-style-audit.md",
+          "exists": true,
+          "size": 1226
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/zensai-kauai-style-offer.md",
+          "exists": true,
+          "size": 819
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/zensai-kauai-style/index.html",
+          "exists": true,
+          "size": 7152
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/zensai-kauai-style-target.png",
+          "exists": true,
+          "size": 3494519
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/zensai-kauai-style-prototype.png",
+          "exists": true,
+          "size": 2906686
+        }
+      }
+    },
+    {
+      "slug": "jbm-irrigation",
+      "name": "JBM Landscape & Irrigation, LLC",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly-repair-20260510-0950/jbm-irrigation-audit.md",
+          "exists": true,
+          "size": 1259
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly-repair-20260510-0950/jbm-irrigation-offer.md",
+          "exists": true,
+          "size": 836
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly-repair-20260510-0950/jbm-irrigation/index.html",
+          "exists": true,
+          "size": 7301
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/jbm-irrigation-target.png",
+          "exists": true,
+          "size": 4856253
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly-repair-20260510-0950/jbm-irrigation-prototype.png",
+          "exists": true,
+          "size": 3572770
+        }
+      }
+    }
+  ]
+}
