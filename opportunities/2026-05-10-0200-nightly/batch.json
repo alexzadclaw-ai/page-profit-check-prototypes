@@ -1,0 +1,121 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "createdAt": "2026-05-10T07:00:00Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh dated Page Profit Check nightly batch built in a new folder with ten pitchable public small-business opportunities; no forms submitted and no outreach sent.",
+  "items": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "url": "https://bayareastagingemai.wixsite.com/my-site",
+      "contact": "mailto:blh11@live.com",
+      "location": "Baltimore, MD / Maryland-Virginia-Delaware",
+      "vertical": "roofing and remodeling",
+      "summary": "Roofing/remodeling Wix site has real service-area/contact details but visible placeholder copy and fake testimonials, making a trust cleanup highly pitchable.",
+      "angle": "keep the M&B-style contractor layout while replacing placeholder text/testimonials, clarifying roofing/remodel paths, and making the free-estimate flow credible.",
+      "priority": "A"
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "url": "https://showerdoorfl.wixsite.com/framelessshowerdoor",
+      "contact": "mailto:showerdoorfl@gmail.com",
+      "location": "Miami, FL",
+      "vertical": "custom frameless shower doors",
+      "summary": "Custom shower-door site has phone/email and project photos but multiple template paragraphs and weak service hierarchy hurt trust.",
+      "angle": "preserve the simple blue/white contractor feel while replacing placeholders with shower-door services, trust cues, project paths, and a clearer free-quote CTA.",
+      "priority": "A"
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "url": "https://gnmovingllc.wixsite.com/mysite",
+      "contact": "mailto:gnmovingllc@yahoo.com",
+      "location": "Dayton, OH",
+      "vertical": "local delivery and moving",
+      "summary": "Local delivery/moving site has a memorable brand line and real contact details, but the quote path and service organization feel thin and template-driven.",
+      "angle": "keep the bold moving-template structure while clarifying local delivery/storage paths, insured trust cues, and what happens after requesting an estimate.",
+      "priority": "A-"
+    },
+    {
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint\u2019s Automotive & Fabrication LLC",
+      "url": "https://clintsauto.wixsite.com/clintsautomotivefabr",
+      "contact": "mailto:clints_auto@yahoo.com",
+      "location": "Glenmora, LA",
+      "vertical": "auto repair and fabrication",
+      "summary": "Auto repair site has real shop contact, payment info, and estimate intent, but opens around a generic price-quote block and template wording.",
+      "angle": "retain the practical shop style while foregrounding repair/fabrication services, veteran discount/trust, hours/location, and a specific quote request flow.",
+      "priority": "A-"
+    },
+    {
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "url": "https://thenautidetailsllc.wixsite.com/website",
+      "contact": "mailto:Info@TheNautiDetails.com",
+      "location": "Toledo / Perrysburg, OH",
+      "vertical": "boat and marine detailing",
+      "summary": "Marine detailing site has a strong story and contact form but the first screen is vague and the detailed quote form can use clearer package/next-step framing.",
+      "angle": "keep the boat-cleaning imagery and friendly story while tightening hero, service choices, trust proof, and quote-form expectations.",
+      "priority": "A-"
+    },
+    {
+      "slug": "harvest-accounting-llc",
+      "name": "Harvest Accounting LLC",
+      "url": "https://scottharvestacct.wixsite.com/website",
+      "contact": "mailto:scott.harvest.acct@gmail.com",
+      "location": "Beaverton / Willamette Valley, OR",
+      "vertical": "bookkeeping and accounting",
+      "summary": "Bookkeeping site has credible QuickBooks/industry details but buries the strongest trust/fit cues in paragraph copy with a generic Wix footer.",
+      "angle": "keep the simple professional bookkeeping feel while clarifying wine-industry and SMB paths, ProAdvisor proof, consultation CTA, and next steps.",
+      "priority": "A-"
+    },
+    {
+      "slug": "clean-freak-services",
+      "name": "Clean Freak Services LLC",
+      "url": "https://cleanfreaksllc6.wixsite.com/website",
+      "contact": "mailto:cleanfreaksllc21@gmail.com",
+      "location": "Louisville, KY",
+      "vertical": "residential/commercial cleaning and detailing",
+      "summary": "Cleaning site has real contact info and services but includes generic Service Name booking blocks and confusing mixed cleaning/detailing options.",
+      "angle": "preserve the straightforward cleaning-service template while removing generic booking leftovers, grouping services by buyer intent, and strengthening free-estimate action.",
+      "priority": "A"
+    },
+    {
+      "slug": "premier-fitness-ky",
+      "name": "Premier Fitness",
+      "url": "https://premierfit.wixsite.com/health",
+      "contact": "mailto:greg@vaughnfitness.com",
+      "location": "Madisonville, KY",
+      "vertical": "fitness coaching and personal training",
+      "summary": "Fitness site has real coaching credibility and program options but the homepage can make the first-step CTA, program paths, and coach trust easier to scan.",
+      "angle": "keep the dark/athletic Wix feel and real coach material while clarifying group, personal, and online training paths plus a consultation next step.",
+      "priority": "B+"
+    },
+    {
+      "slug": "zensai-kauai-style",
+      "name": "Zensai Kauai Style LLC",
+      "url": "https://zensaikauaistyle.wixsite.com/website",
+      "contact": "mailto:zensaikauaistyle@gmail.com",
+      "location": "Hanapepe, Kaua\u02bbi, HI",
+      "vertical": "local food, poke, plate lunches, catering",
+      "summary": "Food site has authentic local flavor, menu imagery, and contact info, but the homepage hides catering/opening-hours action and has duplicated menu/nav cues.",
+      "angle": "preserve the casual local food style while clarifying daily specials, catering/pupu platter CTA, hours, location, and what to ask for when contacting.",
+      "priority": "B+"
+    },
+    {
+      "slug": "jbm-irrigation",
+      "name": "JBM Landscape & Irrigation, LLC",
+      "url": "https://jbmirrigation.wixsite.com/website",
+      "contact": "mailto:jbmirrigation@gmail.com",
+      "location": "Tomball, TX",
+      "vertical": "lawn sprinkler, irrigation, landscape services",
+      "summary": "Irrigation site has real project photos, TCEQ regulatory info, and contact details but the first screen and service path are sparse and gallery-heavy.",
+      "angle": "keep the project-photo contractor feel while adding clearer sprinkler/landscape service cards, regulated/licensed trust cues, estimate CTA, and next steps.",
+      "priority": "B+"
+    }
+  ]
+}

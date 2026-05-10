@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "slug": "bay-area-builders-llc",
+  "startedAt": "2026-05-10T07:27:30.788Z",
+  "item": {
+    "slug": "bay-area-builders-llc",
+    "name": "Bay Area Builders LLC",
+    "url": "https://bayareastagingemai.wixsite.com/my-site",
+    "contact": "mailto:blh11@live.com",
+    "location": "Baltimore, MD / Maryland-Virginia-Delaware",
+    "vertical": "roofing and remodeling",
+    "summary": "Roofing/remodeling Wix site has real service-area/contact details but visible placeholder copy and fake testimonials, making a trust cleanup highly pitchable.",
+    "angle": "keep the M&B-style contractor layout while replacing placeholder text/testimonials, clarifying roofing/remodel paths, and making the free-estimate flow credible.",
+    "priority": "A"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-10T07:27:37.191Z",
+  "files": {
+    "audit": "opportunities/2026-05-10-0200-nightly/bay-area-builders-llc-audit.md",
+    "offer": "offers/2026-05-10-0200-nightly/bay-area-builders-llc-offer.md",
+    "prototype": "prototypes/2026-05-10-0200-nightly/bay-area-builders-llc/index.html",
+    "targetScreenshot": "screenshots/2026-05-10-0200-nightly/bay-area-builders-llc-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-10-0200-nightly/bay-area-builders-llc-prototype.png"
+  }
+}

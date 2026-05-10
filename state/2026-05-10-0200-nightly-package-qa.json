@@ -1,0 +1,361 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "batchJson": "opportunities/2026-05-10-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/bay-area-builders-llc-audit.md",
+          "exists": true,
+          "size": 5802
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/bay-area-builders-llc-offer.md",
+          "exists": true,
+          "size": 1345
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/bay-area-builders-llc/index.html",
+          "exists": true,
+          "size": 7284
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/bay-area-builders-llc-target.png",
+          "exists": true,
+          "size": 2653329
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/bay-area-builders-llc-prototype.png",
+          "exists": true,
+          "size": 391021
+        }
+      }
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/miami-frameless-shower-doors-audit.md",
+          "exists": true,
+          "size": 5852
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/miami-frameless-shower-doors-offer.md",
+          "exists": true,
+          "size": 1352
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/miami-frameless-shower-doors/index.html",
+          "exists": true,
+          "size": 7321
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/miami-frameless-shower-doors-target.png",
+          "exists": true,
+          "size": 1776388
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/miami-frameless-shower-doors-prototype.png",
+          "exists": true,
+          "size": 396971
+        }
+      }
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/grind-nation-moving-audit.md",
+          "exists": true,
+          "size": 5817
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/grind-nation-moving-offer.md",
+          "exists": true,
+          "size": 1347
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/grind-nation-moving/index.html",
+          "exists": true,
+          "size": 7275
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/grind-nation-moving-target.png",
+          "exists": true,
+          "size": 1216225
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/grind-nation-moving-prototype.png",
+          "exists": true,
+          "size": 390193
+        }
+      }
+    },
+    {
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/clints-automotive-fabrication-audit.md",
+          "exists": true,
+          "size": 5877
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/clints-automotive-fabrication-offer.md",
+          "exists": true,
+          "size": 1362
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/clints-automotive-fabrication/index.html",
+          "exists": true,
+          "size": 7416
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/clints-automotive-fabrication-target.png",
+          "exists": true,
+          "size": 3998094
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/clints-automotive-fabrication-prototype.png",
+          "exists": true,
+          "size": 398370
+        }
+      }
+    },
+    {
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/the-nauti-details-audit.md",
+          "exists": true,
+          "size": 5828
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/the-nauti-details-offer.md",
+          "exists": true,
+          "size": 1341
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/the-nauti-details/index.html",
+          "exists": true,
+          "size": 7304
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/the-nauti-details-target.png",
+          "exists": true,
+          "size": 2727498
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/the-nauti-details-prototype.png",
+          "exists": true,
+          "size": 383751
+        }
+      }
+    },
+    {
+      "slug": "harvest-accounting-llc",
+      "name": "Harvest Accounting LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/harvest-accounting-llc-audit.md",
+          "exists": true,
+          "size": 5835
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/harvest-accounting-llc-offer.md",
+          "exists": true,
+          "size": 1346
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/harvest-accounting-llc/index.html",
+          "exists": true,
+          "size": 7351
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/harvest-accounting-llc-target.png",
+          "exists": true,
+          "size": 683350
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/harvest-accounting-llc-prototype.png",
+          "exists": true,
+          "size": 396560
+        }
+      }
+    },
+    {
+      "slug": "clean-freak-services",
+      "name": "Clean Freak Services LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/clean-freak-services-audit.md",
+          "exists": true,
+          "size": 5855
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/clean-freak-services-offer.md",
+          "exists": true,
+          "size": 1348
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/clean-freak-services/index.html",
+          "exists": true,
+          "size": 7355
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/clean-freak-services-target.png",
+          "exists": true,
+          "size": 1463574
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/clean-freak-services-prototype.png",
+          "exists": true,
+          "size": 360783
+        }
+      }
+    },
+    {
+      "slug": "premier-fitness-ky",
+      "name": "Premier Fitness",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/premier-fitness-ky-audit.md",
+          "exists": true,
+          "size": 5807
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/premier-fitness-ky-offer.md",
+          "exists": true,
+          "size": 1339
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/premier-fitness-ky/index.html",
+          "exists": true,
+          "size": 7262
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/premier-fitness-ky-target.png",
+          "exists": true,
+          "size": 1943529
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/premier-fitness-ky-prototype.png",
+          "exists": true,
+          "size": 388417
+        }
+      }
+    },
+    {
+      "slug": "zensai-kauai-style",
+      "name": "Zensai Kauai Style LLC",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/zensai-kauai-style-audit.md",
+          "exists": true,
+          "size": 5846
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/zensai-kauai-style-offer.md",
+          "exists": true,
+          "size": 1346
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/zensai-kauai-style/index.html",
+          "exists": true,
+          "size": 7347
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/zensai-kauai-style-target.png",
+          "exists": true,
+          "size": 3327417
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/zensai-kauai-style-prototype.png",
+          "exists": true,
+          "size": 396940
+        }
+      }
+    },
+    {
+      "slug": "jbm-irrigation",
+      "name": "JBM Landscape & Irrigation, LLC",
+      "priority": "B+",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-10-0200-nightly/jbm-irrigation-audit.md",
+          "exists": true,
+          "size": 5869
+        },
+        "offer": {
+          "path": "offers/2026-05-10-0200-nightly/jbm-irrigation-offer.md",
+          "exists": true,
+          "size": 1350
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-10-0200-nightly/jbm-irrigation/index.html",
+          "exists": true,
+          "size": 7408
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/jbm-irrigation-target.png",
+          "exists": true,
+          "size": 3362120
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-10-0200-nightly/jbm-irrigation-prototype.png",
+          "exists": true,
+          "size": 410216
+        }
+      }
+    }
+  ]
+}

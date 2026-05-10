@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "slug": "clints-automotive-fabrication",
+  "startedAt": "2026-05-10T07:27:31.196Z",
+  "item": {
+    "slug": "clints-automotive-fabrication",
+    "name": "Clint’s Automotive & Fabrication LLC",
+    "url": "https://clintsauto.wixsite.com/clintsautomotivefabr",
+    "contact": "mailto:clints_auto@yahoo.com",
+    "location": "Glenmora, LA",
+    "vertical": "auto repair and fabrication",
+    "summary": "Auto repair site has real shop contact, payment info, and estimate intent, but opens around a generic price-quote block and template wording.",
+    "angle": "retain the practical shop style while foregrounding repair/fabrication services, veteran discount/trust, hours/location, and a specific quote request flow.",
+    "priority": "A-"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-10T07:27:39.739Z",
+  "files": {
+    "audit": "opportunities/2026-05-10-0200-nightly/clints-automotive-fabrication-audit.md",
+    "offer": "offers/2026-05-10-0200-nightly/clints-automotive-fabrication-offer.md",
+    "prototype": "prototypes/2026-05-10-0200-nightly/clints-automotive-fabrication/index.html",
+    "targetScreenshot": "screenshots/2026-05-10-0200-nightly/clints-automotive-fabrication-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-10-0200-nightly/clints-automotive-fabrication-prototype.png"
+  }
+}

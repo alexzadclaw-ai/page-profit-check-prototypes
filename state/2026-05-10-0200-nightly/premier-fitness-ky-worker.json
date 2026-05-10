@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "slug": "premier-fitness-ky",
+  "startedAt": "2026-05-10T07:32:07.879Z",
+  "item": {
+    "slug": "premier-fitness-ky",
+    "name": "Premier Fitness",
+    "url": "https://premierfit.wixsite.com/health",
+    "contact": "mailto:greg@vaughnfitness.com",
+    "location": "Madisonville, KY",
+    "vertical": "fitness coaching and personal training",
+    "summary": "Fitness site has real coaching credibility and program options but the homepage can make the first-step CTA, program paths, and coach trust easier to scan.",
+    "angle": "keep the dark/athletic Wix feel and real coach material while clarifying group, personal, and online training paths plus a consultation next step.",
+    "priority": "B+"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-10T07:32:12.884Z",
+  "files": {
+    "audit": "opportunities/2026-05-10-0200-nightly/premier-fitness-ky-audit.md",
+    "offer": "offers/2026-05-10-0200-nightly/premier-fitness-ky-offer.md",
+    "prototype": "prototypes/2026-05-10-0200-nightly/premier-fitness-ky/index.html",
+    "targetScreenshot": "screenshots/2026-05-10-0200-nightly/premier-fitness-ky-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-10-0200-nightly/premier-fitness-ky-prototype.png"
+  }
+}

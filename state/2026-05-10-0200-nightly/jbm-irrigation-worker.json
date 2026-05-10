@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "slug": "jbm-irrigation",
+  "startedAt": "2026-05-10T07:32:08.610Z",
+  "item": {
+    "slug": "jbm-irrigation",
+    "name": "JBM Landscape & Irrigation, LLC",
+    "url": "https://jbmirrigation.wixsite.com/website",
+    "contact": "mailto:jbmirrigation@gmail.com",
+    "location": "Tomball, TX",
+    "vertical": "lawn sprinkler, irrigation, landscape services",
+    "summary": "Irrigation site has real project photos, TCEQ regulatory info, and contact details but the first screen and service path are sparse and gallery-heavy.",
+    "angle": "keep the project-photo contractor feel while adding clearer sprinkler/landscape service cards, regulated/licensed trust cues, estimate CTA, and next steps.",
+    "priority": "B+"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-10T07:32:15.193Z",
+  "files": {
+    "audit": "opportunities/2026-05-10-0200-nightly/jbm-irrigation-audit.md",
+    "offer": "offers/2026-05-10-0200-nightly/jbm-irrigation-offer.md",
+    "prototype": "prototypes/2026-05-10-0200-nightly/jbm-irrigation/index.html",
+    "targetScreenshot": "screenshots/2026-05-10-0200-nightly/jbm-irrigation-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-10-0200-nightly/jbm-irrigation-prototype.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "slug": "harvest-accounting-llc",
+  "startedAt": "2026-05-10T07:31:36.941Z",
+  "item": {
+    "slug": "harvest-accounting-llc",
+    "name": "Harvest Accounting LLC",
+    "url": "https://scottharvestacct.wixsite.com/website",
+    "contact": "mailto:scott.harvest.acct@gmail.com",
+    "location": "Beaverton / Willamette Valley, OR",
+    "vertical": "bookkeeping and accounting",
+    "summary": "Bookkeeping site has credible QuickBooks/industry details but buries the strongest trust/fit cues in paragraph copy with a generic Wix footer.",
+    "angle": "keep the simple professional bookkeeping feel while clarifying wine-industry and SMB paths, ProAdvisor proof, consultation CTA, and next steps.",
+    "priority": "A-"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-10T07:31:40.717Z",
+  "files": {
+    "audit": "opportunities/2026-05-10-0200-nightly/harvest-accounting-llc-audit.md",
+    "offer": "offers/2026-05-10-0200-nightly/harvest-accounting-llc-offer.md",
+    "prototype": "prototypes/2026-05-10-0200-nightly/harvest-accounting-llc/index.html",
+    "targetScreenshot": "screenshots/2026-05-10-0200-nightly/harvest-accounting-llc-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-10-0200-nightly/harvest-accounting-llc-prototype.png"
+  }
+}
