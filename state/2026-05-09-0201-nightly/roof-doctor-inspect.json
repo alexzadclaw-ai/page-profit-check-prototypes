@@ -1,0 +1,971 @@
+{
+  "title": "Home | Roof Doctor",
+  "bodyText": "Skip to Main Content | This website was built on Wix. Create yours today. | Get Started | ROOF DOCTOR | Home Improvement · Local Service | roofdoctords@gmail.com | (336)939-3991 | Home | Book Online | Roofing Contractor at Your Service | ROOF DOCTOR | ​ | We are here to serve you with all of your home improvement needs including all types of roofing, gutters, room additions, tree and stump removal, etc. | Call Now | SERVICES | Roof Doctor is your one-stop-shop for all your construction and repair needs. Whether you’re looking for help with something minor or need an experienced professional to take on a larger scale project — I’m your go-to pro and I’m ready to handle it all. Browse through the list of my services below, and get in touch for your free estimate. | COMPLETE RE-ROOFING | We specialize in all types of roofing. | Shingles | Metal | Rubber | We have the knowledge and experience to provide you with high quality service at affordable prices. | SHINGLE REPAIR | My clients are my number one priority, and I’ll go the extra mile to make sure they’re completely satisfied with my work. Have a specific project that requires professional attention? My services are designed to tackle even the most complex projects. Call me today to discover how I can help. | GUTTERS | Leaky gutters can create problems around your home. | We can handle all of your gutter servicing needs, including installing new seamless gutters, gutter guard, and gutter declogging. | TREE WORK | Tree and stump removal services available. | Contact | ABOUT ME | Since 1992, Roof Doctor has been recognized as ",
+  "imgs": [
+    {
+      "src": "https://static.wixstatic.com/media/24f847_7951f850305f4ed781be661358b8ba88~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg",
+      "alt": "Untitled",
+      "w": 80,
+      "h": 80,
+      "rect": {
+        "x": 170,
+        "y": 87,
+        "width": 80,
+        "height": 80,
+        "top": 87,
+        "right": 250,
+        "bottom": 167,
+        "left": 170
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/903dc0975fc447e287e835093f0bb984.jpg/v1/fill/w_1280,h_1000,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/903dc0975fc447e287e835093f0bb984.jpg",
+      "alt": "Rooftops",
+      "w": 1280,
+      "h": 1000,
+      "rect": {
+        "x": 0,
+        "y": 48.17498779296875,
+        "width": 1280,
+        "height": 1000.0000610351562,
+        "top": 48.17498779296875,
+        "right": 1280,
+        "bottom": 1048.175048828125,
+        "left": 0
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/f8b94c6bd4cc4a1e9d20c56fd59457f2.jpg/v1/fill/w_480,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Climbing%20a%20Ladder.jpg",
+      "alt": "Climbing a Ladder",
+      "w": 480,
+      "h": 420,
+      "rect": {
+        "x": 630,
+        "y": 1782.046875,
+        "width": 480,
+        "height": 420,
+        "top": 1782.046875,
+        "right": 1110,
+        "bottom": 2202.046875,
+        "left": 630
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/24f847_9de4bac0e2d84bbfb90f310f5e56451f~mv2.jpg/v1/crop/x_20,y_0,w_228,h_198/fill/w_317,h_277,al_c,lg_1,q_80,enc_avif,quality_auto/10801841_1421033451523075_6409828808288149704_n.jpg",
+      "alt": "10801841_1421033451523075_6409828808288149704_n.jpg",
+      "w": 317,
+      "h": 277,
+      "rect": {
+        "x": 630,
+        "y": 2242.046875,
+        "width": 480,
+        "height": 420,
+        "top": 2242.046875,
+        "right": 1110,
+        "bottom": 2662.046875,
+        "left": 630
+      }
+    }
+  ],
+  "elems": [
+    {
+      "tag": "BUTTON",
+      "text": "Skip to Main Content",
+      "color": "rgb(17, 109, 255)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 546,
+        "y": 60,
+        "width": 48,
+        "height": 0,
+        "top": 60,
+        "right": 594,
+        "bottom": 60,
+        "left": 546
+      }
+    },
+    {
+      "tag": "A",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(239, 241, 242)",
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 50,
+        "top": 0,
+        "right": 1280,
+        "bottom": 50,
+        "left": 0
+      }
+    },
+    {
+      "tag": "P",
+      "text": "ROOF DOCTOR",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 265,
+        "y": 99,
+        "width": 183,
+        "height": 35.046875,
+        "top": 99,
+        "right": 448,
+        "bottom": 134.046875,
+        "left": 265
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Home Improvement · Local Service",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 265,
+        "y": 132.046875,
+        "width": 255,
+        "height": 24.796875,
+        "top": 132.046875,
+        "right": 520,
+        "bottom": 156.84375,
+        "left": 265
+      }
+    },
+    {
+      "tag": "P",
+      "text": "roofdoctords@gmail.com",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 779,
+        "y": 205.84375,
+        "width": 172,
+        "height": 20.015625,
+        "top": 205.84375,
+        "right": 951,
+        "bottom": 225.859375,
+        "left": 779
+      }
+    },
+    {
+      "tag": "A",
+      "text": "roofdoctords@gmail.com",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 779,
+        "y": 205.84375,
+        "width": 164.90625,
+        "height": 19,
+        "top": 205.84375,
+        "right": 943.90625,
+        "bottom": 224.84375,
+        "left": 779
+      }
+    },
+    {
+      "tag": "P",
+      "text": "(336)939-3991",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 972,
+        "y": 205.84375,
+        "width": 95,
+        "height": 20.015625,
+        "top": 205.84375,
+        "right": 1067,
+        "bottom": 225.859375,
+        "left": 972
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 160,
+        "y": 200.84375,
+        "width": 60,
+        "height": 30,
+        "top": 200.84375,
+        "right": 220,
+        "bottom": 230.84375,
+        "left": 160
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Home",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 160,
+        "y": 200.84375,
+        "width": 59.671875,
+        "height": 30,
+        "top": 200.84375,
+        "right": 219.671875,
+        "bottom": 230.84375,
+        "left": 160
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Book Online",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 220,
+        "y": 200.84375,
+        "width": 100,
+        "height": 30,
+        "top": 200.84375,
+        "right": 320,
+        "bottom": 230.84375,
+        "left": 220
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Book Online",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 220,
+        "y": 200.84375,
+        "width": 100,
+        "height": 30,
+        "top": 200.84375,
+        "right": 320,
+        "bottom": 230.84375,
+        "left": 220
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Roofing Contractor at Your Service",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "rect": {
+        "x": 210,
+        "y": 403.859375,
+        "width": 820,
+        "height": 30,
+        "top": 403.859375,
+        "right": 1030,
+        "bottom": 433.859375,
+        "left": 210
+      }
+    },
+    {
+      "tag": "H1",
+      "text": "ROOF DOCTOR",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "88px",
+      "weight": "400",
+      "rect": {
+        "x": 210,
+        "y": 439.859375,
+        "width": 820,
+        "height": 100.3125,
+        "top": 439.859375,
+        "right": 1030,
+        "bottom": 540.171875,
+        "left": 210
+      }
+    },
+    {
+      "tag": "H1",
+      "text": "​",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "88px",
+      "weight": "400",
+      "rect": {
+        "x": 210,
+        "y": 540.171875,
+        "width": 820,
+        "height": 100.3125,
+        "top": 540.171875,
+        "right": 1030,
+        "bottom": 640.484375,
+        "left": 210
+      }
+    },
+    {
+      "tag": "P",
+      "text": "We are here to serve you with all of your home improvement needs including all types of roofing, gut",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 210,
+        "y": 658.484375,
+        "width": 820,
+        "height": 49.59375,
+        "top": 658.484375,
+        "right": 1030,
+        "bottom": 708.078125,
+        "left": 210
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Call Now",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "rect": {
+        "x": 567,
+        "y": 758.078125,
+        "width": 106,
+        "height": 45,
+        "top": 758.078125,
+        "right": 673,
+        "bottom": 803.078125,
+        "left": 567
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "SERVICES",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "40px",
+      "weight": "400",
+      "rect": {
+        "x": 170,
+        "y": 1563.046875,
+        "width": 940,
+        "height": 50,
+        "top": 1563.046875,
+        "right": 1110,
+        "bottom": 1613.046875,
+        "left": 170
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Roof Doctor is your one-stop-shop for all your construction and repair needs. Whether you’re looking",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 170,
+        "y": 1629.046875,
+        "width": 940,
+        "height": 74.390625,
+        "top": 1629.046875,
+        "right": 1110,
+        "bottom": 1703.4375,
+        "left": 170
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "COMPLETE RE-ROOFING",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 1881.046875,
+        "width": 350,
+        "height": 35.046875,
+        "top": 1881.046875,
+        "right": 575,
+        "bottom": 1916.09375,
+        "left": 225
+      }
+    },
+    {
+      "tag": "P",
+      "text": "We specialize in all types of roofing.",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 1929.09375,
+        "width": 350,
+        "height": 24.796875,
+        "top": 1929.09375,
+        "right": 575,
+        "bottom": 1953.890625,
+        "left": 225
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Shingles",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 253.796875,
+        "y": 1953.890625,
+        "width": 321.203125,
+        "height": 24.796875,
+        "top": 1953.890625,
+        "right": 575,
+        "bottom": 1978.6875,
+        "left": 253.796875
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Metal",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 253.796875,
+        "y": 1978.6875,
+        "width": 321.203125,
+        "height": 24.796875,
+        "top": 1978.6875,
+        "right": 575,
+        "bottom": 2003.484375,
+        "left": 253.796875
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Rubber",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 253.796875,
+        "y": 2003.484375,
+        "width": 321.203125,
+        "height": 24.796875,
+        "top": 2003.484375,
+        "right": 575,
+        "bottom": 2028.28125,
+        "left": 253.796875
+      }
+    },
+    {
+      "tag": "P",
+      "text": "We have the knowledge and experience to provide you with high quality service at affordable prices.",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 2028.28125,
+        "width": 350,
+        "height": 74.390625,
+        "top": 2028.28125,
+        "right": 575,
+        "bottom": 2102.671875,
+        "left": 225
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "SHINGLE REPAIR",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 2341.046875,
+        "width": 350,
+        "height": 35.046875,
+        "top": 2341.046875,
+        "right": 575,
+        "bottom": 2376.09375,
+        "left": 225
+      }
+    },
+    {
+      "tag": "P",
+      "text": "My clients are my number one priority, and I’ll go the extra mile to make sure they’re completely sa",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 2389.09375,
+        "width": 350,
+        "height": 173.578125,
+        "top": 2389.09375,
+        "right": 575,
+        "bottom": 2562.671875,
+        "left": 225
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "GUTTERS",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 2823.046875,
+        "width": 350,
+        "height": 35.046875,
+        "top": 2823.046875,
+        "right": 575,
+        "bottom": 2858.09375,
+        "left": 225
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Leaky gutters can create problems around your home. We can handle all of your gutter servicing needs",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 2871.09375,
+        "width": 350,
+        "height": 123.984375,
+        "top": 2871.09375,
+        "right": 575,
+        "bottom": 2995.078125,
+        "left": 225
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "TREE WORK",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 3331.046875,
+        "width": 350,
+        "height": 35.046875,
+        "top": 3331.046875,
+        "right": 575,
+        "bottom": 3366.09375,
+        "left": 225
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Tree and stump removal services available.",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 225,
+        "y": 3379.09375,
+        "width": 350,
+        "height": 24.796875,
+        "top": 3379.09375,
+        "right": 575,
+        "bottom": 3403.890625,
+        "left": 225
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "ABOUT ME",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "40px",
+      "weight": "400",
+      "rect": {
+        "x": 250,
+        "y": 1041.859375,
+        "width": 780,
+        "height": 50,
+        "top": 1041.859375,
+        "right": 1030,
+        "bottom": 1091.859375,
+        "left": 250
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Since 1992, Roof Doctor has been recognized as a top Roofing Contractor in Pelham and surrounding ar",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 210,
+        "y": 1107.859375,
+        "width": 860,
+        "height": 99.1875,
+        "top": 1107.859375,
+        "right": 1070,
+        "bottom": 1207.046875,
+        "left": 210
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "RESIDENTIAL",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 230,
+        "y": 4361.046875,
+        "width": 820,
+        "height": 35.046875,
+        "top": 4361.046875,
+        "right": 1050,
+        "bottom": 4396.09375,
+        "left": 230
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "COMMERCIAL",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "24px",
+      "weight": "400",
+      "rect": {
+        "x": 230,
+        "y": 5021.09375,
+        "width": 820,
+        "height": 35.046875,
+        "top": 5021.09375,
+        "right": 1050,
+        "bottom": 5056.140625,
+        "left": 230
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "CONTACT",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "avenir-lt-w01_85-heavy1475544, sans-serif",
+      "size": "40px",
+      "weight": "400",
+      "rect": {
+        "x": 260,
+        "y": 5728.046875,
+        "width": 760,
+        "height": 50,
+        "top": 5728.046875,
+        "right": 1020,
+        "bottom": 5778.046875,
+        "left": 260
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Submit",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "Arial",
+      "size": "13.3333px",
+      "weight": "400",
+      "rect": {
+        "x": 170,
+        "y": 6111.046875,
+        "width": 940,
+        "height": 50,
+        "top": 6111.046875,
+        "right": 1110,
+        "bottom": 6161.046875,
+        "left": 170
+      }
+    },
+    {
+      "tag": "P",
+      "text": "roofdoctords@gmail.com",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 387,
+        "y": 6410.046875,
+        "width": 183,
+        "height": 24.796875,
+        "top": 6410.046875,
+        "right": 570,
+        "bottom": 6434.84375,
+        "left": 387
+      }
+    },
+    {
+      "tag": "A",
+      "text": "roofdoctords@gmail.com",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 389.25,
+        "y": 6412.046875,
+        "width": 178.484375,
+        "height": 20,
+        "top": 6412.046875,
+        "right": 567.734375,
+        "bottom": 6432.046875,
+        "left": 389.25
+      }
+    },
+    {
+      "tag": "P",
+      "text": "(336)939-3991",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 367,
+        "y": 6435.640625,
+        "width": 108,
+        "height": 24.796875,
+        "top": 6435.640625,
+        "right": 475,
+        "bottom": 6460.4375,
+        "left": 367
+      }
+    },
+    {
+      "tag": "P",
+      "text": "(336)939-9944",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 482,
+        "y": 6435.640625,
+        "width": 108,
+        "height": 24.796875,
+        "top": 6435.640625,
+        "right": 590,
+        "bottom": 6460.4375,
+        "left": 482
+      }
+    },
+    {
+      "tag": "P",
+      "text": "480 Bradley Rd Pelham NC United States 27311",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "helvetica-w01-light, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "rect": {
+        "x": 706,
+        "y": 6422.84375,
+        "width": 354,
+        "height": 24.796875,
+        "top": 6422.84375,
+        "right": 1060,
+        "bottom": 6447.640625,
+        "left": 706
+      }
+    },
+    {
+      "tag": "P",
+      "text": "©2017 by Roof Doctor. Proudly created with Wix.com",
+      "color": "rgb(25, 25, 25)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "\"open sans\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "rect": {
+        "x": 464,
+        "y": 6504.4375,
+        "width": 361,
+        "height": 20.015625,
+        "top": 6504.4375,
+        "right": 825,
+        "bottom": 6524.453125,
+        "left": 464
+      }
+    }
+  ],
+  "bgs": [
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(255, 255, 255)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 6484.453125,
+      "top": 50
+    },
+    {
+      "id": "",
+      "cls": "_4XcTfy",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 190.859375,
+      "top": 50
+    },
+    {
+      "id": "",
+      "cls": "gUbusX",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 980,
+      "h": 190.859375,
+      "top": 50
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(80, 0, 8)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 720,
+      "top": 240.859375
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 720,
+      "top": 240.859375
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 2320,
+      "top": 1482.046875
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(113, 10, 20)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 921.1875,
+      "top": 960.859375
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(80, 0, 8)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 1440,
+      "top": 3802.046875
+    },
+    {
+      "id": "",
+      "cls": "LWbAav Kv1aVt",
+      "bg": "rgb(113, 10, 20)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 1120,
+      "top": 5242.046875
+    },
+    {
+      "id": "",
+      "cls": "_4XcTfy",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 1280,
+      "h": 172.40625,
+      "top": 6362.046875
+    },
+    {
+      "id": "",
+      "cls": "gUbusX",
+      "bg": "rgb(25, 25, 25)",
+      "bgimg": "none",
+      "w": 980,
+      "h": 171.40625,
+      "top": 6363.046875
+    }
+  ]
+}

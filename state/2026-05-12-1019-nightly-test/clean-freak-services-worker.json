@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-12-1019-nightly-test",
+  "slug": "clean-freak-services",
+  "startedAt": "2026-05-12T15:20:55.589Z",
+  "item": {
+    "slug": "clean-freak-services",
+    "name": "Clean Freak Services LLC",
+    "url": "https://cleanfreaksllc6.wixsite.com/website",
+    "contact": "mailto:cleanfreaksllc21@gmail.com",
+    "location": "Louisville, KY",
+    "vertical": "residential/commercial cleaning and detailing",
+    "summary": "Cleaning site has real contact info and services but includes generic Service Name booking blocks and confusing mixed cleaning/detailing options.",
+    "angle": "preserve the straightforward cleaning-service template while removing generic booking leftovers, grouping services by buyer intent, and strengthening free-estimate action.",
+    "priority": "A"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-12T15:21:01.029Z",
+  "files": {
+    "audit": "opportunities/2026-05-12-1019-nightly-test/clean-freak-services-audit.md",
+    "offer": "offers/2026-05-12-1019-nightly-test/clean-freak-services-offer.md",
+    "prototype": "prototypes/2026-05-12-1019-nightly-test/clean-freak-services/index.html",
+    "targetScreenshot": "screenshots/2026-05-12-1019-nightly-test/clean-freak-services-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-12-1019-nightly-test/clean-freak-services-prototype.png"
+  }
+}

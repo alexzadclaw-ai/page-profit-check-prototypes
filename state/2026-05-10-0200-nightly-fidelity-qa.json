@@ -1,0 +1,138 @@
+{
+  "batch": "2026-05-10-0200-nightly",
+  "itemCount": 10,
+  "passedCount": 0,
+  "failedCount": 10,
+  "results": [
+    {
+      "index": 0,
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 1,
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 2,
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 3,
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 4,
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 5,
+      "slug": "harvest-accounting-llc",
+      "name": "Harvest Accounting LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 6,
+      "slug": "clean-freak-services",
+      "name": "Clean Freak Services LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 7,
+      "slug": "premier-fitness-ky",
+      "name": "Premier Fitness",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 8,
+      "slug": "zensai-kauai-style",
+      "name": "Zensai Kauai Style LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    },
+    {
+      "index": 9,
+      "slug": "jbm-irrigation",
+      "name": "JBM Landscape & Irrigation, LLC",
+      "passed": false,
+      "failures": [
+        "fingerprint evidence too thin (3/8 checks)",
+        "missing explicit non-negotiable structural cues",
+        "missing acceptable Visual resemblance verdict",
+        "missing acceptable Audit coverage verdict"
+      ],
+      "warnings": []
+    }
+  ]
+}

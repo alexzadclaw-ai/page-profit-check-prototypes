@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-12-1019-nightly-test",
+  "slug": "grind-nation-moving",
+  "startedAt": "2026-05-12T15:20:34.854Z",
+  "item": {
+    "slug": "grind-nation-moving",
+    "name": "Grind Nation Moving LLC",
+    "url": "https://gnmovingllc.wixsite.com/mysite",
+    "contact": "mailto:gnmovingllc@yahoo.com",
+    "location": "Dayton, OH",
+    "vertical": "local delivery and moving",
+    "summary": "Local delivery/moving site has a memorable brand line and real contact details, but the quote path and service organization feel thin and template-driven.",
+    "angle": "keep the bold moving-template structure while clarifying local delivery/storage paths, insured trust cues, and what happens after requesting an estimate.",
+    "priority": "A-"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-12T15:20:38.970Z",
+  "files": {
+    "audit": "opportunities/2026-05-12-1019-nightly-test/grind-nation-moving-audit.md",
+    "offer": "offers/2026-05-12-1019-nightly-test/grind-nation-moving-offer.md",
+    "prototype": "prototypes/2026-05-12-1019-nightly-test/grind-nation-moving/index.html",
+    "targetScreenshot": "screenshots/2026-05-12-1019-nightly-test/grind-nation-moving-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-12-1019-nightly-test/grind-nation-moving-prototype.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-12-1019-nightly-test",
+  "slug": "zensai-kauai-style",
+  "startedAt": "2026-05-12T15:21:07.139Z",
+  "item": {
+    "slug": "zensai-kauai-style",
+    "name": "Zensai Kauai Style LLC",
+    "url": "https://zensaikauaistyle.wixsite.com/website",
+    "contact": "mailto:zensaikauaistyle@gmail.com",
+    "location": "Hanapepe, Kauaʻi, HI",
+    "vertical": "local food, poke, plate lunches, catering",
+    "summary": "Food site has authentic local flavor, menu imagery, and contact info, but the homepage hides catering/opening-hours action and has duplicated menu/nav cues.",
+    "angle": "preserve the casual local food style while clarifying daily specials, catering/pupu platter CTA, hours, location, and what to ask for when contacting.",
+    "priority": "B+"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-12T15:21:13.160Z",
+  "files": {
+    "audit": "opportunities/2026-05-12-1019-nightly-test/zensai-kauai-style-audit.md",
+    "offer": "offers/2026-05-12-1019-nightly-test/zensai-kauai-style-offer.md",
+    "prototype": "prototypes/2026-05-12-1019-nightly-test/zensai-kauai-style/index.html",
+    "targetScreenshot": "screenshots/2026-05-12-1019-nightly-test/zensai-kauai-style-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-12-1019-nightly-test/zensai-kauai-style-prototype.png"
+  }
+}
