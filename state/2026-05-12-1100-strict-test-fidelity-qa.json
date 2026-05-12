@@ -1,0 +1,53 @@
+{
+  "batch": "2026-05-12-1100-strict-test",
+  "itemCount": 3,
+  "passedCount": 3,
+  "failedCount": 0,
+  "results": [
+    {
+      "index": 0,
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9625,
+        "pixelSimilarity": 0.9042,
+        "edgeLayoutSimilarity": 0.8186,
+        "perceptualHashSimilarity": 0.8281,
+        "weightedSimilarity": 0.886
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 1,
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9992,
+        "pixelSimilarity": 0.9954,
+        "edgeLayoutSimilarity": 0.9848,
+        "perceptualHashSimilarity": 1,
+        "weightedSimilarity": 0.9944
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 2,
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9621,
+        "pixelSimilarity": 0.9132,
+        "edgeLayoutSimilarity": 0.8679,
+        "perceptualHashSimilarity": 0.8906,
+        "weightedSimilarity": 0.9107
+      },
+      "failures": [],
+      "warnings": []
+    }
+  ]
+}

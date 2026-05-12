@@ -1,0 +1,66 @@
+{
+  "batch": "2026-05-12-1305-5target-test",
+  "createdAt": "2026-05-12T15:19:56.224Z",
+  "runType": "nightly",
+  "model": "openai-codex/gpt-5.5",
+  "siteCount": 10,
+  "cap": 25,
+  "note": "Fresh end-to-end test batch using the regenerated worker/finalize pipeline.",
+  "items": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "url": "https://bayareastagingemai.wixsite.com/my-site",
+      "contact": "mailto:blh11@live.com",
+      "location": "Baltimore, MD / Maryland-Virginia-Delaware",
+      "vertical": "roofing and remodeling",
+      "summary": "Roofing/remodeling Wix site has real service-area/contact details but visible placeholder copy and fake testimonials, making a trust cleanup highly pitchable.",
+      "angle": "keep the M&B-style contractor layout while replacing placeholder text/testimonials, clarifying roofing/remodel paths, and making the free-estimate flow credible.",
+      "priority": "A"
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "url": "https://showerdoorfl.wixsite.com/framelessshowerdoor",
+      "contact": "mailto:showerdoorfl@gmail.com",
+      "location": "Miami, FL",
+      "vertical": "custom frameless shower doors",
+      "summary": "Custom shower-door site has phone/email and project photos but multiple template paragraphs and weak service hierarchy hurt trust.",
+      "angle": "preserve the simple blue/white contractor feel while replacing placeholders with shower-door services, trust cues, project paths, and a clearer free-quote CTA.",
+      "priority": "A"
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "url": "https://gnmovingllc.wixsite.com/mysite",
+      "contact": "mailto:gnmovingllc@yahoo.com",
+      "location": "Dayton, OH",
+      "vertical": "local delivery and moving",
+      "summary": "Local delivery/moving site has a memorable brand line and real contact details, but the quote path and service organization feel thin and template-driven.",
+      "angle": "keep the bold moving-template structure while clarifying local delivery/storage paths, insured trust cues, and what happens after requesting an estimate.",
+      "priority": "A-"
+    },
+    {
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "url": "https://clintsauto.wixsite.com/clintsautomotivefabr",
+      "contact": "mailto:clints_auto@yahoo.com",
+      "location": "Glenmora, LA",
+      "vertical": "auto repair and fabrication",
+      "summary": "Auto repair site has real shop contact, payment info, and estimate intent, but opens around a generic price-quote block and template wording.",
+      "angle": "retain the practical shop style while foregrounding repair/fabrication services, veteran discount/trust, hours/location, and a specific quote request flow.",
+      "priority": "A-"
+    },
+    {
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "url": "https://thenautidetailsllc.wixsite.com/website",
+      "contact": "mailto:Info@TheNautiDetails.com",
+      "location": "Toledo / Perrysburg, OH",
+      "vertical": "boat and marine detailing",
+      "summary": "Marine detailing site has a strong story and contact form but the first screen is vague and the detailed quote form can use clearer package/next-step framing.",
+      "angle": "keep the boat-cleaning imagery and friendly story while tightening hero, service choices, trust proof, and quote-form expectations.",
+      "priority": "A-"
+    }
+  ]
+}

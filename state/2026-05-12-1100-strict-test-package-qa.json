@@ -1,0 +1,116 @@
+{
+  "batch": "2026-05-12-1100-strict-test",
+  "batchJson": "opportunities/2026-05-12-1100-strict-test/batch.json",
+  "itemsInBatchJson": 3,
+  "duplicateSlugs": [],
+  "completeCount": 3,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-1100-strict-test/bay-area-builders-llc-audit.md",
+          "exists": true,
+          "size": 6631
+        },
+        "offer": {
+          "path": "offers/2026-05-12-1100-strict-test/bay-area-builders-llc-offer.md",
+          "exists": true,
+          "size": 1345
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-1100-strict-test/bay-area-builders-llc/index.html",
+          "exists": true,
+          "size": 258105
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/bay-area-builders-llc-target.png",
+          "exists": true,
+          "size": 2840271
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/bay-area-builders-llc-prototype.png",
+          "exists": true,
+          "size": 2722687
+        }
+      }
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-1100-strict-test/miami-frameless-shower-doors-audit.md",
+          "exists": true,
+          "size": 6681
+        },
+        "offer": {
+          "path": "offers/2026-05-12-1100-strict-test/miami-frameless-shower-doors-offer.md",
+          "exists": true,
+          "size": 1352
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-1100-strict-test/miami-frameless-shower-doors/index.html",
+          "exists": true,
+          "size": 308317
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/miami-frameless-shower-doors-target.png",
+          "exists": true,
+          "size": 1818866
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/miami-frameless-shower-doors-prototype.png",
+          "exists": true,
+          "size": 2260599
+        }
+      }
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-1100-strict-test/grind-nation-moving-audit.md",
+          "exists": true,
+          "size": 6646
+        },
+        "offer": {
+          "path": "offers/2026-05-12-1100-strict-test/grind-nation-moving-offer.md",
+          "exists": true,
+          "size": 1347
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-1100-strict-test/grind-nation-moving/index.html",
+          "exists": true,
+          "size": 216903
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/grind-nation-moving-target.png",
+          "exists": true,
+          "size": 1205267
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-1100-strict-test/grind-nation-moving-prototype.png",
+          "exists": true,
+          "size": 1139913
+        }
+      }
+    }
+  ]
+}

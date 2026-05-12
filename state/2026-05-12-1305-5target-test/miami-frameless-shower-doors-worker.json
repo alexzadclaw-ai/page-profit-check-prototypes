@@ -1,0 +1,25 @@
+{
+  "batch": "2026-05-12-1305-5target-test",
+  "slug": "miami-frameless-shower-doors",
+  "startedAt": "2026-05-12T18:07:22.999Z",
+  "item": {
+    "slug": "miami-frameless-shower-doors",
+    "name": "Miami Frameless Shower Doors",
+    "url": "https://showerdoorfl.wixsite.com/framelessshowerdoor",
+    "contact": "mailto:showerdoorfl@gmail.com",
+    "location": "Miami, FL",
+    "vertical": "custom frameless shower doors",
+    "summary": "Custom shower-door site has phone/email and project photos but multiple template paragraphs and weak service hierarchy hurt trust.",
+    "angle": "preserve the simple blue/white contractor feel while replacing placeholders with shower-door services, trust cues, project paths, and a clearer free-quote CTA.",
+    "priority": "A"
+  },
+  "capNote": "One of maximum 25 opportunities for this nightly run.",
+  "completedAt": "2026-05-12T18:07:33.655Z",
+  "files": {
+    "audit": "opportunities/2026-05-12-1305-5target-test/miami-frameless-shower-doors-audit.md",
+    "offer": "offers/2026-05-12-1305-5target-test/miami-frameless-shower-doors-offer.md",
+    "prototype": "prototypes/2026-05-12-1305-5target-test/miami-frameless-shower-doors/index.html",
+    "targetScreenshot": "screenshots/2026-05-12-1305-5target-test/miami-frameless-shower-doors-target.png",
+    "prototypeScreenshot": "screenshots/2026-05-12-1305-5target-test/miami-frameless-shower-doors-prototype.png"
+  }
+}
