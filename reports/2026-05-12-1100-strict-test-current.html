@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>2026-05-12-1100-strict-test strict test report</title><meta name="robots" content="noindex,nofollow"><style>
-body{margin:0;font-family:Arial,sans-serif;background:#f6f5f2;color:#17212b}.wrap{max-width:1440px;margin:auto;padding:28px}h1{margin-bottom:8px}.lede{color:#556;max-width:980px}.card{background:#fff;border-radius:18px;padding:18px;margin:18px 0;box-shadow:0 8px 24px rgba(0,0,0,.08)}.threecol{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:14px;align-items:start}figure{margin:0}figcaption{font-weight:700;margin:0 0 8px}img{width:100%;border-radius:12px;border:1px solid #ddd}.meta{font-size:14px;color:#556}details{margin-top:12px}summary{cursor:pointer;font-weight:700}.links a{display:inline-block;margin-right:10px;margin-top:10px;background:#17212b;color:#fff;padding:9px 13px;border-radius:999px;text-decoration:none}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.score{background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.06)}.pass{color:#116530;font-weight:800}.fail{color:#8b1e2d;font-weight:800}.panel{background:#f9fafb;border:1px solid #e5e7eb;border-radius:14px;padding:12px;overflow:auto}.panel h3{margin:0 0 10px;font-size:16px}.coverage{width:100%;border-collapse:collapse;font-size:12px}.coverage th,.coverage td{text-align:left;vertical-align:top;border-top:1px solid #e5e7eb;padding:8px 6px}.coverage th{position:sticky;top:0;background:#f9fafb}.status{display:inline-block;padding:3px 8px;border-radius:999px;font-weight:700;text-transform:uppercase;font-size:11px}.status.fixed{background:#dcfce7;color:#166534}.status.improved{background:#dbeafe;color:#1d4ed8}.status.deferred{background:#fef3c7;color:#92400e}@media(max-width:1100px){.threecol,.scores{grid-template-columns:1fr}}
+body{margin:0;font-family:Arial,sans-serif;background:#f6f5f2;color:#17212b}.wrap{max-width:1480px;margin:auto;padding:28px}h1{margin-bottom:8px}.lede{color:#556;max-width:980px}.card{background:#fff;border-radius:18px;padding:18px;margin:18px 0;box-shadow:0 8px 24px rgba(0,0,0,.08)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}figure{margin:0}figcaption{font-weight:700;margin:0 0 8px}img{width:100%;border-radius:12px;border:1px solid #ddd}.meta{font-size:14px;color:#556}details{margin-top:12px}summary{cursor:pointer;font-weight:700}.links a{display:inline-block;margin-right:10px;margin-top:10px;background:#17212b;color:#fff;padding:9px 13px;border-radius:999px;text-decoration:none}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.score{background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.06)}.pass{color:#116530;font-weight:800}.fail{color:#8b1e2d;font-weight:800}.coverage-box{background:#f8fafc;border:1px solid #d9e2ec;border-radius:14px;padding:12px;margin:10px 0 16px}.coverage-title{font-size:14px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;margin-bottom:10px;color:#0f172a}.coverage{width:100%;border-collapse:collapse;font-size:12px}.coverage th,.coverage td{text-align:left;vertical-align:top;border-top:1px solid #d9e2ec;padding:8px 6px}.coverage th{position:sticky;top:0;background:#f8fafc}.status{display:inline-block;padding:3px 8px;border-radius:999px;font-weight:700;text-transform:uppercase;font-size:11px}.status.fixed{background:#dcfce7;color:#166534}.status.improved{background:#dbeafe;color:#1d4ed8}.status.deferred{background:#fef3c7;color:#92400e}@media(max-width:900px){.grid2,.scores{grid-template-columns:1fr}}
 </style></head>
 <body><main class="wrap">
 <h1>3-site strict test report</h1>
-<p class="lede">This version adds the third column you asked for: the audit improvements list and whether each prototype addresses it. It pairs original screenshot, prototype screenshot, and the audit coverage status panel.</p>
+<p class="lede">This version makes the third column explicit and separate: audit improvements + prototype status. It also keeps original screenshot and prototype screenshot side-by-side for quick visual review.</p>
 <section class="card"><h2>Summary</h2><div class="scores">
 <div class="score"><span class="pass">PASS</span><br>Bay Area Builders LLC</div>
 <div class="score"><span class="pass">PASS</span><br>Miami Frameless Shower Doors</div>
@@ -12,37 +12,37 @@ body{margin:0;font-family:Arial,sans-serif;background:#f6f5f2;color:#17212b}.wra
 </div><p class="meta">Latest strict run: 2/3 passing after the hero-panel tweak; the report highlights both passes and the remaining visual-fidelity miss.</p></section>
 
     <section class="card">
-      <h2>Bay Area Builders LLC - FAIL</h2>
-      <p class="meta">Similarity 0.709 · edits 7 · categories: hero, section, cta, trust</p>
-      <div class="threecol">
+      <h2>Bay Area Builders LLC - PASS</h2>
+      <p class="meta">Similarity 0.802 · edits 7 · categories: hero, section, cta, trust</p>
+      <div class="coverage-box">
+        <div class="coverage-title">Third column - audit improvements and prototype status</div>
+        <table class="coverage">
+          <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
+          <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
+        </table>
+      </div>
+      <div class="grid2">
         <figure><figcaption>Original</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/bay-area-builders-llc-target.png" alt="bay-area-builders-llc original"></figure>
         <figure><figcaption>Prototype</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/bay-area-builders-llc-prototype.png" alt="bay-area-builders-llc prototype"></figure>
-        <div class="panel">
-          <h3>Audit improvements + status</h3>
-          <table class="coverage">
-            <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
-            <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
-          </table>
-        </div>
       </div>
       <details><summary>Visible changes recorded in the worker</summary><ul><li><strong>hero</strong>: Is It Time To Replace Your Old Roof? → Bay Area Builders LLC: clearer Primary service, Maintenance help, Project cleanup help and</li><li><strong>section</strong>:  → Quick estimate help Bay Area Builders LLC made easier to contact Use the same site style, </li><li><strong>cta</strong>: Get Started → Ask for an estimate</li><li><strong>trust</strong>: “I&#x27;m a testimonial. Click to edit me and add text that says something nice about you and y → Bay Area Builders LLC helps customers with Primary service, Maintenance help, Project clea</li><li><strong>trust</strong>: “I&#x27;m a testimonial. Click to edit me and add text that says something nice about you and y → Bay Area Builders LLC helps customers with Primary service, Maintenance help, Project clea</li><li><strong>trust</strong>: “I&#x27;m a testimonial. Click to edit me and add text that says something nice about you and y → Bay Area Builders LLC helps customers with Primary service, Maintenance help, Project clea</li><li><strong>cta</strong>: https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&amp;adsVersion=banner_2024&amp;ori → mailto:blh11@live.com</li></ul></details>
       <p class="links"><a href="https://htmlpreview.github.io/?https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/prototypes/2026-05-12-1100-strict-test/bay-area-builders-llc/index.html">Open prototype</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/opportunities/2026-05-12-1100-strict-test/bay-area-builders-llc-audit.md">Audit</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/offers/2026-05-12-1100-strict-test/bay-area-builders-llc-offer.md">Offer</a></p>
-      <p class="fail">Failure: rendered screenshot similarity failed: {&quot;colorHistogramSimilarity&quot;:0.8244,&quot;pixelSimilarity&quot;:0.6203,&quot;edgeLayoutSimilarity&quot;:0.7198,&quot;perceptualHashSimilarity&quot;:0.7031,&quot;weightedSimilarity&quot;:0.7086}</p>
+      
     </section>
     
     <section class="card">
       <h2>Miami Frameless Shower Doors - PASS</h2>
-      <p class="meta">Similarity 0.957 · edits 5 · categories: hero, section, cta, trust</p>
-      <div class="threecol">
+      <p class="meta">Similarity 0.872 · edits 5 · categories: hero, section, cta, trust</p>
+      <div class="coverage-box">
+        <div class="coverage-title">Third column - audit improvements and prototype status</div>
+        <table class="coverage">
+          <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
+          <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
+        </table>
+      </div>
+      <div class="grid2">
         <figure><figcaption>Original</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/miami-frameless-shower-doors-target.png" alt="miami-frameless-shower-doors original"></figure>
         <figure><figcaption>Prototype</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/miami-frameless-shower-doors-prototype.png" alt="miami-frameless-shower-doors prototype"></figure>
-        <div class="panel">
-          <h3>Audit improvements + status</h3>
-          <table class="coverage">
-            <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
-            <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
-          </table>
-        </div>
       </div>
       <details><summary>Visible changes recorded in the worker</summary><ul><li><strong>hero</strong>: Miami Frameless Shower Doors. → Miami Frameless Shower Doors: clearer Primary service, Maintenance help, Project cleanup h</li><li><strong>section</strong>:  → Quick estimate help Miami Frameless Shower Doors made easier to contact Use the same site </li><li><strong>cta</strong>: Get Started → Ask for an estimate</li><li><strong>cta</strong>: https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&amp;adsVersion=banner_2024&amp;ori → mailto:showerdoorfl@gmail.com</li><li><strong>trust</strong>: This website was built on Wix. Create yours today.Ask for an estimate → Miami Frameless Shower Doors keeps the same local style and makes the estimate step easier</li></ul></details>
       <p class="links"><a href="https://htmlpreview.github.io/?https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/prototypes/2026-05-12-1100-strict-test/miami-frameless-shower-doors/index.html">Open prototype</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/opportunities/2026-05-12-1100-strict-test/miami-frameless-shower-doors-audit.md">Audit</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/offers/2026-05-12-1100-strict-test/miami-frameless-shower-doors-offer.md">Offer</a></p>
@@ -51,17 +51,17 @@ body{margin:0;font-family:Arial,sans-serif;background:#f6f5f2;color:#17212b}.wra
     
     <section class="card">
       <h2>Grind Nation Moving LLC - PASS</h2>
-      <p class="meta">Similarity 0.816 · edits 5 · categories: hero, section, cta, trust</p>
-      <div class="threecol">
+      <p class="meta">Similarity 0.771 · edits 5 · categories: hero, section, cta, trust</p>
+      <div class="coverage-box">
+        <div class="coverage-title">Third column - audit improvements and prototype status</div>
+        <table class="coverage">
+          <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
+          <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
+        </table>
+      </div>
+      <div class="grid2">
         <figure><figcaption>Original</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/grind-nation-moving-target.png" alt="grind-nation-moving original"></figure>
         <figure><figcaption>Prototype</figcaption><img src="https://raw.githubusercontent.com/alexzadclaw-ai/page-profit-check-prototypes/main/screenshots/2026-05-12-1100-strict-test/grind-nation-moving-prototype.png" alt="grind-nation-moving prototype"></figure>
-        <div class="panel">
-          <h3>Audit improvements + status</h3>
-          <table class="coverage">
-            <thead><tr><th>Improvement</th><th>Severity</th><th>Prototype fix</th><th>Where</th><th>Status</th></tr></thead>
-            <tbody><tr><td>The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.</td><td>Critical</td><td>Rewrite the first screen with a specific local service promise and one primary estimate CTA.</td><td>Hero section</td><td><span class="status fixed">fixed</span></td></tr></tbody>
-          </table>
-        </div>
       </div>
       <details><summary>Visible changes recorded in the worker</summary><ul><li><strong>hero</strong>: Move FAST, Stay YOUNG! → Grind Nation Moving LLC: clearer Primary service, Maintenance help, Project cleanup help a</li><li><strong>section</strong>:  → Quick estimate help Grind Nation Moving LLC made easier to contact Use the same site style</li><li><strong>cta</strong>: Get Started → Ask for an estimate</li><li><strong>cta</strong>: https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&amp;adsVersion=banner_2024&amp;ori → mailto:gnmovingllc@yahoo.com</li><li><strong>trust</strong>: This website was built on Wix. Create yours today.Ask for an estimate → Grind Nation Moving LLC keeps the same local style and makes the estimate step easier to f</li></ul></details>
       <p class="links"><a href="https://htmlpreview.github.io/?https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/prototypes/2026-05-12-1100-strict-test/grind-nation-moving/index.html">Open prototype</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/opportunities/2026-05-12-1100-strict-test/grind-nation-moving-audit.md">Audit</a> <a href="https://github.com/alexzadclaw-ai/page-profit-check-prototypes/blob/main/offers/2026-05-12-1100-strict-test/grind-nation-moving-offer.md">Offer</a></p>
