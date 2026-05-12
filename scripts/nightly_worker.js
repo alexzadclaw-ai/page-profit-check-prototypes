@@ -49,6 +49,108 @@ function themeVars(it) {
   };
 }
 
+function sourceOrigin(url='') {
+  try { return new URL(url).origin; } catch { return ''; }
+}
+function sourceBase(url='') {
+  try {
+    const u = new URL(url);
+    u.hash = '';
+    u.search = '';
+    if (!u.pathname.endsWith('/')) u.pathname = u.pathname.replace(/\/[^/]*$/, '/') || '/';
+    return u.href;
+  } catch { return url; }
+}
+function injectIntoHead(html, injection) {
+  if (/<head[^>]*>/i.test(html)) return html.replace(/<head([^>]*)>/i, `<head$1>\n${injection}`);
+  return `<!doctype html><html><head>${injection}</head><body>${html}</body></html>`;
+}
+function injectBeforeBodyEnd(html, injection) {
+  if (/<\/body>/i.test(html)) return html.replace(/<\/body>/i, `${injection}\n</body>`);
+  return `${html}\n${injection}`;
+}
+function sanitizeInternalWords(html='') {
+  return String(html)
+    .replace(/[A-Za-z]*experiments?[A-Za-z]*/gi, 'site-settings')
+    .replace(/\bprototype(s)?\b/gi, 'site-copy')
+    .replace(/\baudit(s)?\b/gi, 'review')
+    .replace(/\bconcept(s)?\b/gi, 'idea');
+}
+async function applyInPlaceCleanup(page, { item, contactEmail, phone, services }) {
+  await page.evaluate(({ item, contactEmail, phone, services }) => {
+    const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
+    const serviceText = clean((services || []).slice(0, 3).join(', '));
+    const business = item.name || document.title || 'this business';
+    document.title = `${business} | ${item.vertical || 'Local service'}`;
+    const textEls = Array.from(document.querySelectorAll('h1,h2,h3,p,span,a,button'));
+    for (const el of textEls) {
+      const txt = clean(el.textContent);
+      if (!txt) continue;
+      if (/^i'?m a testimonial\.?/i.test(txt) || /click to edit me/i.test(txt)) {
+        el.textContent = `${business} helps customers with ${serviceText || item.vertical || 'clear local service needs'} and makes the next step easier to request.`;
+      }
+      if (/^learn more$/i.test(txt)) el.textContent = 'Ask for details';
+      if (/^book now$|^get started$|^contact us$/i.test(txt)) el.textContent = 'Ask for an estimate';
+    }
+    const estimateHref = contactEmail ? `mailto:${contactEmail}` : (item.contact || item.url || '#');
+    for (const a of Array.from(document.querySelectorAll('a'))) {
+      const txt = clean(a.textContent);
+      if (/ask for an estimate|contact us|get started|book now|learn more/i.test(txt)) a.setAttribute('href', estimateHref);
+    }
+    if (phone) {
+      const telHref = `tel:${String(phone).replace(/[^0-9+]/g, '')}`;
+      for (const a of Array.from(document.querySelectorAll('a'))) {
+        if (/call|phone|\(?\d{3}\)?[\s.-]?\d{3}/i.test(clean(a.textContent))) a.setAttribute('href', telHref);
+      }
+    }
+  }, { item, contactEmail, phone, services }).catch(() => {});
+}
+function buildSiteDerivedPrototype({ liveHtml, item, scraped, contactEmail, phone, services }) {
+  const baseHref = sourceBase(item.url);
+  const origin = sourceOrigin(item.url);
+  const primaryService = services[0] || item.vertical || 'service';
+  const phoneHref = phone ? `tel:${phone.replace(/[^0-9+]/g,'')}` : '';
+  const emailHref = contactEmail ? `mailto:${contactEmail}` : item.contact || item.url;
+  const title = `${item.name} | ${item.vertical || scraped.title || 'Local Service'}`;
+  const headInjection = `
+<base href="${esc(baseHref)}">
+<meta name="robots" content="noindex,nofollow">
+<title>${esc(title)}</title>
+<style id="ppc-surgical-cleanup">
+  :root { --ppc-accent: #165f73; --ppc-ink: #17212b; --ppc-card: rgba(255,255,255,.94); }
+  html { scroll-behavior: smooth; }
+  body { min-width: 0 !important; }
+  img, video, iframe { max-width: 100%; }
+  a[href^="tel:"], a[href^="mailto:"] { word-break: break-word; }
+  .ppc-clarity-strip { font-family: Arial, Helvetica, sans-serif; position: relative; z-index: 2147483000; background: var(--ppc-card); color: var(--ppc-ink); border-bottom: 1px solid rgba(0,0,0,.14); box-shadow: 0 8px 24px rgba(0,0,0,.10); }
+  .ppc-clarity-inner { width: min(1120px, 94vw); margin: 0 auto; display: grid; grid-template-columns: 1.15fr auto; gap: 18px; align-items: center; padding: 14px 0; }
+  .ppc-clarity-copy { display: grid; gap: 4px; }
+  .ppc-clarity-kicker { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; font-weight: 800; color: var(--ppc-accent); }
+  .ppc-clarity-title { font-size: clamp(18px, 2.2vw, 25px); line-height: 1.15; font-weight: 800; }
+  .ppc-clarity-sub { font-size: 14px; line-height: 1.35; opacity: .82; max-width: 760px; }
+  .ppc-clarity-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+  .ppc-clarity-actions a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 15px; border-radius: 999px; text-decoration: none; font-weight: 800; border: 1px solid var(--ppc-accent); color: var(--ppc-accent); background: white; }
+  .ppc-clarity-actions a:first-child { background: var(--ppc-accent); color: white; }
+  .ppc-next-step { font-family: Arial, Helvetica, sans-serif; background: #f7f7f4; color: #18222c; padding: 34px 0; }
+  .ppc-next-step-inner { width: min(1120px, 94vw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .ppc-next-card { background: white; border: 1px solid rgba(0,0,0,.10); border-radius: 18px; padding: 22px; box-shadow: 0 10px 26px rgba(0,0,0,.06); }
+  .ppc-next-card h2, .ppc-next-card h3 { margin-top: 0; line-height: 1.15; }
+  .ppc-next-list { margin: 0; padding-left: 20px; }
+  .ppc-next-list li { margin: 7px 0; }
+  @media (max-width: 820px) {
+    .ppc-clarity-inner, .ppc-next-step-inner { grid-template-columns: 1fr; }
+    .ppc-clarity-actions { justify-content: flex-start; }
+    .ppc-clarity-actions a { width: 100%; }
+  }
+</style>`;
+  let html = liveHtml || `<html><body><h1>${esc(item.name)}</h1><p>${esc(scraped.text || item.url)}</p></body></html>`;
+  html = html.replace(/<script\b[\s\S]*?<\/script>/gi, match => /application\/ld\+json/i.test(match) ? match : '');
+  html = injectIntoHead(html, headInjection);
+  html = sanitizeInternalWords(html);
+  if (origin) html = html.replace(/(src|href)=(['"])\/(?!\/)/gi, `$1=$2${origin}/`);
+  return html;
+}
+
 async function captureUrl(browser, url, out, isFile=false) {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1700 }, deviceScaleFactor: 1 });
   page.setDefaultTimeout(25000);
@@ -89,6 +191,8 @@ async function main() {
       return { title, text: text.slice(0, 4000), email, phone, colors: [...new Set(colors)].slice(0,20) };
     });
   } catch {}
+  await applyInPlaceCleanup(targetPage, { item, contactEmail: emailFromContact(item.contact || scraped.email || ''), phone: item.phone || telFromText(scraped.text) || '', services: pickServices(item, scraped.text) });
+  const liveHtml = await targetPage.content().catch(() => '');
   await targetPage.close().catch(()=>{});
 
   const theme = themeVars(item);
@@ -112,11 +216,7 @@ async function main() {
   const offer = `Hi ${shortName} team,\n\nI took a look at your website and found a few quick wins that could help more visitors understand the service, trust the business, and ask for an estimate.\n\nWhat is already strong:\n- The site gives people a real way to contact you.\n- The business category is clear enough for a focused cleanup.\n- There are existing brand cues worth preserving, so this does not need to become a full redesign.\n- The services can be made easier to scan without changing the business.\n\nWhat is probably costing leads:\n- The first screen could be more specific about the service area, main jobs, and next action.\n- Trust signals are not doing enough work near the top of the page.\n- The service list can be grouped more clearly by what customers need done.\n- The contact step should explain what happens after someone reaches out.\n- A few site-builder rough edges make the page feel less finished than the business deserves.\n\nFor $99, I can do a Page Profit Check that turns those notes into a clean priority list with exact wording you can use on the site.\n\nRecommended ROM for implementation: ${roman}.\n\nIf you want, the first fixes I would tackle are the hero message, trust strip, service cards, and a simple next-step section.\n`;
   write(`offers/${batch}/${slug}-offer.md`, offer);
 
-  const serviceCards = services.map((s, i) => `<article class="card"><span>0${i+1}</span><h3>${esc(s)}</h3><p>${esc((item.serviceBlurbs && item.serviceBlurbs[i]) || 'Make this option easier to understand with a short, customer-focused description and a clear estimate path.')}</p></article>`).join('\n');
-  const proto = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(item.name)} | ${esc(item.vertical || 'Local Service')}</title><meta name="description" content="${esc(item.name)} service page with clear estimate path, trust cues, and easy service options."><style>
-:root{--bg:${theme.bg};--card:${theme.card};--ink:${theme.ink};--muted:${theme.muted};--accent:${theme.accent};--accent2:${theme.accent2};--dark:${theme.dark};--font:${theme.font}}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.55} a{color:inherit}.wrap{width:min(1120px,92vw);margin:auto}.top{background:var(--card);border-bottom:1px solid rgba(0,0,0,.08);position:sticky;top:0;z-index:2}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0}.brand{font-size:clamp(22px,3vw,34px);font-weight:800;letter-spacing:.02em;color:var(--dark)}.menu{display:flex;gap:22px;align-items:center;font-size:14px;text-transform:uppercase;letter-spacing:.08em}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:white;text-decoration:none;border-radius:999px;padding:13px 22px;font-weight:800;box-shadow:0 10px 22px rgba(0,0,0,.12)}.btn.alt{background:transparent;color:var(--accent);border:2px solid var(--accent)}.hero{padding:70px 0 34px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:center}.eyebrow{color:var(--accent);font-weight:900;text-transform:uppercase;letter-spacing:.11em;font-size:13px}.hero h1{font-size:clamp(42px,7vw,82px);line-height:.95;margin:10px 0 20px;color:var(--dark)}.lede{font-size:clamp(18px,2vw,23px);color:var(--muted);max-width:660px}.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.hero-card{background:linear-gradient(145deg,var(--card),rgba(255,255,255,.75));border-radius:28px;padding:28px;min-height:390px;box-shadow:0 18px 50px rgba(0,0,0,.12);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.hero-card .photo{height:210px;border-radius:22px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;color:white;font-size:72px;font-weight:900;letter-spacing:-.08em}.hero-card p{font-size:20px;margin:22px 0 0}.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px auto 54px}.trust div{background:var(--card);padding:18px;border-radius:18px;border:1px solid rgba(0,0,0,.07);font-weight:800}.section{padding:54px 0}.section h2{font-size:clamp(30px,4.6vw,54px);line-height:1;margin:0 0 18px;color:var(--dark)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:var(--card);border-radius:24px;padding:24px;border:1px solid rgba(0,0,0,.07);box-shadow:0 12px 32px rgba(0,0,0,.06)}.card span{color:var(--accent);font-weight:900}.card h3{font-size:22px;margin:8px 0}.band{background:var(--dark);color:white;border-radius:30px;padding:38px;margin:28px 0}.band h2{color:white}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:22px;background:rgba(255,255,255,.06)}.quote{display:grid;grid-template-columns:1fr .8fr;gap:24px;align-items:start;background:var(--card);border-radius:28px;padding:34px;box-shadow:0 16px 40px rgba(0,0,0,.08)}.mini{color:var(--muted)}.footer{padding:38px 0 60px;color:var(--muted)}@media(max-width:820px){.menu{display:none}.hero{padding-top:42px}.hero-grid,.quote{grid-template-columns:1fr}.trust,.grid,.steps{grid-template-columns:1fr}.hero h1{font-size:45px}.hero-card{min-height:280px}.cta-row .btn{width:100%}}
-</style></head><body><header class="top"><div class="wrap nav"><div class="brand">${esc(item.name)}</div><nav class="menu"><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Contact</a><a class="btn" href="${contactEmail ? `mailto:${esc(contactEmail)}` : '#contact'}">Request an estimate</a></nav></div></header><main><section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">${esc(item.location || 'Local service')}</p><h1>${esc(item.hero || `${item.vertical || 'Local'} help with a clearer path to an estimate.`)}</h1><p class="lede">${esc(item.subhead || `A cleaner, easier-to-scan homepage for ${item.name}, with the main services, trust cues, and next step visible before visitors get lost.`)}</p><div class="cta-row"><a class="btn" href="${contactEmail ? `mailto:${esc(contactEmail)}` : '#contact'}">Ask for an estimate</a>${phone ? `<a class="btn alt" href="tel:${esc(phone.replace(/[^0-9+]/g,''))}">Call ${esc(phone)}</a>` : `<a class="btn alt" href="#services">See services</a>`}</div></div><aside class="hero-card"><div class="photo">${esc((item.name.match(/[A-Z]/g)||['S']).slice(0,2).join(''))}</div><p>${esc(item.heroCard || 'Fast local help, clear communication, and a simpler way to start the job.')}</p></aside></div></section><section class="wrap trust"><div>Local service area</div><div>Easy estimate request</div><div>Clear service options</div><div>Friendly next steps</div></section><section id="services" class="wrap section"><p class="eyebrow">Services</p><h2>Choose the job you need handled.</h2><p class="lede">The same services are organized into clearer paths so visitors can quickly recognize their project and take the next step.</p><div class="grid">${serviceCards}</div></section><section id="process" class="wrap section"><div class="band"><p class="eyebrow">What happens next</p><h2>Simple estimate flow.</h2><div class="steps"><div class="step"><h3>1. Send the basics</h3><p>Share the service, location, timing, and a few photos if helpful.</p></div><div class="step"><h3>2. Get a clear response</h3><p>The business confirms fit, answers questions, and gives the next available quote step.</p></div><div class="step"><h3>3. Schedule the work</h3><p>Once the scope is clear, the job gets scheduled with fewer back-and-forth messages.</p></div></div></div></section><section id="contact" class="wrap section quote"><div><p class="eyebrow">Contact</p><h2>Ready for an estimate?</h2><p class="lede">Tell ${esc(shortName)} what you need done and where the job is located. A short, specific request makes it easier to respond quickly.</p><div class="cta-row"><a class="btn" href="${contactEmail ? `mailto:${esc(contactEmail)}` : item.url}">Email for an estimate</a>${phone ? `<a class="btn alt" href="tel:${esc(phone.replace(/[^0-9+]/g,''))}">Call now</a>` : ''}</div></div><div class="card"><h3>${esc(item.name)}</h3><p class="mini">${esc(item.location || 'Service area listed on website')}</p>${contactEmail ? `<p><strong>Email:</strong><br><a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a></p>` : ''}${phone ? `<p><strong>Phone:</strong><br><a href="tel:${esc(phone.replace(/[^0-9+]/g,''))}">${esc(phone)}</a></p>` : ''}<p class="mini">Main services: ${esc(services.join(', '))}</p></div></section></main><footer class="wrap footer">© ${new Date().getFullYear()} ${esc(item.name)}. Service information summarized from the public website for clearer customer action paths.</footer></body></html>`;
+  const proto = buildSiteDerivedPrototype({ liveHtml, item, scraped, contactEmail, phone, services });
   write(`prototypes/${batch}/${slug}/index.html`, proto);
 
   const protoHtml = fs.readFileSync(abs(`prototypes/${batch}/${slug}/index.html`), 'utf8');

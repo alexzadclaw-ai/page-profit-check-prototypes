@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const { spawnSync } = require('child_process');
 
 const root = path.resolve(__dirname, '..');
 const batch = process.argv[2];
@@ -20,10 +21,38 @@ const items = Array.isArray(meta.items) ? meta.items : [];
 function exists(rel) { return fs.existsSync(path.join(root, rel)); }
 function read(rel) { return exists(rel) ? fs.readFileSync(path.join(root, rel), 'utf8') : ''; }
 function size(rel) { try { return fs.statSync(path.join(root, rel)).size; } catch { return 0; } }
+function visibleText(html='') {
+  return String(html)
+    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[a-z0-9#]+;/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 function hasAuditSection(audit, name) {
   return new RegExp(`(^|\\n)##\\s+${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(audit);
 }
 function countMatches(s, re) { return (s.match(re) || []).length; }
+function runVisualSimilarity(targetRel, prototypeRel) {
+  const script = path.join(root, 'scripts', 'visual_similarity_gate.py');
+  const result = spawnSync('python3', [script, path.join(root, targetRel), path.join(root, prototypeRel)], { encoding: 'utf8' });
+  const raw = (result.stdout || '').trim();
+  let parsed = {};
+  try { parsed = raw ? JSON.parse(raw) : {}; } catch (e) { parsed = { error: `invalid visual similarity JSON: ${raw.slice(0, 300)}` }; }
+  if (result.status !== 0 && !parsed.error) parsed.error = result.stderr || `visual similarity exited ${result.status}`;
+  return parsed;
+}
+function visualPass(metrics) {
+  if (!metrics || metrics.error) return false;
+  // These thresholds are intentionally conservative. A real surgical clone may
+  // change copy/CTA/spacing, but it must still preserve the live site's visible
+  // color direction, top-of-page structure, and overall layout rhythm.
+  return metrics.weightedSimilarity >= 0.78 &&
+    metrics.colorHistogramSimilarity >= 0.72 &&
+    metrics.edgeLayoutSimilarity >= 0.72 &&
+    metrics.perceptualHashSimilarity >= 0.66;
+}
 
 const requiredAuditSections = [
   'Audit-to-Prototype Coverage',
@@ -57,11 +86,16 @@ const results = items.map((item, index) => {
   const pshotRel = `screenshots/${batch}/${slug}-prototype.png`;
   const audit = read(auditRel);
   const proto = read(protoRel);
+  const protoVisible = visibleText(proto);
   const failures = [];
   const warnings = [];
 
   for (const rel of [auditRel, protoRel, targetRel, pshotRel]) {
     if (!exists(rel) || size(rel) <= 0) failures.push(`missing or empty ${rel}`);
+  }
+  const visualMetrics = exists(targetRel) && exists(pshotRel) ? runVisualSimilarity(targetRel, pshotRel) : null;
+  if (!visualPass(visualMetrics)) {
+    failures.push(`rendered screenshot similarity failed: ${visualMetrics && visualMetrics.error ? visualMetrics.error : JSON.stringify(visualMetrics)}`);
   }
   for (const section of requiredAuditSections) {
     if (!hasAuditSection(audit, section)) failures.push(`audit missing section: ${section}`);
@@ -89,7 +123,7 @@ const results = items.map((item, index) => {
   for (const re of genericSkeletonTerms) {
     if (re.test(proto)) failures.push(`prototype contains forbidden/internal genericity language: ${re}`);
   }
-  if (/prototype|audit deliverable|experiment|concept/i.test(proto.replace(/<title>.*?<\/title>/is, ''))) {
+  if (/prototype|audit deliverable|experiment|concept/i.test(protoVisible)) {
     failures.push('prototype appears to expose internal prototype/audit/concept language');
   }
 
@@ -98,10 +132,43 @@ const results = items.map((item, index) => {
     slug,
     name: item.name || slug,
     passed: failures.length === 0,
+    visualMetrics,
     failures,
     warnings
   };
 });
+
+// Batch-level anti-template check: if many prototypes are visually close to
+// each other while their source sites are not, the worker is probably emitting
+// a shared template instead of site-derived pages. This protects against the
+// exact failure mode where each audit says "high resemblance" but every render
+// looks like the same house layout.
+let repeatedTemplatePairs = [];
+for (let i = 0; i < items.length; i++) {
+  for (let j = i + 1; j < items.length; j++) {
+    const a = items[i].slug;
+    const b = items[j].slug;
+    const protoA = `screenshots/${batch}/${a}-prototype.png`;
+    const protoB = `screenshots/${batch}/${b}-prototype.png`;
+    const targetA = `screenshots/${batch}/${a}-target.png`;
+    const targetB = `screenshots/${batch}/${b}-target.png`;
+    if (![protoA, protoB, targetA, targetB].every(exists)) continue;
+    const protoSim = runVisualSimilarity(protoA, protoB);
+    const targetSim = runVisualSimilarity(targetA, targetB);
+    if (!protoSim.error && !targetSim.error && protoSim.weightedSimilarity >= 0.88 && targetSim.weightedSimilarity < 0.78) {
+      repeatedTemplatePairs.push({ a, b, prototypeSimilarity: protoSim.weightedSimilarity, targetSimilarity: targetSim.weightedSimilarity });
+    }
+  }
+}
+if (repeatedTemplatePairs.length) {
+  const offenders = new Set(repeatedTemplatePairs.flatMap(p => [p.a, p.b]));
+  for (const r of results) {
+    if (offenders.has(r.slug)) {
+      r.passed = false;
+      r.failures.push(`batch-level repeated-template visual pattern detected (${repeatedTemplatePairs.length} suspicious pair(s))`);
+    }
+  }
+}
 
 const summary = {
   batch,
