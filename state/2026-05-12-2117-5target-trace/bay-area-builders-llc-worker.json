@@ -1,7 +1,7 @@
 {
   "batch": "2026-05-12-2117-5target-trace",
   "slug": "bay-area-builders-llc",
-  "startedAt": "2026-05-13T02:20:21.063Z",
+  "startedAt": "2026-05-13T02:27:49.395Z",
   "item": {
     "slug": "bay-area-builders-llc",
     "name": "Bay Area Builders LLC",
@@ -14,7 +14,7 @@
     "priority": "A"
   },
   "capNote": "One of maximum 25 opportunities for this nightly run.",
-  "completedAt": "2026-05-13T02:20:26.782Z",
+  "completedAt": "2026-05-13T02:27:54.310Z",
   "files": {
     "audit": "opportunities/2026-05-12-2117-5target-trace/bay-area-builders-llc-audit.md",
     "offer": "offers/2026-05-12-2117-5target-trace/bay-area-builders-llc-offer.md",

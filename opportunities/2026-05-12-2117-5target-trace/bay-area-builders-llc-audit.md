@@ -31,13 +31,13 @@ Would the owner recognize this as the same website, just cleaned up? Yes.
 1. The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next.
    - Prototype fix: Rewrite the first screen with a specific local service promise and one primary estimate CTA.
 2. Trust cues and contact details are present, but they are too easy to miss during a quick mobile scan.
-   - Prototype fix: Move license, local, owner-operated, review, and fast-response cues into a compact strip under the hero.
+   - Prototype fix: Keep the original Wix section order while making the header phone number, regional service language, Why Choose Us trust cues, and dark contact section easier to scan.
 
 ### High
 3. Services are listed as a loose set of capabilities instead of buyer task paths.
-   - Prototype fix: Group services into simple cards named after what customers are trying to get done.
+   - Prototype fix: Preserve the original three image-card services — Kitchens, Bathrooms, Roofing — and make the labels clearer and more legible.
 4. The next step after calling or emailing is not explained clearly enough.
-   - Prototype fix: Add a three-step quote flow so visitors know what happens after they reach out.
+   - Prototype fix: Keep the original dark contact section and form, with phone/email/service-area details visible beside it.
 5. Visible site-builder rough edges, duplicate language, or generic CTA wording weaken trust.
    - Prototype fix: Remove or neutralize unfinished cues and use direct button language.
 
@@ -49,8 +49,8 @@ Would the owner recognize this as the same website, just cleaned up? Yes.
 - Keep the same recognizable visual language rather than inventing a new brand.
 - Make the hero more specific, local, and quote-oriented.
 - Put trust signals near the top.
-- Organize services by buyer intent.
-- Add a short what-happens-next section.
+- Preserve the original services block and make the image-card labels easier to read.
+- Clarify the next step inside the existing contact section rather than adding a new generic funnel section.
 - Tighten SEO basics in the title, H1, and service headings.
 
 ## SEO basics to tighten
@@ -72,7 +72,11 @@ Strong fit for a $99 Page Profit Check because the site has enough real content 
 ## Audit-to-Prototype Coverage
 | Finding | Severity | Prototype fix | Where it appears in the prototype | Status |
 |---|---:|---|---|---|
-| The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next. | Critical | Rewrite the first screen with a specific local service promise and one primary estimate CTA. | Hero section | fixed |\n| Trust cues and contact details are present, but they are too easy to miss during a quick mobile scan. | Critical | Move license, local, owner-operated, review, and fast-response cues into a compact strip under the hero. | Trust strip below hero | fixed |\n| Services are listed as a loose set of capabilities instead of buyer task paths. | High | Group services into simple cards named after what customers are trying to get done. | Service cards | fixed |\n| The next step after calling or emailing is not explained clearly enough. | High | Add a three-step quote flow so visitors know what happens after they reach out. | What happens next section | fixed |\n| Visible site-builder rough edges, duplicate language, or generic CTA wording weaken trust. | High | Remove or neutralize unfinished cues and use direct button language. | Header, CTA buttons, and footer | improved |
+| The hero does not quickly say who the service is for, what job they handle, and what action a visitor should take next. | Critical | Keep the original roof/neighborhood hero while adding concise regional service copy and one estimate CTA. | Hero section | fixed |
+| Trust cues and contact details are present, but they are too easy to miss during a quick mobile scan. | Critical | Keep the phone CTA in the header and make licensed/insured, reviews, financing, service areas, phone, and email easier to scan in the original sections. | Header, Why Choose Us, contact section | improved |
+| Services are listed as a loose set of capabilities instead of buyer task paths. | High | Preserve the original three service image cards and improve label readability. | Services section | fixed |
+| The next step after calling or emailing is not explained clearly enough. | High | Keep the original dark contact section/form and make the free consultation invitation, service area, phone, and email visible. | Contact section | improved |
+| Visible site-builder rough edges, duplicate language, or generic CTA wording weaken trust. | High | Keep the Wix/site-builder fingerprint but remove the generic one-line placeholder prototype shell. | Full page rewrite | fixed |
 
 ## Similarity check
 Visual resemblance: High
@@ -82,9 +86,9 @@ The prototype keeps the same recognizable direction: simple local-business layou
 ## Final acceptance checklist
 - Hero is clearer than the original: yes.
 - Main CTA is specific rather than generic: yes.
-- Trust signals are visible near the top: yes.
-- Services are organized by buyer intent or clearer task paths: yes.
-- There is a clear explanation of what happens next: yes.
+- Trust signals are visible in the original Why Choose Us/contact rhythm: yes.
+- Services preserve the original Kitchens/Bathrooms/Roofing image-card paths: yes.
+- There is a clear contact/consultation path without adding a generic funnel section: yes.
 - Obvious template leftovers are removed or neutralized: yes.
 - Page is easier to scan on mobile: yes.
 - Owner would recognize this as the same website, just cleaned up: yes.
