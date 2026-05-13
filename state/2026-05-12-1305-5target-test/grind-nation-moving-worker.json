@@ -1,7 +1,7 @@
 {
   "batch": "2026-05-12-1305-5target-test",
   "slug": "grind-nation-moving",
-  "startedAt": "2026-05-12T18:07:34.007Z",
+  "startedAt": "2026-05-13T02:08:43.072Z",
   "item": {
     "slug": "grind-nation-moving",
     "name": "Grind Nation Moving LLC",
@@ -14,7 +14,7 @@
     "priority": "A-"
   },
   "capNote": "One of maximum 25 opportunities for this nightly run.",
-  "completedAt": "2026-05-12T18:07:41.666Z",
+  "completedAt": "2026-05-13T02:08:47.535Z",
   "files": {
     "audit": "opportunities/2026-05-12-1305-5target-test/grind-nation-moving-audit.md",
     "offer": "offers/2026-05-12-1305-5target-test/grind-nation-moving-offer.md",

@@ -26,13 +26,14 @@ function pickServices(it, scrapedText) {
   if (Array.isArray(it.services) && it.services.length) return it.services;
   const defaults = {
     handyman: ['Small repairs', 'Assembly and installs', 'Drywall, paint, and punch lists', 'Maintenance visit'],
+    roof: ['Roof repairs', 'Roof replacement', 'Exterior upgrades', 'Remodeling projects'],
     'window cleaning': ['Exterior window cleaning', 'Interior glass cleaning', 'Screens and tracks', 'Seasonal maintenance'],
     'pressure washing': ['House washing', 'Driveways and concrete', 'Decks and patios', 'Commercial storefronts'],
     junk: ['Furniture removal', 'Garage cleanouts', 'Appliance hauling', 'Small business pickups']
   };
   const v = (it.vertical || '').toLowerCase();
   for (const [k, arr] of Object.entries(defaults)) if (v.includes(k)) return arr;
-  return ['Primary service', 'Maintenance help', 'Project cleanup', 'Quote request'];
+  return ['Main service', 'Maintenance help', 'Project cleanup', 'Quote request'];
 }
 function themeVars(it) {
   const t = it.theme || {};
@@ -82,11 +83,15 @@ async function applyInPlaceCleanup(page, { item, contactEmail, phone, services }
     const serviceText = clean((services || []).slice(0, 3).join(', '));
     const business = item.name || document.title || 'this business';
     document.title = `${business} | ${item.vertical || 'Local service'}`;
-    const textEls = Array.from(document.querySelectorAll('h1,h2,h3,p,span,a,button'));
+    const textEls = Array.from(document.querySelectorAll('h1,h2,h3,p,span,a,button,div'));
     for (const el of textEls) {
       const txt = clean(el.textContent);
       if (!txt) continue;
-      if (/^i'?m a testimonial\.?/i.test(txt) || /click to edit me/i.test(txt)) {
+      if (/built on wix|powered by wix/i.test(txt)) {
+        el.style.display = 'none';
+        continue;
+      }
+      if (/^i'?m a testimonial\.?/i.test(txt) || /click to edit me/i.test(txt) || /click here to add your own text/i.test(txt) || /^i'?m a paragraph\.?/i.test(txt)) {
         el.textContent = `${business} helps customers with ${serviceText || item.vertical || 'clear local service needs'} and makes the next step easier to request.`;
       }
       if (/^learn more$/i.test(txt)) el.textContent = 'Ask for details';
@@ -137,6 +142,8 @@ function buildSiteDerivedPrototype({ liveHtml, item, scraped, contactEmail, phon
   .ppc-next-card h2, .ppc-next-card h3 { margin-top: 0; line-height: 1.15; }
   .ppc-next-list { margin: 0; padding-left: 20px; }
   .ppc-next-list li { margin: 7px 0; }
+  #SITE_CONTAINER, #site-root, #main_MF { display: block !important; visibility: visible !important; }
+  #WIX_ADS, #WIX_ADS * { display: none !important; visibility: hidden !important; }
   @media (max-width: 820px) {
     .ppc-clarity-inner, .ppc-next-step-inner { grid-template-columns: 1fr; }
     .ppc-clarity-actions { justify-content: flex-start; }
@@ -148,6 +155,312 @@ function buildSiteDerivedPrototype({ liveHtml, item, scraped, contactEmail, phon
   html = injectIntoHead(html, headInjection);
   html = sanitizeInternalWords(html);
   if (origin) html = html.replace(/(src|href)=(['"])\/(?!\/)/gi, `$1=$2${origin}/`);
+  return html;
+}
+
+function deriveThemeFromScraped(item, scraped = {}) {
+  const base = themeVars(item);
+  const colors = Array.isArray(scraped.colors) ? scraped.colors.filter(Boolean).map(c => String(c).trim()) : [];
+  const nonNeutral = c => {
+    const s = String(c).toLowerCase();
+    return s && !/rgba?\(0, 0, 0|#000|black/.test(s) && !/rgba?\(255, 255, 255|#fff|white/.test(s);
+  };
+  const accent = colors.find(nonNeutral) || base.accent;
+  const accent2 = colors.find((c, i) => i > 0 && nonNeutral(c) && c !== accent) || base.accent2;
+  const dark = colors.find(c => /rgb\(1[0-9]|rgb\(2[0-9]|rgb\(3[0-9]|#1|#2/i.test(String(c))) || base.dark;
+  return {
+    ...base,
+    accent,
+    accent2,
+    dark,
+    muted: base.muted,
+    bg: base.bg,
+    card: base.card,
+  };
+}
+
+function slugWords(s='') {
+  return String(s).replace(/[\-_]+/g, ' ').replace(/\bllc\b/ig, '').replace(/\s+/g, ' ').trim();
+}
+
+function serviceModules(item, scrapedText='') {
+  const vertical = String(item.vertical || '').toLowerCase();
+  const name = item.name || 'this business';
+  const location = item.location || 'the local area';
+  const summary = cleanText(item.summary || scrapedText).slice(0, 180);
+  const headlineFor = () => {
+    if (vertical.includes('roof')) return `Clear roofing and remodeling quotes for ${location}.`;
+    if (vertical.includes('shower') || vertical.includes('glass')) return `Get a cleaner quote for frameless shower doors in ${location}.`;
+    if (vertical.includes('moving') || vertical.includes('delivery')) return `Fast moving and delivery help with a simple quote path.`;
+    if (vertical.includes('auto') || vertical.includes('fabrication')) return `Straightforward auto repair and fabrication quotes in ${location}.`;
+    if (vertical.includes('marine') || vertical.includes('boat')) return `Boat detailing and cleanup quotes made easier in ${location}.`;
+    return `Clear quote requests for ${item.vertical || 'local service work'} in ${location}.`;
+  };
+  const subheadFor = () => {
+    if (vertical.includes('roof')) return `Request roof repairs, roof replacement, exterior upgrades, or remodeling help without hunting for the next step.`;
+    if (vertical.includes('shower') || vertical.includes('glass')) return `Make it easy to ask about measurement, install, repair, and enclosure upgrades.`;
+    if (vertical.includes('moving') || vertical.includes('delivery')) return `Spell out what to send, what gets quoted, and how fast the team can help.`;
+    if (vertical.includes('auto') || vertical.includes('fabrication')) return `Put the main shop services, diagnostics, and quote request in one place.`;
+    if (vertical.includes('marine') || vertical.includes('boat')) return `Show the main detailing options and make the quote process feel simple.`;
+    return summary || `A clearer first screen, stronger trust cues, and a simpler quote path for ${item.vertical || 'local service work'} in ${location}.`;
+  };
+  const base = {
+    hero: {
+      kicker: `${slugWords(name)} • ${location}`,
+      headline: headlineFor(),
+      subhead: subheadFor()
+    },
+    services: [
+      ['Quote-worthy work', 'Lead with the jobs people actually want done, not a generic capability dump.'],
+      ['Fast estimate help', 'Make the first next step obvious on mobile and desktop.'],
+      ['Proof near the top', 'Surface trust cues before visitors have to hunt for them.'],
+      ['Clear handoff', 'Explain what happens after someone calls or emails.']
+    ]
+  };
+  if (vertical.includes('roof')) base.services = [
+    ['Roof repairs', 'Leaks, storm damage, and targeted repair requests.'],
+    ['Roof replacement', 'Full replacement projects that need a simple quote process.'],
+    ['Exterior upgrades', 'Gutters, trim, siding, and cleanup after the roof is handled.'],
+    ['Remodeling projects', 'Related home updates that can be grouped into one quote request.']
+  ];
+  else if (vertical.includes('shower') || vertical.includes('glass')) base.services = [
+    ['Frameless shower doors', 'Measure, design, and install the main enclosure.'],
+    ['Glass panel upgrades', 'Replace dated panels with a cleaner fit and finish.'],
+    ['Repair and re-seal', 'Fix the details that make a shower feel finished.'],
+    ['Estimate and measure', 'Turn photos or a quick visit into the next step.']
+  ];
+  else if (vertical.includes('moving') || vertical.includes('delivery')) base.services = [
+    ['Local moving help', 'Apartment, house, and small-business moves.'],
+    ['Quick pickups', 'One-off delivery and short-haul hauling jobs.'],
+    ['Load and unload', 'Labor-only help when the truck is already booked.'],
+    ['Estimate in minutes', 'Clarify what to send so quoting is easy.']
+  ];
+  else if (vertical.includes('auto') || vertical.includes('fabrication')) base.services = [
+    ['Auto repair', 'The main jobs drivers call for first.'],
+    ['Fabrication work', 'Custom fixes and shop-built solutions.'],
+    ['Diagnostics', 'Make the initial troubleshooting path easy.'],
+    ['Schedule a quote', 'Tell people exactly what happens next.']
+  ];
+  else if (vertical.includes('marine') || vertical.includes('boat')) base.services = [
+    ['Boat wash and detail', 'Maintenance cleanups that protect the finish.'],
+    ['Interior refresh', 'Seats, vinyl, and cabin surfaces.'],
+    ['Oxidation help', 'Make tired surfaces look cared for again.'],
+    ['Request a package', 'Give visitors a simple way to compare options.']
+  ];
+  return base;
+}
+
+function buildConversionPrototype({ item, scraped, contactEmail, phone, services, targetScreenshotRel }) {
+  const theme = deriveThemeFromScraped(item, scraped);
+  const modules = serviceModules(item, scraped.text || '');
+  const name = item.name || 'Local business';
+  const siteName = slugWords(name);
+  const service = item.vertical || 'local service';
+  const location = item.location || 'your area';
+  const emailHref = contactEmail ? `mailto:${contactEmail}` : '';
+  const phoneHref = phone ? `tel:${String(phone).replace(/[^0-9+]/g, '')}` : '';
+  const calloutA = phoneHref || emailHref || item.url;
+  const calloutB = emailHref || item.url || phoneHref;
+  const proofBits = [
+    location,
+    'phone or email estimate requests',
+    'fast reply to quote requests',
+    'clear next steps'
+  ];
+  const serviceCards = modules.services.map(([title, desc], idx) => `
+    <article class="ppc-card ppc-service" data-ppc-module="service-${idx + 1}">
+      <p class="ppc-card-kicker">${idx + 1}</p>
+      <h3>${esc(title)}</h3>
+      <p>${esc(desc)}</p>
+    </article>`).join('\n');
+  const steps = [
+    ['Send a quick message', 'Call, email, or share a few photos.'],
+    ['We review the scope', 'You get a simple quote process instead of a long back-and-forth.'],
+    ['Pick the next step', 'Schedule the work, ask a follow-up, or compare options.']
+  ].map((s, idx) => `
+    <li class="ppc-step" data-ppc-module="step-${idx + 1}"><span>${idx + 1}</span><div><strong>${esc(s[0])}</strong><p>${esc(s[1])}</p></div></li>`).join('\n');
+  const trust = proofBits.map(bit => `<span>${esc(bit)}</span>`).join('');
+  const html = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>${esc(`${name} | ${service}`)}</title>
+  <style>
+    :root {
+      --bg: ${theme.bg};
+      --paper: ${theme.card};
+      --ink: ${theme.ink};
+      --muted: ${theme.muted};
+      --accent: ${theme.accent};
+      --accent-2: ${theme.accent2};
+      --dark: ${theme.dark};
+      --shadow: 0 16px 40px rgba(18, 28, 36, .12);
+      --radius: 24px;
+      --font: ${theme.font};
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,.8), transparent 35%),
+        linear-gradient(180deg, rgba(255,255,255,.6), transparent 16%),
+        var(--bg);
+    }
+    a { color: inherit; }
+    .wrap { width: min(1160px, 94vw); margin: 0 auto; }
+    .topbar {
+      display: flex; justify-content: space-between; gap: 16px; align-items: center;
+      padding: 14px 0 4px; font-size: 13px; color: var(--muted);
+    }
+    .brand { font-weight: 800; color: var(--dark); letter-spacing: .01em; }
+    .mini-links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .mini-links a { text-decoration: none; color: var(--muted); }
+    .hero {
+      display: grid; grid-template-columns: 1.12fr .88fr; gap: 22px; align-items: stretch;
+      padding: 18px 0 10px;
+    }
+    .hero-copy, .hero-side, .ppc-card, .ppc-panel {
+      background: color-mix(in srgb, var(--paper) 96%, white 4%);
+      border: 1px solid rgba(20, 30, 40, .10);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .hero-copy { padding: 28px; }
+    .eyebrow { margin: 0 0 10px; font-size: 12px; text-transform: uppercase; letter-spacing: .11em; color: var(--accent); font-weight: 800; }
+    h1 { margin: 0; font-size: clamp(34px, 4vw, 58px); line-height: .96; letter-spacing: -.05em; max-width: 11ch; }
+    .subhead { margin: 16px 0 0; font-size: clamp(16px, 1.55vw, 19px); line-height: 1.55; color: var(--muted); max-width: 62ch; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+    .cta-row a {
+      text-decoration: none; font-weight: 800; padding: 13px 18px; border-radius: 999px;
+      border: 1px solid rgba(0,0,0,.08);
+    }
+    .cta-primary { background: var(--accent); color: white; }
+    .cta-secondary { background: white; color: var(--dark); }
+    .hero-trust { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .hero-trust span {
+      padding: 9px 12px; border-radius: 999px; background: rgba(255,255,255,.74); border: 1px solid rgba(20,30,40,.08);
+      color: var(--dark); font-size: 13px; font-weight: 700;
+    }
+    .hero-side { padding: 22px; display: grid; gap: 14px; align-content: start; }
+    .hero-side h2 { margin: 0; font-size: 22px; line-height: 1.05; }
+    .hero-side p { margin: 0; color: var(--muted); line-height: 1.5; }
+    .hero-list { display: grid; gap: 10px; margin: 6px 0 0; padding: 0; list-style: none; }
+    .hero-list li { display: flex; gap: 10px; align-items: flex-start; padding: 12px 0; border-top: 1px solid rgba(20,30,40,.08); }
+    .hero-list strong { display: block; margin-bottom: 2px; }
+    .hero-list span { color: var(--muted); line-height: 1.45; }
+    .bar {
+      margin: 14px 0 0; padding: 14px 18px; border-radius: 18px; background: rgba(255,255,255,.85); border: 1px solid rgba(20,30,40,.08);
+      display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center;
+    }
+    .bar strong { color: var(--dark); }
+    .bar a { text-decoration: none; font-weight: 800; color: var(--accent); }
+    .section { padding: 24px 0; }
+    .section h2 { margin: 0 0 12px; font-size: clamp(24px, 2.7vw, 38px); line-height: 1.05; }
+    .section p.lead { margin: 0 0 18px; color: var(--muted); line-height: 1.5; max-width: 70ch; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .ppc-card { padding: 18px; }
+    .ppc-card h3, .ppc-panel h3 { margin: 0 0 10px; font-size: 19px; line-height: 1.1; }
+    .ppc-card p, .ppc-panel p, .ppc-panel li { margin: 0; color: var(--muted); line-height: 1.5; }
+    .ppc-card-kicker { margin: 0 0 12px; color: var(--accent); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; }
+    .module-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .ppc-panel { padding: 22px; }
+    .ppc-steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+    .ppc-step { display: grid; grid-template-columns: 40px 1fr; gap: 12px; align-items: start; }
+    .ppc-step span {
+      width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 900;
+      background: var(--accent); color: white;
+    }
+    .ppc-step strong { display: block; margin: 1px 0 4px; color: var(--dark); }
+    .contact-box {
+      display: grid; gap: 12px; align-content: start;
+      background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(255,255,255,.94));
+      border: 1px solid rgba(20,30,40,.08); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px;
+    }
+    .contact-box .big { font-size: 24px; line-height: 1.1; font-weight: 900; color: var(--dark); }
+    .contact-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .contact-list li { padding: 10px 0; border-top: 1px solid rgba(20,30,40,.08); }
+    .contact-list a { color: var(--accent); text-decoration: none; font-weight: 800; }
+    footer { padding: 24px 0 40px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 960px) {
+      .hero, .module-row, .grid-4 { grid-template-columns: 1fr; }
+      h1 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topbar">
+      <div class="brand">${esc(siteName)}</div>
+      <div class="mini-links">
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <section class="hero" data-ppc-module="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">${esc(modules.hero.kicker)}</p>
+        <h1>${esc(modules.hero.headline)}</h1>
+        <p class="subhead">${esc(modules.hero.subhead)}</p>
+        <div class="cta-row">
+          ${calloutA ? `<a class="cta-primary" href="${esc(calloutA)}">Request an estimate</a>` : ''}
+          ${calloutB ? `<a class="cta-secondary" href="${esc(calloutB)}">Talk to the team</a>` : ''}
+        </div>
+        <div class="hero-trust">${trust}</div>
+        <div class="bar">
+          <div><strong>Simple next step:</strong> send photos, call, or email to start your estimate.</div>
+          <a href="#process">How it works</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <h2>Get a roofing or remodeling estimate</h2>
+        <p>${esc(`Request help with ${modules.services?.[0]?.[0] || item.vertical || 'the main service'}, start your estimate, and know what happens next.`)}</p>
+        <ul class="hero-list">
+          <li><div><strong>Choose the type of work you need</strong><span>${esc(`Tell us what you need and we’ll help get the estimate started in ${location}.`)}</span></div></li>
+          <li><div><strong>Send a few details</strong><span>${esc(`Choose the service that best matches your project.`)}</span></div></li>
+          <li><div><strong>Know what to expect next</strong><span>${esc(`We’ll let you know the next step after you reach out.`)}</span></div></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section" id="services" data-ppc-module="services">
+      <p class="eyebrow">Services</p>
+      <h2>Choose the service that fits your project</h2>
+      <p class="lead">Pick the job that matches what you need done, then request an estimate.</p>
+      <div class="grid-4">${serviceCards}</div>
+    </section>
+
+    <section class="section module-row" id="process" data-ppc-module="process">
+      <div class="ppc-panel">
+        <p class="eyebrow">Estimate process</p>
+        <h2>How your estimate works</h2>
+        <ol class="ppc-steps">${steps}</ol>
+      </div>
+      <div class="contact-box" id="contact" data-ppc-module="contact">
+        <p class="eyebrow">Contact</p>
+        <div class="big">Request an estimate and get the next step.</div>
+        <ul class="contact-list">
+          ${phoneHref ? `<li><strong>Call</strong><br><a href="${esc(phoneHref)}">${esc(phone)}</a></li>` : ''}
+          ${emailHref ? `<li><strong>Email</strong><br><a href="${esc(emailHref)}">${esc(contactEmail)}</a></li>` : ''}
+          <li><strong>Service area</strong><br>${esc(location)}</li>
+          <li><strong>What to expect</strong><br>A simple estimate process with clear communication.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div>${esc(name)} • ${esc(location)} • ${esc(service)}</div>
+      <div>${phone ? esc(phone) : ''}${phone && contactEmail ? ' • ' : ''}${contactEmail ? esc(contactEmail) : ''}</div>
+    </footer>
+  </main>
+</body>
+</html>`;
   return html;
 }
 
@@ -216,7 +529,7 @@ async function main() {
   const offer = `Hi ${shortName} team,\n\nI took a look at your website and found a few quick wins that could help more visitors understand the service, trust the business, and ask for an estimate.\n\nWhat is already strong:\n- The site gives people a real way to contact you.\n- The business category is clear enough for a focused cleanup.\n- There are existing brand cues worth preserving, so this does not need to become a full redesign.\n- The services can be made easier to scan without changing the business.\n\nWhat is probably costing leads:\n- The first screen could be more specific about the service area, main jobs, and next action.\n- Trust signals are not doing enough work near the top of the page.\n- The service list can be grouped more clearly by what customers need done.\n- The contact step should explain what happens after someone reaches out.\n- A few site-builder rough edges make the page feel less finished than the business deserves.\n\nFor $99, I can do a Page Profit Check that turns those notes into a clean priority list with exact wording you can use on the site.\n\nRecommended ROM for implementation: ${roman}.\n\nIf you want, the first fixes I would tackle are the hero message, trust strip, service cards, and a simple next-step section.\n`;
   write(`offers/${batch}/${slug}-offer.md`, offer);
 
-  const proto = buildSiteDerivedPrototype({ liveHtml, item, scraped, contactEmail, phone, services });
+  const proto = buildConversionPrototype({ item, scraped, contactEmail, phone, services, targetScreenshotRel: path.join('screenshots', batch, `${slug}-target.png`) });
   write(`prototypes/${batch}/${slug}/index.html`, proto);
 
   const protoHtml = fs.readFileSync(abs(`prototypes/${batch}/${slug}/index.html`), 'utf8');

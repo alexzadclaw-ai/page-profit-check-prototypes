@@ -28,17 +28,17 @@
         "prototype": {
           "path": "prototypes/2026-05-12-1305-5target-test/bay-area-builders-llc/index.html",
           "exists": true,
-          "size": 257913
+          "size": 10712
         },
         "targetScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/bay-area-builders-llc-target.png",
           "exists": true,
-          "size": 2838918
+          "size": 2859146
         },
         "prototypeScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/bay-area-builders-llc-prototype.png",
           "exists": true,
-          "size": 2708722
+          "size": 340696
         }
       }
     },
@@ -63,17 +63,17 @@
         "prototype": {
           "path": "prototypes/2026-05-12-1305-5target-test/miami-frameless-shower-doors/index.html",
           "exists": true,
-          "size": 308173
+          "size": 10569
         },
         "targetScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/miami-frameless-shower-doors-target.png",
           "exists": true,
-          "size": 1818866
+          "size": 1818859
         },
         "prototypeScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/miami-frameless-shower-doors-prototype.png",
           "exists": true,
-          "size": 2260599
+          "size": 334570
         }
       }
     },
@@ -98,17 +98,17 @@
         "prototype": {
           "path": "prototypes/2026-05-12-1305-5target-test/grind-nation-moving/index.html",
           "exists": true,
-          "size": 216780
+          "size": 10482
         },
         "targetScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/grind-nation-moving-target.png",
           "exists": true,
-          "size": 1279676
+          "size": 1277022
         },
         "prototypeScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/grind-nation-moving-prototype.png",
           "exists": true,
-          "size": 1245471
+          "size": 330180
         }
       }
     },
@@ -133,7 +133,7 @@
         "prototype": {
           "path": "prototypes/2026-05-12-1305-5target-test/clints-automotive-fabrication/index.html",
           "exists": true,
-          "size": 270588
+          "size": 10546
         },
         "targetScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/clints-automotive-fabrication-target.png",
@@ -143,7 +143,7 @@
         "prototypeScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/clints-automotive-fabrication-prototype.png",
           "exists": true,
-          "size": 4002711
+          "size": 324445
         }
       }
     },
@@ -168,7 +168,7 @@
         "prototype": {
           "path": "prototypes/2026-05-12-1305-5target-test/the-nauti-details/index.html",
           "exists": true,
-          "size": 227595
+          "size": 10568
         },
         "targetScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/the-nauti-details-target.png",
@@ -178,7 +178,7 @@
         "prototypeScreenshot": {
           "path": "screenshots/2026-05-12-1305-5target-test/the-nauti-details-prototype.png",
           "exists": true,
-          "size": 2718358
+          "size": 331886
         }
       }
     }

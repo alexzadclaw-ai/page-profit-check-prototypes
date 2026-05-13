@@ -1,7 +1,7 @@
 {
   "batch": "2026-05-12-1305-5target-test",
   "slug": "clints-automotive-fabrication",
-  "startedAt": "2026-05-12T18:07:42.026Z",
+  "startedAt": "2026-05-13T02:08:47.892Z",
   "item": {
     "slug": "clints-automotive-fabrication",
     "name": "Clint’s Automotive & Fabrication LLC",
@@ -14,7 +14,7 @@
     "priority": "A-"
   },
   "capNote": "One of maximum 25 opportunities for this nightly run.",
-  "completedAt": "2026-05-12T18:07:49.602Z",
+  "completedAt": "2026-05-13T02:08:52.450Z",
   "files": {
     "audit": "opportunities/2026-05-12-1305-5target-test/clints-automotive-fabrication-audit.md",
     "offer": "offers/2026-05-12-1305-5target-test/clints-automotive-fabrication-offer.md",

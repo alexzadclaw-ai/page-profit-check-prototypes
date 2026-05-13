@@ -1,7 +1,7 @@
 {
   "batch": "2026-05-12-1305-5target-test",
   "slug": "the-nauti-details",
-  "startedAt": "2026-05-12T18:07:49.957Z",
+  "startedAt": "2026-05-13T02:08:52.804Z",
   "item": {
     "slug": "the-nauti-details",
     "name": "The Nauti Details, LLC",
@@ -14,7 +14,7 @@
     "priority": "A-"
   },
   "capNote": "One of maximum 25 opportunities for this nightly run.",
-  "completedAt": "2026-05-12T18:07:56.794Z",
+  "completedAt": "2026-05-13T02:08:57.915Z",
   "files": {
     "audit": "opportunities/2026-05-12-1305-5target-test/the-nauti-details-audit.md",
     "offer": "offers/2026-05-12-1305-5target-test/the-nauti-details-offer.md",
