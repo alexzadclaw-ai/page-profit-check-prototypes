@@ -1,0 +1,186 @@
+{
+  "batch": "2026-05-12-2117-5target-trace",
+  "batchJson": "opportunities/2026-05-12-2117-5target-trace/batch.json",
+  "itemsInBatchJson": 5,
+  "duplicateSlugs": [],
+  "completeCount": 5,
+  "incompleteCount": 0,
+  "missingByKind": {},
+  "results": [
+    {
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-2117-5target-trace/bay-area-builders-llc-audit.md",
+          "exists": true,
+          "size": 6631
+        },
+        "offer": {
+          "path": "offers/2026-05-12-2117-5target-trace/bay-area-builders-llc-offer.md",
+          "exists": true,
+          "size": 1345
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-2117-5target-trace/bay-area-builders-llc/index.html",
+          "exists": true,
+          "size": 3649575
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/bay-area-builders-llc-target.png",
+          "exists": true,
+          "size": 2728856
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/bay-area-builders-llc-prototype.png",
+          "exists": true,
+          "size": 463683
+        }
+      }
+    },
+    {
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "priority": "A",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-2117-5target-trace/miami-frameless-shower-doors-audit.md",
+          "exists": true,
+          "size": 6681
+        },
+        "offer": {
+          "path": "offers/2026-05-12-2117-5target-trace/miami-frameless-shower-doors-offer.md",
+          "exists": true,
+          "size": 1352
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-2117-5target-trace/miami-frameless-shower-doors/index.html",
+          "exists": true,
+          "size": 2436119
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/miami-frameless-shower-doors-target.png",
+          "exists": true,
+          "size": 1818866
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/miami-frameless-shower-doors-prototype.png",
+          "exists": true,
+          "size": 432026
+        }
+      }
+    },
+    {
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-2117-5target-trace/grind-nation-moving-audit.md",
+          "exists": true,
+          "size": 6646
+        },
+        "offer": {
+          "path": "offers/2026-05-12-2117-5target-trace/grind-nation-moving-offer.md",
+          "exists": true,
+          "size": 1347
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-2117-5target-trace/grind-nation-moving/index.html",
+          "exists": true,
+          "size": 1694719
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/grind-nation-moving-target.png",
+          "exists": true,
+          "size": 1262884
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/grind-nation-moving-prototype.png",
+          "exists": true,
+          "size": 452523
+        }
+      }
+    },
+    {
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-2117-5target-trace/clints-automotive-fabrication-audit.md",
+          "exists": true,
+          "size": 6706
+        },
+        "offer": {
+          "path": "offers/2026-05-12-2117-5target-trace/clints-automotive-fabrication-offer.md",
+          "exists": true,
+          "size": 1362
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-2117-5target-trace/clints-automotive-fabrication/index.html",
+          "exists": true,
+          "size": 5346934
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/clints-automotive-fabrication-target.png",
+          "exists": true,
+          "size": 4001985
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/clints-automotive-fabrication-prototype.png",
+          "exists": true,
+          "size": 385960
+        }
+      }
+    },
+    {
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "priority": "A-",
+      "status": null,
+      "complete": true,
+      "missing": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-12-2117-5target-trace/the-nauti-details-audit.md",
+          "exists": true,
+          "size": 6657
+        },
+        "offer": {
+          "path": "offers/2026-05-12-2117-5target-trace/the-nauti-details-offer.md",
+          "exists": true,
+          "size": 1341
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-12-2117-5target-trace/the-nauti-details/index.html",
+          "exists": true,
+          "size": 3578596
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/the-nauti-details-target.png",
+          "exists": true,
+          "size": 2675730
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-12-2117-5target-trace/the-nauti-details-prototype.png",
+          "exists": true,
+          "size": 418725
+        }
+      }
+    }
+  ]
+}

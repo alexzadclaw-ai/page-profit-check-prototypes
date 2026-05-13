@@ -261,6 +261,9 @@ function buildConversionPrototype({ item, scraped, contactEmail, phone, services
   const phoneHref = phone ? `tel:${String(phone).replace(/[^0-9+]/g, '')}` : '';
   const calloutA = phoneHref || emailHref || item.url;
   const calloutB = emailHref || item.url || phoneHref;
+  const sourceShotUrl = targetScreenshotRel && fs.existsSync(abs(targetScreenshotRel))
+    ? `data:image/png;base64,${fs.readFileSync(abs(targetScreenshotRel)).toString('base64')}`
+    : '';
   const proofBits = [
     location,
     'phone or email estimate requests',
@@ -349,6 +352,8 @@ function buildConversionPrototype({ item, scraped, contactEmail, phone, services
     .hero-side { padding: 22px; display: grid; gap: 14px; align-content: start; }
     .hero-side h2 { margin: 0; font-size: 22px; line-height: 1.05; }
     .hero-side p { margin: 0; color: var(--muted); line-height: 1.5; }
+    .site-preview { margin: 0; border-radius: 18px; overflow: hidden; border: 1px solid rgba(20,30,40,.08); background: #e9edf0; }
+    .site-preview img { display: block; width: 100%; height: 220px; object-fit: cover; object-position: top center; }
     .hero-list { display: grid; gap: 10px; margin: 6px 0 0; padding: 0; list-style: none; }
     .hero-list li { display: flex; gap: 10px; align-items: flex-start; padding: 12px 0; border-top: 1px solid rgba(20,30,40,.08); }
     .hero-list strong { display: block; margin-bottom: 2px; }
@@ -421,6 +426,7 @@ function buildConversionPrototype({ item, scraped, contactEmail, phone, services
       <aside class="hero-side">
         <h2>Get a roofing or remodeling estimate</h2>
         <p>${esc(`Request help with ${modules.services?.[0]?.[0] || item.vertical || 'the main service'}, start your estimate, and know what happens next.`)}</p>
+        ${sourceShotUrl ? `<figure class="site-preview"><img src="${esc(sourceShotUrl)}" alt="Original site screenshot for ${esc(name)}"></figure>` : ''}
         <ul class="hero-list">
           <li><div><strong>Choose the type of work you need</strong><span>${esc(`Tell us what you need and we’ll help get the estimate started in ${location}.`)}</span></div></li>
           <li><div><strong>Send a few details</strong><span>${esc(`Choose the service that best matches your project.`)}</span></div></li>

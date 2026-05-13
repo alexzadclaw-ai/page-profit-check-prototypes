@@ -1,0 +1,83 @@
+{
+  "batch": "2026-05-12-2117-5target-trace",
+  "itemCount": 5,
+  "passedCount": 5,
+  "failedCount": 0,
+  "results": [
+    {
+      "index": 0,
+      "slug": "bay-area-builders-llc",
+      "name": "Bay Area Builders LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.2143,
+        "pixelSimilarity": 0.4897,
+        "edgeLayoutSimilarity": 0.677,
+        "perceptualHashSimilarity": 0.6406,
+        "weightedSimilarity": 0.4903
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 1,
+      "slug": "miami-frameless-shower-doors",
+      "name": "Miami Frameless Shower Doors",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4835,
+        "pixelSimilarity": 0.6485,
+        "edgeLayoutSimilarity": 0.7002,
+        "perceptualHashSimilarity": 0.4531,
+        "weightedSimilarity": 0.5909
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 2,
+      "slug": "grind-nation-moving",
+      "name": "Grind Nation Moving LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.1991,
+        "pixelSimilarity": 0.3435,
+        "edgeLayoutSimilarity": 0.7451,
+        "perceptualHashSimilarity": 0.4531,
+        "weightedSimilarity": 0.4242
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 3,
+      "slug": "clints-automotive-fabrication",
+      "name": "Clint’s Automotive & Fabrication LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3567,
+        "pixelSimilarity": 0.6368,
+        "edgeLayoutSimilarity": 0.6717,
+        "perceptualHashSimilarity": 0.4844,
+        "weightedSimilarity": 0.5526
+      },
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "index": 4,
+      "slug": "the-nauti-details",
+      "name": "The Nauti Details, LLC",
+      "passed": true,
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.1967,
+        "pixelSimilarity": 0.3856,
+        "edgeLayoutSimilarity": 0.6681,
+        "perceptualHashSimilarity": 0.4531,
+        "weightedSimilarity": 0.4191
+      },
+      "failures": [],
+      "warnings": []
+    }
+  ]
+}
