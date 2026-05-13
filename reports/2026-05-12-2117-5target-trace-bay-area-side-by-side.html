@@ -9,13 +9,13 @@
     :root { --bg: #f6f7f9; --ink: #18212b; --muted: #5f6872; --card: #fff; --line: #d9dee5; --blue: #116dff; }
     * { box-sizing: border-box; }
     body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: var(--bg); }
-    .wrap { width: min(1440px, 96vw); margin: 0 auto; padding: 24px 0 36px; }
+    .wrap { width: min(1600px, 98vw); margin: 0 auto; padding: 24px 0 36px; }
     h1 { margin: 0 0 8px; font-size: 28px; }
     .sub { margin: 0 0 18px; color: var(--muted); }
     .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
     .pill { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: #fff; font-size: 13px; }
-    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
-    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.05); }
+    .grid { display: flex; gap: 18px; align-items: stretch; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; }
+    .panel { flex: 1 1 0; min-width: 720px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.05); }
     .panel h2 { margin: 0; padding: 14px 16px; font-size: 18px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fff, #fafbfc); }
     .shot { width: 100%; display: block; background: #eee; }
     .note { padding: 14px 16px 18px; color: var(--muted); line-height: 1.5; font-size: 14px; border-top: 1px solid var(--line); }
@@ -23,7 +23,7 @@
     .notes h3 { margin: 0 0 10px; font-size: 18px; }
     .notes ul { margin: 0; padding-left: 18px; color: var(--muted); line-height: 1.55; }
     a { color: var(--blue); text-decoration: none; }
-    @media (max-width: 980px) { .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 740px) { .panel { min-width: 620px; } }
   </style>
 </head>
 <body>
