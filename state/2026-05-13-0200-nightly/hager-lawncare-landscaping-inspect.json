@@ -1,0 +1,4564 @@
+{
+  "finalUrl": "https://jaredhager15.wixsite.com/hagerlawncarelandsca",
+  "title": "Home | Hager lawncare & landscaping LLC",
+  "meta": [
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "IE=edge"
+    },
+    {
+      "name": "generator",
+      "property": null,
+      "content": "Wix.com Website Builder"
+    },
+    {
+      "name": "format-detection",
+      "property": null,
+      "content": "telephone=no"
+    },
+    {
+      "name": "skype_toolbar",
+      "property": null,
+      "content": "skype_toolbar_parser_compatible"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "5f6d51e1-fe4e-4207-a85e-ecb31d79b355"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "ed4fb6d4-8d3f-4120-8cda-c9affc2cbcd8"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "30"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "bug"
+    },
+    {
+      "name": null,
+      "property": "og:title",
+      "content": "Home | Hager lawncare & landscaping LLC"
+    },
+    {
+      "name": null,
+      "property": "og:url",
+      "content": "https://jaredhager15.wixsite.com/hagerlawncarelandsca"
+    },
+    {
+      "name": null,
+      "property": "og:site_name",
+      "content": "Hager lawncare & lan"
+    },
+    {
+      "name": null,
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "name": "twitter:card",
+      "property": null,
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "property": null,
+      "content": "Home | Hager lawncare & landscaping LLC"
+    }
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "scroll": {
+    "width": 1440,
+    "height": 4550
+  },
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Welcome",
+      "box": {
+        "x": 750,
+        "y": 374,
+        "w": 460,
+        "h": 90
+      },
+      "font": "72px / 90px helvetica-w01-bold, sans-serif",
+      "color": "rgb(12, 12, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "About Us",
+      "box": {
+        "x": 230,
+        "y": 1091,
+        "w": 460,
+        "h": 54
+      },
+      "font": "40px / 54px helvetica-w01-bold, sans-serif",
+      "color": "rgb(12, 12, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Seasonal",
+      "box": {
+        "x": 310,
+        "y": 1769,
+        "w": 820,
+        "h": 31
+      },
+      "font": "22px / 31.02px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 340,
+        "y": 2866,
+        "w": 760,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Contact Us",
+      "box": {
+        "x": 250,
+        "y": 3034,
+        "w": 460,
+        "h": 54
+      },
+      "font": "40px / 54px helvetica-w01-bold, sans-serif",
+      "color": "rgb(12, 12, 13)"
+    }
+  ],
+  "texts": [
+    {
+      "tag": "DIV",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 50
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "box": {
+        "x": 427,
+        "y": 11,
+        "w": 586,
+        "h": 27
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today.",
+      "box": {
+        "x": 427,
+        "y": 13,
+        "w": 456,
+        "h": 24
+      },
+      "font": "16px / 24px Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "color": "rgb(32, 48, 60)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Get Started",
+      "box": {
+        "x": 899,
+        "y": 11,
+        "w": 114,
+        "h": 27
+      },
+      "font": "14px Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "color": "rgb(22, 106, 234)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 1320,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 201,
+        "y": 116,
+        "w": 346,
+        "h": 62
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 201,
+        "y": 116,
+        "w": 346,
+        "h": 31
+      },
+      "font": "22px / 31.02px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 201,
+        "y": 119,
+        "w": 344,
+        "h": 25
+      },
+      "font": "22px / 31.02px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 201,
+        "y": 119,
+        "w": 344,
+        "h": 25
+      },
+      "font": "22px / 31.02px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "LI",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "font": "14px / 30px helvetica-w01-roman, sans-serif",
+      "color": "rgb(247, 247, 247)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "LI",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "font": "14px / 30px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "jaredhager15@gmail.com",
+      "box": {
+        "x": 1155,
+        "y": 128,
+        "w": 165,
+        "h": 25
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "jaredhager15@gmail.com",
+      "box": {
+        "x": 1155,
+        "y": 128,
+        "w": 165,
+        "h": 25
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "jaredhager15@gmail.com",
+      "box": {
+        "x": 1155,
+        "y": 132,
+        "w": 160,
+        "h": 16
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 270,
+        "w": 1440,
+        "h": 600
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome",
+      "box": {
+        "x": 750,
+        "y": 374,
+        "w": 460,
+        "h": 90
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Welcome",
+      "box": {
+        "x": 750,
+        "y": 376,
+        "w": 314,
+        "h": 85
+      },
+      "font": "72px / 90px helvetica-w01-bold, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Your Trusted Lawn Care Service",
+      "box": {
+        "x": 750,
+        "y": 497,
+        "w": 460,
+        "h": 33
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Your Trusted Lawn Care Service",
+      "box": {
+        "x": 750,
+        "y": 497,
+        "w": 460,
+        "h": 33
+      },
+      "font": "20px / 33.4px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Your Trusted Lawn Care Service",
+      "box": {
+        "x": 750,
+        "y": 501,
+        "w": 284,
+        "h": 24
+      },
+      "font": "20px / 33.4px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!!",
+      "box": {
+        "x": 750,
+        "y": 561,
+        "w": 460,
+        "h": 113
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!!",
+      "box": {
+        "x": 750,
+        "y": 561,
+        "w": 460,
+        "h": 113
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!!",
+      "box": {
+        "x": 750,
+        "y": 566,
+        "w": 453,
+        "h": 101
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us",
+      "box": {
+        "x": 750,
+        "y": 726,
+        "w": 114,
+        "h": 45
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us",
+      "box": {
+        "x": 750,
+        "y": 726,
+        "w": 114,
+        "h": 45
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(12, 12, 13, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Contact Us",
+      "box": {
+        "x": 770,
+        "y": 734,
+        "w": 74,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home: Welcome",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 21
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 1440,
+        "h": 500
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "About Us",
+      "box": {
+        "x": 230,
+        "y": 1091,
+        "w": 460,
+        "h": 54
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "About Us",
+      "box": {
+        "x": 230,
+        "y": 1094,
+        "w": 178,
+        "h": 47
+      },
+      "font": "40px / 54px helvetica-w01-bold, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "A Top-Tier Lawn Care Service",
+      "box": {
+        "x": 230,
+        "y": 1185,
+        "w": 460,
+        "h": 32
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "A Top-Tier Lawn Care Service",
+      "box": {
+        "x": 230,
+        "y": 1185,
+        "w": 460,
+        "h": 32
+      },
+      "font": "18px / 31.5px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "A Top-Tier Lawn Care Service",
+      "box": {
+        "x": 230,
+        "y": 1190,
+        "w": 239,
+        "h": 21
+      },
+      "font": "18px / 31.5px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 230,
+        "y": 1249,
+        "w": 460,
+        "h": 141
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 230,
+        "y": 1249,
+        "w": 460,
+        "h": 141
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 230,
+        "y": 1254,
+        "w": 450,
+        "h": 130
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home: About",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 21
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Seasonal",
+      "box": {
+        "x": 310,
+        "y": 1769,
+        "w": 820,
+        "h": 31
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Seasonal",
+      "box": {
+        "x": 674,
+        "y": 1772,
+        "w": 92,
+        "h": 25
+      },
+      "font": "22px / 31.02px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 310,
+        "y": 1833,
+        "w": 820,
+        "h": 56
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 310,
+        "y": 1833,
+        "w": 820,
+        "h": 56
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 330,
+        "y": 1838,
+        "w": 779,
+        "h": 45
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home: Services",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 21
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 340,
+        "y": 2866,
+        "w": 760,
+        "h": 28
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 359,
+        "y": 2871,
+        "w": 722,
+        "h": 17
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home: Testimonials",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 21
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Contact Us",
+      "box": {
+        "x": 250,
+        "y": 3034,
+        "w": 460,
+        "h": 54
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Contact Us",
+      "box": {
+        "x": 250,
+        "y": 3037,
+        "w": 211,
+        "h": 47
+      },
+      "font": "40px / 54px helvetica-w01-bold, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Let us know if you have any questions or would like more information about our services.",
+      "box": {
+        "x": 250,
+        "y": 3116,
+        "w": 460,
+        "h": 56
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Let us know if you have any questions or would like more information about our services.",
+      "box": {
+        "x": 250,
+        "y": 3116,
+        "w": 460,
+        "h": 56
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Let us know if you have any questions or would like more information about our services.",
+      "box": {
+        "x": 250,
+        "y": 3121,
+        "w": 456,
+        "h": 45
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "box": {
+        "x": 250,
+        "y": 3196,
+        "w": 460,
+        "h": 28
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "box": {
+        "x": 250,
+        "y": 3196,
+        "w": 460,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "box": {
+        "x": 250,
+        "y": 3201,
+        "w": 223,
+        "h": 17
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "hagerlawncare@gmail.com",
+      "box": {
+        "x": 250,
+        "y": 3247,
+        "w": 460,
+        "h": 28
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "hagerlawncare@gmail.com",
+      "box": {
+        "x": 250,
+        "y": 3247,
+        "w": 460,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "hagerlawncare@gmail.com",
+      "box": {
+        "x": 250,
+        "y": 3252,
+        "w": 182,
+        "h": 17
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 250,
+        "y": 3297,
+        "w": 460,
+        "h": 28
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 250,
+        "y": 3297,
+        "w": 460,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 250,
+        "y": 3302,
+        "w": 107,
+        "h": 17
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Name",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 225,
+        "h": 67
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Email",
+      "box": {
+        "x": 965,
+        "y": 3030,
+        "w": 225,
+        "h": 67
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Phone",
+      "box": {
+        "x": 730,
+        "y": 3107,
+        "w": 225,
+        "h": 67
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Address",
+      "box": {
+        "x": 965,
+        "y": 3107,
+        "w": 225,
+        "h": 67
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Subject",
+      "box": {
+        "x": 730,
+        "y": 3184,
+        "w": 460,
+        "h": 67
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Message",
+      "box": {
+        "x": 730,
+        "y": 3261,
+        "w": 460,
+        "h": 133
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Submit",
+      "box": {
+        "x": 730,
+        "y": 3410,
+        "w": 460,
+        "h": 47
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Submit",
+      "box": {
+        "x": 937,
+        "y": 3423,
+        "w": 47,
+        "h": 21
+      },
+      "font": "700 15px / 21px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "Home: Contact",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 21
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 667,
+        "y": 4421,
+        "w": 110,
+        "h": 28
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 667,
+        "y": 4421,
+        "w": 110,
+        "h": 28
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 669,
+        "y": 4426,
+        "w": 107,
+        "h": 17
+      },
+      "font": "15px / 28.125px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 483,
+        "y": 4493,
+        "w": 484,
+        "h": 25
+      },
+      "font": "10px Arial, Helvetica, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 483,
+        "y": 4493,
+        "w": 484,
+        "h": 25
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 488,
+        "y": 4497,
+        "w": 473,
+        "h": 16
+      },
+      "font": "14px / 25.06px helvetica-w01-roman, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "links": [
+    {
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=5f6d51e1-fe4e-4207-a85e-ecb31d79b355&adsVersion=banner_2024",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 50
+      },
+      "target": "_blank"
+    },
+    {
+      "text": "",
+      "href": "https://jaredhager15.wixsite.com/hagerlawncarelandsca",
+      "box": {
+        "x": 80,
+        "y": 91,
+        "w": 106,
+        "h": 80
+      },
+      "target": "_self"
+    },
+    {
+      "text": "Hager lawncare & landscaping LLC",
+      "href": "https://jaredhager15.wixsite.com/hagerlawncarelandsca",
+      "box": {
+        "x": 201,
+        "y": 119,
+        "w": 344,
+        "h": 25
+      },
+      "target": "_self"
+    },
+    {
+      "text": "Home",
+      "href": "https://jaredhager15.wixsite.com/hagerlawncarelandsca",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "target": "_self"
+    },
+    {
+      "text": "jaredhager15@gmail.com",
+      "href": "mailto:jaredhager15@gmail.com",
+      "box": {
+        "x": 1155,
+        "y": 132,
+        "w": 160,
+        "h": 16
+      },
+      "target": null
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/Hager-lawncare-landscape-103092725363683/",
+      "box": {
+        "x": 1340,
+        "y": 131,
+        "w": 20,
+        "h": 20
+      },
+      "target": "_blank"
+    },
+    {
+      "text": "hagerlawncare@gmail.com",
+      "href": "mailto:hagerlawncare@gmail.com",
+      "box": {
+        "x": 250,
+        "y": 3252,
+        "w": 182,
+        "h": 17
+      },
+      "target": null
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Contact Us",
+      "box": {
+        "x": 750,
+        "y": 726,
+        "w": 114,
+        "h": 45
+      },
+      "tag": "DIV",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "text": "Submit",
+      "box": {
+        "x": 730,
+        "y": 3410,
+        "w": 460,
+        "h": 47
+      },
+      "tag": "BUTTON",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)"
+    }
+  ],
+  "imgs": [
+    {
+      "alt": "Untitled",
+      "src": "https://static.wixstatic.com/media/439abb_4f1e571ee294417e910bfe2cd5ef7090~mv2.jpeg/v1/fill/w_106,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg",
+      "currentSrc": "https://static.wixstatic.com/media/439abb_4f1e571ee294417e910bfe2cd5ef7090~mv2.jpeg/v1/fill/w_106,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg",
+      "srcset": "https://static.wixstatic.com/media/439abb_4f1e571ee294417e910bfe2cd5ef7090~mv2.jpeg/v1/fill/w_106,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg 1x, https://static.wixstatic.com/media/439abb_4f1e571ee294417e910bfe2cd5ef7090~mv2.jpeg/v1/fill/w_212,h_159,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg 2x",
+      "naturalWidth": 106,
+      "naturalHeight": 80,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 80,
+        "y": 91,
+        "w": 106,
+        "h": 80
+      },
+      "objectFit": "contain",
+      "opacity": "1"
+    },
+    {
+      "alt": "Facebook",
+      "src": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "currentSrc": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "srcset": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 1x, https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 2x",
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 1340,
+        "y": 131,
+        "w": 20,
+        "h": 20
+      },
+      "objectFit": "cover",
+      "opacity": "1"
+    },
+    {
+      "alt": "Lawn Mower Setup",
+      "src": "https://static.wixstatic.com/media/b6576e775bcd42feb8921881f7c16ef2.jpg/v1/fill/w_460,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lawn%20Mower%20Setup.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/b6576e775bcd42feb8921881f7c16ef2.jpg/v1/fill/w_460,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lawn%20Mower%20Setup.jpg",
+      "srcset": "https://static.wixstatic.com/media/b6576e775bcd42feb8921881f7c16ef2.jpg/v1/fill/w_460,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lawn%20Mower%20Setup.jpg 1x, https://static.wixstatic.com/media/b6576e775bcd42feb8921881f7c16ef2.jpg/v1/fill/w_920,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lawn%20Mower%20Setup.jpg 2x",
+      "naturalWidth": 460,
+      "naturalHeight": 600,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 230,
+        "y": 270,
+        "w": 460,
+        "h": 600
+      },
+      "objectFit": "cover",
+      "opacity": "1"
+    },
+    {
+      "alt": "Field from Above",
+      "src": "https://static.wixstatic.com/media/65488cedd4de4720992b36926aac59b9.jpg/v1/fill/w_460,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Field%20from%20Above.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/65488cedd4de4720992b36926aac59b9.jpg/v1/fill/w_460,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Field%20from%20Above.jpg",
+      "srcset": "https://static.wixstatic.com/media/65488cedd4de4720992b36926aac59b9.jpg/v1/fill/w_460,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Field%20from%20Above.jpg 1x, https://static.wixstatic.com/media/65488cedd4de4720992b36926aac59b9.jpg/v1/fill/w_920,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Field%20from%20Above.jpg 2x",
+      "naturalWidth": 460,
+      "naturalHeight": 500,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 750,
+        "y": 990,
+        "w": 460,
+        "h": 500
+      },
+      "objectFit": "cover",
+      "opacity": "1"
+    },
+    {
+      "alt": "Snow Covered Trees",
+      "src": "https://static.wixstatic.com/media/b369ab1cd5eb48769dacf6f09291d562.jpg/v1/fill/w_1440,h_440,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b369ab1cd5eb48769dacf6f09291d562.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/b369ab1cd5eb48769dacf6f09291d562.jpg/v1/fill/w_1440,h_440,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b369ab1cd5eb48769dacf6f09291d562.jpg",
+      "srcset": "",
+      "naturalWidth": 1440,
+      "naturalHeight": 440,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "objectFit": "cover",
+      "opacity": "1"
+    },
+    {
+      "alt": "Autumn Leaves",
+      "src": "https://static.wixstatic.com/media/e0313a00d0f446f1bd5492ff96f8a76e.jpg/v1/fill/w_640,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Autumn%20Leaves.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/e0313a00d0f446f1bd5492ff96f8a76e.jpg/v1/fill/w_640,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Autumn%20Leaves.jpg",
+      "srcset": "https://static.wixstatic.com/media/e0313a00d0f446f1bd5492ff96f8a76e.jpg/v1/fill/w_640,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Autumn%20Leaves.jpg 1x, https://static.wixstatic.com/media/e0313a00d0f446f1bd5492ff96f8a76e.jpg/v1/fill/w_1280,h_1280,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Autumn%20Leaves.jpg 2x",
+      "naturalWidth": 640,
+      "naturalHeight": 640,
+      "complete": true,
+      "visible": true,
+      "box": {
+        "x": 400,
+        "y": 2170,
+        "w": 640,
+        "h": 640
+      },
+      "objectFit": "cover",
+      "opacity": "1"
+    }
+  ],
+  "bgUrls": [],
+  "sections": [
+    {
+      "tag": "A",
+      "id": "",
+      "cls": "onAlzG q6N3mD has-custom-focus",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 50
+      },
+      "bg": "rgb(239, 241, 242)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "HEADER",
+      "id": "SITE_HEADER",
+      "cls": "xU8fqS SITE_HEADER wixui-header",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 0,
+        "y": 50,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92nsoo",
+      "cls": "comp-kq92nsoo CohWsy wixui-column-strip",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 1320,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 1320,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsos",
+      "cls": "comp-kq92nsos YzqVVZ wixui-column-strip__column",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 60,
+        "y": 80,
+        "w": 656,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsot1",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92nsot1 wixui-rich-text",
+      "text": "Hager lawncare & landscaping LLC",
+      "box": {
+        "x": 201,
+        "y": 116,
+        "w": 346,
+        "h": 62
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsot2",
+      "cls": "comp-kq92nsot2 YzqVVZ wixui-column-strip__column",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Home More jaredhager15@gmail.com",
+      "box": {
+        "x": 716,
+        "y": 80,
+        "w": 664,
+        "h": 98
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "WIX-DROPDOWN-MENU",
+      "id": "comp-kq92nswi",
+      "cls": "XwCBRN NHM1d1 comp-kq92nswi wixui-dropdown-menu hidden-during-prewarmup",
+      "text": "Home More",
+      "box": {
+        "x": 980,
+        "y": 126,
+        "w": 160,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "NAV",
+      "id": "comp-kq92nswinavContainer",
+      "cls": "R_TAzU",
+      "text": "Home More",
+      "box": {
+        "x": 980,
+        "y": 126,
+        "w": 160,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "UL",
+      "id": "comp-kq92nswiitemsContainer",
+      "cls": "y7qwii",
+      "text": "Home More",
+      "box": {
+        "x": 980,
+        "y": 126,
+        "w": 160,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "LI",
+      "id": "comp-kq92nswi0",
+      "cls": "Tg1gOB wixui-dropdown-menu__item xTjc1A",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "cls": "UiHgGh",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "P",
+      "id": "comp-kq92nswi0label",
+      "cls": "JS76Uv",
+      "text": "Home",
+      "box": {
+        "x": 1031,
+        "y": 126,
+        "w": 57,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "LI",
+      "id": "comp-kq92nswi__more__",
+      "cls": "p90CkU xTjc1A",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "UiHgGh",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "P",
+      "id": "comp-kq92nswi__more__label",
+      "cls": "JS76Uv",
+      "text": "More",
+      "box": {
+        "x": 1088,
+        "y": 126,
+        "w": 52,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92ur21",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92ur21 wixui-rich-text",
+      "text": "jaredhager15@gmail.com",
+      "box": {
+        "x": 1155,
+        "y": 128,
+        "w": 165,
+        "h": 25
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "MAIN",
+      "id": "PAGES_CONTAINER",
+      "cls": "PAGES_CONTAINER",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs. Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results. We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing! Contact Us Let us know if you have",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 4180
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs. Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results. We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing! Contact Us Let us know if you have",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 4180
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs. Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results. We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing! Contact Us Let us know if you have",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 4180
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92rmxr",
+      "cls": "comp-kq92rmxr CohWsy wixui-column-strip",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxu",
+      "cls": "comp-kq92rmxu YzqVVZ wixui-column-strip__column",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 210,
+        "w": 1440,
+        "h": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92rmxu1",
+      "cls": "comp-kq92rmxu1 CohWsy wixui-column-strip",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 270,
+        "w": 1440,
+        "h": 600
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 0,
+        "y": 270,
+        "w": 1440,
+        "h": 600
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv",
+      "cls": "comp-kq92rmxv YzqVVZ wixui-column-strip__column",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us",
+      "box": {
+        "x": 750,
+        "y": 270,
+        "w": 690,
+        "h": 600
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv1",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92rmxv1 wixui-rich-text",
+      "text": "Welcome",
+      "box": {
+        "x": 750,
+        "y": 374,
+        "w": 460,
+        "h": 90
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv2",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92rmxv2 wixui-rich-text",
+      "text": "Your Trusted Lawn Care Service",
+      "box": {
+        "x": 750,
+        "y": 497,
+        "w": 460,
+        "h": 33
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv3",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92rmxv3 wixui-rich-text",
+      "text": "Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!!",
+      "box": {
+        "x": 750,
+        "y": 561,
+        "w": 460,
+        "h": 113
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv4",
+      "cls": "comp-kq92rmxv4 FubTgk",
+      "text": "Contact Us",
+      "box": {
+        "x": 750,
+        "y": 726,
+        "w": 114,
+        "h": 45
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "uDW_Qe wixui-button PlZyDq",
+      "text": "Contact Us",
+      "box": {
+        "x": 750,
+        "y": 726,
+        "w": 114,
+        "h": 45
+      },
+      "bg": "rgba(12, 12, 13, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6f2",
+      "cls": "comp-kq92cq6f2 CohWsy wixui-column-strip",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f3",
+      "cls": "comp-kq92cq6f3 YzqVVZ wixui-column-strip__column",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 930,
+        "w": 1440,
+        "h": 680
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6f4",
+      "cls": "comp-kq92cq6f4 CohWsy wixui-column-strip",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 1440,
+        "h": 500
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 1440,
+        "h": 500
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f5",
+      "cls": "comp-kq92cq6f5 YzqVVZ wixui-column-strip__column",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 0,
+        "y": 990,
+        "w": 690,
+        "h": 500
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f6",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6f6 wixui-rich-text",
+      "text": "About Us",
+      "box": {
+        "x": 230,
+        "y": 1091,
+        "w": 460,
+        "h": 54
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f7",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6f7 wixui-rich-text",
+      "text": "A Top-Tier Lawn Care Service",
+      "box": {
+        "x": 230,
+        "y": 1185,
+        "w": 460,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f8",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6f8 wixui-rich-text",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.",
+      "box": {
+        "x": 230,
+        "y": 1249,
+        "w": 460,
+        "h": 141
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92g8fc",
+      "cls": "comp-kq92g8fc CohWsy wixui-column-strip",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc1",
+      "cls": "comp-kq92g8fc1 YzqVVZ wixui-column-strip__column",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92g8fc2",
+      "cls": "comp-kq92g8fc2 CohWsy wixui-column-strip",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc3",
+      "cls": "comp-kq92g8fc3 YzqVVZ wixui-column-strip__column",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 0,
+        "y": 1610,
+        "w": 1440,
+        "h": 440
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc4",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92g8fc4 wixui-rich-text",
+      "text": "Seasonal",
+      "box": {
+        "x": 310,
+        "y": 1769,
+        "w": 820,
+        "h": 31
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92h9kz",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92h9kz wixui-rich-text",
+      "text": "Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results.",
+      "box": {
+        "x": 310,
+        "y": 1833,
+        "w": 820,
+        "h": 56
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92i8o1",
+      "cls": "comp-kq92i8o1 CohWsy wixui-column-strip",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o2",
+      "cls": "comp-kq92i8o2 YzqVVZ wixui-column-strip__column",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2050,
+        "w": 1440,
+        "h": 920
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92i8o21",
+      "cls": "comp-kq92i8o21 CohWsy wixui-column-strip",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o22",
+      "cls": "comp-kq92i8o22 YzqVVZ wixui-column-strip__column",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 0,
+        "y": 2170,
+        "w": 1440,
+        "h": 740
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o24",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92i8o24 wixui-rich-text",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!",
+      "box": {
+        "x": 340,
+        "y": 2866,
+        "w": 760,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6i5",
+      "cls": "comp-kq92cq6i5 CohWsy wixui-column-strip",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "V5AUxf",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6i6",
+      "cls": "comp-kq92cq6i6 YzqVVZ wixui-column-strip__column",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 0,
+        "y": 2970,
+        "w": 1440,
+        "h": 1420
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j1",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6j1 wixui-rich-text",
+      "text": "Contact Us",
+      "box": {
+        "x": 250,
+        "y": 3034,
+        "w": 460,
+        "h": 54
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq93se74",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq93se74 wixui-rich-text",
+      "text": "Let us know if you have any questions or would like more information about our services.",
+      "box": {
+        "x": 250,
+        "y": 3116,
+        "w": 460,
+        "h": 56
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6j wixui-rich-text",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "box": {
+        "x": 250,
+        "y": 3196,
+        "w": 460,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6i9",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6i9 wixui-rich-text",
+      "text": "hagerlawncare@gmail.com",
+      "box": {
+        "x": 250,
+        "y": 3247,
+        "w": 460,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j2",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6j2 wixui-rich-text",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 250,
+        "y": 3297,
+        "w": 460,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crjk",
+      "cls": "bkIuWA comp-kq92crjk",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "FORM",
+      "id": "comp-kq92crjq",
+      "cls": "JVi7i2 comp-kq92crjq wixui-form",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "Name Email Phone Address Subject Message Submit",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crk7",
+      "cls": "MpKiNN comp-kq92crk7 wixui-text-input qzvPmW lPl_oN",
+      "text": "Name",
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 225,
+        "h": 67
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkf2",
+      "cls": "MpKiNN comp-kq92crkf2 wixui-text-input qzvPmW lPl_oN",
+      "text": "Email",
+      "box": {
+        "x": 965,
+        "y": 3030,
+        "w": 225,
+        "h": 67
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkj",
+      "cls": "MpKiNN comp-kq92crkj wixui-text-input qzvPmW",
+      "text": "Phone",
+      "box": {
+        "x": 730,
+        "y": 3107,
+        "w": 225,
+        "h": 67
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkm",
+      "cls": "MpKiNN comp-kq92crkm wixui-text-input qzvPmW",
+      "text": "Address",
+      "box": {
+        "x": 965,
+        "y": 3107,
+        "w": 225,
+        "h": 67
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkp",
+      "cls": "MpKiNN comp-kq92crkp wixui-text-input qzvPmW",
+      "text": "Subject",
+      "box": {
+        "x": 730,
+        "y": 3184,
+        "w": 460,
+        "h": 67
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crks",
+      "cls": "snt4Te comp-kq92crks wixui-text-box oKe0Po",
+      "text": "Message",
+      "box": {
+        "x": 730,
+        "y": 3261,
+        "w": 460,
+        "h": 133
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crl1",
+      "cls": "comp-kq92crl1 FubTgk",
+      "text": "Submit",
+      "box": {
+        "x": 730,
+        "y": 3410,
+        "w": 460,
+        "h": 47
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "uDW_Qe wixui-button PlZyDq",
+      "text": "Submit",
+      "box": {
+        "x": 730,
+        "y": 3410,
+        "w": 460,
+        "h": 47
+      },
+      "bg": "rgb(255, 255, 255)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "FOOTER",
+      "id": "SITE_FOOTER",
+      "cls": "xU8fqS SITE_FOOTER wixui-footer",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 0,
+        "y": 4390,
+        "w": 1440,
+        "h": 160
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6d",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6d wixui-rich-text",
+      "text": "1-304-601-2623",
+      "box": {
+        "x": 667,
+        "y": 4421,
+        "w": 110,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6e",
+      "cls": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kq92cq6e wixui-rich-text",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+      "box": {
+        "x": 483,
+        "y": 4493,
+        "w": 484,
+        "h": 25
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    }
+  ],
+  "chunks": [
+    {
+      "tag": "HEADER",
+      "id": "SITE_HEADER",
+      "y": 50,
+      "h": 160,
+      "w": 1440,
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92nsoo",
+      "y": 80,
+      "h": 98,
+      "w": 1320,
+      "text": "Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsos",
+      "y": 80,
+      "h": 98,
+      "w": 656,
+      "text": "Hager lawncare & landscaping LLC"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsot2",
+      "y": 80,
+      "h": 98,
+      "w": 664,
+      "text": "Home More jaredhager15@gmail.com"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92nsot1",
+      "y": 116,
+      "h": 62,
+      "w": 346,
+      "text": "Hager lawncare & landscaping LLC"
+    },
+    {
+      "tag": "MAIN",
+      "id": "PAGES_CONTAINER",
+      "y": 210,
+      "h": 4180,
+      "w": 1440,
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs. Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can "
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92rmxr",
+      "y": 210,
+      "h": 720,
+      "w": 1440,
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxu",
+      "y": 210,
+      "h": 720,
+      "w": 1440,
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92rmxu1",
+      "y": 270,
+      "h": 600,
+      "w": 1440,
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv",
+      "y": 270,
+      "h": 600,
+      "w": 690,
+      "text": "Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv1",
+      "y": 374,
+      "h": 90,
+      "w": 460,
+      "text": "Welcome"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv2",
+      "y": 497,
+      "h": 33,
+      "w": 460,
+      "text": "Your Trusted Lawn Care Service"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92rmxv3",
+      "y": 561,
+      "h": 113,
+      "w": 460,
+      "text": "Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!!"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6f2",
+      "y": 930,
+      "h": 680,
+      "w": 1440,
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f3",
+      "y": 930,
+      "h": 680,
+      "w": 1440,
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs."
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6f4",
+      "y": 990,
+      "h": 500,
+      "w": 1440,
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f5",
+      "y": 990,
+      "h": 500,
+      "w": 690,
+      "text": "About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f6",
+      "y": 1091,
+      "h": 54,
+      "w": 460,
+      "text": "About Us"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f7",
+      "y": 1185,
+      "h": 32,
+      "w": 460,
+      "text": "A Top-Tier Lawn Care Service"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6f8",
+      "y": 1249,
+      "h": 141,
+      "w": 460,
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs."
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92g8fc",
+      "y": 1610,
+      "h": 440,
+      "w": 1440,
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc1",
+      "y": 1610,
+      "h": 440,
+      "w": 1440,
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results."
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92g8fc2",
+      "y": 1610,
+      "h": 440,
+      "w": 1440,
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc3",
+      "y": 1610,
+      "h": 440,
+      "w": 1440,
+      "text": "Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92g8fc4",
+      "y": 1769,
+      "h": 31,
+      "w": 820,
+      "text": "Seasonal"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92h9kz",
+      "y": 1833,
+      "h": 56,
+      "w": 820,
+      "text": "Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results."
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92i8o1",
+      "y": 2050,
+      "h": 920,
+      "w": 1440,
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o2",
+      "y": 2050,
+      "h": 920,
+      "w": 1440,
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92i8o21",
+      "y": 2170,
+      "h": 740,
+      "w": 1440,
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o22",
+      "y": 2170,
+      "h": 740,
+      "w": 1440,
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92i8o24",
+      "y": 2866,
+      "h": 28,
+      "w": 760,
+      "text": "We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing!"
+    },
+    {
+      "tag": "SECTION",
+      "id": "comp-kq92cq6i5",
+      "y": 2970,
+      "h": 1420,
+      "w": 1440,
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6i6",
+      "y": 2970,
+      "h": 1420,
+      "w": 1440,
+      "text": "Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crjk",
+      "y": 3030,
+      "h": 471,
+      "w": 460,
+      "text": "Name Email Phone Address Subject Message Submit"
+    },
+    {
+      "tag": "FORM",
+      "id": "comp-kq92crjq",
+      "y": 3030,
+      "h": 471,
+      "w": 460,
+      "text": "Name Email Phone Address Subject Message Submit"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j1",
+      "y": 3034,
+      "h": 54,
+      "w": 460,
+      "text": "Contact Us"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkm",
+      "y": 3107,
+      "h": 67,
+      "w": 225,
+      "text": "Address"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq93se74",
+      "y": 3116,
+      "h": 56,
+      "w": 460,
+      "text": "Let us know if you have any questions or would like more information about our services."
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crkp",
+      "y": 3184,
+      "h": 67,
+      "w": 460,
+      "text": "Subject"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j",
+      "y": 3196,
+      "h": 28,
+      "w": 460,
+      "text": "Tab Dr, West Virginia 25053, USA"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6i9",
+      "y": 3247,
+      "h": 28,
+      "w": 460,
+      "text": "hagerlawncare@gmail.com"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crks",
+      "y": 3261,
+      "h": 133,
+      "w": 460,
+      "text": "Message"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6j2",
+      "y": 3297,
+      "h": 28,
+      "w": 460,
+      "text": "1-304-601-2623"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92crl1",
+      "y": 3410,
+      "h": 47,
+      "w": 460,
+      "text": "Submit"
+    },
+    {
+      "tag": "FOOTER",
+      "id": "SITE_FOOTER",
+      "y": 4390,
+      "h": 160,
+      "w": 1440,
+      "text": "1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com"
+    },
+    {
+      "tag": "DIV",
+      "id": "comp-kq92cq6e",
+      "y": 4493,
+      "h": 25,
+      "w": 484,
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com"
+    }
+  ],
+  "styleSample": [
+    {
+      "tag": "A",
+      "text": "This website was built on Wix. Create yours today. Get Start",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(239, 241, 242)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today. Get Start",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today.",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(32, 48, 60)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Get Started",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(22, 106, 234)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Hager lawncare & landscaping LLC",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Hager lawncare & landscaping LLC",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Hager lawncare & landscaping LLC",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "Hager lawncare & landscaping LLC",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Home",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(247, 247, 247)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "More",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "jaredhager15@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "jaredhager15@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "jaredhager15@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "text": "Welcome",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Welcome",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Your Trusted Lawn Care Service",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Your Trusted Lawn Care Service",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Discover more about our professional services and find what’",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Discover more about our professional services and find what’",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Contact Us",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "text": "About Us",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "About Us",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "A Top-Tier Lawn Care Service",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "A Top-Tier Lawn Care Service",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Since 2021, Hager Lawn care and Landscaping LLC. has built a",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "text": "Seasonal",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Seasonal",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Keep your property in tip-top shape with our Seasonal servic",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Keep your property in tip-top shape with our Seasonal servic",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimm",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "We currently offer lawn mowing and weed trimming, tree trimm",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "text": "Contact Us",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Contact Us",
+      "fontFamily": "helvetica-w01-bold, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Let us know if you have any questions or would like more inf",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Let us know if you have any questions or would like more inf",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Tab Dr, West Virginia 25053, USA",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "hagerlawncare@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "hagerlawncare@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "text": "hagerlawncare@gmail.com",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "1-304-601-2623",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "1-304-601-2623",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Submit",
+      "fontFamily": "Arial",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Submit",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "700",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "1-304-601-2623",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "1-304-601-2623",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "P",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created w",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 13)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "text": "©2021 by Hager lawncare & landscaping LLC. Proudly created w",
+      "fontFamily": "helvetica-w01-roman, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "forms": [
+    {
+      "box": {
+        "x": 730,
+        "y": 3030,
+        "w": 460,
+        "h": 471
+      },
+      "text": "Name Email Phone Address Subject Message Submit",
+      "inputs": [
+        {
+          "type": "text",
+          "name": "name",
+          "placeholder": "Enter your name",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "placeholder": "Enter your email",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "tel",
+          "name": "phone",
+          "placeholder": "Enter your phone number",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "text",
+          "name": "address",
+          "placeholder": "Enter your address",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "text",
+          "name": "subject",
+          "placeholder": "Type the subject",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Type your message here...",
+          "value": "",
+          "aria": null
+        }
+      ],
+      "buttons": [
+        "Submit"
+      ]
+    }
+  ],
+  "bodyText": "Skip to Main Content This website was built on Wix. Create yours today. Get Started Hager lawncare & landscaping LLC Home More jaredhager15@gmail.com Welcome Your Trusted Lawn Care Service Discover more about our professional services and find what’s right for you. There’s a lot to mow over, so please don’t hesitate to contact us with any questions or to request a free estimate.Be sure to check us out on Facebook!!! Contact Us About Us A Top-Tier Lawn Care Service Since 2021, Hager Lawn care and Landscaping LLC. has built a reputation of reliability and value. We are the go-to Lawn Care Service in the Danville wv area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs. Seasonal Keep your property in tip-top shape with our Seasonal services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results. We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing! Contact Us Let us know if you have any questions or would like more information about our services. Tab Dr, West Virginia 25053, USA hagerlawncare@gmail.com 1-304-601-2623 Name Email Phone Address Subject Message Submit 1-304-601-2623 ©2021 by Hager lawncare & landscaping LLC. Proudly created with Wix.com",
+  "logs": [
+    {
+      "type": "warning",
+      "text": "Unrecognized feature: 'vr'."
+    },
+    {
+      "type": "requestfailed",
+      "url": "https://panorama.wixapps.net/api/v1/bulklog",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "https://frog.wix.com/bpm",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "https://panorama.wixapps.net/api/v1/bulklog",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "https://frog.wix.com/bolt-performance",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "https://panorama.wixapps.net/api/v1/bulklog",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "type": "warning",
+      "text": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+    },
+    {
+      "type": "log",
+      "text": "Google Maps API version: 3.63.14d"
+    },
+    {
+      "type": "warning",
+      "text": "As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Pleas"
+    },
+    {
+      "type": "warning",
+      "text": "[2026-05-13T07:18:33.958Z]  @firebase/app-compat: \n    Warning: Firebase is already defined in the global scope. Please make sure\n    Firebase library is only loaded once.\n  "
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2"
+    }
+  ]
+}

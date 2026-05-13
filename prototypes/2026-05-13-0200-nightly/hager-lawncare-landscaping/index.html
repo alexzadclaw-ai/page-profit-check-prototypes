@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hager Lawn Care & Landscaping LLC | Danville, WV</title>
+  <meta name="description" content="Hager Lawn Care & Landscaping LLC provides lawn mowing, weed trimming, tree trimming, leaf cleanup, and seasonal outdoor services around Danville, WV." />
+  <style>
+    :root {
+      --bg: #050505;
+      --panel: #090909;
+      --text: #f8f8f6;
+      --muted: #d8d8d2;
+      --line: rgba(255,255,255,.72);
+      --soft-line: rgba(255,255,255,.2);
+      --green: #8caf54;
+      --deep-green: #27351d;
+      --shadow: rgba(255,255,255,.88);
+      --max: 980px;
+      --wide: 1320px;
+      --font: helvetica-w01-roman, Helvetica, Arial, sans-serif;
+      --font-bold: helvetica-w01-bold, Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font-family: var(--font);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    .site-header {
+      min-height: 160px;
+      background: #050505;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,.04);
+    }
+    .header-inner {
+      width: min(var(--wide), calc(100% - 120px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 28px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      min-width: 0;
+    }
+    .brand img {
+      width: 106px;
+      height: 80px;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+    .brand-title {
+      font-size: 22px;
+      line-height: 1.35;
+      color: #fff;
+      letter-spacing: .01em;
+      white-space: nowrap;
+    }
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: 14px;
+      color: #f7f7f7;
+      white-space: nowrap;
+    }
+    .main-nav a { opacity: .95; }
+    .main-nav a:hover { opacity: 1; text-decoration: underline; }
+    .nav-email { border-bottom: 1px solid rgba(255,255,255,.35); padding-bottom: 2px; }
+    .facebook-icon {
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+    }
+
+    main { overflow: hidden; }
+    .section {
+      width: min(var(--max), calc(100% - 80px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 760px;
+      display: grid;
+      grid-template-columns: 460px 460px;
+      column-gap: 60px;
+      align-items: start;
+      padding-top: 60px;
+    }
+    .hero-photo {
+      width: 460px;
+      height: 600px;
+      object-fit: cover;
+    }
+    .hero-copy { padding-top: 92px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      font-family: var(--font-bold);
+      font-size: clamp(54px, 6vw, 72px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+      color: #fff;
+      letter-spacing: -.02em;
+    }
+    .eyebrow {
+      font-family: var(--font-bold);
+      font-size: 19px;
+      line-height: 1.45;
+      margin-bottom: 22px;
+      color: #fff;
+    }
+    .hero-copy p,
+    .about p,
+    .seasonal p,
+    .contact p,
+    .service-line {
+      color: var(--muted);
+      max-width: 470px;
+    }
+    .hero-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 30px;
+    }
+    .pill {
+      color: #fff;
+      border: 1px solid var(--soft-line);
+      border-radius: 999px;
+      padding: 4px 13px;
+      font-size: 13px;
+      line-height: 1.6;
+      background: rgba(255,255,255,.035);
+    }
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+    .btn {
+      min-width: 118px;
+      min-height: 45px;
+      border: 1px solid #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 11px 20px;
+      font-size: 14px;
+      line-height: 1.2;
+      transition: .18s ease;
+    }
+    .btn-primary {
+      background: #fff;
+      color: #050505;
+    }
+    .btn-primary:hover { background: var(--green); border-color: var(--green); color: #050505; }
+    .btn-secondary { background: transparent; color: #fff; }
+    .btn-secondary:hover { background: rgba(255,255,255,.12); }
+
+    .about {
+      min-height: 680px;
+      display: grid;
+      grid-template-columns: 460px 460px;
+      column-gap: 60px;
+      align-items: start;
+      padding-top: 60px;
+    }
+    .about h2,
+    .contact h2 {
+      font-family: var(--font-bold);
+      font-size: 40px;
+      line-height: 1.35;
+      margin-bottom: 26px;
+      color: #fff;
+    }
+    .section-kicker {
+      font-family: var(--font-bold);
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+    .about-image-wrap {
+      position: relative;
+      width: 460px;
+      margin-top: 0;
+    }
+    .about-image-wrap::after {
+      content: "";
+      position: absolute;
+      right: -14px;
+      bottom: -14px;
+      width: 100%;
+      height: 100%;
+      border: 2px solid rgba(255,255,255,.92);
+      z-index: 0;
+    }
+    .about-image-wrap img {
+      position: relative;
+      z-index: 1;
+      width: 460px;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .seasonal {
+      position: relative;
+      width: 100%;
+      min-height: 440px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      isolation: isolate;
+      margin-top: 0;
+      background: #111;
+    }
+    .seasonal > img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+    .seasonal::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(0,0,0,.48), rgba(0,0,0,.5));
+      z-index: -1;
+    }
+    .seasonal-copy {
+      width: min(820px, calc(100% - 60px));
+      margin-top: -8px;
+    }
+    .seasonal h2 {
+      font-size: 24px;
+      line-height: 1.4;
+      font-weight: 400;
+      margin-bottom: 26px;
+      color: #fff;
+    }
+    .seasonal p {
+      margin: 0 auto;
+      max-width: 760px;
+      color: #f2f2ef;
+    }
+
+    .services-roundup {
+      min-height: 920px;
+      text-align: center;
+      padding-top: 120px;
+    }
+    .circle-photo {
+      width: min(640px, 78vw);
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 52px;
+    }
+    .service-line {
+      max-width: 760px;
+      margin: 0 auto 24px;
+      color: #fff;
+    }
+    .service-grid {
+      width: min(760px, 100%);
+      margin: 0 auto 34px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 10px;
+    }
+    .service-card {
+      border: 1px solid var(--soft-line);
+      min-height: 74px;
+      padding: 14px 10px;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      background: rgba(255,255,255,.025);
+    }
+    .mini-cta {
+      color: #fff;
+      font-size: 14px;
+    }
+    .mini-cta a { border-bottom: 1px solid rgba(255,255,255,.5); }
+
+    .contact {
+      min-height: 1010px;
+      display: grid;
+      grid-template-columns: 420px 460px;
+      column-gap: 60px;
+      align-items: start;
+      padding-top: 58px;
+    }
+    .contact p { max-width: 360px; }
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 18px 0 0;
+      color: var(--muted);
+    }
+    .contact-list li { margin-bottom: 14px; }
+    .contact-list a { color: #fff; border-bottom: 1px solid rgba(255,255,255,.32); }
+    .trust-note {
+      margin-top: 30px;
+      padding: 18px 20px;
+      border: 1px solid var(--soft-line);
+      max-width: 365px;
+      color: var(--muted);
+      background: rgba(255,255,255,.025);
+    }
+    .trust-note strong { color: #fff; }
+
+    form {
+      display: grid;
+      gap: 11px 12px;
+      grid-template-columns: 1fr 1fr;
+      width: 460px;
+    }
+    .field { display: grid; gap: 5px; }
+    .field-full { grid-column: 1 / -1; }
+    label {
+      font-size: 13px;
+      line-height: 1.4;
+      color: #fff;
+    }
+    input, textarea {
+      width: 100%;
+      border: 1px solid rgba(255,255,255,.88);
+      background: transparent;
+      color: #fff;
+      min-height: 43px;
+      padding: 11px 12px;
+      font: 15px var(--font);
+      outline: none;
+    }
+    textarea { min-height: 88px; resize: vertical; }
+    input:focus, textarea:focus { border-color: var(--green); box-shadow: 0 0 0 1px var(--green); }
+    .submit {
+      grid-column: 1 / -1;
+      min-height: 47px;
+      border: 1px solid #fff;
+      background: #fff;
+      color: #050505;
+      font: 15px var(--font);
+      cursor: pointer;
+      margin-top: 4px;
+    }
+    .submit:hover { background: var(--green); border-color: var(--green); }
+
+    .site-footer {
+      min-height: 160px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      padding: 34px 20px;
+      border-top: 1px solid rgba(255,255,255,.05);
+    }
+    .site-footer p { margin: 0 0 10px; }
+    .site-footer small { color: var(--muted); }
+
+    .chat-widget {
+      position: fixed;
+      right: 26px;
+      bottom: 28px;
+      min-width: 142px;
+      height: 48px;
+      border-radius: 6px;
+      background: #2b2b2b;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      font-size: 15px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.35);
+      z-index: 10;
+    }
+    .chat-widget svg { width: 20px; height: 20px; fill: currentColor; }
+
+    @media (max-width: 1050px) {
+      .header-inner { width: min(900px, calc(100% - 48px)); grid-template-columns: 1fr; align-items: start; padding: 28px 0; }
+      .site-header { min-height: auto; }
+      .main-nav { flex-wrap: wrap; }
+      .hero, .about, .contact { width: min(900px, calc(100% - 48px)); grid-template-columns: 1fr; gap: 34px; min-height: auto; padding: 54px 0; }
+      .hero-copy { padding-top: 0; }
+      .hero-photo, .about-image-wrap, .about-image-wrap img, form { width: min(460px, 100%); }
+      .services-roundup { min-height: auto; padding: 80px 0; }
+      .contact { padding-bottom: 80px; }
+    }
+
+    @media (max-width: 720px) {
+      body { font-size: 14px; }
+      .brand { align-items: flex-start; }
+      .brand-title { white-space: normal; font-size: 20px; }
+      .main-nav { gap: 14px 18px; }
+      .hero-photo { width: 100%; height: auto; aspect-ratio: 23 / 30; }
+      .about-image-wrap img { height: auto; aspect-ratio: 46 / 50; }
+      .seasonal { min-height: 420px; }
+      .circle-photo { width: min(520px, 88vw); }
+      .service-grid { grid-template-columns: 1fr 1fr; }
+      .contact { grid-template-columns: 1fr; }
+      form { grid-template-columns: 1fr; }
+      .field-full, .submit { grid-column: auto; }
+      .chat-widget { right: 16px; bottom: 16px; min-width: 124px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Hager Lawn Care & Landscaping LLC home">
+        <img src="https://static.wixstatic.com/media/439abb_4f1e571ee294417e910bfe2cd5ef7090~mv2.jpeg/v1/fill/w_106,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg" alt="Hager Lawn Care & Landscaping LLC logo" />
+        <span class="brand-title">Hager lawncare &amp; landscaping LLC</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">More</a>
+        <a class="nav-email" href="mailto:hagerlawncare@gmail.com">hagerlawncare@gmail.com</a>
+        <a href="https://www.facebook.com/Hager-lawncare-landscape-103092725363683/" target="_blank" rel="noopener" aria-label="Hager Lawn Care on Facebook">
+          <img class="facebook-icon" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook" />
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero" aria-labelledby="welcome-title">
+      <img class="hero-photo" src="https://static.wixstatic.com/media/b6576e775bcd42feb8921881f7c16ef2.jpg/v1/fill/w_460,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lawn%20Mower%20Setup.jpg" alt="Lawn mower cutting a clean stripe through grass" />
+      <div class="hero-copy">
+        <h1 id="welcome-title">Welcome</h1>
+        <p class="eyebrow">Your Trusted Lawn Care Service</p>
+        <p>Discover more about our professional services and find what is right for you. There is a lot to mow over, so please contact us with any questions or to request a free estimate. Be sure to check us out on Facebook.</p>
+        <div class="hero-note" aria-label="Service highlights">
+          <span class="pill">Free estimates</span>
+          <span class="pill">Danville, WV area</span>
+          <span class="pill">Residential and commercial</span>
+        </div>
+        <div class="button-row">
+          <a class="btn btn-primary" href="#contact">Contact Us</a>
+          <a class="btn btn-secondary" href="tel:+13046012623">Call 1-304-601-2623</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div>
+        <h2 id="about-title">About Us</h2>
+        <p class="section-kicker">A Top-Tier Lawn Care Service</p>
+        <p>Since 2021, Hager Lawn Care and Landscaping LLC has built a reputation for reliability and value. We are the go-to lawn care service in the Danville, WV area, creating beautiful landscaping with our signature touch. We are a team of outdoorsy professionals, here to assist with your residential or commercial needs.</p>
+      </div>
+      <div class="about-image-wrap" aria-hidden="true">
+        <img src="https://static.wixstatic.com/media/65488cedd4de4720992b36926aac59b9.jpg/v1/fill/w_460,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Field%20from%20Above.jpg" alt="Aerial view of a green field and trees" />
+      </div>
+    </section>
+
+    <section class="seasonal" aria-labelledby="seasonal-title">
+      <img src="https://static.wixstatic.com/media/b369ab1cd5eb48769dacf6f09291d562.jpg/v1/fill/w_1440,h_440,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b369ab1cd5eb48769dacf6f09291d562.jpg" alt="Snow covered trees and seasonal landscape" />
+      <div class="seasonal-copy">
+        <h2 id="seasonal-title">Seasonal</h2>
+        <p>Keep your property in tip-top shape with our seasonal services. Our team does it all, and is ready to give complete attention to your every need. You can count on us to make sure you are satisfied with the results.</p>
+      </div>
+    </section>
+
+    <section class="section services-roundup" id="services" aria-labelledby="services-title">
+      <img class="circle-photo" src="https://static.wixstatic.com/media/e0313a00d0f446f1bd5492ff96f8a76e.jpg/v1/fill/w_640,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Autumn%20Leaves.jpg" alt="Autumn leaves for seasonal cleanup services" />
+      <h2 id="services-title" class="service-line">We currently offer lawn mowing and weed trimming, tree trimming, leaf blowing, and soon pressure washing.</h2>
+      <div class="service-grid" aria-label="Current services">
+        <div class="service-card">Lawn mowing</div>
+        <div class="service-card">Weed trimming</div>
+        <div class="service-card">Tree trimming</div>
+        <div class="service-card">Leaf blowing</div>
+      </div>
+      <p class="mini-cta">Ready for a cleaner yard? <a href="#contact">Request a free estimate</a> or call <a href="tel:+13046012623">1-304-601-2623</a>.</p>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Contact Us</h2>
+        <p>Let us know if you have any questions or would like more information about our services.</p>
+        <ul class="contact-list">
+          <li>Tab Dr, West Virginia 25053, USA</li>
+          <li><a href="mailto:hagerlawncare@gmail.com">hagerlawncare@gmail.com</a></li>
+          <li><a href="tel:+13046012623">1-304-601-2623</a></li>
+        </ul>
+        <div class="trust-note"><strong>Free estimate request:</strong> Share your address and the service you need. We will follow up with next steps.</div>
+      </div>
+      <form action="mailto:hagerlawncare@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="address">Address</label>
+          <input id="address" name="address" type="text" placeholder="Enter your address" autocomplete="street-address" />
+        </div>
+        <div class="field field-full">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Type the subject" />
+        </div>
+        <div class="field field-full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+        </div>
+        <button class="submit" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p><a href="tel:+13046012623">1-304-601-2623</a></p>
+      <small>©2026 by Hager lawncare &amp; landscaping LLC.</small>
+    </div>
+  </footer>
+
+  <a class="chat-widget" href="tel:+13046012623" aria-label="Call Hager Lawn Care">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Zm-1 14H5.17L4 17.17V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"/></svg>
+    <span>Let's Chat!</span>
+  </a>
+</body>
+</html>

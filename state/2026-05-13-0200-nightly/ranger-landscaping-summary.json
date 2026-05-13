@@ -1,0 +1,848 @@
+{
+  "title": "Home | Ranger Landscaping LLC",
+  "url": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+  "metaDescription": "",
+  "canonical": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+  "h1s": [
+    "Ranger Landscaping LLC"
+  ],
+  "h2s": [
+    "About Us",
+    "Professional Services",
+    "Jake Hamby - Owner of Ranger Landscaping LLC"
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "alt": "Twitter",
+      "rect": {
+        "x": 1310,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1310
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "alt": "Facebook",
+      "rect": {
+        "x": 1340,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1340
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_0ef3233c36c84774aade2f52bfd7b7fd~mv2.jpeg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_53f.jpeg",
+      "alt": "fullsizeoutput_53f.jpeg",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_1440,h_2200,fp_0.48_0.38,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png",
+      "alt": "1011FC1A-92C0-454C-9673-9BF28C7A53D3.hei",
+      "rect": {
+        "x": 0,
+        "y": 46,
+        "width": 1440,
+        "height": 2200,
+        "top": 46,
+        "left": 0
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_215ec7ec93894ca5b5a02fe0d45ea719~mv2.jpg/v1/fill/w_460,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_541_edited.jpg",
+      "alt": "fullsizeoutput_541_edited.jpg",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 460,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png",
+      "alt": "4ED36FF9-8731-4FF2-81E6-EB79892E517C.hei",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png",
+      "alt": "1C7A2ABD-B055-45A3-B0AF-94343F4722C7_1_2",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_640,h_740,fp_0.46_0.48,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png",
+      "alt": "91370257-537E-4604-B6B1-2889B1073E4B_1_2",
+      "rect": {
+        "x": 720,
+        "y": 3550,
+        "width": 640,
+        "height": 740,
+        "top": 3550,
+        "left": 720
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=0ecb424c-b6b0-4e88-8f64-4952124b22a7&adsVersion=banner_2024",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 50,
+        "top": 0,
+        "left": 0
+      }
+    },
+    {
+      "text": "ranger.landscapingllc@gmail.com",
+      "href": "mailto:ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "width": 217,
+        "height": 16,
+        "top": 86,
+        "left": 80
+      }
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/RangerLandscape",
+      "rect": {
+        "x": 1310,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1310
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/RangerLandscapingLLC/?ref=aymt_homepage_panel&eid=ARDKhj44nupv057hHDJolhIX-CN9P_JpZpVxWaE_rz-vR1tarKZFe3z4U3ShIbOhJhFb1GdfzljiAg30",
+      "rect": {
+        "x": 1340,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1340
+      }
+    },
+    {
+      "text": "",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      }
+    },
+    {
+      "text": "Ranger Landscaping LLC",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      }
+    },
+    {
+      "text": "Home",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      }
+    },
+    {
+      "text": "Services",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      }
+    },
+    {
+      "text": "A Message From The Owner",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/about",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 203,
+        "height": 0,
+        "top": 155,
+        "left": 1140
+      }
+    },
+    {
+      "text": "Pay Your Invoice",
+      "href": "https://www.yardbook.com/152524/pay_now",
+      "rect": {
+        "x": 1207,
+        "y": 148,
+        "width": 153,
+        "height": 45,
+        "top": 148,
+        "left": 1207
+      }
+    },
+    {
+      "text": "Email",
+      "href": "mailto:ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 629,
+        "y": 846,
+        "width": 78,
+        "height": 45,
+        "top": 846,
+        "left": 629
+      }
+    },
+    {
+      "text": "Phone",
+      "href": "tel:(614) 687-1112",
+      "rect": {
+        "x": 727,
+        "y": 846,
+        "width": 85,
+        "height": 45,
+        "top": 846,
+        "left": 727
+      }
+    },
+    {
+      "text": "Services",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services",
+      "rect": {
+        "x": 585,
+        "y": 2061,
+        "width": 99,
+        "height": 45,
+        "top": 2061,
+        "left": 585
+      }
+    }
+  ],
+  "texts": [
+    {
+      "tag": "A",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "top": 0,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=0ecb424c-b6b0-4e88-8f64-4952124b22a7&adsVersion=banner_2024"
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "top": 11,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today.",
+      "top": 13,
+      "fontSize": "16px",
+      "color": "rgb(32, 48, 60)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Get Started",
+      "top": 11,
+      "fontSize": "14px",
+      "color": "rgb(22, 106, 234)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "ranger.landscapingllc@gmail.com",
+      "top": 82,
+      "fontSize": "14px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "ranger.landscapingllc@gmail.com",
+      "top": 86,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "ranger.landscapingllc@gmail.com",
+      "top": 86,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": "mailto:ranger.landscapingllc@gmail.com"
+    },
+    {
+      "tag": "P",
+      "text": "(614) 687-1112",
+      "top": 82,
+      "fontSize": "14px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "(614) 687-1112",
+      "top": 86,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Ranger Landscaping LLC",
+      "top": 142,
+      "fontSize": "22px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "top": 144,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "top": 144,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "top": 144,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Ranger Landscaping LLC",
+      "top": 144,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc"
+    },
+    {
+      "tag": "P",
+      "text": "Excellent Service, Unforgettable Experience",
+      "top": 170,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "top": 175,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "top": 155,
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc"
+    },
+    {
+      "tag": "P",
+      "text": "Home",
+      "top": 155,
+      "fontSize": "14px",
+      "color": "rgb(240, 236, 228)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "top": 155,
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services"
+    },
+    {
+      "tag": "P",
+      "text": "Services",
+      "top": 155,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "More",
+      "top": 155,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Pay Your Invoice",
+      "top": 148,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": "https://www.yardbook.com/152524/pay_now"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Pay Your Invoice",
+      "top": 157,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "H1",
+      "text": "Ranger Landscaping LLC",
+      "top": 552,
+      "fontSize": "72px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "top": 553,
+      "fontSize": "72px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "top": 553,
+      "fontSize": "72px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Excellent Service, Unforgettable Experience",
+      "top": 672,
+      "fontSize": "20px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "top": 676,
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "top": 676,
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "top": 737,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "top": 742,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "top": 742,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Email",
+      "top": 846,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": "mailto:ranger.landscapingllc@gmail.com"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Email",
+      "top": 854,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Phone",
+      "top": 846,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": "tel:(614) 687-1112"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Phone",
+      "top": 854,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "H2",
+      "text": "About Us",
+      "top": 1437,
+      "fontSize": "40px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "About Us",
+      "top": 1440,
+      "fontSize": "40px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "About Us",
+      "top": 1440,
+      "fontSize": "40px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping.",
+      "top": 1518,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping.",
+      "top": 1523,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "H2",
+      "text": "Professional Services",
+      "top": 1890,
+      "fontSize": "40px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Professional Services",
+      "top": 1893,
+      "fontSize": "40px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Professional Services",
+      "top": 1893,
+      "fontSize": "40px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "See what we offer.",
+      "top": 1973,
+      "fontSize": "18px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "See what we offer.",
+      "top": 1978,
+      "fontSize": "18px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "top": 2061,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Services",
+      "top": 2069,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "A",
+      "text": "Get An Estimate",
+      "top": 2061,
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Get An Estimate",
+      "top": 2069,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "H3",
+      "text": "Residential Landscaping Services",
+      "top": 2373,
+      "fontSize": "22px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Residential Landscaping Services",
+      "top": 2375,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Residential Landscaping Services",
+      "top": 2375,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Let us handle the dirty work.",
+      "top": 2448,
+      "fontSize": "18px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Let us handle the dirty work.",
+      "top": 2453,
+      "fontSize": "18px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll ",
+      "top": 2512,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll ",
+      "top": 2517,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "H3",
+      "text": "Commercial Landscaping",
+      "top": 3020,
+      "fontSize": "22px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Commercial Landscaping",
+      "top": 3022,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Commercial Landscaping",
+      "top": 3022,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Let our business help yours.",
+      "top": 3095,
+      "fontSize": "18px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Let our business help yours.",
+      "top": 3100,
+      "fontSize": "18px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us.",
+      "top": 3159,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us.",
+      "top": 3164,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry.",
+      "top": 3813,
+      "fontSize": "22px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry.",
+      "top": 3815,
+      "fontSize": "22px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "H2",
+      "text": "Jake Hamby - Owner of Ranger Landscaping LLC",
+      "top": 3998,
+      "fontSize": "18px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Jake Hamby - Owner of Ranger Landscaping LLC",
+      "top": 4003,
+      "fontSize": "18px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "(614) 687-1112",
+      "top": 4361,
+      "fontSize": "15px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "(614) 687-1112",
+      "top": 4366,
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    },
+    {
+      "tag": "P",
+      "text": "©2020 by Ranger Landscaping LLC. Proudly created with Wix.com",
+      "top": 4433,
+      "fontSize": "14px",
+      "color": "rgb(12, 12, 12)",
+      "href": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "©2020 by Ranger Landscaping LLC. Proudly created with Wix.com",
+      "top": 4437,
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "href": ""
+    }
+  ]
+}

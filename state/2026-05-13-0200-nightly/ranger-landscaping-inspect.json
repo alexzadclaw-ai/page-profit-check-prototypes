@@ -1,0 +1,5489 @@
+{
+  "url": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+  "title": "Home | Ranger Landscaping LLC",
+  "viewport": {
+    "w": 1440,
+    "h": 2200,
+    "scrollHeight": 4490
+  },
+  "body": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  "images": [
+    {
+      "i": 0,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "srcAttr": "https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "alt": "Twitter",
+      "id": "img_0_comp-kdrbxrqy4",
+      "className": "YaS0jR Tj01hh",
+      "rect": {
+        "x": 1310,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1310
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible"
+    },
+    {
+      "i": 1,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "srcAttr": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "alt": "Facebook",
+      "id": "img_1_comp-kdrbxrqy4",
+      "className": "YaS0jR Tj01hh",
+      "rect": {
+        "x": 1340,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1340
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible"
+    },
+    {
+      "i": 2,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_0ef3233c36c84774aade2f52bfd7b7fd~mv2.jpeg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_53f.jpeg",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_0ef3233c36c84774aade2f52bfd7b7fd~mv2.jpeg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_53f.jpeg",
+      "alt": "fullsizeoutput_53f.jpeg",
+      "id": "img_comp-kc2ll0m82",
+      "className": "BI8PVQ Tj01hh",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      },
+      "objectFit": "contain",
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible"
+    },
+    {
+      "i": 3,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_1440,h_2200,fp_0.48_0.38,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_1440,h_2200,fp_0.48_0.38,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png",
+      "alt": "1011FC1A-92C0-454C-9673-9BF28C7A53D3.hei",
+      "id": "",
+      "className": "",
+      "rect": {
+        "x": 0,
+        "y": 46,
+        "width": 1440,
+        "height": 2200,
+        "top": 46,
+        "left": 0
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "inline",
+      "visibility": "visible"
+    },
+    {
+      "i": 4,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_215ec7ec93894ca5b5a02fe0d45ea719~mv2.jpg/v1/fill/w_460,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_541_edited.jpg",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_215ec7ec93894ca5b5a02fe0d45ea719~mv2.jpg/v1/fill/w_460,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_541_edited.jpg",
+      "alt": "fullsizeoutput_541_edited.jpg",
+      "id": "img_comp-kc2ljtk6",
+      "className": "BI8PVQ Tj01hh",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 460,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "objectFit": "contain",
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible"
+    },
+    {
+      "i": 5,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png",
+      "alt": "4ED36FF9-8731-4FF2-81E6-EB79892E517C.hei",
+      "id": "",
+      "className": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "inline",
+      "visibility": "visible"
+    },
+    {
+      "i": 6,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png",
+      "alt": "1C7A2ABD-B055-45A3-B0AF-94343F4722C7_1_2",
+      "id": "",
+      "className": "",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "inline",
+      "visibility": "visible"
+    },
+    {
+      "i": 7,
+      "tag": "IMG",
+      "src": "https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_640,h_740,fp_0.46_0.48,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png",
+      "srcAttr": "https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_640,h_740,fp_0.46_0.48,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png",
+      "alt": "91370257-537E-4604-B6B1-2889B1073E4B_1_2",
+      "id": "",
+      "className": "",
+      "rect": {
+        "x": 720,
+        "y": 3550,
+        "width": 640,
+        "height": 740,
+        "top": 3550,
+        "left": 720
+      },
+      "objectFit": "cover",
+      "opacity": "1",
+      "display": "inline",
+      "visibility": "visible"
+    }
+  ],
+  "backgrounds": [],
+  "textNodes": [
+    {
+      "i": 2,
+      "tag": "A",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 50,
+        "top": 0,
+        "left": 0
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgb(239, 241, 242)",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=0ecb424c-b6b0-4e88-8f64-4952124b22a7&adsVersion=banner_2024"
+    },
+    {
+      "i": 3,
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 427,
+        "y": 11,
+        "width": 586,
+        "height": 27,
+        "top": 11,
+        "left": 427
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 4,
+      "tag": "SPAN",
+      "text": "This website was built on Wix. Create yours today.",
+      "rect": {
+        "x": 427,
+        "y": 13,
+        "width": 456,
+        "height": 24,
+        "top": 13,
+        "left": 427
+      },
+      "fontSize": "16px",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(32, 48, 60)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 5,
+      "tag": "SPAN",
+      "text": "Get Started",
+      "rect": {
+        "x": 899,
+        "y": 11,
+        "width": 114,
+        "height": 27,
+        "top": 11,
+        "left": 899
+      },
+      "fontSize": "14px",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(22, 106, 234)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 6,
+      "tag": "P",
+      "text": "ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 80,
+        "y": 82,
+        "width": 222,
+        "height": 25,
+        "top": 82,
+        "left": 80
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 7,
+      "tag": "SPAN",
+      "text": "ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "width": 217,
+        "height": 16,
+        "top": 86,
+        "left": 80
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "text": "ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "width": 217,
+        "height": 16,
+        "top": 86,
+        "left": 80
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": "mailto:ranger.landscapingllc@gmail.com"
+    },
+    {
+      "i": 9,
+      "tag": "P",
+      "text": "(614) 687-1112",
+      "rect": {
+        "x": 322,
+        "y": 82,
+        "width": 91,
+        "height": 25,
+        "top": 82,
+        "left": 322
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 10,
+      "tag": "SPAN",
+      "text": "(614) 687-1112",
+      "rect": {
+        "x": 322,
+        "y": 86,
+        "width": 88,
+        "height": 16,
+        "top": 86,
+        "left": 322
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 16,
+      "tag": "P",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 155,
+        "y": 142,
+        "width": 224,
+        "height": 31,
+        "top": 142,
+        "left": 155
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 17,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 18,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 19,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc"
+    },
+    {
+      "i": 21,
+      "tag": "P",
+      "text": "Excellent Service, Unforgettable Experience",
+      "rect": {
+        "x": 155,
+        "y": 170,
+        "width": 312,
+        "height": 28,
+        "top": 170,
+        "left": 155
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 22,
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "rect": {
+        "x": 155,
+        "y": 175,
+        "width": 305,
+        "height": 18,
+        "top": 175,
+        "left": 155
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 23,
+      "tag": "LI",
+      "text": "Home",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "text": "Home",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc"
+    },
+    {
+      "i": 25,
+      "tag": "P",
+      "text": "Home",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(240, 236, 228)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 26,
+      "tag": "LI",
+      "text": "Services",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "text": "Services",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services"
+    },
+    {
+      "i": 28,
+      "tag": "P",
+      "text": "Services",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 32,
+      "tag": "LI",
+      "text": "More",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 53,
+        "height": 30,
+        "top": 155,
+        "left": 1140
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 33,
+      "tag": "P",
+      "text": "More",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 53,
+        "height": 30,
+        "top": 155,
+        "left": 1140
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 34,
+      "tag": "A",
+      "text": "Pay Your Invoice",
+      "rect": {
+        "x": 1207,
+        "y": 148,
+        "width": 153,
+        "height": 45,
+        "top": 148,
+        "left": 1207
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "href": "https://www.yardbook.com/152524/pay_now"
+    },
+    {
+      "i": 35,
+      "tag": "SPAN",
+      "text": "Pay Your Invoice",
+      "rect": {
+        "x": 1227,
+        "y": 157,
+        "width": 112,
+        "height": 28,
+        "top": 157,
+        "left": 1227
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 36,
+      "tag": "H1",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 310,
+        "y": 552,
+        "width": 820,
+        "height": 90,
+        "top": 552,
+        "left": 310
+      },
+      "fontSize": "72px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 37,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 362,
+        "y": 553,
+        "width": 716,
+        "height": 88,
+        "top": 553,
+        "left": 362
+      },
+      "fontSize": "72px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 38,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC",
+      "rect": {
+        "x": 362,
+        "y": 553,
+        "width": 716,
+        "height": 88,
+        "top": 553,
+        "left": 362
+      },
+      "fontSize": "72px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 39,
+      "tag": "P",
+      "text": "Excellent Service, Unforgettable Experience",
+      "rect": {
+        "x": 310,
+        "y": 672,
+        "width": 820,
+        "height": 33,
+        "top": 672,
+        "left": 310
+      },
+      "fontSize": "20px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 40,
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "rect": {
+        "x": 527,
+        "y": 676,
+        "width": 387,
+        "height": 24,
+        "top": 676,
+        "left": 527
+      },
+      "fontSize": "20px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 41,
+      "tag": "SPAN",
+      "text": "Excellent Service, Unforgettable Experience",
+      "rect": {
+        "x": 527,
+        "y": 676,
+        "width": 387,
+        "height": 24,
+        "top": 676,
+        "left": 527
+      },
+      "fontSize": "20px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 42,
+      "tag": "P",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "rect": {
+        "x": 310,
+        "y": 737,
+        "width": 820,
+        "height": 56,
+        "top": 737,
+        "left": 310
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 43,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "rect": {
+        "x": 322,
+        "y": 742,
+        "width": 795,
+        "height": 46,
+        "top": 742,
+        "left": 322
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 44,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.",
+      "rect": {
+        "x": 322,
+        "y": 742,
+        "width": 795,
+        "height": 46,
+        "top": 742,
+        "left": 322
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 45,
+      "tag": "A",
+      "text": "Email",
+      "rect": {
+        "x": 629,
+        "y": 846,
+        "width": 78,
+        "height": 45,
+        "top": 846,
+        "left": 629
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "href": "mailto:ranger.landscapingllc@gmail.com"
+    },
+    {
+      "i": 46,
+      "tag": "SPAN",
+      "text": "Email",
+      "rect": {
+        "x": 649,
+        "y": 854,
+        "width": 38,
+        "height": 28,
+        "top": 854,
+        "left": 649
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 47,
+      "tag": "A",
+      "text": "Phone",
+      "rect": {
+        "x": 727,
+        "y": 846,
+        "width": 85,
+        "height": 45,
+        "top": 846,
+        "left": 727
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(12, 12, 12, 0)",
+      "href": "tel:(614) 687-1112"
+    },
+    {
+      "i": 48,
+      "tag": "SPAN",
+      "text": "Phone",
+      "rect": {
+        "x": 747,
+        "y": 854,
+        "width": 45,
+        "height": 28,
+        "top": 854,
+        "left": 747
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 50,
+      "tag": "H2",
+      "text": "About Us",
+      "rect": {
+        "x": 230,
+        "y": 1437,
+        "width": 460,
+        "height": 54,
+        "top": 1437,
+        "left": 230
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 51,
+      "tag": "SPAN",
+      "text": "About Us",
+      "rect": {
+        "x": 230,
+        "y": 1440,
+        "width": 151,
+        "height": 48,
+        "top": 1440,
+        "left": 230
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 52,
+      "tag": "SPAN",
+      "text": "About Us",
+      "rect": {
+        "x": 230,
+        "y": 1440,
+        "width": 151,
+        "height": 48,
+        "top": 1440,
+        "left": 230
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 53,
+      "tag": "P",
+      "text": "Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping.",
+      "rect": {
+        "x": 230,
+        "y": 1518,
+        "width": 460,
+        "height": 141,
+        "top": 1518,
+        "left": 230
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 54,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping.",
+      "rect": {
+        "x": 230,
+        "y": 1523,
+        "width": 447,
+        "height": 131,
+        "top": 1523,
+        "left": 230
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 56,
+      "tag": "H2",
+      "text": "Professional Services",
+      "rect": {
+        "x": 250,
+        "y": 1890,
+        "width": 940,
+        "height": 54,
+        "top": 1890,
+        "left": 250
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 57,
+      "tag": "SPAN",
+      "text": "Professional Services",
+      "rect": {
+        "x": 558,
+        "y": 1893,
+        "width": 323,
+        "height": 48,
+        "top": 1893,
+        "left": 558
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 58,
+      "tag": "SPAN",
+      "text": "Professional Services",
+      "rect": {
+        "x": 558,
+        "y": 1893,
+        "width": 323,
+        "height": 48,
+        "top": 1893,
+        "left": 558
+      },
+      "fontSize": "40px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 59,
+      "tag": "P",
+      "text": "See what we offer.",
+      "rect": {
+        "x": 250,
+        "y": 1973,
+        "width": 940,
+        "height": 32,
+        "top": 1973,
+        "left": 250
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 60,
+      "tag": "SPAN",
+      "text": "See what we offer.",
+      "rect": {
+        "x": 645,
+        "y": 1978,
+        "width": 150,
+        "height": 21,
+        "top": 1978,
+        "left": 645
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 61,
+      "tag": "A",
+      "text": "Services",
+      "rect": {
+        "x": 585,
+        "y": 2061,
+        "width": 99,
+        "height": 45,
+        "top": 2061,
+        "left": 585
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services"
+    },
+    {
+      "i": 62,
+      "tag": "SPAN",
+      "text": "Services",
+      "rect": {
+        "x": 605,
+        "y": 2069,
+        "width": 59,
+        "height": 28,
+        "top": 2069,
+        "left": 605
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 63,
+      "tag": "A",
+      "text": "Get An Estimate",
+      "rect": {
+        "x": 704,
+        "y": 2061,
+        "width": 151,
+        "height": 45,
+        "top": 2061,
+        "left": 704
+      },
+      "fontSize": "10px",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(12, 12, 12, 0)",
+      "href": ""
+    },
+    {
+      "i": 64,
+      "tag": "SPAN",
+      "text": "Get An Estimate",
+      "rect": {
+        "x": 724,
+        "y": 2069,
+        "width": 111,
+        "height": 28,
+        "top": 2069,
+        "left": 724
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 65,
+      "tag": "H3",
+      "text": "Residential Landscaping Services",
+      "rect": {
+        "x": 850,
+        "y": 2373,
+        "width": 460,
+        "height": 31,
+        "top": 2373,
+        "left": 850
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 66,
+      "tag": "SPAN",
+      "text": "Residential Landscaping Services",
+      "rect": {
+        "x": 850,
+        "y": 2375,
+        "width": 284,
+        "height": 26,
+        "top": 2375,
+        "left": 850
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 67,
+      "tag": "SPAN",
+      "text": "Residential Landscaping Services",
+      "rect": {
+        "x": 850,
+        "y": 2375,
+        "width": 284,
+        "height": 26,
+        "top": 2375,
+        "left": 850
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 68,
+      "tag": "P",
+      "text": "Let us handle the dirty work.",
+      "rect": {
+        "x": 850,
+        "y": 2448,
+        "width": 460,
+        "height": 32,
+        "top": 2448,
+        "left": 850
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 69,
+      "tag": "SPAN",
+      "text": "Let us handle the dirty work.",
+      "rect": {
+        "x": 850,
+        "y": 2453,
+        "width": 234,
+        "height": 21,
+        "top": 2453,
+        "left": 850
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 70,
+      "tag": "P",
+      "text": "Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll ",
+      "rect": {
+        "x": 850,
+        "y": 2512,
+        "width": 460,
+        "height": 197,
+        "top": 2512,
+        "left": 850
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 71,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll ",
+      "rect": {
+        "x": 850,
+        "y": 2517,
+        "width": 452,
+        "height": 187,
+        "top": 2517,
+        "left": 850
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 72,
+      "tag": "H3",
+      "text": "Commercial Landscaping",
+      "rect": {
+        "x": 130,
+        "y": 3020,
+        "width": 460,
+        "height": 31,
+        "top": 3020,
+        "left": 130
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 73,
+      "tag": "SPAN",
+      "text": "Commercial Landscaping",
+      "rect": {
+        "x": 130,
+        "y": 3022,
+        "width": 219,
+        "height": 26,
+        "top": 3022,
+        "left": 130
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 74,
+      "tag": "SPAN",
+      "text": "Commercial Landscaping",
+      "rect": {
+        "x": 130,
+        "y": 3022,
+        "width": 219,
+        "height": 26,
+        "top": 3022,
+        "left": 130
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 75,
+      "tag": "P",
+      "text": "Let our business help yours.",
+      "rect": {
+        "x": 130,
+        "y": 3095,
+        "width": 460,
+        "height": 32,
+        "top": 3095,
+        "left": 130
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 76,
+      "tag": "SPAN",
+      "text": "Let our business help yours.",
+      "rect": {
+        "x": 130,
+        "y": 3100,
+        "width": 231,
+        "height": 21,
+        "top": 3100,
+        "left": 130
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 77,
+      "tag": "P",
+      "text": "Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us.",
+      "rect": {
+        "x": 130,
+        "y": 3159,
+        "width": 460,
+        "height": 141,
+        "top": 3159,
+        "left": 130
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 78,
+      "tag": "SPAN",
+      "text": "Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us.",
+      "rect": {
+        "x": 130,
+        "y": 3164,
+        "width": 456,
+        "height": 131,
+        "top": 3164,
+        "left": 130
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 80,
+      "tag": "P",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry.",
+      "rect": {
+        "x": 170,
+        "y": 3813,
+        "width": 460,
+        "height": 155,
+        "top": 3813,
+        "left": 170
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 81,
+      "tag": "SPAN",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry.",
+      "rect": {
+        "x": 170,
+        "y": 3815,
+        "width": 451,
+        "height": 150,
+        "top": 3815,
+        "left": 170
+      },
+      "fontSize": "22px",
+      "fontFamily": "cormorantgaramond-light, cormorantgaramond, \"cormorant garamond\", serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 82,
+      "tag": "H2",
+      "text": "Jake Hamby - Owner of Ranger Landscaping LLC",
+      "rect": {
+        "x": 170,
+        "y": 3998,
+        "width": 460,
+        "height": 32,
+        "top": 3998,
+        "left": 170
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 83,
+      "tag": "SPAN",
+      "text": "Jake Hamby - Owner of Ranger Landscaping LLC",
+      "rect": {
+        "x": 170,
+        "y": 4003,
+        "width": 408,
+        "height": 21,
+        "top": 4003,
+        "left": 170
+      },
+      "fontSize": "18px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 85,
+      "tag": "P",
+      "text": "(614) 687-1112",
+      "rect": {
+        "x": 673,
+        "y": 4361,
+        "width": 97,
+        "height": 28,
+        "top": 4361,
+        "left": 673
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 86,
+      "tag": "SPAN",
+      "text": "(614) 687-1112",
+      "rect": {
+        "x": 674,
+        "y": 4366,
+        "width": 94,
+        "height": 18,
+        "top": 4366,
+        "left": 674
+      },
+      "fontSize": "15px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 87,
+      "tag": "P",
+      "text": "©2020 by Ranger Landscaping LLC. Proudly created with Wix.com",
+      "rect": {
+        "x": 506,
+        "y": 4433,
+        "width": 437,
+        "height": 25,
+        "top": 4433,
+        "left": 506
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(12, 12, 12)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    },
+    {
+      "i": 88,
+      "tag": "SPAN",
+      "text": "©2020 by Ranger Landscaping LLC. Proudly created with Wix.com",
+      "rect": {
+        "x": 511,
+        "y": 4437,
+        "width": 427,
+        "height": 16,
+        "top": 4437,
+        "left": 511
+      },
+      "fontSize": "14px",
+      "fontFamily": "raleway, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "href": ""
+    }
+  ],
+  "links": [
+    {
+      "i": 0,
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=0ecb424c-b6b0-4e88-8f64-4952124b22a7&adsVersion=banner_2024",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 50,
+        "top": 0,
+        "left": 0
+      }
+    },
+    {
+      "i": 1,
+      "text": "ranger.landscapingllc@gmail.com",
+      "href": "mailto:ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "width": 217,
+        "height": 16,
+        "top": 86,
+        "left": 80
+      }
+    },
+    {
+      "i": 2,
+      "text": "",
+      "href": "https://twitter.com/RangerLandscape",
+      "rect": {
+        "x": 1310,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1310
+      }
+    },
+    {
+      "i": 3,
+      "text": "",
+      "href": "https://www.facebook.com/RangerLandscapingLLC/?ref=aymt_homepage_panel&eid=ARDKhj44nupv057hHDJolhIX-CN9P_JpZpVxWaE_rz-vR1tarKZFe3z4U3ShIbOhJhFb1GdfzljiAg30",
+      "rect": {
+        "x": 1340,
+        "y": 84,
+        "width": 20,
+        "height": 20,
+        "top": 84,
+        "left": 1340
+      }
+    },
+    {
+      "i": 4,
+      "text": "",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      }
+    },
+    {
+      "i": 5,
+      "text": "Ranger Landscaping LLC",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 155,
+        "y": 144,
+        "width": 219,
+        "height": 26,
+        "top": 144,
+        "left": 155
+      }
+    },
+    {
+      "i": 6,
+      "text": "Home",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      }
+    },
+    {
+      "i": 7,
+      "text": "Services",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      }
+    },
+    {
+      "i": 8,
+      "text": "A Message From The Owner",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/about",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 203,
+        "height": 0,
+        "top": 155,
+        "left": 1140
+      }
+    },
+    {
+      "i": 9,
+      "text": "Pay Your Invoice",
+      "href": "https://www.yardbook.com/152524/pay_now",
+      "rect": {
+        "x": 1207,
+        "y": 148,
+        "width": 153,
+        "height": 45,
+        "top": 148,
+        "left": 1207
+      }
+    },
+    {
+      "i": 10,
+      "text": "Email",
+      "href": "mailto:ranger.landscapingllc@gmail.com",
+      "rect": {
+        "x": 629,
+        "y": 846,
+        "width": 78,
+        "height": 45,
+        "top": 846,
+        "left": 629
+      }
+    },
+    {
+      "i": 11,
+      "text": "Phone",
+      "href": "tel:(614) 687-1112",
+      "rect": {
+        "x": 727,
+        "y": 846,
+        "width": 85,
+        "height": 45,
+        "top": 846,
+        "left": 727
+      }
+    },
+    {
+      "i": 12,
+      "text": "Services",
+      "href": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services",
+      "rect": {
+        "x": 585,
+        "y": 2061,
+        "width": 99,
+        "height": 45,
+        "top": 2061,
+        "left": 585
+      }
+    }
+  ],
+  "sections": [
+    {
+      "i": 122,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kiep11os",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": -1924,
+        "width": 1440,
+        "height": 5380,
+        "top": -1924,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 15,
+      "tag": "DIV",
+      "id": "SITE_CONTAINER",
+      "className": "",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 4440,
+        "top": 0,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Skip to Main Content This website was built on Wix. Create yours today. Get Started ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. P"
+    },
+    {
+      "i": 16,
+      "tag": "DIV",
+      "id": "main_MF",
+      "className": "main_MF",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 4440,
+        "top": 0,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Skip to Main Content This website was built on Wix. Create yours today. Get Started ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. P"
+    },
+    {
+      "i": 19,
+      "tag": "DIV",
+      "id": "WIX_ADS",
+      "className": "MyEGHM czJOIz ytGGBw",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 50,
+        "top": 0,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "This website was built on Wix. Create yours today. Get Started"
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "id": "",
+      "className": "onAlzG q6N3mD has-custom-focus",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 50,
+        "top": 0,
+        "left": 0
+      },
+      "bg": "rgb(239, 241, 242)",
+      "bgImage": "",
+      "text": "This website was built on Wix. Create yours today. Get Started"
+    },
+    {
+      "i": 21,
+      "tag": "DIV",
+      "id": "",
+      "className": "FAeSJk",
+      "dataTestId": "bannerLogo",
+      "rect": {
+        "x": 437,
+        "y": 13,
+        "width": 69,
+        "height": 24,
+        "top": 13,
+        "left": 437
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 123,
+      "tag": "WOW-IMAGE",
+      "id": "img_comp-kiep11os",
+      "className": "jhxvbR Kv1aVt dLPlxY mNGsUM bgImage",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 46,
+        "width": 1440,
+        "height": 2200,
+        "top": 46,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 25,
+      "tag": "DIV",
+      "id": "pageBackground_nfh9v",
+      "className": "pageBackground_nfh9v BmZ5pC",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 26,
+      "tag": "DIV",
+      "id": "bgLayers_pageBackground_nfh9v",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 27,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 28,
+      "tag": "DIV",
+      "id": "bgMedia_pageBackground_nfh9v",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 29,
+      "tag": "DIV",
+      "id": "",
+      "className": "m4khSP",
+      "dataTestId": "bgOverlay",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 30,
+      "tag": "DIV",
+      "id": "site-root",
+      "className": "site-root",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landsca"
+    },
+    {
+      "i": 31,
+      "tag": "DIV",
+      "id": "masterPage",
+      "className": "mesh-layout masterPage css-editing-scope",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 4440,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landsca"
+    },
+    {
+      "i": 32,
+      "tag": "HEADER",
+      "id": "SITE_HEADER",
+      "className": "xU8fqS SITE_HEADER wixui-header",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 180,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 33,
+      "tag": "DIV",
+      "id": "",
+      "className": "_4XcTfy",
+      "dataTestId": "screenWidthContainerBg",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 180,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgb(12, 12, 12)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 34,
+      "tag": "DIV",
+      "id": "",
+      "className": "gUbusX",
+      "dataTestId": "screenWidthContainerBgCenter",
+      "rect": {
+        "x": 230,
+        "y": 50,
+        "width": 980,
+        "height": 180,
+        "top": 50,
+        "left": 230
+      },
+      "bg": "rgb(12, 12, 12)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 35,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 180,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 36,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "width": 1440,
+        "height": 180,
+        "top": 50,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112 Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 37,
+      "tag": "SECTION",
+      "id": "comp-kdrbxrqx",
+      "className": "comp-kdrbxrqx CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 1320,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112"
+    },
+    {
+      "i": 38,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kdrbxrqx",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 1320,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 39,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 1320,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 40,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kdrbxrqx",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 1320,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 41,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 1320,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112"
+    },
+    {
+      "i": 42,
+      "tag": "DIV",
+      "id": "comp-kdrbxrqy",
+      "className": "comp-kdrbxrqy YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112"
+    },
+    {
+      "i": 43,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kdrbxrqy",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 44,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 45,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kdrbxrqy",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 46,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 26,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112"
+    },
+    {
+      "i": 47,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "width": 475,
+        "height": 27,
+        "top": 80,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com (614) 687-1112"
+    },
+    {
+      "i": 50,
+      "tag": "DIV",
+      "id": "comp-kdrbxrqy3",
+      "className": "comp-kdrbxrqy3 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 51,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kdrbxrqy3",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 52,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 53,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kdrbxrqy3",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 54,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 55,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 535,
+        "y": 80,
+        "width": 845,
+        "height": 26,
+        "top": 80,
+        "left": 535
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 48,
+      "tag": "DIV",
+      "id": "comp-kdrbxrqy1",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kdrbxrqy1 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 80,
+        "y": 82,
+        "width": 222,
+        "height": 25,
+        "top": 82,
+        "left": 80
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "ranger.landscapingllc@gmail.com"
+    },
+    {
+      "i": 49,
+      "tag": "DIV",
+      "id": "comp-kdrbxrqy2",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kdrbxrqy2 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 322,
+        "y": 82,
+        "width": 91,
+        "height": 25,
+        "top": 82,
+        "left": 322
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "(614) 687-1112"
+    },
+    {
+      "i": 56,
+      "tag": "DIV",
+      "id": "comp-kdrbxrqy4",
+      "className": "comp-kdrbxrqy4 WzbAF8",
+      "dataTestId": "",
+      "rect": {
+        "x": 1310,
+        "y": 84,
+        "width": 50,
+        "height": 20,
+        "top": 84,
+        "left": 1310
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 64,
+      "tag": "SECTION",
+      "id": "comp-kc2ll0m8",
+      "className": "comp-kc2ll0m8 CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 1320,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 65,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ll0m8",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 1320,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 66,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 1320,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 67,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ll0m8",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 1320,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 68,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 1320,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 69,
+      "tag": "DIV",
+      "id": "comp-kc2ll0m81",
+      "className": "comp-kc2ll0m81 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience"
+    },
+    {
+      "i": 70,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ll0m81",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 71,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 72,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ll0m81",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 73,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience"
+    },
+    {
+      "i": 74,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 60,
+        "y": 119,
+        "width": 548,
+        "height": 81,
+        "top": 119,
+        "left": 60
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience"
+    },
+    {
+      "i": 80,
+      "tag": "DIV",
+      "id": "comp-kc2ll0m91",
+      "className": "comp-kc2ll0m91 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 81,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ll0m91",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 82,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 83,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ll0m91",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 84,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 85,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 608,
+        "y": 119,
+        "width": 772,
+        "height": 81,
+        "top": 119,
+        "left": 608
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More Pay Your Invoice"
+    },
+    {
+      "i": 75,
+      "tag": "DIV",
+      "id": "comp-kc2ll0m82",
+      "className": "MazNVa comp-kc2ll0m82 wixui-image rYiAuL",
+      "dataTestId": "",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 76,
+      "tag": "A",
+      "id": "",
+      "className": "j7pOnl",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 77,
+      "tag": "IMG",
+      "id": "img_comp-kc2ll0m82",
+      "className": "BI8PVQ Tj01hh",
+      "dataTestId": "",
+      "rect": {
+        "x": 80,
+        "y": 140,
+        "width": 60,
+        "height": 60,
+        "top": 140,
+        "left": 80
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 78,
+      "tag": "DIV",
+      "id": "comp-kc2ll0m83",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kc2ll0m83 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 155,
+        "y": 142,
+        "width": 224,
+        "height": 31,
+        "top": 142,
+        "left": 155
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC"
+    },
+    {
+      "i": 104,
+      "tag": "DIV",
+      "id": "comp-koyabp2t",
+      "className": "comp-koyabp2t FubTgk",
+      "dataTestId": "",
+      "rect": {
+        "x": 1207,
+        "y": 148,
+        "width": 153,
+        "height": 45,
+        "top": 148,
+        "left": 1207
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Pay Your Invoice"
+    },
+    {
+      "i": 105,
+      "tag": "A",
+      "id": "",
+      "className": "uDW_Qe wixui-button PlZyDq",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 1207,
+        "y": 148,
+        "width": 153,
+        "height": 45,
+        "top": 148,
+        "left": 1207
+      },
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "",
+      "text": "Pay Your Invoice"
+    },
+    {
+      "i": 86,
+      "tag": "WIX-DROPDOWN-MENU",
+      "id": "comp-kc2ll0ud",
+      "className": "XwCBRN NHM1d1 comp-kc2ll0ud wixui-dropdown-menu hidden-during-prewarmup",
+      "dataTestId": "",
+      "rect": {
+        "x": 900,
+        "y": 155,
+        "width": 293,
+        "height": 30,
+        "top": 155,
+        "left": 900
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More"
+    },
+    {
+      "i": 87,
+      "tag": "NAV",
+      "id": "comp-kc2ll0udnavContainer",
+      "className": "R_TAzU",
+      "dataTestId": "",
+      "rect": {
+        "x": 900,
+        "y": 155,
+        "width": 293,
+        "height": 30,
+        "top": 155,
+        "left": 900
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More"
+    },
+    {
+      "i": 88,
+      "tag": "UL",
+      "id": "comp-kc2ll0uditemsContainer",
+      "className": "y7qwii",
+      "dataTestId": "",
+      "rect": {
+        "x": 900,
+        "y": 155,
+        "width": 293,
+        "height": 30,
+        "top": 155,
+        "left": 900
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home Services More"
+    },
+    {
+      "i": 89,
+      "tag": "LI",
+      "id": "comp-kc2ll0ud0",
+      "className": "Tg1gOB wixui-dropdown-menu__item xTjc1A",
+      "dataTestId": "",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home"
+    },
+    {
+      "i": 90,
+      "tag": "A",
+      "id": "",
+      "className": "UiHgGh",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home"
+    },
+    {
+      "i": 91,
+      "tag": "P",
+      "id": "comp-kc2ll0ud0label",
+      "className": "JS76Uv",
+      "dataTestId": "",
+      "rect": {
+        "x": 1005,
+        "y": 155,
+        "width": 60,
+        "height": 30,
+        "top": 155,
+        "left": 1005
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home"
+    },
+    {
+      "i": 92,
+      "tag": "LI",
+      "id": "comp-kc2ll0ud1",
+      "className": "Tg1gOB wixui-dropdown-menu__item xTjc1A",
+      "dataTestId": "",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Services"
+    },
+    {
+      "i": 93,
+      "tag": "A",
+      "id": "",
+      "className": "UiHgGh",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Services"
+    },
+    {
+      "i": 94,
+      "tag": "P",
+      "id": "comp-kc2ll0ud1label",
+      "className": "JS76Uv",
+      "dataTestId": "",
+      "rect": {
+        "x": 1065,
+        "y": 155,
+        "width": 75,
+        "height": 30,
+        "top": 155,
+        "left": 1065
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Services"
+    },
+    {
+      "i": 98,
+      "tag": "LI",
+      "id": "comp-kc2ll0ud__more__",
+      "className": "p90CkU xTjc1A",
+      "dataTestId": "",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 53,
+        "height": 30,
+        "top": 155,
+        "left": 1140
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "More"
+    },
+    {
+      "i": 99,
+      "tag": "DIV",
+      "id": "",
+      "className": "UiHgGh",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 53,
+        "height": 30,
+        "top": 155,
+        "left": 1140
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "More"
+    },
+    {
+      "i": 100,
+      "tag": "P",
+      "id": "comp-kc2ll0ud__more__label",
+      "className": "JS76Uv",
+      "dataTestId": "",
+      "rect": {
+        "x": 1140,
+        "y": 155,
+        "width": 53,
+        "height": 30,
+        "top": 155,
+        "left": 1140
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "More"
+    },
+    {
+      "i": 79,
+      "tag": "DIV",
+      "id": "comp-kc2ll0m9",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kc2ll0m9 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 155,
+        "y": 170,
+        "width": 312,
+        "height": 28,
+        "top": 170,
+        "left": 155
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Excellent Service, Unforgettable Experience"
+    },
+    {
+      "i": 106,
+      "tag": "MAIN",
+      "id": "PAGES_CONTAINER",
+      "className": "PAGES_CONTAINER",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 107,
+      "tag": "DIV",
+      "id": "SITE_PAGES",
+      "className": "JsJXaX SITE_PAGES",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 108,
+      "tag": "DIV",
+      "id": "SITE_PAGES_TRANSITION_GROUP",
+      "className": "AnQkDU",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 109,
+      "tag": "DIV",
+      "id": "nfh9v",
+      "className": "dBAkHi theme-vars nfh9v",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 110,
+      "tag": "DIV",
+      "id": "",
+      "className": "PFkO7r wixui-page",
+      "dataTestId": "page-bg",
+      "rect": {
+        "x": 230,
+        "y": 230,
+        "width": 980,
+        "height": 4100,
+        "top": 230,
+        "left": 230
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 111,
+      "tag": "DIV",
+      "id": "Containernfh9v",
+      "className": "Containernfh9v SPY_vo",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 112,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 113,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 4100,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping. Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of yo"
+    },
+    {
+      "i": 114,
+      "tag": "SECTION",
+      "id": "comp-kiep11or",
+      "className": "comp-kiep11or CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone"
+    },
+    {
+      "i": 115,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kiep11or",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 116,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 117,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kiep11or",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 118,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone"
+    },
+    {
+      "i": 119,
+      "tag": "DIV",
+      "id": "comp-kiep11os",
+      "className": "comp-kiep11os YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone"
+    },
+    {
+      "i": 120,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kiep11os",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 121,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgb(12, 12, 12)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 124,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone"
+    },
+    {
+      "i": 125,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 980,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC Excellent Service, Unforgettable Experience Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us. Email Phone"
+    },
+    {
+      "i": 133,
+      "tag": "DIV",
+      "id": "adi_page1001_1_116",
+      "className": "Vd6aQZ ignore-focus adi_page1001_1_116",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 230,
+        "width": 1440,
+        "height": 21,
+        "top": 230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home: Welcome"
+    },
+    {
+      "i": 126,
+      "tag": "DIV",
+      "id": "comp-kiep1cuh",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kiep1cuh wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 310,
+        "y": 552,
+        "width": 820,
+        "height": 90,
+        "top": 552,
+        "left": 310
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC"
+    },
+    {
+      "i": 127,
+      "tag": "DIV",
+      "id": "comp-kiep1f5j",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kiep1f5j wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 310,
+        "y": 672,
+        "width": 820,
+        "height": 33,
+        "top": 672,
+        "left": 310
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Excellent Service, Unforgettable Experience"
+    },
+    {
+      "i": 128,
+      "tag": "DIV",
+      "id": "comp-kiep1h0h",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kiep1h0h wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 310,
+        "y": 737,
+        "width": 820,
+        "height": 56,
+        "top": 737,
+        "left": 310
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC provides high quality landscaping services to Central Ohio and the surrounding areas. Fair prices, superior quality and exceptional customer service are guaranteed when you work with us."
+    },
+    {
+      "i": 129,
+      "tag": "DIV",
+      "id": "comp-kiep1p1s",
+      "className": "comp-kiep1p1s FubTgk",
+      "dataTestId": "",
+      "rect": {
+        "x": 629,
+        "y": 846,
+        "width": 78,
+        "height": 45,
+        "top": 846,
+        "left": 629
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Email"
+    },
+    {
+      "i": 130,
+      "tag": "A",
+      "id": "",
+      "className": "uDW_Qe wixui-button PlZyDq",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 629,
+        "y": 846,
+        "width": 78,
+        "height": 45,
+        "top": 846,
+        "left": 629
+      },
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "",
+      "text": "Email"
+    },
+    {
+      "i": 131,
+      "tag": "DIV",
+      "id": "comp-kiep1p1s1",
+      "className": "comp-kiep1p1s1 FubTgk",
+      "dataTestId": "",
+      "rect": {
+        "x": 727,
+        "y": 846,
+        "width": 85,
+        "height": 45,
+        "top": 846,
+        "left": 727
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Phone"
+    },
+    {
+      "i": 132,
+      "tag": "A",
+      "id": "",
+      "className": "uDW_Qe wixui-button PlZyDq",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 727,
+        "y": 846,
+        "width": 85,
+        "height": 45,
+        "top": 846,
+        "left": 727
+      },
+      "bg": "rgba(12, 12, 12, 0)",
+      "bgImage": "",
+      "text": "Phone"
+    },
+    {
+      "i": 135,
+      "tag": "SECTION",
+      "id": "comp-kc2ljtk4",
+      "className": "comp-kc2ljtk4 CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 136,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ljtk4",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 137,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 138,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ljtk4",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 139,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 140,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk5",
+      "className": "comp-kc2ljtk5 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 141,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ljtk5",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 142,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgb(12, 12, 12)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 143,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ljtk5",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 144,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 145,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 620,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 168,
+      "tag": "DIV",
+      "id": "adi_page1001_1_117",
+      "className": "Vd6aQZ ignore-focus adi_page1001_1_117",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1210,
+        "width": 1440,
+        "height": 21,
+        "top": 1210,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home: About"
+    },
+    {
+      "i": 146,
+      "tag": "SECTION",
+      "id": "comp-kc2ljtk51",
+      "className": "comp-kc2ljtk51 CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 1440,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 147,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ljtk51",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 1440,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 148,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 1440,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 149,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ljtk51",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 1440,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 150,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 1440,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 151,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk52",
+      "className": "comp-kc2ljtk52 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 152,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ljtk52",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 153,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 154,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ljtk52",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 155,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 156,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 159,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk55",
+      "className": "comp-kc2ljtk55 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 160,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kc2ljtk55",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 161,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 162,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kc2ljtk55",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 163,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 164,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 690,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 165,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk6",
+      "className": "MazNVa comp-kc2ljtk6 wixui-image",
+      "dataTestId": "",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 460,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 166,
+      "tag": "DIV",
+      "id": "",
+      "className": "j7pOnl",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 460,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 167,
+      "tag": "IMG",
+      "id": "img_comp-kc2ljtk6",
+      "className": "BI8PVQ Tj01hh",
+      "dataTestId": "",
+      "rect": {
+        "x": 750,
+        "y": 1330,
+        "width": 460,
+        "height": 440,
+        "top": 1330,
+        "left": 750
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 157,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk53",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kc2ljtk53 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 230,
+        "y": 1437,
+        "width": 460,
+        "height": 54,
+        "top": 1437,
+        "left": 230
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "About Us"
+    },
+    {
+      "i": 158,
+      "tag": "DIV",
+      "id": "comp-kc2ljtk54",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-kc2ljtk54 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 230,
+        "y": 1518,
+        "width": 460,
+        "height": 141,
+        "top": 1518,
+        "left": 230
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC is passionate about providing excellent lawn care and landscaping services. Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping."
+    },
+    {
+      "i": 170,
+      "tag": "SECTION",
+      "id": "comp-k8q10xem",
+      "className": "comp-k8q10xem CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you. Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handl"
+    },
+    {
+      "i": 171,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 172,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 173,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 174,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you. Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handl"
+    },
+    {
+      "i": 175,
+      "tag": "DIV",
+      "id": "comp-k8q10xem1",
+      "className": "comp-k8q10xem1 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you. Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handl"
+    },
+    {
+      "i": 176,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem1",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 177,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgb(12, 12, 12)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 178,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem1",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 179,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you. Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handl"
+    },
+    {
+      "i": 180,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 1640,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services See what we offer. Services Get An Estimate Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you. Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handl"
+    },
+    {
+      "i": 229,
+      "tag": "DIV",
+      "id": "adi_page1001_1_118",
+      "className": "Vd6aQZ ignore-focus adi_page1001_1_118",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 1830,
+        "width": 1440,
+        "height": 21,
+        "top": 1830,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Home: Services"
+    },
+    {
+      "i": 181,
+      "tag": "DIV",
+      "id": "comp-k8q10xem2",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem2 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 250,
+        "y": 1890,
+        "width": 940,
+        "height": 54,
+        "top": 1890,
+        "left": 250
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Professional Services"
+    },
+    {
+      "i": 182,
+      "tag": "DIV",
+      "id": "comp-k8q10xem3",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem3 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 250,
+        "y": 1973,
+        "width": 940,
+        "height": 32,
+        "top": 1973,
+        "left": 250
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "See what we offer."
+    },
+    {
+      "i": 183,
+      "tag": "DIV",
+      "id": "comp-kdyp4yy1",
+      "className": "comp-kdyp4yy1 FubTgk",
+      "dataTestId": "",
+      "rect": {
+        "x": 585,
+        "y": 2061,
+        "width": 99,
+        "height": 45,
+        "top": 2061,
+        "left": 585
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Services"
+    },
+    {
+      "i": 184,
+      "tag": "A",
+      "id": "",
+      "className": "uDW_Qe wixui-button PlZyDq",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 585,
+        "y": 2061,
+        "width": 99,
+        "height": 45,
+        "top": 2061,
+        "left": 585
+      },
+      "bg": "rgb(255, 255, 255)",
+      "bgImage": "",
+      "text": "Services"
+    },
+    {
+      "i": 185,
+      "tag": "DIV",
+      "id": "comp-kelk7sq5",
+      "className": "comp-kelk7sq5 FubTgk",
+      "dataTestId": "",
+      "rect": {
+        "x": 704,
+        "y": 2061,
+        "width": 151,
+        "height": 45,
+        "top": 2061,
+        "left": 704
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Get An Estimate"
+    },
+    {
+      "i": 186,
+      "tag": "A",
+      "id": "",
+      "className": "uDW_Qe wixui-button PlZyDq",
+      "dataTestId": "linkElement",
+      "rect": {
+        "x": 704,
+        "y": 2061,
+        "width": 151,
+        "height": 45,
+        "top": 2061,
+        "left": 704
+      },
+      "bg": "rgba(12, 12, 12, 0)",
+      "bgImage": "",
+      "text": "Get An Estimate"
+    },
+    {
+      "i": 187,
+      "tag": "SECTION",
+      "id": "comp-k8q10xem4",
+      "className": "comp-k8q10xem4 CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 1440,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 188,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem4",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 1440,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 189,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 1440,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 190,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem4",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 1440,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 191,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 1440,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 192,
+      "tag": "DIV",
+      "id": "comp-k8q10xem5",
+      "className": "comp-k8q10xem5 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 193,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem5",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 194,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 195,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem5",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 196,
+      "tag": "WOW-IMAGE",
+      "id": "img_comp-k8q10xem5",
+      "className": "jhxvbR Kv1aVt dLPlxY mNGsUM bgImage",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 197,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 199,
+      "tag": "DIV",
+      "id": "comp-k8q10xem6",
+      "className": "comp-k8q10xem6 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 200,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem6",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 201,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgb(65, 69, 69)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 202,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem6",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 203,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 204,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 720,
+        "y": 2230,
+        "width": 720,
+        "height": 620,
+        "top": 2230,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services Let us handle the dirty work. Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 205,
+      "tag": "DIV",
+      "id": "comp-k8q10xem7",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem7 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 850,
+        "y": 2373,
+        "width": 460,
+        "height": 31,
+        "top": 2373,
+        "left": 850
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Residential Landscaping Services"
+    },
+    {
+      "i": 206,
+      "tag": "DIV",
+      "id": "comp-k8q10xem8",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem8 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 850,
+        "y": 2448,
+        "width": 460,
+        "height": 32,
+        "top": 2448,
+        "left": 850
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Let us handle the dirty work."
+    },
+    {
+      "i": 207,
+      "tag": "DIV",
+      "id": "comp-k8q10xem9",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem9 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 850,
+        "y": 2512,
+        "width": 460,
+        "height": 197,
+        "top": 2512,
+        "left": 850
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way. Whether it's a Mow, Trim, or even installing your brand new Mulch. We'll do everything we can to make sure you're satisfied. Contact us today to see how we can help you."
+    },
+    {
+      "i": 208,
+      "tag": "SECTION",
+      "id": "comp-k8q10xem10",
+      "className": "comp-k8q10xem10 CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 1440,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 209,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem10",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 1440,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 210,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 1440,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 211,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem10",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 1440,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 212,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 1440,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 213,
+      "tag": "DIV",
+      "id": "comp-k8q10xem11",
+      "className": "comp-k8q10xem11 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 214,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem11",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 215,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgb(65, 69, 69)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 216,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem11",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 217,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 218,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "mesh-container-content",
+      "rect": {
+        "x": 0,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping Let our business help yours. Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 222,
+      "tag": "DIV",
+      "id": "comp-k8q10xem15",
+      "className": "comp-k8q10xem15 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 223,
+      "tag": "DIV",
+      "id": "bgLayers_comp-k8q10xem15",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 224,
+      "tag": "DIV",
+      "id": "",
+      "className": "LWbAav Kv1aVt",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 225,
+      "tag": "DIV",
+      "id": "bgMedia_comp-k8q10xem15",
+      "className": "VgO9Yg",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 226,
+      "tag": "WOW-IMAGE",
+      "id": "img_comp-k8q10xem15",
+      "className": "jhxvbR Kv1aVt dLPlxY mNGsUM bgImage",
+      "dataTestId": "",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 227,
+      "tag": "DIV",
+      "id": "",
+      "className": "",
+      "dataTestId": "inline-content",
+      "rect": {
+        "x": 720,
+        "y": 2850,
+        "width": 720,
+        "height": 620,
+        "top": 2850,
+        "left": 720
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 219,
+      "tag": "DIV",
+      "id": "comp-k8q10xem12",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem12 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 130,
+        "y": 3020,
+        "width": 460,
+        "height": 31,
+        "top": 3020,
+        "left": 130
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Commercial Landscaping"
+    },
+    {
+      "i": 220,
+      "tag": "DIV",
+      "id": "comp-k8q10xem13",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem13 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 130,
+        "y": 3095,
+        "width": 460,
+        "height": 32,
+        "top": 3095,
+        "left": 130
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Let our business help yours."
+    },
+    {
+      "i": 221,
+      "tag": "DIV",
+      "id": "comp-k8q10xem14",
+      "className": "MMl86N zQ9jDz qvSjx3 Vq6kJx comp-k8q10xem14 wixui-rich-text",
+      "dataTestId": "richTextElement",
+      "rect": {
+        "x": 130,
+        "y": 3159,
+        "width": 460,
+        "height": 141,
+        "top": 3159,
+        "left": 130
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off of your hands. We'll make sure the outside of your business is taken care of while you handle the rest. Contact us today to start your partnership with us."
+    },
+    {
+      "i": 231,
+      "tag": "SECTION",
+      "id": "comp-kiepikkz",
+      "className": "comp-kiepikkz CohWsy wixui-column-strip",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry. Jake Hamby - Owner of Ranger Landscaping LLC"
+    },
+    {
+      "i": 232,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kiepikkz",
+      "className": "if7Vw2",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 233,
+      "tag": "DIV",
+      "id": "",
+      "className": "tcElKx i1tH8h",
+      "dataTestId": "colorUnderlay",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 234,
+      "tag": "DIV",
+      "id": "bgMedia_comp-kiepikkz",
+      "className": "wG8dni",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    },
+    {
+      "i": 235,
+      "tag": "DIV",
+      "id": "",
+      "className": "V5AUxf",
+      "dataTestId": "columns",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry. Jake Hamby - Owner of Ranger Landscaping LLC"
+    },
+    {
+      "i": 236,
+      "tag": "DIV",
+      "id": "comp-kiepikkz1",
+      "className": "comp-kiepikkz1 YzqVVZ wixui-column-strip__column",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": "Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business. With a strong focus on the client, Jake is passionate about bringing next level service to the industry. Jake Hamby - Owner of Ranger Landscaping LLC"
+    },
+    {
+      "i": 237,
+      "tag": "DIV",
+      "id": "bgLayers_comp-kiepikkz1",
+      "className": "MW5IWV",
+      "dataTestId": "",
+      "rect": {
+        "x": 0,
+        "y": 3470,
+        "width": 1440,
+        "height": 860,
+        "top": 3470,
+        "left": 0
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "",
+      "text": ""
+    }
+  ],
+  "htmlLang": "en",
+  "metaDescription": "",
+  "canonical": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+  "h1s": [
+    "Ranger Landscaping LLC"
+  ],
+  "h2s": [
+    "About Us",
+    "Professional Services",
+    "Jake Hamby - Owner of Ranger Landscaping LLC"
+  ],
+  "responses": [
+    {
+      "url": "https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_116,h_155,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_0ef3233c36c84774aade2f52bfd7b7fd~mv2.jpeg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_53f.jpeg",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_215ec7ec93894ca5b5a02fe0d45ea719~mv2.jpg/v1/fill/w_460,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_541_edited.jpg",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_49,h_37,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_123,h_163,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://frog.wix.com/panorama?src=11&evid=114700&sessionId=de6af36c-eeed-40a8-8751-11436cb08d44&platform=viewer&batchLength=100&batchSize=70202&batchItems=INFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+loadDynamicModel+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+load_renderer+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+tb_client+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+componentsLibraries+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+componentsLibraries+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+componentLoaders+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+componentLoaders+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+container_get_thunderbolt+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+container_get_thunderbolt+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+thunderbolt_ready+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+features_appWillMount+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+structureAPI_addShellStructure+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PageMountUnmount+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DynamicStructureContainer+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DivWithChildren+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+router_navigate+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+init_page+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+page_reflector+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+execute-thunderbolt-features+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+site-assets-thunderbolt-features+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+fetchClientCss+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+fetchClientCss+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+loadComponents-masterPage+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+appWillLoadPage_pageMountUnmountSubscriber+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+appWillLoadPage_pageTransitionsHandler+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+appWillLoadPage_platform+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+platform+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+ssrInternalCache-hit-thunderbolt-features+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+site-assets-thunderbolt-features+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+execute-thunderbolt-features+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+loadComponents-nfh9v+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PageMountUnmount+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DynamicStructureContainer+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DivWithChildren+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+structureAPI_addShellStructure+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WRichText+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_FiveGridLine_SolidLine+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_LinkBar_Classic+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WPhoto_NoSkinPhoto+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DropDownMenu_TextOnlyMenuButtonSkin+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_SiteButton_BasicButton+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_MasterPage+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_FooterContainer_DefaultScreen+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PagesContainer+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_HeaderContainer_DefaultScreen+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PageGroup+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_StripColumnsContainer_Default+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Column_DefaultColumn+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_BackgroundGroup+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_FreemiumBannerDesktop_FreemiumBannerDesktopNewLogo+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Anchor+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_SkipToContentButton+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Anchor+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WRichText+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_SiteButton_BasicButton+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WPhoto_NoSkinPhoto+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PageBackground+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Page_TransparentPageSkin+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_StripColumnsContainer_Default+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Column_DefaultColumn+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Group+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+page_reflector+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+appWillLoadPage_pageMountUnmountSubscriber+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+appWillLoadPage_pageTransitionsHandler+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+platform+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_pageWillMountPropsExtender+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_pageWillMountPropsExtender+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentWillMount+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentWillMount+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentIdsRegistryLoader+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentIdsRegistryLoader+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_PageReflector+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_pageWillMountPropsExtender+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_pageWillMountPropsExtender+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentWillMount+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentWillMount+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentIdsRegistryLoader+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_componentIdsRegistryLoader+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_seo-page+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_seo-page+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_triggersAndReactions+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_triggersAndReactions+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+pageWillMount_PageReflector+START%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WRichText+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_LinkBar_Classic+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_MasterPage+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PagesContainer+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_PageGroup+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_BackgroundGroup+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Anchor+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_Anchor+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WRichText+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_FiveGridLine_SolidLine+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_DropDownMenu_TextOnlyMenuButtonSkin+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_FreemiumBannerDesktop_FreemiumBannerDesktopNewLogo+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_StripColumnsContainer_Default+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_StripColumnsContainer_Default+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_SkipToContentButton+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_WPhoto_NoSkinPhoto+FINISH%2CINFO%7Ccom.wixpress.html-client.wix-thunderbolt%7Cthunderbolt%7CPanorama+Load_Component_Module%3A_SiteButton_BasicButton+FINISH&_=1778656093062",
+      "status": 200,
+      "contentType": "image/gif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_123,h_92,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_640,h_740,fp_0.46_0.48,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_1440,h_2200,fp_0.48_0.38,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png",
+      "status": 200,
+      "contentType": "image/avif",
+      "method": "GET",
+      "resourceType": "image"
+    }
+  ]
+}

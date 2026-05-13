@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-13-0200-nightly",
+  "batchJson": "opportunities/2026-05-13-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "intellipaint-llc",
+      "name": "Intellipaint LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/intellipaint-llc-audit.md",
+          "exists": true,
+          "size": 9810
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/intellipaint-llc-offer.md",
+          "exists": true,
+          "size": 1579
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/intellipaint-llc/index.html",
+          "exists": true,
+          "size": 28377
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/intellipaint-llc-target.png",
+          "exists": true,
+          "size": 1268547
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/intellipaint-llc-prototype.png",
+          "exists": true,
+          "size": 1137293
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.236,
+        "pixelSimilarity": 0.8201,
+        "edgeLayoutSimilarity": 0.7561,
+        "perceptualHashSimilarity": 0.5,
+        "weightedSimilarity": 0.6101
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/intellipaint-llc-source-assets.md"
+    },
+    {
+      "slug": "jr-contracting-handyman-services",
+      "name": "JR Contracting & Handyman Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/jr-contracting-handyman-services-audit.md",
+          "exists": true,
+          "size": 8154
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/jr-contracting-handyman-services-offer.md",
+          "exists": true,
+          "size": 1148
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/jr-contracting-handyman-services/index.html",
+          "exists": true,
+          "size": 18434
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/jr-contracting-handyman-services-target.png",
+          "exists": true,
+          "size": 1658085
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/jr-contracting-handyman-services-prototype.png",
+          "exists": true,
+          "size": 2574239
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9036,
+        "pixelSimilarity": 0.7851,
+        "edgeLayoutSimilarity": 0.6752,
+        "perceptualHashSimilarity": 0.6875,
+        "weightedSimilarity": 0.7726
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/jr-contracting-handyman-services-source-assets.md"
+    },
+    {
+      "slug": "portillo-home-improvement",
+      "name": "Portillo Home Improvement LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/portillo-home-improvement-audit.md",
+          "exists": true,
+          "size": 8002
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/portillo-home-improvement-offer.md",
+          "exists": true,
+          "size": 1476
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/portillo-home-improvement/index.html",
+          "exists": true,
+          "size": 20622
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/portillo-home-improvement-target.png",
+          "exists": true,
+          "size": 1175623
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/portillo-home-improvement-prototype.png",
+          "exists": true,
+          "size": 2160155
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.694,
+        "pixelSimilarity": 0.7399,
+        "edgeLayoutSimilarity": 0.7114,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.7275
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/portillo-home-improvement-source-assets.md"
+    },
+    {
+      "slug": "ranger-landscaping",
+      "name": "Ranger Landscaping LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/ranger-landscaping-audit.md",
+          "exists": true,
+          "size": 10930
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/ranger-landscaping-offer.md",
+          "exists": true,
+          "size": 1461
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/ranger-landscaping/index.html",
+          "exists": true,
+          "size": 21102
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/ranger-landscaping-target.png",
+          "exists": true,
+          "size": 3797888
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/ranger-landscaping-prototype.png",
+          "exists": true,
+          "size": 4591953
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5037,
+        "pixelSimilarity": 0.7539,
+        "edgeLayoutSimilarity": 0.722,
+        "perceptualHashSimilarity": 0.6094,
+        "weightedSimilarity": 0.6617
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/ranger-landscaping-source-assets.md"
+    },
+    {
+      "slug": "t-the-lawn-care",
+      "name": "T the Lawn Care, LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/t-the-lawn-care-audit.md",
+          "exists": true,
+          "size": 10871
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/t-the-lawn-care-offer.md",
+          "exists": true,
+          "size": 1308
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/t-the-lawn-care/index.html",
+          "exists": true,
+          "size": 30086
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/t-the-lawn-care-target.png",
+          "exists": true,
+          "size": 3234011
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/t-the-lawn-care-prototype.png",
+          "exists": true,
+          "size": 3201934
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7219,
+        "pixelSimilarity": 0.6431,
+        "edgeLayoutSimilarity": 0.6398,
+        "perceptualHashSimilarity": 0.5938,
+        "weightedSimilarity": 0.6546
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/t-the-lawn-care-source-assets.md"
+    },
+    {
+      "slug": "capps-lawn-landscaping",
+      "name": "Capps Lawn and Landscaping LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/capps-lawn-landscaping-audit.md",
+          "exists": true,
+          "size": 8990
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/capps-lawn-landscaping-offer.md",
+          "exists": true,
+          "size": 1711
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/capps-lawn-landscaping/index.html",
+          "exists": true,
+          "size": 19965
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/capps-lawn-landscaping-target.png",
+          "exists": true,
+          "size": 3069674
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/capps-lawn-landscaping-prototype.png",
+          "exists": true,
+          "size": 3180717
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.872,
+        "pixelSimilarity": 0.864,
+        "edgeLayoutSimilarity": 0.704,
+        "perceptualHashSimilarity": 0.9062,
+        "weightedSimilarity": 0.8323
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/capps-lawn-landscaping/capps-lawn-landscaping-source-assets.md"
+    },
+    {
+      "slug": "vsm-plumbing",
+      "name": "VSM Plumbing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/vsm-plumbing-audit.md",
+          "exists": true,
+          "size": 9695
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/vsm-plumbing-offer.md",
+          "exists": true,
+          "size": 1662
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/vsm-plumbing/index.html",
+          "exists": true,
+          "size": 20123
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/vsm-plumbing-target.png",
+          "exists": true,
+          "size": 2946902
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/vsm-plumbing-prototype.png",
+          "exists": true,
+          "size": 3599880
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5973,
+        "pixelSimilarity": 0.7836,
+        "edgeLayoutSimilarity": 0.7506,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.7401
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/vsm-plumbing-source-assets.md"
+    },
+    {
+      "slug": "pro-garden-landscaping",
+      "name": "Pro Garden Landscaping LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/pro-garden-landscaping-audit.md",
+          "exists": true,
+          "size": 7724
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/pro-garden-landscaping-offer.md",
+          "exists": true,
+          "size": 1284
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/pro-garden-landscaping/index.html",
+          "exists": true,
+          "size": 17358
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/pro-garden-landscaping-target.png",
+          "exists": true,
+          "size": 2703646
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/pro-garden-landscaping-prototype.png",
+          "exists": true,
+          "size": 2979648
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4243,
+        "pixelSimilarity": 0.6676,
+        "edgeLayoutSimilarity": 0.6765,
+        "perceptualHashSimilarity": 0.8438,
+        "weightedSimilarity": 0.6354
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/pro-garden-landscaping-source-assets.md"
+    },
+    {
+      "slug": "mint-cleaning-services",
+      "name": "Mint Cleaning Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/mint-cleaning-services-audit.md",
+          "exists": true,
+          "size": 10977
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/mint-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1703
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/mint-cleaning-services/index.html",
+          "exists": true,
+          "size": 21285
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/mint-cleaning-services-target.png",
+          "exists": true,
+          "size": 2373290
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/mint-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 2412535
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5292,
+        "pixelSimilarity": 0.6421,
+        "edgeLayoutSimilarity": 0.7447,
+        "perceptualHashSimilarity": 0.625,
+        "weightedSimilarity": 0.637
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/mint-cleaning-services-source-assets.md"
+    },
+    {
+      "slug": "hager-lawncare-landscaping",
+      "name": "Hager lawncare & landscaping LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-13-0200-nightly/hager-lawncare-landscaping-audit.md",
+          "exists": true,
+          "size": 9039
+        },
+        "offer": {
+          "path": "offers/2026-05-13-0200-nightly/hager-lawncare-landscaping-offer.md",
+          "exists": true,
+          "size": 2015
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-13-0200-nightly/hager-lawncare-landscaping/index.html",
+          "exists": true,
+          "size": 18364
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/hager-lawncare-landscaping-target.png",
+          "exists": true,
+          "size": 2225553
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-13-0200-nightly/hager-lawncare-landscaping-prototype.png",
+          "exists": true,
+          "size": 2197395
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.2899,
+        "pixelSimilarity": 0.7673,
+        "edgeLayoutSimilarity": 0.7193,
+        "perceptualHashSimilarity": 0.8281,
+        "weightedSimilarity": 0.6451
+      },
+      "sourceAssetsNote": "state/2026-05-13-0200-nightly/hager-lawncare-landscaping-source-assets.md"
+    }
+  ]
+}

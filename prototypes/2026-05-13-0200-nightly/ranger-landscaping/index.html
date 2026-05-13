@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ranger Landscaping LLC | Central Ohio Lawn Care, Mulch, Cleanups & Snow Removal</title>
+  <meta name="description" content="Ranger Landscaping LLC provides residential and commercial lawn care, mulch installation, fall cleanup, property cleanup and snow removal in Central Ohio and surrounding areas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --black:#070707;
+      --ink:#111111;
+      --charcoal:#1b1b1b;
+      --charcoal-2:#242424;
+      --line:rgba(255,255,255,.18);
+      --white:#ffffff;
+      --soft:#f0ece4;
+      --muted:#d9d6cf;
+      --blue:#182a38;
+      --green:#87a356;
+      --shadow:0 28px 70px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--black);color:var(--white);font-family:Raleway, Arial, Helvetica, sans-serif;line-height:1.6;font-size:15px}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .page{background:var(--black);overflow:hidden}
+    .contact-strip{background:#050505;border-bottom:1px solid rgba(255,255,255,.08);font-size:14px;color:var(--soft)}
+    .bar-inner{max-width:1280px;margin:0 auto;min-height:54px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .contact-left,.social{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+    .social img{width:20px;height:20px;opacity:.95}
+    .main-head{background:#0d0d0d;border-bottom:1px solid rgba(255,255,255,.1)}
+    .nav{max-width:1280px;margin:0 auto;min-height:118px;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:15px;min-width:360px}
+    .brand img{width:60px;height:60px;object-fit:contain}
+    .brand-title{font-family:"Cormorant Garamond", Georgia, serif;font-size:24px;line-height:1;font-weight:700;letter-spacing:.01em;color:#fff}
+    .brand-sub{margin-top:5px;color:var(--soft);font-size:14px}
+    .links{display:flex;align-items:center;justify-content:flex-end;gap:0;color:#fff;font-size:14px}
+    .links a{min-width:74px;padding:12px 13px;text-align:center;color:#fff}
+    .links a:hover{color:var(--soft);background:rgba(255,255,255,.06)}
+    .invoice{border:1px solid rgba(255,255,255,.42);margin-left:10px;min-width:136px!important;background:rgba(255,255,255,.04)}
+    .estimate-nav{margin-left:10px;min-width:148px!important;background:#fff!important;color:#0d0d0d!important;border:1px solid #fff;font-weight:700}
+    .hero{position:relative;min-height:790px;display:grid;place-items:center;text-align:center;background:linear-gradient(rgba(9,15,21,.58),rgba(9,13,17,.70)),url('https://static.wixstatic.com/media/b443d9_03afc158647c4a39844036346dacda17~mv2.png/v1/fill/w_1440,h_2200,fp_0.48_0.38,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_03afc158647c4a39844036346dacda17~mv2.png') center 37%/cover no-repeat;background-attachment:scroll}
+    .hero:after{content:"";position:absolute;inset:auto 0 0 0;height:210px;background:linear-gradient(rgba(7,7,7,0),#070707)}
+    .hero-inner{position:relative;z-index:1;max-width:900px;padding:120px 28px 100px}
+    .kicker{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:20px}
+    h1,h2,h3{font-family:"Cormorant Garamond", Georgia, 'Times New Roman', serif;margin:0;line-height:1.05;font-weight:600;color:#fff}
+    h1{font-size:clamp(54px,6vw,84px);letter-spacing:.01em;margin-bottom:24px;text-shadow:0 4px 24px rgba(0,0,0,.42)}
+    .tagline{font-size:21px;color:#fff;margin:0 auto 24px;font-style:italic}
+    .hero-copy{max-width:790px;margin:0 auto;color:#fff;font-size:17px;font-weight:600;text-shadow:0 2px 15px rgba(0,0,0,.44)}
+    .buttons{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:34px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:12px 22px;border:1px solid #fff;background:#fff;color:#111;font-weight:700;letter-spacing:.01em;min-width:145px;transition:.18s ease}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+    .btn.secondary{background:transparent;color:#fff;border-color:rgba(255,255,255,.75)}
+    .btn.dark{background:#111;color:#fff;border-color:#111}
+    .proof-line{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:30px auto 0;color:#fff;font-size:14px}
+    .proof-line span{border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.28);padding:8px 13px}
+    section{position:relative;padding:96px 40px;background:#070707}
+    .wrap{max-width:1120px;margin:0 auto}
+    .split{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+    .copy-block{padding:70px 70px;background:#070707;min-height:440px;display:flex;flex-direction:column;justify-content:center}
+    .copy-block h2{font-size:clamp(38px,4vw,52px);margin-bottom:24px}
+    .copy-block h3{font-size:28px;margin-bottom:28px}
+    .copy-block .lead{font-size:18px;color:#fff;margin:0 0 22px}
+    .copy-block p{color:var(--muted);margin:0 0 18px}
+    .copy-block ul{margin:18px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#f3f3f3}
+    .copy-block li:before{content:"•";color:var(--green);font-weight:700;margin-right:10px}
+    .about{padding-top:110px;padding-bottom:110px}
+    .about-card{background:#0b0b0b;border:1px solid var(--line);box-shadow:var(--shadow);min-height:470px;display:grid;place-items:center;padding:42px}
+    .about-card img{max-width:460px;width:100%;height:auto;object-fit:contain}
+    .mini-trust{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+    .mini-trust div{border:1px solid rgba(255,255,255,.16);background:#111;padding:16px;color:#fff;font-size:14px}
+    .mini-trust strong{display:block;font-size:18px;margin-bottom:3px;color:#fff;font-family:"Cormorant Garamond", Georgia, serif}
+    .services-intro{text-align:center;padding-top:88px;padding-bottom:92px;background:#0a0a0a;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+    .services-intro h2{font-size:52px;margin-bottom:18px}
+    .services-intro .sub{font-size:18px;color:var(--soft);margin:0 0 28px}
+    .service-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:34px auto 0;max-width:1080px;text-align:left}
+    .service-card{position:relative;min-height:180px;background:#1e1e1e;border:1px solid rgba(255,255,255,.16);overflow:hidden;padding:18px;display:flex;flex-direction:column;justify-content:flex-end}
+    .service-card:before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.78),rgba(0,0,0,.12)),var(--img) center/cover no-repeat;opacity:.86;transition:.25s ease}
+    .service-card:hover:before{transform:scale(1.04)}
+    .service-card h3,.service-card p{position:relative;z-index:1}
+    .service-card h3{font-family:Raleway, Arial, sans-serif;font-size:15px;line-height:1.3;margin:0 0 6px;font-weight:700;color:#fff}
+    .service-card p{margin:0;color:#eee;font-size:12px;line-height:1.45}
+    .photo-panel{min-height:620px;background:center/cover no-repeat;position:relative}
+    .photo-panel:after{content:"";position:absolute;inset:0;border:1px solid rgba(255,255,255,.09);pointer-events:none}
+    .residential{padding:0;background:#070707}.residential .copy-block{background:#242424}.residential .photo-panel{background-image:url('https://static.wixstatic.com/media/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_42ab6af3974e4029942cd55dd1b11b6d~mv2.png')}
+    .commercial{padding:0;background:#070707}.commercial .copy-block{background:#151515}.commercial .photo-panel{background-image:url('https://static.wixstatic.com/media/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png/v1/fill/w_720,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_d4b54cd445a640e5aed775cb3ff777a3~mv2.png');transform:rotate(180deg)}
+    .commercial .photo-panel:after{transform:rotate(180deg)}
+    .owner{padding:0;background:#070707}.owner .copy-block{background:#202020}.owner .photo-panel{min-height:700px;background-image:url('https://static.wixstatic.com/media/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png/v1/fill/w_640,h_740,fp_0.46_0.48,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_0984c6345acc453f8170d99b5b6bd686~mv2.png')}
+    .estimate-band{background:#0b0b0b;text-align:center;padding:78px 30px;border-top:1px solid rgba(255,255,255,.08)}
+    .estimate-band h2{font-size:46px;margin-bottom:15px}.estimate-band p{max-width:680px;margin:0 auto 26px;color:var(--muted);font-size:17px}.estimate-band .buttons{margin-top:24px}
+    footer{background:#060606;text-align:center;padding:50px 24px 36px;color:#ccc;border-top:1px solid rgba(255,255,255,.09)}
+    footer .phone{font-size:18px;color:#fff;margin-bottom:18px}footer .email{margin-bottom:22px;color:#fff}footer .copyright{font-size:14px;color:#aaa}
+    @media (max-width:980px){.bar-inner,.nav{padding-left:24px;padding-right:24px}.nav{min-height:auto;align-items:flex-start}.brand{min-width:auto}.links{display:none}.estimate-nav{display:inline-flex}.hero{min-height:690px}.split{grid-template-columns:1fr}.copy-block{padding:58px 28px;min-height:auto}.about-card{min-height:auto}.photo-panel{min-height:380px}.commercial .split .copy-block{order:2}.commercial .split .photo-panel{order:1}.service-cards{grid-template-columns:repeat(2,1fr)}.mini-trust{grid-template-columns:1fr}.owner .photo-panel{min-height:520px}}
+    @media (max-width:620px){.contact-left{gap:10px;font-size:12px}.social{display:none}.bar-inner{justify-content:center;text-align:center}.brand img{width:48px;height:48px}.brand-title{font-size:20px}.brand-sub{font-size:12px}.nav{padding:16px 18px}.hero-inner{padding:86px 18px 70px}h1{font-size:48px}.tagline{font-size:18px}.buttons{gap:12px}.btn{width:100%;max-width:300px}.service-cards{grid-template-columns:1fr}section{padding-left:22px;padding-right:22px}.photo-panel{min-height:300px}.owner .photo-panel{min-height:380px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="contact-strip">
+      <div class="bar-inner">
+        <div class="contact-left">
+          <a href="mailto:ranger.landscapingllc@gmail.com">ranger.landscapingllc@gmail.com</a>
+          <a href="tel:+16146871112">(614) 687-1112</a>
+        </div>
+        <div class="social" aria-label="Social links">
+          <a href="https://twitter.com/RangerLandscape" aria-label="Twitter"><img src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png" alt="Twitter"></a>
+          <a href="https://www.facebook.com/RangerLandscapingLLC/?ref=aymt_homepage_panel&amp;eid=ARDKhj44nupv057hHDJolhIX-CN9P_JpZpVxWaE_rz-vR1tarKZFe3z4U3ShIbOhJhFb1GdfzljiAg30" aria-label="Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+    </div>
+
+    <header class="main-head">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#home">
+          <img src="https://static.wixstatic.com/media/b443d9_0ef3233c36c84774aade2f52bfd7b7fd~mv2.jpeg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_53f.jpeg" alt="Ranger Landscaping logo mark">
+          <span>
+            <span class="brand-title">Ranger Landscaping LLC</span>
+            <span class="brand-sub">Excellent Service, Unforgettable Experience</span>
+          </span>
+        </a>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#owner">More</a>
+          <a class="invoice" href="https://www.yardbook.com/152524/pay_now">Pay Your Invoice</a>
+          <a class="estimate-nav" href="mailto:ranger.landscapingllc@gmail.com?subject=Personalized%20Estimate%20Request">Get An Estimate</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Ranger Landscaping LLC Central Ohio landscaping">
+        <div class="hero-inner">
+          <div class="kicker">Central Ohio lawn care and landscaping</div>
+          <h1>Ranger Landscaping LLC</h1>
+          <p class="tagline">Excellent Service, Unforgettable Experience</p>
+          <p class="hero-copy">High quality residential and commercial lawn care, mulch installation, seasonal cleanups, property cleanup and snow removal for Central Ohio and the surrounding areas.</p>
+          <div class="buttons">
+            <a class="btn" href="tel:+16146871112">Call or Text (614) 687-1112</a>
+            <a class="btn secondary" href="mailto:ranger.landscapingllc@gmail.com?subject=Personalized%20Estimate%20Request">Email for an Estimate</a>
+          </div>
+          <div class="proof-line" aria-label="Quick trust details">
+            <span>Personalized estimates</span>
+            <span>Residential and commercial</span>
+            <span>Weekly lawn visits from $45</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" aria-label="About Ranger Landscaping LLC">
+        <div class="wrap split">
+          <div class="copy-block">
+            <h2>About Us</h2>
+            <p class="lead">Ranger Landscaping LLC is passionate about excellent lawn care and landscaping service.</p>
+            <p>Conceived with the idea of building client relationships through strong service connections, Ranger Landscaping LLC is on the forefront of client-centered landscaping.</p>
+            <div class="mini-trust">
+              <div><strong>Easy to reach</strong>Call, text or email for the next step.</div>
+              <div><strong>Local focus</strong>Serving Central Ohio and surrounding areas.</div>
+              <div><strong>Clear scope</strong>Personalized estimate before the work begins.</div>
+            </div>
+          </div>
+          <div class="about-card">
+            <img src="https://static.wixstatic.com/media/b443d9_215ec7ec93894ca5b5a02fe0d45ea719~mv2.jpg/v1/fill/w_460,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fullsizeoutput_541_edited.jpg" alt="Ranger Landscaping wordmark">
+          </div>
+        </div>
+      </section>
+
+      <section class="services-intro" id="services" aria-label="Professional services">
+        <div class="wrap">
+          <h2>Professional Services</h2>
+          <p class="sub">See what we offer, then call or email to get a personalized estimate.</p>
+          <div class="buttons">
+            <a class="btn" href="https://rangerlandscapingl.wixsite.com/rangerlandscapingllc/services">Services</a>
+            <a class="btn secondary" href="mailto:ranger.landscapingllc@gmail.com?subject=Personalized%20Estimate%20Request">Get An Estimate</a>
+          </div>
+          <div class="service-cards" aria-label="Common services">
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/b443d9_ce36ecb75dd44b259c0d1d5810adc707~mv2.jpg/v1/fill/w_640,h_540,fp_0.34_0.24,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_ce36ecb75dd44b259c0d1d5810adc707~mv2.jpg')"><h3>Lawn Care</h3><p>Mowing, trimming, edging, weekly or one-time visits.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/b443d9_3700845c9b2848b7be7b63cabb1ed0f1~mv2.jpg/v1/fill/w_640,h_480,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b443d9_3700845c9b2848b7be7b63cabb1ed0f1~mv2.jpg')"><h3>Mulch Installation</h3><p>Pickup, delivery, spreading and installation.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/abb585d54407424896ce437e74cc264a.jpg/v1/fill/w_640,h_520,fp_0.48_0.29,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abb585d54407424896ce437e74cc264a.jpg')"><h3>Fall Cleanup</h3><p>Leaf cleanup before the snow arrives.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/656345a4b3cc41e98c007cebf2a8a0e4.jpg/v1/fill/w_640,h_520,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/656345a4b3cc41e98c007cebf2a8a0e4.jpg')"><h3>Snow Removal</h3><p>Driveway and sidewalk clearing in winter.</p></article>
+            <article class="service-card" style="--img:url('https://static.wixstatic.com/media/4135596768f64592b15122ed26b8775e.jpg/v1/fill/w_640,h_520,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4135596768f64592b15122ed26b8775e.jpg')"><h3>Property Cleanup</h3><p>Debris, sticks, leaves and bed cleanup.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="residential" aria-label="Residential landscaping services">
+        <div class="split">
+          <div class="photo-panel" role="img" aria-label="Lawn care image from Ranger Landscaping site"></div>
+          <div class="copy-block">
+            <h3>Residential Landscaping Services</h3>
+            <p class="lead">Let us handle the dirty work.</p>
+            <p>Ranger Landscaping LLC is committed to getting the job done, especially when it comes to taking care of your yard. You can count on us to be professional, timely, efficient and make sure you're satisfied every step of the way.</p>
+            <ul>
+              <li>Mow, trim and landscape edging</li>
+              <li>Mulch installation and seasonal cleanup</li>
+              <li>Weekly or one-time visits, with weekly visits starting at $45/week</li>
+            </ul>
+            <div class="buttons" style="justify-content:flex-start;margin-top:28px">
+              <a class="btn" href="tel:+16146871112">Call About My Yard</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="commercial" aria-label="Commercial landscaping">
+        <div class="split">
+          <div class="copy-block">
+            <h3>Commercial Landscaping</h3>
+            <p class="lead">Let our business help yours.</p>
+            <p>Ranger Landscaping LLC understands that there's a lot that goes into running a business. Let us take the landscaping troubles off your hands so the outside of your business stays taken care of while you handle the rest.</p>
+            <ul>
+              <li>Routine outside appearance care</li>
+              <li>Seasonal cleanup and property refreshes</li>
+              <li>A simple call, text or email to start the partnership</li>
+            </ul>
+            <div class="buttons" style="justify-content:flex-start;margin-top:28px">
+              <a class="btn secondary" href="mailto:ranger.landscapingllc@gmail.com?subject=Commercial%20Landscaping%20Estimate">Request Commercial Estimate</a>
+            </div>
+          </div>
+          <div class="photo-panel" role="img" aria-label="Landscape image from Ranger Landscaping site, corrected upright"></div>
+        </div>
+      </section>
+
+      <section class="owner" id="owner" aria-label="Owner message">
+        <div class="split">
+          <div class="copy-block">
+            <p class="lead" style="font-family:'Cormorant Garamond', Georgia, serif;font-size:28px;line-height:1.25">Jake Hamby founded Ranger Landscaping LLC off the idea that landscaping can be a relationship-based business.</p>
+            <p>With a strong focus on the client, Jake is passionate about bringing next level service to the industry.</p>
+            <h2 style="font-family:Raleway, Arial, sans-serif;font-size:18px;font-weight:500;margin-top:16px">Jake Hamby - Owner of Ranger Landscaping LLC</h2>
+          </div>
+          <div class="photo-panel" role="img" aria-label="Jake Hamby owner photo"></div>
+        </div>
+      </section>
+
+      <section class="estimate-band" aria-label="Get a personalized estimate">
+        <div class="wrap">
+          <h2>Get A Personalized Estimate</h2>
+          <p>Reach out by call, text or email to get in touch with somebody who can assist you with a personalized estimate. Ranger Landscaping looks forward to hearing from you.</p>
+          <div class="buttons">
+            <a class="btn" href="tel:+16146871112">Phone</a>
+            <a class="btn secondary" href="mailto:ranger.landscapingllc@gmail.com?subject=Personalized%20Estimate%20Request">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="phone"><a href="tel:+16146871112">(614) 687-1112</a></div>
+      <div class="email"><a href="mailto:ranger.landscapingllc@gmail.com">ranger.landscapingllc@gmail.com</a></div>
+      <div class="copyright">©2026 by Ranger Landscaping LLC.</div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "batch": "2026-05-13-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-13T02:00:00-05:00",
+  "curationNotes": "Curated from live indexed Wix small-business sites found in the 2026-05-13 2:00 AM run. Search review stayed under the 25-site cap; selected 10 high-fit local-service opportunities with direct contact info and visible conversion cleanup needs. Prototypes must be GPT-5.5-authored one site per isolated sub-agent, no generic generator.",
+  "items": [
+    {
+      "slug": "intellipaint-llc",
+      "name": "Intellipaint LLC",
+      "url": "https://russellhall2696.wixsite.com/intellipaint-llc",
+      "contact": "mailto:intellipaint2696@gmail.com",
+      "phone": "tel:615-971-9905",
+      "location": "Middle Tennessee / Murfreesboro, TN",
+      "vertical": "residential painting and cabinet refinishing",
+      "summary": "Licensed/insured painter with real services and contact flow, but the homepage has long generic copy, repeated service blocks, and a weak quote path.",
+      "angle": "Keep the painter/craftsmanship feel and real project imagery while tightening service hierarchy, quote CTA, trust cues, and contact form expectations.",
+      "priority": "A"
+    },
+    {
+      "slug": "jr-contracting-handyman-services",
+      "name": "JR Contracting & Handyman Services LLC",
+      "url": "https://mercury1250.wixsite.com/website",
+      "contact": "mailto:mercury1250@gmail.com",
+      "phone": "tel:360-600-4972",
+      "location": "Vancouver, WA",
+      "vertical": "contracting and handyman services",
+      "summary": "Simple Wix contractor site has clear contact info and service categories, but it reads generic and does not convert from the first screen.",
+      "angle": "Preserve the compact contractor layout while sharpening the hero, service explanations, proof, and a faster quote/contact route.",
+      "priority": "A-"
+    },
+    {
+      "slug": "portillo-home-improvement",
+      "name": "Portillo Home Improvement LLC",
+      "url": "https://portillollc.wixsite.com/homeimprovementllc",
+      "contact": "mailto:portillohomeimprovementllc@gmail.com",
+      "phone": "",
+      "location": "Maryland / Washington DC / Virginia",
+      "vertical": "home improvement and remodeling",
+      "summary": "The site has real geography, email, and project-photo energy, but the page is sparse and relies on a broad mission statement instead of a conversion path.",
+      "angle": "Keep the minimal photo-forward presentation while adding clearer project types, estimate CTA, trust/service-area cues, and a more useful contact section.",
+      "priority": "A-"
+    },
+    {
+      "slug": "ranger-landscaping",
+      "name": "Ranger Landscaping LLC",
+      "url": "https://rangerlandscapingl.wixsite.com/rangerlandscapingllc",
+      "contact": "mailto:ranger.landscapingllc@gmail.com",
+      "phone": "tel:614-687-1112",
+      "location": "Central Ohio / Columbus, OH",
+      "vertical": "landscaping and lawn care",
+      "summary": "Landscaper has a strong local story, owner mention, services, and estimate intent, but the page can better prioritize seasonal requests and trust proof.",
+      "angle": "Retain the friendly green landscaping style while clarifying residential/commercial services, estimate steps, service area, and owner-led credibility.",
+      "priority": "A"
+    },
+    {
+      "slug": "t-the-lawn-care",
+      "name": "T the Lawn Care, LLC",
+      "url": "https://tthelawncare.wixsite.com/mysite",
+      "contact": "mailto:TtheLawnCare@gmail.com",
+      "phone": "tel:754-205-2190",
+      "location": "Pompano Beach / Broward County, FL",
+      "vertical": "lawn care and landscaping",
+      "summary": "The site has real local service positioning and a free quote CTA, but the above-fold hierarchy and service proof are thin.",
+      "angle": "Keep the full-service lawn-care feel while making the free quote path, services, service area, and latest-work proof more obvious.",
+      "priority": "A-"
+    },
+    {
+      "slug": "capps-lawn-landscaping",
+      "name": "Capps Lawn and Landscaping LLC",
+      "url": "https://cappsc40.wixsite.com/my-site-3",
+      "contact": "mailto:Cappsc40@gmail.com",
+      "phone": "tel:850-624-3064",
+      "location": "Bay County, FL",
+      "vertical": "lawn care, landscaping, and irrigation",
+      "summary": "Local lawn/landscaping site has a clear owner-local angle, services, testimonial, and contact form, but it needs stronger quote framing and service detail.",
+      "angle": "Preserve the simple grass/garden aesthetic while improving hero clarity, service cards, testimonial placement, and contact conversion.",
+      "priority": "A-"
+    },
+    {
+      "slug": "vsm-plumbing",
+      "name": "VSM Plumbing LLC",
+      "url": "https://vsmplumbingllc.wixsite.com/vsmplumbingllc",
+      "contact": "mailto:vsmplumbingllc@gmail.com",
+      "phone": "tel:703-388-6278",
+      "location": "Hamilton / Northern Virginia",
+      "vertical": "plumbing services",
+      "summary": "Plumbing site lists useful services and 24/7 phone support, but the hero and testimonial areas still show generic Wix-style filler.",
+      "angle": "Keep the dependable-plumber layout while replacing generic/filler trust elements with emergency/service paths, family-business proof, and one clear call flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "pro-garden-landscaping",
+      "name": "Pro Garden Landscaping LLC",
+      "url": "https://progardenlandscapi.wixsite.com/progardenlandscaping",
+      "contact": "mailto:progardenlandscapingllc@gmail.com",
+      "phone": "tel:815-271-1022",
+      "location": "Harvard / McHenry County, IL",
+      "vertical": "landscaping, lawn care, hardscape, and drainage",
+      "summary": "Strong service list and free-estimate language, but the page can organize high-value landscaping work and guide prospects to request details faster.",
+      "angle": "Keep the professional green landscaping page while grouping services by buyer need, reinforcing local trust, and tightening the estimate form section.",
+      "priority": "A"
+    },
+    {
+      "slug": "mint-cleaning-services",
+      "name": "Mint Cleaning Services LLC",
+      "url": "https://ymmintcleaningsvc.wixsite.com/mintcleaningservices",
+      "contact": "mailto:ym.mintcleaningsvc@gmail.com",
+      "phone": "tel:505-226-2522",
+      "location": "New Mexico",
+      "vertical": "residential cleaning services",
+      "summary": "Cleaning site has strong differentiators, Spanish-friendly note, veteran-owned positioning, reviews, and a quote form, but needs a cleaner conversion hierarchy.",
+      "angle": "Preserve the friendly cleaning-service look while bringing reviews, bilingual/veteran trust, services, and quote CTA into a tighter first-page flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "hager-lawncare-landscaping",
+      "name": "Hager lawncare & landscaping LLC",
+      "url": "https://jaredhager15.wixsite.com/hagerlawncarelandsca",
+      "contact": "mailto:hagerlawncare@gmail.com",
+      "phone": "tel:304-601-2623",
+      "location": "Danville, WV",
+      "vertical": "lawn care, landscaping, tree trimming, and seasonal services",
+      "summary": "Local lawn-care business has service area, phone, and seasonal services, but the site is sparse and can better sell residential/commercial maintenance requests.",
+      "angle": "Keep the small-town lawn-care feel while clarifying the core services, free-estimate CTA, service area, and simple next steps.",
+      "priority": "A-"
+    }
+  ]
+}

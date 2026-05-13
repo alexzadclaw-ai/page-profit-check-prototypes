@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pro Garden Landscaping LLC | Free Estimates</title>
+  <meta name="description" content="Pro Garden Landscaping LLC provides lawn care, clean ups, mulch, sod, patios, retaining walls, pruning, and drainage help in Harvard, McHenry County, Illinois. Call for a free estimate." />
+  <style>
+    :root {
+      --black: #050505;
+      --soft-black: #0e0e0e;
+      --white: #ffffff;
+      --paper: #f7f6f1;
+      --nav: #f0f0f0;
+      --beige: #d8cab8;
+      --tan: #cdbda7;
+      --green: #3f5e36;
+      --line: #d9d6ce;
+      --text: #111111;
+      --muted: #626262;
+      --site-width: 940px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Futura, "Trebuchet MS", Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    .site-shell { overflow: hidden; }
+    .container { width: min(var(--site-width), calc(100% - 40px)); margin: 0 auto; }
+
+    .top-header {
+      background: var(--white);
+      min-height: 145px;
+      display: flex;
+      align-items: center;
+    }
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .brand-logo {
+      width: 109px;
+      height: 80px;
+      object-fit: cover;
+    }
+    .brand-name {
+      font-size: 22px;
+      line-height: 1.3;
+      letter-spacing: .01em;
+      font-weight: 400;
+    }
+
+    .nav-strip {
+      background: var(--nav);
+      min-height: 54px;
+      font-size: 15px;
+    }
+    .nav-row {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+    .nav-left,
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+    .nav-left a {
+      padding: 14px 18px;
+      min-height: 54px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .nav-left a:first-child { padding-left: 0; }
+    .nav-left a.active { color: var(--green); }
+    .nav-right { gap: 22px; color: #111; }
+    .nav-right .phone { font-weight: 600; white-space: nowrap; }
+    .facebook-icon { width: 20px; height: 20px; object-fit: contain; }
+
+    .hero {
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 112px 0 92px;
+    }
+    .hero-photo {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      object-position: center;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: clamp(46px, 5vw, 72px);
+      line-height: 1.12;
+      font-weight: 400;
+      margin: 54px auto 10px;
+      letter-spacing: .01em;
+    }
+    .script {
+      font-family: "Brush Script MT", "Segoe Script", cursive;
+      font-size: clamp(28px, 3vw, 40px);
+      line-height: 1.25;
+      font-weight: 400;
+      margin: 4px 0 14px;
+    }
+    .hero-copy {
+      max-width: 710px;
+      margin: 0 auto;
+      color: #efefef;
+      font-size: 17px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 34px;
+    }
+    .button {
+      min-width: 155px;
+      height: 46px;
+      border: 1px solid var(--white);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 22px;
+      font-size: 15px;
+      background: var(--white);
+      color: var(--black);
+      transition: .15s ease;
+    }
+    .button:hover { transform: translateY(-1px); background: #f4f4f4; }
+    .button.outline { background: transparent; color: var(--white); }
+    .button.outline:hover { background: rgba(255,255,255,.1); }
+
+    .about {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(420px, 590px);
+      align-items: stretch;
+      background: var(--white);
+    }
+    .about-image img { width: 100%; height: 680px; object-fit: cover; object-position: center; }
+    .about-panel {
+      background: var(--beige);
+      display: flex;
+      align-items: center;
+      min-height: 680px;
+      padding: 72px 80px;
+    }
+    .section-kicker {
+      margin: 0 0 10px;
+      font-size: 15px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #4a4a4a;
+    }
+    h2 {
+      font-size: clamp(32px, 3vw, 40px);
+      line-height: 1.35;
+      font-weight: 400;
+      margin: 0 0 22px;
+    }
+    .about-panel p,
+    .services-intro,
+    .contact-copy p { margin: 0 0 14px; }
+    .trust-line {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .trust-line span {
+      border: 1px solid rgba(0,0,0,.18);
+      background: rgba(255,255,255,.25);
+      padding: 7px 12px;
+      font-size: 13px;
+      letter-spacing: .03em;
+    }
+
+    .services {
+      background: var(--white);
+      padding: 112px 0 122px;
+      text-align: center;
+    }
+    .services h2 { margin-bottom: 12px; }
+    .services-intro { max-width: 640px; margin: 0 auto 58px; color: #222; }
+    .service-list {
+      text-align: left;
+      max-width: 760px;
+      margin: 0 auto;
+      border-top: 1px solid var(--line);
+    }
+    .service-item {
+      padding: 22px 0 20px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 295px 1fr;
+      gap: 34px;
+      align-items: start;
+    }
+    .service-item h3 {
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 400;
+      margin: 0;
+    }
+    .service-item p {
+      margin: 1px 0 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    .services .button { margin-top: 42px; border-color: var(--black); }
+
+    .contact {
+      background: var(--black);
+      color: var(--white);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(420px, 640px);
+      min-height: 1086px;
+    }
+    .contact-photo img { width: 100%; height: 1086px; object-fit: cover; object-position: center; }
+    .contact-panel {
+      padding: 112px 80px 84px;
+      display: flex;
+      align-items: flex-start;
+    }
+    .contact-panel-inner { width: min(460px, 100%); }
+    .contact h2 { color: var(--white); margin-bottom: 18px; }
+    .contact-copy { color: #e8e8e8; }
+    .contact-details {
+      margin: 28px 0 38px;
+      color: #f6f6f6;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+    .contact-details a { text-decoration: underline; text-underline-offset: 4px; }
+    .form-preview { margin-top: 24px; }
+    .field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .field {
+      border: 0;
+      border-bottom: 1px solid rgba(255,255,255,.76);
+      padding: 15px 0 12px;
+      color: rgba(255,255,255,.84);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+    .field.full { grid-column: 1 / -1; }
+    .submit-row { margin-top: 26px; }
+    .contact .button { width: 160px; }
+
+    .footer-main {
+      background: var(--white);
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+    }
+    .footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .footer-title { font-size: 22px; line-height: 1.3; }
+    .footer-contact { font-family: Arial, Helvetica, sans-serif; line-height: 1.8; }
+    .footer-bar {
+      background: #eee;
+      color: #555;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      text-align: center;
+      padding: 18px 20px;
+    }
+    @media (max-width: 900px) {
+      .top-header { min-height: 120px; }
+      .nav-row { align-items: flex-start; padding: 12px 0; }
+      .nav-left a { min-height: 0; padding: 8px 14px; }
+      .nav-right { width: 100%; gap: 12px; font-size: 14px; }
+      .hero { padding: 54px 0 64px; }
+      .hero-photo { height: 56vw; min-height: 260px; }
+      .about, .contact { grid-template-columns: 1fr; }
+      .about-image img, .contact-photo img { height: 520px; }
+      .about-panel, .contact-panel { min-height: auto; padding: 54px 34px; }
+      .contact { min-height: 0; }
+      .service-item { grid-template-columns: 1fr; gap: 6px; }
+      .field-row { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 560px) {
+      .container { width: min(var(--site-width), calc(100% - 28px)); }
+      .brand-row { gap: 12px; }
+      .brand-logo { width: 82px; height: 60px; }
+      .brand-name { font-size: 19px; }
+      .nav-row { gap: 8px; }
+      .nav-right { flex-direction: column; align-items: flex-start; }
+      .hero-copy { font-size: 16px; }
+      h1 { margin-top: 34px; }
+      .cta-row { gap: 12px; }
+      .button { width: 100%; }
+      .about-image img, .contact-photo img { height: 360px; }
+      .about-panel, .contact-panel { padding: 42px 22px; }
+      .services { padding: 70px 0; }
+      .footer-main { padding: 30px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="top-header">
+      <div class="container brand-row">
+        <a href="#home" aria-label="Pro Garden Landscaping LLC home"><img class="brand-logo" src="https://static.wixstatic.com/media/be3fe1_429deccc8796477286bf24e575577c79~mv2.jpeg/v1/fill/w_109,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpeg" alt="Pro Garden Landscaping LLC logo" /></a>
+        <a class="brand-name" href="#home">Pro Garden Landscaping LLC</a>
+      </div>
+    </header>
+
+    <nav class="nav-strip" aria-label="Main navigation">
+      <div class="container nav-row">
+        <div class="nav-left">
+          <a class="active" href="#home">Home</a>
+          <a href="#contact">Book Online</a>
+        </div>
+        <div class="nav-right">
+          <a href="mailto:progardenlandscapingllc@gmail.com">progardenlandscapingllc@gmail.com</a>
+          <a class="phone" href="tel:18152711022">(815) 271-1022</a>
+          <a href="https://m.facebook.com/progardenlandscapingllc/?" aria-label="Facebook"><img class="facebook-icon" src="https://static.wixstatic.com/media/d3ee8f_a21cd4b9e8c0499fb0a2f235b6b6d9b0~mv2.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d3ee8f_a21cd4b9e8c0499fb0a2f235b6b6d9b0~mv2.png" alt="Facebook" /></a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <img class="hero-photo" src="https://static.wixstatic.com/media/be3fe1_390a205235904b36a7ed73be9fb30ccf~mv2.jpeg/v1/fill/w_540,h_345,al_c,q_80,enc_avif,quality_auto/Untitled.jpeg" alt="Finished landscaping project by Pro Garden Landscaping LLC" />
+          <h1 id="hero-title">Pro Garden Landscaping LLC</h1>
+          <p class="script">Professional quality from start to finish.</p>
+          <p class="hero-copy">Our goal is to provide the best service to all our customers. Call us for a free estimate and let us help create the yard of your dreams.</p>
+          <div class="cta-row" aria-label="Contact options">
+            <a class="button" href="tel:18152711022">Call for Free Estimate</a>
+            <a class="button outline" href="mailto:progardenlandscapingllc@gmail.com?subject=Free%20estimate%20request">Email Project Details</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" aria-labelledby="about-title">
+        <div class="about-image"><img src="https://static.wixstatic.com/media/be3fe1_fe9451cd5eed4ed4972d31778bb60280~mv2.jpeg/v1/fill/w_540,h_510,fp_0.50_0.50,q_80,enc_avif,quality_auto/be3fe1_fe9451cd5eed4ed4972d31778bb60280~mv2.jpeg" alt="Pro Garden Landscaping LLC outdoor work" /></div>
+        <div class="about-panel">
+          <div>
+            <h2 id="about-title">All About Pro Garden Landscaping LLC</h2>
+            <p class="section-kicker">Professionalism. Excellence. Timeliness.</p>
+            <p>Fast, efficient, and honest, Pro Garden Landscaping LLC has become a reputable and well-known landscaping service. Our team is up for every job, managing projects with the skill and experience our clients have come to expect.</p>
+            <p>We want our customers to be satisfied with our work, which is why we keep communication open throughout the duration of each project.</p>
+            <div class="trust-line" aria-label="Service qualities">
+              <span>Free estimates</span>
+              <span>Open communication</span>
+              <span>Local service</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <div class="container">
+          <h2 id="services-title">Professional Services</h2>
+          <p class="services-intro">Pro Garden Landscaping LLC is dedicated to providing high quality services. Take a look below to find out what we specialize in, and get in touch with any additional questions.</p>
+          <div class="service-list">
+            <article class="service-item"><h3>Mulch Delivery And Installation</h3><p>Fresh mulch delivered and installed so planting beds look clean, protected, and finished.</p></article>
+            <article class="service-item"><h3>Seed and Sod Installation</h3><p>Help repair bare areas, refresh tired lawns, or start new grass with a clear plan.</p></article>
+            <article class="service-item"><h3>Spring and Fall Clean Ups</h3><p>Seasonal cleanup for leaves, debris, beds, edges, and the details that make a yard ready.</p></article>
+            <article class="service-item"><h3>Weekly Lawn Care</h3><p>Reliable recurring lawn care for homeowners who want a consistent, well-kept yard.</p></article>
+            <article class="service-item"><h3>Edging of planting beds and tree rings</h3><p>Sharper bed lines and tree rings that make the whole landscape feel maintained.</p></article>
+            <article class="service-item"><h3>Patios/Patio Repairs</h3><p>Patio work and repair conversations start with a simple estimate and project walk-through.</p></article>
+            <article class="service-item"><h3>Retaining Walls</h3><p>Wall projects and repairs handled with attention to the yard, grade, and finished look.</p></article>
+            <article class="service-item"><h3>Tree and Shrub Pruning</h3><p>Pruning to improve shape, clearance, and the overall appearance of trees and shrubs.</p></article>
+            <article class="service-item"><h3>Drainage Issues</h3><p>Help identify problem areas and discuss practical drainage improvements for your property.</p></article>
+          </div>
+          <a class="button" href="#contact">Request a Free Estimate</a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-photo"><img src="https://static.wixstatic.com/media/be3fe1_c98c76dc68ab401f8243e123c5cb723a~mv2.jpeg/v1/fill/w_318,h_540,fp_0.50_0.50,q_80,enc_avif,quality_auto/be3fe1_c98c76dc68ab401f8243e123c5cb723a~mv2.jpeg" alt="Landscaping project photo" /></div>
+        <div class="contact-panel">
+          <div class="contact-panel-inner">
+            <h2 id="contact-title">Call Us For A Free Estimate!</h2>
+            <div class="contact-copy">
+              <p>Feel free to fill out your information below and we will have someone get in touch with you as soon as possible.</p>
+              <p>Thank you for your business!</p>
+            </div>
+            <div class="contact-details">
+              <div>609 W Blaine St<br />Harvard, McHenry County 60033 USA</div>
+              <div style="margin-top:18px;"><a href="mailto:progardenlandscapingllc@gmail.com">progardenlandscapingllc@gmail.com</a></div>
+              <div><a href="tel:18152711022">(815) 271-1022</a></div>
+              <div style="margin-top:16px;"><a href="https://m.facebook.com/progardenlandscapingllc/?">Facebook</a></div>
+            </div>
+            <div class="form-preview" aria-label="Estimate request form preview">
+              <div class="field-row">
+                <div class="field">Name</div>
+                <div class="field">Phone</div>
+                <div class="field">Email</div>
+                <div class="field">Service needed</div>
+                <div class="field full">Project details</div>
+              </div>
+              <div class="submit-row"><a class="button" href="mailto:progardenlandscapingllc@gmail.com?subject=Free%20estimate%20request">Submit</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main">
+        <div class="container footer-row">
+          <a class="footer-title" href="#home">Pro Garden Landscaping LLC</a>
+          <div class="footer-contact">
+            <strong>Contact</strong><br />
+            <a href="mailto:progardenlandscapingllc@gmail.com">progardenlandscapingllc@gmail.com</a><br />
+            <a href="tel:18152711022">(815) 271-1022</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar">©2020 by Pro Garden Landscaping LLC. Site cleaned up for clearer calls, estimates, and service requests.</div>
+    </footer>
+  </div>
+</body>
+</html>

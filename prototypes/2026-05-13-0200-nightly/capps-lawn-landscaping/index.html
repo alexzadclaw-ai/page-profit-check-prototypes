@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Capps Lawn and Landscaping LLC | Panama City Lawn Care and Irrigation</title>
+  <meta name="description" content="Capps Lawn and Landscaping LLC provides lawn care, garden design, irrigation, and landscaping help for Bay County and Panama City, FL." />
+  <style>
+    :root {
+      --teal: #2a7c6f;
+      --teal-dark: #206458;
+      --cream: #fffefc;
+      --soft: #f7faf6;
+      --ink: #20303c;
+      --line: rgba(42, 124, 111, .22);
+      --shadow: 0 22px 55px rgba(21, 60, 51, .12);
+      --font: "Avenir Light", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--teal);
+      background: var(--cream);
+      font-family: var(--font);
+      font-weight: 300;
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    .site-header {
+      height: 100px;
+      background: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid rgba(42, 124, 111, .08);
+      position: relative;
+      z-index: 20;
+    }
+    .header-inner {
+      width: min(1280px, calc(100% - 120px));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 34px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 430px;
+      letter-spacing: .02em;
+      font-size: 22px;
+      line-height: 1.15;
+      color: var(--teal);
+      text-transform: uppercase;
+    }
+    .brand img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(42, 124, 111, .22);
+    }
+    .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    .main-nav a {
+      padding: 10px 14px;
+      color: var(--teal);
+      transition: color .18s ease, background .18s ease;
+    }
+    .main-nav a:hover,
+    .main-nav a:focus { color: var(--teal-dark); background: rgba(42, 124, 111, .06); }
+    .fb-icon { width: 20px; height: 20px; margin-left: 8px; }
+
+    .hero-title {
+      min-height: 385px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 44px 24px 36px;
+      background: var(--cream);
+    }
+    .hero-copy { width: min(900px, 100%); }
+    .eyebrow {
+      margin: 0 0 16px;
+      font-size: 14px;
+      letter-spacing: .23em;
+      text-transform: uppercase;
+      color: var(--teal-dark);
+    }
+    h1 {
+      margin: 0 auto;
+      font-size: clamp(42px, 5.3vw, 76px);
+      line-height: 1.2;
+      letter-spacing: .01em;
+      font-weight: 300;
+      color: var(--teal);
+      text-transform: uppercase;
+    }
+    .hero-sub {
+      margin: 20px auto 0;
+      max-width: 660px;
+      font-size: 18px;
+      color: var(--teal-dark);
+    }
+    .hero-actions {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 24px;
+      border: 1px solid var(--teal);
+      background: var(--teal);
+      color: var(--cream);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 13px;
+      transition: transform .18s ease, background .18s ease, color .18s ease;
+    }
+    .btn:hover, .btn:focus { transform: translateY(-1px); background: var(--teal-dark); }
+    .btn.secondary { background: transparent; color: var(--teal); }
+    .btn.secondary:hover, .btn.secondary:focus { background: rgba(42, 124, 111, .08); color: var(--teal-dark); }
+    .hero-image img {
+      width: 100%;
+      height: min(815px, 56.6vw);
+      min-height: 450px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .section { padding: 80px 0; }
+    .wrap { width: min(1280px, calc(100% - 160px)); margin: 0 auto; }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 620px;
+      box-shadow: var(--shadow);
+    }
+    .about-panel {
+      background: var(--teal);
+      color: var(--cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 64px 84px;
+      text-align: center;
+    }
+    .about-panel h2,
+    .contact-panel h2,
+    .services h2 {
+      margin: 0;
+      font-weight: 300;
+      line-height: 1.35;
+      text-transform: uppercase;
+      letter-spacing: .01em;
+    }
+    .about-panel h2 { font-size: clamp(30px, 3.1vw, 42px); color: var(--cream); }
+    .about-panel p { margin: 22px auto 0; max-width: 470px; font-size: 16px; color: var(--cream); }
+    .about-details {
+      margin: 28px auto 0;
+      display: grid;
+      gap: 10px;
+      max-width: 470px;
+      text-align: left;
+      color: var(--cream);
+      font-size: 15px;
+    }
+    .about-details span {
+      border: 1px solid rgba(255, 254, 252, .32);
+      padding: 10px 14px;
+      background: rgba(255,255,255,.05);
+    }
+    .about-panel .mini-actions { margin-top: 30px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .about-panel .btn { border-color: var(--cream); }
+    .about-panel .btn.secondary { color: var(--cream); background: transparent; }
+    .about-photo img { width: 100%; height: 100%; min-height: 620px; object-fit: cover; }
+
+    .services { text-align: center; padding-top: 56px; }
+    .services h2 { font-size: clamp(30px, 3.2vw, 42px); color: var(--teal); }
+    .services .sub { margin: 8px 0 74px; font-size: 18px; color: var(--teal); }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+    .service-card {
+      background: var(--teal);
+      color: var(--cream);
+      text-align: center;
+      box-shadow: 0 14px 36px rgba(21, 60, 51, .12);
+    }
+    .service-card img { width: 100%; height: 300px; object-fit: cover; }
+    .service-card .label {
+      min-height: 190px;
+      padding: 34px 32px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-card h3 {
+      margin: 0 0 16px;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 1.4;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--cream);
+    }
+    .service-card p { margin: 0; color: var(--cream); font-size: 15px; }
+    .service-card a {
+      margin-top: 18px;
+      display: inline-block;
+      border-bottom: 1px solid rgba(255,255,255,.75);
+      padding-bottom: 3px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .testimonial {
+      margin-top: 0;
+      padding: 80px 0;
+      background: var(--teal);
+    }
+    .testimonial-card {
+      width: min(1280px, calc(100% - 160px));
+      min-height: 300px;
+      margin: 0 auto;
+      background: var(--cream);
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 42px;
+      align-items: center;
+      padding: 54px 64px;
+      color: var(--teal);
+    }
+    blockquote { margin: 0; font-size: 18px; line-height: 1.7; }
+    blockquote cite { display: block; margin-top: 24px; font-style: normal; font-size: 18px; text-decoration: underline; }
+    .proof-grid { display: grid; gap: 14px; }
+    .proof-grid div {
+      border: 1px solid var(--line);
+      padding: 18px 20px;
+      background: rgba(42, 124, 111, .035);
+      text-align: left;
+    }
+    .proof-grid strong { display: block; margin-bottom: 4px; font-weight: 400; text-transform: uppercase; letter-spacing: .08em; font-size: 13px; }
+    .proof-grid span { color: var(--teal-dark); font-size: 15px; }
+
+    .contact-section { padding: 80px 0 94px; }
+    .contact-panel {
+      width: min(1280px, calc(100% - 160px));
+      margin: 0 auto;
+      background: var(--teal);
+      color: var(--cream);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding: 60px 90px 56px;
+      box-shadow: var(--shadow);
+    }
+    .contact-copy { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-align: center; padding: 0 50px 0 0; }
+    .contact-panel h2 { font-size: clamp(32px, 3vw, 42px); color: var(--cream); margin-top: 0; }
+    .contact-links { margin-top: 48px; display: grid; gap: 16px; font-size: 18px; color: var(--cream); }
+    .contact-links a { text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.55); padding-bottom: 3px; }
+    .contact-note { margin-top: 34px; max-width: 370px; font-size: 15px; color: rgba(255,254,252,.92); }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 12px; }
+    .field { display: grid; gap: 7px; }
+    .field.full { grid-column: 1 / -1; }
+    label { font-size: 14px; color: var(--cream); }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid rgba(255,254,252,.9);
+      background: transparent;
+      color: var(--cream);
+      min-height: 42px;
+      font: 16px var(--font);
+      outline: none;
+      padding: 7px 0;
+    }
+    textarea { min-height: 112px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: rgba(255,254,252,.75); }
+    .submit-row { grid-column: 1 / -1; padding-top: 8px; }
+    .contact-panel button {
+      width: 100%;
+      min-height: 48px;
+      border: 0;
+      background: var(--cream);
+      color: var(--teal);
+      font: 18px var(--font);
+      cursor: pointer;
+    }
+
+    .footer {
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--teal);
+      background: var(--cream);
+      padding: 42px 20px;
+    }
+    .footer h2 { margin: 0 0 16px; font-weight: 300; font-size: 22px; color: var(--teal); }
+    .footer p { margin: 8px 0; font-size: 15px; }
+    .footer .foot-social { width: 22px; height: 22px; margin: 18px auto 30px; }
+    .footer small { display: block; margin-top: 28px; font-size: 14px; color: var(--teal); }
+
+    @media (max-width: 1000px) {
+      .site-header { height: auto; min-height: 100px; }
+      .header-inner { width: min(100% - 40px, 760px); flex-direction: column; align-items: center; padding: 18px 0; gap: 16px; }
+      .brand { min-width: 0; justify-content: center; text-align: center; font-size: 19px; }
+      .main-nav { flex-wrap: wrap; justify-content: center; }
+      .wrap, .testimonial-card, .contact-panel { width: min(100% - 40px, 760px); }
+      .about-grid, .testimonial-card, .contact-panel { grid-template-columns: 1fr; }
+      .about-panel { padding: 52px 34px; }
+      .about-photo img { min-height: 420px; }
+      .service-grid { grid-template-columns: 1fr; gap: 28px; }
+      .service-card img { height: 280px; }
+      .contact-panel { padding: 52px 36px; }
+      .contact-copy { padding: 0 0 38px; }
+    }
+    @media (max-width: 620px) {
+      .main-nav a { padding: 7px 9px; }
+      .hero-title { min-height: 430px; }
+      .hero-image img { min-height: 310px; }
+      .section { padding: 54px 0; }
+      .wrap { width: calc(100% - 32px); }
+      .form-grid { grid-template-columns: 1fr; }
+      .contact-panel, .testimonial-card { width: calc(100% - 32px); padding: 36px 24px; }
+      .brand img { width: 48px; height: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" aria-label="Capps Lawn and Landscaping header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Capps Lawn and Landscaping LLC home">
+        <img src="https://static.wixstatic.com/media/ef9239_9bf775117df64541a93db58ac6b51acb~mv2.jpg/v1/fill/w_514,h_514,al_c/ef9239_9bf775117df64541a93db58ac6b51acb~mv2.jpg" alt="Capps Lawn and Landscaping LLC logo" />
+        <span>CAPPS LAWN AND LANDSCAPING LLC</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="https://cappsc40.wixsite.com/my-site-3">Home</a>
+        <a href="https://cappsc40.wixsite.com/my-site-3/blank-1">About Us</a>
+        <a href="https://cappsc40.wixsite.com/my-site-3/blank-2">Testimonials</a>
+        <a href="https://cappsc40.wixsite.com/my-site-3/blank-3">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.facebook.com/Capps850" aria-label="Capps Lawn and Landscaping on Facebook"><img class="fb-icon" src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/alt_text_label_Facebook.png" alt="Facebook" /></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-title" aria-label="Hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Panama City, FL and Bay County</p>
+        <h1>CAPPS LAWN AND<br />LANDSCAPING LLC</h1>
+        <p class="hero-sub">Dependable lawn care, landscaping, and irrigation help from a Bay County native.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Request a Free Quote</a>
+          <a class="btn secondary" href="tel:+18506243064">Call (850) 624-3064</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-image" aria-label="Wet grass lawn image">
+      <img src="https://static.wixstatic.com/media/277ea815dce04a0991b4bbfe7d344264.jpg/v1/fill/w_1440,h_815,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/277ea815dce04a0991b4bbfe7d344264.jpg" alt="Wet green grass" />
+    </section>
+
+    <section class="section" id="about" aria-label="About Capps Lawn and Landscaping">
+      <div class="wrap about-grid">
+        <div class="about-panel">
+          <div>
+            <h2>CAPPS LAWN AND LANDSCAPING LLC</h2>
+            <p>Bay County native dedicated to providing the best service for all your lawn and landscaping needs.</p>
+            <div class="about-details" aria-label="Service highlights">
+              <span>Local lawn care, garden design, and irrigation support.</span>
+              <span>Clear scheduling and reliable communication.</span>
+              <span>Easy quote requests by phone, email, or contact form.</span>
+            </div>
+            <div class="mini-actions">
+              <a class="btn" href="#services">View Services</a>
+              <a class="btn secondary" href="mailto:cappsc40@gmail.com">Email Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="https://static.wixstatic.com/media/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg/v1/fill/w_630,h_620,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg" alt="Water sprinkler on green lawn" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-label="Capps Lawn and Landscaping services">
+      <div class="wrap">
+        <h2>CAPPS LAWN AND LANDSCAPING LLC SERVICES</h2>
+        <p class="sub">Some Of Our Services</p>
+        <div class="service-grid">
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/46894361da104b95991a4d1dfe830a23.jpg/v1/fill/w_400,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/46894361da104b95991a4d1dfe830a23.jpg" alt="Green garden landscape" />
+            <div class="label">
+              <h3>Garden Design</h3>
+              <p>Refresh curb appeal with clean beds, plantings, and tidy landscape details.</p>
+              <a href="#contact">Ask about design</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/df4f2579768e45ddb58c6dd03a573177.jpg/v1/fill/w_400,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/df4f2579768e45ddb58c6dd03a573177.jpg" alt="Trimming the grass" />
+            <div class="label">
+              <h3>Lawn Care</h3>
+              <p>Keep your property neat with dependable mowing, trimming, and seasonal cleanup.</p>
+              <a href="#contact">Request lawn care</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg/v1/fill/w_400,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6be71d8c4cfb4546a8e36de5eda4e5ad.jpg" alt="Water sprinkler" />
+            <div class="label">
+              <h3>Irrigation</h3>
+              <p>Get help with sprinkler coverage, watering issues, and lawn-friendly irrigation.</p>
+              <a href="#contact">Request irrigation help</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonials" aria-label="Customer testimonial">
+      <div class="testimonial-card">
+        <blockquote>
+          “Cody does great work! He shows up when he says he will and is very professional. If you need someone with lawn care and landscaping expertise, Capps is the company to use.”
+          <cite>Jeff Seibenhener</cite>
+        </blockquote>
+        <div class="proof-grid" aria-label="Why customers contact Capps">
+          <div><strong>Reliable visits</strong><span>Make it easy for visitors to trust the schedule before they call.</span></div>
+          <div><strong>Local service</strong><span>Bay County and Panama City placement helps nearby homeowners self-qualify.</span></div>
+          <div><strong>Fast contact</strong><span>Phone, email, and quote form are available before and after services.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-label="Contact Capps Lawn and Landscaping">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <h2>CONTACT US</h2>
+          <div class="contact-links">
+            <a href="mailto:cappsc40@gmail.com">cappsc40@gmail.com</a>
+            <a href="tel:+18506243064">(850) 624-3064</a>
+          </div>
+          <p class="contact-note">Tell us what you need, where the property is, and the best way to reach you. A simple quote request should feel quick, clear, and local.</p>
+        </div>
+        <form aria-label="Contact form prototype">
+          <div class="form-grid">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" /></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" /></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" /></div>
+            <div class="field"><label for="address">Address</label><input id="address" name="address" autocomplete="street-address" /></div>
+            <div class="field full"><label for="subject">Subject</label><input id="subject" name="subject" /></div>
+            <div class="field full"><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+            <div class="submit-row"><button type="button">Submit</button></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Footer">
+    <div>
+      <h2>Capps Lawn and Landscaping LLC</h2>
+      <p><a href="mailto:cappsc40@gmail.com">cappsc40@gmail.com</a></p>
+      <a href="https://www.facebook.com/Capps850" aria-label="Capps Lawn and Landscaping on Facebook"><img class="foot-social" src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/alt_text_label_Facebook.png" alt="Facebook" /></a>
+      <small>©2023 by Capps Lawn and Landscaping LLC.</small>
+    </div>
+  </footer>
+</body>
+</html>

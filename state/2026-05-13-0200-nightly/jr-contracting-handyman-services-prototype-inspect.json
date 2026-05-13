@@ -1,0 +1,53 @@
+{
+  "title": "JR Contracting & Handyman Services LLC | Vancouver WA Home Improvement",
+  "bodyText": "This website was built on Wix. Create yours today. Get Started Wix Home About Services Contact mercury1250@gmail.com (360) 600-4972 f JR CONTRACTING & HANDYMAN SERVICES LLC Home Improvement VANCOUVER, WA WELCOME TO JR CONTRACTING & HANDYMAN SERVICES LLC Clear communication, dependable repairs, and practical remodeling help from first call through final walkthrough. Request an Estimate Call (360) 600-4972 LEARN ABOUT OUR BUSINESS JR Contracting & Handyman Services LLC has always operated under st",
+  "dims": {
+    "height": 3757,
+    "width": 1440
+  },
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/7d7954_df106f798d6244b79d0bc6d3c65ee649~mv2_d_1536_1536_s_2.jpg/v1/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg",
+      "complete": true,
+      "naturalWidth": 160,
+      "naturalHeight": 160,
+      "alt": "JR Contracting & Handyman Services logo image"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/d69f20184cf54a40a9632c4d33ceb2bb.jpg/v1/fill/w_900,h_1200,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d69f20184cf54a40a9632c4d33ceb2bb.jpg",
+      "complete": true,
+      "naturalWidth": 900,
+      "naturalHeight": 1200,
+      "alt": "Construction workers"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/2611f4d087824036800b563a97bcd389.jpg/v1/fill/w_520,h_430,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2611f4d087824036800b563a97bcd389.jpg",
+      "complete": true,
+      "naturalWidth": 520,
+      "naturalHeight": 430,
+      "alt": "Reinforcing steel"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/b1a6c2fc25c4402b94e4c9e210dbc1f0.jpg/v1/fill/w_520,h_430,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b1a6c2fc25c4402b94e4c9e210dbc1f0.jpg",
+      "complete": true,
+      "naturalWidth": 520,
+      "naturalHeight": 430,
+      "alt": "Smoothing concrete"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/ee68f08f77854dac8c21bcc9ce161084.jpg/v1/fill/w_520,h_430,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee68f08f77854dac8c21bcc9ce161084.jpg",
+      "complete": true,
+      "naturalWidth": 520,
+      "naturalHeight": 430,
+      "alt": "Bricks and mortar"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/00761ee4ab8f4b6fb948f7593c092e1a.jpg/v1/fill/w_1880,h_750,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Construction%20workers%20on%20work%20site.jpg",
+      "complete": true,
+      "naturalWidth": 1880,
+      "naturalHeight": 750,
+      "alt": "Construction workers on work site"
+    }
+  ],
+  "bg": "rgb(255, 255, 255)"
+}

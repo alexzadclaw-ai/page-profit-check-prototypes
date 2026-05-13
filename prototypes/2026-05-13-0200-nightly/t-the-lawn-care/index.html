@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T The Lawn Care Pompano Beach | T the Lawn Care, LLC</title>
+  <meta name="description" content="Full-service lawn care and landscaping in Pompano Beach and Broward County. Request a free quote from T the Lawn Care, LLC.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Jockey+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #141e3a;
+      --blue: #273c73;
+      --slate: #647296;
+      --gray: #e7e7e7;
+      --soft: #f5f5f3;
+      --ink: #25352c;
+      --body: #424242;
+      --line: #d8d8d2;
+      --white: #ffffff;
+      --green: #52683d;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--gray);
+      color: var(--body);
+      font-family: Barlow, Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 1.55;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .page { overflow: hidden; background: var(--gray); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 30px; }
+    .section-pad { padding: 82px 0; }
+
+    .site-header {
+      position: relative;
+      z-index: 5;
+      background: var(--white);
+      box-shadow: 0 2px 0 rgba(20,30,58,.08);
+    }
+    .brand-row {
+      min-height: 84px;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      background: var(--white);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding-left: 22px;
+      min-width: 390px;
+    }
+    .brand img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .brand-name {
+      font-family: Barlow, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      letter-spacing: .2px;
+      color: var(--blue);
+    }
+    .phone-block {
+      min-width: 348px;
+      background: var(--blue);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+    .nav-row {
+      background: var(--navy);
+      min-height: 50px;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+    }
+    .nav-tabs { display: flex; align-items: stretch; }
+    .nav-tabs a {
+      color: var(--white);
+      min-width: 145px;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid rgba(255,255,255,.14);
+      font-family: Barlow, Arial, sans-serif;
+      font-size: 17px;
+      letter-spacing: .4px;
+    }
+    .nav-tabs a:first-child { border-left: 1px solid rgba(255,255,255,.14); }
+    .nav-tabs a:hover { background: #1c2a50; }
+    .book-nav {
+      min-width: 190px;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--slate);
+      color: var(--white);
+      font-weight: 700;
+    }
+
+    .hero {
+      min-height: 815px;
+      position: relative;
+      background: var(--gray);
+    }
+    .hero-photo {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 82.2%;
+      height: 815px;
+      object-fit: cover;
+      object-position: 46% 0;
+    }
+    .hero:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 82.2%;
+      background: linear-gradient(90deg, rgba(20,30,58,.04), rgba(20,30,58,.18));
+      pointer-events: none;
+    }
+    .hero-card {
+      position: relative;
+      z-index: 2;
+      width: min(608px, calc(100% - 60px));
+      margin-left: auto;
+      margin-right: 145px;
+      top: 190px;
+      background: var(--white);
+      padding: 48px 52px 44px;
+      color: var(--navy);
+      box-shadow: 0 14px 36px rgba(20,30,58,.15);
+    }
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--slate);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      color: var(--navy);
+      font-family: "Jockey One", Barlow, Arial, sans-serif;
+      font-weight: 400;
+      line-height: .98;
+      letter-spacing: .4px;
+    }
+    h1 { font-size: clamp(48px, 5vw, 66px); }
+    h2 { font-size: clamp(42px, 4vw, 58px); }
+    h3 { font-size: 28px; line-height: 1.05; }
+    .hero-card p {
+      margin: 22px 0 0;
+      font-size: 21px;
+      color: #4d4d4d;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; align-items: center; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      background: var(--blue);
+      color: var(--white);
+      font-weight: 700;
+      letter-spacing: .2px;
+      border: 0;
+      cursor: pointer;
+    }
+    .btn span { padding: 0 22px; }
+    .btn:after {
+      content: "›";
+      width: 52px;
+      align-self: stretch;
+      display: grid;
+      place-items: center;
+      background: var(--slate);
+      font-size: 32px;
+      line-height: 1;
+    }
+    .btn.secondary {
+      background: var(--white);
+      color: var(--blue);
+      border: 2px solid var(--blue);
+    }
+    .btn.secondary:after { background: var(--blue); color: var(--white); }
+    .hero-services {
+      position: absolute;
+      z-index: 3;
+      left: 60px;
+      bottom: 38px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      max-width: 760px;
+    }
+    .hero-pill {
+      background: rgba(255,255,255,.92);
+      color: var(--navy);
+      padding: 10px 14px;
+      font-weight: 700;
+      border-left: 5px solid var(--blue);
+      box-shadow: 0 7px 20px rgba(20,30,58,.12);
+    }
+
+    .proof-strip {
+      background: var(--navy);
+      color: var(--white);
+      border-top: 8px solid var(--blue);
+    }
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .proof-item {
+      padding: 28px 26px;
+      border-right: 1px solid rgba(255,255,255,.14);
+    }
+    .proof-item:first-child { border-left: 1px solid rgba(255,255,255,.14); }
+    .proof-item strong {
+      display: block;
+      color: var(--white);
+      font-family: "Jockey One", Barlow, sans-serif;
+      font-size: 31px;
+      line-height: 1;
+      letter-spacing: .3px;
+      margin-bottom: 6px;
+    }
+    .proof-item span { color: rgba(255,255,255,.82); font-size: 16px; }
+
+    .services { background: #ededeb; }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(280px, .7fr);
+      gap: 50px;
+      align-items: end;
+      margin-bottom: 44px;
+    }
+    .section-head p { margin: 0; font-size: 20px; }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+    }
+    .service-card {
+      min-height: 252px;
+      background: var(--white);
+      padding: 31px 28px 28px;
+      border: 1px solid #deded8;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 8px 0 rgba(20,30,58,.035);
+    }
+    .service-card.featured { grid-column: span 2; display: grid; grid-template-columns: 132px 1fr; gap: 24px; align-items: center; }
+    .service-icon {
+      width: 76px;
+      height: 76px;
+      color: var(--blue);
+      margin-bottom: 22px;
+    }
+    .service-card.featured .service-icon { width: 132px; height: 99px; object-fit: contain; margin: 0; }
+    .service-card h3 { margin-bottom: 13px; }
+    .service-card p { margin: 0; color: #5a5a5a; font-size: 17px; }
+    .service-card a { margin-top: 18px; color: var(--blue); font-weight: 700; }
+    .service-bottom { margin-top: 38px; display: flex; align-items: center; justify-content: center; }
+
+    .about {
+      background: #f3f3f0;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      align-items: stretch;
+    }
+    .about-copy {
+      background: #f3f3f0;
+      padding: 82px 58px 82px 0;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .about-copy p { font-size: 22px; margin: 24px 0 0; }
+    .about-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 28px;
+      padding: 0;
+      list-style: none;
+    }
+    .about-list li { display: flex; gap: 12px; align-items: flex-start; font-weight: 600; color: var(--ink); }
+    .about-list li:before { content: "✓"; color: var(--blue); font-weight: 700; }
+    .about-image img { height: 100%; min-height: 720px; width: 100%; object-fit: cover; object-position: center; }
+
+    .quote-block {
+      background: var(--gray);
+    }
+    .quote-shell {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--white);
+    }
+    .quote-shell img { width: 100%; height: 500px; object-fit: cover; }
+    .quote-copy {
+      padding: 72px 58px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .quote-copy p { margin: 20px 0 0; font-size: 20px; }
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin: 27px 0 30px;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 13px;
+      align-items: start;
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .step b {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: var(--white);
+      display: grid;
+      place-items: center;
+      line-height: 1;
+    }
+    .call-line { margin-top: 18px; color: var(--slate); font-weight: 700; }
+
+    .gallery {
+      background: var(--navy);
+      color: var(--white);
+      padding: 84px 0;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: .75fr 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+    .gallery h2 { color: var(--white); font-size: clamp(54px, 6vw, 84px); }
+    .gallery p { margin: 25px 0 0; color: rgba(255,255,255,.8); font-size: 20px; }
+    .gallery-card {
+      background: var(--white);
+      padding: 16px;
+      box-shadow: 0 18px 35px rgba(0,0,0,.28);
+    }
+    .gallery-card img { width: 100%; height: 390px; object-fit: cover; }
+
+    .values {
+      background: var(--blue);
+      color: var(--white);
+    }
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      min-height: 340px;
+    }
+    .value-card {
+      padding: 60px 42px;
+      text-align: center;
+      border-right: 1px solid rgba(255,255,255,.16);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .value-card:first-child { border-left: 1px solid rgba(255,255,255,.16); }
+    .value-card svg { width: 92px; height: 92px; color: var(--white); margin-bottom: 27px; }
+    .value-card h3 { color: var(--white); font-size: 30px; }
+    .value-card p { margin: 13px 0 0; color: rgba(255,255,255,.78); font-size: 17px; }
+
+    .contact {
+      background: var(--navy);
+      color: var(--white);
+      padding: 78px 0 32px;
+    }
+    .contact h2 { color: var(--white); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr .9fr;
+      gap: 70px;
+      align-items: start;
+    }
+    .contact p { color: rgba(255,255,255,.8); font-size: 19px; }
+    .form-grid { display: grid; gap: 14px; margin-top: 28px; }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid rgba(255,255,255,.42);
+      background: rgba(255,255,255,.08);
+      color: var(--white);
+      padding: 15px 14px;
+      font: inherit;
+      outline: none;
+    }
+    textarea { min-height: 122px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: rgba(255,255,255,.68); }
+    .contact-info {
+      padding-top: 82px;
+      display: grid;
+      gap: 20px;
+    }
+    .contact-info strong {
+      color: var(--white);
+      display: block;
+      font-size: 17px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 4px;
+    }
+    .contact-info span, .contact-info a { color: rgba(255,255,255,.82); }
+    .social { display: flex; align-items: center; gap: 15px; margin-top: 10px; }
+    .social img { width: 44px; height: 44px; }
+    .footer-line {
+      border-top: 1px solid rgba(255,255,255,.13);
+      margin-top: 58px;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: rgba(255,255,255,.68);
+      font-size: 15px;
+    }
+
+    @media (max-width: 1000px) {
+      .brand-row, .nav-inner, .nav-tabs { flex-wrap: wrap; }
+      .brand { min-width: 0; flex: 1 1 100%; padding: 18px 24px; }
+      .phone-block { min-width: 0; flex: 1 1 100%; min-height: 56px; }
+      .nav-tabs { width: 100%; }
+      .nav-tabs a { flex: 1 1 33.333%; min-width: 0; }
+      .book-nav { width: 100%; }
+      .hero { min-height: auto; padding: 440px 0 50px; }
+      .hero-photo, .hero:after { width: 100%; height: 520px; }
+      .hero-card { top: auto; margin: 0 auto; }
+      .hero-services { position: relative; left: auto; bottom: auto; margin: 28px 30px 0; }
+      .proof-grid, .service-grid, .values-grid, .split, .quote-shell, .gallery-grid, .contact-grid, .section-head { grid-template-columns: 1fr; }
+      .proof-item, .proof-item:first-child { border-left: 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.14); }
+      .service-card.featured { grid-column: span 1; grid-template-columns: 1fr; }
+      .about-copy { padding: 70px 30px; min-height: auto; }
+      .about-image img { min-height: 420px; }
+      .contact-info { padding-top: 0; }
+    }
+
+    @media (max-width: 620px) {
+      body { font-size: 16px; }
+      .wrap { padding: 0 20px; }
+      .nav-tabs a { flex-basis: 50%; }
+      .hero { padding-top: 360px; }
+      .hero-photo, .hero:after { height: 430px; }
+      .hero-card { width: calc(100% - 28px); padding: 34px 28px; }
+      .brand-name { font-size: 22px; }
+      .phone-block { font-size: 16px; }
+      .section-pad { padding: 62px 0; }
+      .quote-copy { padding: 48px 30px; }
+      .footer-line { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header" id="home">
+      <div class="brand-row">
+        <a class="brand" href="#home" aria-label="T the Lawn Care home">
+          <img src="https://static.wixstatic.com/media/4a4c98_f78c5d1cee854273869944d914f2e15b~mv2_d_2448_2448_s_4_2.jpg/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6531_JPG.jpg" alt="T the Lawn Care logo">
+          <span class="brand-name">T the Lawn Care</span>
+        </a>
+        <a class="phone-block" href="tel:17542052190">Call Us Now : 1-754-205-2190</a>
+      </div>
+      <div class="nav-row">
+        <div class="nav-inner">
+          <nav class="nav-tabs" aria-label="Primary navigation">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="book-nav" href="https://tthelawncare.wixsite.com/mysite/book-online">Get a Free Quote</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="T the Lawn Care lawn care and landscaping">
+        <img class="hero-photo" src="https://static.wixstatic.com/media/d99169_052968af867b4f87b57d35f4e4842bc4~mv2_d_4608_2982_s_4_2.jpg/v1/fill/w_1183,h_1600,al_t,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d99169_052968af867b4f87b57d35f4e4842bc4~mv2_d_4608_2982_s_4_2.jpg" alt="Lawn care equipment working on a green property">
+        <div class="hero-card">
+          <p class="eyebrow">Pompano Beach and Broward County</p>
+          <h1>Full-Service Lawn Care and Landscaping</h1>
+          <p>Residential and commercial yard care, landscaping, repairs, and outdoor-property projects from a local team founded in 2004.</p>
+          <div class="cta-row">
+            <a class="btn" href="https://tthelawncare.wixsite.com/mysite/book-online"><span>Get a Free Lawn Care Quote</span></a>
+            <a class="btn secondary" href="tel:17542052190"><span>Call 1-754-205-2190</span></a>
+          </div>
+        </div>
+        <div class="hero-services" aria-label="Common services">
+          <span class="hero-pill">Lawn & Garden Care</span>
+          <span class="hero-pill">Landscaping</span>
+          <span class="hero-pill">Tree Service</span>
+          <span class="hero-pill">Patios & Driveways</span>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Company proof">
+        <div class="wrap proof-grid">
+          <div class="proof-item"><strong>Since 2004</strong><span>Established local lawn-care company</span></div>
+          <div class="proof-item"><strong>Broward County</strong><span>Pompano Beach and surrounding communities</span></div>
+          <div class="proof-item"><strong>Home + Business</strong><span>Residential and commercial properties</span></div>
+          <div class="proof-item"><strong>Free Quotes</strong><span>Call, message, or request online</span></div>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Services</p>
+              <h2>Lawn & Garden Care</h2>
+            </div>
+            <p>Choose the outdoor project you need help with, then request a free quote. T the Lawn Care keeps the same full-service approach, now with a simpler path to action.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M13 58c15-3 26-14 32-32 8 15 7 29-2 42" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M15 64h49" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M31 49c-3-12 2-24 14-35 4 8 4 16 0 25" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Lawn & Garden Care</h3>
+                <p>Routine mowing, cleanups, planting beds, and yard care that keeps the property neat.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M16 58c7-12 15-18 24-18s17 6 24 18" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M40 40V16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M28 25c7-7 17-7 24 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M23 64h34" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Fountains and Ponds</h3>
+                <p>Outdoor water-feature care and landscape details that need a steady maintenance hand.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M12 62h56" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M18 62c6-22 19-34 38-36" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M31 49h21M39 37h18" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Landscaping</h3>
+                <p>Landscape improvements, refreshes, and development for homes and businesses.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card featured">
+              <img class="service-icon" src="https://static.wixstatic.com/media/4a4c98_ab05f31677d747fb97730d95bb7b8ba0~mv2.png/v1/fill/w_132,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fending-clipart-transparent-3.png" alt="Fence service icon from T the Lawn Care site">
+              <div>
+                <h3>Docks, Decks, & Fencing</h3>
+                <p>Outdoor repair and improvement projects that make the property safer, cleaner, and easier to enjoy.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M14 60h52M20 51h40M27 42h26M34 33h12" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M18 60l24-36 22 36" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Patios & Driveways</h3>
+                <p>Hardscape touchups, exterior improvements, and quote-ready property projects.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M39 66V30" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M22 38c-2-13 6-23 17-23s19 10 17 23" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M20 45c9 5 31 5 40 0M28 30c8 5 17 5 25 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Tree Service</h3>
+                <p>Tree and yard work that improves curb appeal and clears outdoor maintenance headaches.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <svg class="service-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><path d="M18 52c7-10 14-15 22-15s15 5 22 15" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M20 60h40" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M24 31c11-6 21-6 32 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+              <div>
+                <h3>Pool Coping</h3>
+                <p>Pool-edge and outdoor-surface details that fit naturally with lawn and landscape work.</p>
+                <a href="https://tthelawncare.wixsite.com/mysite/book-online">Request this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="service-bottom">
+            <a class="btn" href="https://tthelawncare.wixsite.com/mysite/book-online"><span>Start With a Free Quote</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="wrap split">
+          <div class="about-copy">
+            <p class="eyebrow">About</p>
+            <h2>About T the Lawn Care</h2>
+            <p>T the Lawn Care is a full-service landscaping and lawn-care company serving Broward County and surrounding communities. Since 2004, the team has helped residential and commercial customers with cost-effective outdoor-property solutions.</p>
+            <ul class="about-list">
+              <li>Quality workmanship for projects of all sizes</li>
+              <li>Customer satisfaction is the top priority</li>
+              <li>Home repair, lawn care, landscaping, and outdoor improvements</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="https://static.wixstatic.com/media/d99169_7388fedba3ab44e4ad8ffe1d05a1117b~mv2_d_4608_3072_s_4_2.jpg/v1/fill/w_660,h_1163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d99169_7388fedba3ab44e4ad8ffe1d05a1117b~mv2_d_4608_3072_s_4_2.jpg" alt="Fresh lawn and garden work by T the Lawn Care">
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-block section-pad">
+        <div class="wrap quote-shell">
+          <img src="https://static.wixstatic.com/media/d99169_52d1d64a2a084379a42689b9cb93866d~mv2_d_4608_3072_s_4_2.jpg/v1/fill/w_660,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/d99169_52d1d64a2a084379a42689b9cb93866d~mv2_d_4608_3072_s_4_2.jpg" alt="Lawn mower on a maintained property">
+          <div class="quote-copy">
+            <p class="eyebrow">Free Quote</p>
+            <h2>Get a Free Quote Now!</h2>
+            <p>Tell us what you need done, where the property is located, and the best way to reach you. We will help confirm the right service and next step.</p>
+            <div class="steps">
+              <div class="step"><b>1</b><span>Send the service request or call directly.</span></div>
+              <div class="step"><b>2</b><span>Share the property details and timing.</span></div>
+              <div class="step"><b>3</b><span>Get a clear quote path for the work.</span></div>
+            </div>
+            <a class="btn" href="https://tthelawncare.wixsite.com/mysite/book-online"><span>Book Your Free Quote</span></a>
+            <div class="call-line">Or Call Us: <a href="tel:17542052190">1-754-205-2190</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="wrap gallery-grid">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2>Our<br>Latest<br>Work</h2>
+            <p>Real property work from the existing site, kept front and center so visitors see the same local-service proof with a cleaner presentation.</p>
+          </div>
+          <div class="gallery-card">
+            <img src="https://static.wixstatic.com/media/4a4c98_9482d68344ea437ba3a3f663772f8220~mv2.jpg/v1/fit/w_960,h_720,q_90,enc_avif,quality_auto/4a4c98_9482d68344ea437ba3a3f663772f8220~mv2.jpg" alt="Latest lawn and landscape work by T the Lawn Care">
+          </div>
+        </div>
+      </section>
+
+      <section class="values" aria-label="Why choose T the Lawn Care">
+        <div class="wrap values-grid">
+          <article class="value-card">
+            <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M20 73h60M28 73V42l22-17 22 17v31" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 73V53h20v20" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>Full Service</h3>
+            <p>Lawn care, landscaping, repairs, and outdoor-property help from one local team.</p>
+          </article>
+          <article class="value-card">
+            <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 14l28 12v22c0 19-12 31-28 38-16-7-28-19-28-38V26l28-12z" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/><path d="M35 50l10 10 22-24" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>Reliable & Trustworthy</h3>
+            <p>Founded in 2004 with a long-term reputation for customer service.</p>
+          </article>
+          <article class="value-card">
+            <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M28 76h44" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M36 76V40c0-9 6-16 14-16s14 7 14 16v36" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M27 44h46M31 58h38" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg>
+            <h3>Professional & Experienced</h3>
+            <p>Cost-effective solutions for residential and commercial property needs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="wrap contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Contact Us</h2>
+            <p>Call or message us for a free quote. Include the property location, the service you need, and the best callback time.</p>
+            <form class="form-grid" action="mailto:TtheLawnCare@gmail.com" method="post" enctype="text/plain">
+              <input name="name" placeholder="Name" aria-label="Name">
+              <input name="email" placeholder="Email" aria-label="Email">
+              <input name="phone" placeholder="Phone" aria-label="Phone">
+              <textarea name="message" placeholder="Tell us what service you need" aria-label="Message"></textarea>
+              <button class="btn" type="submit"><span>Send Quote Request</span></button>
+            </form>
+          </div>
+          <address class="contact-info">
+            <div><strong>Address</strong><span>265 SW 10th CT<br>Pompano Beach, Florida 33060</span></div>
+            <div><strong>Email</strong><a href="mailto:TtheLawnCare@gmail.com">TtheLawnCare@gmail.com</a></div>
+            <div><strong>Phone</strong><a href="tel:17542052190">1-754-205-2190</a></div>
+            <div class="social">
+              <a href="http://www.facebook.com/Tthelawncare" aria-label="T the Lawn Care on Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_55,h_55,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png" alt="Facebook"></a>
+              <span>Follow T the Lawn Care</span>
+            </div>
+          </address>
+        </div>
+        <div class="wrap footer-line">
+          <span>T the Lawn Care, LLC</span>
+          <span>Proudly serving Pompano Beach and Broward County</span>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VSM Plumbing LLC | Dependable Plumber in Hamilton, VA</title>
+  <meta name="description" content="VSM Plumbing LLC helps homeowners in Hamilton and Northern Virginia with leak detection, drain cleaning, water heaters, water purification, and backflow repair." />
+  <style>
+    :root{
+      --teal:#2a7c6f;
+      --teal-dark:#205f55;
+      --mint:#eefaf7;
+      --cream:#fffefc;
+      --ink:#111;
+      --muted:#59645f;
+      --line:rgba(42,124,111,.34);
+      --max:940px;
+      --wide:1280px;
+      --hero:url('https://static.wixstatic.com/media/11062b_db16985f4bf04df1892dab9822d4f840~mv2.jpeg/v1/fill/w_1280,h_1600,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_db16985f4bf04df1892dab9822d4f840~mv2.jpeg');
+      --about:url('https://static.wixstatic.com/media/11062b_d10525a7c11340609c09f728d37507c7~mv2.jpg/v1/fill/w_1440,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_d10525a7c11340609c09f728d37507c7~mv2.jpg');
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:"Avenir Light", "Avenir Next", Arial, Helvetica, sans-serif;
+      font-weight:300;
+      line-height:1.6;
+      letter-spacing:.01em;
+    }
+    a{color:inherit;text-decoration:none}
+    .site-header{
+      min-height:160px;
+      padding:31px 24px 25px;
+      text-align:center;
+      background:#fffefc;
+      border-bottom:1px solid rgba(42,124,111,.12);
+      position:relative;
+      z-index:3;
+    }
+    .brand{
+      display:inline-block;
+      color:var(--teal);
+      font-family:"Brandon Grotesque", "Arial Narrow", Arial, sans-serif;
+      font-size:22px;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      line-height:1.4;
+      padding:0 0 20px;
+      min-width:300px;
+      border-bottom:1px solid var(--line);
+    }
+    .nav-wrap{
+      max-width:var(--max);
+      margin:22px auto 0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:18px;
+      flex-wrap:wrap;
+      font-size:14px;
+      color:var(--teal);
+    }
+    .nav-wrap a{padding:3px 0;border-bottom:1px solid transparent;white-space:nowrap}
+    .nav-wrap a:hover{border-color:var(--teal)}
+    .nav-wrap .call-small{
+      margin-left:8px;
+      padding:7px 15px;
+      border:1px solid var(--teal);
+      border-radius:999px;
+      color:var(--teal);
+    }
+    .hero{padding:0 0 80px;background:#fffefc}
+    .hero-frame{
+      max-width:var(--wide);
+      min-height:740px;
+      margin:0 auto;
+      background-image:linear-gradient(rgba(42,124,111,.42), rgba(42,124,111,.42)), var(--hero);
+      background-size:cover;
+      background-position:center 44%;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      color:#fffefc;
+      position:relative;
+    }
+    .hero-copy{transform:translateY(6px);padding:40px 24px;max-width:900px}
+    h1,h2,h3{font-family:"Brandon Grotesque", "Arial Narrow", Arial, sans-serif;font-weight:300;text-transform:uppercase;margin:0;line-height:1.15;letter-spacing:.045em}
+    h1{font-size:76px;letter-spacing:.05em}
+    h2{font-size:46px;color:var(--teal)}
+    h3{font-size:27px;color:var(--teal)}
+    .subhead{font-size:22px;color:var(--teal);margin:18px 0 0}
+    .hero .subcopy{font-size:18px;margin:18px auto 0;max-width:650px;color:#fff}
+    .btn-row{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:34px}
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:45px;
+      padding:11px 28px;
+      border:1px solid currentColor;
+      border-radius:999px;
+      font-size:15px;
+      transition:.18s ease;
+    }
+    .button:hover{transform:translateY(-1px)}
+    .button.solid{background:var(--teal);border-color:var(--teal);color:#fffefc}
+    .button.light{color:#fffefc;background:rgba(42,124,111,.18);backdrop-filter:blur(1px)}
+    .section{padding:112px 24px;background:#fffefc}
+    .center{text-align:center;max-width:var(--max);margin:0 auto}
+    .about{
+      min-height:900px;
+      padding:0 24px;
+      background-image:linear-gradient(rgba(42,124,111,.18), rgba(42,124,111,.18)), var(--about);
+      background-size:cover;
+      background-position:center;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      color:#fffefc;
+    }
+    .about-card{
+      max-width:560px;
+      padding:42px 44px 46px;
+      background:rgba(42,124,111,.70);
+      box-shadow:0 18px 45px rgba(0,0,0,.08);
+    }
+    .about h2,.about .subhead{color:#fffefc}
+    .about p{font-size:17px;margin:26px auto 0;color:#fffefc}
+    .section-intro{padding-top:114px;padding-bottom:70px}
+    .services{padding-top:0}
+    .service-grid{
+      max-width:var(--max);
+      margin:0 auto;
+      display:grid;
+      gap:60px 20px;
+    }
+    .service-row{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:20px;
+      align-items:center;
+      min-height:320px;
+    }
+    .service-row.reverse .service-copy{grid-column:1;grid-row:1}
+    .service-row.reverse .service-media{grid-column:2;grid-row:1}
+    .service-media{width:100%;height:320px;object-fit:cover;display:block}
+    .service-copy{padding:35px 10px 35px 0;color:var(--teal)}
+    .service-copy p{margin:16px 0 0;color:var(--teal);font-size:18px}
+    .mini-link{display:inline-block;margin-top:22px;color:var(--teal-dark);border-bottom:1px solid var(--teal-dark);font-size:15px}
+    .promise{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      min-height:808px;
+      background:#fffefc;
+    }
+    .promise-left{background:var(--mint);padding:114px 9vw 80px;color:var(--teal)}
+    .promise-left h2{max-width:460px}
+    .promise-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px 36px;margin-top:78px;max-width:500px}
+    .promise-item .icon{font-size:34px;line-height:1;margin-bottom:20px;color:var(--teal)}
+    .promise-item h3{font-size:25px;line-height:1.23}
+    .promise-item p{font-size:17px;margin:10px 0 0;color:var(--teal)}
+    .promise-img{background:url('https://static.wixstatic.com/media/672c31391dfd4a759a58b154cffd85a9.jpg/v1/fill/w_720,h_808,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/672c31391dfd4a759a58b154cffd85a9.jpg') center/cover no-repeat}
+    .testimonial{
+      max-width:1280px;
+      margin:0 auto;
+      padding:80px 0;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      align-items:stretch;
+      background:#fffefc;
+    }
+    .quote-panel{background:var(--teal);color:#fffefc;padding:90px 70px 80px;display:flex;flex-direction:column;justify-content:center;min-height:480px}
+    .quote-panel .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:13px;margin-bottom:28px;opacity:.9}
+    .quote-panel p{font-size:25px;line-height:1.45;margin:0;max-width:480px}
+    .quote-panel strong{font-weight:300;display:block;margin-top:30px;font-size:24px}
+    .testimonial-img{background:url('https://static.wixstatic.com/media/671a947170434be6b240c8958d584bdb.jpg/v1/fill/w_640,h_480,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/671a947170434be6b240c8958d584bdb.jpg') center/cover no-repeat;min-height:480px}
+    .feedback{
+      background:var(--teal);
+      color:#fffefc;
+      padding:120px 24px 112px;
+      text-align:center;
+    }
+    .feedback img{width:100%;max-width:940px;height:360px;object-fit:cover;display:block;margin:0 auto 56px}
+    .feedback h2,.feedback .subhead{color:#fffefc}
+    .feedback .subhead{font-size:18px;max-width:660px;margin-left:auto;margin-right:auto;line-height:1.7}
+    .review-form,.contact-form{max-width:940px;margin:45px auto 0;text-align:left}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px}
+    label{display:block;font-size:14px;margin-bottom:6px;color:inherit}
+    input,textarea,select{
+      width:100%;border:0;border-bottom:1px solid currentColor;background:transparent;color:inherit;padding:10px 0 12px;font:inherit;outline:none;border-radius:0;
+    }
+    textarea{min-height:88px;resize:vertical}
+    .full{grid-column:1/-1}
+    .form-note{font-size:14px;opacity:.9;margin:22px 0 0}
+    .form-actions{display:flex;justify-content:flex-end;margin-top:32px}
+    .feedback .button{background:#fffefc;color:var(--teal);border-color:#fffefc;border-radius:0;min-width:200px}
+    .contact{padding:112px 24px 120px;background:#fffefc}
+    .contact-grid{max-width:940px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:20px 20px;align-items:start}
+    .contact-info{color:var(--teal);padding-right:40px}
+    .contact-info h2{margin-bottom:42px}
+    .contact-info p{font-size:17px;margin:0 0 16px;color:var(--teal)}
+    .contact-info .quick-call{margin-top:34px}
+    .contact-form{margin:0;color:#111}
+    .contact-form input,.contact-form textarea{border-bottom-color:#111;color:#111}
+    .contact-form .button{background:var(--teal);color:#fffefc;border-color:var(--teal);border-radius:0;width:100%}
+    footer{text-align:center;background:#fffefc;color:var(--teal);font-size:16px}
+    .footer-top{padding:34px 24px 26px}
+    .footer-phone{font-size:18px;margin-bottom:15px;display:inline-block;color:var(--teal)}
+    .footer-note{background:var(--teal);color:#fffefc;padding:21px 20px;font-size:14px}
+    .float-chat{
+      position:fixed;
+      right:26px;
+      bottom:24px;
+      z-index:5;
+      background:var(--teal);
+      color:#fffefc;
+      border-radius:999px;
+      padding:14px 22px;
+      box-shadow:0 12px 28px rgba(0,0,0,.18);
+      font-size:15px;
+    }
+    @media (max-width:900px){
+      .site-header{min-height:auto}.brand{min-width:0;width:auto}.nav-wrap{gap:11px}.nav-wrap .call-small{width:100%;max-width:240px;margin-left:0}
+      .hero{padding-bottom:50px}.hero-frame{min-height:640px;width:calc(100% - 32px)}h1{font-size:48px}h2{font-size:36px}.about{min-height:720px}.about-card{padding:34px 26px}
+      .service-row,.service-row.reverse{grid-template-columns:1fr;gap:22px}.service-row.reverse .service-copy,.service-row.reverse .service-media{grid-column:auto;grid-row:auto}.service-media{height:270px}.service-copy{padding:0;text-align:center}
+      .promise,.testimonial,.contact-grid{grid-template-columns:1fr}.promise-img{min-height:420px}.promise-left{padding:80px 24px}.promise-grid{grid-template-columns:1fr;margin-top:44px}.quote-panel{padding:60px 28px}.testimonial{padding:40px 0}.form-grid{grid-template-columns:1fr}.contact-info{padding-right:0}.float-chat{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="brand" href="#home">VSM PLUMBING LLC</a>
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#services">Services</a>
+      <a href="#guarantees">Guarantees</a>
+      <a href="#testimonial">Testimonials</a>
+      <a href="#review">Add a Review</a>
+      <a href="#contact">Contact</a>
+      <a class="call-small" href="tel:17033886278">Call 703-388-6278</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="VSM Plumbing hero">
+      <div class="hero-frame">
+        <div class="hero-copy">
+          <h1>Your Dependable Plumber</h1>
+          <p class="subcopy">Plumbing repairs, drains, water heaters, water purification, and backflow service for Hamilton and Northern Virginia homes.</p>
+          <div class="btn-row">
+            <a class="button light" href="#services">Learn More</a>
+            <a class="button solid" href="tel:17033886278">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-card">
+        <h2>All About Me</h2>
+        <p class="subhead">Your Plumbing Pro</p>
+        <p>VSM Plumbing LLC fixes plumbing and drainage problems without the runaround. I have worked as a plumber in the Northern Virginia area since 2005, so I have seen the leaks, clogs, water heater trouble, and mystery plumbing issues that slow a home down.</p>
+        <p>Tell me what is happening, send a few details, and I will help you figure out the next practical step.</p>
+        <div class="btn-row"><a class="button light" href="#contact">Request a Callback</a></div>
+      </div>
+    </section>
+
+    <section class="section section-intro" id="services">
+      <div class="center">
+        <h2>What I Offer</h2>
+        <p class="subhead">How Can I Help You?</p>
+      </div>
+    </section>
+
+    <section class="section services" aria-label="Plumbing services">
+      <div class="service-grid">
+        <article class="service-row">
+          <img class="service-media" src="https://static.wixstatic.com/media/11062b_db16985f4bf04df1892dab9822d4f840~mv2.jpeg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Leaky%20Sink%20Drain%20Pipe.jpeg" alt="Leaky sink drain pipe" />
+          <div class="service-copy">
+            <h3>Leak Detection</h3>
+            <p>Find the source of drips, stains, and hidden leaks before they turn into bigger repairs.</p>
+            <a class="mini-link" href="#contact">Ask about leak repair</a>
+          </div>
+        </article>
+        <article class="service-row reverse">
+          <img class="service-media" src="https://static.wixstatic.com/media/2c239b3714724b7287ff66dbbdb41ca9.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Plumber.jpg" alt="Plumber working with tools" />
+          <div class="service-copy">
+            <h3>Water Purification</h3>
+            <p>Practical help with water quality concerns, filter systems, and home water improvements.</p>
+            <a class="mini-link" href="#contact">Request water help</a>
+          </div>
+        </article>
+        <article class="service-row">
+          <img class="service-media" src="https://static.wixstatic.com/media/164bcc576475473e9933168fd3d56063.jpg/v1/crop/x_0,y_0,w_1614,h_1123/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pipe%20Machining%20and%20Cutting.jpg" alt="Pipe machining and cutting" />
+          <div class="service-copy">
+            <h3>Drain Cleaning</h3>
+            <p>Clear slow drains and stubborn clogs with clean communication and a straightforward plan.</p>
+            <a class="mini-link" href="#contact">Get drain service</a>
+          </div>
+        </article>
+        <article class="service-row reverse">
+          <img class="service-media" src="https://static.wixstatic.com/media/11062b_d10525a7c11340609c09f728d37507c7~mv2.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Handyman.jpg" alt="Handyman carrying plumbing tools" />
+          <div class="service-copy">
+            <h3>Water Heater Service</h3>
+            <p>Help with water heater problems, replacement conversations, and repair decisions.</p>
+            <a class="mini-link" href="#contact">Talk water heaters</a>
+          </div>
+        </article>
+        <article class="service-row">
+          <img class="service-media" src="https://static.wixstatic.com/media/11062b_4c4a16b13b90498d9a10da0644970021~mv2.jpeg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Plumber%20at%20Work.jpeg" alt="Plumber at work" />
+          <div class="service-copy">
+            <h3>Backflow Prevention and Repair</h3>
+            <p>Backflow prevention questions, repairs, and service calls handled by a local plumbing pro.</p>
+            <a class="mini-link" href="#contact">Schedule service</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promise" id="guarantees">
+      <div class="promise-left">
+        <h2>My Promise to You</h2>
+        <div class="promise-grid">
+          <div class="promise-item"><div class="icon">✓</div><h3>Professional Approach</h3><p>Clear next steps before work starts.</p></div>
+          <div class="promise-item"><div class="icon">⌂</div><h3>Family Business</h3><p>Friendly service from a local owner.</p></div>
+          <div class="promise-item"><div class="icon">◎</div><h3>Satisfaction Guaranteed</h3><p>A double check before the job wraps.</p></div>
+          <div class="promise-item"><div class="icon">☎</div><h3>Responsive Phone Support</h3><p>Call or text when a plumbing issue needs a clear next step.</p></div>
+        </div>
+      </div>
+      <div class="promise-img" role="img" aria-label="Pipe testing image"></div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="quote-panel">
+        <div class="eyebrow">Customer feedback</div>
+        <p>First review coming soon. Until then, this space can feature a short customer quote, a recent job note, or a simple before-and-after plumbing story.</p>
+        <strong>Real proof belongs here</strong>
+      </div>
+      <div class="testimonial-img" role="img" aria-label="Customer portrait from original site"></div>
+    </section>
+
+    <section class="feedback" id="review">
+      <img src="https://static.wixstatic.com/media/11062b_db16985f4bf04df1892dab9822d4f840~mv2.jpeg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Leaky%20Sink%20Drain%20Pipe.jpeg" alt="Leaky sink drain pipe" />
+      <h2>Provide Your Feedback</h2>
+      <p class="subhead">Had a good experience with VSM Plumbing LLC? A short review helps nearby homeowners choose a plumber with confidence.</p>
+      <form class="review-form" action="mailto:vsmplumbingllc@gmail.com" method="post" enctype="text/plain">
+        <div class="form-grid">
+          <div><label for="first">First Name</label><input id="first" name="First name" autocomplete="given-name" /></div>
+          <div><label for="last">Last Name</label><input id="last" name="Last name" autocomplete="family-name" /></div>
+          <div><label for="email-review">Email</label><input id="email-review" name="Email" type="email" autocomplete="email" /></div>
+          <div><label for="phone-review">Phone</label><input id="phone-review" name="Phone" type="tel" autocomplete="tel" /></div>
+          <div class="full"><label for="review-text">Review</label><textarea id="review-text" name="Review"></textarea></div>
+        </div>
+        <p class="form-note">Would you recommend us to your friends? Yes / No</p>
+        <div class="form-actions"><button class="button" type="submit">Submit</button></div>
+      </form>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+          <p>Hamilton, VA 20158, USA</p>
+          <p><a href="mailto:vsmplumbingllc@gmail.com">vsmplumbingllc@gmail.com</a></p>
+          <p><a href="tel:17033886278">703-388-6278</a></p>
+          <div class="quick-call"><a class="button solid" href="tel:17033886278">Call 703-388-6278</a></div>
+        </div>
+        <form class="contact-form" action="mailto:vsmplumbingllc@gmail.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <div><label for="name">Name</label><input id="name" name="Name" autocomplete="name" /></div>
+            <div><label for="email">Email</label><input id="email" name="Email" type="email" autocomplete="email" /></div>
+            <div><label for="phone">Phone</label><input id="phone" name="Phone" type="tel" autocomplete="tel" /></div>
+            <div><label for="subject">Subject</label><input id="subject" name="Subject" /></div>
+            <div class="full"><label for="message">Message</label><textarea id="message" name="Message"></textarea></div>
+          </div>
+          <div class="form-actions"><button class="button" type="submit">Submit</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top"><a class="footer-phone" href="tel:17033886278">703-388-6278</a></div>
+    <div class="footer-note">©2026 by VSM Plumbing LLC. Site cleanup concept based on the current Wix page.</div>
+  </footer>
+  <a class="float-chat" href="tel:17033886278">Let’s Chat!</a>
+</body>
+</html>
