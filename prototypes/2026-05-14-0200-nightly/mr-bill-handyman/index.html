@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mr. Bill Handyman, LLC | Prototype Refresh</title>
+  <meta name="description" content="A focused one-page prototype for Mr. Bill Handyman, LLC that keeps the original black and gold handyman brand while clarifying services and estimate calls to action." />
+  <style>
+    :root {
+      --ink: #070707;
+      --coal: #11100f;
+      --panel: #1b1712;
+      --panel-soft: #272017;
+      --gold: #d6aa31;
+      --gold-bright: #f2c94c;
+      --cream: #fff8e8;
+      --muted: #d7cfbf;
+      --line: rgba(242, 201, 76, .22);
+      --shadow: 0 26px 90px rgba(0,0,0,.45);
+      --radius: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--cream);
+      background:
+        radial-gradient(circle at top left, rgba(214,170,49,.18), transparent 32rem),
+        linear-gradient(180deg, #080808 0%, #15110c 46%, #080808 100%);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    .topbar {
+      background: #000;
+      color: var(--muted);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      font-size: .9rem;
+    }
+    .wrap { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar .wrap, .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .topbar .wrap { padding: 10px 0; flex-wrap: wrap; }
+    .contact-strip { display: flex; gap: 18px; flex-wrap: wrap; }
+    .contact-strip a { text-decoration: none; color: var(--cream); }
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(7,7,7,.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(214,170,49,.2);
+    }
+    .nav { padding: 18px 0; }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 260px;
+      text-decoration: none;
+    }
+    .brand img { width: 58px; height: 58px; border-radius: 50%; border: 2px solid var(--gold); object-fit: cover; background: #fff; }
+    .brand strong { display: block; color: var(--gold-bright); letter-spacing: .09em; font-size: .95rem; }
+    .brand span { display: block; color: var(--muted); font-size: .82rem; margin-top: 2px; }
+    .navlinks { display: flex; align-items: center; gap: 24px; font-size: .92rem; color: var(--muted); }
+    .navlinks a { text-decoration: none; }
+    .navlinks a:hover { color: var(--gold-bright); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 46px;
+      padding: 12px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--gold);
+      background: var(--gold);
+      color: #16120a;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 14px 32px rgba(214,170,49,.2);
+    }
+    .btn.secondary { background: transparent; color: var(--gold-bright); box-shadow: none; }
+    .btn.dark { background: #080808; color: var(--gold-bright); }
+    .hero {
+      min-height: 780px;
+      display: grid;
+      align-items: stretch;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.76) 38%, rgba(0,0,0,.4) 72%, rgba(0,0,0,.72) 100%),
+        url('assets/hero-industrial-engineer.webp') center / cover no-repeat;
+      transform: scale(1.02);
+    }
+    .hero .wrap {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) 420px;
+      gap: 38px;
+      align-items: center;
+      padding: 76px 0 72px;
+    }
+    .eyebrow {
+      color: var(--gold-bright);
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      font-size: .8rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    h1, h2, h3 { margin: 0; line-height: 1.04; text-transform: uppercase; letter-spacing: .045em; }
+    h1 {
+      font-size: clamp(3rem, 7vw, 6.7rem);
+      color: var(--gold-bright);
+      max-width: 780px;
+      text-shadow: 0 12px 38px rgba(0,0,0,.6);
+    }
+    .lead {
+      max-width: 690px;
+      color: #f6edd9;
+      font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+      margin: 24px 0 26px;
+    }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 24px; }
+    .proof-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .proof-pill {
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.42);
+      color: var(--cream);
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-size: .9rem;
+    }
+    .estimate-card {
+      background: rgba(16,14,12,.88);
+      border: 1px solid rgba(242,201,76,.28);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .estimate-card h2 { color: var(--cream); font-size: 1.6rem; margin-bottom: 12px; }
+    .estimate-card p { color: var(--muted); margin: 0 0 20px; }
+    .quick-list { display: grid; gap: 12px; margin: 22px 0; padding: 0; list-style: none; }
+    .quick-list li {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      align-items: start;
+      gap: 10px;
+      color: #f7edd8;
+    }
+    .quick-list b { color: var(--gold-bright); }
+    section { padding: 86px 0; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 32px; }
+    .section-head h2 { color: var(--gold-bright); font-size: clamp(2rem, 4vw, 3.7rem); }
+    .section-head p { max-width: 520px; color: var(--muted); margin: 0; }
+    .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+    .card {
+      background: linear-gradient(180deg, rgba(42,35,25,.95), rgba(17,15,13,.96));
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 18px 55px rgba(0,0,0,.24);
+      min-height: 100%;
+    }
+    .card img { height: 220px; width: 100%; object-fit: cover; background: #222; }
+    .card .pad { padding: 20px; }
+    .card h3 { color: var(--cream); font-size: 1.04rem; margin-bottom: 10px; }
+    .card p { color: var(--muted); margin: 0; font-size: .95rem; }
+    .split {
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      gap: 34px;
+      align-items: center;
+    }
+    .story-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+    .story-card h2 { color: var(--gold-bright); font-size: clamp(1.9rem, 4vw, 3.35rem); margin-bottom: 16px; }
+    .story-card p { color: var(--muted); margin: 0 0 15px; }
+    .photo-stack { position: relative; min-height: 560px; }
+    .photo-stack img {
+      position: absolute;
+      object-fit: cover;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 24px 70px rgba(0,0,0,.36);
+    }
+    .photo-stack .one { width: 63%; height: 410px; left: 0; top: 42px; }
+    .photo-stack .two { width: 48%; height: 330px; right: 0; top: 0; }
+    .photo-stack .three { width: 52%; height: 270px; right: 44px; bottom: 0; }
+    .process {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .step {
+      border: 1px solid var(--line);
+      background: #0d0c0b;
+      border-radius: 20px;
+      padding: 24px;
+    }
+    .step span { color: var(--gold-bright); font-weight: 900; letter-spacing: .16em; font-size: .78rem; }
+    .step h3 { margin: 12px 0 10px; color: var(--cream); font-size: 1.12rem; }
+    .step p { color: var(--muted); margin: 0; }
+    .gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+    .gallery img { width: 100%; height: 170px; object-fit: cover; border-radius: 14px; border: 1px solid rgba(255,255,255,.08); background: #1a1a1a; }
+    .gallery img:nth-child(1), .gallery img:nth-child(6) { grid-column: span 2; height: 350px; }
+    .gallery img:nth-child(3) { grid-column: span 2; }
+    .gallery img:nth-child(7) { grid-column: span 2; }
+    .cta {
+      background:
+        linear-gradient(135deg, rgba(214,170,49,.94), rgba(159,113,24,.96)),
+        #d6aa31;
+      color: #14110b;
+      padding: 58px;
+      border-radius: 28px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: center;
+      box-shadow: 0 30px 100px rgba(0,0,0,.32);
+    }
+    .cta h2 { font-size: clamp(2rem, 4vw, 4rem); }
+    .cta p { max-width: 680px; margin: 14px 0 0; font-size: 1.1rem; }
+    footer { padding: 36px 0; color: var(--muted); border-top: 1px solid var(--line); background: #060606; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    .note { font-size: .82rem; color: #a79d8c; margin-top: 8px; }
+    @media (max-width: 950px) {
+      .hero .wrap, .split, .cta { grid-template-columns: 1fr; }
+      .estimate-card { max-width: 560px; }
+      .cards { grid-template-columns: repeat(2, 1fr); }
+      .process { grid-template-columns: 1fr; }
+      .gallery { grid-template-columns: repeat(2, 1fr); }
+      .gallery img, .gallery img:nth-child(n) { grid-column: span 1; height: 210px; }
+      .nav { align-items: flex-start; flex-direction: column; }
+      .navlinks { flex-wrap: wrap; }
+    }
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 28px, 1160px); }
+      .topbar .wrap, .contact-strip, .hero-actions { flex-direction: column; align-items: flex-start; }
+      .hero { min-height: auto; }
+      .hero .wrap { padding: 54px 0; }
+      h1 { font-size: 3rem; }
+      section { padding: 58px 0; }
+      .cards { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .section-head p { margin-top: 12px; }
+      .photo-stack { min-height: 0; display: grid; gap: 14px; }
+      .photo-stack img { position: static; width: 100% !important; height: 260px !important; }
+      .cta { padding: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar" aria-label="Contact bar">
+    <div class="wrap">
+      <div class="contact-strip">
+        <a href="mailto:mr.billhandymanllc@gmail.com">mr.billhandymanllc@gmail.com</a>
+        <a href="tel:+16094354398">609-435-4398</a>
+      </div>
+      <div>Serving South Jersey, McKean County, Potter County, and surrounding areas</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main navigation">
+      <a class="brand" href="#top">
+        <img src="assets/logo-horse-handyman.webp" alt="Mr. Bill Handyman horse logo" />
+        <span><strong>MR. BILL HANDYMAN, LLC</strong><span>Crafting South Jersey's dreams since 2020</span></span>
+      </a>
+      <div class="navlinks">
+        <a href="#services">Services</a>
+        <a href="#proof">License</a>
+        <a href="#work">Project photos</a>
+        <a href="#contact">Contact</a>
+        <a class="btn secondary" href="mailto:mr.billhandymanllc@gmail.com?subject=Free%20estimate%20request">Free estimate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Hero">
+      <div class="wrap">
+        <div>
+          <div class="eyebrow">Licensed, insured, family-run handyman service</div>
+          <h1>Home repairs done with Mr. Bill detail.</h1>
+          <p class="lead">From flooring and backsplashes to odd jobs, repairs, decks, fixtures, and remodeling punch lists, Bill and Julie help homeowners get practical projects finished without the budget shock.</p>
+          <div class="hero-actions">
+            <a class="btn" href="tel:+16094354398">Call for a free estimate</a>
+            <a class="btn secondary" href="mailto:mr.billhandymanllc@gmail.com?subject=Handyman%20estimate%20request">Email your project</a>
+          </div>
+          <div class="proof-row" id="proof">
+            <span class="proof-pill">NJ license #13VH11636400</span>
+            <span class="proof-pill">PA license #200387</span>
+            <span class="proof-pill">TWIC government clearance</span>
+            <span class="proof-pill">25+ years home improvement experience</span>
+          </div>
+        </div>
+        <aside class="estimate-card" aria-label="Quick estimate card">
+          <h2>Tell us what needs fixing.</h2>
+          <p>A clearer first-screen estimate path lets visitors choose how to reach out without scrolling through the whole Wix page.</p>
+          <ul class="quick-list">
+            <li><b>1</b><span>Send a few photos and the city or county.</span></li>
+            <li><b>2</b><span>Bill confirms the scope, timing, and materials.</span></li>
+            <li><b>3</b><span>You get an honest plan for the repair or upgrade.</span></li>
+          </ul>
+          <a class="btn" href="mailto:mr.billhandymanllc@gmail.com?subject=Project%20photos%20for%20estimate">Start with photos</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">What we provide</div>
+            <h2>Services grouped for faster decisions.</h2>
+          </div>
+          <p>The original site has a strong service list. This version keeps the personality and makes the main buckets easy to scan.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/service-flooring-plumber.webp" alt="Handyman flooring and home repair work" />
+            <div class="pad">
+              <h3>Flooring and tile</h3>
+              <p>Repair, demo, installation, backsplash details, kitchen and bath tile, and finish work.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/service-remodel-before.webp" alt="Home remodel project photo" />
+            <div class="pad">
+              <h3>Remodels and repairs</h3>
+              <p>Home improvement, renovation, drywall, trim, ceiling and wall repair, painting, and carpentry.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/gallery-kitchen-1.webp" alt="Kitchen project detail" />
+            <div class="pad">
+              <h3>Kitchens and baths</h3>
+              <p>Updates that make everyday rooms more comfortable, useful, and finished.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/service-odd-jobs-construction.webp" alt="Construction and odd job services" />
+            <div class="pad">
+              <h3>Odd jobs and exterior help</h3>
+              <p>Gutters, debris cleanups, power washing, deck repair, patio doors, fixtures, and more.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap split">
+        <div class="photo-stack" aria-hidden="true">
+          <img class="one" src="assets/gallery-bathroom-tile-1.webp" alt="" />
+          <img class="two" src="assets/gallery-deck-1.webp" alt="" />
+          <img class="three" src="assets/founders-julie-bill.webp" alt="" />
+        </div>
+        <div class="story-card">
+          <div class="eyebrow">Real people, real needs</div>
+          <h2>Keep the family story, shorten the path.</h2>
+          <p>Julie and Bill's story is one of the strongest parts of the current page: budget-aware, family-driven, meticulous, and honest. The redesign brings that trust into the top half instead of leaving it deep down the page.</p>
+          <p>Visitors see the license details, service categories, estimate steps, and contact options before they hit the long project gallery.</p>
+          <a class="btn secondary" href="#contact">See the contact flow</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Cleaner conversion path</div>
+            <h2>One simple flow from problem to estimate.</h2>
+          </div>
+        </div>
+        <div class="process">
+          <article class="step"><span>STEP 01</span><h3>Pick the job type</h3><p>Flooring, remodel, backsplash, fixture install, deck, drywall, or the odd job that has been waiting too long.</p></article>
+          <article class="step"><span>STEP 02</span><h3>Call or email once</h3><p>Phone, email, and photo request stay visible in the header, hero, and final contact block.</p></article>
+          <article class="step"><span>STEP 03</span><h3>Get a practical plan</h3><p>The copy emphasizes honest work, budget awareness, and one-business-day follow-up.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Original project photos</div>
+            <h2>Proof that the work is real.</h2>
+          </div>
+          <p>The live page has a large gallery. This version edits it into a tighter preview so the photos support the estimate instead of burying it.</p>
+        </div>
+        <div class="gallery" aria-label="Project photo gallery">
+          <img src="assets/gallery-bathroom-tile-2.webp" alt="Bathroom tile project" />
+          <img src="assets/gallery-bathroom-tile-3.webp" alt="Tile detail" />
+          <img src="assets/gallery-flooring-1.webp" alt="Flooring project" />
+          <img src="assets/gallery-window-1.webp" alt="Window or exterior project" />
+          <img src="assets/gallery-patio-1.webp" alt="Patio or exterior project" />
+          <img src="assets/gallery-room-1.webp" alt="Interior repair project" />
+          <img src="assets/gallery-kitchen-1.webp" alt="Kitchen project" />
+          <img src="assets/gallery-deck-1.webp" alt="Deck project" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="cta">
+          <div>
+            <div class="eyebrow" style="color:#4d3905">Free estimate</div>
+            <h2>Ready to fix the thing on your list?</h2>
+            <p>Call 609-435-4398 or email project photos, your location, and what you want repaired or improved. Serving South Jersey, Northern Pennsylvania, McKean County, Potter County, and surrounding areas.</p>
+          </div>
+          <div class="hero-actions" style="margin:0">
+            <a class="btn dark" href="tel:+16094354398">Call now</a>
+            <a class="btn dark" href="mailto:mr.billhandymanllc@gmail.com?subject=Free%20estimate%20request">Email Mr. Bill</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <strong>MR. BILL HANDYMAN, LLC</strong><br />Port Allegany, PA 16743<br />mr.billhandymanllc@gmail.com</div>
+      <div>
+        <strong>Prototype note</strong><br />Original Wix colors, logo, copy cues, license proof, and project photos reused for a faster estimate-focused homepage.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

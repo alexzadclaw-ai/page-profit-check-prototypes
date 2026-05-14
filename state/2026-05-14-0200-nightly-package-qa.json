@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-14-0200-nightly",
+  "batchJson": "opportunities/2026-05-14-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "rags-2-riches-cleaning-services",
+      "name": "Rags 2 Riches Cleaning Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/rags-2-riches-cleaning-services-audit.md",
+          "exists": true,
+          "size": 9080
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/rags-2-riches-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1765
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/rags-2-riches-cleaning-services/index.html",
+          "exists": true,
+          "size": 12432
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/rags-2-riches-cleaning-services-target.png",
+          "exists": true,
+          "size": 1012860
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/rags-2-riches-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 1073449
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6068,
+        "pixelSimilarity": 0.797,
+        "edgeLayoutSimilarity": 0.7204,
+        "perceptualHashSimilarity": 0.8125,
+        "weightedSimilarity": 0.7326
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/rags-2-riches-cleaning-services-source-assets.md"
+    },
+    {
+      "slug": "blissfully-clean",
+      "name": "Blissfully Clean LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/blissfully-clean-audit.md",
+          "exists": true,
+          "size": 5185
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/blissfully-clean-offer.md",
+          "exists": true,
+          "size": 1224
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/blissfully-clean/index.html",
+          "exists": true,
+          "size": 9382
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/blissfully-clean-target.png",
+          "exists": true,
+          "size": 188155
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/blissfully-clean-prototype.png",
+          "exists": true,
+          "size": 240744
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.1656,
+        "pixelSimilarity": 0.8761,
+        "edgeLayoutSimilarity": 0.7972,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.6645
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/blissfully-clean-source-assets.md"
+    },
+    {
+      "slug": "pino-handyman",
+      "name": "Pino Handyman LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/pino-handyman-audit.md",
+          "exists": true,
+          "size": 4384
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/pino-handyman-offer.md",
+          "exists": true,
+          "size": 1087
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/pino-handyman/index.html",
+          "exists": true,
+          "size": 6877
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/pino-handyman-target.png",
+          "exists": true,
+          "size": 459823
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/pino-handyman-prototype.png",
+          "exists": true,
+          "size": 488744
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5468,
+        "pixelSimilarity": 0.8934,
+        "edgeLayoutSimilarity": 0.7905,
+        "perceptualHashSimilarity": 0.9062,
+        "weightedSimilarity": 0.7829
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/pino-handyman-source-assets.md"
+    },
+    {
+      "slug": "plumb-it-co-plumbing",
+      "name": "Plumb-It Co. Plumbing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/plumb-it-co-plumbing-audit.md",
+          "exists": true,
+          "size": 4728
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/plumb-it-co-plumbing-offer.md",
+          "exists": true,
+          "size": 1507
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/plumb-it-co-plumbing/index.html",
+          "exists": true,
+          "size": 6360
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/plumb-it-co-plumbing-target.png",
+          "exists": true,
+          "size": 91029
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/plumb-it-co-plumbing-prototype.png",
+          "exists": true,
+          "size": 130604
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7301,
+        "pixelSimilarity": 0.6492,
+        "edgeLayoutSimilarity": 0.7496,
+        "perceptualHashSimilarity": 0.7656,
+        "weightedSimilarity": 0.712
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/plumb-it-co-plumbing-source-assets.md"
+    },
+    {
+      "slug": "apm-cleaning-services",
+      "name": "APM Cleaning Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/apm-cleaning-services-audit.md",
+          "exists": true,
+          "size": 3240
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/apm-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1276
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/apm-cleaning-services/index.html",
+          "exists": true,
+          "size": 18362
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/apm-cleaning-services-target.png",
+          "exists": true,
+          "size": 1174212
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/apm-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 1467748
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4555,
+        "pixelSimilarity": 0.7874,
+        "edgeLayoutSimilarity": 0.6827,
+        "perceptualHashSimilarity": 0.6562,
+        "weightedSimilarity": 0.6586
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/apm-cleaning-services-source-assets.md"
+    },
+    {
+      "slug": "celestial-cleaning",
+      "name": "Celestial Cleaning LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/celestial-cleaning-audit.md",
+          "exists": true,
+          "size": 3080
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/celestial-cleaning-offer.md",
+          "exists": true,
+          "size": 1534
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/celestial-cleaning/index.html",
+          "exists": true,
+          "size": 21070
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/celestial-cleaning-target.png",
+          "exists": true,
+          "size": 689274
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/celestial-cleaning-prototype.png",
+          "exists": true,
+          "size": 754297
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5037,
+        "pixelSimilarity": 0.6865,
+        "edgeLayoutSimilarity": 0.7106,
+        "perceptualHashSimilarity": 0.5625,
+        "weightedSimilarity": 0.6282
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/celestial-cleaning-source-assets.md"
+    },
+    {
+      "slug": "krebs-lawn-care",
+      "name": "Krebs Lawn Care LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/krebs-lawn-care-audit.md",
+          "exists": true,
+          "size": 5507
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/krebs-lawn-care-offer.md",
+          "exists": true,
+          "size": 1408
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/krebs-lawn-care/index.html",
+          "exists": true,
+          "size": 8269
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/krebs-lawn-care-target.png",
+          "exists": true,
+          "size": 3068711
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/krebs-lawn-care-prototype.png",
+          "exists": true,
+          "size": 2502588
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7398,
+        "pixelSimilarity": 0.6825,
+        "edgeLayoutSimilarity": 0.6785,
+        "perceptualHashSimilarity": 0.75,
+        "weightedSimilarity": 0.706
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/krebs-lawn-care-source-assets.md"
+    },
+    {
+      "slug": "jbi-plumbing",
+      "name": "JBI Plumbing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/jbi-plumbing-audit.md",
+          "exists": true,
+          "size": 5850
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/jbi-plumbing-offer.md",
+          "exists": true,
+          "size": 1674
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/jbi-plumbing/index.html",
+          "exists": true,
+          "size": 9784
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/jbi-plumbing-target.png",
+          "exists": true,
+          "size": 306549
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/jbi-plumbing-prototype.png",
+          "exists": true,
+          "size": 329094
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6977,
+        "pixelSimilarity": 0.7452,
+        "edgeLayoutSimilarity": 0.736,
+        "perceptualHashSimilarity": 0.75,
+        "weightedSimilarity": 0.7317
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/jbi-plumbing-source-assets.md"
+    },
+    {
+      "slug": "mr-bill-handyman",
+      "name": "Mr. Bill Handyman LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/mr-bill-handyman-audit.md",
+          "exists": true,
+          "size": 3198
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/mr-bill-handyman-offer.md",
+          "exists": true,
+          "size": 1362
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/mr-bill-handyman/index.html",
+          "exists": true,
+          "size": 19199
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/mr-bill-handyman-target.png",
+          "exists": true,
+          "size": 15681855
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/mr-bill-handyman-prototype.png",
+          "exists": true,
+          "size": 3258505
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3885,
+        "pixelSimilarity": 0.6619,
+        "edgeLayoutSimilarity": 0.694,
+        "perceptualHashSimilarity": 0.6406,
+        "weightedSimilarity": 0.5984
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/mr-bill-handyman-source-assets.md"
+    },
+    {
+      "slug": "acp-cleaning-services",
+      "name": "ACP Cleaning Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-14-0200-nightly/acp-cleaning-services-audit.md",
+          "exists": true,
+          "size": 5162
+        },
+        "offer": {
+          "path": "offers/2026-05-14-0200-nightly/acp-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1372
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-14-0200-nightly/acp-cleaning-services/index.html",
+          "exists": true,
+          "size": 11569
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/acp-cleaning-services-target.png",
+          "exists": true,
+          "size": 1765216
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-14-0200-nightly/acp-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 3130633
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.721,
+        "pixelSimilarity": 0.566,
+        "edgeLayoutSimilarity": 0.6769,
+        "perceptualHashSimilarity": 0.5625,
+        "weightedSimilarity": 0.6319
+      },
+      "sourceAssetsNote": "state/2026-05-14-0200-nightly/acp-cleaning-services-source-assets.md"
+    }
+  ]
+}

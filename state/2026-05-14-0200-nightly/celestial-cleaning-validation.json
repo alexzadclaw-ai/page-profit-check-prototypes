@@ -1,0 +1,92 @@
+{
+  "fileUrl": "file:///home/claw/page-profit-celestial-file/index.html",
+  "screenshot": "/home/claw/.openclaw/workspace/page-profit-check-prototypes/screenshots/2026-05-14-0200-nightly/celestial-cleaning-prototype.png",
+  "screenshotBytes": 754297,
+  "identify": "",
+  "pageSize": {
+    "title": "Celestial Cleaning LLC | Commercial Cleaning & Disinfecting in Bloomington",
+    "url": "file:///home/claw/page-profit-celestial-file/index.html",
+    "scrollWidth": 1440,
+    "scrollHeight": 3602,
+    "bodyHeight": 3602,
+    "textLength": 2987,
+    "imagesLoaded": true
+  },
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/bc2348_8de8695d7dbd401494d27706bb1b48fe~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Minnesota%20outline.jpg",
+      "alt": "Celestial Cleaning Minnesota outline logo",
+      "complete": true,
+      "naturalWidth": 80,
+      "naturalHeight": 80,
+      "rect": {
+        "x": 80,
+        "y": 77,
+        "w": 80,
+        "h": 80
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/bc2348_cdbc740dfdf04196b6110cca1750b613~mv2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7783_edited.jpg",
+      "alt": "Celestial Cleaning team member at a building entrance",
+      "complete": true,
+      "naturalWidth": 940,
+      "naturalHeight": 440,
+      "rect": {
+        "x": 709.59375,
+        "y": 467.046875,
+        "w": 625.40625,
+        "h": 292.734375
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "alt": "Twitter icon",
+      "complete": true,
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 1240,
+        "y": 3537.515625,
+        "w": 20,
+        "h": 20
+      }
+    },
+    {
+      "src": "https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
+      "alt": "LinkedIn icon",
+      "complete": true,
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 1284,
+        "y": 3537.515625,
+        "w": 20,
+        "h": 20
+      }
+    }
+  ],
+  "auditBytes": 3432,
+  "offerBytes": 1534,
+  "sourceNotesBytes": 3138,
+  "prototypeHtmlBytes": 21070,
+  "targetScreenshotBytes": 689274,
+  "prototypeScreenshotBytes": 754297,
+  "prototypeScreenshotImage": {
+    "width": 1440,
+    "height": 3602,
+    "mean": [
+      218.54,
+      221.59,
+      227.6
+    ],
+    "stddev": [
+      77.92,
+      70.58,
+      58.0
+    ],
+    "nonBlank": true
+  },
+  "offerEmDashCount": 0,
+  "validationSummary": "Prototype screenshot captured from file://, all 4 images loaded, screenshot is nonblank by size and RGB variance, and offer contains zero em dashes."
+}

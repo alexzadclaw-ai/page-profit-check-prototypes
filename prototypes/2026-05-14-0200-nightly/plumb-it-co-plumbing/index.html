@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plumb-It Co. Plumbing LLC | Service Paths Prototype</title>
+  <style>
+    :root{
+      --blue:#198bd2;
+      --dark:#4b4b4b;
+      --footer:#4a4a4a;
+      --light:#f3f3f3;
+      --line:#1d9be0;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#fff;color:#222;font-family:Arial, Helvetica, sans-serif;}
+    .wixbar{height:54px;background:#f7f7f7;border-bottom:1px solid #e4e4e4;display:flex;align-items:center;justify-content:center;color:#333;font-size:14px;gap:16px;}
+    .wixbar strong{font-weight:700;letter-spacing:.03em}.wixbar .btn{border:1px solid #1a73e8;color:#1a73e8;border-radius:18px;padding:7px 18px;background:#fff;font-weight:600}
+    .page{width:730px;margin-left:318px;min-height:690px;}
+    .contact{height:58px;display:flex;align-items:center;gap:38px;font-size:15px;color:#333;}
+    a{color:inherit;text-decoration:none}.fb{margin-left:auto;background:#3d5a98;color:#fff;width:20px;height:20px;border-radius:2px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-family:Georgia,serif;font-size:16px;}
+    .rule{height:3px;background:var(--line);width:100%;}
+    .brand{display:grid;grid-template-columns:92px 1fr;gap:18px;align-items:center;margin-top:23px;}
+    .brand img{width:81px;height:80px;object-fit:cover;border-radius:2px;}
+    h1{margin:0;color:var(--blue);font-size:28px;line-height:1.12;letter-spacing:.05em;font-weight:700;text-transform:uppercase;}
+    .tag{margin-top:9px;color:#777;font-size:16px;letter-spacing:.08em;text-transform:uppercase;}
+    .hero{margin-top:32px;max-width:640px;}
+    h2{margin:0 0 17px;color:var(--blue);font-size:31px;letter-spacing:.06em;text-transform:uppercase;}
+    .lead{font-size:18px;line-height:1.6;color:#333;text-transform:uppercase;margin:0 0 20px;font-weight:600;}
+    .cta-row{display:flex;gap:12px;margin:21px 0 26px;}
+    .cta{display:inline-block;background:var(--blue);color:#fff;padding:13px 22px;border-radius:2px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;font-size:14px;box-shadow:0 2px 0 rgba(0,0,0,.12)}
+    .cta.secondary{background:#555;}
+    .paths{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;max-width:690px;margin:0 0 26px;}
+    .card{border:1px solid #d8d8d8;border-top:4px solid var(--blue);padding:17px 16px 18px;min-height:170px;background:#fff;}
+    .card h3{margin:0 0 10px;color:#333;font-size:18px;text-transform:uppercase;letter-spacing:.04em;}
+    .card ul{margin:0;padding-left:17px;color:#333;font-size:14px;line-height:1.55;text-transform:uppercase;}
+    .service-list{margin-top:20px;border-left:3px solid var(--line);padding-left:18px;max-width:640px;}
+    .service-list p{margin:0 0 10px;font-size:16px;line-height:1.45;text-transform:uppercase;color:#222;}
+    .note{margin-top:20px;background:#f6fbfe;border:1px solid #d7edf9;padding:16px 18px;max-width:640px;color:#3d3d3d;line-height:1.5;font-size:15px;}
+    .footer{height:118px;background:var(--footer);margin-top:62px;color:#fff;display:flex;align-items:center;justify-content:center;}
+    .footer-inner{width:730px;display:flex;align-items:center;justify-content:center;gap:48px;font-size:16px;}.footer .fb{margin:0;background:#fff;color:#4a4a4a;}
+    .copyright{height:66px;background:#eee;color:#3c3c3c;display:flex;align-items:center;justify-content:center;font-size:13px;}
+    @media(max-width:900px){.page{width:auto;margin:0 24px}.paths{grid-template-columns:1fr}.footer-inner{width:auto;flex-direction:column;gap:10px}.contact{gap:18px;flex-wrap:wrap;height:auto;padding:18px 0}.fb{margin-left:0}.wixbar{font-size:12px;padding:0 10px}.brand{grid-template-columns:78px 1fr}h1{font-size:23px}}
+  </style>
+</head>
+<body>
+  <div class="wixbar"><strong>WIX</strong><span>This website was built on Wix. Create yours today.</span><span class="btn">Get Started</span></div>
+  <main class="page">
+    <div class="contact"><a href="mailto:plumbitcoplumbing@gmail.com">plumbitcoplumbing@gmail.com</a><a href="tel:6827030777">682.703.0777</a><a class="fb" href="http://facebook.com/plumbitcoplumbing" aria-label="Facebook">f</a></div>
+    <div class="rule"></div>
+    <section class="brand" aria-label="Plumb-It Co. Plumbing LLC">
+      <img src="assets/plumb-it-logo.jpg" alt="Plumb-It Co. Plumbing LLC logo">
+      <div><h1>Plumb-It Co. Plumbing&nbsp;LLC</h1><div class="tag">The only plumber you'll ever need</div></div>
+    </section>
+    <section class="hero">
+      <h2>Services</h2>
+      <p class="lead">Residential and commercial plumbing service, repairs, installs, and new construction across North Texas.</p>
+      <div class="cta-row"><a class="cta" href="tel:6827030777">Call 682.703.0777</a><a class="cta secondary" href="mailto:plumbitcoplumbing@gmail.com">Email for service</a></div>
+      <div class="paths">
+        <article class="card"><h3>Urgent help</h3><ul><li>Slab leaks</li><li>Utility repair</li><li>Drain cleaning</li><li>Line camera checks</li></ul></article>
+        <article class="card"><h3>Repairs</h3><ul><li>Sinks and faucets</li><li>Toilets and tubs</li><li>Showers</li><li>Water, gas, and sewer lines</li></ul></article>
+        <article class="card"><h3>Installs</h3><ul><li>Tank water heaters</li><li>Tankless water heaters</li><li>New construction plumbing</li><li>Fixtures and much more</li></ul></article>
+      </div>
+      <div class="service-list">
+        <p>Residential &amp; commercial service &amp; new construction</p>
+        <p>Utility repair &amp; install</p>
+        <p>Water heaters, tank and tankless</p>
+        <p>Service &amp; install gas lines, water lines, &amp; sewer lines</p>
+      </div>
+      <div class="note">Need help now or planning a project? Call first for the fastest route, or email photos and a short description so Plumb-It Co. can point you toward the right repair or install path.</div>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-inner"><a href="mailto:plumbitcoplumbing@gmail.com">plumbitcoplumbing@gmail.com</a><a href="tel:6827030777">682.703.0777</a><a class="fb" href="http://facebook.com/plumbitcoplumbing" aria-label="Facebook">f</a></div></footer>
+  <div class="copyright">©2017 by Plumb-It Co. Plumbing, LLC. Proudly created with Wix.com</div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "batch": "2026-05-14-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-14T02:00:00-05:00",
+  "curationNotes": "Startup Gmail signature preflight passed. Curated from live indexed Wix small-business sites in the 2026-05-14 2:00 AM run. Inspected 10 candidate sites total, selected all 10 because each has live contact info, local-service intent, source assets, and visible conversion cleanup needs. Duplicates from previous batches were excluded before selection. Prototypes must be GPT-5.5-authored one site per isolated sub-agent, no old scripted generator.",
+  "items": [
+    {
+      "slug": "rags-2-riches-cleaning-services",
+      "name": "Rags 2 Riches Cleaning Services LLC",
+      "url": "https://rags2rags.wixsite.com/cleaning",
+      "contact": "mailto:r2rcleaningservicesllc@gmail.com",
+      "phone": "",
+      "location": "Central Ohio",
+      "vertical": "residential and commercial cleaning",
+      "summary": "Wix cleaning site has a real founder story, broad service list, booking/contact nav, and service images, but the first screen is generic and the quote path is buried below boilerplate.",
+      "angle": "Keep the purple/cleaning-service Wix feel and real service imagery while tightening the hero, service grouping, trust cues, and a faster request-a-cleaning path.",
+      "priority": "A-"
+    },
+    {
+      "slug": "blissfully-clean",
+      "name": "Blissfully Clean LLC",
+      "url": "https://blissfullyclean22.wixsite.com/cleaning",
+      "contact": "mailto:blissfullyclean22@gmail.com",
+      "phone": "tel:9708256271",
+      "location": "Washington County, Colorado",
+      "vertical": "residential, commercial, vacation-rental, and construction cleaning",
+      "summary": "The site includes strong natural-products positioning, pricing, services, and contact details, but the homepage is sparse and does not surface proof or booking next steps quickly enough.",
+      "angle": "Preserve the simple friendly cleaning look while making natural products, licensed/insured proof, pricing, and contact CTA easier to scan.",
+      "priority": "A"
+    },
+    {
+      "slug": "pino-handyman",
+      "name": "Pino Handyman LLC",
+      "url": "https://pinohandyman.wixsite.com/website/about",
+      "contact": "mailto:pinohandyman@gmail.com",
+      "phone": "tel:214-986-9210",
+      "location": "Dallas-Fort Worth, TX",
+      "vertical": "handyman and home repair services",
+      "summary": "Owner-led handyman page has real experience, logo, phone, and email, but it opens on an About page and misses a clear service/estimate funnel above the fold.",
+      "angle": "Keep the compact logo/photo contractor layout while turning the first screen into a handyman estimate page with service categories, trust, and phone/email CTAs.",
+      "priority": "A"
+    },
+    {
+      "slug": "plumb-it-co-plumbing",
+      "name": "Plumb-It Co. Plumbing LLC",
+      "url": "https://plumbitcoplumbing.wixsite.com/website/about",
+      "contact": "mailto:plumbitcoplumbing@gmail.com",
+      "phone": "tel:682.703.0777",
+      "location": "North Texas / Dallas-Fort Worth, TX",
+      "vertical": "residential and commercial plumbing",
+      "summary": "The plumbing site has a strong service list, email, phone, and logo, but it is mostly a text list and lacks emergency/quote prioritization or proof cues.",
+      "angle": "Preserve the straightforward plumbing layout and logo while organizing services into urgent, repair, and install paths with a prominent call button.",
+      "priority": "A"
+    },
+    {
+      "slug": "apm-cleaning-services",
+      "name": "APM Cleaning Services LLC",
+      "url": "https://apmcleaningservice.wixsite.com/apmcleaningservices",
+      "contact": "mailto:apmcleaningservices14@gmail.com",
+      "phone": "tel:609-770-1693",
+      "location": "South Jersey / Jersey Shore, NJ",
+      "vertical": "residential cleaning, concierge, organizing, and changeover services",
+      "summary": "APM has authentic service copy, phone/email, and images, but the page still advertises an expired 2015 coupon and the conversion path feels dated.",
+      "angle": "Keep the teal/orange local-cleaning character while replacing expired promo clutter with current quote framing, service packages, and trust cues.",
+      "priority": "A"
+    },
+    {
+      "slug": "celestial-cleaning",
+      "name": "Celestial Cleaning LLC",
+      "url": "https://celestiallcleaning.wixsite.com/mysite",
+      "contact": "mailto:celestiall.cleaning@gmail.com",
+      "phone": "tel:7535165773",
+      "location": "Bloomington, MN",
+      "vertical": "commercial cleaning and disinfecting",
+      "summary": "Commercial cleaning site has a real address, family-owned positioning, certification language, and contact form, but the hero repeats generic claims and includes leftover donation/navigation clutter.",
+      "angle": "Keep the blue celestial/minnesota feel while focusing the page on workplace cleaning, disinfecting proof, service area, and a quote/contact flow.",
+      "priority": "A-"
+    },
+    {
+      "slug": "krebs-lawn-care",
+      "name": "Krebs Lawn Care LLC",
+      "url": "https://thekrebslawncare.wixsite.com/krebs-lawn-care--llc",
+      "contact": "mailto:TheKrebsLawnCare@gmail.com",
+      "phone": "tel:620-215-1019",
+      "location": "Fort Scott, KS",
+      "vertical": "lawn mowing, mulch, hedge trimming, and brush hauling",
+      "summary": "Small lawn-care site has owner/local info, phone, email, logo, and lawn imagery, but it is extremely thin and needs clearer service/value framing.",
+      "angle": "Preserve the small-town lawn-care aesthetic while adding a concise services grid, service-area confidence, seasonal estimate CTA, and simple next steps.",
+      "priority": "A"
+    },
+    {
+      "slug": "jbi-plumbing",
+      "name": "JBI Plumbing LLC",
+      "url": "https://thejbiplumbing.wixsite.com/home",
+      "contact": "mailto:thejbiplumbing@gmail.com",
+      "phone": "tel:918-207-5611",
+      "location": "Tulsa, OK",
+      "vertical": "24/7 residential and commercial plumbing",
+      "summary": "JBI has strong emergency availability, master plumber license info, phone/email, and many services, but the homepage is cluttered and repetitive.",
+      "angle": "Keep the bold plumbing contractor feel while tightening emergency call flow, license proof, service cards, and renovation/repair pathways.",
+      "priority": "A"
+    },
+    {
+      "slug": "mr-bill-handyman",
+      "name": "Mr. Bill Handyman LLC",
+      "url": "https://mrbillhandymanllc.wixsite.com/mrbillhandymanllc",
+      "contact": "mailto:mr.billhandymanllc@gmail.com",
+      "phone": "tel:609-435-4398",
+      "location": "South Jersey and Northern Pennsylvania",
+      "vertical": "handyman, home improvement, renovation, and repair",
+      "summary": "The site has personality, licensing/insurance details, local service areas, family story, and many source images, but the conversion path is buried in dense copy.",
+      "angle": "Keep the personable handyman brand and project imagery while bringing license proof, service categories, and email/phone estimate CTA into a cleaner flow.",
+      "priority": "A"
+    },
+    {
+      "slug": "acp-cleaning-services",
+      "name": "ACP Cleaning Services LLC",
+      "url": "https://wdstrategies.wixsite.com/acp-cleaning-service",
+      "contact": "mailto:acpcleaningsvp@gmail.com",
+      "phone": "tel:484.597.6317",
+      "location": "Lehigh Valley, PA / NJ / MD",
+      "vertical": "residential, commercial, school, daycare, carpet, and floor cleaning",
+      "summary": "ACP has a real service-area strip, phone, service pages, quote CTA, and multiple photos, but the homepage is crowded and the copy needs sharper hierarchy.",
+      "angle": "Preserve the blue/green cleaning brand and original photos while clarifying top services, quote CTA, service areas, and reliability proof.",
+      "priority": "A"
+    }
+  ]
+}

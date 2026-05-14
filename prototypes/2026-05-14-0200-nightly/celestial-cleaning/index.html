@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Celestial Cleaning LLC | Commercial Cleaning & Disinfecting in Bloomington</title>
+  <meta name="description" content="Celestial Cleaning LLC provides commercial cleaning and disinfecting support for buildings in Bloomington, MN. Request a cleaning quote today.">
+  <style>
+    :root {
+      --blue: #193669;
+      --blue-deep: #162b51;
+      --ink: #181818;
+      --muted: #5d6671;
+      --line: #dfe4ea;
+      --soft: #f2f4f7;
+      --pale: #f8fafc;
+      --white: #ffffff;
+      --silver: #e9e9e9;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .top-note {
+      min-height: 42px;
+      background: #fff;
+      border-bottom: 1px solid #ededed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #202020;
+      font-size: 13px;
+      letter-spacing: .01em;
+    }
+    .top-note strong { color: #116dff; font-weight: 700; }
+
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner {
+      width: min(1280px, calc(100% - 56px));
+      margin: 0 auto;
+      min-height: 150px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 32px;
+    }
+    .brand {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      align-items: center;
+      gap: 18px;
+      min-width: 0;
+      text-decoration: none;
+    }
+    .brand img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+    .brand-name {
+      font-family: Raleway, Arial, Helvetica, sans-serif;
+      color: var(--blue);
+      font-size: clamp(25px, 2.4vw, 34px);
+      line-height: 1.1;
+      font-weight: 400;
+      margin: 0 0 8px;
+      letter-spacing: .02em;
+    }
+    .brand-sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .nav-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 16px;
+    }
+    .quick-email {
+      color: var(--blue);
+      font-size: 15px;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .quick-email:hover { border-bottom-color: var(--blue); }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 17px;
+    }
+    nav a {
+      text-decoration: none;
+      padding: 8px 14px;
+    }
+    nav a:hover { color: var(--blue); }
+    .nav-cta {
+      margin-left: 12px;
+      background: var(--blue);
+      color: #fff;
+      border-radius: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+    .nav-cta:hover { color: #fff; background: var(--blue-deep); }
+
+    .hero {
+      background: linear-gradient(180deg, #ffffff 0%, #f3f5f8 100%);
+      padding: 62px 0 84px;
+    }
+    .hero-inner {
+      width: min(1280px, calc(100% - 56px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(360px, 0.9fr) minmax(520px, 1.1fr);
+      align-items: center;
+      gap: 52px;
+    }
+    .hero-copy {
+      background: rgba(255,255,255,.92);
+      border: 1px solid var(--line);
+      padding: clamp(34px, 4.2vw, 58px);
+      box-shadow: 0 24px 55px rgba(22, 43, 81, .10);
+    }
+    .eyebrow {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: 13px;
+      font-weight: 700;
+      margin: 0 0 18px;
+    }
+    h1, h2, h3 {
+      font-family: Raleway, Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      line-height: 1.16;
+      margin: 0;
+      color: var(--blue-deep);
+    }
+    h1 {
+      font-size: clamp(42px, 5.2vw, 72px);
+      letter-spacing: .01em;
+    }
+    .hero-lede {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 23px;
+      color: #293849;
+      margin: 24px 0 14px;
+    }
+    .hero-copy p {
+      margin: 0 0 18px;
+      color: #344153;
+      max-width: 590px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 30px;
+    }
+    .button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 22px;
+      border: 1px solid var(--blue);
+      text-decoration: none;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .01em;
+      transition: transform .18s ease, background .18s ease, color .18s ease;
+    }
+    .button:hover { transform: translateY(-1px); background: var(--blue-deep); }
+    .button.secondary {
+      background: #fff;
+      color: var(--blue);
+    }
+    .button.secondary:hover { background: var(--pale); }
+    .photo-card {
+      background: var(--silver);
+      padding: 24px;
+      border: 1px solid #d8dde4;
+      box-shadow: 0 24px 70px rgba(0,0,0,.12);
+    }
+    .photo-card img {
+      width: 100%;
+      aspect-ratio: 940 / 440;
+      object-fit: cover;
+      border: 1px solid rgba(0,0,0,.06);
+    }
+    .photo-caption {
+      margin: 16px 0 0;
+      color: #425166;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .trust-strip {
+      background: var(--blue);
+      color: #fff;
+    }
+    .trust-inner {
+      width: min(1180px, calc(100% - 56px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,.18);
+    }
+    .trust-item {
+      background: var(--blue);
+      padding: 28px 24px;
+      text-align: center;
+    }
+    .trust-item strong {
+      display: block;
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+    .trust-item span {
+      display: block;
+      color: rgba(255,255,255,.82);
+      font-size: 14px;
+    }
+
+    .section {
+      padding: 94px 0;
+    }
+    .section.alt { background: var(--pale); }
+    .inner {
+      width: min(1180px, calc(100% - 56px));
+      margin: 0 auto;
+    }
+    .section-head {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 54px;
+    }
+    .section-head h2 {
+      font-size: clamp(34px, 4vw, 52px);
+    }
+    .section-head p {
+      margin: 18px auto 0;
+      color: #475467;
+      font-size: 18px;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+    }
+    .service-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      min-height: 270px;
+      padding: 30px 25px;
+      box-shadow: 0 18px 42px rgba(22, 43, 81, .07);
+    }
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      border: 2px solid var(--blue);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--blue);
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .service-card h3 {
+      color: var(--blue);
+      font-size: 23px;
+      margin-bottom: 14px;
+    }
+    .service-card p {
+      margin: 0;
+      color: #475467;
+    }
+
+    .focus {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .focus-panel {
+      background: var(--blue);
+      color: #fff;
+      padding: 44px;
+      min-height: 430px;
+    }
+    .focus-panel h2 { color: #fff; font-size: 42px; }
+    .focus-panel p { color: rgba(255,255,255,.86); }
+    .checklist {
+      display: grid;
+      gap: 16px;
+    }
+    .check {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 22px 24px;
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+    .check b {
+      display: inline-grid;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      background: var(--blue);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 16px;
+    }
+    .check strong { display: block; color: var(--blue-deep); margin-bottom: 4px; }
+    .check span { color: #536174; }
+
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 44px;
+      align-items: start;
+    }
+    .contact-card, .quote-form {
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 45px rgba(22, 43, 81, .07);
+    }
+    .contact-card { padding: 42px; }
+    .contact-card h2 { font-size: 44px; margin-bottom: 22px; }
+    .contact-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 18px;
+    }
+    .contact-list li { color: #39475a; }
+    .contact-list strong {
+      display: block;
+      color: var(--blue);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 4px;
+    }
+    .community-note {
+      margin-top: 30px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: #596779;
+      font-size: 15px;
+    }
+    .community-note a { color: var(--blue); font-weight: 700; }
+    .quote-form {
+      padding: 36px;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    label {
+      display: grid;
+      gap: 7px;
+      color: var(--blue-deep);
+      font-size: 14px;
+      font-weight: 700;
+    }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid #cfd7e2;
+      border-radius: 0;
+      min-height: 46px;
+      padding: 11px 12px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+    textarea { min-height: 132px; resize: vertical; }
+    .full { grid-column: 1 / -1; }
+    .form-note {
+      color: #5b6879;
+      font-size: 14px;
+      margin: 14px 0 22px;
+    }
+
+    .footer {
+      background: var(--blue-deep);
+      color: #fff;
+      padding: 38px 0;
+    }
+    .footer-inner {
+      width: min(1180px, calc(100% - 56px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+    .footer p { margin: 0; color: rgba(255,255,255,.82); }
+    .socials {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .socials a {
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,.12);
+      border-radius: 50%;
+    }
+    .socials img { width: 20px; height: 20px; }
+
+    @media (max-width: 1020px) {
+      .header-inner, .hero-inner, .focus, .contact-wrap { grid-template-columns: 1fr; }
+      .nav-wrap { align-items: flex-start; }
+      nav { flex-wrap: wrap; justify-content: flex-start; }
+      .hero { padding-top: 42px; }
+      .service-grid, .trust-inner { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 680px) {
+      .top-note { padding: 10px 18px; text-align: center; }
+      .header-inner, .hero-inner, .inner, .footer-inner, .trust-inner { width: min(100% - 32px, 1180px); }
+      .brand { grid-template-columns: 60px 1fr; }
+      .brand img { width: 60px; height: 60px; }
+      nav a { padding: 8px 10px; }
+      .hero-copy, .photo-card, .focus-panel, .contact-card, .quote-form { padding: 26px; }
+      .service-grid, .trust-inner, .form-grid { grid-template-columns: 1fr; }
+      .section { padding: 68px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-note">Clean up the current Wix page first: <strong>clearer quote path, same Celestial identity</strong></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Celestial Cleaning LLC home">
+        <img src="https://static.wixstatic.com/media/bc2348_8de8695d7dbd401494d27706bb1b48fe~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Minnesota%20outline.jpg" alt="Celestial Cleaning Minnesota outline logo">
+        <span>
+          <span class="brand-name">Celestial Cleaning LLC</span>
+          <span class="brand-sub">Commercial cleaning and disinfecting support in Bloomington, MN</span>
+        </span>
+      </a>
+      <div class="nav-wrap">
+        <a class="quick-email" href="mailto:celestiall.cleaning@gmail.com">celestiall.cleaning@gmail.com</a>
+        <nav aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#disinfecting">Disinfecting</a>
+          <a href="#contact">Contact</a>
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=celestiall.cleaning@gmail.com&item_name=Celestial%20Cleaning%20LLC&currency_code=USD" target="_blank" rel="noopener">Donate</a>
+          <a class="nav-cta" href="#contact">Request Quote</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Commercial Cleaning | Bloomington, MN</p>
+          <h1 id="hero-title">Cleaner buildings, clearer next step.</h1>
+          <p class="hero-lede">Committed to Excellence</p>
+          <p>Celestial Cleaning helps commercial buildings stay ready for staff, visitors and customers with workplace cleaning and disinfecting support. The current site has the right local pieces. This version makes the quote path obvious from the first screen.</p>
+          <div class="actions">
+            <a class="button" href="mailto:celestiall.cleaning@gmail.com?subject=Cleaning%20quote%20request">Request a Cleaning Quote</a>
+            <a class="button secondary" href="tel:7535165773">Call 7535165773</a>
+          </div>
+        </div>
+        <div class="photo-card">
+          <img src="https://static.wixstatic.com/media/bc2348_cdbc740dfdf04196b6110cca1750b613~mv2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7783_edited.jpg" alt="Celestial Cleaning team member at a building entrance">
+          <p class="photo-caption">Original Celestial Cleaning image reused from the live Wix site.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Quick facts">
+      <div class="trust-inner">
+        <div class="trust-item"><strong>Bloomington</strong><span>3800 American Blvd W</span></div>
+        <div class="trust-item"><strong>Commercial</strong><span>Building-focused cleaning</span></div>
+        <div class="trust-item"><strong>Disinfecting</strong><span>High-touch surface support</span></div>
+        <div class="trust-item"><strong>BSCAI</strong><span>Training language to clarify</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="inner">
+        <div class="section-head">
+          <h2>Show the services before visitors scroll away.</h2>
+          <p>The live site says commercial cleaning, but the page needs short service details so a building manager knows whether Celestial is the right fit.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">1</div>
+            <h3>Office cleaning</h3>
+            <p>Routine cleaning for workspaces, lobbies, restrooms, breakrooms and shared areas that need to look ready every day.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">2</div>
+            <h3>Commercial buildings</h3>
+            <p>Support for businesses that need a dependable cleaning partner, clear communication and a simple quote process.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">3</div>
+            <h3>Disinfecting</h3>
+            <p>High-touch cleaning and disinfecting language should explain process, products and training so prospects trust the claim.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">4</div>
+            <h3>Recurring plans</h3>
+            <p>Make it easy to ask for nightly, weekly, biweekly or custom cleaning without digging through a generic contact form.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="disinfecting">
+      <div class="inner focus">
+        <div class="focus-panel">
+          <h2>From “Contact us” to quote-ready.</h2>
+          <p>The old page has the address, email and form, but visitors need to know what information to send. This keeps the simple site-builder feel while making the next step more specific.</p>
+          <p>BSCAI training is mentioned in the source meta description. If current, it should become a visible trust cue with exact wording and proof.</p>
+          <div class="actions">
+            <a class="button secondary" href="#contact">Start a Quote</a>
+          </div>
+        </div>
+        <div class="checklist" aria-label="Quote checklist">
+          <div class="check"><b>✓</b><span><strong>Type of building</strong><span>Office, retail, medical, warehouse, common area or another commercial space.</span></span></div>
+          <div class="check"><b>✓</b><span><strong>Cleaning frequency</strong><span>One-time, weekly, nightly, event cleanup or ongoing maintenance.</span></span></div>
+          <div class="check"><b>✓</b><span><strong>Disinfecting needs</strong><span>High-touch surfaces, restrooms, shared equipment and any site-specific requirements.</span></span></div>
+          <div class="check"><b>✓</b><span><strong>Best contact path</strong><span>Email first, phone call or a walkthrough time at the Bloomington address or service location.</span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="inner contact-wrap">
+        <aside class="contact-card">
+          <h2>Contact us</h2>
+          <ul class="contact-list">
+            <li><strong>Address</strong>3800 American Blvd W<br>Bloomington, MN 55431</li>
+            <li><strong>Email</strong><a href="mailto:celestiall.cleaning@gmail.com">celestiall.cleaning@gmail.com</a></li>
+            <li><strong>Phone shown on site</strong><a href="tel:7535165773">7535165773</a></li>
+          </ul>
+          <div class="community-note">
+            Donation support can stay available, but it should be secondary to the commercial cleaning quote path. <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=celestiall.cleaning@gmail.com&item_name=Celestial%20Cleaning%20LLC&currency_code=USD" target="_blank" rel="noopener">Donation link</a>
+          </div>
+        </aside>
+
+        <form class="quote-form" action="mailto:celestiall.cleaning@gmail.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <label>First name<input name="first_name" autocomplete="given-name"></label>
+            <label>Last name<input name="last_name" autocomplete="family-name"></label>
+            <label>Email<input name="email" type="email" autocomplete="email"></label>
+            <label>Phone<input name="phone" autocomplete="tel"></label>
+            <label class="full">Service needed
+              <select name="service">
+                <option>Commercial cleaning quote</option>
+                <option>Disinfecting support</option>
+                <option>Recurring building cleaning</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+            <label class="full">Building details<textarea name="message" placeholder="Tell us the building type, city, square footage if known, preferred cleaning frequency and any disinfecting needs."></textarea></label>
+          </div>
+          <p class="form-note">Prototype form direction only. In Wix, this should connect to the site inbox or email notifications.</p>
+          <button class="button" type="submit">Request My Cleaning Quote</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>©2026 Celestial Cleaning LLC. Same local Wix identity, cleaned up for quote requests.</p>
+      <div class="socials" aria-label="Social links from source site">
+        <a href="https://twitter.com/Wix" target="_blank" rel="noopener" aria-label="Twitter link from source site"><img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png" alt="Twitter icon"></a>
+        <a href="https://www.linkedin.com/in/jose-santanero-636b86224" target="_blank" rel="noopener" aria-label="LinkedIn link from source site"><img src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png" alt="LinkedIn icon"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

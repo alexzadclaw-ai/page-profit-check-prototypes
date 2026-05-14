@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blissfully Clean LLC | Washington County Cleaning Quotes</title>
+  <meta name="description" content="Blissfully Clean LLC provides natural-product residential, commercial, vacation rental, Airbnb, and construction cleaning across Washington County, Colorado.">
+  <style>
+    :root {
+      --sage: #87b38d;
+      --sage-dark: #739d79;
+      --navy: #07283d;
+      --blue: #116dff;
+      --white: #fff;
+      --ink: #050505;
+      --wash: #f6f9f5;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #fff; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+    a { color: inherit; }
+    .wix-bar { height: 50px; display: flex; align-items: center; justify-content: center; gap: 18px; font-size: 14px; color: #20303c; background: #fff; border-bottom: 3px solid #116dff; }
+    .wix-logo { font-weight: 800; font-size: 23px; letter-spacing: -2px; color: #111; }
+    .divider { width: 1px; height: 24px; background: #c7c7c7; }
+    .wix-btn { border: 1px solid var(--blue); color: var(--blue); border-radius: 18px; padding: 7px 18px; font-weight: 600; }
+    .wrap { max-width: 1180px; margin: 0 auto; }
+    header { background: var(--sage); min-height: 68px; }
+    .nav { height: 68px; display: grid; grid-template-columns: 180px 1fr 180px; align-items: center; }
+    .brand-small img { width: 64px; height: 59px; object-fit: cover; display: block; margin-left: 34px; }
+    nav { display: flex; justify-content: center; gap: 42px; }
+    nav a { color: #fff; text-decoration: none; font-size: 15px; }
+    nav a:first-child { color: #bfe0ff; }
+    .hero-logo { min-height: 408px; display: flex; align-items: center; justify-content: center; background: #fff; }
+    .hero-logo img { width: 390px; height: 360px; object-fit: cover; display: block; }
+    main { background: var(--sage); }
+    .section { max-width: 930px; margin: 0 auto; text-align: center; padding: 38px 26px; }
+    h1, h2 { font-family: Georgia, 'Times New Roman', serif; color: var(--navy); line-height: .98; margin: 0 0 24px; font-size: clamp(48px, 6vw, 67px); font-weight: 700; }
+    h1 { margin-bottom: 26px; }
+    p { font-size: 18px; line-height: 1.72; margin: 0 auto 18px; max-width: 720px; }
+    .lead { font-size: 19px; }
+    .proof-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; max-width: 780px; margin: 26px auto 22px; }
+    .proof { background: rgba(255,255,255,.36); border: 1px solid rgba(7,40,61,.24); border-radius: 16px; padding: 16px 14px; min-height: 106px; }
+    .proof strong { color: var(--navy); display: block; margin-bottom: 7px; font-size: 17px; }
+    .proof span { display: block; font-size: 15px; line-height: 1.4; }
+    .cta-row { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; margin-top: 20px; }
+    .btn { background: var(--navy); color: #fff; text-decoration: none; border-radius: 9px; min-width: 142px; padding: 13px 20px; font-size: 15px; display: inline-flex; justify-content: center; align-items: center; gap: 9px; box-shadow: 0 9px 20px rgba(0,0,0,.12); }
+    .btn.secondary { background: transparent; border: 2px solid var(--navy); color: var(--navy); box-shadow: none; }
+    .email { color: var(--navy); font-weight: 700; text-decoration: none; }
+    .services { padding-top: 54px; }
+    .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 850px; margin: 8px auto 24px; text-align: left; }
+    .card { background: rgba(255,255,255,.28); border: 1px solid rgba(7,40,61,.22); border-radius: 18px; padding: 22px 22px 20px; }
+    .card h3 { text-align: center; margin: 0 0 14px; color: #071f30; font-size: 19px; }
+    ul { margin: 0; padding-left: 22px; font-size: 17px; line-height: 1.72; }
+    .pricing { padding-top: 58px; padding-bottom: 88px; }
+    .price-box { max-width: 760px; margin: 0 auto; background: rgba(255,255,255,.32); border: 1px solid rgba(7,40,61,.22); border-radius: 22px; padding: 28px 30px 30px; }
+    .price-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 22px; }
+    .price { background: #fff; border-radius: 16px; padding: 20px; color: var(--navy); font-size: 21px; font-weight: 700; }
+    .price span { display: block; font-size: 15px; color: #000; font-weight: 400; margin-top: 7px; }
+    footer { background: var(--navy); color: #fff; min-height: 242px; margin-top: 34px; }
+    .foot { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 120px; padding-top: 54px; text-align: left; }
+    footer h4 { margin: 0 0 24px; font-size: 15px; letter-spacing: .04em; }
+    footer a { display: block; color: #fff; text-decoration: none; margin-bottom: 12px; font-size: 14px; }
+    footer a:first-of-type { color: #bfe0ff; }
+    .fb { width: 25px; height: 25px; border-radius: 50%; border: 2px solid #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: Arial, sans-serif; }
+    @media (max-width: 760px) {
+      .wix-bar { display: none; }
+      .nav { grid-template-columns: 90px 1fr; padding-right: 12px; }
+      .brand-small img { margin-left: 16px; width: 54px; height: 50px; }
+      nav { gap: 18px; justify-content: flex-end; }
+      .hero-logo { min-height: 300px; }
+      .hero-logo img { width: 300px; height: auto; }
+      .proof-row, .service-grid, .price-row, .foot { grid-template-columns: 1fr; }
+      .foot { gap: 34px; padding: 42px 28px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wix-bar" aria-hidden="true"><span class="wix-logo">WIX</span><span class="divider"></span><span>This website was built on Wix. Create yours today.</span><span class="wix-btn">Get Started</span></div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand-small" href="#top" aria-label="Blissfully Clean home"><img src="assets/blissfully-clean-logo.jpg" alt="Blissfully Clean LLC logo"></a>
+      <nav aria-label="Primary"><a href="#top">Home</a><a href="#about">About</a><a href="#pricing">Pricing</a></nav>
+      <span></span>
+    </div>
+  </header>
+  <div id="top" class="hero-logo"><img src="assets/blissfully-clean-logo.jpg" alt="Blissfully Clean LLC natural cleaning logo"></div>
+
+  <main>
+    <section id="about" class="section">
+      <h1>About Us</h1>
+      <p class="lead">Serving all of Washington County with 5+ years of experience, Blissfully Clean, LLC offers weekly, biweekly, monthly, deep-clean, vacation-rental, commercial, and construction cleaning services.</p>
+      <p>We use all natural cleaning products, better for you, your pets, and the environment. Satisfaction guaranteed.</p>
+      <div class="proof-row" aria-label="Why customers choose Blissfully Clean">
+        <div class="proof"><strong>All natural products</strong><span>Cleaner homes and businesses without harsh product worries.</span></div>
+        <div class="proof"><strong>Licensed and insured</strong><span>Clear trust cue for homeowners, offices, rentals, and builders.</span></div>
+        <div class="proof"><strong>Local service area</strong><span>Washington County cleaning from a friendly local team.</span></div>
+      </div>
+      <a class="email" href="mailto:blissfullyclean22@gmail.com">blissfullyclean22@gmail.com</a>
+      <div class="cta-row">
+        <a class="btn" href="mailto:blissfullyclean22@gmail.com?subject=Cleaning%20quote%20request">contact us ☺</a>
+        <a class="btn secondary" href="tel:9708256271">call 970-825-6271</a>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <h2>Services</h2>
+      <div class="service-grid">
+        <article class="card"><h3>Residential cleaning</h3><ul><li>Bedrooms</li><li>Bathrooms</li><li>Kitchen</li><li>Common areas</li><li>Move in and move out deep cleaning</li></ul></article>
+        <article class="card"><h3>Commercial cleaning</h3><ul><li>Office spaces</li><li>Vacation rentals</li><li>Airbnb rentals</li><li>Weekly, biweekly, or monthly upkeep</li></ul></article>
+        <article class="card"><h3>Construction Cleaning</h3><ul><li>Newly built homes and buildings</li><li>Remodeled homes and buildings</li><li>Final clean before handoff or listing</li></ul></article>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <h2>Pricing</h2>
+      <div class="price-box">
+        <div class="price-row">
+          <div class="price">Maintenance clean: $35/hr/cleaner<span>Best for recurring weekly, biweekly, or monthly service.</span></div>
+          <div class="price">Deep clean: $45/hr/cleaner<span>Recommended as the initial clean for new clients.</span></div>
+        </div>
+        <p>A typical cleaning takes 3-4 hours for one cleaner. Every house has different needs.</p>
+        <p><strong>Contact us to get a quote!</strong></p>
+        <div class="cta-row"><a class="btn" href="mailto:blissfullyclean22@gmail.com?subject=Cleaning%20quote%20request">request a quote ☺</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div><h4>MENU</h4><a href="#top">Home</a><a href="#about">About</a><a href="#pricing">Pricing</a></div>
+      <div><h4>SOCIALS</h4><div class="fb" aria-label="Facebook">f</div></div>
+    </div>
+  </footer>
+</body>
+</html>

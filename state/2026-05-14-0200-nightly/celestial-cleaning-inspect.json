@@ -1,0 +1,1215 @@
+{
+  "url": "https://celestiallcleaning.wixsite.com/mysite",
+  "title": "Commercial Cleaning | Celestial Cleaning LLC | Bloomington",
+  "meta": [
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "IE=edge"
+    },
+    {
+      "name": "generator",
+      "property": null,
+      "content": "Wix.com Website Builder"
+    },
+    {
+      "name": "format-detection",
+      "property": null,
+      "content": "telephone=no"
+    },
+    {
+      "name": "skype_toolbar",
+      "property": null,
+      "content": "skype_toolbar_parser_compatible"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "b860faad-68af-4164-976d-afd6d7a90edb"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "146"
+    },
+    {
+      "name": null,
+      "property": null,
+      "content": "bug"
+    },
+    {
+      "name": "description",
+      "property": null,
+      "content": "Celestial Cleaning LLC Helps clean Commercial buildings Disinfecting and killing all Viruses With the proper training of the BSCAI . \n"
+    },
+    {
+      "name": null,
+      "property": "og:title",
+      "content": "Commercial Cleaning | Celestial Cleaning LLC | Bloomington"
+    },
+    {
+      "name": null,
+      "property": "og:description",
+      "content": "Celestial Cleaning LLC Helps clean Commercial buildings Disinfecting and killing all Viruses With the proper training of the BSCAI . \n"
+    },
+    {
+      "name": null,
+      "property": "og:url",
+      "content": "https://celestiallcleaning.wixsite.com/mysite"
+    },
+    {
+      "name": null,
+      "property": "og:site_name",
+      "content": "My Site"
+    },
+    {
+      "name": null,
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "name": "keywords",
+      "property": null,
+      "content": "Exactly, Get, Need, What, You"
+    },
+    {
+      "name": "twitter:card",
+      "property": null,
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "property": null,
+      "content": "Commercial Cleaning | Celestial Cleaning LLC | Bloomington"
+    },
+    {
+      "name": "twitter:description",
+      "property": null,
+      "content": "Celestial Cleaning LLC Helps clean Commercial buildings Disinfecting and killing all Viruses With the proper training of the BSCAI . \n"
+    }
+  ],
+  "viewport": {
+    "w": 1440,
+    "h": 1100
+  },
+  "pageSize": {
+    "scrollWidth": 1440,
+    "scrollHeight": 2825,
+    "bodyHeight": 2825
+  },
+  "images": [
+    {
+      "index": 0,
+      "src": "https://static.wixstatic.com/media/bc2348_8de8695d7dbd401494d27706bb1b48fe~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Minnesota%20outline.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/bc2348_8de8695d7dbd401494d27706bb1b48fe~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Minnesota%20outline.jpg",
+      "alt": "Minnesota outline.jpg",
+      "width": 80,
+      "height": 80,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-l6lktm3v1",
+      "rect": {
+        "x": 80,
+        "y": 97,
+        "w": 80,
+        "h": 80
+      }
+    },
+    {
+      "index": 1,
+      "src": "https://static.wixstatic.com/media/bc2348_cdbc740dfdf04196b6110cca1750b613~mv2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7783_edited.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/bc2348_cdbc740dfdf04196b6110cca1750b613~mv2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7783_edited.jpg",
+      "alt": "IMG_7783_edited.jpg",
+      "width": 940,
+      "height": 440,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-l6lku78m1",
+      "rect": {
+        "x": 250,
+        "y": 390,
+        "w": 940,
+        "h": 440
+      }
+    },
+    {
+      "index": 2,
+      "src": "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "currentSrc": "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "alt": "Twitter",
+      "width": 20,
+      "height": 20,
+      "className": "ZK9snE sFiSiq",
+      "id": "img_0_comp-kjuky99k1",
+      "rect": {
+        "x": 1140,
+        "y": 2795,
+        "w": 20,
+        "h": 20
+      }
+    },
+    {
+      "index": 3,
+      "src": "https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
+      "currentSrc": "https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
+      "alt": "LinkedIn",
+      "width": 20,
+      "height": 20,
+      "className": "ZK9snE sFiSiq",
+      "id": "img_1_comp-kjuky99k1",
+      "rect": {
+        "x": 1170,
+        "y": 2795,
+        "w": 20,
+        "h": 20
+      }
+    }
+  ],
+  "backgroundImages": [],
+  "links": [
+    {
+      "index": 0,
+      "text": "This website was built on Wix. Create yours today.Get Started",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&adsVersion=banner_2024",
+      "target": "_blank"
+    },
+    {
+      "index": 1,
+      "text": "",
+      "href": "mailto:celestiall.cleaning@gmail.com",
+      "target": "_self"
+    },
+    {
+      "index": 2,
+      "text": "Home",
+      "href": "https://celestiallcleaning.wixsite.com/mysite",
+      "target": "_self"
+    },
+    {
+      "index": 3,
+      "text": "Donations",
+      "href": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=celestiall.cleaning@gmail.com&item_name=My%20Site&amount=10&currency_code=USD",
+      "target": "_blank"
+    },
+    {
+      "index": 4,
+      "text": "Help Us",
+      "href": "https://celestiallcleaning.wixsite.com/mysite",
+      "target": "_self"
+    },
+    {
+      "index": 5,
+      "text": "Contact",
+      "href": "https://celestiallcleaning.wixsite.com/mysite",
+      "target": "_self"
+    },
+    {
+      "index": 6,
+      "text": "celestiall.cleaning@gmail.com",
+      "href": "mailto:celestiall.cleaning@gmail.com",
+      "target": ""
+    },
+    {
+      "index": 7,
+      "text": "celestiall.cleaning@gmail.com",
+      "href": "mailto:celestiall.cleaning@gmail.com",
+      "target": ""
+    },
+    {
+      "index": 8,
+      "text": "Donate",
+      "href": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=celestiall.cleaning@gmail.com&item_name=Celestial%20Cleaning%20LLC&currency_code=USD",
+      "target": "_blank"
+    },
+    {
+      "index": 9,
+      "text": "",
+      "href": "https://twitter.com/Wix",
+      "target": "_blank"
+    },
+    {
+      "index": 10,
+      "text": "",
+      "href": "https://www.linkedin.com/in/jose-santanero-636b86224",
+      "target": "_blank"
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "tag": "H1",
+      "text": "Celestial Cleaning, LLC.",
+      "ariaLevel": null
+    },
+    {
+      "index": 1,
+      "tag": "H2",
+      "text": "Contact us",
+      "ariaLevel": null
+    },
+    {
+      "index": 2,
+      "tag": "H2",
+      "text": "​",
+      "ariaLevel": null
+    }
+  ],
+  "uniqueText": [
+    "top of page",
+    "Skip to Main Content",
+    "This website was built on Wix. Create yours today.Get Started",
+    "This website was built on Wix. Create yours today.",
+    "Get Started",
+    "Celestial Cleaning LLCHomeDonationsHelp UsContactMoreUse tab to navigate through the menu items.celestiall.cleaning@gmail.com",
+    "Celestial Cleaning LLC",
+    "HomeDonationsHelp UsContactMoreUse tab to navigate through the menu items.celestiall.cleaning@gmail.com",
+    "HomeDonationsHelp UsContactMoreUse tab to navigate through the menu items.",
+    "Home",
+    "Donations",
+    "Help Us",
+    "Contact",
+    "More",
+    "Use tab to navigate through the menu items.",
+    "celestiall.cleaning@gmail.com",
+    "Celestial Cleaning, LLC.",
+    "Committed to Excellence",
+    "Home: Welcome",
+    "Contact us 3800 American Blvd WBloomington, MN 55431celestiall.cleaning@gmail.com7535165773SubmitThanks for submitting!",
+    "Contact us",
+    "us",
+    "3800 American Blvd WBloomington, MN 55431",
+    "7535165773",
+    "SubmitThanks for submitting!",
+    "Submit",
+    "Thanks for submitting!",
+    "Home: Contact",
+    "​Donate",
+    "Donate",
+    "Home: HTML Embed",
+    "©2021 by My Site. Proudly created with Wix.com",
+    "bottom of page"
+  ],
+  "colorCounts": [
+    [
+      "rgb(0, 0, 0)",
+      655
+    ],
+    [
+      "rgb(24, 24, 24)",
+      82
+    ],
+    [
+      "rgb(0, 0, 238)",
+      40
+    ],
+    [
+      "rgb(32, 48, 60)",
+      21
+    ],
+    [
+      "rgb(255, 255, 255)",
+      17
+    ],
+    [
+      "rgb(25, 54, 105)",
+      11
+    ],
+    [
+      "rgba(255, 255, 255, 0)",
+      6
+    ],
+    [
+      "rgb(17, 109, 255)",
+      2
+    ],
+    [
+      "rgb(22, 106, 234)",
+      2
+    ],
+    [
+      "rgb(34, 34, 34)",
+      2
+    ],
+    [
+      "rgb(233, 233, 233)",
+      2
+    ],
+    [
+      "rgb(239, 241, 242)",
+      1
+    ],
+    [
+      "rgb(0, 0, 238) rgb(0, 0, 238) rgb(22, 106, 234)",
+      1
+    ],
+    [
+      "rgb(32, 48, 60) rgb(0, 0, 0) rgb(32, 48, 60) rgb(32, 48, 60)",
+      1
+    ],
+    [
+      "rgba(255, 255, 255, 0) rgb(0, 0, 0)",
+      1
+    ],
+    [
+      "rgba(24, 24, 24, 0.85) rgb(0, 0, 0) rgb(0, 0, 0)",
+      1
+    ],
+    [
+      "rgb(227, 227, 227)",
+      1
+    ],
+    [
+      "rgba(24, 24, 24, 0)",
+      1
+    ],
+    [
+      "rgba(255, 255, 255, 0.15) rgb(0, 0, 0)",
+      1
+    ]
+  ],
+  "fontCounts": [
+    [
+      "Arial, Helvetica, sans-serif",
+      256
+    ],
+    [
+      "\"Times New Roman\"",
+      74
+    ],
+    [
+      "raleway, sans-serif",
+      55
+    ],
+    [
+      "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      12
+    ],
+    [
+      "poppins-extralight, poppins, sans-serif",
+      10
+    ],
+    [
+      "\"times new roman\", times, serif",
+      5
+    ],
+    [
+      "Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+      1
+    ],
+    [
+      "Arial",
+      1
+    ]
+  ],
+  "htmlLang": "en",
+  "responses": [
+    {
+      "url": "https://celestiallcleaning.wixsite.com/mysite",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/bc2348_cdbc740dfdf04196b6110cca1750b613~mv2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7783_edited.jpg",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.resolveTpaLinkByPageId%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5374.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=0eec2e75.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-features&originalLanguage=en&pageId=bc2348_b6d3659161314ac162469f946b3df38b_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/bc2348_8de8695d7dbd401494d27706bb1b48fe~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Minnesota%20outline.jpg",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.isClassNameToRootEnabled%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5374.0&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=b171254a.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-platform&originalLanguage=en&pageId=bc2348_b6d3659161314ac162469f946b3df38b_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.isClassNameToRootEnabled%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5374.0&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=b171254a.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-platform&originalLanguage=en&pageId=bc2348_de6c93b50838e85d78024fe98a9e5008_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.resolveTpaLinkByPageId%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5374.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=0eec2e75.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-features&originalLanguage=en&pageId=bc2348_de6c93b50838e85d78024fe98a9e5008_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://celestiallcleaning.wixsite.com/mysite/_partials/wix-thunderbolt/dist/clientWorker.d19218a0.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.17f0852c.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.e55c00ba.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://frog.wix.com/bolt-performance?src=72&evid=21&appName=thunderbolt&is_rollout=1&is_company_network=false&is_sav_rollout=0&is_dac_rollout=0&dc=virginia-pub&microPop=virginia-phy_g&is_cached=true&msid=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&session_id=622a1bd4-0bb3-4295-b0c3-a2a5c5e6be19&ish=true&isb=true&isbr=ua&vsi=8661c753-f1b6-410a-8bce-2124573a3574&caching=hit,hit&pv=visible&pn=1&v=1.17315.0&url=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&st=2&ts=2881&tsn=3361&platformOnSite=true&hasInitialZoom=false&infoInitialZoom=%7B%22devicePixelRatio%22%3A1%2C%22innerWidth%22%3A1440%2C%22outerWidth%22%3A1440%2C%22visualViewportScale%22%3A1%7D&mpaSessionId=1b7e9d24-8ce6-43b2-90e0-cda9d0981c41",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://frog.wix.com/bolt-performance?src=72&evid=28&appName=thunderbolt&is_rollout=1&is_company_network=false&is_sav_rollout=0&is_dac_rollout=0&dc=virginia-pub&microPop=virginia-phy_g&is_cached=true&msid=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&session_id=622a1bd4-0bb3-4295-b0c3-a2a5c5e6be19&ish=true&isb=true&isbr=ua&vsi=8661c753-f1b6-410a-8bce-2124573a3574&caching=hit,hit&pv=visible&pn=1&v=1.17315.0&url=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&st=2&ts=2881&tsn=3361&name=partially_visible&duration=1778744182225&pageId=wc4uo&isSuccessfulSSR=true",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-components-registry.0eba23b8.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/assetsLoader.1a4bd352.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/consentPolicy.c7f0149b.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/businessLogger.382014f6.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domSelectors.0df2cf2d.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/renderer.90f3ef29.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_2.67e40e46.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_3.6da7200b.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/router.fb5c2e2e.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/stores.0468e03d.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/usedPlatformApis.b09c4d5c.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/accessibilityBrowserZoom.6adac79c.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/componentsLoader.07f88113.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/appMonitoring.5b09d936.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_5.f2cb73a8.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/nonMainSdks.b8fced9e.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/contentReflow.e4dd8a93.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.4d54a74d.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/cyclicTabbing.d5419fe6.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/environmentWixCodeSdk.dbb376f6.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/environment.eacfd04c.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/mpaNavigation.a6072a7b.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/tslib.inline.ca2949bb.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/panorama.1bdf1744.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembersWixCodeSdk.c31eca95.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_9.793aea00.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteScrollBlocker.22f031d6.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/speculationRules.0f29966f.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/ssrCache.a72bfdc3.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/platform.7ddeb1c2.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/mainSdks.3f2354d5.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembers.4f6f476c.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-worker/1.1239.0/viewer-script.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/forms-viewer/1.883.0/viewerScript.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_6.3ba83c5f.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://celestiallcleaning.wixsite.com/mysite/_api/v1/access-tokens",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/reporter-api.b7edb858.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_0.5120b1c2.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements/1.15116.0/rb_wixui.corvid.manifest.min.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements/1.15116.0/rb_dsgnsys.thunderbolt.manifest.min.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements/1.15116.0/rb_wixui.thunderbolt.manifest.min.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements/1.15116.0/rb_dsgnsys.corvid.manifest.min.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/accessibility.5a528201.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/environmentService.24eb35e1.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_28.98f4bda8.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_27.24507aab.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/imagePlaceholder.a5c38083.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/mobileFullScreen.3c69b7f5.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_7.f75730ff.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/navigation.857097f4.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/platformPubsub.bde4edad.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/protectedPages.9e2f0c3d.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/scrollToAnchor.c63ab772.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/tpa.f72183ab.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_8.8d04ec73.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/windowScroll.b6975c2a.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_14.71cad7d9.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/animationsWixCodeSdk.726e9885.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/animations.49c55ede.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_23.572bd6dc.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_36.bc4eabb9.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_24.5bff1b48.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/onloadCompsBehaviors.7e1bb591.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/pageAnchors.130c843f.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/motion.b4e74ebc.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.isClassNameToRootEnabled%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5374.0&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=b171254a.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-platform&originalLanguage=en&pageId=bc2348_b6d3659161314ac162469f946b3df38b_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.resolveTpaLinkByPageId%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5374.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=0eec2e75.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-features&originalLanguage=en&pageId=bc2348_b6d3659161314ac162469f946b3df38b_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.isClassNameToRootEnabled%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5374.0&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=b171254a.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-platform&originalLanguage=en&pageId=bc2348_de6c93b50838e85d78024fe98a9e5008_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.resolveTpaLinkByPageId%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5374.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_bgScrubToMotionFixer%2Cdm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&fileId=0eec2e75.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&metaSiteId=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&module=thunderbolt-features&originalLanguage=en&pageId=bc2348_de6c93b50838e85d78024fe98a9e5008_146.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15116.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=b860faad-68af-4164-976d-afd6d7a90edb&siteRevision=146&staticHTMLComponentUrl=https%3A%2F%2Fcelestiallcleaning-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap.15e0a76e.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FreemiumBannerDesktop_FreemiumBannerDesktopNewLogo].38169250.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[SkipToContentButton].f0c53a36.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-classic.50de7f09.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://celestiallcleaning.wixsite.com/mysite/_api/tag-manager/api/v1/tags/sites/8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3?wixSite=false&htmlsiteId=b860faad-68af-4164-976d-afd6d7a90edb&language=en&partytown=false",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/error-handler-commonErrorsMapping.1ba71082.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/7983.43f56d27.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/3354.0a9ed42e.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/common-errors_en-json.a51251d9.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/auto-frontend-modules/1.6238.0/webworker/manifest-worker.min.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid~core.2ca75350.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/forms-viewer/dc83e0b402d2bc69b79ea3a1e86f406a3ad5f4ea6bcc0c18645f2b5b/assets/locales/messages_en.json",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/auto-frontend-modules/dist/webworker/auto-frontend-modules.68dbdc1c.umd.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid_bootstrap.68360e9a.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid_forms.fcdfce68.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[StripColumnsContainer_Default].25d89ebb.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FiveGridLine_SolidLine].2b96bbd7.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/TPABaseComponent.a461f98b.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://frog.wix.com/pa?_msid=8ce9ebce-334e-4fc6-a3f5-b3cdd9ecbac3&vsi=8661c753-f1b6-410a-8bce-2124573a3574&_av=thunderbolt-1.17315.0&isb=true&isbr=ua&_brandId=wix&_siteBranchId=undefined&_ms=5442&_isHeadless=undefined&_hostingPlatform=VIEWER&_lv=2.0.985%7CC&_visitorId=a03abe6d-4929-4ada-a545-537218b3565f&_siteMemberId=undefined&bsi=30190de4-2192-4507-a294-5cd3210fbda4%7C1&src=76&evid=1109&pid=wc4uo&pn=1&viewer=TB&pt=static&pa=editor&pti=wc4uo&uuid=bc2348d7-b524-45b6-bcaa-89bdf98e8c5d&url=https%3A%2F%2Fcelestiallcleaning.wixsite.com%2Fmysite&ref=&bot=true&bl=en-US&pl=en-US&_isca=1&_iscf=1&_ispd=0&_ise=0&_=17787441868892",
+      "status": 204,
+      "contentType": ""
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-responsive.7297e9fa.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[AppWidget_Classic].7ab4a9e3.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[HtmlComponent].7c548a21.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[FormContainer_FormContainerSkin].7a7105d2.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextInput].64105fe1.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[TextAreaInput].e31bb80c.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://bc2348d7-b524-45b6-bcaa-89bdf98e8c5d.htmlcomponentservice.com/get_draft?id=bc2348_1eff123097ff070a653224cd6295f24d.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://www.paypalobjects.com/donate/sdk/donate-sdk.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://engage.wixapps.net/chat-widget-server/renderChatWidget/index?pageId=masterPage&compId=comp-kjuky4tz&viewerCompId=comp-kjuky4tz&siteRevision=146&viewMode=site&deviceType=desktop&locale=en&tz=America%2FChicago&regionalLanguage=en&width=230&height=86&instance=6kVQ3JbXXckUE5bbjVZpz9p9WOjHuPO-GOmrmX7jolI.eyJpbnN0YW5jZUlkIjoiOGI2MDVkMmYtYWFiMy00Y2FlLWFiZjUtNThhMGRmZDc2ZDhkIiwiYXBwRGVmSWQiOiIxNDUxN2UxYS0zZmYwLWFmOTgtNDA4ZS0yYmQ2OTUzYzM2YTIiLCJtZXRhU2l0ZUlkIjoiOGNlOWViY2UtMzM0ZS00ZmM2LWEzZjUtYjNjZGQ5ZWNiYWMzIiwic2lnbkRhdGUiOiIyMDI2LTA1LTE0VDA3OjM2OjI2LjI2OFoiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6ImEwM2FiZTZkLTQ5MjktNGFkYS1hNTQ1LTUzNzIxOGIzNTY1ZiIsImJpVG9rZW4iOiIwNzg5YjZlMS05OWZkLTAzNjgtMDgwMC1lYjZkMDYzYmQ3NGUiLCJzaXRlT3duZXJJZCI6ImJjMjM0OGQ3LWI1MjQtNDViNi1iY2FhLTg5YmRmOThlOGM1ZCIsImJzIjoib1RwSGlkOU9WMlB6NERUZ2xEMUtGc2dZN2F4V05ZZFFxZjRBYzhFUEpMVSIsInNjZCI6IjIwMjEtMDEtMTJUMjI6NDA6MDcuMTI1WiJ9&currency=USD&currentCurrency=USD&commonConfig=%7B%22brand%22%3A%22wix%22%2C%22host%22%3A%22VIEWER%22%2C%22bsi%22%3A%2230190de4-2192-4507-a294-5cd3210fbda4%7C1%22%2C%22siteRevision%22%3A%22146%22%2C%22renderingFlow%22%3A%22NONE%22%2C%22language%22%3A%22en%22%2C%22locale%22%3A%22en-us%22%2C%22BSI%22%3A%2230190de4-2192-4507-a294-5cd3210fbda4%7C1%22%7D&currentRoute=.%2F&vsi=8661c753-f1b6-410a-8bce-2124573a3574",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://celestiallcleaning.wixsite.com/v1/bulk/report-exposures",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css",
+      "status": 200,
+      "contentType": "text/css"
+    },
+    {
+      "url": "https://static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/v19/languages.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/1.2749.0/chat-widget.min.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/js-sdk/1.640.0/js/wix-private.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/1.2749.0/assets/sentry-lazy-load.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/react@16.14.0/umd/react.production.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/i18next@10.6.0/dist/umd/i18next.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/moment@2.22.2/min/moment.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg-semver/fedops-logger@5/fedops-logger.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/react-dom@16.14.0/umd/react-dom.production.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/1.2749.0/chat-widget.bundle.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/main-chat-widget.chunk.min.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/main-chat-widget.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googleAPI/css?family=Poppins:n,b,i,bi|Raleway:n,b,i,bi|&subset=hebrew,arabic,latin",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/focus-visible@4.1.1/dist/focus-visible.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/minimized-widget.chunk.min.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/minimized-widget.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://engage.wixapps.net/_api/chat-web/v1/real-time-tokens",
+      "status": 200,
+      "contentType": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://engage.wixapps.net/serverless/chat-event-reporter/report-event",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=AIzaSyClcOX5Tut1uJylikpNbFzkW_qpiBFjNPM",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8"
+    },
+    {
+      "url": "https://wix-engage-visitors-prod-31.firebaseio.com/core-chat/participants/a03abe6d-4929-4ada-a545-537218b3565f/events.json?auth=eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYzIxN2Q0MThjYjhlNWEzMTQzMThhMGQyZmZhNGUwY2ViMmU0Y2MiLCJ0eXAiOiJKV1QifQ.eyJwYXJ0aWNpcGFudElkIjoiYTAzYWJlNmQtNDkyOS00YWRhLWE1NDUtNTM3MjE4YjM1NjVmIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3dpeC1lbmdhZ2UtdmlzaXRvcnMtcHJvZC0xNSIsImF1ZCI6IndpeC1lbmdhZ2UtdmlzaXRvcnMtcHJvZC0xNSIsImF1dGhfdGltZSI6MTc3ODc0NDE5NSwidXNlcl9pZCI6ImQ4ZTMyZDE5LTlkZWItNDJlZC1iMjdiLTYzYjQ0ZDA0NWU4ZSIsInN1YiI6ImQ4ZTMyZDE5LTlkZWItNDJlZC1iMjdiLTYzYjQ0ZDA0NWU4ZSIsImlhdCI6MTc3ODc0NDE5NSwiZXhwIjoxNzc4NzQ3Nzk1LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImN1c3RvbSJ9fQ.WMeV0bixWieU72D3cOHf4aebTiS1c7G5UXr2AEiRkzTJ23eI_QNJ-POE-X6x9lMrgIMqz5CwNSyYdqXuYZTmNKi4Cx9nSKJoCq6DSFxbrn2geGwMwnl3x1scv9zHGOdYcFNNtRiEn88F-kbtxmLZzCJoR-e5_WHhRT49wdiyz58nGEr3Z-8U4i46axotl6FNHYOI1F1J_plI94P8uH9KCgJzZoE9_DyjfEcFbpGRnd5BD-BDqRuj9mNRlWubtjqAczbOCnmUHLcunRSf-JUowgWoH7GYmVb70tjIg-7lL_UqPSdXRu8Ewx7tw2sXrLBn5PRZlV8cMvPOsuw6GjAa9g",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://pics.paypal.com/00/s/NzBlZGFkYTctNDI0MC00OWYzLWExZmMtYjRjNDRlMzQxMjFl/file.PNG",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://wix-engage-visitors-prod-31.firebaseio.com/core-chat/participants/a03abe6d-4929-4ada-a545-537218b3565f/events.json?auth=eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYzIxN2Q0MThjYjhlNWEzMTQzMThhMGQyZmZhNGUwY2ViMmU0Y2MiLCJ0eXAiOiJKV1QifQ.eyJwYXJ0aWNpcGFudElkIjoiYTAzYWJlNmQtNDkyOS00YWRhLWE1NDUtNTM3MjE4YjM1NjVmIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3dpeC1lbmdhZ2UtdmlzaXRvcnMtcHJvZC0xNSIsImF1ZCI6IndpeC1lbmdhZ2UtdmlzaXRvcnMtcHJvZC0xNSIsImF1dGhfdGltZSI6MTc3ODc0NDE5NSwidXNlcl9pZCI6ImQ4ZTMyZDE5LTlkZWItNDJlZC1iMjdiLTYzYjQ0ZDA0NWU4ZSIsInN1YiI6ImQ4ZTMyZDE5LTlkZWItNDJlZC1iMjdiLTYzYjQ0ZDA0NWU4ZSIsImlhdCI6MTc3ODc0NDE5NSwiZXhwIjoxNzc4NzQ3Nzk1LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImN1c3RvbSJ9fQ.WMeV0bixWieU72D3cOHf4aebTiS1c7G5UXr2AEiRkzTJ23eI_QNJ-POE-X6x9lMrgIMqz5CwNSyYdqXuYZTmNKi4Cx9nSKJoCq6DSFxbrn2geGwMwnl3x1scv9zHGOdYcFNNtRiEn88F-kbtxmLZzCJoR-e5_WHhRT49wdiyz58nGEr3Z-8U4i46axotl6FNHYOI1F1J_plI94P8uH9KCgJzZoE9_DyjfEcFbpGRnd5BD-BDqRuj9mNRlWubtjqAczbOCnmUHLcunRSf-JUowgWoH7GYmVb70tjIg-7lL_UqPSdXRu8Ewx7tw2sXrLBn5PRZlV8cMvPOsuw6GjAa9g",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/firebase@9.23.0/firebase-app-compat.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/firebase@9.23.0/firebase-auth-compat.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/unpkg/firebase@9.23.0/firebase-database-compat.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/chat-sdk.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/message-pop-up.chunk.min.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/message-pop-up.chunk.min.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://engage.wixapps.net/_api/chat-web/v1/display-data/current-user?chatToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiLCJwYXJ0aWNpcGFudElkcyI6WyJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiXSwidXNlclR5cGUiOiJjb250YWN0IiwiaGlzdG9yeURpc2FsbG93ZWQiOmZhbHNlLCJoaXN0b3J5U2luY2VUaW1lc3RhbXAiOm51bGwsImNoYXRyb29tRmlsdGVyIjpudWxsLCJ0ZW5hbnRJZCI6IkluYm94IiwiaXNzIjoiY2hhdC1zZXJ2ZXIiLCJleHAiOjE3Nzg4MzA1ODcsImlhdCI6MTc3ODc0NDE4N30.mPnLoPQvLwAQgQlihjO0KIyuDC0oFjSblrW4zTx6h2M",
+      "status": 200,
+      "contentType": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://engage.wixapps.net/_api/chat-web/v1/chatrooms-for-list-view?chatToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiLCJwYXJ0aWNpcGFudElkcyI6WyJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiXSwidXNlclR5cGUiOiJjb250YWN0IiwiaGlzdG9yeURpc2FsbG93ZWQiOmZhbHNlLCJoaXN0b3J5U2luY2VUaW1lc3RhbXAiOm51bGwsImNoYXRyb29tRmlsdGVyIjpudWxsLCJ0ZW5hbnRJZCI6IkluYm94IiwiaXNzIjoiY2hhdC1zZXJ2ZXIiLCJleHAiOjE3Nzg4MzA1ODcsImlhdCI6MTc3ODc0NDE4N30.mPnLoPQvLwAQgQlihjO0KIyuDC0oFjSblrW4zTx6h2M&pageSize=30&lastMessageLimit=10&unreadChatroomLimit=100",
+      "status": 200,
+      "contentType": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://engage.wixapps.net/_api/chat-web/v1/real-time-tokens?chatToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiLCJwYXJ0aWNpcGFudElkcyI6WyJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiXSwidXNlclR5cGUiOiJjb250YWN0IiwiaGlzdG9yeURpc2FsbG93ZWQiOmZhbHNlLCJoaXN0b3J5U2luY2VUaW1lc3RhbXAiOm51bGwsImNoYXRyb29tRmlsdGVyIjpudWxsLCJ0ZW5hbnRJZCI6IkluYm94IiwiaXNzIjoiY2hhdC1zZXJ2ZXIiLCJleHAiOjE3Nzg4MzA1ODcsImlhdCI6MTc3ODc0NDE4N30.mPnLoPQvLwAQgQlihjO0KIyuDC0oFjSblrW4zTx6h2M",
+      "status": 200,
+      "contentType": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://engage.wixapps.net/_api/chat-web/v1/chatrooms/0c274a61-9e8f-3ac5-9f8c-95602b524472/enriched?chatToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiLCJwYXJ0aWNpcGFudElkcyI6WyJhMDNhYmU2ZC00OTI5LTRhZGEtYTU0NS01MzcyMThiMzU2NWYiXSwidXNlclR5cGUiOiJjb250YWN0IiwiaGlzdG9yeURpc2FsbG93ZWQiOmZhbHNlLCJoaXN0b3J5U2luY2VUaW1lc3RhbXAiOm51bGwsImNoYXRyb29tRmlsdGVyIjpudWxsLCJ0ZW5hbnRJZCI6IkluYm94IiwiaXNzIjoiY2hhdC1zZXJ2ZXIiLCJleHAiOjE3Nzg4MzA1ODcsImlhdCI6MTc3ODc0NDE4N30.mPnLoPQvLwAQgQlihjO0KIyuDC0oFjSblrW4zTx6h2M",
+      "status": 200,
+      "contentType": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=AIzaSyClcOX5Tut1uJylikpNbFzkW_qpiBFjNPM",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8"
+    },
+    {
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyClcOX5Tut1uJylikpNbFzkW_qpiBFjNPM",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8"
+    }
+  ]
+}

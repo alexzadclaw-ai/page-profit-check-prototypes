@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PINO HANDYMAN LLC | DFW Handyman Estimates</title>
+  <style>
+    :root {
+      --ink: #1d2026;
+      --panel: #20242b;
+      --field: #25282e;
+      --line: rgba(255,255,255,.55);
+      --muted: rgba(255,255,255,.76);
+      --teal: #21b4c7;
+      --gold: #d7a64a;
+      --blue: #116dff;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--field); color: #fff; font-family: Arial, Helvetica, sans-serif; }
+    .wixbar { height: 50px; background: #fbfbfb; color: #111; display: flex; align-items: center; justify-content: center; gap: 18px; font-size: 14px; border-bottom: 3px solid var(--blue); }
+    .wixbar strong { font-size: 24px; letter-spacing: -1px; }
+    .wixbar .divider { width: 1px; height: 28px; background: #d8d8d8; }
+    .wixbar a { color: #0b5cff; border: 1px solid #0b5cff; border-radius: 20px; padding: 8px 22px; text-decoration: none; font-weight: 700; }
+    header { background: var(--ink); min-height: 222px; }
+    .wrap { width: min(1205px, calc(100% - 80px)); margin: 0 auto; }
+    .brandrow { display: flex; align-items: center; gap: 20px; padding-top: 42px; }
+    .brandrow img { width: 59px; height: 80px; object-fit: contain; }
+    .brandrow .name { font-family: Georgia, 'Times New Roman', serif; font-size: 26px; letter-spacing: .08em; color: #f3f3f3; }
+    .rule { margin-top: 24px; border-top: 1px solid rgba(255,255,255,.62); }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-top: 24px; font-size: 15px; }
+    .nav a { color: #fff; text-decoration: none; margin-right: 34px; }
+    .contact { margin-left: auto; display: flex; gap: 34px; white-space: nowrap; }
+    .contact a { margin: 0; }
+    main { background: var(--field); padding: 78px 0 96px; }
+    .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+    .copy { background: var(--panel); min-height: 520px; padding: 58px 55px 44px; text-align: center; }
+    h1 { margin: 0 0 20px; font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: clamp(38px, 4vw, 53px); line-height: 1.08; }
+    .lead { color: var(--muted); font-size: 15px; line-height: 1.82; margin: 0 auto 24px; max-width: 505px; }
+    .ctaRow { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+    .btn { display: inline-block; padding: 13px 18px; border-radius: 2px; color: #111; background: #fff; text-decoration: none; font-weight: 700; font-size: 14px; }
+    .btn.alt { color: #fff; background: transparent; border: 1px solid rgba(255,255,255,.7); }
+    .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 27px 0 18px; text-align: left; }
+    .card { border: 1px solid rgba(255,255,255,.22); padding: 13px 12px; min-height: 86px; background: rgba(255,255,255,.035); }
+    .card b { display: block; color: #fff; font-size: 13px; margin-bottom: 7px; }
+    .card span { color: rgba(255,255,255,.68); font-size: 12px; line-height: 1.4; }
+    .trust { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; color: rgba(255,255,255,.82); font-size: 13px; margin-top: 18px; }
+    .trust span::before { content: "✓"; color: var(--teal); margin-right: 6px; font-weight: 700; }
+    .photo { min-height: 520px; overflow: hidden; background: #111; }
+    .photo img { width: 100%; height: 840px; min-height: 520px; object-fit: cover; object-position: 30% 21%; display: block; }
+    .below { margin-top: 34px; border-top: 1px solid rgba(255,255,255,.18); padding-top: 22px; color: rgba(255,255,255,.72); font-size: 14px; line-height: 1.7; max-width: 760px; }
+    @media (max-width: 860px) {
+      .wixbar { display:none; }
+      .wrap { width: min(100% - 32px, 680px); }
+      header { min-height: auto; padding-bottom: 28px; }
+      .nav, .contact { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .hero { grid-template-columns: 1fr; }
+      .copy { padding: 38px 24px; }
+      .services { grid-template-columns: 1fr; }
+      .photo img { height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wixbar"><strong>WIX</strong><span class="divider"></span><span>This website was built on Wix. Create yours today.</span><a href="#estimate">Get Started</a></div>
+  <header>
+    <div class="wrap">
+      <div class="brandrow">
+        <img src="assets/pino-logo.png" alt="PINO HANDYMAN LLC logo" />
+        <div class="name">PINO HANDYMAN LLC</div>
+      </div>
+      <div class="rule"></div>
+      <nav class="nav" aria-label="Main navigation">
+        <div>
+          <a href="#home">Home</a>
+          <a href="#reviews">Add a Review</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="contact">
+          <a href="mailto:pinohandyman@gmail.com">pinohandyman@gmail.com</a>
+          <a href="tel:214-986-9210">214-986-9210</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main id="home">
+    <div class="wrap hero">
+      <section class="copy" id="estimate" aria-labelledby="headline">
+        <h1 id="headline">Professional Handyman<br />Services</h1>
+        <p class="lead">DFW home repairs, odd jobs, and larger projects handled by Miguel Pino, the owner behind PINO HANDYMAN LLC. Request a free estimate, share a few photos, and get a clear next step before the work starts.</p>
+        <div class="ctaRow">
+          <a class="btn" href="tel:214-986-9210">Call for a Free Estimate</a>
+          <a class="btn alt" href="mailto:pinohandyman@gmail.com?subject=Handyman%20Estimate%20Request">Email Project Photos</a>
+        </div>
+        <div class="services" aria-label="Common handyman service categories">
+          <div class="card"><b>Repairs</b><span>Drywall, doors, fixtures, hardware, and punch-list fixes.</span></div>
+          <div class="card"><b>Installations</b><span>Small upgrades, assembly, mounting, and finish details.</span></div>
+          <div class="card"><b>Maintenance</b><span>Apartment, rental, and home upkeep from a lead-maintenance pro.</span></div>
+        </div>
+        <div class="trust"><span>Serving DFW since 2019</span><span>Licensed and insured</span><span>Satisfaction guaranteed</span></div>
+      </section>
+      <aside class="photo" aria-label="Miguel Pino by work truck">
+        <img src="assets/miguel-pino.jpg" alt="Miguel Pino of PINO HANDYMAN LLC standing next to a work truck" />
+      </aside>
+    </div>
+    <div class="wrap below" id="about">PINO HANDYMAN LLC already has the right local proof: owner-led experience, affordable workmanship, and direct phone and email contact. This redesigned first screen keeps the compact contractor feel while giving homeowners a faster path to describe the job and request an estimate.</div>
+  </main>
+</body>
+</html>

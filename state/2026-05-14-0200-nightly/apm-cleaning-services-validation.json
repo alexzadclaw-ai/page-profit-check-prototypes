@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-05-14T02:43:00-05:00",
+  "files": {
+    "prototype_html": {
+      "path": "prototypes/2026-05-14-0200-nightly/apm-cleaning-services/index.html",
+      "exists": true,
+      "bytes": 18362
+    },
+    "source_notes": {
+      "path": "prototypes/2026-05-14-0200-nightly/apm-cleaning-services/SOURCE-NOTES.md",
+      "exists": true,
+      "bytes": 3201
+    },
+    "audit": {
+      "path": "opportunities/2026-05-14-0200-nightly/apm-cleaning-services.md",
+      "exists": true,
+      "bytes": 2960
+    },
+    "offer": {
+      "path": "offers/2026-05-14-0200-nightly/apm-cleaning-services.md",
+      "exists": true,
+      "bytes": 1276
+    },
+    "target_screenshot": {
+      "path": "screenshots/2026-05-14-0200-nightly/apm-cleaning-services-target.png",
+      "exists": true,
+      "bytes": 1174212,
+      "dimensions": {
+        "width": 1440,
+        "height": 3107
+      }
+    },
+    "prototype_screenshot": {
+      "path": "screenshots/2026-05-14-0200-nightly/apm-cleaning-services-prototype.png",
+      "exists": true,
+      "bytes": 1467748,
+      "dimensions": {
+        "width": 1440,
+        "height": 3437
+      }
+    },
+    "inspect_json": {
+      "path": "state/2026-05-14-0200-nightly/apm-cleaning-services-inspect.json",
+      "exists": true,
+      "bytes": 110950
+    }
+  },
+  "offer_checks": {
+    "contains_99": true,
+    "contains_rom_range": true,
+    "contains_em_dash": false,
+    "contains_en_dash": false
+  },
+  "prototype_checks": {
+    "contains_original_phone": true,
+    "contains_original_email": true,
+    "contains_original_asset_urls": true
+  }
+}

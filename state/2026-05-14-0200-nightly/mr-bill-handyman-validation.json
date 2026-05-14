@@ -1,0 +1,81 @@
+{
+  "slug": "mr-bill-handyman",
+  "batch": "2026-05-14-0200-nightly",
+  "file_capture_url": "file:///home/claw/ppc-file-preview/mr-bill-handyman/index.html",
+  "files": {
+    "prototype_html": {
+      "path": "page-profit-check-prototypes/prototypes/2026-05-14-0200-nightly/mr-bill-handyman/index.html",
+      "exists": true,
+      "bytes": 19199
+    },
+    "source_notes": {
+      "path": "page-profit-check-prototypes/prototypes/2026-05-14-0200-nightly/mr-bill-handyman/source-notes.md",
+      "exists": true,
+      "bytes": 5376
+    },
+    "audit": {
+      "path": "page-profit-check-prototypes/opportunities/2026-05-14-0200-nightly/mr-bill-handyman-audit.md",
+      "exists": true,
+      "bytes": 3081
+    },
+    "offer": {
+      "path": "page-profit-check-prototypes/offers/2026-05-14-0200-nightly/mr-bill-handyman-offer.md",
+      "exists": true,
+      "bytes": 1362
+    },
+    "target_screenshot": {
+      "path": "page-profit-check-prototypes/screenshots/2026-05-14-0200-nightly/mr-bill-handyman-target.png",
+      "exists": true,
+      "bytes": 15681855,
+      "width": 1440,
+      "height": 18511,
+      "mode": "RGB",
+      "mean_rgb": [
+        92.43,
+        82.83,
+        77.84
+      ],
+      "stddev_rgb": [
+        83.71,
+        74.79,
+        71.08
+      ]
+    },
+    "prototype_screenshot": {
+      "path": "page-profit-check-prototypes/screenshots/2026-05-14-0200-nightly/mr-bill-handyman-prototype.png",
+      "exists": true,
+      "bytes": 3258505,
+      "width": 1440,
+      "height": 5172,
+      "mode": "RGB",
+      "mean_rgb": [
+        52.53,
+        46.15,
+        34.7
+      ],
+      "stddev_rgb": [
+        66.76,
+        57.96,
+        45.98
+      ]
+    },
+    "inspect_json": {
+      "path": "page-profit-check-prototypes/state/2026-05-14-0200-nightly/mr-bill-handyman-inspect.json",
+      "exists": true,
+      "bytes": 742102
+    }
+  },
+  "content_checks": {
+    "captured_from_file_url": true,
+    "local_assets_count": 15,
+    "local_assets_total_bytes": 992944,
+    "mailto_present": true,
+    "phone_present": true,
+    "license_nj_present": true,
+    "license_pa_present": true,
+    "no_unsplash_or_pexels": true,
+    "offer_has_99": true,
+    "offer_has_dollar_range_rom": true,
+    "offer_em_dash_count": 0
+  }
+}

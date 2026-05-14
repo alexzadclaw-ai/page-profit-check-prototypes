@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krebs Lawn Care LLC | Fort Scott Lawn Care</title>
+  <style>
+    :root{
+      --green:#2f6f2f;
+      --deep:#163b1f;
+      --lime:#8cc63f;
+      --cream:#f6f2e8;
+      --ink:#223022;
+      --muted:#66705f;
+      --line:#d9e4d3;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+    .wixbar{height:50px;background:#fff;border-bottom:1px solid #e7e7e7;display:flex;justify-content:center;align-items:center;gap:10px;font-size:14px;color:#222}
+    .wixbar a{color:#116dff;font-weight:700;text-decoration:none;border:1px solid #116dff;border-radius:18px;padding:6px 18px}
+    header{height:240px;background:white;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;border-bottom:1px solid #f1f1f1}
+    .logo{width:289px;height:auto;display:block;margin-bottom:32px}
+    nav a{color:#222;text-decoration:none;font-size:15px;letter-spacing:.02em}
+    .hero{min-height:550px;background:linear-gradient(90deg,rgba(17,50,22,.82),rgba(17,50,22,.26)),url('assets/hero-nice-grass.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;padding:64px 24px;text-align:center;color:#fff}
+    .hero-inner{max-width:920px;background:rgba(22,59,31,.60);border:1px solid rgba(255,255,255,.26);padding:46px 42px;box-shadow:0 24px 70px rgba(0,0,0,.28)}
+    h1{font-size:52px;line-height:1.06;margin:0 0 18px;font-weight:700;letter-spacing:.01em}
+    .sub{font-size:22px;margin:0 auto 28px;max-width:760px}
+    .buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-block;padding:14px 22px;border-radius:4px;text-decoration:none;font-weight:700;letter-spacing:.02em}
+    .btn.primary{background:var(--lime);color:#10280f}.btn.secondary{background:#fff;color:var(--deep)}
+    section{padding:70px 24px}.wrap{max-width:1110px;margin:0 auto}
+    .intro{display:grid;grid-template-columns:1fr 1fr;min-height:520px;padding:0;background:#f9fbf6}
+    .intro-img{background:url('assets/grass-detail.jpg') center/cover no-repeat;min-height:420px}.intro-copy{padding:78px 70px;background:#fff}
+    h2{font-size:34px;line-height:1.15;margin:0 0 18px;color:var(--deep)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--green);font-weight:700;margin-bottom:12px}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{border:1px solid var(--line);background:#fff;padding:24px;box-shadow:0 10px 24px rgba(39,77,36,.08)}
+    .card h3{margin:0 0 10px;font-size:20px;color:var(--deep)}.card p{margin:0;color:var(--muted)}
+    .strip{background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:step}.step{background:#fff;padding:26px;border-left:5px solid var(--lime);box-shadow:0 12px 26px rgba(0,0,0,.06)}
+    .step:before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;width:34px;height:34px;background:var(--deep);color:#fff;border-radius:50%;font-weight:700;margin-bottom:16px}
+    .cta{background:linear-gradient(90deg,var(--deep),#2d6d32);color:#fff;text-align:center}.cta h2{color:#fff}.cta p{font-size:20px;max-width:780px;margin:0 auto 24px}
+    .contact-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:20px}.contact-row a{color:#fff;text-decoration:none;border-bottom:2px solid var(--lime);font-weight:700}
+    footer{padding:30px 24px;text-align:center;font-size:14px;color:#69715f;background:#fff}.fb{width:20px;vertical-align:middle;margin-right:8px}
+    @media(max-width:850px){header{height:auto;padding:38px 18px}.hero{min-height:520px}.hero-inner{padding:34px 22px}h1{font-size:38px}.intro{grid-template-columns:1fr}.intro-copy{padding:46px 24px}.grid,.steps{grid-template-columns:1fr}.wixbar{height:auto;padding:10px 12px;flex-wrap:wrap}.sub{font-size:19px}}
+  </style>
+</head>
+<body>
+  <div class="wixbar">This website was built on Wix. Create yours today. <a href="https://www.wix.com/">Get Started</a></div>
+  <header>
+    <img class="logo" src="assets/logo-krebs-lawn-care.png" alt="Krebs Lawn Care LLC logo" />
+    <nav><a href="#contact">Home/about/contact</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Krebs Lawn Care lawn service hero">
+      <div class="hero-inner">
+        <div class="eyebrow" style="color:#c9f78a">Fort Scott, Kansas lawn care</div>
+        <h1>Welcome to Krebs Lawn Care, LLC</h1>
+        <p class="sub">Affordable mowing, mulch application, hedge trimming, and brush hauling from a small local business owned and operated by Alexander Krebs.</p>
+        <div class="buttons">
+          <a class="btn primary" href="tel:620-215-1019">Call 620-215-1019</a>
+          <a class="btn secondary" href="mailto:TheKrebsLawnCare@gmail.com?subject=Seasonal%20lawn%20care%20estimate">Request a seasonal estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="intro-img" role="img" aria-label="Healthy green grass from the original Krebs Lawn Care site"></div>
+      <div class="intro-copy">
+        <div class="eyebrow">About</div>
+        <h2>Small-town lawn care with a straightforward estimate path.</h2>
+        <p>Krebs Lawn Care, LLC serves Fort Scott and nearby 66701 homeowners who want a reliable hand keeping the yard neat through the growing season.</p>
+        <p>The updated layout keeps the simple local feel of the original page, then makes services, contact details, and next steps easier to find from the first screen.</p>
+        <p><strong>Service area:</strong> Fort Scott, Kansas and nearby neighborhoods.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="eyebrow">Services</div>
+        <h2>Lawn help visitors can understand quickly.</h2>
+        <div class="grid">
+          <article class="card"><h3>Mowing</h3><p>Routine lawn mowing for homes that need consistent seasonal upkeep.</p></article>
+          <article class="card"><h3>Mulch Application</h3><p>Fresh mulch for beds, curb appeal, and cleaner property edges.</p></article>
+          <article class="card"><h3>Hedge Trimming</h3><p>Clean shaping for shrubs and hedges before they overgrow walkways.</p></article>
+          <article class="card"><h3>Brush Hauling</h3><p>Help clearing and hauling yard debris after trimming or cleanup work.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="wrap">
+        <div class="eyebrow">Simple next steps</div>
+        <h2>Make it easy to ask for a yard estimate.</h2>
+        <div class="steps">
+          <div class="step"><h3>Send the address</h3><p>Share the Fort Scott area property location and the service you need.</p></div>
+          <div class="step"><h3>Describe the season</h3><p>Mowing frequency, mulch timing, hedge size, or brush pile details help scope the job.</p></div>
+          <div class="step"><h3>Get a clear reply</h3><p>Phone and email are repeated so homeowners do not have to hunt for contact info.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="wrap">
+        <h2>Ready for a cleaner, easier-to-maintain yard?</h2>
+        <p>Call or email Krebs Lawn Care, LLC for affordable lawn care service in Fort Scott, Kansas.</p>
+        <div class="buttons">
+          <a class="btn primary" href="tel:620-215-1019">Call now</a>
+          <a class="btn secondary" href="mailto:TheKrebsLawnCare@gmail.com">Email Krebs Lawn Care</a>
+        </div>
+        <div class="contact-row">
+          <a href="tel:620-215-1019">620-215-1019</a>
+          <a href="mailto:TheKrebsLawnCare@gmail.com">TheKrebsLawnCare@gmail.com</a>
+          <a href="https://www.facebook.com/krebslawncare/"><img class="fb" src="assets/facebook-icon.png" alt="" />Facebook</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>©2022 by Krebs Lawn Care, LLC. Proudly created with Wix.com</footer>
+</body>
+</html>
