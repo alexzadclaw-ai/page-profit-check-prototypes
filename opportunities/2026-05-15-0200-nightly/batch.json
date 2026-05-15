@@ -1,0 +1,128 @@
+{
+  "batch": "2026-05-15-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-15T02:00:00-05:00",
+  "curationNotes": "Startup Gmail signature preflight passed. Working tree had unstaged previous-batch offer edits only, with no overlap in this batch's paths. Curated from live indexed Wix small-business pages in the 2026-05-15 2:00 AM run. Inspected 15 live candidate pages with Playwright, selected 10 because each has usable email contact, local-service intent, source assets, and visible conversion cleanup needs. Duplicates from previous batches were excluded before selection, and candidates with signs of a newer independent domain were not selected. Prototypes must be GPT-5.5-authored one site per isolated sub-agent, no old scripted prototype generator.",
+  "items": [
+    {
+      "slug": "home-and-beyond-cleaning-services",
+      "name": "Home and Beyond Cleaning Services, LLC",
+      "url": "https://homeandbeyondcs.wixsite.com/habcs",
+      "contact": "mailto:homeandbeyondcs@gmail.com",
+      "phone": "tel:979-595-3905",
+      "location": "Texas 979 area / Bryan-College Station area",
+      "vertical": "residential, commercial, make-ready, construction, vacation-rental, office, gym, and window cleaning",
+      "summary": "Wix cleaning site has a strong founder story, insured language, service breadth, email, phone, quote form, and many cleaning images, but the first screen leads with a generic slogan and the quote path sits below a long story and service list.",
+      "angle": "Keep the friendly white-and-blue Wix cleaning feel while moving insured proof, service categories, and a clear walk-through quote CTA closer to the first screen",
+      "priority": "A"
+    },
+    {
+      "slug": "serio-home-services",
+      "name": "Serio Home Services LLC",
+      "url": "https://seriohomeservices.wixsite.com/seriohomeservicesllc",
+      "contact": "mailto:seriohomeservices@gmail.com",
+      "phone": "tel:702-373-4994",
+      "location": "Las Vegas, NV area",
+      "vertical": "handyman, drywall repair, home repair, maintenance, TV mounting, and shelving",
+      "summary": "Owner-led handyman Wix site has clear phone/email actions, service sections, and home-repair imagery, but the page repeats calls to action without enough local trust, job examples, or scan-friendly estimate flow.",
+      "angle": "Preserve the simple handyman-contractor layout while turning the first screen into a stronger free-estimate path with service cards, trust cues, and phone/email CTAs",
+      "priority": "A"
+    },
+    {
+      "slug": "griffs-cleaning-covid-disinfecting",
+      "name": "Griff's Cleaning and Covid Disinfecting Services LLC",
+      "url": "https://griffscleaning.wixsite.com/griffscleaningandcov",
+      "contact": "mailto:griffscleaning@gmail.com",
+      "phone": "tel:773-896-3321",
+      "location": "Lansing / Chicagoland, IL",
+      "vertical": "carpet, upholstery, home, commercial, floor, tile, grout, disinfecting, and exterior cleaning",
+      "summary": "Griff's has authentic photos, a memorable cleaning-product story, email, phone, quote form, and broad service coverage, but the homepage is crowded, repetitive, and makes visitors parse too much before contacting.",
+      "angle": "Keep the authentic real-photo cleaning identity while organizing carpet, floors, disinfecting, and home or commercial cleaning into a clearer quote-focused flow",
+      "priority": "A"
+    },
+    {
+      "slug": "christelle-cleaning-services",
+      "name": "Christelle Cleaning Services LLC",
+      "url": "https://christellecleaning.wixsite.com/website-2",
+      "contact": "mailto:christellecleaning@gmail.com",
+      "phone": "tel:857-266-3888",
+      "location": "Marshfield / South Shore, MA",
+      "vertical": "office cleaning, house cleaning, and move-in or move-out cleaning",
+      "summary": "Christelle's Wix site has online booking, pricing ranges, a contact form, email, two phone numbers, and a Marshfield address, but it still feels like a default service template with thin proof and buried local trust.",
+      "angle": "Keep the clean blue-and-white service template but make office, house, and move-out cleaning packages clearer with local proof, booking CTA, and sharper trust language",
+      "priority": "A-"
+    },
+    {
+      "slug": "quick-n-go-mobile-detail",
+      "name": "Quick N’ Go Mobile Detail LLC",
+      "url": "https://quickngodetailer.wixsite.com/quickngomobiledetail/detailing-packages",
+      "contact": "mailto:quickngodetailer@gmail.com",
+      "phone": "tel:440-666-9211",
+      "location": "Willoughby, OH",
+      "vertical": "mobile auto detailing, vinyl wraps, and paint protection film",
+      "summary": "Quick N' Go has package pricing, service photos, an address, email, phone, and a memorable brand voice, but the package page does not quickly explain why to choose them or how to request the right detail package.",
+      "angle": "Preserve the energetic mobile-detailing look while turning the package list into an easier choose-your-detail path with proof, add-ons, and quote/contact CTAs",
+      "priority": "A-"
+    },
+    {
+      "slug": "bad-grass-lawn-care",
+      "name": "Bad grASS Lawn Care LLC",
+      "url": "https://badgrassinfo.wixsite.com/lawncare",
+      "contact": "mailto:badgrass.info@gmail.com",
+      "phone": "tel:904-832-4262",
+      "location": "Fernandina Beach, FL",
+      "vertical": "lawn mowing, edging, trimming, hedges, blowing, irrigation repair, mulch, and outdoor maintenance",
+      "summary": "Bad grASS has a memorable name, phone, email, discount offer, local lawn-service intent, and a compact service list, but the page is very thin and needs stronger first-screen trust and estimate framing.",
+      "angle": "Keep the bold green lawn-care personality while adding a clearer free-consultation hero, service grid, seasonal proof, and fast quote/contact route",
+      "priority": "A"
+    },
+    {
+      "slug": "green-queen-eco-clean",
+      "name": "Green Queen Eco Clean LLC",
+      "url": "https://greenqueenecoclean.wixsite.com/greenqueenecocleanll",
+      "contact": "mailto:greenqueenecocleanllc@gmail.com",
+      "phone": "tel:253-326-3787",
+      "location": "Tacoma / Pierce County, WA area",
+      "vertical": "eco-friendly house cleaning, move-in or move-out cleaning, carpet shampooing, stain removal, and upholstery cleaning",
+      "summary": "Green Queen has a clear eco-friendly cleaning angle, email, phone, quote form, original logo/photo assets, and specialty carpet services, but the copy is hard to scan and the top of page underuses the natural-products differentiator.",
+      "angle": "Preserve the green eco-cleaning identity while making natural products, carpet specialties, cleaning frequency, and quote CTA visible before the long background copy",
+      "priority": "A"
+    },
+    {
+      "slug": "industry-pros-pressure-washing",
+      "name": "Industry Pros Pressure Washing LLC",
+      "url": "https://industrypros77.wixsite.com/industry-pros-pressu",
+      "contact": "mailto:industrypros77@gmail.com",
+      "phone": "tel:980-353-6177",
+      "location": "Charlotte, NC",
+      "vertical": "deck power washing, soft house washing, driveway cleaning, vehicle washing, and exterior pressure washing",
+      "summary": "Industry Pros has phone, email, address, hours, bookable services, quote form, and multiple pressure-washing images, but the site has template remnants, awkward pricing copy, and a fragmented contact path.",
+      "angle": "Keep the blue pressure-washing service look while cleaning up template remnants, surfacing Charlotte contact details, grouping services, and strengthening the quote path",
+      "priority": "A"
+    },
+    {
+      "slug": "amro-landscaping-services",
+      "name": "Amro LLC Lawncare/Landscaping Services",
+      "url": "https://amrolandscaping.wixsite.com/website",
+      "contact": "mailto:amrolandscaping@gmail.com",
+      "phone": "tel:515-988-6365",
+      "location": "Des Moines, IA and surrounding areas",
+      "vertical": "lawn care, landscaping, retaining walls, spring cleaning, fall cleaning, residential, and commercial outdoor services",
+      "summary": "Amro's Wix site has Des Moines service-area language, free estimates, lawn and landscaping categories, email, phone, and outdoor images, but the homepage title and first screen do not communicate the strongest local estimate path fast enough.",
+      "angle": "Preserve the residential and commercial landscaping feel while clarifying Des Moines service areas, free-estimate CTA, core lawn services, and seasonal cleanup proof",
+      "priority": "A"
+    },
+    {
+      "slug": "abene-property",
+      "name": "Abene Property LLC",
+      "url": "https://abenepropertyprese.wixsite.com/abenepropertyllc",
+      "contact": "mailto:abenepropertypreservation@gmail.com",
+      "phone": "tel:773-712-2628",
+      "location": "NW Chicago, Park Ridge, Des Plaines, Niles, IL",
+      "vertical": "landscape, lawn, snow removal, and year-round outdoor property maintenance",
+      "summary": "Abene has a logo, email, phone, local suburb coverage, year-round maintenance positioning, and service depth, but the page hides most service proof in dense copy and needs a cleaner estimate-first structure.",
+      "angle": "Keep the local NW Chicago landscaping identity while moving year-round maintenance, suburb coverage, services, and free-estimate CTA into a more persuasive first-screen flow",
+      "priority": "A"
+    }
+  ]
+}

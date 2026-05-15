@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abene Property LLC | Landscape, Lawn & Property Maintenance</title>
+  <meta name="description" content="Abene Property LLC provides year-round lawn, landscape, snow removal and outdoor property maintenance in NW Chicago, Park Ridge, Des Plaines, Niles and nearby suburbs.">
+  <style>
+    :root {
+      --ink: #070707;
+      --muted: #4d4d43;
+      --leaf: #7c8d39;
+      --leaf-dark: #334015;
+      --leaf-soft: #cbd697;
+      --cream: #f7f8ef;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: raleway, Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.45;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .wix-banner {
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      background: #f0f2f3;
+      color: #20303c;
+      font: 400 16px/1.2 Madefor-Text, Arial, sans-serif;
+    }
+    .wix-banner .start { color: #166aea; font-size: 14px; }
+
+    .site-header {
+      height: 200px;
+      background: #fff;
+      position: relative;
+      z-index: 2;
+    }
+    .header-inner {
+      width: min(1205px, calc(100% - 48px));
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+    .contact-row {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      right: 0;
+      min-height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #000;
+    }
+    .contact-left { display: flex; gap: 28px; align-items: center; }
+    .socials { display: flex; gap: 10px; align-items: center; }
+    .socials img { display: block; width: 20px; height: 20px; }
+
+    .brand-row {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      height: 105px;
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      flex: 0 0 80px;
+    }
+    .brand-copy {
+      margin-left: 15px;
+      min-width: 380px;
+    }
+    .brand-name {
+      display: block;
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-size: 22px;
+      line-height: 1.15;
+      letter-spacing: .01em;
+    }
+    .brand-subtitle {
+      margin-top: 7px;
+      display: block;
+      font-size: 15px;
+      letter-spacing: .01em;
+    }
+    .nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      font-size: 14px;
+    }
+    .nav a {
+      min-width: 60px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 14px;
+      color: #191919;
+    }
+    .nav a.quote-link { min-width: 97px; }
+    .nav a:hover { color: var(--leaf-dark); }
+
+    .hero {
+      min-height: 946px;
+      position: relative;
+      display: grid;
+      place-items: start center;
+      overflow: hidden;
+      background-image: linear-gradient(rgba(91, 107, 50, .64), rgba(91, 107, 50, .64)), url('https://static.wixstatic.com/media/81391cc457344ae8bf670caecfd52d15.jpg/v1/fill/w_1365,h_946,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/81391cc457344ae8bf670caecfd52d15.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+    .hero-content {
+      width: min(840px, calc(100% - 48px));
+      margin-top: 112px;
+      text-align: center;
+      color: #fff;
+      text-shadow: 0 2px 16px rgba(0,0,0,.38);
+    }
+    .area-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 7px 18px 8px;
+      border: 1px solid rgba(255,255,255,.68);
+      background: rgba(255,255,255,.12);
+      font-size: 15px;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 24px auto 0;
+      max-width: 610px;
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(52px, 5.28vw, 72px);
+      line-height: 1.23;
+      letter-spacing: .01em;
+    }
+    .hero-lede {
+      margin: 22px auto 0;
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(32px, 3.2vw, 44px);
+      line-height: 1.18;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .hero-summary {
+      margin: 26px auto 0;
+      max-width: 780px;
+      font-size: 22px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+    .hero-actions {
+      margin-top: 34px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 25px;
+      border: 1px solid #000;
+      background: #000;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      text-shadow: none;
+      transition: .2s ease;
+    }
+    .btn:hover { background: #1d1d1d; transform: translateY(-1px); }
+    .btn.secondary {
+      border-color: rgba(255,255,255,.82);
+      background: rgba(255,255,255,.10);
+      color: #fff;
+    }
+    .btn.secondary:hover { background: rgba(255,255,255,.22); }
+    .service-chips {
+      width: min(780px, 100%);
+      margin: 34px auto 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .service-chips span {
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 12px;
+      border: 1px solid rgba(255,255,255,.46);
+      background: rgba(0,0,0,.24);
+      font-size: 16px;
+      line-height: 1.25;
+    }
+
+    .services {
+      min-height: 1550px;
+      background: var(--leaf-soft);
+      position: relative;
+      overflow: hidden;
+    }
+    .services-inner {
+      width: min(980px, calc(100% - 48px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 460px 460px;
+      column-gap: 60px;
+      align-items: start;
+      padding-top: 218px;
+    }
+    .services-copy {
+      min-height: 948px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .services h2 {
+      margin: 0 0 28px;
+      max-width: 430px;
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 1.2;
+      letter-spacing: .01em;
+    }
+    .intro {
+      margin: 0 0 26px;
+      font-size: 22px;
+      line-height: 1.45;
+    }
+    .proof-card {
+      background: rgba(255,255,255,.48);
+      border: 1px solid rgba(255,255,255,.55);
+      padding: 26px 28px 28px;
+      box-shadow: 0 18px 40px rgba(53, 67, 23, .10);
+    }
+    .proof-card h3 {
+      margin: 0 0 14px;
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-size: 30px;
+      line-height: 1.15;
+      font-weight: 400;
+    }
+    .service-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      columns: 2;
+      column-gap: 26px;
+      font-size: 18px;
+      line-height: 1.45;
+    }
+    .service-list li {
+      break-inside: avoid;
+      margin: 0 0 10px;
+      padding-left: 19px;
+      position: relative;
+    }
+    .service-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .72em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--leaf-dark);
+    }
+    .why-row {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .why-row div {
+      min-height: 92px;
+      padding: 18px 14px;
+      background: rgba(255,255,255,.28);
+      border: 1px solid rgba(255,255,255,.40);
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+    .section-cta {
+      margin-top: 34px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .section-cta .small-note {
+      max-width: 250px;
+      color: var(--leaf-dark);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+    .backyard-photo {
+      width: 460px;
+      height: 940px;
+      object-fit: cover;
+      display: block;
+      box-shadow: none;
+    }
+
+    .site-footer {
+      min-height: 280px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+    }
+    .footer-inner {
+      width: min(980px, calc(100% - 48px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      font-size: 16px;
+    }
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .footer-brand img { width: 64px; height: 64px; object-fit: cover; }
+    .footer-title {
+      font-family: cormorantgaramond-light, cormorantgaramond, "Cormorant Garamond", Georgia, serif;
+      font-size: 24px;
+      line-height: 1.1;
+    }
+    .footer-contact {
+      display: grid;
+      gap: 10px;
+      justify-items: start;
+    }
+    .footer-socials { display: flex; gap: 10px; margin-top: 4px; }
+    .footer-socials img { width: 20px; height: 20px; }
+    .copyright {
+      grid-column: 1 / -1;
+      color: #333;
+      font-size: 14px;
+      margin-top: 10px;
+      border-top: 1px solid #ececec;
+      padding-top: 22px;
+    }
+
+    @media (max-width: 900px) {
+      .wix-banner { font-size: 12px; padding: 0 14px; text-align: center; }
+      .site-header { height: auto; padding: 22px 0 24px; }
+      .header-inner { height: auto; }
+      .contact-row, .brand-row { position: static; }
+      .contact-row { align-items: flex-start; gap: 16px; flex-direction: column; }
+      .contact-left { flex-direction: column; align-items: flex-start; gap: 6px; }
+      .brand-row { margin-top: 22px; flex-wrap: wrap; gap: 16px; }
+      .brand-copy { min-width: 0; margin-left: 0; }
+      .nav { width: 100%; justify-content: flex-start; }
+      .hero { min-height: 860px; }
+      .hero-content { margin-top: 70px; }
+      .hero-summary { font-size: 18px; }
+      .service-chips { grid-template-columns: repeat(2, 1fr); }
+      .services { min-height: auto; }
+      .services-inner { grid-template-columns: 1fr; padding: 70px 0; gap: 34px; }
+      .backyard-photo { width: 100%; height: auto; max-height: 720px; }
+      .service-list { columns: 1; }
+      .why-row { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; padding: 54px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wix-banner" aria-hidden="true">
+    <span>This website was built on Wix. Create yours today.</span>
+    <span class="start">Get Started</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="contact-row">
+        <div class="contact-left">
+          <a href="mailto:abenepropertypreservation@gmail.com">abenepropertypreservation@gmail.com</a>
+          <a href="tel:7737122628">(773) 712-2628</a>
+        </div>
+        <div class="socials" aria-label="Social links">
+          <a href="https://maps.google.com/?cid=7520495095644712909" aria-label="Google Places"><img src="https://static.wixstatic.com/media/390db90c2cec42d58bd3203fc21fe12e.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Google%20Places.png" alt="Google Places"></a>
+          <a href="https://www.facebook.com/abenepropertyllc" aria-label="Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+
+      <div class="brand-row">
+        <a href="https://abenepropertyprese.wixsite.com/abenepropertyllc" aria-label="Abene Property LLC home"><img class="logo" src="https://static.wixstatic.com/media/1e9a10_7bac237c4e57429b93d8289eaf5b5453~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77592-abene-property-preservation-logo-01-57553d0bdd27acb27a684966881fbeaa-1000x1000.jpg" alt="Abene Property LLC logo"></a>
+        <a class="brand-copy" href="https://abenepropertyprese.wixsite.com/abenepropertyllc">
+          <span class="brand-name">Abene Property LLC</span>
+          <span class="brand-subtitle">Landscape, Lawn &amp; Property Maintenance</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="https://abenepropertyprese.wixsite.com/abenepropertyllc">Home</a>
+          <a class="quote-link" href="https://abenepropertyprese.wixsite.com/abenepropertyllc/get-a-quote-1">Get a Quote</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="area-pill">NW Chicago, Park Ridge, Des Plaines &amp; Niles</div>
+        <h1>Welcome to<br>Abene Property LLC</h1>
+        <p class="hero-lede">Year-round property maintenance</p>
+        <p class="hero-summary">Since 2012, Abene has helped local homes and commercial properties with lawn care, landscaping, cleanups, snow removal and outdoor maintenance through all 4 seasons.</p>
+        <div class="hero-actions" aria-label="Estimate actions">
+          <a class="btn" href="https://abenepropertyprese.wixsite.com/abenepropertyllc/get-a-quote-1">Get a Free Estimate</a>
+          <a class="btn secondary" href="tel:7737122628">Call (773) 712-2628</a>
+        </div>
+        <div class="service-chips" aria-label="Common services">
+          <span>Lawn mowing &amp; maintenance</span>
+          <span>Landscape design &amp; planting</span>
+          <span>Spring and fall cleanups</span>
+          <span>Snow removal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="services-inner">
+        <div class="services-copy">
+          <h2>More About Us &amp; The Services We Offer</h2>
+          <p class="intro">Quality service, efficiency, communication and attention to detail are still the center of the page. The difference is that visitors can scan the work faster and request an estimate without hunting.</p>
+          <div class="proof-card">
+            <h3>Outdoor maintenance in every season</h3>
+            <ul class="service-list">
+              <li>Lawn mowing</li>
+              <li>Lawn maintenance</li>
+              <li>Fertilizer programs</li>
+              <li>Sod installation</li>
+              <li>Plant, tree and bush planting</li>
+              <li>Garden bed design</li>
+              <li>Drainage solutions</li>
+              <li>Patio installation and restoration</li>
+              <li>Power washing</li>
+              <li>Sealing and staining</li>
+              <li>Gutter cleaning</li>
+              <li>Window washing</li>
+              <li>Tree trimming and removal</li>
+              <li>Spring and fall cleanups</li>
+              <li>Leaf removal</li>
+              <li>Snow removal</li>
+              <li>Mulch, rock and dirt installation</li>
+              <li>Bobcat services</li>
+            </ul>
+          </div>
+          <div class="why-row" aria-label="Trust points">
+            <div><strong>Since 2012</strong><br>serving nearby suburbs</div>
+            <div><strong>Residential &amp; commercial</strong><br>projects welcome</div>
+            <div><strong>Clear communication</strong><br>from estimate to workday</div>
+          </div>
+          <div class="section-cta">
+            <a class="btn" href="mailto:abenepropertypreservation@gmail.com?subject=Free%20estimate%20request">Contact</a>
+            <span class="small-note">Ask for a free estimate and include your property location plus the services needed.</span>
+          </div>
+        </div>
+        <img class="backyard-photo" src="https://static.wixstatic.com/media/be7461f7efb4452e9a3d968060f9b631.jpg/v1/fill/w_460,h_940,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Designed%20Backyard.jpg" alt="Designed backyard landscape maintained by Abene Property LLC">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="https://static.wixstatic.com/media/1e9a10_7bac237c4e57429b93d8289eaf5b5453~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77592-abene-property-preservation-logo-01-57553d0bdd27acb27a684966881fbeaa-1000x1000.jpg" alt="Abene Property LLC logo">
+        <div>
+          <div class="footer-title">Abene Property LLC</div>
+          <div>Landscape, Lawn &amp; Property Maintenance</div>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:abenepropertypreservation@gmail.com">abenepropertypreservation@gmail.com</a>
+        <a href="tel:7737122628">(773) 712-2628</a>
+        <div class="footer-socials">
+          <a href="https://maps.google.com/?cid=7520495095644712909" aria-label="Google Places"><img src="https://static.wixstatic.com/media/390db90c2cec42d58bd3203fc21fe12e.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Google%20Places.png" alt="Google Places"></a>
+          <a href="https://www.facebook.com/abenepropertyllc" aria-label="Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="copyright">©2022 Abene Property LLC.</div>
+    </div>
+  </footer>
+</body>
+</html>

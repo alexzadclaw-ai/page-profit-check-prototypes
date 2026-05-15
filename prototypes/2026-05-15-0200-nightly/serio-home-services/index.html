@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Serio Home Services LLC</title>
+  <meta name="description" content="Serio Home Services LLC provides handyman, drywall repair, home repair, TV mounting, shelving, and maintenance help in the Las Vegas area.">
+  <style>
+    :root {
+      --navy: #150c3f;
+      --blue: #536afd;
+      --blue-dark: #4258e8;
+      --white: #ffffff;
+      --muted: #d9dcff;
+      --ink: #150c3f;
+      --line: rgba(255,255,255,.28);
+      --page: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--page);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    .wix-ribbon {
+      height: 50px;
+      background: #eff1f2;
+      color: #20303c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      font-size: 16px;
+      letter-spacing: .01em;
+    }
+    .wix-ribbon b { font-weight: 700; letter-spacing: .08em; }
+    .wix-ribbon .get-started {
+      color: #166aea;
+      border: 1px solid #166aea;
+      border-radius: 18px;
+      padding: 4px 20px 5px;
+      font-size: 14px;
+      background: #fff;
+    }
+
+    .top-shell { background: var(--navy); color: #fff; position: relative; overflow: hidden; }
+    .header {
+      height: 180px;
+      max-width: 1205px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 3;
+      background: var(--navy);
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      top: 27px;
+      width: 320px;
+    }
+    .brand-title { font-size: 22px; line-height: 1.2; font-weight: 400; margin: 0 0 9px; }
+    .brand-sub { font-size: 15px; line-height: 1.2; margin: 0; }
+    .header-line { position: absolute; left: 0; right: 0; top: 98px; height: 1px; background: var(--line); }
+    .nav {
+      position: absolute;
+      left: -10px;
+      bottom: 30px;
+      display: flex;
+      gap: 0;
+      align-items: center;
+      font-size: 14px;
+    }
+    .nav a { padding: 0 10px; height: 30px; display: inline-flex; align-items: center; }
+    .nav a:first-child { color: #f7f7f7; }
+    .contact-mini {
+      position: absolute;
+      right: 0;
+      bottom: 36px;
+      display: flex;
+      gap: 24px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .contact-mini a:hover, .nav a:hover, footer a:hover { text-decoration: underline; }
+
+    .hero {
+      max-width: 1205px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 603px;
+      min-height: 900px;
+      position: relative;
+      z-index: 2;
+      background: var(--navy);
+    }
+    .hero-copy {
+      padding-left: 71px;
+      padding-top: 143px;
+      padding-right: 42px;
+    }
+    .hero h1 {
+      margin: 0;
+      width: 455px;
+      max-width: 100%;
+      color: var(--blue);
+      font-size: 72px;
+      line-height: .99;
+      letter-spacing: -.035em;
+      font-weight: 700;
+    }
+    .hero .subhead {
+      color: #fff;
+      margin: 30px 0 0;
+      font-size: 20px;
+      line-height: 1.2;
+      max-width: 500px;
+    }
+    .cta-row { display: flex; gap: 18px; align-items: center; margin-top: 62px; flex-wrap: wrap; }
+    .btn {
+      min-height: 45px;
+      min-width: 98px;
+      border: 1px solid var(--blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px 11px;
+      font-size: 15px;
+      line-height: 1;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-primary:hover { background: var(--blue-dark); }
+    .btn-outline { color: var(--blue); background: transparent; }
+    .btn-outline:hover { background: rgba(83,106,253,.12); }
+    .estimate-card {
+      margin-top: 34px;
+      width: 502px;
+      max-width: 100%;
+      border: 1px solid rgba(255,255,255,.22);
+      background: rgba(255,255,255,.055);
+      padding: 20px 22px 22px;
+    }
+    .estimate-title { margin: 0 0 13px; color: #fff; font-size: 17px; line-height: 1.25; font-weight: 700; }
+    .quick-services {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .quick-services span {
+      border: 1px solid rgba(83,106,253,.7);
+      color: #fff;
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 8px 9px;
+      font-size: 13px;
+      line-height: 1.25;
+      background: rgba(21,12,63,.5);
+    }
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 13px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .trust-row span { white-space: nowrap; }
+    .hero-photo {
+      min-height: 900px;
+      height: 900px;
+      overflow: hidden;
+      align-self: stretch;
+      background: var(--navy);
+    }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center center; }
+
+    .services-intro {
+      position: relative;
+      min-height: 520px;
+      background-image: linear-gradient(rgba(21,12,63,.42), rgba(21,12,63,.42)), url('https://static.wixstatic.com/media/339c3ac08bd44964914ff4f560cbc361.jpg/v1/fill/w_1365,h_520,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/339c3ac08bd44964914ff4f560cbc361.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 70px 80px 66px;
+    }
+    .services-intro-inner { max-width: 940px; margin: 0 auto; }
+    .services-intro h2 { margin: 0 0 28px; font-size: 40px; line-height: 1.2; font-weight: 700; }
+    .services-intro p { margin: 0 auto; max-width: 930px; font-size: 15px; line-height: 1.65; }
+    .services-intro .btn { margin-top: 52px; min-width: 120px; }
+
+    main { background: #fff; }
+    .panel-stack { padding: 30px 0 0; }
+    .service-panel {
+      width: calc(100% - 160px);
+      max-width: 1205px;
+      min-height: 720px;
+      margin: 0 auto 30px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .service-panel.short { min-height: 680px; }
+    .service-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(21,12,63,.55), rgba(21,12,63,.16) 62%, rgba(21,12,63,.28));
+      z-index: 0;
+    }
+    .service-content {
+      position: relative;
+      z-index: 1;
+      padding-left: 40px;
+      padding-bottom: 39px;
+      max-width: 875px;
+    }
+    .service-content h3 { margin: 0 0 29px; font-size: 22px; line-height: 1.25; font-weight: 700; }
+    .service-content p { margin: 0; font-size: 15px; line-height: 1.65; max-width: 835px; }
+    .service-content .btn { margin-top: 58px; }
+
+    .commitment {
+      min-height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 52px 80px;
+      color: var(--navy);
+      font-size: 15px;
+    }
+    .commitment p { margin: 0; max-width: 790px; }
+
+    .contact-section {
+      width: calc(100% - 160px);
+      max-width: 1205px;
+      margin: 0 auto 0;
+      display: grid;
+      grid-template-columns: 603px 1fr;
+      min-height: 741px;
+      color: var(--navy);
+    }
+    .contact-image img { width: 100%; height: 741px; object-fit: cover; }
+    .contact-copy {
+      padding: 118px 75px 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-copy .intro {
+      max-width: 455px;
+      text-align: left;
+      font-size: 15px;
+      line-height: 1.7;
+      margin: 0 0 38px;
+    }
+    .callout-line {
+      width: 454px;
+      max-width: 100%;
+      border: 1px solid rgba(21,12,63,.18);
+      padding: 13px 16px;
+      margin: 0 0 28px;
+      font-size: 14px;
+      line-height: 1.35;
+      text-align: center;
+    }
+    .contact-form { width: 454px; max-width: 100%; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    label { display: block; font-size: 13px; margin: 0 0 5px; color: rgba(21,12,63,.84); }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid rgba(21,12,63,.75);
+      color: var(--navy);
+      background: transparent;
+      font: inherit;
+      padding: 7px 0 8px;
+      outline: none;
+      border-radius: 0;
+    }
+    textarea { min-height: 94px; resize: vertical; }
+    .field { margin-bottom: 18px; }
+    .submit-btn {
+      width: 100%;
+      min-height: 55px;
+      border: 0;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    footer { background: var(--navy); color: #fff; margin-top: 0; }
+    .footer-inner {
+      max-width: 940px;
+      min-height: 160px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.3fr .8fr 1fr;
+      gap: 56px;
+      align-items: start;
+      padding: 48px 0 34px;
+    }
+    .footer-brand { font-size: 22px; line-height: 1.2; margin-top: 2px; }
+    .footer-title { font-size: 15px; line-height: 1.2; margin: 0 0 22px; }
+    .footer-text { font-size: 15px; line-height: 1.85; margin: 0; }
+    .copyright {
+      min-height: 91px;
+      background: #fff;
+      color: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: calc((100% - 940px) / 2);
+      font-size: 14px;
+    }
+    .chat {
+      position: fixed;
+      right: 28px;
+      bottom: 24px;
+      z-index: 20;
+      background: var(--blue);
+      color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 9px 26px rgba(0,0,0,.24);
+      padding: 15px 21px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 16px;
+    }
+    .chat::before { content: ""; width: 12px; height: 12px; border-radius: 999px; background: #fff; display: inline-block; box-shadow: 0 0 0 4px rgba(255,255,255,.18); }
+
+    @media (max-width: 900px) {
+      .wix-ribbon { font-size: 12px; gap: 8px; padding: 0 8px; }
+      .header, .hero { max-width: none; width: 100%; }
+      .header { height: auto; padding: 28px 24px 24px; }
+      .brand, .nav, .contact-mini, .header-line { position: static; }
+      .brand { width: auto; margin-bottom: 22px; }
+      .header-line { margin: 18px 0; }
+      .nav { margin: 0 0 16px; }
+      .contact-mini { flex-direction: column; gap: 6px; }
+      .hero { grid-template-columns: 1fr; min-height: 0; }
+      .hero-copy { padding: 52px 28px; }
+      .hero h1 { font-size: 46px; width: auto; }
+      .hero .subhead { font-size: 18px; }
+      .cta-row { margin-top: 32px; }
+      .quick-services { grid-template-columns: 1fr; }
+      .hero-photo { height: 420px; min-height: 420px; }
+      .services-intro { min-height: 440px; padding: 56px 28px; }
+      .services-intro h2 { font-size: 32px; }
+      .service-panel, .contact-section { width: calc(100% - 40px); }
+      .service-panel { min-height: 540px; }
+      .service-content { padding: 0 25px 34px; }
+      .contact-section { grid-template-columns: 1fr; }
+      .contact-image img { height: 430px; }
+      .contact-copy { padding: 52px 24px; }
+      .form-row { grid-template-columns: 1fr; gap: 0; }
+      .footer-inner { grid-template-columns: 1fr; gap: 24px; padding: 36px 28px; }
+      .copyright { padding: 24px 28px; align-items: center; justify-content: flex-start; }
+      .chat { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wix-ribbon"><b>WIX</b><span>This website was built on Wix. Create yours today.</span><span class="get-started">Get Started</span></div>
+
+  <section class="top-shell" aria-label="Serio Home Services introduction">
+    <header class="header">
+      <a class="brand" href="https://seriohomeservices.wixsite.com/seriohomeservicesllc" aria-label="Serio Home Services LLC home">
+        <p class="brand-title">Serio Home Services LLC</p>
+        <p class="brand-sub">The Handyman You Can Count On</p>
+      </a>
+      <div class="header-line"></div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#top">Home</a>
+        <a href="https://seriohomeservices.wixsite.com/seriohomeservicesllc/book-online">Book Online</a>
+        <a href="#services">More</a>
+      </nav>
+      <div class="contact-mini">
+        <a href="mailto:seriohomeservices@gmail.com">seriohomeservices@gmail.com</a>
+        <a href="tel:7023734994">702-373-4994</a>
+      </div>
+    </header>
+
+    <div class="hero" id="top">
+      <div class="hero-copy">
+        <h1>Serio Home Services LLC: Handyman Professional</h1>
+        <p class="subhead">No Job Too Small. Call or Email Now for a Free Estimate</p>
+        <div class="cta-row" aria-label="Free estimate contact actions">
+          <a class="btn btn-primary" href="tel:7023734994">Call Now</a>
+          <a class="btn btn-outline" href="mailto:seriohomeservices@gmail.com?subject=Free%20estimate%20request">Email Me</a>
+        </div>
+        <div class="estimate-card" aria-label="Fast estimate details">
+          <p class="estimate-title">Fast Las Vegas handyman estimates for the repairs people keep putting off.</p>
+          <div class="quick-services" aria-label="Common service requests">
+            <span>Drywall repairs</span>
+            <span>Home repair and maintenance</span>
+            <span>TV mounting and shelving</span>
+          </div>
+          <div class="trust-row">
+            <span>Owner-led service</span><span>|</span><span>Las Vegas, NV area</span><span>|</span><span>M-F 8am-8pm</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo" aria-hidden="true">
+        <img src="https://static.wixstatic.com/media/defe51ec28b144bf837e391e91626341.jpg/v1/fill/w_603,h_1800,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/defe51ec28b144bf837e391e91626341.jpg" alt="Red Roof">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="services-intro" id="services">
+      <div class="services-intro-inner">
+        <h2>Learn More About My Services</h2>
+        <p>Consider Serio Home Services LLC for your next project. This handyman can handle residential improvement jobs, shelving, outdoor planters, fence and wall repair, drywall touch-ups, TV mounting, and small maintenance needs. Share a few details, photos if you have them, and the best way to reach you for a free estimate.</p>
+        <a class="btn btn-primary" href="mailto:seriohomeservices@gmail.com?subject=Project%20estimate%20request">Get in Touch</a>
+      </div>
+    </section>
+
+    <section class="panel-stack" aria-label="Featured handyman services">
+      <article class="service-panel" style="background-image: url('https://static.wixstatic.com/media/258595d19fcb69f895ac155f687ecbc4.jpg/v1/fill/w_1000,h_598,fp_0.50_0.50,q_85,enc_avif,quality_auto/258595d19fcb69f895ac155f687ecbc4.jpg');">
+        <div class="service-content">
+          <h3>Drywall Repairs</h3>
+          <p>Need a handyman to tackle your drywall repair project? I can help with small holes, patching, touch-ups, and the finish work that makes the room feel complete again. Tell me what happened and where it is, then I can point you toward the next step.</p>
+          <a class="btn btn-primary" href="mailto:seriohomeservices@gmail.com?subject=Drywall%20repair%20estimate">Get in Touch</a>
+        </div>
+      </article>
+
+      <article class="service-panel" style="background-image: url('https://static.wixstatic.com/media/05233480b8c842d19e85f2bd900a4660.jpg/v1/fill/w_1205,h_720,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/05233480b8c842d19e85f2bd900a4660.jpg');">
+        <div class="service-content">
+          <h3>Home Repair and Maintenance</h3>
+          <p>Have a home repair problem that needs professional attention? Serio Home Services LLC can help with the practical fixes, installations, and maintenance tasks that keep your home working the way it should. Call for a free estimate and a clear next step.</p>
+          <a class="btn btn-primary" href="tel:7023734994">CALL NOW</a>
+        </div>
+      </article>
+
+      <article class="service-panel short" style="background-image: url('https://static.wixstatic.com/media/5b29502eb45d4f19baad4154430092af.jpg/v1/fill/w_1205,h_680,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5b29502eb45d4f19baad4154430092af.jpg');">
+        <div class="service-content">
+          <h3>TV Wall Mounting and Shelf Installation</h3>
+          <p>Need help mounting a TV for a streamlined look? Have shelves that need to be safely installed for better organization? Send your wall type, room, and hardware details so I can help you set up a free quote.</p>
+          <a class="btn btn-primary" href="mailto:seriohomeservices@gmail.com?subject=TV%20mounting%20or%20shelf%20estimate">Email Me</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="commitment">
+      <p>Serio Home Services LLC is committed to helping you with every job. Call anytime during business hours to speak with a professional directly, or email photos and a short project description for a free estimate.</p>
+    </section>
+
+    <section class="contact-section" id="contact" aria-label="Contact Serio Home Services">
+      <div class="contact-image" aria-hidden="true">
+        <img src="https://static.wixstatic.com/media/0d4e1d80c5124582a8245efdaa78a4d5.jpg/v1/fill/w_603,h_741,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0d4e1d80c5124582a8245efdaa78a4d5.jpg" alt="Flooring">
+      </div>
+      <div class="contact-copy">
+        <p class="intro">Professional. Fast. Reliable. Contact me with questions, describe your project, and say goodbye to your home repair problems. I am available by phone M-F: 8am-8pm, and you can reach me by email anytime.</p>
+        <p class="callout-line"><strong>Free estimate path:</strong> call <a href="tel:7023734994">702-373-4994</a> or send the project details and photos to <a href="mailto:seriohomeservices@gmail.com">seriohomeservices@gmail.com</a>.</p>
+        <form class="contact-form" action="mailto:seriohomeservices@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name"></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+          </div>
+          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject"></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+          <button class="submit-btn" type="submit">Request My Free Estimate</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">Serio Home Services LLC</div>
+      <div>
+        <p class="footer-title">Address</p>
+        <p class="footer-text">Las Vegas, NV, USA</p>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <p class="footer-text"><a href="mailto:seriohomeservices@gmail.com">seriohomeservices@gmail.com</a><br><a href="tel:7023734994">702-373-4994</a></p>
+      </div>
+    </div>
+    <div class="copyright">©2021 by Serio Home Services LLC. Proudly created with Wix.com</div>
+  </footer>
+
+  <a class="chat" href="mailto:seriohomeservices@gmail.com?subject=Website%20chat%20request">Let’s Chat!</a>
+</body>
+</html>

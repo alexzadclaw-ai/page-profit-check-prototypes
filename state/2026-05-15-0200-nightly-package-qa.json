@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-15-0200-nightly",
+  "batchJson": "opportunities/2026-05-15-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "home-and-beyond-cleaning-services",
+      "name": "Home and Beyond Cleaning Services, LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/home-and-beyond-cleaning-services-audit.md",
+          "exists": true,
+          "size": 7597
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/home-and-beyond-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1303
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/home-and-beyond-cleaning-services/index.html",
+          "exists": true,
+          "size": 22932
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/home-and-beyond-cleaning-services-target.png",
+          "exists": true,
+          "size": 1739111
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/home-and-beyond-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 1851219
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8638,
+        "pixelSimilarity": 0.8385,
+        "edgeLayoutSimilarity": 0.7663,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.8182
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/home-and-beyond-cleaning-services-source-assets.md"
+    },
+    {
+      "slug": "serio-home-services",
+      "name": "Serio Home Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/serio-home-services-audit.md",
+          "exists": true,
+          "size": 8049
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/serio-home-services-offer.md",
+          "exists": true,
+          "size": 1339
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/serio-home-services/index.html",
+          "exists": true,
+          "size": 19944
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/serio-home-services-target.png",
+          "exists": true,
+          "size": 3764707
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/serio-home-services-prototype.png",
+          "exists": true,
+          "size": 4668969
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8265,
+        "pixelSimilarity": 0.8082,
+        "edgeLayoutSimilarity": 0.7226,
+        "perceptualHashSimilarity": 0.9219,
+        "weightedSimilarity": 0.8084
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/serio-home-services-source-assets.md"
+    },
+    {
+      "slug": "griffs-cleaning-covid-disinfecting",
+      "name": "Griff's Cleaning and Covid Disinfecting Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting-audit.md",
+          "exists": true,
+          "size": 7603
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting-offer.md",
+          "exists": true,
+          "size": 1342
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting/index.html",
+          "exists": true,
+          "size": 21120
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting-target.png",
+          "exists": true,
+          "size": 7308760
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting-prototype.png",
+          "exists": true,
+          "size": 6333263
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9416,
+        "pixelSimilarity": 0.8971,
+        "edgeLayoutSimilarity": 0.7919,
+        "perceptualHashSimilarity": 0.875,
+        "weightedSimilarity": 0.8786
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/griffs-cleaning-covid-disinfecting-source-assets.md"
+    },
+    {
+      "slug": "christelle-cleaning-services",
+      "name": "Christelle Cleaning Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/christelle-cleaning-services-audit.md",
+          "exists": true,
+          "size": 8021
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/christelle-cleaning-services-offer.md",
+          "exists": true,
+          "size": 1443
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/christelle-cleaning-services/index.html",
+          "exists": true,
+          "size": 21890
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/christelle-cleaning-services-target.png",
+          "exists": true,
+          "size": 1705998
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/christelle-cleaning-services-prototype.png",
+          "exists": true,
+          "size": 2102920
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6327,
+        "pixelSimilarity": 0.7895,
+        "edgeLayoutSimilarity": 0.7782,
+        "perceptualHashSimilarity": 0.7656,
+        "weightedSimilarity": 0.7439
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/christelle-cleaning-services-source-assets.md"
+    },
+    {
+      "slug": "quick-n-go-mobile-detail",
+      "name": "Quick N’ Go Mobile Detail LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/quick-n-go-mobile-detail-audit.md",
+          "exists": true,
+          "size": 7022
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/quick-n-go-mobile-detail-offer.md",
+          "exists": true,
+          "size": 1280
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/quick-n-go-mobile-detail/index.html",
+          "exists": true,
+          "size": 19772
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/quick-n-go-mobile-detail-target.png",
+          "exists": true,
+          "size": 2998885
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/quick-n-go-mobile-detail-prototype.png",
+          "exists": true,
+          "size": 3273464
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6194,
+        "pixelSimilarity": 0.8924,
+        "edgeLayoutSimilarity": 0.817,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.8003
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/quick-n-go-mobile-detail-source-assets.md"
+    },
+    {
+      "slug": "bad-grass-lawn-care",
+      "name": "Bad grASS Lawn Care LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/bad-grass-lawn-care-audit.md",
+          "exists": true,
+          "size": 6512
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/bad-grass-lawn-care-offer.md",
+          "exists": true,
+          "size": 1289
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/bad-grass-lawn-care/index.html",
+          "exists": true,
+          "size": 18906
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/bad-grass-lawn-care-target.png",
+          "exists": true,
+          "size": 2903799
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/bad-grass-lawn-care-prototype.png",
+          "exists": true,
+          "size": 2957195
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7608,
+        "pixelSimilarity": 0.7147,
+        "edgeLayoutSimilarity": 0.718,
+        "perceptualHashSimilarity": 0.7344,
+        "weightedSimilarity": 0.73
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/bad-grass-lawn-care-source-assets.md"
+    },
+    {
+      "slug": "green-queen-eco-clean",
+      "name": "Green Queen Eco Clean LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/green-queen-eco-clean-audit.md",
+          "exists": true,
+          "size": 5105
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/green-queen-eco-clean-offer.md",
+          "exists": true,
+          "size": 1399
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/green-queen-eco-clean/index.html",
+          "exists": true,
+          "size": 10534
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/green-queen-eco-clean-target.png",
+          "exists": true,
+          "size": 2352525
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/green-queen-eco-clean-prototype.png",
+          "exists": true,
+          "size": 2951761
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9035,
+        "pixelSimilarity": 0.7124,
+        "edgeLayoutSimilarity": 0.7615,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.7945
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/green-queen-eco-clean-source-assets.md"
+    },
+    {
+      "slug": "industry-pros-pressure-washing",
+      "name": "Industry Pros Pressure Washing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/industry-pros-pressure-washing-audit.md",
+          "exists": true,
+          "size": 6929
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/industry-pros-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1308
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/industry-pros-pressure-washing/index.html",
+          "exists": true,
+          "size": 18120
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/industry-pros-pressure-washing-target.png",
+          "exists": true,
+          "size": 4272616
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/industry-pros-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 3357765
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7368,
+        "pixelSimilarity": 0.653,
+        "edgeLayoutSimilarity": 0.683,
+        "perceptualHashSimilarity": 0.5469,
+        "weightedSimilarity": 0.6655
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/industry-pros-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "amro-landscaping-services",
+      "name": "Amro LLC Lawncare/Landscaping Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/amro-landscaping-services-audit.md",
+          "exists": true,
+          "size": 8519
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/amro-landscaping-services-offer.md",
+          "exists": true,
+          "size": 1461
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/amro-landscaping-services/index.html",
+          "exists": true,
+          "size": 17229
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/amro-landscaping-services-target.png",
+          "exists": true,
+          "size": 4049672
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/amro-landscaping-services-prototype.png",
+          "exists": true,
+          "size": 4039531
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8252,
+        "pixelSimilarity": 0.7962,
+        "edgeLayoutSimilarity": 0.7337,
+        "perceptualHashSimilarity": 0.9688,
+        "weightedSimilarity": 0.8137
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/amro-landscaping-services-source-assets.md"
+    },
+    {
+      "slug": "abene-property",
+      "name": "Abene Property LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-15-0200-nightly/abene-property-audit.md",
+          "exists": true,
+          "size": 8925
+        },
+        "offer": {
+          "path": "offers/2026-05-15-0200-nightly/abene-property-offer.md",
+          "exists": true,
+          "size": 1360
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-15-0200-nightly/abene-property/index.html",
+          "exists": true,
+          "size": 17800
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/abene-property-target.png",
+          "exists": true,
+          "size": 3410682
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-15-0200-nightly/abene-property-prototype.png",
+          "exists": true,
+          "size": 2775850
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5256,
+        "pixelSimilarity": 0.8499,
+        "edgeLayoutSimilarity": 0.7591,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.7475
+      },
+      "sourceAssetsNote": "state/2026-05-15-0200-nightly/abene-property-source-assets.md"
+    }
+  ]
+}

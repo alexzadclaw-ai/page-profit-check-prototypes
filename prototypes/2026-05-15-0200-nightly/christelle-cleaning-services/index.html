@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christelle Cleaning Services LLC | Marshfield Cleaning Service</title>
+  <meta name="description" content="Office cleaning, house cleaning, and move-in or move-out cleaning for Marshfield and the South Shore." />
+  <style>
+    :root {
+      --blue: #1b5cbc;
+      --blue-dark: #154a96;
+      --ink: #161616;
+      --muted: #4d5a63;
+      --light: #f5f7fa;
+      --line: #e5ebf3;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: #fff; }
+    a { color: inherit; text-decoration: none; }
+    .top-strip {
+      height: 50px;
+      background: #fff;
+      color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      font-size: 14px;
+      letter-spacing: .01em;
+      border-bottom: 1px solid #eeeeee;
+    }
+    .top-strip strong { color: var(--blue); font-weight: 700; }
+    .top-strip .pill {
+      background: var(--blue);
+      color: #fff;
+      padding: 9px 20px;
+      border-radius: 0;
+      font-weight: 700;
+    }
+    .site-header {
+      height: 120px;
+      background: #fff;
+      position: relative;
+      z-index: 2;
+    }
+    .header-inner {
+      width: calc(100% - 120px);
+      height: 60px;
+      margin: 0 auto;
+      position: relative;
+      top: 30px;
+      display: flex;
+      align-items: center;
+    }
+    .brand {
+      width: 107px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 107px;
+    }
+    .brand img { width: 64px; height: 60px; object-fit: contain; display: block; }
+    .nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 30px;
+      font-size: 14px;
+      color: #111;
+    }
+    .nav a { padding: 8px 14px; line-height: 1; white-space: nowrap; }
+    .nav a.primary { color: var(--blue); font-weight: 700; }
+
+    .hero {
+      height: 980px;
+      background-image: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.22)), url('https://static.wixstatic.com/media/c3acec_341e12738dca470ab48224af26f01ea4~mv2.jpg/v1/fill/w_1365,h_1800,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c3acec_341e12738dca470ab48224af26f01ea4~mv2.jpg');
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    .hero-content { width: 860px; max-width: calc(100% - 60px); transform: translateY(-18px); }
+    .hero h1 {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 76px;
+      line-height: 1.08;
+      letter-spacing: .01em;
+      text-shadow: 0 2px 18px rgba(0,0,0,.26);
+    }
+    .hero .tagline {
+      margin-top: 27px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 28px;
+      line-height: 1.2;
+      font-weight: 300;
+      text-shadow: 0 2px 14px rgba(0,0,0,.25);
+    }
+    .hero .local {
+      margin: 25px auto 0;
+      font-size: 17px;
+      max-width: 720px;
+      line-height: 1.55;
+      text-shadow: 0 2px 12px rgba(0,0,0,.32);
+    }
+    .hero-actions { margin-top: 29px; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 150px;
+      min-height: 48px;
+      padding: 14px 24px;
+      border: 2px solid var(--blue);
+      background: var(--blue);
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .01em;
+      font-size: 15px;
+    }
+    .btn.light { background: #fff; border-color: #fff; color: var(--blue); }
+    .btn.ghost { background: transparent; border-color: #fff; color: #fff; }
+
+    .about {
+      height: 680px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .about-image img { width: 100%; height: 680px; object-fit: cover; display: block; }
+    .about-copy {
+      background: var(--blue);
+      color: #fff;
+      padding: 142px 112px 90px;
+    }
+    .about-copy h2 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 42px;
+      line-height: 1.28;
+      max-width: 480px;
+    }
+    .about-copy h3 {
+      margin: 38px 0 23px;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 1.25;
+    }
+    .about-copy p {
+      margin: 0;
+      max-width: 485px;
+      font-size: 17px;
+      line-height: 1.65;
+      font-weight: 300;
+    }
+    .trust-row {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 500px;
+    }
+    .trust-row span {
+      border: 1px solid rgba(255,255,255,.55);
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 8px;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .services {
+      height: 764px;
+      background: #fff;
+      position: relative;
+    }
+    .services .section-note {
+      position: absolute;
+      top: 40px;
+      left: 80px;
+      right: 80px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 15px;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+    .service-grid {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      right: 100px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    .service-card {
+      min-height: 634px;
+      border: 1px solid #f0f0f0;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+    .service-card img { width: 100%; height: 365px; object-fit: cover; display: block; }
+    .service-body { padding: 29px 31px 24px; }
+    .service-body h2 { margin: 0 0 13px; font-size: 24px; font-weight: 400; line-height: 1.25; }
+    .service-line { width: 72%; height: 1px; background: #d7d7d7; margin: 0 auto 18px; }
+    .service-meta { margin: 0; color: #222; font-size: 16px; line-height: 1.55; }
+    .service-desc { margin: 12px auto 18px; color: #4f5a63; font-size: 14px; line-height: 1.45; max-width: 285px; min-height: 62px; }
+    .service-card .btn { min-width: 128px; min-height: 43px; padding: 11px 20px; font-size: 14px; border-color: var(--blue); }
+
+    .reviews {
+      height: 680px;
+      background: var(--light);
+      text-align: center;
+      position: relative;
+    }
+    .reviews h2 {
+      position: absolute;
+      top: 112px;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      color: var(--blue);
+      font-weight: 300;
+      font-size: 42px;
+      line-height: 1.3;
+    }
+    .reviews .subtitle {
+      position: absolute;
+      top: 207px;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      font-size: 23px;
+      font-weight: 300;
+      color: #1e1e1e;
+    }
+    .review-grid {
+      position: absolute;
+      top: 360px;
+      left: 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .review {
+      height: 210px;
+      padding: 0 90px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .quote-mark { color: var(--blue); font-size: 64px; line-height: .75; font-family: Georgia, serif; margin-bottom: 18px; }
+    .review p { margin: 0; font-size: 17px; line-height: 1.55; color: #111; min-height: 78px; }
+    .review small { display: block; margin-top: 13px; color: var(--muted); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; }
+
+    .contact {
+      height: 608px;
+      background: var(--blue);
+      color: #fff;
+      text-align: center;
+      position: relative;
+    }
+    .contact h2 {
+      position: absolute;
+      top: 56px;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      font-weight: 300;
+      font-size: 42px;
+      line-height: 1.3;
+    }
+    .contact .contact-note {
+      position: absolute;
+      top: 116px;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      font-size: 15px;
+      color: rgba(255,255,255,.86);
+    }
+    .contact-form {
+      position: absolute;
+      top: 135px;
+      left: 213px;
+      width: 940px;
+      height: 415px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      display: block;
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.95);
+      border-radius: 0;
+      height: 52px;
+      margin: 0 0 10px;
+      padding: 13px 16px;
+      font: 16px Arial, Helvetica, sans-serif;
+      outline: none;
+    }
+    .contact-form textarea { height: 126px; resize: none; }
+    .contact-form input::placeholder, .contact-form textarea::placeholder { color: rgba(255,255,255,.72); opacity: 1; }
+    .contact-form .mini-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .contact-form button {
+      margin-top: 9px;
+      width: 142px;
+      height: 55px;
+      border: 0;
+      background: #fff;
+      color: #111;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .contact-direct {
+      position: absolute;
+      bottom: 22px;
+      left: 213px;
+      width: 940px;
+      font-size: 15px;
+      color: rgba(255,255,255,.9);
+    }
+    .contact-direct a { text-decoration: underline; text-underline-offset: 4px; }
+
+    .service-area {
+      height: 425px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #f2f2f2;
+    }
+    .area-card {
+      width: 940px;
+      height: 270px;
+      background: #f7f9fc;
+      border: 1px solid #e3eaf3;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      text-align: left;
+    }
+    .area-card .copy { padding: 52px 58px; }
+    .area-card h2 { margin: 0 0 14px; color: var(--blue); font-size: 32px; font-weight: 300; }
+    .area-card p { margin: 0; color: #333; font-size: 16px; line-height: 1.65; }
+    .map-box {
+      margin-right: 42px;
+      height: 190px;
+      background:
+        linear-gradient(135deg, rgba(27,92,188,.10), rgba(27,92,188,.02)),
+        repeating-linear-gradient(45deg, #ffffff 0, #ffffff 18px, #eef3f9 18px, #eef3f9 20px);
+      border: 1px solid #d8e2ee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--blue);
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .footer {
+      height: 320px;
+      background: #fff;
+      text-align: center;
+      color: #111;
+      padding-top: 40px;
+      font-size: 16px;
+    }
+    .footer .name { font-size: 20px; margin-bottom: 22px; }
+    .footer p { margin: 0 0 10px; }
+    .socials { margin: 36px 0 36px; display: flex; justify-content: center; gap: 10px; }
+    .socials img { width: 20px; height: 20px; display: block; }
+    .copyright { color: #303030; font-size: 14px; }
+
+    .chat {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: 230px;
+      height: 86px;
+      background: #fff;
+      border: 1px solid #d9d9d9;
+      box-shadow: 0 2px 18px rgba(0,0,0,.16);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #111;
+      font-size: 19px;
+      z-index: 20;
+    }
+    .chat .bubble { width: 30px; height: 30px; border-radius: 50%; background: var(--blue); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 17px; }
+
+    @media (max-width: 900px) {
+      .top-strip { height: auto; min-height: 50px; padding: 9px 16px; flex-wrap: wrap; text-align: center; }
+      .site-header { height: auto; }
+      .header-inner { width: 100%; height: auto; top: 0; padding: 18px 20px; flex-wrap: wrap; }
+      .nav { width: 100%; justify-content: center; flex-wrap: wrap; height: auto; margin-top: 12px; }
+      .hero { height: 720px; }
+      .hero h1 { font-size: 44px; }
+      .about, .services, .reviews, .contact, .service-area, .footer { height: auto; }
+      .about { display: block; }
+      .about-image img { height: 360px; }
+      .about-copy { padding: 48px 28px; }
+      .trust-row { grid-template-columns: 1fr; }
+      .services { padding: 54px 22px; }
+      .services .section-note, .service-grid { position: static; }
+      .service-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 30px; }
+      .reviews { padding: 60px 22px; }
+      .reviews h2, .reviews .subtitle, .review-grid { position: static; width: auto; }
+      .review-grid { grid-template-columns: 1fr; margin-top: 36px; }
+      .review { height: auto; padding: 24px; }
+      .contact { padding: 55px 22px; }
+      .contact h2, .contact .contact-note, .contact-form, .contact-direct { position: static; width: auto; }
+      .contact-form { height: auto; margin-top: 20px; }
+      .contact-form .mini-fields { grid-template-columns: 1fr; }
+      .area-card { width: calc(100% - 44px); height: auto; grid-template-columns: 1fr; }
+      .map-box { margin: 0 30px 30px; }
+      .footer { padding: 38px 20px; }
+      .chat { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">
+    <span><strong>Marshfield and South Shore Cleaning</strong></span>
+    <span>Office, house, and move-in or move-out cleaning</span>
+    <a class="pill" href="tel:8572663888">Call 857-266-3888</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Christelle Cleaning Services LLC home">
+        <img src="https://static.wixstatic.com/media/c3acec_7b390abfc50e4910849467753919a738~mv2.png/v1/fill/w_64,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/medium.png" alt="Christelle Cleaning Services LLC logo" />
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a class="primary" href="https://christellecleaning.wixsite.com/website-2/book-online">Book Online</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#services">Services</a>
+        <a class="primary" href="#contact">Get a Quote</a>
+        <a href="https://christellecleaning.wixsite.com/website-2/privacy-policy">Privacy Policy</a>
+        <a href="https://christellecleaning.wixsite.com/website-2/meet-the-team">Meet the Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Christelle Cleaning Services introduction">
+      <div class="hero-content">
+        <h1>Christelle Cleaning Services LLC</h1>
+        <div class="tagline">Always at Your Service</div>
+        <p class="local">Clear cleaning options for homes, offices, and move-in or move-out projects in Marshfield and nearby South Shore communities.</p>
+        <div class="hero-actions">
+          <a class="btn light" href="https://christellecleaning.wixsite.com/website-2/book-online">Book Online</a>
+          <a class="btn ghost" href="#contact">Get a Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-image">
+        <img src="https://static.wixstatic.com/media/c8841e6936a343dea6d9aa68fc6dad48.jpeg/v1/fill/w_683,h_680,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c8841e6936a343dea6d9aa68fc6dad48.jpeg" alt="Cleaning sink" />
+      </div>
+      <div class="about-copy">
+        <h2>About Christelle Cleaning Services LLC</h2>
+        <h3>Honest &amp; Efficient Work</h3>
+        <p>Our mission is simple: provide high-quality cleaning services for valued clients. The team works around each project's needs with open communication, dependable service, and a direct path to booking or requesting a quote.</p>
+        <div class="trust-row" aria-label="Trust cues">
+          <span>Marshfield based</span>
+          <span>Online booking</span>
+          <span>Phone and email contact</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="section-note">Choose the cleaning package that fits the job, then book online or ask for a quote.</div>
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/67ab538cde6a47c4bfd8a3e7c8baba18.jpg/v1/fill/w_365,h_365,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/67ab538cde6a47c4bfd8a3e7c8baba18.jpg" alt="Office cleaning floor" />
+          <div class="service-body">
+            <h2>Office Cleaning</h2>
+            <div class="service-line"></div>
+            <p class="service-meta">1 hr<br>$30-$50</p>
+            <p class="service-desc">Best for routine workspaces, break areas, desks, floors, and common touchpoints.</p>
+            <a class="btn" href="https://christellecleaning.wixsite.com/website-2/book-online">Book Now</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/c3acec_a5a119ded1d542bab9a59914aa804b82~mv2.jpg/v1/fill/w_365,h_365,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c3acec_a5a119ded1d542bab9a59914aa804b82~mv2.jpg" alt="House cleaning dining table" />
+          <div class="service-body">
+            <h2>House Cleaning</h2>
+            <div class="service-line"></div>
+            <p class="service-meta">1 hr<br>$25-$50</p>
+            <p class="service-desc">Good fit for kitchens, bathrooms, living areas, dusting, surfaces, and regular upkeep.</p>
+            <a class="btn" href="https://christellecleaning.wixsite.com/website-2/book-online">Book Now</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/0daf17ab36cd4af29ef7e89119bed08c.jpg/v1/fill/w_365,h_365,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/0daf17ab36cd4af29ef7e89119bed08c.jpg" alt="Move-in or move-out cleaning" />
+          <div class="service-body">
+            <h2>Move in/out Cleaning</h2>
+            <div class="service-line"></div>
+            <p class="service-meta">1 hr<br>$150-$200</p>
+            <p class="service-desc">For empty-home resets, listing prep, apartment turnover, and deeper clean requests.</p>
+            <a class="btn" href="#contact">Get a Quote</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="reviews" aria-label="Feedback and reviews">
+      <h2>Feedback &amp; Reviews</h2>
+      <p class="subtitle">From customers</p>
+      <div class="review-grid">
+        <article class="review">
+          <div class="quote-mark">“</div>
+          <p>I highly recommend Christelle Cleaning Services. They work really fast!</p>
+          <small>Customer feedback</small>
+        </article>
+        <article class="review">
+          <div class="quote-mark">“</div>
+          <p>Great work guys!!</p>
+          <small>Customer feedback</small>
+        </article>
+        <article class="review">
+          <div class="quote-mark">“</div>
+          <p>They did an awesome job cleaning my apartment!</p>
+          <small>Customer feedback</small>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p class="contact-note">Tell us the service, location, and timing you have in mind so the next step is clear.</p>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="email" name="email" placeholder="Email" />
+        <div class="mini-fields">
+          <input type="text" name="service" placeholder="Cleaning type" />
+          <input type="text" name="timing" placeholder="Preferred date" />
+        </div>
+        <textarea name="message" placeholder="Type your message here..."></textarea>
+        <button type="button">Submit</button>
+      </form>
+      <div class="contact-direct">Prefer to talk first? Call <a href="tel:8572663888">857-266-3888</a> or email <a href="mailto:christellecleaning@gmail.com">christellecleaning@gmail.com</a>.</div>
+    </section>
+
+    <section class="service-area" aria-label="Service area">
+      <div class="area-card">
+        <div class="copy">
+          <h2>Serving Marshfield and the South Shore</h2>
+          <p>Based at PO Box 1377 in Marshfield, Christelle Cleaning Services is set up for local home, office, and move-out cleaning requests.</p>
+        </div>
+        <div class="map-box">Marshfield, MA<br>South Shore cleaning requests</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="name">Christelle Cleaning Services LLC</p>
+    <p><a href="mailto:christellecleaning@gmail.com">christellecleaning@gmail.com</a></p>
+    <p><a href="tel:8572663888">857-266-3888</a> / <a href="tel:7749465284">774-946-5284</a></p>
+    <p>PO Box 1377 Marshfield MA 02050</p>
+    <div class="socials" aria-label="Social links">
+      <a href="#" aria-label="Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook" /></a>
+      <a href="#" aria-label="Twitter"><img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png" alt="Twitter" /></a>
+      <a href="#" aria-label="LinkedIn"><img src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png" alt="LinkedIn" /></a>
+    </div>
+    <p class="copyright">©2021 by Christelle Cleaning Services LLC.</p>
+  </footer>
+
+  <a class="chat" href="mailto:christellecleaning@gmail.com"><span class="bubble">?</span><span>Let’s Chat!</span></a>
+</body>
+</html>
