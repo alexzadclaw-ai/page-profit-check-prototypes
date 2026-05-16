@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exterior Excellence | Pressure Washing & Window Washing</title>
+  <style>
+    :root {
+      --orange: #ffa500;
+      --orange-dark: #aa6e00;
+      --gray: rgba(213, 213, 213, 0.8);
+      --ink: #111111;
+      --muted: #555555;
+      --white: #ffffff;
+      --soft: #f6f6f6;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-width: 1120px;
+      color: var(--ink);
+      background: #fff;
+      font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+      overflow-x: hidden;
+    }
+    a { color: inherit; }
+    .page { width: 100%; }
+    .container { width: 980px; margin: 0 auto; position: relative; }
+
+    .site-header {
+      height: 113px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      position: relative;
+      z-index: 5;
+    }
+    .site-header .container {
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      align-items: center;
+      column-gap: 28px;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 92px;
+      font-size: 16px;
+      line-height: 34px;
+      color: #555;
+    }
+    .nav a {
+      text-decoration: none;
+      transition: color .18s ease;
+    }
+    .nav a.active,
+    .nav a:hover { color: var(--orange); }
+    .phones {
+      color: var(--orange);
+      font-size: 18px;
+      line-height: 1.55;
+      font-weight: 700;
+      justify-self: end;
+      min-width: 170px;
+    }
+    .phones .phone-line {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 6px;
+      align-items: center;
+      white-space: nowrap;
+    }
+    .phone-icon {
+      width: 18px;
+      height: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1;
+      color: var(--orange);
+    }
+
+    .hero {
+      min-height: 661px;
+      background-image: linear-gradient(rgba(255,165,0,.2), rgba(255,165,0,.2)), url('https://static.wixstatic.com/media/84770f_0512b95c6bd44398a825e832e08a47a5f000.jpg/v1/fill/w_1440,h_661,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/84770f_0512b95c6bd44398a825e832e08a47a5f000.jpg');
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-logo {
+      width: 396px;
+      height: 382px;
+      object-fit: contain;
+      display: block;
+      margin: 27px auto 0;
+      filter: drop-shadow(0 1px 0 rgba(0,0,0,.05));
+    }
+    .hero-title {
+      margin: -6px auto 0;
+      width: 790px;
+      font-family: "Arial Black", "Montserrat", Arial, sans-serif;
+      font-size: 30px;
+      line-height: 1.45;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .hero-title span { display: block; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 200px;
+      height: 45px;
+      padding: 0 30px;
+      border-radius: 999px;
+      background: var(--orange);
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 22px;
+      border: 2px solid var(--orange);
+      box-shadow: none;
+      transition: background .15s ease, transform .15s ease;
+    }
+    .btn:hover { background: #e59400; transform: translateY(-1px); }
+    .hero .btn { width: 272px; height: 61px; margin-top: 5px; }
+    .section-break { height: 42px; background: #fff; }
+
+    .services {
+      background: var(--gray);
+      min-height: 816px;
+      text-align: center;
+      padding-top: 52px;
+    }
+    .section-title {
+      margin: 0;
+      font-family: "Arial Black", "Montserrat", Arial, sans-serif;
+      font-size: 56px;
+      line-height: 1.4;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .services-intro {
+      width: 714px;
+      margin: 34px auto 0;
+      font-size: 18px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+    .trust-strip {
+      margin: 28px auto 0;
+      width: 770px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .trust-item {
+      min-height: 38px;
+      border: 1px solid rgba(0,0,0,.12);
+      background: rgba(255,255,255,.28);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #222;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+    .service-grid {
+      margin: 34px auto 0;
+      width: 980px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 70px;
+    }
+    .service-card { text-align: center; }
+    .service-icon {
+      width: 68px;
+      height: 68px;
+      margin: 0 auto 22px;
+      position: relative;
+    }
+    .service-icon svg { width: 100%; height: 100%; overflow: visible; }
+    .service-card h3 {
+      margin: 0 0 17px;
+      font-size: 20px;
+      line-height: 1.4;
+      font-weight: 400;
+      color: #111;
+    }
+    .service-card p {
+      width: 226px;
+      margin: 0 auto;
+      color: var(--orange);
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    .pictures {
+      min-height: 670px;
+      background: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .pictures-title {
+      position: absolute;
+      left: -545px;
+      top: 0;
+      width: 980px;
+      margin: 0;
+      font-family: "Arial Black", "Montserrat", Arial, sans-serif;
+      font-size: 50px;
+      line-height: 1.5;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .photo-block {
+      position: absolute;
+      left: -35px;
+      top: 94px;
+      width: 420px;
+      height: 460px;
+      background: var(--orange);
+    }
+    .work-photo {
+      position: absolute;
+      left: -62px;
+      top: 158px;
+      width: 390px;
+      height: 460px;
+      object-fit: cover;
+    }
+    .pictures-copy {
+      position: absolute;
+      left: 491px;
+      top: 270px;
+      width: 482px;
+      min-height: 170px;
+      color: var(--orange);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .pictures-copy strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--orange);
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .pictures-copy ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+      color: #333;
+      line-height: 1.7;
+    }
+    .pictures .btn {
+      position: absolute;
+      left: 485px;
+      top: 490px;
+      width: 200px;
+      height: 45px;
+      border-radius: 999px;
+    }
+
+    .estimate {
+      min-height: 837px;
+      position: relative;
+      background-image: linear-gradient(rgba(255,165,0,.2), rgba(255,165,0,.2)), url('https://static.wixstatic.com/media/375882_16a849c58b3f44f1a2db890a54b0bf59~mv2_d_3783_2523_s_4_2.jpg/v1/fill/w_1440,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/375882_16a849c58b3f44f1a2db890a54b0bf59~mv2_d_3783_2523_s_4_2.jpg');
+      background-size: cover;
+      background-position: center center;
+      text-align: center;
+      overflow: hidden;
+    }
+    .estimate .section-title {
+      padding-top: 98px;
+      font-size: 50px;
+      line-height: 1.5;
+      width: 980px;
+      margin: 0 auto;
+    }
+    .estimate-copy {
+      width: 522px;
+      margin: 16px auto 0;
+      color: #111;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .estimate-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 34px;
+    }
+    .estimate-actions .btn { width: 200px; height: 45px; }
+    .plain-contact {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 200px;
+      height: 45px;
+      border-radius: 999px;
+      border: 2px solid var(--orange);
+      background: rgba(255,255,255,.55);
+      color: var(--orange-dark);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .quote-card {
+      margin: 31px auto 0;
+      width: 590px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      background: rgba(255,255,255,.72);
+      border: 1px solid rgba(0,0,0,.08);
+    }
+    .quote-card div {
+      padding: 17px 12px;
+      border-right: 1px solid rgba(0,0,0,.08);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .quote-card div:last-child { border-right: 0; }
+    .quote-card b { display: block; color: #111; margin-bottom: 4px; }
+    .estimate-logo {
+      width: 396px;
+      height: 382px;
+      object-fit: contain;
+      margin: 18px auto 0;
+      display: block;
+    }
+
+    .site-footer {
+      height: 364px;
+      background: var(--orange);
+      color: #fff;
+      position: relative;
+    }
+    .footer-grid {
+      width: 980px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 250px 250px 315px;
+      column-gap: 65px;
+      padding-top: 22px;
+      text-align: center;
+    }
+    .footer-brand {
+      font-family: "Arial Black", "Montserrat", Arial, sans-serif;
+      letter-spacing: .06em;
+      font-size: 16px;
+      line-height: 2;
+      text-transform: none;
+    }
+    .footer-brand .small {
+      font-family: "Avenir Next", Avenir, Arial, sans-serif;
+      letter-spacing: 0;
+      display: block;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.8;
+    }
+    .footer-mid,
+    .footer-contact {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .footer-mid a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 7px;
+    }
+    .footer-contact a { color: #fff; text-decoration: none; }
+    .footer-contact p { margin: 7px 0; }
+    .copyright {
+      position: absolute;
+      bottom: 128px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+    }
+    .micro-proof {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 56px;
+      text-align: center;
+      color: rgba(255,255,255,.92);
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+
+    @media (max-width: 900px) {
+      body { min-width: 0; }
+      .container, .footer-grid, .quote-card, .service-grid, .trust-strip, .services-intro, .estimate .section-title { width: calc(100% - 36px); }
+      .site-header { height: auto; padding: 22px 0; }
+      .site-header .container { grid-template-columns: 1fr; row-gap: 16px; }
+      .nav { gap: 26px; flex-wrap: wrap; }
+      .phones { justify-self: center; }
+      .hero-title { width: calc(100% - 40px); font-size: 23px; }
+      .hero-logo, .estimate-logo { width: 290px; height: auto; }
+      .service-grid, .trust-strip, .quote-card, .footer-grid { grid-template-columns: 1fr; }
+      .pictures { min-height: 760px; }
+      .photo-block { left: 40px; width: 330px; }
+      .work-photo { left: 20px; width: 320px; }
+      .pictures-copy, .pictures .btn { left: 40px; top: 555px; width: calc(100% - 80px); }
+      .pictures .btn { top: 680px; }
+      .estimate-copy { width: calc(100% - 60px); }
+      .estimate-actions { flex-direction: column; }
+      .site-footer { height: auto; min-height: 520px; }
+      .copyright, .micro-proof { position: static; margin-top: 28px; padding: 0 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#pictures">Pictures</a>
+          <a href="#estimate">Contact Us</a>
+        </nav>
+        <div class="phones" aria-label="Phone numbers">
+          <a class="phone-line" href="tel:+17196944669"><span class="phone-icon">☎</span><span>719-694-4669</span></a>
+          <a class="phone-line" href="tel:+17196413523"><span></span><span>719-641-3523</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Exterior Excellence hero">
+        <div class="container">
+          <img class="hero-logo" src="https://static.wixstatic.com/media/ee55bb_acf2d7d48de8427e834e569b3b86d086~mv2.png/v1/crop/x_566,y_0,w_1901,h_1831/fill/w_396,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee55bb_acf2d7d48de8427e834e569b3b86d086~mv2.png" alt="Exterior Excellence logo" />
+          <h1 class="hero-title"><span>Pressure washing</span><span>&amp;</span><span>Window Washing</span></h1>
+          <a class="btn" href="mailto:exteriorwashexpertsllc@gmail.com?subject=Free%20estimate%20request">Get a Free Quote Now</a>
+        </div>
+      </section>
+      <div class="section-break" aria-hidden="true"></div>
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section-title">Services</h2>
+          <p class="services-intro">Exterior Excellence provides pressure washing, window washing, and exterior cleaning across the Colorado Springs area. Request a free estimate for driveways, siding, decks, fences, garages, storefronts, drive-thrus, parking lots, and other residential or commercial surfaces.</p>
+          <div class="trust-strip" aria-label="Trust notes">
+            <div class="trust-item">Free estimate before work begins</div>
+            <div class="trust-item">Residential and commercial service</div>
+            <div class="trust-item">Exterior Wash Experts LLC</div>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 70 70"><path fill="none" stroke="#ffa500" stroke-width="5" stroke-linecap="round" d="M11 45c13-22 37-22 48 0M18 53c9-13 24-13 34 0"/><circle cx="35" cy="24" r="11" fill="none" stroke="#ffa500" stroke-width="5"/></svg>
+              </div>
+              <h3>Pressure Washing</h3>
+              <p>Driveways, sidewalks, concrete, decks, fences, and other hard surfaces cleaned with the right pressure and solution for the material.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 70 70"><rect x="13" y="10" width="44" height="50" rx="3" fill="none" stroke="#ffa500" stroke-width="5"/><path d="M35 10v50M13 34h44" stroke="#ffa500" stroke-width="5"/><path d="M20 54c10-8 20-8 30 0" fill="none" stroke="#ffa500" stroke-width="4" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Window Washing</h3>
+              <p>Streak-free exterior window cleaning that improves curb appeal and helps homes and businesses look cared for from the street.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 70 70"><path d="M13 50V25l22-14 22 14v25" fill="none" stroke="#ffa500" stroke-width="5" stroke-linejoin="round"/><path d="M23 52h24M25 34h20" stroke="#ffa500" stroke-width="5" stroke-linecap="round"/><circle cx="35" cy="43" r="5" fill="#ffa500"/></svg>
+              </div>
+              <h3>Exterior Cleaning</h3>
+              <p>Siding, garages, storefronts, drive-thrus, and parking areas get a clearer service path for both home and commercial customers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pictures" id="pictures">
+        <div class="container">
+          <h2 class="pictures-title">Pictures</h2>
+          <div class="photo-block" aria-hidden="true"></div>
+          <img class="work-photo" src="https://static.wixstatic.com/media/118778_9ab93139941e4ac2b73920d57552969c~mv2_d_3836_4555_s_4_2.jpg/v1/fill/w_390,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/118778_9ab93139941e4ac2b73920d57552969c~mv2_d_3836_4555_s_4_2.jpg" alt="Window washing work in progress" />
+          <div class="pictures-copy">
+            <strong>Recent Work</strong>
+            <span>Photo proof helps visitors see the kind of finish to expect before they request an estimate.</span>
+            <ul>
+              <li>Window washing and exterior cleaning examples</li>
+              <li>Residential curb appeal and commercial entry areas</li>
+              <li>Before and after photos added as projects are completed</li>
+            </ul>
+          </div>
+          <a class="btn" href="mailto:exteriorwashexpertsllc@gmail.com?subject=Exterior%20cleaning%20estimate">Request Estimate</a>
+        </div>
+      </section>
+
+      <section class="estimate" id="estimate">
+        <div class="container">
+          <h2 class="section-title">Request A FREE ESTIMATE</h2>
+          <p class="estimate-copy">Tell us what needs cleaning, where it is located, and the best way to reach you. Exterior Excellence can point you toward the right pressure washing, window washing, or exterior cleaning service for your home or business.</p>
+          <div class="estimate-actions">
+            <a class="btn" href="mailto:exteriorwashexpertsllc@gmail.com?subject=Free%20estimate%20request">Get a Quote Now</a>
+            <a class="plain-contact" href="tel:+17196944669">Call 719-694-4669</a>
+          </div>
+          <div class="quote-card" aria-label="Estimate details">
+            <div><b>1. Surface</b>Driveway, windows, siding, deck, fence, or commercial area.</div>
+            <div><b>2. Location</b>Colorado Springs area address or nearest cross streets.</div>
+            <div><b>3. Photos</b>Optional photos help speed up the estimate.</div>
+          </div>
+          <img class="estimate-logo" src="https://static.wixstatic.com/media/ee55bb_acf2d7d48de8427e834e569b3b86d086~mv2.png/v1/crop/x_566,y_0,w_1901,h_1831/fill/w_396,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee55bb_acf2d7d48de8427e834e569b3b86d086~mv2.png" alt="Exterior Excellence logo" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          Exterior Excellence
+          <span class="small">Pressure Washing</span>
+          <span class="small">&amp;</span>
+          <span class="small">Window Washing</span>
+        </div>
+        <div class="footer-mid">
+          <p><a href="mailto:exteriorwashexpertsllc@gmail.com?subject=Exterior%20Excellence%20estimate">Contact Us Today</a></p>
+          <p>Free estimates for residential and commercial exterior cleaning.</p>
+        </div>
+        <div class="footer-contact">
+          <p>Telephone:</p>
+          <p><a href="tel:+17196944669">719-694-4669</a></p>
+          <p><a href="tel:+17196413523">719-641-3523</a></p>
+          <p>Email:</p>
+          <p><a href="mailto:exteriorwashexpertsllc@gmail.com">exteriorwashexpertsllc@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="copyright">© 2026 by Exterior Excellence - Exterior Wash Experts LLC.</div>
+      <div class="micro-proof">Pressure washing, window washing, siding, decks, fences, driveways, parking garages, drive-thrus, and commercial exterior services.</div>
+    </footer>
+  </div>
+</body>
+</html>

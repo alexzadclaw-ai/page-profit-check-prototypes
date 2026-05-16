@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vero Beach Handyman LLC | Home Repairs & Improvements in Vero Beach, FL</title>
+  <meta name="description" content="Vero Beach Handyman LLC handles interior repairs, exterior repairs, kitchen and bath fixes, property caretaker work, and free estimates with no service fee.">
+  <link rel="preconnect" href="https://static.wixstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --page:#3e403f;
+      --ink:#1e1e20;
+      --canvas:#2c2d2c;
+      --panel:#6e6b6b;
+      --teal:#01b1af;
+      --footer:#259a85;
+      --cyan:#baf6f9;
+      --white:#fdfdfd;
+      --red:#8b0000;
+      --active:#898989;
+      --shadow:rgba(0,0,0,.42);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:var(--page);font-family:Arial, Helvetica, sans-serif;color:var(--white);}
+    a{color:inherit;text-decoration:none}
+    .top-strip{height:50px;background:#eff1f2;color:#20303c;display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:.1px;}
+    .top-strip strong{font-family:Play,Arial,sans-serif;color:#111;margin-right:16px;letter-spacing:.6px;font-size:24px;}
+    .top-strip span{margin:0 9px;}
+    .top-strip .mini-cta{border:1px solid #166aea;color:#166aea;border-radius:17px;padding:6px 17px;font-size:14px;background:#fff;margin-left:14px;font-weight:700;}
+
+    header.site-header{height:456px;background:#fff;color:#111;}
+    .header-inner{position:relative;width:980px;height:456px;margin:0 auto;}
+    .brand-logo{position:absolute;left:1px;top:17px;width:423px;height:405px;object-fit:contain;}
+    .hero-card{position:absolute;left:424px;top:31px;width:533px;height:340px;background:var(--teal);border-radius:82px 8px 82px 8px;box-shadow:10px 13px 0 rgba(0,0,0,.36);font-family:Play,Arial,sans-serif;text-align:center;color:#fff;padding-top:34px;}
+    .hero-card .eyebrow{font-size:22px;line-height:1.05;margin:0 0 8px;}
+    .hero-card h1{font-size:39px;line-height:1.12;max-width:330px;margin:0 auto 11px;font-weight:700;color:#fff;}
+    .hero-card .promise{font-family:Arial,Helvetica,sans-serif;color:#000;font-size:27px;line-height:1.1;margin:5px auto 8px;}
+    .hero-card .promise small{font-size:18px;font-weight:400;margin-left:6px;}
+    .hero-card .phone{display:block;font-family:Play,Arial,sans-serif;color:var(--red);font-size:35px;line-height:1.1;font-weight:700;margin-top:8px;}
+    .hero-card .call-text{display:block;font-family:Arial,Helvetica,sans-serif;color:#111;font-size:15px;margin-top:0;}
+    .hero-actions{margin-top:13px;display:flex;gap:10px;align-items:center;justify-content:center;}
+    .hero-actions a{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;padding:9px 15px;border-radius:3px;box-shadow:0 2px 0 rgba(0,0,0,.25);}
+    .hero-actions .primary{background:#1e1e20;color:#fff;}
+    .hero-actions .secondary{background:#fff;color:#111;}
+    .trust-badge{position:absolute;right:34px;bottom:32px;font-size:15px;color:#414141;border-left:4px solid var(--teal);padding-left:12px;line-height:1.45;font-family:Arial,Helvetica,sans-serif;}
+    .trust-badge strong{display:block;color:#111;font-size:17px;}
+
+    nav.site-nav{height:50px;background:var(--ink);}
+    .nav-inner{width:980px;height:50px;margin:0 auto;display:flex;align-items:flex-start;justify-content:center;padding-top:6px;}
+    .nav-inner a{height:38px;min-width:80px;padding:0 15px;display:flex;align-items:center;justify-content:center;font-size:17px;font-family:Arial, Helvetica, sans-serif;color:var(--cyan);text-transform:uppercase;}
+    .nav-inner a.active{background:var(--active);color:#fff;}
+    .nav-inner a.quote{margin-left:90px;background:var(--teal);color:#111;font-weight:700;box-shadow:0 3px 0 rgba(0,0,0,.25);}
+
+    main{background:var(--canvas);}
+    .main-inner{width:980px;margin:0 auto;background:var(--canvas);padding:20px 14px 31px;}
+    .two-col{display:grid;grid-template-columns:468px 468px;gap:18px;align-items:start;}
+    .services-stack{display:flex;flex-direction:column;gap:61px;}
+    .service-card{height:229px;background:var(--panel);display:grid;grid-template-columns:141px 1fr;box-shadow:0 0 0 1px rgba(0,0,0,.1);overflow:hidden;}
+    .service-card.tall{height:248px;}
+    .service-card.misc{height:232px;}
+    .service-card img{width:141px;height:100%;object-fit:cover;display:block;}
+    .service-copy{padding:5px 10px 9px 15px;}
+    .service-copy h2{font-family:Play,Arial,sans-serif;font-size:24px;line-height:1.05;color:var(--cyan);margin:0 0 10px;text-shadow:0 1px 0 #222;}
+    .service-copy ul{list-style:none;margin:0;padding:0;color:#fdfdfd;font-size:16px;line-height:1.23;}
+    .service-copy li{margin:0 0 3px;}
+    .service-copy li::before{content:"";}
+    .right-stack{display:flex;flex-direction:column;gap:29px;}
+    .intro-panel{min-height:707px;background:var(--panel);padding:5px 22px 22px;text-align:center;box-shadow:0 0 0 1px rgba(0,0,0,.1);}
+    .intro-panel h2{font-family:Play,Arial,sans-serif;color:var(--cyan);font-size:44px;line-height:1.18;font-weight:700;margin:0 auto 22px;text-shadow:3px 3px 0 rgba(0,0,0,.45);max-width:390px;}
+    .intro-panel p{font-size:20px;line-height:1.32;margin:0 0 17px;color:#fff;}
+    .intro-panel .fast-trust{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:20px 0 23px;}
+    .intro-panel .fast-trust div{background:#5e5b5b;border:1px solid rgba(255,255,255,.25);padding:10px 7px;font-size:15px;line-height:1.2;color:#fff;}
+    .panel-cta{display:inline-block;background:var(--teal);color:#111;font-weight:700;padding:12px 18px;margin-top:4px;box-shadow:4px 4px 0 rgba(0,0,0,.32);}
+    .caretaker-panel{height:448px;background:var(--panel);padding:19px 18px;text-align:center;}
+    .caretaker-top{display:grid;grid-template-columns:186px 236px;gap:18px;align-items:start;margin-bottom:18px;text-align:left;}
+    .caretaker-top h2{font-family:Play,Arial,sans-serif;color:var(--cyan);font-size:32px;line-height:1.02;margin:0;text-shadow:2px 2px 0 rgba(0,0,0,.4);}
+    .caretaker-top img{width:236px;height:156px;object-fit:cover;display:block;}
+    .caretaker-panel p{font-size:20px;line-height:1.22;margin:0 auto 17px;color:#fff;}
+    .caretaker-panel .small-list{margin-bottom:17px;}
+
+    .call-band{height:141px;background:var(--canvas);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+    .call-band::before{content:"";position:absolute;width:822px;height:108px;background:url('https://static.wixstatic.com/media/63d12a_74f76a5e15704e199c317cb9cc84fb69.jpg/v1/fill/w_822,h_108,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/63d12a_74f76a5e15704e199c317cb9cc84fb69.jpg') center/cover no-repeat;left:50%;top:31px;transform:translateX(-50%);filter:saturate(.94);}
+    .call-band .call-content{position:relative;text-align:center;font-family:Play,Arial,sans-serif;line-height:1.05;}
+    .call-band .label{display:block;color:#fff;font-size:22px;margin-bottom:5px;}
+    .call-band .number{display:block;color:var(--red);font-size:45px;font-weight:700;text-shadow:0 3px 0 rgba(255,255,255,.1);}
+
+    footer{background:var(--footer);min-height:351px;color:#fff;}
+    .footer-inner{width:980px;margin:0 auto;padding-top:54px;display:grid;grid-template-columns:240px 297px 300px;gap:81px;}
+    footer h2{font-family:Play,Arial,sans-serif;color:var(--cyan);font-size:22px;line-height:1.18;margin:0 0 12px;text-shadow:0 1px 0 #14685e;}
+    footer p,footer a{font-size:16px;line-height:1.6;margin:0;color:#fff;}
+    .fb-row{display:flex;gap:9px;align-items:center;margin-top:21px;}
+    .fb-row img{width:25px;height:25px;}
+    .map-placeholder{width:300px;height:126px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;font-size:15px;line-height:1.3;}
+    .copyright{width:980px;margin:48px auto 0;font-size:13px;color:#f8ffff;text-align:center;opacity:.95;}
+
+    @media(max-width:900px){
+      .top-strip{height:auto;min-height:50px;padding:9px 12px;text-align:center;flex-wrap:wrap}.top-strip strong{width:100%;margin:0 0 4px}
+      header.site-header{height:auto}.header-inner,.nav-inner,.main-inner,.footer-inner,.copyright{width:100%}.header-inner{height:auto;padding:20px 18px 30px;display:block}.brand-logo{position:static;width:min(423px,100%);height:auto;display:block;margin:0 auto 20px}.hero-card{position:static;width:100%;height:auto;min-height:310px;padding:28px 18px 24px}.trust-badge{position:static;margin:22px auto 0;max-width:360px}.nav-inner{justify-content:flex-start;overflow:auto;padding-left:8px}.nav-inner a.quote{margin-left:8px}.main-inner{padding:14px}.two-col{grid-template-columns:1fr}.services-stack{gap:18px}.service-card,.service-card.tall,.service-card.misc{height:auto;min-height:220px}.intro-panel{min-height:0}.caretaker-panel{height:auto}.caretaker-top{grid-template-columns:1fr}.caretaker-top img{width:100%;height:auto}.footer-inner{grid-template-columns:1fr;gap:28px;padding:35px 22px}.copyright{padding:0 22px 30px;margin-top:20px}.call-band::before{width:90%;}
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip"><strong>Vero Beach Handyman LLC</strong><span>Free estimates</span><span>Never a service fee</span><a class="mini-cta" href="tel:772-321-1918">Call or text 772-321-1918</a></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img class="brand-logo" src="https://static.wixstatic.com/media/63d12a_b93995b44dd84c4da07a824935cbdd13.png/v1/fill/w_423,h_405,al_c,q_85,enc_avif,quality_auto/63d12a_b93995b44dd84c4da07a824935cbdd13.png" alt="Vero Beach Handyman LLC logo">
+      <section class="hero-card" aria-label="Vero Beach Handyman estimate callout">
+        <p class="eyebrow">For all of your</p>
+        <h1>Home Repairs &amp; Improvements</h1>
+        <p class="promise">Free Estimates! <small>Never a Service Fee</small></p>
+        <a class="phone" href="tel:772-321-1918">772-321-1918</a>
+        <span class="call-text">Call or text</span>
+        <div class="hero-actions">
+          <a class="primary" href="tel:772-321-1918">Request a Free Estimate</a>
+          <a class="secondary" href="mailto:verobeachhandyman@gmail.com">Email Project Details</a>
+        </div>
+      </section>
+      <div class="trust-badge"><strong>Vero Beach, FL</strong>Interior, exterior, kitchen, bath<br>and property-care repairs</div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a class="active" href="#home">Home</a>
+      <a href="#contact">Contact</a>
+      <a class="quote" href="tel:772-321-1918">Free Estimate</a>
+    </div>
+  </nav>
+
+  <main id="home">
+    <div class="main-inner">
+      <div class="two-col">
+        <section class="services-stack" aria-label="Handyman service categories">
+          <article class="service-card">
+            <img src="https://static.wixstatic.com/media/2ce70ee431bf87a508a2840782327e0f.jpg/v1/fill/w_141,h_228,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2ce70ee431bf87a508a2840782327e0f.jpg" alt="Interior painting and repair work">
+            <div class="service-copy">
+              <h2>Interior Work</h2>
+              <ul>
+                <li>Drywall repair and painting</li>
+                <li>Carpentry work</li>
+                <li>Replace fixtures and toilets</li>
+                <li>Install appliances</li>
+                <li>Minor plumbing leaks</li>
+                <li>Picture hanging</li>
+                <li>Ceiling fans and light fixtures</li>
+                <li>Tell us what needs fixing</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card tall">
+            <img src="https://static.wixstatic.com/media/63d12a_7709f117986442e88edadad8cd049c82.jpeg/v1/fill/w_141,h_248,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/63d12a_7709f117986442e88edadad8cd049c82.jpeg" alt="Exterior repair and gutter work">
+            <div class="service-copy">
+              <h2>Exterior Work</h2>
+              <ul>
+                <li>Rot repair</li>
+                <li>Gutter repairs and cleaning</li>
+                <li>Siding repair and cleaning</li>
+                <li>Deck repair, cleaning and sealing</li>
+                <li>Fence repairs</li>
+                <li>Pressure washing</li>
+                <li>Locksets installed or replaced</li>
+                <li>Roof coating and small repairs</li>
+                <li>Doggie door installation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card tall">
+            <img src="https://static.wixstatic.com/media/6ab52831c212e8f2739490dfcaa0b198.jpg/v1/fill/w_141,h_248,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6ab52831c212e8f2739490dfcaa0b198.jpg" alt="Kitchen and bath repair services">
+            <div class="service-copy">
+              <h2>Kitchen &amp; Bath</h2>
+              <ul>
+                <li>Wall and floor tile installed or repaired</li>
+                <li>Caulking and grout repair</li>
+                <li>Shower doors installed</li>
+                <li>Fixtures replaced or installed</li>
+                <li>Bath accessories hung</li>
+                <li>Disposals installed</li>
+                <li>Countertop and hardware replacements</li>
+                <li>Vent fans installed</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card misc">
+            <img src="https://static.wixstatic.com/media/63d12a_ef781a8be9424dae96ba581eb3f0deae.jpg/v1/fill/w_141,h_231,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/63d12a_ef781a8be9424dae96ba581eb3f0deae.jpg" alt="Mailbox and miscellaneous handyman work">
+            <div class="service-copy">
+              <h2>Miscellaneous</h2>
+              <ul>
+                <li>Pet doors and mailboxes installed</li>
+                <li>Doghouses and bird houses</li>
+                <li>Swing sets assembled</li>
+                <li>Storage sheds assembled</li>
+                <li>Furniture assembled</li>
+                <li>Have a small list? Call or text first.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="right-stack" aria-label="Vero Beach Handyman overview">
+          <article class="intro-panel">
+            <h2>Your Vero Beach Handyman is here for you!</h2>
+            <p>Finding the time, energy, and tools for a simple home repair can be a challenge for the average homeowner.</p>
+            <p>Your Vero Beach Handyman can provide the expertise and the right tools at the right price.</p>
+            <div class="fast-trust" aria-label="Quick trust points">
+              <div><strong>Free estimate</strong><br>No service fee</div>
+              <div><strong>Call or text</strong><br>Fast project routing</div>
+              <div><strong>Local repairs</strong><br>Vero Beach homes</div>
+              <div><strong>One clear list</strong><br>Interior to exterior</div>
+            </div>
+            <p>We specialize in painting, carpentry, interior repairs, exterior repairs, lighting, plumbing, fixture replacement, kitchen and bath updates, and more.</p>
+            <p>We take pride in every job and look forward to helping with your next project, no matter how big or small it may be.</p>
+            <a class="panel-cta" href="tel:772-321-1918">Start with a free estimate</a>
+          </article>
+
+          <article class="caretaker-panel">
+            <div class="caretaker-top">
+              <h2>Property Caretaker and Maintenance Service</h2>
+              <img src="https://static.wixstatic.com/media/63d12a_46d1c949fd4a45c183c505edb19735b2.jpg/v1/fill/w_236,h_156,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/63d12a_46d1c949fd4a45c183c505edb19735b2.jpg" alt="Vero Beach home property maintenance">
+            </div>
+            <p class="small-list">Scheduled property walk-through inspections<br>Hurricane preparation<br>and more</p>
+            <p>It is important to hire someone you can trust to look after your property while you are away. Regular inspection and maintenance helps safeguard your investment and keep it in its best possible condition.</p>
+          </article>
+        </section>
+      </div>
+    </div>
+
+    <section class="call-band" aria-label="Call Vero Beach Handyman">
+      <div class="call-content">
+        <span class="label">Call your Vero Beach Handyman Today!</span>
+        <a class="number" href="tel:772-321-1918">772-321-1918</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-inner">
+      <div>
+        <h2>Follow Us</h2>
+        <div class="fb-row"><img src="https://static.wixstatic.com/media/d75821b3625d16f95dfd8ebff761922d.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d75821b3625d16f95dfd8ebff761922d.png" alt="Facebook icon"><span>Like us on Facebook</span></div>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>7000 20th St Suite 819</p>
+        <p>Vero Beach, FL 32962</p>
+        <p><a href="mailto:verobeachhandyman@gmail.com">Verobeachhandyman@gmail.com</a></p>
+        <p><a href="tel:772-321-1918">Tel: 772-321-1918</a></p>
+      </div>
+      <div>
+        <h2>Find us</h2>
+        <div class="map-placeholder">Serving Vero Beach homeowners with repairs, maintenance and free estimate calls.</div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Vero Beach Handyman LLC. Built from the existing site direction with clearer estimate routing.</div>
+  </footer>
+</body>
+</html>

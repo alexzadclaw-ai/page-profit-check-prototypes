@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-16-0200-nightly",
+  "batchJson": "opportunities/2026-05-16-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "sparks-pressure-washing",
+      "name": "Sparks' Pressure Washing",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/sparks-pressure-washing-audit.md",
+          "exists": true,
+          "size": 6955
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/sparks-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1418
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/sparks-pressure-washing/index.html",
+          "exists": true,
+          "size": 16960
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/sparks-pressure-washing-target.png",
+          "exists": true,
+          "size": 4363033
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/sparks-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 4811580
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9183,
+        "pixelSimilarity": 0.8008,
+        "edgeLayoutSimilarity": 0.6698,
+        "perceptualHashSimilarity": 0.9375,
+        "weightedSimilarity": 0.8179
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/sparks-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "salty-sea-pressure-washing",
+      "name": "Salty Sea Pressure Washing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/salty-sea-pressure-washing-audit.md",
+          "exists": true,
+          "size": 7007
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/salty-sea-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1155
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/salty-sea-pressure-washing/index.html",
+          "exists": true,
+          "size": 22358
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/salty-sea-pressure-washing-target.png",
+          "exists": true,
+          "size": 518596
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/salty-sea-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 513241
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9246,
+        "pixelSimilarity": 0.8327,
+        "edgeLayoutSimilarity": 0.7398,
+        "perceptualHashSimilarity": 0.9688,
+        "weightedSimilarity": 0.8529
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/salty-sea-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "tidy-clean-commercial-cleaning",
+      "name": "Tidy Clean",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning-audit.md",
+          "exists": true,
+          "size": 6937
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning-offer.md",
+          "exists": true,
+          "size": 1351
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning/index.html",
+          "exists": true,
+          "size": 13410
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning-target.png",
+          "exists": true,
+          "size": 604287
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning-prototype.png",
+          "exists": true,
+          "size": 645353
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6351,
+        "pixelSimilarity": 0.8798,
+        "edgeLayoutSimilarity": 0.7898,
+        "perceptualHashSimilarity": 0.8438,
+        "weightedSimilarity": 0.7907
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/tidy-clean-commercial-cleaning-source-assets.md"
+    },
+    {
+      "slug": "exterior-excellence-pressure-washing",
+      "name": "Exterior Excellence",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/exterior-excellence-pressure-washing-audit.md",
+          "exists": true,
+          "size": 8012
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/exterior-excellence-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1278
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/exterior-excellence-pressure-washing/index.html",
+          "exists": true,
+          "size": 19235
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/exterior-excellence-pressure-washing-target.png",
+          "exists": true,
+          "size": 1872451
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/exterior-excellence-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 2787653
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.848,
+        "pixelSimilarity": 0.7907,
+        "edgeLayoutSimilarity": 0.7414,
+        "perceptualHashSimilarity": 0.75,
+        "weightedSimilarity": 0.7866
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/exterior-excellence-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "southern-tide-services",
+      "name": "Southern Tide Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/southern-tide-services-audit.md",
+          "exists": true,
+          "size": 11978
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/southern-tide-services-offer.md",
+          "exists": true,
+          "size": 1508
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/southern-tide-services/index.html",
+          "exists": true,
+          "size": 19751
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/southern-tide-services-target.png",
+          "exists": true,
+          "size": 854011
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/southern-tide-services-prototype.png",
+          "exists": true,
+          "size": 999667
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.2189,
+        "pixelSimilarity": 0.4121,
+        "edgeLayoutSimilarity": 0.7496,
+        "perceptualHashSimilarity": 0.7969,
+        "weightedSimilarity": 0.5059
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/southern-tide-services-source-assets.md"
+    },
+    {
+      "slug": "vero-beach-handyman",
+      "name": "Vero Beach Handyman LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/vero-beach-handyman-audit.md",
+          "exists": true,
+          "size": 10174
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/vero-beach-handyman-offer.md",
+          "exists": true,
+          "size": 2256
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/vero-beach-handyman/index.html",
+          "exists": true,
+          "size": 17891
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/vero-beach-handyman-target.png",
+          "exists": true,
+          "size": 907217
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/vero-beach-handyman-prototype.png",
+          "exists": true,
+          "size": 920820
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7037,
+        "pixelSimilarity": 0.8581,
+        "edgeLayoutSimilarity": 0.7278,
+        "perceptualHashSimilarity": 0.9219,
+        "weightedSimilarity": 0.7965
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/vero-beach-handyman-source-assets.md"
+    },
+    {
+      "slug": "scotts-suds-softwash",
+      "name": "Scott's Suds and Softwash",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/scotts-suds-softwash-audit.md",
+          "exists": true,
+          "size": 10420
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/scotts-suds-softwash-offer.md",
+          "exists": true,
+          "size": 2245
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/scotts-suds-softwash/index.html",
+          "exists": true,
+          "size": 18956
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/scotts-suds-softwash-target.png",
+          "exists": true,
+          "size": 1412358
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/scotts-suds-softwash-prototype.png",
+          "exists": true,
+          "size": 1360851
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9231,
+        "pixelSimilarity": 0.8409,
+        "edgeLayoutSimilarity": 0.751,
+        "perceptualHashSimilarity": 0.9375,
+        "weightedSimilarity": 0.8535
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/scotts-suds-softwash-source-assets.md"
+    },
+    {
+      "slug": "soryns-mobile-detailing",
+      "name": "Soryn's Mobile Detailing",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/soryns-mobile-detailing-audit.md",
+          "exists": true,
+          "size": 9104
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/soryns-mobile-detailing-offer.md",
+          "exists": true,
+          "size": 1245
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/soryns-mobile-detailing/index.html",
+          "exists": true,
+          "size": 24531
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/soryns-mobile-detailing-target.png",
+          "exists": true,
+          "size": 2398807
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/soryns-mobile-detailing-prototype.png",
+          "exists": true,
+          "size": 3023325
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7975,
+        "pixelSimilarity": 0.8655,
+        "edgeLayoutSimilarity": 0.748,
+        "perceptualHashSimilarity": 0.75,
+        "weightedSimilarity": 0.8018
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/soryns-mobile-detailing-source-assets.md"
+    },
+    {
+      "slug": "jp-mobile-detailing",
+      "name": "JPs Mobile Detailing",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/jp-mobile-detailing-audit.md",
+          "exists": true,
+          "size": 11594
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/jp-mobile-detailing-offer.md",
+          "exists": true,
+          "size": 1432
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/jp-mobile-detailing/index.html",
+          "exists": true,
+          "size": 21016
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/jp-mobile-detailing-target.png",
+          "exists": true,
+          "size": 1143208
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/jp-mobile-detailing-prototype.png",
+          "exists": true,
+          "size": 2076804
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8982,
+        "pixelSimilarity": 0.7818,
+        "edgeLayoutSimilarity": 0.6947,
+        "perceptualHashSimilarity": 0.7188,
+        "weightedSimilarity": 0.7797
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/jp-mobile-detailing-source-assets.md"
+    },
+    {
+      "slug": "inside-jobs-mobile-detailing",
+      "name": "Inside Jobs Mobile Details",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-16-0200-nightly/inside-jobs-mobile-detailing-audit.md",
+          "exists": true,
+          "size": 7903
+        },
+        "offer": {
+          "path": "offers/2026-05-16-0200-nightly/inside-jobs-mobile-detailing-offer.md",
+          "exists": true,
+          "size": 1558
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-16-0200-nightly/inside-jobs-mobile-detailing/index.html",
+          "exists": true,
+          "size": 24074
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/inside-jobs-mobile-detailing-target.png",
+          "exists": true,
+          "size": 5791490
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-16-0200-nightly/inside-jobs-mobile-detailing-prototype.png",
+          "exists": true,
+          "size": 7989054
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3985,
+        "pixelSimilarity": 0.813,
+        "edgeLayoutSimilarity": 0.7667,
+        "perceptualHashSimilarity": 0.6719,
+        "weightedSimilarity": 0.6766
+      },
+      "sourceAssetsNote": "state/2026-05-16-0200-nightly/inside-jobs-mobile-detailing-source-assets.md"
+    }
+  ]
+}

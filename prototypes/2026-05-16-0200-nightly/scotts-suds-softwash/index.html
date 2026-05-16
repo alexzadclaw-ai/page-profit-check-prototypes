@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scott's Suds and Softwash | Softwash and Pressure Washing in Providence Forge, VA</title>
+  <meta name="description" content="Scott's Suds and Softwash provides residential, commercial, routine, and specialty softwash and pressure washing services in Charles City, New Kent, Williamsburg, and Providence Forge, Virginia." />
+  <style>
+    :root{
+      --blue:#4796d1;
+      --blue-dark:#1d67cd;
+      --ink:#281a39;
+      --soft:#f6f6f6;
+      --line:#dce4ec;
+      --charcoal:#3e3e3e;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:#f7f7f7;color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;}
+    a{color:inherit;text-decoration:none}
+    .topbar{height:50px;background:#eff1f2;display:flex;align-items:center;justify-content:center;color:#20303c;font-size:16px;letter-spacing:.01em;}
+    .topbar strong{font-weight:700;margin-right:8px;color:#20303c;}
+    .topbar .mini{display:inline-flex;align-items:center;gap:14px;}
+    .topbar .started{border:1px solid #166aea;color:#166aea;border-radius:18px;padding:6px 20px;font-size:14px;background:white;margin-left:12px;}
+    .navwrap{height:95px;background:#f7f7f7;position:relative;box-shadow:0 0 0 1px rgba(0,0,0,.02) inset;}
+    .nav{width:950px;height:95px;margin:0 auto;display:flex;align-items:center;gap:10px;position:relative;}
+    .fb{position:absolute;left:15px;top:18px;width:39px;height:39px;display:block;}
+    .quote-top{position:absolute;left:66px;top:15px;width:200px;height:45px;background:var(--blue);border-radius:999px;color:#f6f6f6;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center;}
+    .navlinks{position:absolute;left:277px;top:18px;height:47px;display:flex;align-items:center;}
+    .navlinks a{height:39px;padding:10px 10px;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;font-size:16px;color:#000;}
+    .navlinks a.active{color:#1d67cd;}
+    .phone-top{position:absolute;right:-188px;top:27px;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:18px;color:var(--ink);letter-spacing:.01em;}
+    .phone-top:before{content:"☎";font-size:17px;margin-right:9px;color:var(--ink);}
+    .hero{height:902px;background:white;position:relative;overflow:hidden;}
+    .hero-inner{width:980px;margin:0 auto;text-align:center;position:relative;height:100%;}
+    .eyebrow{position:absolute;top:71px;left:0;right:0;font-size:24px;color:#3e3e3e;font-family:Arial,Helvetica,sans-serif;font-weight:400;}
+    h1{position:absolute;top:105px;left:0;right:0;margin:0;font-size:24px;line-height:1.2;color:#3e3e3e;font-family:Arial,Helvetica,sans-serif;font-weight:700;z-index:3;}
+    .hero-logo{position:absolute;top:137px;left:50%;transform:translateX(-50%);width:600px;height:481px;object-fit:cover;z-index:2;}
+    .hero-phone{position:absolute;top:626px;left:0;right:0;font-size:32px;line-height:1.1;color:#3e3e3e;font-family:Arial,Helvetica,sans-serif;font-weight:700;}
+    .intro{position:absolute;top:708px;left:0;right:0;width:980px;margin:0 auto;font-size:16px;line-height:1.45;font-weight:700;color:var(--ink);}
+    .divider{position:absolute;top:815px;left:50%;transform:translateX(-50%);width:959px;height:86px;object-fit:contain;opacity:.96;}
+    .main-section{background:#fff;position:relative;min-height:1260px;}
+    .content-grid{width:898px;margin:0 auto;display:grid;grid-template-columns:434px 353px;gap:76px;align-items:start;position:relative;top:20px;}
+    .gallery{display:flex;flex-direction:column;gap:0;}
+    .gallery figure{margin:0;position:relative;}
+    .gallery img{width:434px;height:220px;display:block;object-fit:cover;}
+    .cap{position:absolute;left:10px;bottom:10px;background:rgba(255,255,255,.9);color:#20303c;border-radius:14px;padding:5px 10px;font-size:11px;font-weight:700;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+    .proofcol{padding-top:70px;}
+    .fbcard{width:353px;background:#fff;border:1px solid #d8d8d8;border-radius:2px;color:#1d2129;box-shadow:0 1px 2px rgba(0,0,0,.08);font-family:Arial,Helvetica,sans-serif;margin-bottom:24px;}
+    .fb-head{display:flex;align-items:center;gap:10px;padding:12px 13px 10px;border-bottom:1px solid #eee;}
+    .fb-avatar{width:46px;height:46px;border-radius:3px;background:#17202b url('https://static.wixstatic.com/media/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png/v1/fill/w_600,h_481,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png') center/cover no-repeat;}
+    .fb-name{font-weight:700;color:#365899;font-size:14px;line-height:1.2;}
+    .fb-small{font-size:12px;color:#606770;margin-top:2px;}
+    .fb-buttons{display:flex;gap:8px;padding:8px 13px;border-bottom:1px solid #eee;}
+    .fb-btn{height:28px;background:#f5f6f7;border:1px solid #ccd0d5;border-radius:2px;color:#4b4f56;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:1;}
+    .post{padding:12px 13px;}
+    .post-title{display:flex;align-items:center;gap:8px;margin-bottom:9px;}
+    .dotlogo{width:34px;height:34px;border-radius:3px;background:#17202b url('https://static.wixstatic.com/media/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png/v1/fill/w_600,h_481,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png') center/cover no-repeat;}
+    .post p{font-size:13px;line-height:1.35;color:#1d2129;margin:8px 0 12px;}
+    .post ul{margin:9px 0 12px 18px;padding:0;font-size:13px;line-height:1.45;color:#1d2129;}
+    .thumbs{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:10px;}
+    .thumbs img{width:100%;height:88px;object-fit:cover;display:block;}
+    .small-divider{width:353px;height:126px;object-fit:contain;margin:20px 0 28px;display:block;}
+    .estimate-card{width:353px;border:1px solid #d8d8d8;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.08);padding:18px 20px;text-align:center;}
+    .estimate-card h2{font-size:22px;line-height:1.2;color:#20303c;margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;}
+    .estimate-card p{font-size:14px;line-height:1.45;margin:0 0 16px;color:#281a39;font-weight:700;}
+    .estimate-card a{display:inline-flex;width:200px;height:45px;background:var(--blue);border-radius:999px;color:#fff;align-items:center;justify-content:center;font-weight:700;}
+    .footerbar{height:40px;background:#3e3e3e;color:#fff;position:relative;font-size:10px;font-weight:400;font-family:Arial,Helvetica,sans-serif;display:flex;align-items:flex-start;justify-content:center;gap:0;}
+    .footitem{width:280px;height:29px;margin-top:4px;text-align:center;display:flex;align-items:center;justify-content:center;flex-direction:column;line-height:1.15;}
+    .footitem + .footitem{border-left:1px solid rgba(255,255,255,.85)}
+    .footitem small{color:#8f8898;font-size:7px;margin-top:3px;}
+    .services{background:var(--blue);min-height:666px;margin-top:0;color:#f6f6f6;text-align:center;padding:47px 0 70px;}
+    .services h2{font-size:30px;line-height:1.2;margin:0 0 108px;color:#f6f6f6;font-family:Arial,Helvetica,sans-serif;}
+    .services-grid{width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+    .service{padding:0 17px;}
+    .icon{height:68px;margin:0 auto 34px;width:68px;color:#fff;}
+    .service h3{font-size:20px;line-height:1.2;margin:0 0 16px;color:#f6f6f6;font-weight:700;}
+    .service p{font-size:12px;line-height:1.5;margin:0;color:#f6f6f6;font-weight:400;}
+    .cta{background:#f7f7f7;text-align:center;padding:20px 0 42px;min-height:281px;}
+    .cta h2{font-size:30px;line-height:1.2;color:#3e3e3e;margin:0 0 26px;font-weight:700;}
+    .cta p{width:522px;margin:0 auto 45px;font-size:12px;line-height:1.45;color:var(--ink);font-weight:700;}
+    .cta a{width:200px;height:45px;border-radius:999px;background:var(--blue);color:#f6f6f6;display:inline-flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;}
+    @media(max-width:900px){
+      .topbar{height:auto;min-height:46px;padding:10px 16px;text-align:center;font-size:13px}.topbar .started{display:none}
+      .navwrap{height:auto}.nav{width:100%;min-height:120px;padding:14px 18px;display:grid;grid-template-columns:42px 1fr;gap:10px}.fb,.quote-top,.navlinks,.phone-top{position:static}.quote-top{width:190px}.navlinks{grid-column:1/3;display:flex;flex-wrap:wrap}.phone-top{grid-column:1/3;font-size:16px}.hero{height:auto;padding:55px 18px 40px}.hero-inner,.intro{width:100%;height:auto}.eyebrow,h1,.hero-logo,.hero-phone,.intro,.divider{position:static;transform:none}.eyebrow{font-size:20px}.hero-logo{width:min(600px,100%);height:auto;margin:18px auto 0}.hero-phone{font-size:26px;margin-top:12px}.intro{margin-top:24px}.divider{width:100%;height:auto;margin:8px 0 0}.main-section{min-height:0}.content-grid{width:100%;display:block;top:0;padding:0 18px}.gallery img,.fbcard,.small-divider,.estimate-card{width:100%;height:auto}.proofcol{padding-top:24px}.services-grid{width:100%;grid-template-columns:1fr;padding:0 24px;gap:48px}.services h2{margin-bottom:50px}.cta p{width:auto;margin:0 24px 28px}.footerbar{height:auto;display:block;padding:10px 0}.footitem{width:100%;height:auto;margin:0;padding:8px 0}.footitem+.footitem{border-left:0;border-top:1px solid rgba(255,255,255,.35)}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar" aria-label="Service area notice">
+    <span class="mini"><strong>Scott's Suds &amp; Softwash</strong> Serving Charles City, New Kent, Williamsburg and Providence Forge <span class="started">Free estimates</span></span>
+  </div>
+
+  <header class="navwrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="fb" href="https://www.facebook.com/profile.php?id=61550986493152" aria-label="Facebook"><img src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png" alt="Facebook" width="39" height="39"></a>
+      <a class="quote-top" href="https://scottssuds.wixsite.com/services/contact-8">Get a Quote Now</a>
+      <div class="navlinks">
+        <a class="active" href="https://scottssuds.wixsite.com/services">Home</a>
+        <a href="https://scottssuds.wixsite.com/services/about-1">What is Softwash?</a>
+        <a href="https://scottssuds.wixsite.com/services/contact-8">Contact</a>
+      </div>
+      <a class="phone-top" href="tel:757-849-3852">(757) 849-3852</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Experience the Sparkling Clean You Deserve</div>
+        <h1>Professional Softwash and Pressure Washing Services</h1>
+        <img class="hero-logo" src="https://static.wixstatic.com/media/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png/v1/fill/w_600,h_481,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23f80b_2bd436a06bac453997a530697cc90ad9~mv2.png" alt="Scott's Suds and Softwash logo for Providence Forge Virginia" width="600" height="481">
+        <a class="hero-phone" href="tel:757-849-3852">(757) 849-3852</a>
+        <p class="intro">Serving Charles City, New Kent, Williamsburg and Providence Forge, we offer professional and reliable softwash and pressure washing services for residential and commercial properties. Our team takes pride in outstanding results, clear communication, routine care options, and exterior cleaning that keeps your property looking its best year-round.</p>
+        <img class="divider" src="https://static.wixstatic.com/media/23f80b_c0fd076ea5a4402dad76d59d4367f470~mv2.jpg/v1/fill/w_959,h_86,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Scotts%20SnS-04.jpg" alt="Pressure washer spray divider" width="959" height="86">
+      </div>
+    </section>
+
+    <section class="main-section" aria-label="Before and after cleaning results">
+      <div class="content-grid">
+        <div class="gallery">
+          <figure><img src="https://static.wixstatic.com/media/23f80b_8f9602dffbd949deb8f817bf2f4b0786~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-4.png" alt="Before and after brick step softwash cleaning"><figcaption class="cap">Steps and entryways</figcaption></figure>
+          <figure><img src="https://static.wixstatic.com/media/23f80b_e8e160fc82b34575baf0f0e70fb5d847~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-1.png" alt="Before and after garage and concrete pressure washing"><figcaption class="cap">Driveways and concrete</figcaption></figure>
+          <figure><img src="https://static.wixstatic.com/media/23f80b_e38215a45a7446b299841d91fc4b2acc~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-3.png" alt="Before and after paver and brick cleaning"><figcaption class="cap">Brick and pavers</figcaption></figure>
+          <figure><img src="https://static.wixstatic.com/media/23f80b_65ef08f7867f4c269fc70ef2ce13b694~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-2.png" alt="Before and after courtyard pressure washing"><figcaption class="cap">Patios and courtyards</figcaption></figure>
+          <figure><img src="https://static.wixstatic.com/media/23f80b_470cee6a72854ded886e6cf403ddf544~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-5.png" alt="Before and after fence soft washing"><figcaption class="cap">Fences and outdoor surfaces</figcaption></figure>
+        </div>
+        <aside class="proofcol" aria-label="Trust and estimate path">
+          <div class="fbcard">
+            <div class="fb-head">
+              <div class="fb-avatar" aria-hidden="true"></div>
+              <div><div class="fb-name">Scott's Suds &amp; Softwash</div><div class="fb-small">Providence Forge exterior cleaning</div></div>
+            </div>
+            <div class="fb-buttons"><div class="fb-btn">Follow Page</div><div class="fb-btn">Share</div></div>
+            <div class="post">
+              <div class="post-title"><div class="dotlogo" aria-hidden="true"></div><div><div class="fb-name">Ready for a cleaner exterior?</div><div class="fb-small">Free estimate path</div></div></div>
+              <p>Softwash and pressure washing for homes, storefronts, sidewalks, porches, fences, parking lots, warehouses, and solar panels.</p>
+              <ul>
+                <li>Tell us the surface and location.</li>
+                <li>Share a few photos if helpful.</li>
+                <li>We confirm the best cleaning plan.</li>
+              </ul>
+              <div class="thumbs">
+                <img src="https://static.wixstatic.com/media/23f80b_8f9602dffbd949deb8f817bf2f4b0786~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-4.png" alt="Cleaned brick steps preview">
+                <img src="https://static.wixstatic.com/media/23f80b_e8e160fc82b34575baf0f0e70fb5d847~mv2.png/v1/fill/w_434,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SSS-1.png" alt="Cleaned concrete preview">
+              </div>
+            </div>
+          </div>
+          <img class="small-divider" src="https://static.wixstatic.com/media/23f80b_a2a3f269220247b2a8eae77aa4ffd107~mv2.jpg/v1/fill/w_353,h_126,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Scotts%20SnS-03_edited.jpg" alt="Pressure washer spray accent" width="353" height="126">
+          <div class="estimate-card">
+            <h2>Request A Free Estimate</h2>
+            <p>Call or email Scott's Suds and Softwash for a clear next step on your residential, commercial, routine, or specialty cleaning project.</p>
+            <a href="https://scottssuds.wixsite.com/services/contact-8">Get a Quote Now</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="services" aria-labelledby="what-we-do">
+      <h2 id="what-we-do">What We Do</h2>
+      <div class="services-grid">
+        <article class="service">
+          <svg class="icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 39 40 14l31 25"/><path d="M18 36v31h44V36"/><path d="M33 67V48h14v19"/></svg>
+          <h3>Residential Services</h3>
+          <p>Sidewalks, siding, porches and fences can all be BBQ season ready with a gentle softwash or the right pressure washing approach.</p>
+        </article>
+        <article class="service">
+          <svg class="icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 68h54"/><path d="M19 68V25h20v43"/><path d="M43 68V15h18v53"/><path d="M26 34h5M26 45h5M26 56h5M50 26h4M50 38h4M50 50h4"/></svg>
+          <h3>Commercial Services</h3>
+          <p>Storefronts, sidewalks, parking lots and warehouses get a cleaner first impression for customers, staff and tenants.</p>
+        </article>
+        <article class="service">
+          <svg class="icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 60c14 8 32 8 46 0"/><path d="M21 24h35l8 12H29z"/><path d="M28 36v20M40 36v24M52 36v20"/><path d="M18 16l8 10"/></svg>
+          <h3>Routine Services</h3>
+          <p>Set up routine service and we will notify you when your next appointment is a few days away, so exterior cleaning stays simple.</p>
+        </article>
+        <article class="service">
+          <svg class="icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="58" cy="22" r="8"/><path d="M58 5v6M58 33v6M41 22h6M69 22h6M48 12l4 4M64 28l4 4M68 12l-4 4M52 28l-4 4"/><path d="M12 43h35l-6 22H6z"/><path d="M17 51h27M14 59h25M23 43l-5 22M35 43l-5 22"/></svg>
+          <h3>Specialty Cleaning</h3>
+          <p>Solar panels and delicate surfaces get gentle, effective cleaning to remove buildup without using a one-size-fits-all method.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="estimate">
+      <h2 id="estimate">Request A Free Estimate</h2>
+      <p>Contact us today to request a free estimate for your softwash and pressure washing needs. We offer competitive pricing and responsive customer service, so you can trust us to recommend the right cleaning approach.</p>
+      <a href="https://scottssuds.wixsite.com/services/contact-8">Get a Quote Now</a>
+    </section>
+
+    <footer class="footerbar">
+      <div class="footitem"><a href="tel:757-849-3852">(757) 849-3852</a></div>
+      <div class="footitem">Providence Forge, Virginia<small>© 2026 Scotts Suds &amp; Softwash</small></div>
+      <div class="footitem"><a href="mailto:ScottsSudsandSuch@gmail.com">ScottsSudsandSuch@gmail.com</a></div>
+    </footer>
+  </main>
+</body>
+</html>

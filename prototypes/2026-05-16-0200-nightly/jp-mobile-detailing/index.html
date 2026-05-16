@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JPs Mobile Detailing | Houston & Galveston RV Detailing</title>
+  <meta name="description" content="Mobile RV, motorhome, car, and truck detailing in the Houston and Galveston area. Send photos for a clearer quote and choose exterior, interior, full package, or add-on services.">
+  <style>
+    :root{
+      --ink:#27211e;
+      --olive:#727557;
+      --muted:#777765;
+      --dark:#27211e;
+      --footer:#302620;
+      --paper:#ffffff;
+      --soft:#f7f7f5;
+      --line:#d9d7d1;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; background:#fff; color:var(--ink); font-family:"Trebuchet MS","Helvetica Neue",Arial,sans-serif; font-size:15px; line-height:1.65;}
+    a{color:inherit; text-decoration:none}
+    .page{width:100%; overflow:hidden; background:#fff;}
+    .top-quiet{height:70px; background:#fff;}
+    .shell{width:88.3%; max-width:1225px; margin:0 auto;}
+
+    header{height:200px; background:#fff;}
+    .contact-row{height:45px; display:flex; align-items:center; gap:24px; font-size:14px; color:var(--ink); border-bottom:1px solid var(--line);}
+    .brand-row{height:155px; display:flex; align-items:center; justify-content:space-between;}
+    .brand-left{display:flex; align-items:center; gap:15px;}
+    .brand-left img.logo{width:40px; height:40px; object-fit:cover; flex:none;}
+    .brand-name{display:block; font-size:28px; line-height:1.2; font-weight:700; letter-spacing:.1px; color:var(--ink); margin-bottom:8px;}
+    .brand-sub{font-size:15px; line-height:1.45; color:var(--olive); font-weight:700;}
+    .brand-actions{display:flex; align-items:center; gap:12px;}
+    .socials{display:flex; align-items:center; gap:10px; margin-right:4px;}
+    .socials img{width:20px; height:20px; object-fit:contain; display:block;}
+    .outline-btn,.solid-btn{height:40px; min-width:118px; padding:8px 19px; border:1px solid var(--olive); display:inline-flex; align-items:center; justify-content:center; font-size:15px; line-height:1; color:var(--olive); background:#fff;}
+    .solid-btn{background:var(--olive); color:#fff; border-color:var(--olive);}
+
+    .hero{height:560px; width:100%; position:relative; overflow:hidden; background:#e8e8e8;}
+    .hero img{width:100%; height:100%; object-fit:cover; object-position:center center; display:block;}
+    .hero-ribbon{position:absolute; right:80px; bottom:38px; width:330px; padding:18px 20px; background:rgba(39,33,30,.82); color:#fff; border:1px solid rgba(255,255,255,.25);}
+    .hero-ribbon strong{display:block; color:#fff; font-size:18px; line-height:1.3; margin-bottom:4px;}
+    .hero-ribbon span{display:block; color:#e7e2d8; font-size:14px; line-height:1.45;}
+
+    .intro{height:660px; background:#fff; text-align:center; display:flex; align-items:flex-start; justify-content:center;}
+    .intro-inner{width:780px; padding-top:58px;}
+    h1{font-size:72px; line-height:1.15; margin:0 0 14px; color:var(--olive); font-weight:700; letter-spacing:-1.5px;}
+    .kicker{font-size:20px; line-height:1.35; font-weight:700; letter-spacing:.4px; text-transform:uppercase; margin-bottom:24px; color:var(--ink);}
+    .intro p{margin:0 auto 14px; max-width:760px; font-size:15px; color:var(--ink);}
+    .intro .bold-line{font-weight:700; text-transform:uppercase; margin-top:12px; line-height:1.45;}
+    .quick-cues{display:flex; justify-content:center; gap:10px; margin:24px 0 28px; flex-wrap:wrap;}
+    .quick-cues span{border:1px solid #dad8d0; padding:7px 14px; color:var(--olive); font-size:14px; background:#fff;}
+    .intro-actions{display:flex; justify-content:center; gap:20px; margin-top:2px;}
+
+    .services{height:480px; background:var(--dark); color:#fff; text-align:center; padding-top:110px;}
+    h2{font-size:40px; line-height:1.25; margin:0 0 28px; color:#fff; font-weight:700;}
+    .services p{width:940px; max-width:90%; margin:0 auto; font-size:15px; color:#fff; line-height:1.8;}
+    .steps{width:940px; max-width:90%; margin:34px auto 0; display:grid; grid-template-columns:repeat(3,1fr); gap:1px; border:1px solid rgba(255,255,255,.18);}
+    .step{padding:16px 18px; background:rgba(255,255,255,.045); color:#eee; min-height:94px;}
+    .step b{display:block; color:#fff; margin-bottom:4px; font-size:14px; letter-spacing:.6px; text-transform:uppercase;}
+    .step span{font-size:13px; line-height:1.45; color:#d9d4ca;}
+
+    .packages{height:1300px; background:var(--soft); position:relative;}
+    .package-card{position:absolute; width:33.3334%; height:650px; text-align:center; padding-top:54px; display:flex; flex-direction:column; align-items:center;}
+    .package-card.center{left:33.3333%; top:0; background:#fff;}
+    .package-card.left{left:0; top:650px; background:#fff;}
+    .package-card.right{right:0; top:650px; background:#fff;}
+    .package-blank{position:absolute; left:33.3333%; top:650px; width:33.3334%; height:650px; background:var(--soft);}
+    .package-card h3{margin:0 0 30px; color:var(--olive); font-size:22px; line-height:1.4; letter-spacing:.3px; font-weight:700; text-transform:uppercase;}
+    .price{font-size:18px; font-weight:700; margin-bottom:28px; color:var(--ink);}
+    .starting{font-size:13px; color:var(--olive); margin-top:-22px; margin-bottom:26px; letter-spacing:.2px;}
+    .features{list-style:none; margin:0; padding:0; font-size:15px; line-height:1.86; color:var(--ink); font-weight:700; max-width:330px;}
+    .features li::before{content:"-"; margin-right:1px;}
+    .package-note{margin-top:auto; margin-bottom:42px; font-size:13px; color:var(--olive); border:1px solid #d7d4ca; padding:8px 14px; min-width:190px;}
+
+    .addons{height:670px; background:var(--soft); text-align:center; padding-top:104px;}
+    .addons h2{color:var(--olive); font-size:42px; margin-bottom:30px;}
+    .addons-list{list-style:disc; display:inline-block; text-align:left; margin:0 auto 34px; padding-left:22px; font-size:15px; line-height:1.85; font-weight:700; color:var(--ink);}
+    .addons-list span{color:var(--olive); font-weight:700;}
+    .discount-note{margin:22px 0 0; font-size:15px; color:var(--ink); font-weight:700;}
+    .addons .mini-cta{margin-top:34px; color:var(--olive); font-weight:700;}
+
+    .image-band{height:600px; background:#f7f7f5; overflow:hidden; display:flex; align-items:flex-start; justify-content:center;}
+    .image-band img{width:100%; height:515px; object-fit:cover; object-position:center center; display:block; filter:blur(1px); transform:scale(1.02); opacity:.92;}
+
+    .photo-quote{height:560px; background:#fff; display:flex; align-items:center; justify-content:center; text-align:center;}
+    .quote-wrap{width:980px; max-width:88%; display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center;}
+    .photo-card{border:1px solid #e0ded7; background:#fff; padding:28px 28px 32px; min-height:360px;}
+    .photo-card img{width:100%; height:165px; object-fit:cover; object-position:center; display:block; margin-bottom:20px; background:#eee;}
+    .photo-card h3{margin:0 0 10px; color:var(--olive); font-size:23px; line-height:1.35;}
+    .photo-card p{margin:0; font-size:15px; line-height:1.65; color:var(--ink);}
+
+    .categories{height:540px; background:var(--dark); color:#fff; display:flex; justify-content:center; align-items:flex-start; padding-top:118px;}
+    .category-grid{width:920px; display:grid; grid-template-columns:1fr 1fr; gap:70px; text-align:center;}
+    .category h3{color:#fff; margin:0 0 24px; font-size:23px; line-height:1.35; font-weight:700;}
+    .category p{margin:0 auto 20px; color:#ded9d1; font-size:15px; line-height:1.7; max-width:330px;}
+    .category a{display:inline-flex; color:#fff; border:1px solid rgba(255,255,255,.38); padding:9px 18px; font-size:14px;}
+
+    footer{height:300px; background:var(--footer); color:#fff; text-align:center; padding-top:38px;}
+    footer h3{font-size:22px; line-height:1.35; margin:0 0 24px; color:#fff;}
+    .footer-form{width:452px; margin:0 auto 22px;}
+    .footer-form label{display:block; text-align:left; font-size:13px; color:#d9d3ca; margin-bottom:4px;}
+    .footer-form input{width:100%; height:34px; border:none; border-bottom:1px solid #e8e3dc; background:transparent; color:#fff; outline:none; padding:4px 0; font:inherit;}
+    .footer-form button{margin-top:12px; width:100%; height:36px; border:none; background:#fff; color:var(--footer); font:inherit; cursor:pointer;}
+    .footer-contact{font-size:15px; line-height:1.8; color:#fff;}
+    .footer-socials{display:flex; justify-content:center; gap:10px; margin-top:9px;}
+    .footer-socials img{width:20px; height:20px; object-fit:contain; filter:grayscale(1) brightness(2.8);}
+    .copyright{height:48px; background:#f5f5f5; color:#6b6b6b; display:flex; align-items:center; justify-content:center; font-size:13px;}
+
+    @media (max-width:800px){
+      .top-quiet{height:24px}.shell{width:88%} header{height:auto}.contact-row{height:auto; padding:12px 0; flex-wrap:wrap; gap:10px}.brand-row{height:auto; padding:24px 0; align-items:flex-start; gap:18px; flex-direction:column}.hero{height:430px}.hero-ribbon{left:24px; right:24px; bottom:24px; width:auto}.intro,.services,.packages,.addons,.image-band,.photo-quote,.categories,footer{height:auto; padding:56px 0}.intro-inner{width:88%; padding-top:0}h1{font-size:44px}.steps,.quote-wrap,.category-grid{grid-template-columns:1fr}.packages{position:static}.package-card,.package-blank{position:static; width:100%; height:auto; padding:46px 20px}.package-note{margin:28px 0 0}.photo-card img{height:220px}.footer-form{width:86%}.copyright{height:56px}.intro-actions{flex-wrap:wrap}.brand-actions{width:100%; justify-content:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top-quiet"></div>
+    <header>
+      <div class="shell">
+        <div class="contact-row">
+          <a href="mailto:JKPMobileDetailing@gmail.com">JKPMobileDetailing@gmail.com</a>
+          <a href="tel:346-266-5989">(346)266-5989</a>
+        </div>
+        <div class="brand-row">
+          <div class="brand-left">
+            <img class="logo" src="https://static.wixstatic.com/media/48aa5d_ab325f49693d40979edb72b431741c2a~mv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1.png" alt="JPs Mobile Detailing logo">
+            <div>
+              <a class="brand-name" href="#top">JPs Mobile Detailing</a>
+              <div class="brand-sub">Houston's Premier Detailer</div>
+              <div class="brand-sub">Serving the Houston &amp; Galveston Area Since 2018</div>
+            </div>
+          </div>
+          <div class="brand-actions">
+            <div class="socials" aria-label="Social links">
+              <a href="https://www.facebook.com/profile.php?id=100082773767835" aria-label="Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+              <a href="https://www.instagram.com/jpmobilervdetailing" aria-label="Instagram"><img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png" alt="Instagram"></a>
+            </div>
+            <a class="outline-btn" href="mailto:JKPMobileDetailing@gmail.com?subject=Detailing%20Quote%20Request">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Mobile RV detailing hero image">
+        <img src="https://static.wixstatic.com/media/48aa5d_962a9f8d13894f4c80ec3e4c60c5258d~mv2.jpg" alt="JPs Mobile Detailing RV exterior service image">
+        <div class="hero-ribbon">
+          <strong>Mobile RV detailing, wherever your rig is parked.</strong>
+          <span>Home, work, storage facility, Houston, Galveston, and nearby areas.</span>
+        </div>
+      </section>
+
+      <section class="intro">
+        <div class="intro-inner">
+          <h1>JPs Mobile Detailing</h1>
+          <div class="kicker">Houston's Premier Mobile RV Detailing Company</div>
+          <p>JPs Mobile Detailing specializes in motorhome and RV detailing in the Houston and Galveston area. Owned and operated by a former RV technician with over 10 years of experience, JPs is a one-stop shop for exterior, interior, and full detail packages.</p>
+          <p>Send a picture of your RV, trailer, car, or truck with the service address and preferred day. You will get a clearer quote path before the appointment, plus confirmation and reminder details once booked.</p>
+          <p class="bold-line">Yes, we detail cars &amp; trucks too. Ask us for prices.</p>
+          <div class="quick-cues" aria-label="Service highlights">
+            <span>Photo-based quotes</span>
+            <span>Same-day availability when open</span>
+            <span>Home, work, or storage</span>
+          </div>
+          <div class="intro-actions">
+            <a class="outline-btn" href="mailto:JKPMobileDetailing@gmail.com?subject=Book%20a%20mobile%20detail">Book Now</a>
+            <a class="solid-btn" href="mailto:JKPMobileDetailing@gmail.com?subject=Detailing%20quote%20by%20photo&body=Hi%20JP%2C%20I%20would%20like%20a%20detailing%20quote.%20I%20can%20send%20photos%2C%20my%20location%2C%20and%20preferred%20date.">Get A Quote</a>
+            <a class="outline-btn" href="tel:346-266-5989">Call JP</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2>Services</h2>
+        <p>Our process is simple. Contact us with your needs and we will do the rest. Send us a picture of your RV for the most accurate pricing, your address or location where the RV will be, and the day and time that best fits your schedule. Once booked, we send confirmation and a service reminder.</p>
+        <div class="steps">
+          <div class="step"><b>1. Send photos</b><span>RV length, exterior condition, interior needs, and location.</span></div>
+          <div class="step"><b>2. Choose package</b><span>Exterior, interior, full package, or add-ons.</span></div>
+          <div class="step"><b>3. We come to you</b><span>At home, at work, or at your storage facility.</span></div>
+        </div>
+      </section>
+
+      <section class="packages" aria-label="Detailing packages">
+        <div class="package-card center">
+          <h3>Full Package</h3>
+          <div class="price">$200</div>
+          <div class="starting">Best for RVs needing inside and outside care</div>
+          <ul class="features">
+            <li>Spot free foam Wash</li>
+            <li>Bug &amp; Tar Removal</li>
+            <li>UV Protection</li>
+            <li>Black Streak Removal</li>
+            <li>Microfiber Towel Dry</li>
+            <li>Interior Panel UV Protection</li>
+            <li>Wheel Cleaning</li>
+            <li>Window Clean</li>
+            <li>Vacuum Interior</li>
+            <li>Cleanout air vents</li>
+            <li>Leather Cleaning</li>
+            <li>Vinyl cleaning</li>
+            <li>Tire Shine</li>
+          </ul>
+          <a class="package-note" href="mailto:JKPMobileDetailing@gmail.com?subject=Full%20package%20quote">Email photos for quote</a>
+        </div>
+        <div class="package-blank" aria-hidden="true"></div>
+        <div class="package-card left">
+          <h3>Exterior</h3>
+          <div class="price">$100</div>
+          <div class="starting">For road grime, bugs, streaks, wheels, and windows</div>
+          <ul class="features">
+            <li>Spot free foam Wash</li>
+            <li>Bug &amp; Tar Removal</li>
+            <li>Black Streak Removal</li>
+            <li>Microfiber Towel Dry</li>
+            <li>Wheel Cleaning</li>
+            <li>Window Cleaning</li>
+            <li>Tire Shine</li>
+          </ul>
+          <a class="package-note" href="mailto:JKPMobileDetailing@gmail.com?subject=Exterior%20detail%20quote">Quote exterior detail</a>
+        </div>
+        <div class="package-card right">
+          <h3>Interior</h3>
+          <div class="price">$100</div>
+          <div class="starting">For seats, panels, vents, windows, and carpets</div>
+          <ul class="features">
+            <li>Interior Vacuum</li>
+            <li>Window Cleaning</li>
+            <li>Interior Panel UV Protection</li>
+            <li>Clean out air vents</li>
+            <li>Door Jams &amp; Panels Cleaned</li>
+            <li>Leather Cleaning if applicable</li>
+            <li>Vinyl Cleaning if applicable</li>
+          </ul>
+          <a class="package-note" href="mailto:JKPMobileDetailing@gmail.com?subject=Interior%20detail%20quote">Quote interior detail</a>
+        </div>
+      </section>
+
+      <section class="addons">
+        <h2>Additional Services</h2>
+        <ul class="addons-list">
+          <li>Wax (Spray Wax) <span>-$50</span></li>
+          <li>Disinfect/Sanitize Unit <span>-$25</span></li>
+          <li>Shampoo Upholstery &amp; Carpets <span>-$75</span></li>
+          <li>Headlight Restoration <span>-$40</span></li>
+          <li>Roof Cleaning <span>-$50</span></li>
+          <li>(Excessive) Pet Hair Removal <span>-$25</span></li>
+          <li>Engine Bay Cleaning <span>-$50</span></li>
+        </ul>
+        <p class="discount-note">* Weekly, Bi-Weekly &amp; Monthly Discounts available.</p>
+        <p class="discount-note">**All RVs larger than 28' are subject to additional fees.</p>
+        <p class="mini-cta">Not sure which add-ons you need? Send photos and ask JP.</p>
+      </section>
+
+      <section class="image-band" aria-label="RV service image band">
+        <img src="https://static.wixstatic.com/media/48aa5d_acc8be7d77084c94b35dfb247c9b983a~mv2.jpg/v1/fill/w_147,h_47,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/48aa5d_acc8be7d77084c94b35dfb247c9b983a~mv2.jpg" alt="Line of RVs and vehicles for mobile detailing">
+      </section>
+
+      <section class="photo-quote">
+        <div class="quote-wrap">
+          <div class="photo-card">
+            <img src="https://static.wixstatic.com/media/48aa5d_d91be8f0b921493ea416f0197fc591a0~mv2.jpg/v1/fill/w_455,h_1200,fp_0.50_0.50,q_85,enc_avif,quality_auto/48aa5d_d91be8f0b921493ea416f0197fc591a0~mv2.jpg" alt="Motorhome exterior for RV detailing">
+            <h3>RV Detailing</h3>
+            <p>Exterior wash, black streak removal, wheels, windows, wax add-ons, roof cleaning, and interior refresh options for motorhomes, trailers, and larger rigs.</p>
+          </div>
+          <div class="photo-card">
+            <img src="https://static.wixstatic.com/media/48aa5d_6f6b056c5f93407d8d6c7c7ff38681aa~mv2.jpg/v1/fill/w_455,h_1200,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/48aa5d_6f6b056c5f93407d8d6c7c7ff38681aa~mv2.jpg" alt="RV interior detailing service">
+            <h3>Interior Detailing</h3>
+            <p>Vacuuming, panels, air vents, vinyl, leather when applicable, upholstery shampoo, sanitizing, and pet hair add-ons quoted by condition.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <div class="category-grid">
+          <div class="category">
+            <h3>RV Detailing</h3>
+            <p>Send a side photo, RV length, service address, and preferred appointment window for the most useful quote.</p>
+            <a href="mailto:JKPMobileDetailing@gmail.com?subject=RV%20detailing%20quote">Start RV Quote</a>
+          </div>
+          <div class="category">
+            <h3>Car &amp; Truck Detailing</h3>
+            <p>Cars and trucks are welcome too. Ask for exterior, interior, full package, or add-on pricing by photo.</p>
+            <a href="mailto:JKPMobileDetailing@gmail.com?subject=Car%20or%20truck%20detailing%20quote">Ask For Prices</a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <h3>JPs Mobile Detailing</h3>
+        <div class="footer-form">
+          <label for="email">Quote Request</label>
+          <input id="email" type="email" placeholder="Email Address">
+          <button type="button">Send Photos / Ask For Quote</button>
+        </div>
+        <div class="footer-contact">
+          <a href="tel:346-266-5989">(346) 266-5989</a><br>
+          Houston, Texas
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=100082773767835" aria-label="Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/jpmobilervdetailing" aria-label="Instagram"><img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png" alt="Instagram"></a>
+        </div>
+      </footer>
+      <div class="copyright">©2022 JPs Mobile RV Detailing.</div>
+    </main>
+  </div>
+</body>
+</html>

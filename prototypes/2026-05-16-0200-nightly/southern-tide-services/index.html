@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Southern Tide Services | Gulf Coast Commercial Cleaning</title>
+  <meta name="description" content="Southern Tide Services provides customized commercial cleaning for offices, medical offices, banks, schools, retail spaces, common areas, and commercial facilities on the Alabama and Florida Gulf Coast." />
+  <style>
+    :root{
+      --blue:#0f93fe;
+      --deep:#20303c;
+      --ink:#1d2d3a;
+      --lime:#deff4f;
+      --pale:#eef7fb;
+      --soft:#f6fbff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;color:var(--deep);background:#fff;}
+    a{color:inherit;text-decoration:none}
+    .wixbar{height:50px;background:#eff1f2;color:#111;display:flex;align-items:center;justify-content:center;font:400 16px/1.2 Arial,Helvetica,sans-serif;letter-spacing:.02em;}
+    .wixbar .mark{font-weight:800;font-size:22px;letter-spacing:.03em;margin-right:18px;}
+    .wixbar .pill{border:1px solid #111;border-radius:18px;padding:6px 18px;margin-left:18px;font-size:15px;background:white;}
+    .header{height:239px;background:#fff;position:relative;z-index:2;}
+    .site-width{width:980px;margin:0 auto;position:relative;height:100%;}
+    .logo{position:absolute;left:6px;top:5px;width:525px;height:174px;object-fit:contain;}
+    .social{position:absolute;right:60px;top:12px;width:24px;height:24px;}
+    .phone-box{position:absolute;right:0;top:0;width:211px;height:58px;background:var(--lime);display:flex;align-items:center;justify-content:center;color:#20303c;font-weight:700;font-size:23px;letter-spacing:.03em;}
+    .headline-copy{position:absolute;left:545px;top:29px;width:403px;text-align:center;color:var(--blue);font-family:Impact, "Arial Narrow", Arial, sans-serif;}
+    .headline-copy .name{font-size:18px;line-height:1.3;font-weight:700;letter-spacing:.02em;}
+    .headline-copy .slogan{font-size:18px;line-height:1.45;font-weight:700;margin-top:2px;}
+    .headline-copy .services{font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.5;font-weight:400;margin-top:22px;}
+    .nav-wrap{height:77px;background:#fff;position:relative;z-index:2;}
+    .nav{width:840px;margin:0 auto;display:flex;align-items:center;justify-content:center;padding-top:37px;}
+    .nav a{font-size:19px;line-height:26px;color:#20303c;padding:0 15px;border-right:1px solid rgba(32,48,60,.55);min-height:26px;display:flex;align-items:center;justify-content:center;}
+    .nav a:first-child{background:var(--lime);min-width:97px;}
+    .nav a:last-child{border-right:0;}
+    .hero{height:702px;position:relative;overflow:hidden;background:#050505 url('https://static.wixstatic.com/media/e00276_c83e99b0f1644d49b0d3c386bf6f1305~mv2.png/v1/fill/w_1365,h_780,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/e00276_c83e99b0f1644d49b0d3c386bf6f1305~mv2.png') center top/cover no-repeat;}
+    .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.20),rgba(0,0,0,.05) 46%,rgba(0,0,0,.20));pointer-events:none;}
+    .flare{position:absolute;width:194px;height:178px;object-fit:cover;opacity:.9;filter:saturate(1.08);}
+    .flare.one{left:473px;top:-11px;}
+    .flare.two{left:971px;top:133px;}
+    .badge-left{position:absolute;left:calc(50% - 460px);top:60px;width:160px;height:106px;color:#fff;text-transform:lowercase;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:32px;line-height:1.02;letter-spacing:.01em;text-align:center;text-shadow:0 2px 5px rgba(0,0,0,.5);}
+    .hero-title{position:absolute;left:calc(50% - 460px);top:118px;width:910px;color:#f4f6f8;text-transform:uppercase;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:82px;line-height:.88;letter-spacing:.015em;text-align:center;text-shadow:0 4px 12px rgba(0,0,0,.55);}
+    .hero-title span{display:block;font-size:74px;text-transform:none;}
+    .round-cta{position:absolute;left:calc(50% + 206px);top:172px;width:383px;height:383px;border-radius:50%;border:12px solid var(--lime);background:rgba(15,147,254,.52);display:flex;align-items:center;justify-content:center;text-align:center;padding:52px;color:#fff;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:34px;line-height:1.08;text-transform:lowercase;text-shadow:0 2px 7px rgba(0,0,0,.5);}
+    .consult-card{position:absolute;left:50%;transform:translateX(-50%);top:249px;width:890px;height:455px;background:#fff;color:var(--blue);box-shadow:0 20px 60px rgba(0,0,0,.23);padding:104px 88px 52px;}
+    .consult-card .micro{position:absolute;right:34px;top:28px;border:1px solid rgba(32,48,60,.2);color:var(--deep);font-size:12px;letter-spacing:.16em;text-transform:uppercase;padding:7px 11px;}
+    .consult-card h1{margin:0;text-align:center;color:var(--blue);font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:32px;line-height:1.3;font-weight:700;text-transform:uppercase;letter-spacing:.08em;}
+    .consult-card p{margin:14px auto 24px;text-align:center;color:var(--blue);font-size:21px;line-height:1.35;font-weight:700;letter-spacing:.04em;max-width:650px;}
+    .quick-form{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;align-items:start;color:#111;}
+    .quick-form .stack{display:grid;gap:12px;}
+    input,textarea{font:15px Arial,Helvetica,sans-serif;border:1px solid #1d1d1d;background:#fff;color:#222;padding:12px 14px;outline:none;border-radius:0;width:100%;}
+    textarea{height:90px;resize:none;}
+    .form-actions{grid-column:1 / -1;display:flex;justify-content:center;gap:18px;align-items:center;margin-top:4px;}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-width:190px;height:48px;background:var(--blue);color:var(--lime);font-weight:800;font-size:17px;letter-spacing:.04em;border:0;}
+    .phone-link{color:var(--deep);font-size:17px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+    .call-strip{height:158px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--blue);font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:33px;letter-spacing:.06em;text-transform:uppercase;}
+    .about{height:354px;background:#eef6f8;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding-top:10px;}
+    .section-inner{width:980px;margin:0 auto;}
+    h2.section-title{margin:0;color:#20303c;font-family:Impact,"Arial Narrow",Arial,sans-serif;text-transform:uppercase;font-size:40px;letter-spacing:.045em;line-height:1.2;text-align:center;}
+    .about h2{padding-top:0;margin-top:0;}
+    .about p{margin:26px auto 0;max-width:895px;font-size:22px;line-height:1.48;color:#20303c;}
+    .about .cta-row{margin-top:22px;display:flex;justify-content:center;gap:15px;}
+    .small-btn{background:var(--lime);color:#20303c;font-size:15px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:12px 21px;}
+    .small-btn.alt{background:var(--blue);color:#fff;}
+    .why{height:335px;background:var(--lime);display:flex;align-items:flex-start;justify-content:center;text-align:center;padding-top:28px;}
+    .why h2{color:#20303c;margin-bottom:30px;}
+    .reasons{display:grid;grid-template-columns:repeat(4,1fr);width:920px;margin:0 auto;color:var(--blue);}
+    .reason{min-height:129px;display:flex;align-items:flex-start;justify-content:center;padding:0 25px;border-right:1px solid rgba(32,48,60,.35);font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:25px;line-height:1.22;}
+    .reason:last-child{border-right:0;}
+    .services{background:#fff;padding:38px 0 55px;}
+    .services h2{color:var(--blue);margin-bottom:15px;}
+    .service-intro{max-width:790px;margin:0 auto 26px;text-align:center;color:#20303c;font-size:18px;line-height:1.5;}
+    .cards{width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:28px 34px;}
+    .card{background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.08);}
+    .card img{display:block;width:100%;height:198px;object-fit:cover;}
+    .card .cap{min-height:70px;background:var(--lime);color:var(--blue);display:flex;align-items:center;justify-content:center;text-align:center;font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:22px;line-height:1.12;letter-spacing:.03em;padding:10px 12px;}
+    .reviews{background:var(--lime);padding:42px 0 52px;text-align:center;color:var(--blue);position:relative;}
+    .reviews h2{color:var(--blue);margin-bottom:24px;}
+    .quote{font-size:23px;line-height:1.45;max-width:760px;margin:0 auto;color:var(--blue);}
+    .reviewer{margin-top:18px;font-weight:800;color:#20303c;}
+    .contact{background:#fff;padding:45px 0 58px;}
+    .contact h2{color:var(--blue);margin-bottom:24px;}
+    .contact-grid{width:740px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;}
+    .contact-grid .wide{grid-column:1 / -1;}
+    .contact-grid textarea{height:120px;}
+    .contact-grid .submit{grid-column:1 / -1;justify-self:center;background:var(--lime);color:var(--blue);}
+    .footer{background:var(--blue);color:#fff;padding:50px 0 42px;}
+    .footer-grid{width:980px;margin:0 auto;display:grid;grid-template-columns:1.2fr .9fr .9fr 1.1fr;gap:34px;}
+    .footer h3{font-family:Impact,"Arial Narrow",Arial,sans-serif;font-size:24px;letter-spacing:.04em;margin:0 0 18px;text-transform:uppercase;color:#fff;}
+    .footer p,.footer a{font-size:16px;line-height:1.55;color:#fff;margin:0 0 8px;}
+    .copy{background:#fff;color:var(--blue);text-align:center;font-size:15px;padding:18px 20px;}
+    .chat{position:fixed;right:18px;bottom:18px;width:218px;height:54px;background:#20303c;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;letter-spacing:.08em;z-index:20;box-shadow:0 4px 12px rgba(0,0,0,.2);}
+    .chat::before{content:"☺";display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;border:2px solid #fff;margin-right:12px;font-size:16px;}
+    @media(max-width:900px){
+      .site-width,.section-inner,.footer-grid{width:92%;}
+      .logo{left:0;width:48%;height:auto;}
+      .headline-copy{left:51%;width:45%;}
+      .phone-box{width:185px;font-size:19px;}
+      .nav{width:100%;overflow:auto;justify-content:flex-start;padding-left:14px;}
+      .hero-title{font-size:56px;left:5%;width:90%;}
+      .round-cta{display:none;}
+      .consult-card{width:88%;height:auto;padding:70px 28px 35px;}
+      .quick-form,.cards,.reasons,.footer-grid,.contact-grid{grid-template-columns:1fr;width:88%;}
+      .reason{border-right:0;border-bottom:1px solid rgba(32,48,60,.3);padding:18px 0;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wixbar"><span>Serving Alabama &amp; Florida Gulf Coast commercial facilities</span><span class="pill">Call 251-929-4853</span></div>
+
+  <header class="header" aria-label="Southern Tide Services header">
+    <a class="phone-box" href="tel:251-929-4853">251-929-4853</a>
+    <div class="site-width">
+      <a href="#top"><img class="logo" src="https://static.wixstatic.com/media/f626b7_8814cad8d075490e870bd4118219a8d7~mv2.png/v1/fill/w_525,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Copy%20of%20Large%20White%20Logo.png" alt="Southern Tide Services Commercial Cleaning Services logo"></a>
+      <a href="http://www.facebook.com/southerntideservices" aria-label="Facebook"><img class="social" src="https://static.wixstatic.com/media/e00276_52b1734e0d634ecea587b91a17f3e8f4~mv2.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e00276_52b1734e0d634ecea587b91a17f3e8f4~mv2.png" alt="Facebook Southern Tide Services"></a>
+      <div class="headline-copy">
+        <div class="name">Southern Tide Services</div>
+        <div class="slogan">“Cleaning Services For Your Business, Your Schedule, and Your Peace Of Mind!”</div>
+        <div class="services">Office Cleaning, Medical Office Cleaning, Bank Cleaning, School Cleaning,<br>Retail Cleaning, Janitorial Services, Commercial Cleaning<br>Solutions &amp; Services</div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-wrap" aria-label="Primary navigation">
+    <div class="nav">
+      <a href="#top">Home</a>
+      <a href="#consultation">Consultation</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#application">Application</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero" id="consultation" aria-label="Customized commercial cleaning consultation">
+      <img class="flare one" src="https://static.wixstatic.com/media/e00276_5a8c605618804666abc99836707d91e4~mv2.png/v1/fill/w_193,h_178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e00276_5a8c605618804666abc99836707d91e4~mv2.png" alt="Southern Tide cleaning accent">
+      <img class="flare two" src="https://static.wixstatic.com/media/e00276_5a8c605618804666abc99836707d91e4~mv2.png/v1/fill/w_194,h_178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e00276_5a8c605618804666abc99836707d91e4~mv2.png" alt="Southern Tide cleaning accent">
+      <div class="badge-left">complete building cleaning services</div>
+      <div class="hero-title">Give Your Office <span>Some Shine</span></div>
+      <a class="round-cta" href="mailto:SouthernTideServices@gmail.com?subject=Commercial%20cleaning%20consultation">Cleaning services customized for your needs</a>
+      <div class="consult-card">
+        <div class="micro">No-obligation quote</div>
+        <h1>Request a custom cleaning plan</h1>
+        <p>Tell us your facility type, schedule, and cleaning needs. We will help route you to the right consultation.</p>
+        <form class="quick-form" action="mailto:SouthernTideServices@gmail.com" method="post" enctype="text/plain">
+          <div class="stack">
+            <input aria-label="Name" placeholder="Name">
+            <input aria-label="Email" placeholder="Email">
+          </div>
+          <textarea aria-label="Cleaning needs" placeholder="Office, medical, bank, school, retail, common area, post-construction... tell us what you need cleaned."></textarea>
+          <div class="form-actions">
+            <button class="btn" type="submit">Get a Quote</button>
+            <a class="phone-link" href="tel:251-929-4853">Call 251-929-4853</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="call-strip"><a href="tel:251-929-4853">Call Now | 251-929-4853</a></section>
+
+    <section class="about" id="about">
+      <div class="section-inner">
+        <h2 class="section-title">About Us</h2>
+        <p>Southern Tide Services Commercial Cleaning Services is built on the belief that every client deserves quality commercial and office cleaning designed around their specific needs. Instead of a one-size-fits-all package, we focus on your facility, schedule, expectations, and service area across the Alabama and Florida Gulf Coast.</p>
+        <div class="cta-row"><a class="small-btn" href="mailto:SouthernTideServices@gmail.com">Email for information</a><a class="small-btn alt" href="#services">View services</a></div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="section-inner">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="reasons">
+          <div class="reason">Trained Professional Cleaners</div>
+          <div class="reason">Environmentally Friendly Cleaning</div>
+          <div class="reason">100% Satisfaction Guaranteed</div>
+          <div class="reason">Available Days, Evenings &amp; Weekends</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="section-title">Our Services</h2>
+      <p class="service-intro">Commercial cleaning programs can be customized for offices, medical offices, banks, schools, retail spaces, condo common areas, auto dealerships, carpet and rug cleaning, grounds cleanup, and post-construction cleanup.</p>
+      <div class="cards">
+        <article class="card"><img src="https://static.wixstatic.com/media/851ee9a3fdd542869ddff81ccaf27cd9.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/851ee9a3fdd542869ddff81ccaf27cd9.jpg" alt="Office cleaning"><div class="cap">Office Cleaning</div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/d9aea41b66274531aadd36d2cda820d2.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/d9aea41b66274531aadd36d2cda820d2.jpg" alt="Bank cleaning"><div class="cap">Bank Cleaning</div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/11062b_784041099fc94d4f8c67cece87552466~mv2.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_784041099fc94d4f8c67cece87552466~mv2.jpg" alt="School custodial cleaning"><div class="cap">School Custodial Cleaning</div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/11062b_68f8c8ddf7b642389e7b7c097f06c9af~mv2_d_2304_1536_s_2.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_68f8c8ddf7b642389e7b7c097f06c9af~mv2_d_2304_1536_s_2.jpg" alt="Retail cleaning"><div class="cap">Retail Cleaning</div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/e857c88665e244a1bab05993b74ee772.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/e857c88665e244a1bab05993b74ee772.jpg" alt="Common area cleaning"><div class="cap">Common Area Cleaning</div></article>
+        <article class="card"><img src="https://static.wixstatic.com/media/891e27371d6c46f286fc8d25364a5b86.jpg/v1/fill/w_277,h_198,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/891e27371d6c46f286fc8d25364a5b86.jpg" alt="Auto dealership cleaning"><div class="cap">Auto Dealership Cleaning</div></article>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2 class="section-title">Client Reviews</h2>
+      <p class="quote">“So pleased with the personal service they give. They are always willing to help me. Easy to work with and customer oriented. They do a super job cleaning!”</p>
+      <div class="reviewer">- Becky</div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Us for a Free Quote!</h2>
+      <form class="contact-grid" action="mailto:SouthernTideServices@gmail.com" method="post" enctype="text/plain">
+        <input aria-label="Name" placeholder="Name">
+        <input aria-label="Email" placeholder="Email">
+        <input class="wide" aria-label="Subject" placeholder="Subject">
+        <textarea class="wide" aria-label="Message" placeholder="Tell us your facility type, city, cleaning frequency, and best way to reach you."></textarea>
+        <button class="btn submit" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div><h3>Our Goal</h3><p>We specialize in providing a clean and hygienic environment for commercial offices, condominium complexes, medical offices, and other workplaces.</p></div>
+      <div><h3>Contact Us</h3><p><a href="tel:251-929-4853">251-929-4853</a></p><p><a href="mailto:SouthernTideServices@gmail.com">Email us!</a></p></div>
+      <div><h3>Office Hours</h3><p>Mon - Fri: 8am - 5pm</p><p>Customer Service: Available 24/7</p></div>
+      <div><h3>Areas We Serve</h3><p>South Alabama: Foley, Gulf Shores, Orange Beach, Fairhope, Daphne.</p><p>Northwest Florida: Pensacola and Perdido Key.</p></div>
+    </div>
+  </footer>
+  <div class="copy">© 2019 Southern Tide Services. Proudly created by Driven Marketing &amp; Media with Wix.com</div>
+  <div class="chat">LET'S CHAT!</div>
+</body>
+</html>

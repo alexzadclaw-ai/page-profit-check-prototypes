@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tidy Clean | Services</title>
+  <style>
+    :root{
+      --aqua:#72d2e5;
+      --aqua-dark:#55bed2;
+      --gray:#646464;
+      --line:#d8d8d8;
+      --soft:#f8f8f8;
+      --pattern:url('https://static.wixstatic.com/media/b2c0a7_90f9c4cf612348f1beb53dd78ce9dc43.png/v1/fill/w_480,h_464,al_c,q_85,enc_auto/b2c0a7_90f9c4cf612348f1beb53dd78ce9dc43.png');
+    }
+    html,body{margin:0;min-height:100%;}
+    body{
+      font-family:"Open Sans Condensed","Arial Narrow","Liberation Sans Narrow",Arial,sans-serif;
+      color:var(--gray);
+      background:#f6f6f6 var(--pattern) center top repeat;
+      min-width:1611px;
+    }
+    a{color:inherit;text-decoration:none;}
+    .canvas{position:relative;width:1611px;min-height:1660px;}
+
+    /* Wix/site-builder texture retained intentionally */
+    .wixbar{position:absolute;left:0;top:0;width:1365px;height:50px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.12);font-family:"Helvetica Neue",Arial,sans-serif;z-index:2;}
+    .wixbar .msg{position:absolute;left:390px;top:13px;font-size:16px;line-height:24px;color:#20303c;letter-spacing:-.1px;}
+    .wixbar .button{position:absolute;left:860px;top:8px;border:1px solid #166aea;border-radius:18px;color:#166aea;padding:8px 19px;font-size:14px;line-height:16px;background:#fff;}
+    .wixbar .wix{font-weight:800;letter-spacing:.5px;margin-right:14px;color:#20303c;}
+
+    .topnav{position:absolute;top:31px;left:632px;height:34px;display:flex;z-index:3;font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:15px;line-height:33px;color:#646464;}
+    .topnav a{display:block;width:245px;text-align:center;height:33px;}
+    .topnav a.active{color:var(--aqua);}
+
+    header.brand{position:absolute;left:401px;top:73px;width:566px;text-align:center;}
+    .brand h1{margin:0;height:68px;line-height:68px;font-family:Impact,"Arial Black",sans-serif;font-size:68px;font-weight:400;letter-spacing:.5px;color:var(--aqua);}
+    .brand .sparkle{position:absolute;left:446px;top:-22px;width:45px;height:56px;object-fit:contain;}
+    .brand .tagline{margin-top:0;font:300 30px/30px Helvetica,Arial,sans-serif;color:#646464;}
+    .brand .contactline{margin-top:12px;font-family:Impact,"Arial Black",sans-serif;font-size:32px;line-height:47px;color:#646464;letter-spacing:.25px;}
+    .brand .contactline a{display:block;color:#646464;}
+
+    .panel{position:absolute;left:188px;top:390px;width:1000px;height:1088px;background:#fff;border:1px solid #d3d3d3;box-sizing:border-box;}
+    .panel h2.title{position:absolute;left:42px;top:21px;margin:0;font-family:Impact,"Arial Black",sans-serif;font-size:32px;font-weight:400;line-height:47px;color:var(--aqua);}
+    .quick-proof{position:absolute;left:210px;top:27px;width:506px;font-size:17px;line-height:21px;color:#646464;}
+    .quick-proof strong{font-size:20px;color:#555;font-weight:700;display:block;line-height:22px;}
+    .quick-cta{position:absolute;right:40px;top:27px;width:205px;}
+    .quick-cta a{display:block;text-align:center;margin-bottom:7px;height:32px;line-height:32px;background:var(--aqua);color:#fbfbfb;font-size:16px;font-weight:700;letter-spacing:.35px;}
+    .quick-cta .small{font-size:15px;line-height:18px;color:#646464;text-align:center;}
+
+    .service{position:absolute;width:430px;height:330px;}
+    .service .photo{position:absolute;left:0;top:0;width:180px;height:190px;object-fit:cover;border:1px solid #dedede;box-sizing:border-box;background:#eee;}
+    .service .quote{position:absolute;left:0;top:203px;width:190px;height:40px;line-height:40px;background:var(--aqua);color:#fbfbfb;text-align:center;font-size:16px;font-weight:700;letter-spacing:.3px;}
+    .service .copy{position:absolute;left:212px;top:-12px;width:208px;}
+    .service h3{margin:0 0 12px;font-size:22px;line-height:30px;font-weight:400;color:#646464;}
+    .service p{margin:0;font-size:16px;line-height:21px;color:#646464;}
+    .service ul{margin:7px 0 0 16px;padding:0;font-size:14px;line-height:19px;color:#646464;}
+    .service li{margin:0 0 2px;padding-left:2px;}
+    .office{left:43px;top:112px;}
+    .hightech{left:518px;top:112px;}
+    .hightech .copy{width:262px;}
+    .church{left:49px;top:456px;}
+    .green{left:524px;top:429px;}
+    .green .copy{left:207px;width:215px;}
+    .green .quote{top:201px;}
+    .church .quote{top:203px;}
+
+    .rule{position:absolute;height:1px;background:#d6d6d6;left:42px;width:910px;}
+    .rule.one{top:405px;}
+    .rule.two{top:704px;}
+    .summary-band{position:absolute;left:42px;top:388px;width:910px;height:0;border-top:1px solid #e0e0e0;}
+    .service-tags{position:absolute;left:43px;top:718px;width:910px;display:flex;align-items:center;gap:18px;font-size:16px;line-height:20px;color:#646464;}
+    .service-tags strong{font-size:22px;font-weight:400;color:#646464;margin-right:4px;}
+    .tag{border:1px solid #ddd;background:#fbfbfb;padding:8px 12px;}
+
+    .collage{position:absolute;left:20px;top:780px;height:260px;width:960px;}
+    .logo-strip{position:absolute;left:0;top:5px;width:392px;height:86px;object-fit:contain;}
+    .carpet{position:absolute;left:37px;top:91px;width:334px;height:151px;object-fit:cover;border:1px solid #ddd;}
+    .office2{position:absolute;left:429px;top:0;width:265px;height:173px;object-fit:cover;border:1px solid #ddd;}
+    .floor{position:absolute;left:711px;top:102px;width:248px;height:162px;object-fit:cover;border:1px solid #ddd;}
+    .tiny-logo{position:absolute;left:441px;top:112px;width:250px;height:55px;object-fit:contain;opacity:.95;}
+    .collage-note{position:absolute;left:432px;top:184px;width:245px;font-size:16px;line-height:20px;color:#646464;background:rgba(255,255,255,.86);padding:8px 10px;border-left:4px solid var(--aqua);}
+
+    footer{position:absolute;left:232px;top:1548px;width:960px;height:64px;font-size:15px;line-height:20px;color:#646464;}
+    footer .copy{position:absolute;left:0;top:4px;}
+    footer .social{position:absolute;left:319px;top:0;display:flex;gap:16px;}
+    footer img{width:32px;height:32px;display:block;}
+  </style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="wixbar" aria-hidden="true">
+      <div class="msg"><span class="wix">WIX</span>This website was built on Wix. Create yours today.</div>
+      <div class="button">Get Started</div>
+    </div>
+
+    <nav class="topnav" aria-label="Site navigation">
+      <a href="https://tidyclean7.wixsite.com/tidyclean">Home</a>
+      <a href="https://tidyclean7.wixsite.com/tidyclean/about-us">About us</a>
+      <a class="active" href="https://tidyclean7.wixsite.com/tidyclean/services">Services</a>
+      <a href="https://tidyclean7.wixsite.com/tidyclean/contact">Contact</a>
+    </nav>
+
+    <header class="brand">
+      <img class="sparkle" src="https://static.wixstatic.com/media/b2c0a7_787366e0f781422faf8c390f311eae45.png/v1/fill/w_45,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b2c0a7_787366e0f781422faf8c390f311eae45.png" alt="" />
+      <h1>TIDY CLEAN</h1>
+      <div class="tagline">Quality Cleaning Services</div>
+      <div class="contactline">
+        <a href="tel:248-592-7543">248-592-7543</a>
+        <a href="mailto:tidyclean7@gmail.com">tidyclean7@gmail.com</a>
+      </div>
+    </header>
+
+    <main class="panel">
+      <h2 class="title">Services</h2>
+      <div class="quick-proof">
+        <strong>Commercial cleaning for offices, churches and facilities</strong>
+        Metro Detroit janitorial, carpet, hard surface floor care, windows, power washing and green cleaning.
+      </div>
+      <div class="quick-cta">
+        <a href="https://tidyclean7.wixsite.com/tidyclean/contact">GET A QUOTE</a>
+        <div class="small">or call 248-592-7543</div>
+      </div>
+
+      <section class="service office">
+        <img class="photo" src="https://static.wixstatic.com/media/b37653_fb6edab77459423d99e0e1ae96e20430.jpg/v1/fill/w_180,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b37653_fb6edab77459423d99e0e1ae96e20430.jpg" alt="Office cleaner vacuuming a conference room" />
+        <a class="quote" href="https://tidyclean7.wixsite.com/tidyclean/contact">GET A QUOTE</a>
+        <div class="copy">
+          <h3>Office Cleaning</h3>
+          <p>High-quality customized office cleaning and commercial janitorial services for accounting, insurance, real estate, law and administrative offices.</p>
+          <ul>
+            <li>Recurring office care</li>
+            <li>Custom cleaning regimen</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="service hightech">
+        <img class="photo" src="https://static.wixstatic.com/media/b2c0a7_fcd2c8135dd8442ebe4490c302c19646.jpg/v1/fill/w_180,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b2c0a7_fcd2c8135dd8442ebe4490c302c19646.jpg" alt="Vacuum head cleaning carpet" />
+        <a class="quote" href="https://tidyclean7.wixsite.com/tidyclean/contact">GET A QUOTE</a>
+        <div class="copy">
+          <h3>High-Tech Cleaning for a Better Clean</h3>
+          <p>High-filtration backpack vacuums help improve the standard of cleaning beyond old-fashioned upright equipment.</p>
+          <ul>
+            <li>More cleaning power than upright vacuums</li>
+            <li>More dirt contained, captured and removed</li>
+            <li>Better support for indoor air quality</li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="rule one"></div>
+
+      <section class="service church">
+        <img class="photo" src="https://static.wixstatic.com/media/b37653_c4755dea55b7415ba25f7794351aad4e.jpg/v1/fill/w_180,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b37653_c4755dea55b7415ba25f7794351aad4e.jpg" alt="Church building exterior" />
+        <a class="quote" href="https://tidyclean7.wixsite.com/tidyclean/contact">GET A QUOTE</a>
+        <div class="copy">
+          <h3>Expertise in Churches</h3>
+          <p>Your church is more than a building. It is a gathering place, a place of refuge and celebration, and an active part of the community.</p>
+          <ul>
+            <li>Flexible scheduling</li>
+            <li>Respectful care for shared spaces</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="service green">
+        <img class="photo" src="https://static.wixstatic.com/media/b37653_37fe52a80396451abd47cd2ccab522f2.jpg/v1/fill/w_180,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b37653_37fe52a80396451abd47cd2ccab522f2.jpg" alt="Green leaf with water drops" />
+        <a class="quote" href="https://tidyclean7.wixsite.com/tidyclean/contact">GET A QUOTE</a>
+        <div class="copy">
+          <h3>Expertise in Green Cleaning</h3>
+          <p>Advanced techniques and equipment help reduce dust, bacteria, mold, pollen, allergens and residual cleaning chemicals.</p>
+          <ul>
+            <li>Lower cross-contamination risk</li>
+            <li>Cleaner indoor air approach</li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="rule two"></div>
+      <div class="service-tags">
+        <strong>Also available:</strong>
+        <span class="tag">Carpet cleaning</span>
+        <span class="tag">Hard surface floor care</span>
+        <span class="tag">Window washing</span>
+        <span class="tag">Power washing</span>
+      </div>
+
+      <section class="collage" aria-label="Additional Tidy Clean service photos">
+        <img class="logo-strip" src="https://static.wixstatic.com/media/b37653_4127cf7b4ffb44508ad5a42957c449af.png/v1/fill/w_350,h_77,al_c,lg_1,q_85,enc_avif,quality_auto/b37653_4127cf7b4ffb44508ad5a42957c449af.png" alt="Tidy Clean logo" />
+        <img class="carpet" src="https://static.wixstatic.com/media/b37653_aac0723099904cc1b3311820ecb4a38e.jpg/v1/fill/w_334,h_151,al_c,q_80,enc_avif,quality_auto/b37653_aac0723099904cc1b3311820ecb4a38e.jpg" alt="Carpet cleaning equipment in use" />
+        <img class="office2" src="https://static.wixstatic.com/media/b37653_8bddfe7bfe3f4c97bce22f2e338d388d.jpg/v1/fill/w_265,h_173,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b37653_8bddfe7bfe3f4c97bce22f2e338d388d.jpg" alt="Clean modern office interior" />
+        <img class="tiny-logo" src="https://static.wixstatic.com/media/b37653_4127cf7b4ffb44508ad5a42957c449af.png/v1/fill/w_250,h_55,al_c,q_85,enc_avif,quality_auto/b37653_4127cf7b4ffb44508ad5a42957c449af.png" alt="Tidy Clean" />
+        <img class="floor" src="https://static.wixstatic.com/media/b37653_c2a93b12e71244b89bfceb3f6a08f2d3.jpg/v1/fill/w_248,h_162,al_c,q_80,enc_avif,quality_auto/b37653_c2a93b12e71244b89bfceb3f6a08f2d3.jpg" alt="Hard floor mopping" />
+        <div class="collage-note">One cleaner path: choose the service, call or email, and request a quote from the same screen.</div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="copy">© 2023 by tidyclean. Proudly created by TCI</div>
+      <div class="social">
+        <img src="https://static.wixstatic.com/media/09b721261e9fba8dd8a96ee539a0743f.png/v1/fill/w_32,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/09b721261e9fba8dd8a96ee539a0743f.png" alt="Twitter" />
+        <img src="https://static.wixstatic.com/media/d75821b3625d16f95dfd8ebff761922d.png/v1/fill/w_32,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d75821b3625d16f95dfd8ebff761922d.png" alt="Facebook" />
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

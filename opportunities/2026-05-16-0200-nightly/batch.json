@@ -1,0 +1,128 @@
+{
+  "batch": "2026-05-16-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-16T02:00:00-05:00",
+  "curationNotes": "Startup Gmail signature preflight passed for info@smallsitestudio.com. Git status had unrelated unstaged edits under offers/2026-05-14-0200-nightly, so this run used a fresh isolated batch and avoided those paths. Curated from live indexed Wix/small-site local-service pages during the 2026-05-16 2:00 AM run. Inspected 17 live candidate sites with Playwright, selected 10 with usable email contacts, visible service intent, source images/assets, and practical conversion cleanup needs. Previously batched URLs were checked and excluded before selection. Prototypes are to be GPT-5.5-authored one site per isolated sub-agent, no old scripted prototype generator.",
+  "items": [
+    {
+      "slug": "sparks-pressure-washing",
+      "name": "Sparks' Pressure Washing",
+      "url": "https://nolansparkspressur.wixsite.com/website",
+      "contact": "mailto:nolansparkspressurewashing@gmail.com",
+      "phone": "tel:936-463-1775",
+      "location": "Nacogdoches, TX / Stephen F. Austin State University area",
+      "vertical": "pressure washing for houses, driveways, porches, pools, and exterior surfaces",
+      "summary": "Young owner-led pressure washing Wix site has a real story, phone, email, quote path, testimonials, and service categories, but the first screen and quote path still feel template-heavy and need stronger local trust and scan-friendly service proof.",
+      "angle": "Preserve the blue pressure-washing Wix look while making the first screen clarify local service, free estimates, testimonials, and one obvious quote/contact path",
+      "priority": "A"
+    },
+    {
+      "slug": "salty-sea-pressure-washing",
+      "name": "Salty Sea Pressure Washing LLC",
+      "url": "https://saltyseawashing.wixsite.com/sspw",
+      "contact": "mailto:saltyseawashing@gmail.com",
+      "phone": "tel:979-239-8512",
+      "location": "Seabrook, Pasadena, La Porte, Deer Park, Houston, Crosby, Pearland, TX and surrounding areas",
+      "vertical": "driveway cleaning, house washing, roof washing, patio cleaning, gutter cleaning, specialty stain removal, HOA, commercial, and residential pressure washing",
+      "summary": "Pressure washing Wix site already has service-area language, phone, email, quote form, Facebook/Instagram, service explanations, and reviews, but visitors have to sift through a long one-page layout before the highest-value services and trust cues become clear.",
+      "angle": "Keep the coastal pressure-washing identity while tightening the hero around service area, no-obligation quotes, roof/house/flat-surface services, and fast quote requests",
+      "priority": "A"
+    },
+    {
+      "slug": "tidy-clean-commercial-cleaning",
+      "name": "Tidy Clean",
+      "url": "https://tidyclean7.wixsite.com/tidyclean/services",
+      "contact": "mailto:tidyclean7@gmail.com",
+      "phone": "tel:248-592-7543",
+      "location": "Metro Detroit, MI area",
+      "vertical": "commercial janitorial, office cleaning, carpet cleaning, hard surface floor care, window washing, power washing, church cleaning, and green cleaning",
+      "summary": "Commercial cleaning site has phone, email, service depth, quality/affordability claims, and many source images, but the services page is text-heavy and the quote path repeats without enough first-screen hierarchy or proof.",
+      "angle": "Preserve the straightforward commercial-cleaning layout while grouping services, moving quote actions higher, and surfacing office, church, green-cleaning, and high-filtration proof",
+      "priority": "A-"
+    },
+    {
+      "slug": "exterior-excellence-pressure-washing",
+      "name": "Exterior Excellence",
+      "url": "https://exteriorwashexpert.wixsite.com/exterior-excellence",
+      "contact": "mailto:exteriorwashexpertsllc@gmail.com",
+      "phone": "tel:719-694-4669",
+      "location": "Colorado Springs, CO area",
+      "vertical": "pressure washing, window washing, exterior cleaning, siding, decks, fences, driveways, parking garages, drive-thrus, and commercial exterior services",
+      "summary": "Exterior Excellence has clear services, two phone numbers, email, quote CTA, and exterior-cleaning positioning, but it still has template artifacts, future-date footer copy, a coming-soon gallery, and only a thin trust path before visitors request an estimate.",
+      "angle": "Keep the pressure/window-washing look while replacing template friction with a clearer free-estimate hero, service cards, commercial/residential proof, and contact hierarchy",
+      "priority": "A"
+    },
+    {
+      "slug": "southern-tide-services",
+      "name": "Southern Tide Services",
+      "url": "https://southerntide.wixsite.com/cleaning",
+      "contact": "mailto:SouthernTideServices@gmail.com",
+      "phone": "tel:251-929-4853",
+      "location": "Alabama and Florida Gulf Coast",
+      "vertical": "office cleaning, medical office cleaning, bank cleaning, school cleaning, retail cleaning, janitorial services, commercial cleaning, common-area cleaning, post-construction cleanup, carpet and rug cleaning, and grounds cleanup",
+      "summary": "Commercial cleaning Wix site has a strong niche, service menu, phone, email, quote path, consultation, FAQ, and credible facility-cleaning copy, but the homepage is wordy and needs a cleaner path from first impression to consultation request.",
+      "angle": "Preserve the Gulf Coast commercial-cleaning identity while clarifying facility types, customized cleaning plans, consultation CTA, and phone/email quote path above the fold",
+      "priority": "A"
+    },
+    {
+      "slug": "vero-beach-handyman",
+      "name": "Vero Beach Handyman LLC",
+      "url": "https://tanyaj1212.wixsite.com/verobeachhandyman",
+      "contact": "mailto:verobeachhandyman@gmail.com",
+      "phone": "tel:772-321-1918",
+      "location": "Vero Beach, FL",
+      "vertical": "home repairs, improvements, drywall repair, painting, carpentry, minor plumbing, fixtures, exterior repair, gutters, siding, decks, fencing, pressure washing, tile, bath repairs, and handyman services",
+      "summary": "Handyman site has a strong local service list, phone/text, free estimate promise, address, email, and many repair categories, but the first impression is dense and the service list needs hierarchy, trust, and clearer estimate routing.",
+      "angle": "Keep the direct handyman-service look while organizing interior, exterior, kitchen/bath, and miscellaneous repairs into scannable groups with free-estimate and text/call CTAs",
+      "priority": "A"
+    },
+    {
+      "slug": "scotts-suds-softwash",
+      "name": "Scott's Suds and Softwash",
+      "url": "https://scottssuds.wixsite.com/services",
+      "contact": "mailto:ScottsSudsandSuch@gmail.com",
+      "phone": "tel:757-849-3852",
+      "location": "Charles City, New Kent, Williamsburg, and Providence Forge, VA",
+      "vertical": "soft washing, pressure washing, residential exterior cleaning, commercial exterior cleaning, routine cleaning, specialty cleaning, solar panel cleaning, siding, sidewalks, porches, fences, storefronts, parking lots, and warehouses",
+      "summary": "Softwash site already has service-area language, phone, email, quote CTA, residential/commercial/routine/specialty service sections, and local positioning, but the site can make the value proposition, trust cues, and quote path more obvious in the first screen.",
+      "angle": "Preserve the clean blue softwash look while emphasizing service areas, residential/commercial options, routine care, specialty/solar cleaning, and one clear free-estimate path",
+      "priority": "A"
+    },
+    {
+      "slug": "soryns-mobile-detailing",
+      "name": "Soryn's Mobile Detailing",
+      "url": "https://sorynsdetailing.wixsite.com/mobiledetailing",
+      "contact": "mailto:sorynsdetailing@gmail.com",
+      "phone": "",
+      "location": "Elizabethtown and Central PA neighboring areas",
+      "vertical": "mobile exterior wash, interior detail, full package, driveway auto detailing, and convenience-focused vehicle cleaning",
+      "summary": "Mobile detailing site has a clear convenience promise, email, booking/quote actions, services, hours, Central PA service language, and source vehicle photos, but the page uses long paragraphs and needs easier package choice and quote guidance.",
+      "angle": "Keep the premium mobile-detailing feel while turning the hero and services into a clearer doorstep-detailing offer with package guidance, Central PA service proof, and quote/book CTAs",
+      "priority": "A-"
+    },
+    {
+      "slug": "jp-mobile-detailing",
+      "name": "JPs Mobile Detailing",
+      "url": "https://jkpmobiledetailing.wixsite.com/jpmobiledetailing",
+      "contact": "mailto:JKPMobileDetailing@gmail.com",
+      "phone": "tel:346-266-5989",
+      "location": "Houston and Galveston, TX area",
+      "vertical": "mobile RV detailing, motorhome detailing, car detailing, truck detailing, exterior package, interior package, full package, spray wax, roof cleaning, upholstery shampoo, and headlight restoration",
+      "summary": "JP Mobile Detailing has Houston/Galveston positioning, email, phone, RV specialty, package pricing, same-day availability, and service photos, but the pricing and service explanation are dense and need a clearer choose-your-detail/quote-by-photo path.",
+      "angle": "Preserve the dark mobile-detailing package layout while emphasizing RV specialty, Houston and Galveston service area, photo-based quotes, packages, add-ons, and call/email CTAs",
+      "priority": "A"
+    },
+    {
+      "slug": "inside-jobs-mobile-detailing",
+      "name": "Inside Jobs Mobile Details",
+      "url": "https://aydenvanderwarker.wixsite.com/insidejobsmobiledeta",
+      "contact": "mailto:insidejobsdetailing@gmail.com",
+      "phone": "tel:518-932-1043",
+      "location": "Upstate New York / Capital Region area",
+      "vertical": "mobile auto detailing, basic detail, deep clean detail, boat interior details, monthly packages, stain/pet-hair removal, shampooing, leather conditioning, and vehicle interior cleaning",
+      "summary": "Inside Jobs has strong service-package content, pricing ranges, phone, email, testimonials, gallery, quote path, and a convenience-based mobile detailing story, but the page is long and would benefit from a cleaner first-screen offer and package-selection flow.",
+      "angle": "Preserve the mobile-detailing identity while making the home-service convenience, package pricing, deep-clean proof, testimonials, and quote CTA easier to scan and act on",
+      "priority": "A"
+    }
+  ]
+}

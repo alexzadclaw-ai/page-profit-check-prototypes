@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sparks' Pressure Washing | Nacogdoches Pressure Washing</title>
+  <style>
+    :root{
+      --black:#181818;
+      --panel:#242424;
+      --blue:#193669;
+      --bright:#326bce;
+      --light:#ffffff;
+      --muted:#d8d8d8;
+      --wix:#eff1f2;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--black)}
+    body{margin:0;color:var(--light);background:var(--black);font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    .wix-ad{height:50px;background:var(--wix);color:#111;display:flex;align-items:center;justify-content:center;font-size:15px;letter-spacing:.01em}
+    .wix-ad strong{font-size:28px;letter-spacing:-.05em;margin-right:18px;font-weight:900;color:#050505}
+    .wix-ad span{margin-right:18px;color:#202020}
+    .wix-ad .pill{border:1px solid #116dff;color:#116dff;border-radius:18px;padding:6px 18px;background:#fff;font-size:14px;font-weight:700}
+
+    .site-header{height:135px;background:var(--black);position:relative;z-index:3}
+    .header-inner{height:60px;margin:30px 60px 0 60px;display:flex;align-items:center;white-space:nowrap}
+    .logo{width:60px;height:60px;border-radius:50%;object-fit:cover;display:block;flex:0 0 60px}
+    .tagline{margin-left:156px;width:310px;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:19px;line-height:28px;font-weight:700;color:#fff;letter-spacing:.01em}
+    .nav{margin-left:64px;display:flex;align-items:center;gap:0;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#fff}
+    .nav a{height:30px;display:flex;align-items:center;justify-content:center;padding:0 12px;color:#fff;opacity:.96}
+    .nav a:hover{color:#99b5e7}
+    .fb{width:20px;height:20px;margin-left:18px;object-fit:contain;filter:brightness(0) invert(1)}
+    .header-quote{margin-left:25px;width:122px;height:45px;border:1px solid #fff;border-radius:23px;display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;background:transparent}
+
+    .hero{height:720px;position:relative;background:url('https://static.wixstatic.com/media/bccb7dec5d8846a4800d10a140a02d84.jpeg/v1/fill/w_1365,h_720,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bccb7dec5d8846a4800d10a140a02d84.jpeg') center center/cover no-repeat;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg, rgba(0,0,0,.36) 0%, rgba(0,0,0,.23) 34%, rgba(0,0,0,.04) 64%, rgba(0,0,0,.06) 100%)}
+    .hero-copy{position:absolute;left:141px;top:134px;width:410px;color:#fff;text-align:left;text-shadow:0 2px 14px rgba(0,0,0,.75)}
+    .hero h1{margin:0 0 20px 0;font-family:Arial, Helvetica, sans-serif;font-size:72px;line-height:1.25;font-weight:800;letter-spacing:.005em;color:#fff}
+    .contact-card{width:400px;text-align:center;font-size:20px;line-height:1.65;color:#fff;font-weight:700}
+    .contact-card a{display:inline-block;color:#fff;border-bottom:1px solid rgba(255,255,255,.65);font-size:15px;line-height:1.2}
+    .hero-actions{display:flex;gap:12px;justify-content:center;margin-top:16px;text-shadow:none}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:0;border:2px solid #fff;padding:12px 20px;min-width:140px;background:#0b2f5b;color:#fff;font-family:Arial, Helvetica, sans-serif;font-weight:700;letter-spacing:.03em;font-size:14px;text-align:center}
+    .btn.secondary{background:rgba(24,24,24,.36)}
+    .trust-line{margin-top:14px;text-align:center;font-size:14px;font-weight:700;color:#fff;letter-spacing:.02em}
+
+    .about{height:780px;background:var(--blue);padding-top:80px}
+    .about-inner{width:1205px;height:620px;margin:0 auto;display:grid;grid-template-columns:593px 593px;gap:20px}
+    .about-card{height:620px;background:var(--black);display:flex;flex-direction:column;align-items:center;text-align:center;padding:132px 66px 70px;color:#fff}
+    .about-card h2{font-family:Arial, Helvetica, sans-serif;font-size:40px;line-height:1.35;margin:0 0 24px;font-weight:800;color:#fff}
+    .about-card p{margin:0 auto;font-size:15px;line-height:1.55;color:#fff;max-width:460px}
+    .about-card .scan{margin-top:22px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;width:100%}
+    .mini{border:1px solid rgba(255,255,255,.45);padding:9px 8px;font-size:12px;line-height:1.25;font-weight:700;color:#fff;background:#111}
+    .about-photo{width:593px;height:620px;object-fit:cover;display:block}
+
+    .testimonials{height:500px;background:var(--black);padding-top:80px}
+    .testimonial-box{width:1205px;height:380px;margin:0 auto;background:#202020;display:grid;grid-template-columns:repeat(3,1fr)}
+    .quote-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:60px 50px 50px;color:#fff}
+    .quote-card h3{margin:0 0 25px;font-size:18px;font-weight:400;line-height:1.3;color:#fff}
+    .quote-card p{margin:0 0 30px;min-height:84px;font-size:15px;line-height:1.45;color:#fff}
+    .quote-card .small-btn{width:132px;height:45px;border:1px solid #fff;border-radius:22px;display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;background:#181818}
+
+    .gallery{height:680px;background:var(--black);padding:40px 0}
+    .gallery-grid{width:1205px;height:600px;margin:0 auto;display:grid;grid-template-columns:600px 600px;gap:20px}
+    .gallery-grid img{width:100%;height:100%;object-fit:cover;border:5px solid var(--bright);display:block;background:#000}
+
+    .services{min-height:1411px;background:var(--black);padding:5px 0 0}
+    .services-title{width:538px;height:65px;margin:0 auto 0;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-size:22px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .services-grid{width:936px;margin:0 auto;display:grid;grid-template-columns:repeat(3,296px);gap:93px 24px}
+    .service-card{height:350px;border:5px solid var(--bright);background:#080808;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;color:#fff;position:relative;overflow:hidden}
+    .service-card img{width:100%;height:187px;object-fit:cover;display:block;filter:saturate(.98) contrast(1.02)}
+    .service-card .blank{height:187px;width:100%;background:linear-gradient(180deg,#111,#070707)}
+    .service-card h3{font-size:43px;line-height:1.1;margin:18px 12px 8px;font-weight:800;color:#fff}
+    .service-card h3.smaller{font-size:38px}
+    .service-card p{margin:0;color:#fff;font-size:22px;line-height:1.28;font-weight:800}
+    .service-card small{display:block;margin-top:7px;color:#d8e6ff;font-size:13px;font-weight:700;line-height:1.3}
+    .service-card.centered{grid-column:2; margin-top:-31px}
+    .bottom-cta{width:100%;display:flex;flex-direction:column;align-items:center;margin-top:56px;color:#fff}
+    .call-big{width:210px;height:69px;background:#0b2f5b;border:4px double #fff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:40px;font-weight:800;letter-spacing:.08em}
+
+    footer{height:160px;background:var(--black);text-align:center;color:#fff;padding-top:26px}
+    footer .phone{font-size:23px;line-height:44px;margin:0 0 27px;color:#fff}
+    footer p{font-size:14px;margin:0;color:#fff}
+
+    @media (max-width:900px){
+      .wix-ad{font-size:12px;padding:0 12px}.wix-ad strong{font-size:24px}.wix-ad .pill{padding:5px 12px}
+      .site-header{height:auto}.header-inner{height:auto;margin:18px 20px;gap:16px;flex-wrap:wrap}.tagline{margin-left:0;width:auto}.nav{margin-left:0;flex-wrap:wrap}.header-quote{margin-left:0}
+      .hero{height:720px}.hero-copy{left:28px;right:28px;width:auto;top:90px}.hero h1{font-size:54px}.contact-card{width:auto;text-align:left}.hero-actions{justify-content:flex-start;flex-wrap:wrap}.trust-line{text-align:left}
+      .about,.testimonials,.gallery,.services{height:auto;min-height:0;padding:36px 20px}.about-inner,.testimonial-box,.gallery-grid,.services-grid{width:100%;height:auto;display:grid;grid-template-columns:1fr;gap:20px}.about-card{height:auto;padding:40px 24px}.about-photo{width:100%;height:auto}.service-card.centered{grid-column:auto;margin-top:0}.services-title{width:100%;height:auto;margin-bottom:20px}.service-card{height:auto}.bottom-cta{margin:40px 0}
+    }
+  </style>
+</head>
+<body>
+  <div class="wix-ad"><strong>WIX</strong><span>This website was built on Wix. Create yours today.</span><span class="pill">Get Started</span></div>
+
+  <header class="site-header" aria-label="Sparks' Pressure Washing header">
+    <div class="header-inner">
+      <a href="#top" aria-label="Sparks' Pressure Washing home"><img class="logo" src="https://static.wixstatic.com/media/77075e_290e8a43c9f94938b9a07bde6d84a3cf~mv2.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CC_20220529_140002.png" alt="Sparks' Pressure Washing logo"></a>
+      <div class="tagline">Make It Sparkle Again!</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:9364631775">Get a Quote</a>
+        <a href="#work">More</a>
+      </nav>
+      <a href="https://www.facebook.com/sparkspressurewashingFB/" aria-label="Facebook"><img class="fb" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+      <a class="header-quote" href="tel:9364631775">Get a Quote</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Pressure washing hero">
+      <div class="hero-copy">
+        <h1>Sparks'<br>Pressure<br>Washing</h1>
+        <div class="contact-card" id="contact">
+          <div>Contact Us!</div>
+          <div>Cell: <a href="tel:9364631775">936-463-1775</a></div>
+          <div>Email: <a href="mailto:NolanSparksPressureWashing@gmail.com">NolanSparksPressureWashing@gmail.com</a></div>
+          <div class="hero-actions">
+            <a class="btn" href="tel:9364631775">Call for a Free Estimate</a>
+            <a class="btn secondary" href="mailto:NolanSparksPressureWashing@gmail.com?subject=Pressure%20washing%20estimate">Email Photos</a>
+          </div>
+          <div class="trust-line">Nacogdoches, TX and Stephen F. Austin State University area</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-label="About Sparks' Pressure Washing">
+      <div class="about-inner">
+        <div class="about-card">
+          <h2>About Sparks'<br>Pressure Washing</h2>
+          <p>Hey, my name is Nolan Sparks. I'm a recent high school graduate soon to attend SFASU to pursue a bachelor's degree in forest management. I've been serving Nacogdoches's pressure washing needs for many years and have great relations with our community. I specialize in cleaning houses, driveways, porches, pools, roofs, walkways and fences with quality and care.</p>
+          <div class="scan" aria-label="Trust highlights">
+            <div class="mini">Free estimate</div>
+            <div class="mini">Owner operated</div>
+            <div class="mini">Local service</div>
+          </div>
+        </div>
+        <img class="about-photo" src="https://static.wixstatic.com/media/77075e_0e438d2d4ed84ef8a35696f705977f5e~mv2.jpg/v1/fill/w_593,h_620,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_0e438d2d4ed84ef8a35696f705977f5e~mv2.jpg" alt="Nolan Sparks, owner of Sparks' Pressure Washing">
+      </div>
+    </section>
+
+    <section class="testimonials" aria-label="Testimonials">
+      <div class="testimonial-box">
+        <article class="quote-card">
+          <h3>Lori Shrewsburry</h3>
+          <p>“He is easy to work with, punctual, has a great attitude, gives accurate estimates, and brings his own equipment.”</p>
+          <a class="small-btn" href="tel:9364631775">Free Quote</a>
+        </article>
+        <article class="quote-card">
+          <h3>Ric Robinson</h3>
+          <p>“A clean-cut, well spoken, and courteous young man; working to earn tuition money.”</p>
+          <a class="small-btn" href="#work">Recent Work</a>
+        </article>
+        <article class="quote-card">
+          <h3>Veronica Rector</h3>
+          <p>“Such a stunning young man, so pleasant, hard working, and determined to get the job done correctly and to your satisfaction.”</p>
+          <a class="small-btn" href="mailto:NolanSparksPressureWashing@gmail.com">Send Photos</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery" id="work" aria-label="Recent before and after work">
+      <div class="gallery-grid">
+        <img src="https://static.wixstatic.com/media/77075e_4b0420c69e014a72a94dd7dd5dc65877~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/77075e_4b0420c69e014a72a94dd7dd5dc65877~mv2.png" alt="Before and after pressure washing work">
+        <img src="https://static.wixstatic.com/media/77075e_6c27155ab3ed4b80a70715aa2121456c~mv2.png/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/77075e_6c27155ab3ed4b80a70715aa2121456c~mv2.png" alt="Fence before and after pressure washing">
+      </div>
+    </section>
+
+    <section class="services" id="services" aria-label="Pressure washing services and pricing">
+      <div class="services-title">Services and starting prices</div>
+      <div class="services-grid">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_57faf4413abc4ebe99578e517d16d84f~mv2.jpg/v1/crop/x_0,y_528,w_1373,h_1520/fill/w_169,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_57faf4413abc4ebe99578e517d16d84f~mv2.jpg" alt="Patio and porch pressure washing">
+          <h3 class="smaller">Patio &amp; Porch</h3><p>$0.20 / sqft</p><small>Great for outdoor living areas</small>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_15eb137c1bf84beeaabcf9f6f774b84c~mv2.jpg/v1/crop/x_1,y_47,w_248,h_268/fill/w_173,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_15eb137c1bf84beeaabcf9f6f774b84c~mv2.jpg" alt="House wash service">
+          <h3 class="smaller">House Wash</h3><p>$30 / single wall<br>$150 / complete sides</p>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_54dc8c6b5cf243eb9d63991ea9b6d902~mv2.jpg/v1/crop/x_0,y_322,w_1536,h_1726/fill/w_168,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_54dc8c6b5cf243eb9d63991ea9b6d902~mv2.jpg" alt="Driveway pressure washing">
+          <h3>Driveway</h3><p>$0.15 / sqft</p><small>Clear concrete quote path</small>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_96f40b9291d043db8f4907ce144f4ffe~mv2.jpg/v1/crop/x_144,y_175,w_1344,h_1474/fill/w_168,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_96f40b9291d043db8f4907ce144f4ffe~mv2.jpg" alt="Walkway pressure washing">
+          <h3>Walkway</h3><p>$0.15 / sqft</p><small>Porches, paths and entries</small>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_fb68581183ba422496f92e829cdc089f~mv2.jpg/v1/crop/x_0,y_0,w_386,h_421/fill/w_169,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_fb68581183ba422496f92e829cdc089f~mv2.jpg" alt="Pool deck pressure washing">
+          <h3>Pool</h3><p>$0.20 / sqft</p><small>Clean pool surroundings</small>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/77075e_1068eed6c5c64c5e9991d2ef3f1d796c~mv2.jpg/v1/crop/x_140,y_3,w_593,h_641/fill/w_170,h_184,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/77075e_1068eed6c5c64c5e9991d2ef3f1d796c~mv2.jpg" alt="Roof cleaning service">
+          <h3 class="smaller">Roof Clean</h3><p>$0.35 / sqft</p><small>Ask about surface suitability</small>
+        </article>
+        <article class="service-card centered">
+          <img src="https://static.wixstatic.com/media/77075e_4d847f5da17244d388a024961644a535~mv2.jpg/v1/crop/x_0,y_22,w_368,h_407/fill/w_171,h_189,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image000000%20(1).jpg" alt="Fence pressure washing">
+          <h3>Fence</h3><p>$0.20 / sqft</p><small>Send a few photos for a quick estimate</small>
+        </article>
+      </div>
+      <div class="bottom-cta">
+        <a class="call-big" href="tel:9364631775">Call Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="phone"><a href="tel:9364631775">936-463-1775</a></p>
+    <p>©2026 by Sparks' Pressure Washing. Proudly serving Nacogdoches and the SFA area.</p>
+  </footer>
+</body>
+</html>
