@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Antonio Pest Control | Harris Pest Management</title>
+  <meta name="description" content="Harris Pest Management provides pest control, mosquito control, termite inspections, rodent control, bed bug service, roach service, and inspection-based quotes in the San Antonio area.">
+  <style>
+    :root {
+      --gray: #6b696b;
+      --gray-dark: #3e3d3f;
+      --gray-soft: #efeff0;
+      --gray-mid: #d7d5d7;
+      --pink: #ff8dee;
+      --pink-deep: #f37fe1;
+      --ink: #191719;
+      --white: #ffffff;
+      --shadow: 0 18px 45px rgba(0, 0, 0, .22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .top-strip {
+      background: var(--pink);
+      color: #191719;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: .04em;
+      padding: 9px 18px;
+    }
+
+    .site-header {
+      background: #e2e1e2;
+      border-bottom: 1px solid rgba(107,105,107,.35);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 3px 20px rgba(0,0,0,.08);
+    }
+
+    .header-main, .nav-row {
+      width: min(1280px, calc(100% - 52px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .header-main { min-height: 88px; }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 285px;
+    }
+
+    .brand img {
+      width: 69px;
+      height: 40px;
+      object-fit: cover;
+      border: 1px solid rgba(0,0,0,.14);
+      background: #fff;
+    }
+
+    .brand-title {
+      font-family: "Trebuchet MS", Futura, Arial, sans-serif;
+      font-size: 25px;
+      color: var(--gray);
+      line-height: 1;
+      letter-spacing: .01em;
+    }
+
+    .tagline {
+      color: var(--gray);
+      font-size: 14px;
+      margin-top: 9px;
+      letter-spacing: .08em;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .mini-contact {
+      color: var(--gray-dark);
+      text-align: right;
+      font-size: 14px;
+    }
+
+    .mini-contact a {
+      display: block;
+      color: var(--gray-dark);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 11px 19px;
+      border: 1px solid var(--gray);
+      background: var(--pink);
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .02em;
+      transition: .18s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover { background: #ef64d9; transform: translateY(-1px); }
+    .btn.dark { background: var(--gray-dark); border-color: var(--gray-dark); }
+    .btn.dark:hover { background: #1f1d20; }
+    .btn.light { background: #fff; color: var(--gray-dark); border-color: rgba(107,105,107,.55); }
+    .btn.light:hover { background: #f5f5f5; }
+
+    .nav-wrap {
+      background: #cdcccd;
+      border-top: 1px solid rgba(107,105,107,.20);
+    }
+
+    .nav-row {
+      min-height: 58px;
+      font-size: 15px;
+      color: var(--gray-dark);
+    }
+
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      border-left: 1px solid rgba(107,105,107,.22);
+    }
+
+    .nav-links a {
+      display: block;
+      padding: 18px 18px;
+      border-right: 1px solid rgba(107,105,107,.22);
+      color: var(--gray-dark);
+    }
+
+    .nav-links a:hover { background: rgba(255,141,238,.18); }
+
+    .nav-contact {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 18px;
+      flex-wrap: wrap;
+      color: var(--gray-dark);
+    }
+
+    .facebook-icon { width: 20px; height: 20px; }
+
+    .hero {
+      position: relative;
+      min-height: 745px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      background: var(--gray);
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,.48), rgba(0,0,0,.18) 46%, rgba(0,0,0,.08)), linear-gradient(0deg, rgba(255,255,255,.92), rgba(255,255,255,0) 54%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      width: min(1180px, calc(100% - 52px));
+      margin: 0 auto 70px;
+      display: grid;
+      grid-template-columns: minmax(0, 690px) minmax(300px, 420px);
+      gap: 34px;
+      align-items: end;
+    }
+
+    .hero-card {
+      background: rgba(255,255,255,.93);
+      border-left: 10px solid var(--pink);
+      box-shadow: var(--shadow);
+      padding: 42px 44px 38px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--gray);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: .16em;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    h1, h2, h3 {
+      font-family: "Trebuchet MS", Futura, Arial, sans-serif;
+      color: var(--gray);
+      line-height: 1.08;
+      margin: 0;
+      font-weight: 400;
+    }
+
+    h1 { font-size: clamp(44px, 6vw, 73px); }
+    h2 { font-size: clamp(34px, 4vw, 48px); }
+    h3 { font-size: 24px; }
+
+    .hero-card p {
+      margin: 20px 0 0;
+      font-size: 19px;
+      color: #3c393d;
+      max-width: 650px;
+    }
+
+    .hero-cta {
+      margin-top: 28px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .proof-card {
+      background: rgba(107,105,107,.93);
+      color: #fff;
+      padding: 26px;
+      box-shadow: var(--shadow);
+      border-top: 8px solid var(--pink);
+    }
+
+    .proof-card strong {
+      display: block;
+      color: #fff;
+      font-family: "Trebuchet MS", Futura, Arial, sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+
+    .proof-list {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .proof-list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 15px;
+    }
+
+    .proof-list li::before {
+      content: "";
+      width: 9px;
+      height: 9px;
+      margin-top: 7px;
+      border-radius: 50%;
+      background: var(--pink);
+      flex: 0 0 auto;
+    }
+
+    .section {
+      padding: 86px 0;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 52px));
+      margin: 0 auto;
+    }
+
+    .section-intro {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 430px);
+      gap: 32px;
+      align-items: end;
+      margin-bottom: 38px;
+    }
+
+    .section-intro p {
+      margin: 0;
+      color: #4e4b4f;
+      font-size: 18px;
+    }
+
+    .pink-section {
+      background: var(--pink);
+      color: var(--ink);
+    }
+
+    .pink-section h2, .pink-section h3 { color: var(--gray); }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: rgba(255,255,255,.92);
+      border: 1px solid rgba(107,105,107,.28);
+      padding: 28px;
+      min-height: 236px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 14px 28px rgba(107,105,107,.16);
+    }
+
+    .service-card h3 {
+      margin-bottom: 12px;
+      font-size: 25px;
+    }
+
+    .service-card p {
+      margin: 0 0 18px;
+      color: #3e3d3f;
+    }
+
+    .quote-note {
+      display: inline-flex;
+      width: fit-content;
+      background: var(--gray-soft);
+      color: var(--gray-dark);
+      border: 1px solid rgba(107,105,107,.24);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .05em;
+      padding: 8px 10px;
+      text-transform: uppercase;
+    }
+
+    .quote-path {
+      background: #f6f6f6;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .path-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      align-items: stretch;
+    }
+
+    .image-stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .image-stack figure {
+      margin: 0;
+      background: #fff;
+      border: 1px solid rgba(107,105,107,.2);
+      box-shadow: 0 12px 30px rgba(0,0,0,.12);
+      overflow: hidden;
+    }
+
+    .image-stack img {
+      height: 235px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .image-stack figcaption {
+      padding: 12px 14px;
+      color: var(--gray-dark);
+      font-size: 14px;
+      background: #fff;
+    }
+
+    .steps {
+      display: grid;
+      gap: 16px;
+      counter-reset: steps;
+      margin-top: 28px;
+    }
+
+    .step {
+      background: #fff;
+      border-left: 8px solid var(--pink);
+      padding: 20px 22px 20px 72px;
+      position: relative;
+      box-shadow: 0 10px 24px rgba(0,0,0,.10);
+    }
+
+    .step::before {
+      counter-increment: steps;
+      content: counter(steps);
+      position: absolute;
+      left: 21px;
+      top: 21px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--gray);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .step h3 { color: var(--gray-dark); font-size: 22px; margin-bottom: 6px; }
+    .step p { margin: 0; color: #4f4c51; }
+
+    .reviews {
+      background: #fff;
+    }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .review-card {
+      border: 1px solid rgba(107,105,107,.25);
+      background: #f7f7f7;
+      padding: 30px;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 12px 25px rgba(0,0,0,.08);
+    }
+
+    .stars {
+      color: var(--pink-deep);
+      font-size: 22px;
+      letter-spacing: .08em;
+      margin-bottom: 18px;
+    }
+
+    .review-card blockquote {
+      margin: 0;
+      font-size: 18px;
+      color: #383639;
+    }
+
+    .review-card cite {
+      margin-top: 22px;
+      color: var(--gray);
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .about-band {
+      background: var(--gray-mid);
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 600px;
+    }
+
+    .about-copy {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 72px 70px 72px 26px;
+    }
+
+    .about-inner { max-width: 520px; }
+    .about-inner p { font-size: 18px; color: #3e3d3f; margin: 22px 0 26px; }
+    .about-image img { width: 100%; height: 100%; object-fit: cover; min-height: 600px; }
+
+    .contact-section {
+      background: var(--pink);
+      padding: 88px 0;
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 440px) 1fr;
+      gap: 42px;
+      align-items: start;
+    }
+
+    .contact-card {
+      background: rgba(255,255,255,.92);
+      padding: 38px;
+      border: 1px solid rgba(107,105,107,.25);
+      box-shadow: 0 16px 34px rgba(107,105,107,.18);
+    }
+
+    .contact-card h2 { font-size: 40px; margin-bottom: 18px; }
+    .contact-lines { display: grid; gap: 13px; margin: 23px 0; color: var(--gray-dark); }
+    .contact-lines a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+    .form-box {
+      background: rgba(255,255,255,.88);
+      border: 1px solid rgba(107,105,107,.25);
+      padding: 34px;
+      box-shadow: 0 16px 34px rgba(107,105,107,.18);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    label {
+      display: grid;
+      gap: 7px;
+      color: var(--gray-dark);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid rgba(107,105,107,.40);
+      background: #fff;
+      min-height: 48px;
+      padding: 12px 13px;
+      font: inherit;
+      color: var(--ink);
+      border-radius: 0;
+    }
+
+    textarea { min-height: 126px; resize: vertical; }
+    .wide { grid-column: 1 / -1; }
+    .form-actions { margin-top: 18px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+    .form-note { font-size: 13px; color: var(--gray-dark); max-width: 420px; }
+
+    footer {
+      background: #dad8da;
+      color: var(--gray-dark);
+      padding: 46px 0 28px;
+      border-top: 1px solid rgba(107,105,107,.25);
+    }
+
+    .footer-layout {
+      width: min(1180px, calc(100% - 52px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 26px;
+      flex-wrap: wrap;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .footer-brand img { width: 69px; height: 40px; object-fit: cover; }
+    .footer-title { font-family: "Trebuchet MS", Futura, Arial, sans-serif; font-size: 25px; color: var(--gray); }
+    .footer-small { margin-top: 22px; font-size: 13px; text-align: center; color: #5c5a5d; }
+
+    @media (max-width: 980px) {
+      .header-main, .nav-row { width: min(92%, 760px); align-items: flex-start; }
+      .header-main, .nav-row, .nav-contact { flex-direction: column; }
+      .mini-contact { text-align: left; }
+      .nav-links { flex-wrap: wrap; border-left: 0; }
+      .nav-links a { padding: 12px 13px; border: 1px solid rgba(107,105,107,.18); margin: 0 -1px -1px 0; }
+      .hero { min-height: 820px; }
+      .hero-content, .section-intro, .path-layout, .about-band, .contact-layout { grid-template-columns: 1fr; }
+      .hero-card { padding: 32px; }
+      .services-grid, .review-grid { grid-template-columns: 1fr 1fr; }
+      .about-copy { justify-content: center; padding: 58px 26px; }
+      .about-image img { min-height: 360px; }
+    }
+
+    @media (max-width: 680px) {
+      .top-strip { font-size: 13px; }
+      .header-main, .nav-row, .wrap, .footer-layout { width: min(91%, 520px); }
+      .brand-title { font-size: 22px; }
+      .header-actions { justify-content: flex-start; }
+      .hero-content { width: min(91%, 520px); margin-bottom: 42px; }
+      .hero-card { border-left-width: 7px; padding: 25px; }
+      .proof-card { padding: 22px; }
+      .section { padding: 62px 0; }
+      .services-grid, .review-grid, .image-stack, .form-grid { grid-template-columns: 1fr; }
+      .wide { grid-column: auto; }
+      h1 { font-size: 42px; }
+      h2 { font-size: 34px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">Free inspection path for San Antonio homes and businesses • Call <a href="tel:2103181246">(210) 318-1246</a></div>
+
+  <header class="site-header" aria-label="Harris Pest Management header">
+    <div class="header-main">
+      <a class="brand" href="#home" aria-label="Harris Pest Management home">
+        <img src="https://static.wixstatic.com/media/7b4cb3_ecf7918a2d8446738579700e790820ab~mv2.jpg/v1/fill/w_69,h_40,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20210823_124823_edited_edited.jpg" alt="Harris Pest Management logo">
+        <span>
+          <span class="brand-title">Harris Pest Management</span>
+          <span class="tagline">Our Word Is Our Bond</span>
+        </span>
+      </a>
+      <div class="header-actions">
+        <div class="mini-contact">
+          <a href="mailto:harrispestmgmt@gmail.com">harrispestmgmt@gmail.com</a>
+          <a href="tel:2103181246">(210) 318-1246</a>
+        </div>
+        <a class="btn" href="tel:2103181246">Get In Touch</a>
+      </div>
+    </div>
+    <div class="nav-wrap">
+      <div class="nav-row">
+        <nav aria-label="Primary navigation">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-contact">
+          <a href="mailto:harrispestmgmt@gmail.com">harrispestmgmt@gmail.com</a>
+          <a href="tel:2103181246">(210) 318-1246</a>
+          <a href="tel:2103185818">(210) 318-5818</a>
+          <a href="https://www.facebook.com/harrispestmgmt" aria-label="Harris Pest Management on Facebook"><img class="facebook-icon" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Harris Pest Management hero">
+      <img class="hero-bg" src="https://static.wixstatic.com/media/7b4cb3_377c402103b1454da13d673cbbfc91b6~mv2.jpg/v1/fill/w_1440,h_1600,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/7b4cb3_377c402103b1454da13d673cbbfc91b6~mv2.jpg" alt="Harris Pest Management truck decal showing free inspection and contact number">
+      <div class="hero-content">
+        <div class="hero-card">
+          <span class="eyebrow">San Antonio area pest control</span>
+          <h1>Welcome to Harris Pest Management</h1>
+          <p>Your home and business deserve reliable service from dedicated pest-management experts. Tell us what you are seeing, then call or request an inspection-based quote.</p>
+          <div class="hero-cta">
+            <a class="btn" href="tel:2103181246">Call (210) 318-1246</a>
+            <a class="btn dark" href="#contact">Request Free Inspection</a>
+          </div>
+        </div>
+        <aside class="proof-card" aria-label="Quick trust points">
+          <strong>Free inspections. Clear next steps.</strong>
+          <p>Residential and commercial pest help with a direct call, email, or form request.</p>
+          <ul class="proof-list">
+            <li>Serving the San Antonio area since 2018</li>
+            <li>Mosquitoes, termites, rodents, bed bugs, fleas/ticks, roaches</li>
+            <li>Phone-first help when activity needs fast attention</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section pink-section" id="services">
+      <div class="wrap">
+        <div class="section-intro">
+          <div>
+            <span class="eyebrow">What issue can we help with today?</span>
+            <h2>Choose the pest problem, then get an inspection-based quote.</h2>
+          </div>
+          <p>The current site says pricing varies. This version turns that into a clearer promise: Harris inspects the issue, explains the treatment, and gives the right quote for the property.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div>
+              <h3>Mosquitoes</h3>
+              <p>Help reduce mosquito pressure around patios, yards, and common outdoor areas.</p>
+            </div>
+            <span class="quote-note">Inspection quote</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Termites</h3>
+              <p>Schedule an inspection when you see swarmers, wood damage, mud tubes, or risk signs.</p>
+            </div>
+            <span class="quote-note">Inspect first</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Rodent control</h3>
+              <p>Identify activity, entry points, and a treatment plan for homes and businesses.</p>
+            </div>
+            <span class="quote-note">Property-based</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Bed bugs, fleas & ticks</h3>
+              <p>Get help with biting pests through a focused inspection and treatment recommendation.</p>
+            </div>
+            <span class="quote-note">Inspection quote</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Roaches</h3>
+              <p>Target roach activity with a plan based on where the problem is showing up.</p>
+            </div>
+            <span class="quote-note">Treatment plan</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Pest control</h3>
+              <p>General pest-control service for residential and commercial properties in the area.</p>
+            </div>
+            <span class="quote-note">Per inspection</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-path">
+      <div class="wrap path-layout">
+        <div>
+          <span class="eyebrow">How the quote path should read</span>
+          <h2>Make the next step simple before pests get worse.</h2>
+          <div class="steps">
+            <article class="step">
+              <h3>Call, email, or send the form</h3>
+              <p>Use the phone number for urgent activity, or send the address and pest issue through the form.</p>
+            </article>
+            <article class="step">
+              <h3>Describe what you are seeing</h3>
+              <p>Pick the pest category and add details like where, how often, and whether it is inside or outside.</p>
+            </article>
+            <article class="step">
+              <h3>Inspection and quote</h3>
+              <p>Harris checks the situation, explains the treatment approach, and provides a realistic quote.</p>
+            </article>
+          </div>
+        </div>
+        <div class="image-stack" aria-label="Original Harris service images">
+          <figure>
+            <img src="https://static.wixstatic.com/media/6ee2848368dd4cedb2982f8c98deab58.jpg/v1/fill/w_1280,h_480,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6ee2848368dd4cedb2982f8c98deab58.jpg" alt="Pest control service image from Harris Pest Management site">
+            <figcaption>Commercial and residential pest-control service</figcaption>
+          </figure>
+          <figure>
+            <img src="https://static.wixstatic.com/media/7b4cb3_1d891e685109474bb614d4791836055f~mv2.jpg/v1/fill/w_480,h_420,al_c,lg_2,q_80,enc_avif,quality_auto/bed%20bug%20mattress.jpg" alt="Bed bug mattress inspection image from Harris Pest Management site">
+            <figcaption>Bed bug control with attention to detail</figcaption>
+          </figure>
+          <figure>
+            <img src="https://static.wixstatic.com/media/6ee2848368dd4cedb2982f8c98deab58.jpg/v1/fill/w_480,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pest%20Control.jpg" alt="Pest control treatment image from Harris Pest Management site">
+            <figcaption>Inspection-based pest-control quotes</figcaption>
+          </figure>
+          <figure>
+            <img src="https://static.wixstatic.com/media/7b4cb3_dc2f54b1c2a3480088ffa7461089e8dc~mv2.jpg/v1/fill/w_460,h_340,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/spaying%20image.jpg" alt="Spraying service image from Harris Pest Management reviews page">
+            <figcaption>Quality service with clear communication</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="wrap">
+        <div class="section-intro">
+          <div>
+            <span class="eyebrow">Reviews</span>
+            <h2>Move customer proof closer to the call button.</h2>
+          </div>
+          <p>The live Reviews page already has useful trust. Bringing a few short snippets onto the home page makes the contact decision easier.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <blockquote>“Excellent customer service... completed the service quickly and efficiently.”</blockquote>
+            </div>
+            <cite>Marvin Carter</cite>
+          </article>
+          <article class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <blockquote>“Prompt, on time and eliminate the problems.”</blockquote>
+            </div>
+            <cite>Rolly Khan</cite>
+          </article>
+          <article class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <blockquote>“Detailed and easy to ingest responses and education.”</blockquote>
+            </div>
+            <cite>Michael D.</cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="about-copy">
+        <div class="about-inner">
+          <span class="eyebrow">More About Us</span>
+          <h2>Excellence and professionalism first.</h2>
+          <p>Harris Pest Management has been servicing the San Antonio area since 2018. The site should keep that local, direct voice while tightening the grammar and making the service promise easier to trust.</p>
+          <p>Let the company be the people to solve your pest problems, with clear inspection, treatment, and quote steps.</p>
+          <a class="btn" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="https://static.wixstatic.com/media/7b4cb3_1a5f963512cf41898a013ef31b25b28a~mv2.jpg/v1/fill/w_720,h_600,fp_0.50_0.50,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7b4cb3_1a5f963512cf41898a013ef31b25b28a~mv2.jpg" alt="Mosquito image from Harris Pest Management site">
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-layout">
+        <aside class="contact-card">
+          <span class="eyebrow">Contact</span>
+          <h2>Harris Pest Management</h2>
+          <p>For fast help, call now. For an inspection-based quote, send the pest issue, address, and best contact method.</p>
+          <div class="contact-lines">
+            <a href="tel:2103181246">(210) 318-1246</a>
+            <a href="tel:2103185818">(210) 318-5818</a>
+            <a href="mailto:harrispestmgmt@gmail.com">Harrispestmgmt@gmail.com</a>
+            <a href="https://www.facebook.com/harrispestmgmt">Facebook</a>
+          </div>
+          <a class="btn dark" href="tel:2103181246">Call Now</a>
+        </aside>
+
+        <form class="form-box" action="mailto:harrispestmgmt@gmail.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <label>Name *
+              <input name="name" autocomplete="name" placeholder="Enter your name" required>
+            </label>
+            <label>Email *
+              <input name="email" type="email" autocomplete="email" placeholder="Enter your email" required>
+            </label>
+            <label>Phone
+              <input name="phone" type="tel" autocomplete="tel" placeholder="Enter your phone number">
+            </label>
+            <label>Service address
+              <input name="address" autocomplete="street-address" placeholder="Enter your address or area">
+            </label>
+            <label class="wide">Pest issue
+              <select name="pest_issue">
+                <option>Mosquitoes</option>
+                <option>Termites</option>
+                <option>Rodent control</option>
+                <option>Bed bugs, fleas, or ticks</option>
+                <option>Roaches</option>
+                <option>General pest control</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+            <label class="wide">Message
+              <textarea name="message" placeholder="Tell us what you are seeing, where it is happening, and the best time to reach you."></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button class="btn" type="submit">Submit Inspection Request</button>
+            <span class="form-note">Prototype direction: clearer labels, pest selection, and call option without changing the Wix contact-form idea.</span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-layout">
+      <div class="footer-brand">
+        <img src="https://static.wixstatic.com/media/7b4cb3_ecf7918a2d8446738579700e790820ab~mv2.jpg/v1/fill/w_69,h_40,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20210823_124823_edited_edited.jpg" alt="Harris Pest Management logo">
+        <div>
+          <div class="footer-title">Harris Pest Management</div>
+          <div>Our Word Is Our Bond</div>
+        </div>
+      </div>
+      <div>
+        <a href="tel:2103181246">(210) 318-1246</a> or <a href="tel:2103185818">(210) 318-5818</a><br>
+        <a href="mailto:harrispestmgmt@gmail.com">harrispestmgmt@gmail.com</a>
+      </div>
+      <a href="https://www.facebook.com/harrispestmgmt" aria-label="Harris Pest Management Facebook"><img class="facebook-icon" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+    </div>
+    <div class="footer-small">©2026 Harris Pest Management • San Antonio area pest-control service • Prototype cleanup direction</div>
+  </footer>
+</body>
+</html>

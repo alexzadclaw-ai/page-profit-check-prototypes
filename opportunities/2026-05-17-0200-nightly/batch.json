@@ -1,0 +1,128 @@
+{
+  "batch": "2026-05-17-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-17 02:00 America/Chicago",
+  "curatedCount": 10,
+  "items": [
+    {
+      "slug": "harmony-handyman-services",
+      "name": "Harmony Handyman Services",
+      "url": "https://harmonygc.wixsite.com/harmonygc",
+      "contact": "mailto:handyman9services@gmail.com",
+      "phone": "408-509-9861",
+      "vertical": "handyman services",
+      "location": "San Jose, CA",
+      "priority": "A-",
+      "summary": "Wix handyman site with real service breadth and contact basics; prototype clarifies the first-screen repair/install request path, service categories, trust cues, and photo-led estimate flow.",
+      "angle": "make the first screen explain the main repair/install services, show trust cues, and move the email/phone project request path closer to the top"
+    },
+    {
+      "slug": "devereux-auto-detailing",
+      "name": "Devereux's Auto Detailing LLC",
+      "url": "https://jmdevereux24.wixsite.com/website",
+      "contact": "mailto:jmdevereux24@gmail.com",
+      "phone": "443-617-3749",
+      "vertical": "auto detailing",
+      "location": "Maryland",
+      "priority": "A-",
+      "summary": "Auto-detailing Wix site with real packages/contact info; prototype tightens mobile-ready package clarity, appointment CTA, vehicle proof, and trust hierarchy.",
+      "angle": "make detailing packages, appointment request, and vehicle proof easier to scan before visitors have to hunt through the page"
+    },
+    {
+      "slug": "clean-slate-pressure-washing",
+      "name": "Clean Slate Pressure Washing",
+      "url": "https://cleanslatepressure6.wixsite.com/0319",
+      "contact": "mailto:cleanslatepressurewashingga@gmail.com",
+      "phone": "770-714-9252",
+      "vertical": "pressure washing",
+      "location": "Georgia",
+      "priority": "A-",
+      "summary": "Pressure-washing Wix site with clear service intent and real before/after potential; prototype improves quote CTA, service cards, local credibility, and photo proof.",
+      "angle": "turn the first impression into a clear pressure-washing quote path with visible services, proof, and a faster phone/email action"
+    },
+    {
+      "slug": "angels-tree-service",
+      "name": "Angel's Tree Service",
+      "url": "https://angelstreeservicec.wixsite.com/website",
+      "contact": "mailto:angelstreeservicec27@gmail.com",
+      "phone": "714-279-0669",
+      "vertical": "tree service",
+      "location": "California",
+      "priority": "A-",
+      "summary": "Tree-service Wix site with high-intent emergency/local service potential; prototype clarifies tree removal/trimming/stump work, urgent call CTA, proof, and contact flow.",
+      "angle": "make urgent tree-service actions clearer by putting phone contact, service scope, and trust cues in the first few seconds"
+    },
+    {
+      "slug": "e-and-j-window-solar-cleaning",
+      "name": "E & J Window and Solar Panel Cleaning",
+      "url": "https://eandjwaspcleaning.wixsite.com/ejwindowandsolarpane",
+      "contact": "mailto:eandjwaspcleaning@gmail.com",
+      "phone": "619-709-2521",
+      "vertical": "window and solar panel cleaning",
+      "location": "San Diego, CA",
+      "priority": "A-",
+      "summary": "Window/solar cleaning Wix site with a niche local service; prototype sharpens service split, estimate CTA, exterior-photo proof, and contact simplicity.",
+      "angle": "separate window cleaning and solar panel cleaning clearly, then make quote requests and trust proof easier to find"
+    },
+    {
+      "slug": "loper-painting",
+      "name": "Loper Painting LLC",
+      "url": "https://loperpainting.wixsite.com/website",
+      "contact": "mailto:loperpainting@gmail.com",
+      "phone": "913-927-2335",
+      "vertical": "painting contractor",
+      "location": "Overland Park, KS",
+      "priority": "A-",
+      "summary": "Painting Wix site with a premium black-and-gold look and real project photos; prototype improves estimate CTA, service labels, gallery proof, reviews, and contact flow.",
+      "angle": "keep the premium painting look while making interior/exterior services, gallery proof, and the estimate path easier to act on"
+    },
+    {
+      "slug": "exacta-painting",
+      "name": "Exacta Painting LLC",
+      "url": "https://exactapaintingllc.wixsite.com/home",
+      "contact": "mailto:exactapaintingllc@gmail.com",
+      "phone": "859-552-3008",
+      "vertical": "painting contractor",
+      "location": "Lexington, KY",
+      "priority": "A-",
+      "summary": "Lexington residential painting Wix site with a recognizable monochrome/paint-stroke identity; prototype improves estimate CTA, local service clarity, project proof visibility, contact links, and unfinished review/footer sections.",
+      "angle": "make the top of the painting site immediately show Lexington service scope, project proof, and one simple estimate request path"
+    },
+    {
+      "slug": "m-m-cabinet-painting",
+      "name": "M + M Cabinet Painting LLC",
+      "url": "https://mmqpainting.wixsite.com/mmqualitypainting",
+      "contact": "mailto:mmqpainting@gmail.com",
+      "phone": "980-292-3250",
+      "vertical": "cabinet painting",
+      "location": "North Carolina",
+      "priority": "A-",
+      "summary": "Cabinet-painting Wix site with a specific high-value service and real visuals; prototype improves cabinet transformation proof, quote CTA, service clarity, and trust layout.",
+      "angle": "lead with cabinet transformation proof, clear service scope, and a simple quote path for homeowners considering a kitchen refresh"
+    },
+    {
+      "slug": "harris-pest-management",
+      "name": "Harris Pest Management",
+      "url": "https://harrispestmgmt.wixsite.com/pest-1",
+      "contact": "mailto:harrispestmgmt@gmail.com",
+      "phone": "210-318-1246",
+      "vertical": "pest control",
+      "location": "San Antonio, TX",
+      "priority": "A-",
+      "summary": "San Antonio pest-control Wix site with strong local trust content and service categories; prototype improves call/request path, pest services, reviews, and quote framing.",
+      "angle": "bring the pest-control services, reviews, phone number, and request path higher so visitors can act quickly when they have an urgent pest issue"
+    },
+    {
+      "slug": "victory-1-roofing",
+      "name": "Victory 1 Roofing & Construction Inc",
+      "url": "https://victory1roofing.wixsite.com/victory-1-roofing",
+      "contact": "mailto:victory1roofing@gmail.com",
+      "phone": "719-502-1090",
+      "vertical": "roofing contractor",
+      "location": "Colorado Springs, CO",
+      "priority": "A-",
+      "summary": "Colorado Springs roofing Wix site with local licensing, phone/email, and project imagery; prototype clarifies residential/commercial services, estimate CTA, trust badges, and contact flow.",
+      "angle": "make roofing services, licensing/trust proof, and the phone/email estimate path clearer without losing the black/red Victory 1 identity"
+    }
+  ]
+}

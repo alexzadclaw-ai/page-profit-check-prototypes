@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "out": "/home/claw/.openclaw/workspace/page-profit-check-prototypes/screenshots/2026-05-17-0200-nightly/loper-painting-prototype.png",
+  "url": "http://127.0.0.1:46841/prototypes/2026-05-17-0200-nightly/loper-painting/index.html",
+  "errors": [],
+  "qa": {
+    "title": "Loper Painting LLC | Prototype Page Profit Check",
+    "h1": "Interior and exterior painting with craftsmanship you can see.",
+    "height": 5533,
+    "links": [
+      "#top",
+      "#about",
+      "#services",
+      "#work",
+      "#reviews",
+      "#contact",
+      "tel:+19139272335",
+      "mailto:loperpainting@gmail.com?subject=Painting%20Estimate%20Request",
+      "mailto:loperpainting@gmail.com?subject=Painting%20Estimate%20Request",
+      "tel:+19139272335",
+      "mailto:loperpainting@gmail.com",
+      "#contact",
+      "mailto:loperpainting@gmail.com",
+      "tel:+19139272335",
+      "mailto:loperpainting@gmail.com?subject=Painting%20Estimate%20Request",
+      "mailto:loperpainting@gmail.com",
+      "tel:+19139272335"
+    ],
+    "images": [
+      {
+        "alt": "Finished residential interior painted by Loper Painting",
+        "src": "https://static.wixstatic.com/media/91face_a7d35429aef34ba4ab4880c1f737c42a~mv2.jpg/v1/fill/w_900,h_980,fp_0.50_0.50,lg_1,q_80,enc_avif,quality_auto/91face_a7d35429aef34ba4ab4880c1f737c42a~mv2.jpg",
+        "naturalWidth": 900,
+        "naturalHeight": 980,
+        "renderedWidth": 456,
+        "renderedHeight": 558
+      },
+      {
+        "alt": "Kitchen interior painting project",
+        "src": "https://static.wixstatic.com/media/91face_b7715d8424004cf8a6c777f3013d738a~mv2.jpg/v1/fill/w_720,h_470,fp_0.50_0.50,q_80,enc_avif,quality_auto/91face_b7715d8424004cf8a6c777f3013d738a~mv2.jpg",
+        "naturalWidth": 720,
+        "naturalHeight": 470,
+        "renderedWidth": 378,
+        "renderedHeight": 235
+      },
+      {
+        "alt": "Painted white kitchen cabinets",
+        "src": "https://static.wixstatic.com/media/91face_57f0df7877c74b4799e951a1417ac5cd~mv2.jpg/v1/fill/w_720,h_470,fp_0.50_0.50,q_80,enc_avif,quality_auto/91face_57f0df7877c74b4799e951a1417ac5cd~mv2.jpg",
+        "naturalWidth": 720,
+        "naturalHeight": 470,
+        "renderedWidth": 378,
+        "renderedHeight": 235
+      },
+      {
+        "alt": "Exterior residential painting project",
+        "src": "https://static.wixstatic.com/media/91face_cd28d2631546472f83e7870d73a2bd2e~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_760,h_470,al_c,q_80,enc_avif,quality_auto/Kearney%20Project.jpg",
+        "naturalWidth": 760,
+        "naturalHeight": 470,
+        "renderedWidth": 378,
+        "renderedHeight": 235
+      },
+      {
+        "alt": "Kitchen painting project",
+        "src": "https://static.wixstatic.com/media/91face_8c2079af66354ddb8fec1af2c699316b~mv2_d_5775_4606_s_4_2.jpg/v1/fill/w_900,h_980,fp_0.50_0.50,q_80,enc_avif,quality_auto/91face_8c2079af66354ddb8fec1af2c699316b~mv2_d_5775_4606_s_4_2.jpg",
+        "naturalWidth": 900,
+        "naturalHeight": 980,
+        "renderedWidth": 438,
+        "renderedHeight": 444
+      },
+      {
+        "alt": "Kitchen wall and cabinet painting",
+        "src": "https://static.wixstatic.com/media/91face_b7715d8424004cf8a6c777f3013d738a~mv2.jpg/v1/fill/w_560,h_460,fp_0.50_0.50,q_80,enc_avif,quality_auto/91face_b7715d8424004cf8a6c777f3013d738a~mv2.jpg",
+        "naturalWidth": 560,
+        "naturalHeight": 460,
+        "renderedWidth": 230,
+        "renderedHeight": 196
+      },
+      {
+        "alt": "White painted kitchen cabinets",
+        "src": "https://static.wixstatic.com/media/91face_57f0df7877c74b4799e951a1417ac5cd~mv2.jpg/v1/fill/w_560,h_460,fp_0.50_0.50,q_80,enc_avif,quality_auto/91face_57f0df7877c74b4799e951a1417ac5cd~mv2.jpg",
+        "naturalWidth": 560,
+        "naturalHeight": 460,
+        "renderedWidth": 230,
+        "renderedHeight": 196
+      },
+      {
+        "alt": "Kearney exterior project photo",
+        "src": "https://static.wixstatic.com/media/91face_cd28d2631546472f83e7870d73a2bd2e~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_930,h_470,al_c,q_80,enc_avif,quality_auto/Kearney%20Project.jpg",
+        "naturalWidth": 930,
+        "naturalHeight": 470,
+        "renderedWidth": 560,
+        "renderedHeight": 196
+      }
+    ]
+  }
+}

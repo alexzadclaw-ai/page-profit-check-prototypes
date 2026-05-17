@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devereux's Auto Detailing LLC | Mobile Auto Detailing in Maryland</title>
+  <meta name="description" content="Mobile auto detailing in Maryland with interior, exterior, signature, and RV detail packages. Call, text, or email Devereux's Auto Detailing LLC to schedule.">
+  <style>
+    :root {
+      --ink: #1e2025;
+      --ink-2: #15171b;
+      --paper: #f8f7f3;
+      --muted: #c8c8c8;
+      --line: rgba(255,255,255,.26);
+      --gold: #c8a86c;
+      --white: #fff;
+      --shadow: 0 22px 60px rgba(0,0,0,.36);
+      --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+      --sans: Avenir, "Avenir Next", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--ink-2);
+      color: var(--white);
+      font-family: var(--sans);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .site-header {
+      background: #1e2025;
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .header-inner {
+      width: min(1320px, calc(100% - 96px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 28px;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-width: 0;
+    }
+    .brand img {
+      width: 160px;
+      height: 160px;
+      object-fit: contain;
+    }
+    .brand-name {
+      font-family: var(--serif);
+      font-size: 22px;
+      line-height: 1.35;
+      color: #fff;
+      max-width: 300px;
+    }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+      flex-wrap: wrap;
+      color: #f7f7f7;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    nav a,
+    .phone-link {
+      opacity: .92;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 3px;
+    }
+    nav a:hover,
+    .phone-link:hover { border-color: #fff; opacity: 1; }
+    .socials { display: flex; gap: 10px; align-items: center; }
+    .socials img { width: 20px; height: 20px; opacity: .95; }
+
+    .hero {
+      min-height: 920px;
+      background-image:
+        linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.15) 36%, rgba(0,0,0,.65) 100%),
+        url("https://static.wixstatic.com/media/6968bc_82b9bed23eae44c9b36c5a6e156b049f~mv2.jpg/v1/fill/w_1440,h_920,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6968bc_82b9bed23eae44c9b36c5a6e156b049f~mv2.jpg");
+      background-size: cover;
+      background-position: center;
+      display: grid;
+      place-items: end center;
+      text-align: center;
+      padding: 120px 24px 72px;
+      position: relative;
+    }
+    .hero-card {
+      width: min(980px, 100%);
+      padding: 34px 32px 36px;
+      background: rgba(18,20,24,.46);
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(2px);
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      text-transform: uppercase;
+      letter-spacing: .22em;
+      font-size: 12px;
+      color: #e9dfc8;
+    }
+    h1, h2, h3 {
+      font-family: var(--serif);
+      margin: 0;
+      font-weight: 400;
+      line-height: 1.08;
+    }
+    h1 {
+      font-size: clamp(46px, 7vw, 96px);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 12px;
+    }
+    .hero-sub {
+      margin: 34px auto 0;
+      max-width: 680px;
+      font-size: 18px;
+      color: #f3f3f3;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 28px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 22px;
+      border: 1px solid rgba(255,255,255,.9);
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: .02em;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+    .button:hover { transform: translateY(-1px); }
+    .button.primary {
+      background: #fff;
+      color: #1e2025;
+      border-color: #fff;
+      font-weight: 700;
+    }
+    .button.gold {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: #171717;
+      font-weight: 700;
+    }
+
+    .section {
+      padding: 112px 0;
+      background: #1e2025;
+    }
+    .section.alt { background: #17191d; }
+    .container {
+      width: min(940px, calc(100% - 80px));
+      margin: 0 auto;
+    }
+    .wide { width: min(1180px, calc(100% - 80px)); }
+    .section-title {
+      font-size: clamp(34px, 4.4vw, 52px);
+      color: #fff;
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 10px;
+      margin-bottom: 20px;
+    }
+    .section-kicker {
+      margin: 0 auto 46px;
+      max-width: 720px;
+      color: #dedede;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .about-card {
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,.12);
+      background: #111;
+    }
+    .about-card img {
+      width: 100%;
+      height: 460px;
+      object-fit: contain;
+      background: #101115;
+    }
+    .about-copy h2 {
+      font-size: clamp(34px, 4vw, 48px);
+      margin-bottom: 26px;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 10px;
+    }
+    .about-copy p {
+      color: #f5f5f5;
+      font-size: 16px;
+      margin: 0 0 24px;
+    }
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .trust-chip {
+      border: 1px solid rgba(255,255,255,.2);
+      padding: 14px;
+      text-align: center;
+      font-size: 13px;
+      color: #f1f1f1;
+    }
+
+    .pricing {
+      background-image:
+        linear-gradient(180deg, rgba(8,8,10,.78), rgba(8,8,10,.84)),
+        url("https://static.wixstatic.com/media/6968bc_9ff62ba695e84471b6c4e547e7635ea6~mv2.jpg/v1/fill/w_1440,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6968bc_9ff62ba695e84471b6c4e547e7635ea6~mv2.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 118px 0;
+    }
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .package {
+      min-height: 238px;
+      padding: 26px 24px;
+      background: rgba(30,32,37,.82);
+      border: 1px solid rgba(255,255,255,.2);
+      box-shadow: 0 14px 40px rgba(0,0,0,.25);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .package h3 {
+      font-size: 26px;
+      margin-bottom: 12px;
+    }
+    .price {
+      font-family: var(--serif);
+      font-size: 30px;
+      color: #fff;
+      margin: 0 0 12px;
+    }
+    .package p {
+      color: #dcdcdc;
+      margin: 0 0 20px;
+      font-size: 14px;
+    }
+    .package a {
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: underline;
+      text-underline-offset: 5px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 56px;
+      align-items: stretch;
+    }
+    .service-photo {
+      height: 520px;
+      object-fit: cover;
+      width: 100%;
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: var(--shadow);
+    }
+    .service-panel {
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.16);
+      padding: 46px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .service-panel h3 {
+      font-size: 32px;
+      text-align: left;
+      margin-bottom: 22px;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 8px;
+    }
+    .service-panel ul {
+      margin: 0;
+      padding-left: 22px;
+      color: #efefef;
+      font-size: 15px;
+    }
+    .service-panel li { margin: 0 0 10px; }
+    .service-note {
+      margin-top: 24px;
+      color: #d8d8d8;
+      border-top: 1px solid rgba(255,255,255,.18);
+      padding-top: 20px;
+      font-size: 14px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 520px;
+      gap: 48px;
+      align-items: stretch;
+    }
+    .contact-panel {
+      background: #101115;
+      border: 1px solid rgba(255,255,255,.12);
+      padding: 52px;
+      box-shadow: var(--shadow);
+    }
+    .contact-panel h2 {
+      font-size: clamp(34px, 4vw, 50px);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 10px;
+      margin-bottom: 24px;
+    }
+    .contact-panel p { color: #e8e8e8; margin-bottom: 28px; }
+    .contact-methods {
+      display: grid;
+      gap: 14px;
+      margin: 28px 0;
+    }
+    .method {
+      border: 1px solid rgba(255,255,255,.16);
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      color: #fff;
+    }
+    .method span { color: #d8d8d8; font-size: 14px; display: block; }
+    .mini-form {
+      margin-top: 34px;
+      display: grid;
+      gap: 16px;
+    }
+    .field {
+      border-bottom: 1px solid rgba(255,255,255,.42);
+      color: rgba(255,255,255,.72);
+      padding: 12px 0;
+      font-size: 14px;
+    }
+    .contact-photo {
+      min-height: 620px;
+      background-image:
+        linear-gradient(180deg, rgba(0,0,0,.1), rgba(0,0,0,.2)),
+        url("https://static.wixstatic.com/media/6968bc_dc463a971d154a0b98097119a243e804~mv2.jpg/v1/fill/w_640,h_820,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6968bc_dc463a971d154a0b98097119a243e804~mv2.jpg");
+      background-size: cover;
+      background-position: center;
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: var(--shadow);
+    }
+
+    .site-footer {
+      background: #1e2025;
+      padding: 54px 0;
+      border-top: 1px solid rgba(255,255,255,.1);
+      color: #f7f7f7;
+      text-align: center;
+    }
+    .footer-inner {
+      width: min(980px, calc(100% - 64px));
+      margin: 0 auto;
+      display: grid;
+      gap: 18px;
+      justify-items: center;
+    }
+    .footer-brand { font-family: var(--serif); font-size: 24px; }
+    .footer-links { display: flex; gap: 18px; flex-wrap: wrap; justify-content: center; color: #dfdfdf; font-size: 14px; }
+    .small { color: #aaa; font-size: 13px; }
+
+    .chat-pill {
+      position: fixed;
+      right: 26px;
+      bottom: 24px;
+      z-index: 20;
+      background: #fff;
+      color: #1e2025;
+      border-radius: 999px;
+      box-shadow: 0 16px 40px rgba(0,0,0,.35);
+      padding: 13px 20px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .site-header { min-height: auto; padding: 28px 0; }
+      .header-inner { width: min(100% - 36px, 720px); grid-template-columns: 1fr; text-align: center; }
+      .brand { justify-content: center; flex-direction: column; }
+      .nav-wrap { justify-content: center; }
+      .about-grid, .service-grid, .contact-grid { grid-template-columns: 1fr; }
+      .about-card img, .service-photo { height: auto; }
+      .packages { grid-template-columns: 1fr 1fr; }
+      .hero { min-height: 740px; }
+    }
+    @media (max-width: 680px) {
+      .container, .wide { width: min(100% - 36px, 520px); }
+      nav { gap: 14px; flex-wrap: wrap; justify-content: center; }
+      .packages { grid-template-columns: 1fr; }
+      .trust-row { grid-template-columns: 1fr; }
+      .hero-card { padding: 28px 18px; }
+      .contact-panel, .service-panel { padding: 32px 24px; }
+      .method { align-items: flex-start; flex-direction: column; }
+      .chat-pill { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Devereux's Auto Detailing LLC home">
+        <img src="https://static.wixstatic.com/media/6968bc_ee4c4cdbc1ee41d391bd1925ff5e7fdf~mv2.png/v1/fill/w_160,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Devereux's-Logo-2_11(NEWESTTT).png" alt="Devereux's Auto Detailing LLC logo">
+        <span class="brand-name">Devereux's Auto Detailing LLC</span>
+      </a>
+      <div></div>
+      <div class="nav-wrap">
+        <nav aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="phone-link" href="tel:4436173749">443-617-3749</a>
+        <div class="socials" aria-label="Social links">
+          <a href="https://www.instagram.com/devereuxsautodetailingllc/" aria-label="Instagram"><img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/devereuxsautodetailing/?ref=bookmarks" aria-label="Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.google.com/search?q=devereuxs+auto+detailing" aria-label="Google search"><img src="https://static.wixstatic.com/media/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6~mv2.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6~mv2.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Mobile auto detailing hero">
+      <div class="hero-card">
+        <p class="eyebrow">Maryland mobile detailing service</p>
+        <h1>Devereux's Auto Detailing LLC</h1>
+        <p class="hero-sub">Interior, exterior, signature, and RV detail packages that come to you. Call or text today to schedule an appointment.</p>
+        <div class="cta-row" aria-label="Booking actions">
+          <a class="button primary" href="tel:4436173749">Call 443-617-3749</a>
+          <a class="button" href="sms:4436173749">Text for a Quote</a>
+          <a class="button" href="mailto:jmdevereux24@gmail.com?subject=Detailing%20Quote%20Request">Email to Book</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-card">
+          <img src="https://static.wixstatic.com/media/6968bc_9915f1ce90a649a4b7405d96d839e787~mv2.jpg/v1/fill/w_460,h_259,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Devereux's-Auto-Detailing-NEW-BUSINESS-C.jpg" alt="Devereux's Auto Detailing service flyer">
+        </div>
+        <div class="about-copy">
+          <h2>About Us</h2>
+          <p>Devereux's Auto Detailing LLC is a mobile detailing service that meets all of your automobile detailing needs.</p>
+          <p>We bring convenient interior, exterior, signature, and RV detailing to your location. Share your vehicle, preferred package, and timing, and we will help choose the right service.</p>
+          <div class="cta-row" style="justify-content:flex-start">
+            <a class="button gold" href="tel:4436173749">Call Now</a>
+            <a class="button" href="#pricing">See Packages</a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-chip">Mobile Service</div>
+            <div class="trust-chip">Clear Price Ranges</div>
+            <div class="trust-chip">Call or Text</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="wide container">
+        <h2 class="section-title">Detail Packages</h2>
+        <p class="section-kicker">Choose the package that fits your vehicle, then call or text with details for a final appointment quote.</p>
+        <div class="packages">
+          <article class="package">
+            <div>
+              <h3>Full Interior Detail</h3>
+              <p class="price">$140-180</p>
+              <p>Best for a deeper cabin reset with vacuum, wipedown, windows, conditioning, shampoo, and mats.</p>
+            </div>
+            <a href="sms:4436173749">Text about interior</a>
+          </article>
+          <article class="package">
+            <div>
+              <h3>Basic Interior Detail</h3>
+              <p class="price">$80-120</p>
+              <p>A simpler interior option for upkeep cleanups when the vehicle does not need the full package.</p>
+            </div>
+            <a href="sms:4436173749">Text about basic interior</a>
+          </article>
+          <article class="package">
+            <div>
+              <h3>Full Exterior Detail</h3>
+              <p class="price">$120-200</p>
+              <p>Exterior-focused detail for paint, wheels, glass, and a cleaner finish from the outside in.</p>
+            </div>
+            <a href="sms:4436173749">Text about exterior</a>
+          </article>
+          <article class="package">
+            <div>
+              <h3>Basic Exterior Detail</h3>
+              <p class="price">$70-100</p>
+              <p>A fast exterior clean for customers who want the vehicle looking better without a full detail.</p>
+            </div>
+            <a href="sms:4436173749">Text about basic exterior</a>
+          </article>
+          <article class="package">
+            <div>
+              <h3>Signature Detail</h3>
+              <p class="price">$220-350</p>
+              <p>The easiest choice for customers who want interior and exterior attention in one booking.</p>
+            </div>
+            <a href="sms:4436173749">Text about signature</a>
+          </article>
+          <article class="package">
+            <div>
+              <h3>RV Detail Packages</h3>
+              <p class="price">$15 per ft.</p>
+              <p>Clear per-foot pricing helps larger vehicle owners estimate before requesting a final quote.</p>
+            </div>
+            <a href="sms:4436173749">Text about RV detail</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="services">
+      <div class="wide container">
+        <h2 class="section-title">Professional Services</h2>
+        <p class="section-kicker">A clear look at what is included in the Full Interior Detail, with additional package options available by request.</p>
+        <div class="service-grid">
+          <img class="service-photo" src="https://static.wixstatic.com/media/6968bc_5fd7c8ebe59243778df7aa12cc0386bd~mv2.jpg/v1/fill/w_390,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG-9420.jpg" alt="Interior detailing result from Devereux's Auto Detailing">
+          <div class="service-panel">
+            <h3>Full Interior Detail</h3>
+            <ul>
+              <li>Full vacuum of interior and trunk</li>
+              <li>Full wipedown and dressing of dashboard, vents, steering wheel, cup holders, visors, and more</li>
+              <li>Full wipedown and dressing of door panels</li>
+              <li>Clean windows and mirrors</li>
+              <li>Condition leather, vinyl, and plastics</li>
+              <li>Shampoo carpet and seats</li>
+              <li>Stain treatment</li>
+              <li>Clean and protect floor mats</li>
+            </ul>
+            <p class="service-note">For exterior, signature, or RV details, ask for the package that matches the vehicle and preferred level of service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wide container contact-grid">
+        <div class="contact-panel">
+          <h2>Contact Information</h2>
+          <p>Ready to schedule? The fastest path is to call or text with the vehicle type, package interest, and your location in the mobile service area.</p>
+          <div class="contact-methods">
+            <a class="method" href="tel:4436173749"><strong>443-617-3749</strong><span>Call for availability</span></a>
+            <a class="method" href="sms:4436173749"><strong>Text 443-617-3749</strong><span>Send vehicle and package</span></a>
+            <a class="method" href="mailto:jmdevereux24@gmail.com?subject=Detailing%20Quote%20Request"><strong>jmdevereux24@gmail.com</strong><span>Email for quote details</span></a>
+          </div>
+          <div class="mini-form" aria-label="Visual form direction">
+            <div class="field">Name</div>
+            <div class="field">Phone or email</div>
+            <div class="field">Vehicle, package, and preferred day</div>
+            <a class="button primary" href="mailto:jmdevereux24@gmail.com?subject=Detailing%20Quote%20Request">Submit Quote Request</a>
+          </div>
+        </div>
+        <div class="contact-photo" role="img" aria-label="Detailing work photo from Devereux's Auto Detailing"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Devereux's Auto Detailing LLC</div>
+      <div class="footer-links">
+        <a href="tel:4436173749">443-617-3749</a>
+        <a href="mailto:jmdevereux24@gmail.com">jmdevereux24@gmail.com</a>
+        <a href="https://www.instagram.com/devereuxsautodetailingllc/">Instagram</a>
+        <a href="https://www.facebook.com/devereuxsautodetailing/?ref=bookmarks">Facebook</a>
+      </div>
+      <div class="small">©2019 by Devereux's Auto Detailing. Mobile detailing service area in Maryland.</div>
+    </div>
+  </footer>
+
+  <a class="chat-pill" href="sms:4436173749">Let's Chat!</a>
+</body>
+</html>

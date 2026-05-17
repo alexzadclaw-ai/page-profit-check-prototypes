@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Jose Handyman Services | Harmony Handyman Services</title>
+  <meta name="description" content="Harmony Handyman Services in San Jose and Silicon Valley. Home repairs, fixture installation, painting, drywall, carpentry, and small renovation requests.">
+  <style>
+    :root {
+      --red: #d82020;
+      --cyan: #7ad4ee;
+      --blue: #0a79c8;
+      --charcoal: #242424;
+      --panel: #fff8eb;
+      --paper: #ffffff;
+      --green: #2fa84f;
+      --tan: #d7bd91;
+      --line: #2a2a2a;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background:
+        linear-gradient(rgba(0,0,0,.12), rgba(0,0,0,.2)),
+        url("https://static.wixstatic.com/media/fe332c_d89ac666245a411cb5c69c91cc70b332~mv2.jpg/v1/fill/w_1053,h_1080,al_c,q_85,enc_avif,quality_auto/fe332c_d89ac666245a411cb5c69c91cc70b332~mv2.jpg") center top / cover fixed no-repeat;
+      min-height: 100vh;
+    }
+
+    a { color: inherit; }
+
+    .page {
+      width: min(980px, calc(100% - 28px));
+      margin: 26px auto 34px;
+      filter: drop-shadow(0 12px 20px rgba(0,0,0,.42));
+    }
+
+    .site-shell {
+      background: rgba(255,255,255,.96);
+      border: 1px solid #1a1a1a;
+      box-shadow: inset 0 0 0 4px rgba(255,255,255,.7);
+    }
+
+    .nav {
+      display: flex;
+      align-items: stretch;
+      background: linear-gradient(#f9f9f9, #d9d9d9);
+      border-bottom: 3px solid #1c1c1c;
+      overflow-x: auto;
+      min-height: 43px;
+    }
+
+    .nav a {
+      flex: 0 0 auto;
+      padding: 14px 15px 12px;
+      font-size: 13px;
+      text-decoration: none;
+      border-right: 1px solid #b5b5b5;
+      white-space: nowrap;
+      color: #202020;
+    }
+
+    .nav a.active {
+      color: #fff;
+      background: #080808;
+      font-weight: bold;
+    }
+
+    .header {
+      display: grid;
+      grid-template-columns: 148px 1fr auto;
+      gap: 18px;
+      align-items: center;
+      padding: 18px 22px 14px;
+      background: #fff;
+      min-height: 154px;
+      position: relative;
+    }
+
+    .logo-box {
+      width: 127px;
+      height: 147px;
+      border: 1px solid #aaa;
+      background: #fff;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,.18);
+    }
+
+    .logo-box img { width: 110px; height: auto; display: block; }
+
+    .brand h1 {
+      margin: 0;
+      color: var(--red);
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-weight: 900;
+      letter-spacing: .3px;
+      font-size: clamp(38px, 5.5vw, 58px);
+      line-height: .91;
+      text-shadow: 2px 2px 0 var(--cyan);
+    }
+
+    .brand p {
+      margin: 12px 0 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .socials {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      align-self: start;
+      padding-top: 74px;
+    }
+
+    .socials img { width: 19px; height: 19px; display: block; }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      min-height: 492px;
+      border-top: 1px solid #d1d1d1;
+      background: #fff;
+    }
+
+    .hero-copy {
+      padding: 32px 30px 34px;
+      background:
+        linear-gradient(rgba(255,255,255,.88), rgba(255,255,255,.76)),
+        url("https://static.wixstatic.com/media/fe332c_b4b2c2983d2540e7b1420a761a071a71~mv2.jpg/v1/fill/w_876,h_427,al_c,q_85,enc_avif,quality_auto/Shaking%20hends.jpg") center / cover no-repeat;
+      border-right: 1px solid #c8c8c8;
+      position: relative;
+    }
+
+    .callout-label {
+      display: inline-block;
+      padding: 8px 11px;
+      background: var(--green);
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      border-radius: 3px;
+      box-shadow: 0 2px 0 rgba(0,0,0,.18);
+    }
+
+    .hero-copy h2 {
+      margin: 18px 0 12px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(48px, 7vw, 76px);
+      line-height: .9;
+      letter-spacing: .4px;
+      color: #090909;
+      text-transform: uppercase;
+    }
+
+    .hero-copy .subhead {
+      margin: 0 0 18px;
+      max-width: 500px;
+      font-size: 19px;
+      line-height: 1.42;
+      font-weight: bold;
+      color: #1b1b1b;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0 16px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 4px;
+      border: 2px solid #111;
+      text-decoration: none;
+      font-weight: 900;
+      box-shadow: 0 3px 0 rgba(0,0,0,.35);
+    }
+
+    .btn.primary { background: #0a81d6; color: #fff; }
+    .btn.secondary { background: #ffcf33; color: #111; }
+
+    .proof-chips {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .chip {
+      background: rgba(255,255,255,.92);
+      border: 1px solid #191919;
+      padding: 10px;
+      min-height: 72px;
+      font-size: 13px;
+      line-height: 1.28;
+      box-shadow: 0 2px 0 rgba(0,0,0,.18);
+    }
+
+    .chip strong {
+      display: block;
+      font-size: 18px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      letter-spacing: .5px;
+      color: var(--red);
+      text-shadow: 1px 1px 0 var(--cyan);
+    }
+
+    .request-card {
+      padding: 25px 24px 24px;
+      background: var(--panel);
+      border-left: 8px solid var(--charcoal);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .request-card h3 {
+      margin: 0 0 10px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 38px;
+      line-height: .95;
+      color: var(--blue);
+      text-transform: uppercase;
+    }
+
+    .request-card p {
+      margin: 0 0 14px;
+      line-height: 1.45;
+      font-weight: bold;
+    }
+
+    .checklist {
+      margin: 0 0 18px;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .checklist li {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 8px;
+      align-items: start;
+      font-size: 14px;
+      line-height: 1.35;
+      background: #fff;
+      border: 1px solid #d4c09a;
+      padding: 9px 10px;
+    }
+
+    .checklist li::before {
+      content: "✓";
+      width: 22px;
+      height: 22px;
+      display: inline-grid;
+      place-items: center;
+      background: var(--green);
+      color: #fff;
+      border-radius: 50%;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    .mini-form {
+      display: grid;
+      gap: 9px;
+      padding: 12px;
+      background: #fff;
+      border: 1px solid #111;
+      box-shadow: 0 3px 0 rgba(0,0,0,.18);
+    }
+
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+    .mini-form input,
+    .mini-form textarea {
+      width: 100%;
+      border: 1px solid #aaa;
+      padding: 10px;
+      font: 13px Arial, Helvetica, sans-serif;
+      background: #fbfbfb;
+    }
+
+    .mini-form textarea { min-height: 72px; resize: vertical; }
+
+    .send-line {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .send-line .btn {
+      min-height: 40px;
+      padding: 0 15px;
+      box-shadow: none;
+      border-width: 1px;
+      font-size: 13px;
+    }
+
+    .send-line small { color: #404040; line-height: 1.25; }
+
+    .services-band {
+      background: var(--green);
+      border-top: 3px solid #111;
+      color: #fff;
+      padding: 24px 28px 28px;
+    }
+
+    .section-title {
+      margin: 0 0 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      color: #fff;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      font-size: 44px;
+      line-height: .94;
+    }
+
+    .section-title p {
+      margin: 0;
+      max-width: 420px;
+      line-height: 1.4;
+      font-weight: bold;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .service-card {
+      color: #111;
+      background: #fff;
+      border: 1px solid #111;
+      padding: 16px;
+      min-height: 136px;
+      box-shadow: 0 4px 0 rgba(0,0,0,.22);
+    }
+
+    .service-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: var(--red);
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      letter-spacing: .4px;
+      text-transform: uppercase;
+    }
+
+    .service-card p { margin: 0; font-size: 14px; line-height: 1.4; }
+
+    .trust-and-photos {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 0;
+      background: #fff;
+      border-top: 3px solid #111;
+    }
+
+    .areas {
+      background: #f2e2bf;
+      padding: 26px 25px;
+      border-right: 1px solid #111;
+    }
+
+    .areas h2,
+    .photos h2 {
+      margin: 0 0 12px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 36px;
+      line-height: .95;
+      color: #101010;
+      text-transform: uppercase;
+    }
+
+    .areas p { margin: 0 0 14px; line-height: 1.45; font-weight: bold; }
+
+    .area-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 12px;
+    }
+
+    .area-tags span {
+      background: #fff;
+      border: 1px solid #555;
+      padding: 6px 8px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .quote {
+      margin-top: 18px;
+      padding: 13px;
+      background: #fff;
+      border-left: 6px solid var(--blue);
+      font-size: 14px;
+      line-height: 1.45;
+      box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    }
+
+    .quote strong { display: block; margin-top: 8px; }
+
+    .photos {
+      padding: 26px 25px;
+      background: #fff;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .photo-grid figure {
+      margin: 0;
+      border: 1px solid #111;
+      background: #eee;
+      overflow: hidden;
+      box-shadow: 0 3px 0 rgba(0,0,0,.18);
+    }
+
+    .photo-grid img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    .photo-grid figcaption {
+      padding: 8px 9px;
+      font-size: 12px;
+      font-weight: bold;
+      background: #fafafa;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+      padding: 18px 22px;
+      background: #1f1f1f;
+      color: #fff;
+      border-top: 3px solid #000;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .footer strong {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .footer-actions { display: flex; gap: 9px; flex-wrap: wrap; justify-content: end; }
+
+    .footer .btn {
+      border-color: #fff;
+      min-height: 38px;
+      box-shadow: none;
+      font-size: 13px;
+      padding: 0 12px;
+    }
+
+    @media (max-width: 820px) {
+      .page { width: min(100% - 16px, 980px); margin-top: 12px; }
+      .header { grid-template-columns: 96px 1fr; gap: 12px; }
+      .logo-box { width: 88px; height: 102px; }
+      .logo-box img { width: 76px; }
+      .socials { grid-column: 1 / -1; padding: 0; justify-content: flex-end; }
+      .hero, .trust-and-photos { grid-template-columns: 1fr; }
+      .hero-copy { border-right: 0; }
+      .proof-chips, .service-grid, .photo-grid { grid-template-columns: 1fr; }
+      .section-title { display: block; }
+      .section-title p { margin-top: 8px; }
+      .areas { border-right: 0; border-bottom: 1px solid #111; }
+      .footer { grid-template-columns: 1fr; }
+      .footer-actions { justify-content: start; }
+    }
+
+    @media (max-width: 520px) {
+      .nav a { padding: 12px 11px; font-size: 12px; }
+      .header { padding: 14px; }
+      .brand h1 { font-size: 36px; }
+      .hero-copy, .request-card, .services-band, .areas, .photos { padding: 20px 16px; }
+      .field-row { grid-template-columns: 1fr; }
+      .send-line { align-items: stretch; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="site-shell">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="https://harmonygc.wixsite.com/harmonygc/harmonygc">Home</a>
+        <a href="https://harmonygc.wixsite.com/harmonygc/page4">About</a>
+        <a href="https://harmonygc.wixsite.com/harmonygc/services">Services</a>
+        <a href="https://harmonygc.wixsite.com/harmonygc/page3">Testimonials</a>
+        <a href="https://harmonygc.wixsite.com/harmonygc/gallery">Gallery</a>
+        <a href="https://harmonygc.wixsite.com/harmonygc/book-online">Book Now</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <header class="header">
+        <div class="logo-box">
+          <img src="https://static.wixstatic.com/media/fe332c_18e0aa34a4e140728488f773e4831aa1~mv2.png/v1/fill/w_127,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Harmony%20Logo.png" alt="Harmony Handyman Services logo">
+        </div>
+        <div class="brand">
+          <h1>Harmony Handyman Services</h1>
+          <p>Let a local expert become your go-to handyman.</p>
+        </div>
+        <div class="socials" aria-label="Social links">
+          <a href="https://www.facebook.com/harmonyhandymanservices/" aria-label="Facebook"><img src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_19,h_19,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png" alt="Facebook"></a>
+          <a href="https://www.yelp.com/biz/harmony-handyman-services-san-jose" aria-label="Yelp"><img src="https://static.wixstatic.com/media/263c6eefe13c431681f9363e2e92ddb7.png/v1/fill/w_19,h_19,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/263c6eefe13c431681f9363e2e92ddb7.png" alt="Yelp"></a>
+          <a href="https://www.instagram.com/harmony_handyman_services/" aria-label="Instagram"><img src="https://static.wixstatic.com/media/9f9c321c774844b793180620472aa4f1.png/v1/fill/w_19,h_19,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9f9c321c774844b793180620472aa4f1.png" alt="Instagram"></a>
+        </div>
+      </header>
+
+      <section class="hero" id="contact">
+        <div class="hero-copy">
+          <span class="callout-label">San Jose + Silicon Valley</span>
+          <h2>Repairs, installs & small projects</h2>
+          <p class="subhead">Home repairs, painting, fixtures, drywall, carpentry, appliance installs, and small renovation requests handled by a local handyman team serving the Bay Area since 2013.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="tel:4085099861">Call 408-509-9861</a>
+            <a class="btn secondary" href="mailto:handyman9services@gmail.com?subject=Project%20Request%20for%20Harmony%20Handyman%20Services&body=Name:%0APhone:%0AProject%20address/city:%0AAvailability:%0AProject%20description:%0APhotos%20attached:%20Yes/No">Email project photos</a>
+          </div>
+          <div class="proof-chips" aria-label="Trust highlights">
+            <div class="chip"><strong>Since 2013</strong>Serving San Jose and surrounding Bay Area neighborhoods.</div>
+            <div class="chip"><strong>Photos help</strong>Send pictures so the team can understand the job faster.</div>
+            <div class="chip"><strong>Local requests</strong>Best for home repairs, fixtures, maintenance, and small renovations.</div>
+          </div>
+        </div>
+
+        <aside class="request-card" aria-label="Project request instructions">
+          <h3>Request a visit</h3>
+          <p>Please include the basics so Harmony can reply quickly and decide whether an on-site visit is needed.</p>
+          <ul class="checklist">
+            <li>Your name, phone number, and email.</li>
+            <li>Project address or city, plus availability this week.</li>
+            <li>Short project description and any measurements.</li>
+            <li>Clear photos of the area, damage, fixture, or room.</li>
+          </ul>
+          <form class="mini-form">
+            <div class="field-row">
+              <input type="text" aria-label="Name" placeholder="Name">
+              <input type="tel" aria-label="Phone" placeholder="Phone">
+            </div>
+            <input type="email" aria-label="Email" placeholder="Email">
+            <textarea aria-label="Project details" placeholder="Project details, city, and timing"></textarea>
+            <div class="send-line">
+              <a class="btn primary" href="mailto:handyman9services@gmail.com?subject=Project%20Request%20for%20Harmony%20Handyman%20Services">Email project details</a>
+              <small>Attach photos in your email for the fastest review.</small>
+            </div>
+          </form>
+        </aside>
+      </section>
+
+      <section class="services-band">
+        <div class="section-title">
+          <h2>Services that we offer</h2>
+          <p>Start here if you need a repair, installation, punch-list item, or small home improvement project handled.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Plumbing repairs</h3>
+            <p>Faucets, showerheads, toilets, sink P-traps, stop valves, filters, and supply lines.</p>
+          </article>
+          <article class="service-card">
+            <h3>Electrical fixtures</h3>
+            <p>Light fixtures, ceiling fans, outlets, switches, GFCI outlets, and small troubleshooting.</p>
+          </article>
+          <article class="service-card">
+            <h3>Drywall + paint</h3>
+            <p>Wall patching, texturing, plastering, drywall replacement, and interior or exterior painting.</p>
+          </article>
+          <article class="service-card">
+            <h3>Doors, trim + carpentry</h3>
+            <p>Door locks, door replacement, trim, molding, shelving, storage, deck, fencing, and wood repair.</p>
+          </article>
+          <article class="service-card">
+            <h3>Appliance installs</h3>
+            <p>Cooktops, washing machines, window AC, refrigerator, microwave, range hood, and dryer installs.</p>
+          </article>
+          <article class="service-card">
+            <h3>Small renovations</h3>
+            <p>General maintenance, tile, window coverings, screens, pet doors, junk removal, and repair punch lists.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="trust-and-photos">
+        <div class="areas">
+          <h2>Areas covered</h2>
+          <p>Focused around San Jose and nearby Silicon Valley communities. The original site lists a wide service area, so the contact flow should ask for the project address early.</p>
+          <div class="area-tags" aria-label="Service areas">
+            <span>West San Jose</span><span>Willow Glen</span><span>Mountain View</span><span>Los Altos</span><span>Campbell</span><span>Los Gatos</span><span>Palo Alto</span><span>Menlo Park</span><span>Almaden Valley</span><span>Sunnyvale</span><span>Saratoga</span><span>Fremont</span>
+          </div>
+          <div class="quote">
+            "He communicates clearly about what needs to be fixed and suggests the easiest, most cost-effective fix."
+            <strong>Customer testimonial from the existing site</strong>
+          </div>
+        </div>
+        <div class="photos">
+          <h2>Show the project</h2>
+          <p><strong>Images make your vision come to life.</strong> Keep this existing instruction, but make it actionable: send a wide photo, a close-up, and any model numbers or measurements.</p>
+          <div class="photo-grid">
+            <figure>
+              <img src="https://static.wixstatic.com/media/fe332c_169fd187807f4def82a72b9c47754de8~mv2.jpg/v1/fill/w_472,h_354,q_90,enc_avif,quality_auto/fe332c_169fd187807f4def82a72b9c47754de8~mv2.jpg" alt="Original Harmony project gallery photo">
+              <figcaption>Original project gallery: repair and installation work.</figcaption>
+            </figure>
+            <figure>
+              <img src="https://static.wixstatic.com/media/fe332c_5c09b24737b24bff8b979ab4dcbe05f1~mv2_d_4160_3120_s_4_2.jpg/v1/fill/w_471,h_353,q_90,enc_avif,quality_auto/fe332c_5c09b24737b24bff8b979ab4dcbe05f1~mv2_d_4160_3120_s_4_2.jpg" alt="Original Harmony project gallery photo">
+              <figcaption>Photos help Harmony understand materials and scope.</figcaption>
+            </figure>
+            <figure>
+              <img src="https://static.wixstatic.com/media/fe332c_9191cb1557cf4b3fa62efb6d4004ef7d~mv2.jpg/v1/fill/w_471,h_353,q_90,enc_avif,quality_auto/fe332c_9191cb1557cf4b3fa62efb6d4004ef7d~mv2.jpg" alt="Original Harmony project gallery photo">
+              <figcaption>Send wide and close-up shots when requesting a visit.</figcaption>
+            </figure>
+            <figure>
+              <img src="https://static.wixstatic.com/media/fe332c_b4553d1baca34a0e852ec715949126ec~mv2.jpg/v1/fill/w_472,h_229,q_90,enc_avif,quality_auto/fe332c_b4553d1baca34a0e852ec715949126ec~mv2.jpg" alt="Original Harmony project gallery photo">
+              <figcaption>Small repair details are easier to price with images.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <strong>Harmony Handyman Services</strong>
+          PO.Box 15424 S.F. CA 94115-0424 | Open Monday-Friday 8AM-5PM<br>
+          Email your request for a speedy response. Please include pictures if possible.
+        </div>
+        <div class="footer-actions">
+          <a class="btn primary" href="tel:4085099861">408-509-9861</a>
+          <a class="btn secondary" href="mailto:handyman9services@gmail.com">handyman9services@gmail.com</a>
+        </div>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>

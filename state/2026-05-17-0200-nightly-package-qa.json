@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-17-0200-nightly",
+  "batchJson": "opportunities/2026-05-17-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "harmony-handyman-services",
+      "name": "Harmony Handyman Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/harmony-handyman-services-audit.md",
+          "exists": true,
+          "size": 7615
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/harmony-handyman-services-offer.md",
+          "exists": true,
+          "size": 1257
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/harmony-handyman-services/index.html",
+          "exists": true,
+          "size": 22223
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/harmony-handyman-services-target.png",
+          "exists": true,
+          "size": 1318587
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/harmony-handyman-services-prototype.png",
+          "exists": true,
+          "size": 1657077
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5575,
+        "pixelSimilarity": 0.6603,
+        "edgeLayoutSimilarity": 0.6146,
+        "perceptualHashSimilarity": 0.6406,
+        "weightedSimilarity": 0.6202
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/harmony-handyman-services-source-assets.md"
+    },
+    {
+      "slug": "devereux-auto-detailing",
+      "name": "Devereux's Auto Detailing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/devereux-auto-detailing-audit.md",
+          "exists": true,
+          "size": 7404
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/devereux-auto-detailing-offer.md",
+          "exists": true,
+          "size": 1046
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/devereux-auto-detailing/index.html",
+          "exists": true,
+          "size": 22082
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/devereux-auto-detailing-target.png",
+          "exists": true,
+          "size": 4212792
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/devereux-auto-detailing-prototype.png",
+          "exists": true,
+          "size": 3807178
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6488,
+        "pixelSimilarity": 0.7645,
+        "edgeLayoutSimilarity": 0.6699,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.7144
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/devereux-auto-detailing-source-assets.md"
+    },
+    {
+      "slug": "clean-slate-pressure-washing",
+      "name": "Clean Slate Pressure Washing",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/clean-slate-pressure-washing-audit.md",
+          "exists": true,
+          "size": 10210
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/clean-slate-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1511
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/clean-slate-pressure-washing/index.html",
+          "exists": true,
+          "size": 21163
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/clean-slate-pressure-washing-target.png",
+          "exists": true,
+          "size": 2505373
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/clean-slate-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 1889972
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5497,
+        "pixelSimilarity": 0.6572,
+        "edgeLayoutSimilarity": 0.6607,
+        "perceptualHashSimilarity": 0.4688,
+        "weightedSimilarity": 0.6029
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/clean-slate-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "angels-tree-service",
+      "name": "Angel's Tree Service",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/angels-tree-service-audit.md",
+          "exists": true,
+          "size": 11131
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/angels-tree-service-offer.md",
+          "exists": true,
+          "size": 2664
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/angels-tree-service/index.html",
+          "exists": true,
+          "size": 21780
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/angels-tree-service-target.png",
+          "exists": true,
+          "size": 973160
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/angels-tree-service-prototype.png",
+          "exists": true,
+          "size": 1045383
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8533,
+        "pixelSimilarity": 0.7113,
+        "edgeLayoutSimilarity": 0.7051,
+        "perceptualHashSimilarity": 0.625,
+        "weightedSimilarity": 0.7323
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/angels-tree-service-source-assets.md"
+    },
+    {
+      "slug": "e-and-j-window-solar-cleaning",
+      "name": "E & J Window and Solar Panel Cleaning",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning-audit.md",
+          "exists": true,
+          "size": 9724
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning-offer.md",
+          "exists": true,
+          "size": 1398
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning/index.html",
+          "exists": true,
+          "size": 20679
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning-target.png",
+          "exists": true,
+          "size": 2989625
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning-prototype.png",
+          "exists": true,
+          "size": 1559980
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5596,
+        "pixelSimilarity": 0.4409,
+        "edgeLayoutSimilarity": 0.6439,
+        "perceptualHashSimilarity": 0.5625,
+        "weightedSimilarity": 0.5396
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/e-and-j-window-solar-cleaning-source-assets.md"
+    },
+    {
+      "slug": "loper-painting",
+      "name": "Loper Painting LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/loper-painting-audit.md",
+          "exists": true,
+          "size": 7355
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/loper-painting-offer.md",
+          "exists": true,
+          "size": 1296
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/loper-painting/index.html",
+          "exists": true,
+          "size": 25898
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/loper-painting-target.png",
+          "exists": true,
+          "size": 5249295
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/loper-painting-prototype.png",
+          "exists": true,
+          "size": 3580889
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4405,
+        "pixelSimilarity": 0.6997,
+        "edgeLayoutSimilarity": 0.6737,
+        "perceptualHashSimilarity": 0.5781,
+        "weightedSimilarity": 0.6102
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/loper-painting-source-assets.md"
+    },
+    {
+      "slug": "exacta-painting",
+      "name": "Exacta Painting LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/exacta-painting-audit.md",
+          "exists": true,
+          "size": 7437
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/exacta-painting-offer.md",
+          "exists": true,
+          "size": 1284
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/exacta-painting/index.html",
+          "exists": true,
+          "size": 18366
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/exacta-painting-target.png",
+          "exists": true,
+          "size": 2910467
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/exacta-painting-prototype.png",
+          "exists": true,
+          "size": 2964695
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4554,
+        "pixelSimilarity": 0.7016,
+        "edgeLayoutSimilarity": 0.6461,
+        "perceptualHashSimilarity": 0.6719,
+        "weightedSimilarity": 0.6217
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/exacta-painting-source-assets.md"
+    },
+    {
+      "slug": "m-m-cabinet-painting",
+      "name": "M + M Cabinet Painting LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/m-m-cabinet-painting-audit.md",
+          "exists": true,
+          "size": 7378
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/m-m-cabinet-painting-offer.md",
+          "exists": true,
+          "size": 1303
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/m-m-cabinet-painting/index.html",
+          "exists": true,
+          "size": 29009
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/m-m-cabinet-painting-target.png",
+          "exists": true,
+          "size": 5286396
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/m-m-cabinet-painting-prototype.png",
+          "exists": true,
+          "size": 2441120
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7347,
+        "pixelSimilarity": 0.749,
+        "edgeLayoutSimilarity": 0.73,
+        "perceptualHashSimilarity": 0.5781,
+        "weightedSimilarity": 0.715
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/m-m-cabinet-painting-source-assets.md"
+    },
+    {
+      "slug": "harris-pest-management",
+      "name": "Harris Pest Management",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/harris-pest-management-audit.md",
+          "exists": true,
+          "size": 8646
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/harris-pest-management-offer.md",
+          "exists": true,
+          "size": 1407
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/harris-pest-management/index.html",
+          "exists": true,
+          "size": 29556
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/harris-pest-management-target.png",
+          "exists": true,
+          "size": 1759746
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/harris-pest-management-prototype.png",
+          "exists": true,
+          "size": 2194101
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4155,
+        "pixelSimilarity": 0.581,
+        "edgeLayoutSimilarity": 0.6658,
+        "perceptualHashSimilarity": 0.5469,
+        "weightedSimilarity": 0.5557
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/harris-pest-management-source-assets.md"
+    },
+    {
+      "slug": "victory-1-roofing",
+      "name": "Victory 1 Roofing & Construction Inc",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-17-0200-nightly/victory-1-roofing-audit.md",
+          "exists": true,
+          "size": 6804
+        },
+        "offer": {
+          "path": "offers/2026-05-17-0200-nightly/victory-1-roofing-offer.md",
+          "exists": true,
+          "size": 1156
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-17-0200-nightly/victory-1-roofing/index.html",
+          "exists": true,
+          "size": 25378
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/victory-1-roofing-target.png",
+          "exists": true,
+          "size": 884509
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-17-0200-nightly/victory-1-roofing-prototype.png",
+          "exists": true,
+          "size": 1103161
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7118,
+        "pixelSimilarity": 0.6744,
+        "edgeLayoutSimilarity": 0.6493,
+        "perceptualHashSimilarity": 0.6875,
+        "weightedSimilarity": 0.6794
+      },
+      "sourceAssetsNote": "state/2026-05-17-0200-nightly/victory-1-roofing-source-assets.md"
+    }
+  ]
+}
