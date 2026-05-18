@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brandon Construction | New Jersey Remodeling & Construction</title>
+  <meta name="description" content="Brandon Construction provides remodeling, home renovation, hardscape, handyman, snow removal, and construction services across New Jersey. Call 848-223-1770 for an estimate." />
+  <style>
+    :root {
+      --navy: #1e2d3b;
+      --blue: #3d5975;
+      --yellow: #edcd1f;
+      --soft: #f7f7f7;
+      --text: #3b3a3a;
+      --muted: #edf4f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      background: #fff url('https://static.wixstatic.com/media/0da768_361994b0f154464682a0aaf9724471cc.png/v1/crop/x_0,y_0,w_56,h_56,q_85,enc_auto/0da768_361994b0f154464682a0aaf9724471cc.png') repeat;
+    }
+    a { color: inherit; text-decoration: none; }
+    .top-strip {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      background: #fff;
+      color: #20303c;
+      font-size: 16px;
+      box-shadow: inset 0 -1px rgba(0,0,0,.07);
+    }
+    .top-strip strong { color: var(--navy); font-weight: 700; }
+    .top-strip .mini-button {
+      border: 1px solid #166aea;
+      color: #166aea;
+      border-radius: 18px;
+      padding: 6px 18px 7px;
+      font-size: 14px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .site-header {
+      height: 100px;
+      background: var(--navy);
+      color: #fff;
+    }
+    .header-inner {
+      width: 940px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      font-size: 26px;
+      line-height: 1.04;
+      letter-spacing: .01em;
+      font-weight: 800;
+      color: #fff;
+      display: inline-block;
+    }
+    .brand span { display: block; }
+    .nav { display: flex; align-items: center; gap: 0; }
+    .nav a {
+      min-width: 108px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      letter-spacing: .04em;
+    }
+    .nav a:first-child { color: var(--yellow); }
+    .nav a.quote-nav {
+      margin-left: 8px;
+      min-width: 138px;
+      background: var(--yellow);
+      color: var(--navy);
+      font-weight: 800;
+    }
+    .hero {
+      height: 930px;
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      overflow: hidden;
+      background-image: linear-gradient(rgba(20,31,43,.46), rgba(20,31,43,.46)), url('https://static.wixstatic.com/media/11062b_4f14b356c1df4854968cf1cc94ca98c5f000.jpg/v1/fill/w_915,h_1080,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_4f14b356c1df4854968cf1cc94ca98c5f000.jpg');
+      background-size: cover;
+      background-position: center 48%;
+      color: #fff;
+      text-align: center;
+    }
+    .hero-content {
+      margin-top: 73px;
+      width: 740px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      margin: 0;
+      width: 710px;
+      font-size: 60px;
+      line-height: 1.1;
+      letter-spacing: .02em;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-shadow: 0 2px 14px rgba(0,0,0,.42);
+    }
+    .hero-subline {
+      margin-top: 25px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 18px;
+      background: rgba(30,45,59,.82);
+      border-left: 5px solid var(--yellow);
+      font-size: 17px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .hero-actions {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 13px;
+      flex-wrap: wrap;
+    }
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 25px;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      border: 2px solid var(--yellow);
+    }
+    .button.primary { background: var(--yellow); color: var(--navy); }
+    .button.secondary { color: #fff; background: rgba(30,45,59,.68); }
+    .hero-arrow {
+      margin-top: 25px;
+      width: 55px;
+      height: 31px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.4));
+    }
+    .section-title {
+      margin: 0;
+      color: var(--navy);
+      font-size: 55px;
+      line-height: 1.2;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: .01em;
+      text-transform: uppercase;
+    }
+    .yellow-line {
+      width: 80px;
+      height: 10px;
+      background: var(--yellow);
+      margin: 18px auto 0;
+    }
+    .services {
+      height: 806px;
+      padding-top: 57px;
+      background: #fff;
+    }
+    .cards {
+      width: 942px;
+      margin: 66px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      gap: 20px;
+    }
+    .service-card {
+      background: var(--soft);
+      min-height: 542px;
+    }
+    .service-card img {
+      width: 300px;
+      height: 225px;
+      display: block;
+      object-fit: cover;
+    }
+    .service-body {
+      min-height: 302px;
+      padding: 28px 27px 27px;
+      background: var(--soft);
+    }
+    .service-body h3 {
+      margin: 0 0 16px;
+      color: var(--blue);
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+    .service-body ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .service-body li::before { content: "*"; margin-right: 3px; color: var(--blue); }
+    .about {
+      height: 683px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .about-inner {
+      width: 940px;
+      height: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 430px 455px;
+      gap: 55px;
+      position: relative;
+    }
+    .about-copy { padding-top: 56px; }
+    .about .section-title { text-align: left; }
+    .about .yellow-line { margin-left: 0; }
+    .about p {
+      margin: 100px 0 0 7px;
+      width: 408px;
+      font-family: Helvetica, Arial, sans-serif;
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.65;
+      font-weight: 300;
+    }
+    .about-panel {
+      position: relative;
+      min-height: 683px;
+    }
+    .about-panel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 455px;
+      height: 390px;
+      object-fit: cover;
+    }
+    .blue-block {
+      position: absolute;
+      right: -92px;
+      bottom: 0;
+      width: 455px;
+      height: 293px;
+      background: #d5e8f3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 52px;
+      color: var(--navy);
+      text-align: center;
+      font-size: 20px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+    .stats {
+      height: 222px;
+      background: var(--yellow);
+      color: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .stats-grid {
+      width: 940px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
+    }
+    .stat { min-height: 118px; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid rgba(61,89,117,.42); }
+    .stat:last-child { border-right: 0; }
+    .stat strong { font-size: 48px; line-height: 1.05; color: var(--navy); font-weight: 900; }
+    .stat span { margin-top: 10px; font-size: 21px; line-height: 1.18; font-weight: 900; }
+    .projects {
+      padding: 59px 0 82px;
+      background: #fff;
+    }
+    .project-grid {
+      width: 940px;
+      margin: 96px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, 455px);
+      gap: 30px;
+    }
+    .project {
+      position: relative;
+      min-height: 455px;
+      background: #ddd;
+      overflow: hidden;
+    }
+    .project img { width: 455px; height: 455px; object-fit: cover; display: block; }
+    .caption {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      padding: 15px 18px;
+      background: rgba(30,45,59,.86);
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: .02em;
+    }
+    .contact {
+      position: relative;
+      min-height: 1258px;
+      padding-top: 92px;
+      background-image: linear-gradient(rgba(255,255,255,.30), rgba(255,255,255,.30)), url('https://static.wixstatic.com/media/61ab7c2dbbdb4bc8a10704bae481e52d.jpg/v1/fill/w_1440,h_1443,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/61ab7c2dbbdb4bc8a10704bae481e52d.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .contact .section-title { color: var(--navy); }
+    .contact-inner {
+      width: 940px;
+      margin: 345px auto 0;
+      display: grid;
+      grid-template-columns: 440px 397px;
+      gap: 43px;
+      align-items: start;
+    }
+    .contact-card,
+    .quote-card {
+      background: rgba(255,255,255,.86);
+      padding: 28px 34px;
+      box-shadow: 0 8px 30px rgba(30,45,59,.12);
+    }
+    .contact h4 {
+      margin: 0 0 18px;
+      color: var(--navy);
+      font-size: 25px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+    .contact p,
+    .quote-card li {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      margin: 0 0 14px;
+    }
+    .contact-form { margin-top: 28px; display: grid; gap: 10px; }
+    .contact-form label { display: block; position: relative; }
+    .contact-form span { position: absolute; left: 14px; top: 12px; font-size: 14px; color: #676767; }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 2px solid rgba(30,45,59,.45);
+      background: rgba(255,255,255,.92);
+      min-height: 53px;
+      padding: 22px 14px 8px;
+      font-size: 16px;
+      color: var(--navy);
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    .contact-form textarea { min-height: 149px; resize: vertical; }
+    .submit {
+      justify-self: end;
+      width: 149px;
+      height: 40px;
+      margin-top: 6px;
+      border: 0;
+      background: var(--navy);
+      color: var(--yellow);
+      font-size: 15px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .quote-card { padding-top: 30px; }
+    .quote-card .area { font-size: 23px; line-height: 1.5; }
+    .quote-card .big-link {
+      display: block;
+      margin: 8px 0;
+      color: var(--text);
+      font-size: 23px;
+      line-height: 1.42;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    .license { font-size: 23px; line-height: 1.42; font-family: Helvetica, Arial, sans-serif; margin-bottom: 34px; }
+    .quote-phone {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 0;
+      margin: 7px 0 37px;
+      color: var(--navy);
+      font-size: 31px;
+      font-weight: 900;
+      letter-spacing: .01em;
+    }
+    .quote-card ul { list-style: none; padding: 0; margin: 0 0 28px; }
+    .quote-card li::before { content: "•"; color: var(--yellow); font-weight: 900; margin-right: 9px; }
+    .socials { display: flex; gap: 50px; margin-top: 30px; align-items: center; }
+    .socials img { width: 55px; height: 55px; object-fit: contain; }
+    footer {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      color: #3b3a3a;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .sticky-call {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 9;
+      background: var(--yellow);
+      color: var(--navy);
+      border-radius: 0;
+      padding: 14px 18px;
+      box-shadow: 0 8px 22px rgba(0,0,0,.22);
+      font-weight: 900;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+    @media (max-width: 900px) {
+      .top-strip { height: auto; min-height: 50px; padding: 9px 16px; text-align: center; flex-wrap: wrap; }
+      .site-header { height: auto; }
+      .header-inner, .cards, .about-inner, .stats-grid, .project-grid, .contact-inner { width: min(92vw, 520px); }
+      .header-inner { min-height: 118px; padding: 22px 0; flex-direction: column; gap: 18px; }
+      .nav { flex-wrap: wrap; justify-content: center; }
+      .nav a { min-width: auto; padding: 0 12px; }
+      .nav a.quote-nav { min-width: 132px; }
+      .hero { height: 760px; }
+      .hero-content { width: 92vw; margin-top: 80px; }
+      h1 { width: auto; font-size: clamp(38px, 10vw, 56px); }
+      .hero-subline { font-size: 13px; }
+      .services { height: auto; padding: 55px 0 65px; }
+      .cards, .project-grid, .contact-inner, .about-inner { display: grid; grid-template-columns: 1fr; gap: 24px; }
+      .service-card, .service-card img { width: 100%; }
+      .service-card img { height: 225px; }
+      .about { height: auto; padding-bottom: 60px; }
+      .about-copy { padding-top: 30px; }
+      .about p { margin: 45px 0 0; width: auto; }
+      .about-panel { min-height: 560px; }
+      .about-panel img { width: 100%; height: 320px; }
+      .blue-block { right: 0; width: 100%; height: 240px; }
+      .stats { height: auto; padding: 35px 0; }
+      .stats-grid { grid-template-columns: 1fr 1fr; gap: 0; }
+      .stat { border-bottom: 1px solid rgba(61,89,117,.42); }
+      .stat:nth-child(2n) { border-right: 0; }
+      .project img, .project { width: 100%; height: auto; min-height: 320px; }
+      .contact { padding: 70px 0; min-height: auto; }
+      .contact-inner { margin-top: 110px; }
+      .quote-phone { font-size: 25px; }
+      .sticky-call { left: 0; right: 0; bottom: 0; text-align: center; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">
+    <span><strong>New Jersey remodeling estimates</strong> from Brandon Construction</span>
+    <a class="mini-button" href="tel:8482231770">Call 848-223-1770</a>
+  </div>
+
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Brandon Construction home"><span>Brandon</span><span>Construction</span></a>
+      <nav class="nav" aria-label="Site navigation">
+        <a href="#home">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <a class="quote-nav" href="tel:8482231770">GET A QUOTE</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Brandon Construction hero">
+      <div class="hero-content">
+        <h1>Leaders in Quality Construction and Infrastructure</h1>
+        <div class="hero-subline">Remodeling, construction, hardscape and handyman work across New Jersey</div>
+        <div class="hero-actions">
+          <a class="button primary" href="tel:8482231770">Call for an Estimate</a>
+          <a class="button secondary" href="mailto:br4nd0nconstruction@gmail.com">Email Project Details</a>
+        </div>
+        <img class="hero-arrow" src="https://static.wixstatic.com/media/c19c76_376dc1d20bd348b99c4a732a1d6d7c81.png/v1/fill/w_55,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c19c76_376dc1d20bd348b99c4a732a1d6d7c81.png" alt="Scroll to services" />
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="section-title">Services</h2>
+      <div class="yellow-line" aria-hidden="true"></div>
+      <div class="cards">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/nsplsh_4942305641365664714277~mv2_d_5464_3640_s_4_2.jpg/v1/fill/w_300,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Avel%20Chuklanov.jpg" alt="Home renovation and interior construction planning" />
+          <div class="service-body">
+            <h3>Home Renovations</h3>
+            <ul>
+              <li>painting</li>
+              <li>drywall and framing</li>
+              <li>roofing</li>
+              <li>doors and windows</li>
+              <li>flooring, ceramic and tile</li>
+            </ul>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/nsplsh_c1b1bae4386344bea4ed77003b14b903~mv2.jpg/v1/fill/w_300,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Tungsten%20Rising.jpg" alt="Landscape and hardscape construction work" />
+          <div class="service-body">
+            <h3>Landscape/ Hardscape</h3>
+            <ul>
+              <li>French drains and grading</li>
+              <li>fence install and foundations</li>
+              <li>custom decks and hardscape</li>
+              <li>land clearing, tree removal and demo</li>
+              <li>paving, concrete and snow removal</li>
+            </ul>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/nsplsh_4c39346457584e4b777259~mv2_d_3264_4928_s_4_2.jpg/v1/fill/w_300,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20jesse%20orrico.jpg" alt="General handyman and repair work" />
+          <div class="service-body">
+            <h3>No Project Is Too Big or Too Small</h3>
+            <ul>
+              <li>handyman projects</li>
+              <li>pressure washing</li>
+              <li>water heater install/removal</li>
+              <li>window screens and custom designs</li>
+              <li>glass, mirror and plumbing repairs</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-copy">
+          <h2 class="section-title">About</h2>
+          <div class="yellow-line" aria-hidden="true"></div>
+          <p>Brandon Construction has built a reputation for quick estimates, attention to detail, and competitive pricing. We service residential and commercial properties across New Jersey, helping homeowners and businesses give each project the attention it deserves. Call us today and let's get started.</p>
+        </div>
+        <div class="about-panel">
+          <img src="https://static.wixstatic.com/media/c19c76_427a7bbf62474f74968cb087499c7a3e.jpg/v1/fill/w_1086,h_1282,al_c,q_85,enc_avif,quality_auto/c19c76_427a7bbf62474f74968cb087499c7a3e.jpg" alt="Construction framing and building work" />
+          <div class="blue-block">Licensed New Jersey contractor<br>Lic# 13VH13023200<br>Residential and commercial estimates</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Brandon Construction proof points">
+      <div class="stats-grid">
+        <div class="stat"><strong>2010</strong><span>Year Established</span></div>
+        <div class="stat"><strong>1,200</strong><span>Projects Completed</span></div>
+        <div class="stat"><strong>13VH</strong><span>NJ Home Improvement License</span></div>
+        <div class="stat"><strong>NJ</strong><span>Residential & Commercial</span></div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="yellow-line" aria-hidden="true"></div>
+      <div class="project-grid">
+        <figure class="project">
+          <img src="https://static.wixstatic.com/media/ef7ea5acd46045038a8f5e469335fe51.jpg/v1/fill/w_455,h_455,q_90,enc_avif,quality_auto/ef7ea5acd46045038a8f5e469335fe51.jpg" alt="Construction project exterior view" />
+          <figcaption class="caption">Renovation and build-out planning</figcaption>
+        </figure>
+        <figure class="project">
+          <img src="https://static.wixstatic.com/media/nsplsh_8ae2e743e4ca47e2ab68d748fce815f5~mv2.jpg/v1/fill/w_455,h_455,q_90,enc_avif,quality_auto/nsplsh_8ae2e743e4ca47e2ab68d748fce815f5~mv2.jpg" alt="Hardscape and exterior project image" />
+          <figcaption class="caption">Exterior, hardscape and site work</figcaption>
+        </figure>
+        <figure class="project">
+          <img src="https://static.wixstatic.com/media/nsplsh_4119dc5993384327aee37763210d41cd~mv2.jpg/v1/fill/w_455,h_455,q_90,enc_avif,quality_auto/nsplsh_4119dc5993384327aee37763210d41cd~mv2.jpg" alt="Building materials and construction project detail" />
+          <figcaption class="caption">Repair, installation and finish work</figcaption>
+        </figure>
+        <figure class="project">
+          <img src="https://static.wixstatic.com/media/11062b_5a06d1dc45cb46099d83e358d4ffce39~mv2.jpeg/v1/fill/w_455,h_455,q_90,enc_avif,quality_auto/11062b_5a06d1dc45cb46099d83e358d4ffce39~mv2.jpeg" alt="Construction equipment and worksite image" />
+          <figcaption class="caption">Residential and commercial support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="yellow-line" aria-hidden="true"></div>
+      <div class="contact-inner">
+        <div class="contact-card">
+          <h4>Snow removal</h4>
+          <p><strong>Residential and commercial snow removal.</strong> Call or text: <a href="tel:8482231770">848-223-1770</a></p>
+          <h4>Contact Us</h4>
+          <p>For renovation, hardscape, handyman, or snow work, send your project address, photos, and the best time to call back.</p>
+          <form class="contact-form" action="mailto:br4nd0nconstruction@gmail.com" method="post" enctype="text/plain">
+            <label><span>First Name</span><input name="First Name" autocomplete="given-name" /></label>
+            <label><span>Last Name</span><input name="Last Name" autocomplete="family-name" /></label>
+            <label><span>Email</span><input name="Email" type="email" autocomplete="email" /></label>
+            <label><span>Subject</span><input name="Subject" /></label>
+            <label><span>Message</span><textarea name="Message"></textarea></label>
+            <button class="submit" type="submit">Submit</button>
+          </form>
+        </div>
+        <aside class="quote-card" aria-label="Brandon Construction contact information">
+          <p class="area">We service all New Jersey!</p>
+          <a class="big-link" href="mailto:br4nd0nconstruction@gmail.com">br4nd0nconstruction@gmail.com</a>
+          <a class="big-link" href="tel:8482231770">Tel: 848-223-1770</a>
+          <div class="license">Lic# 13VH13023200</div>
+          <a class="quote-phone" href="tel:8482231770">Get a quote: 848-223-1770</a>
+          <ul>
+            <li>Fast estimate path for remodels and repairs</li>
+            <li>Clear categories for renovation, hardscape, and handyman needs</li>
+            <li>License and service-area information visible before the form</li>
+          </ul>
+          <div class="socials" aria-label="Social links from current Wix site">
+            <a href="https://www.facebook.com/wix" aria-label="Facebook"><img src="https://static.wixstatic.com/media/11062b_2381e8a6e7444f4f902e7b649aa3f0ac~mv2.png/v1/fill/w_55,h_55,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_2381e8a6e7444f4f902e7b649aa3f0ac~mv2.png" alt="Facebook" /></a>
+            <a href="https://www.linkedin.com/company/wix-com" aria-label="Instagram"><img src="https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_55,h_55,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png" alt="Instagram" /></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 by Brandon Construction. New Jersey construction, remodeling, hardscape and handyman services.</footer>
+  <a class="sticky-call" href="tel:8482231770">Call 848-223-1770</a>
+</body>
+</html>

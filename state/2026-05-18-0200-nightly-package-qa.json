@@ -1,0 +1,348 @@
+{
+  "batch": "2026-05-18-0200-nightly",
+  "batchJson": "opportunities/2026-05-18-0200-nightly/batch.json",
+  "itemsInBatchJson": 8,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 8,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "syverson-pressure-washing",
+      "name": "Syverson Pressure Washing LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/syverson-pressure-washing-audit.md",
+          "exists": true,
+          "size": 6764
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/syverson-pressure-washing-offer.md",
+          "exists": true,
+          "size": 1073
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/syverson-pressure-washing/index.html",
+          "exists": true,
+          "size": 15617
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/syverson-pressure-washing-target.png",
+          "exists": true,
+          "size": 997144
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/syverson-pressure-washing-prototype.png",
+          "exists": true,
+          "size": 1110405
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8387,
+        "pixelSimilarity": 0.8099,
+        "edgeLayoutSimilarity": 0.7549,
+        "perceptualHashSimilarity": 0.8438,
+        "weightedSimilarity": 0.8084
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/syverson-pressure-washing-source-assets.md"
+    },
+    {
+      "slug": "ark-property-services",
+      "name": "Ark Property Services, LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/ark-property-services-audit.md",
+          "exists": true,
+          "size": 8509
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/ark-property-services-offer.md",
+          "exists": true,
+          "size": 1354
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/ark-property-services/index.html",
+          "exists": true,
+          "size": 13129
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/ark-property-services-target.png",
+          "exists": true,
+          "size": 1682108
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/ark-property-services-prototype.png",
+          "exists": true,
+          "size": 1368587
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8584,
+        "pixelSimilarity": 0.774,
+        "edgeLayoutSimilarity": 0.6883,
+        "perceptualHashSimilarity": 0.6562,
+        "weightedSimilarity": 0.756
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/ark-property-services-source-assets.md"
+    },
+    {
+      "slug": "brandon-construction",
+      "name": "Brandon Construction",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/brandon-construction-audit.md",
+          "exists": true,
+          "size": 11679
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/brandon-construction-offer.md",
+          "exists": true,
+          "size": 1143
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/brandon-construction/index.html",
+          "exists": true,
+          "size": 23961
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/brandon-construction-target.png",
+          "exists": true,
+          "size": 5131301
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/brandon-construction-prototype.png",
+          "exists": true,
+          "size": 4420449
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5882,
+        "pixelSimilarity": 0.8161,
+        "edgeLayoutSimilarity": 0.7545,
+        "perceptualHashSimilarity": 0.7188,
+        "weightedSimilarity": 0.7291
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/brandon-construction-source-assets.md"
+    },
+    {
+      "slug": "karims-pro-service",
+      "name": "Karim's Pro Service Etc",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/karims-pro-service-audit.md",
+          "exists": true,
+          "size": 7714
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/karims-pro-service-offer.md",
+          "exists": true,
+          "size": 1251
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/karims-pro-service/index.html",
+          "exists": true,
+          "size": 21241
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/karims-pro-service-target.png",
+          "exists": true,
+          "size": 1086457
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/karims-pro-service-prototype.png",
+          "exists": true,
+          "size": 3415130
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3956,
+        "pixelSimilarity": 0.8681,
+        "edgeLayoutSimilarity": 0.7529,
+        "perceptualHashSimilarity": 0.8438,
+        "weightedSimilarity": 0.7175
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/karims-pro-service-source-assets.md"
+    },
+    {
+      "slug": "gonzalez-handyman-junk-removal",
+      "name": "Gonzalez Handyman and Junk Removal Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal-audit.md",
+          "exists": true,
+          "size": 10174
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal-offer.md",
+          "exists": true,
+          "size": 1327
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal/index.html",
+          "exists": true,
+          "size": 18803
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal-target.png",
+          "exists": true,
+          "size": 3208927
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal-prototype.png",
+          "exists": true,
+          "size": 3285511
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5718,
+        "pixelSimilarity": 0.8683,
+        "edgeLayoutSimilarity": 0.7688,
+        "perceptualHashSimilarity": 0.9375,
+        "weightedSimilarity": 0.7797
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/gonzalez-handyman-junk-removal-source-assets.md"
+    },
+    {
+      "slug": "home-fixers",
+      "name": "Home Fixers LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/home-fixers-audit.md",
+          "exists": true,
+          "size": 8778
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/home-fixers-offer.md",
+          "exists": true,
+          "size": 1376
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/home-fixers/index.html",
+          "exists": true,
+          "size": 26367
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/home-fixers-target.png",
+          "exists": true,
+          "size": 1513691
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/home-fixers-prototype.png",
+          "exists": true,
+          "size": 1883179
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4596,
+        "pixelSimilarity": 0.804,
+        "edgeLayoutSimilarity": 0.7469,
+        "perceptualHashSimilarity": 0.8438,
+        "weightedSimilarity": 0.7096
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/home-fixers-source-assets.md"
+    },
+    {
+      "slug": "home-hero",
+      "name": "Home Hero",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/home-hero-audit.md",
+          "exists": true,
+          "size": 8363
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/home-hero-offer.md",
+          "exists": true,
+          "size": 1343
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/home-hero/index.html",
+          "exists": true,
+          "size": 18643
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/home-hero-target.png",
+          "exists": true,
+          "size": 1464728
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/home-hero-prototype.png",
+          "exists": true,
+          "size": 1466341
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9488,
+        "pixelSimilarity": 0.8687,
+        "edgeLayoutSimilarity": 0.7917,
+        "perceptualHashSimilarity": 0.9531,
+        "weightedSimilarity": 0.8821
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/home-hero-source-assets.md"
+    },
+    {
+      "slug": "first-generation-fencing",
+      "name": "First Generation Fencing Inc",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-18-0200-nightly/first-generation-fencing-audit.md",
+          "exists": true,
+          "size": 12793
+        },
+        "offer": {
+          "path": "offers/2026-05-18-0200-nightly/first-generation-fencing-offer.md",
+          "exists": true,
+          "size": 2558
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-18-0200-nightly/first-generation-fencing/index.html",
+          "exists": true,
+          "size": 18260
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/first-generation-fencing-target.png",
+          "exists": true,
+          "size": 1710248
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-18-0200-nightly/first-generation-fencing-prototype.png",
+          "exists": true,
+          "size": 2467274
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6443,
+        "pixelSimilarity": 0.7381,
+        "edgeLayoutSimilarity": 0.623,
+        "perceptualHashSimilarity": 0.7344,
+        "weightedSimilarity": 0.6853
+      },
+      "sourceAssetsNote": "state/2026-05-18-0200-nightly/first-generation-fencing-source-assets.md"
+    }
+  ]
+}

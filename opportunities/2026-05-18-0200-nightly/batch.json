@@ -1,0 +1,105 @@
+{
+  "batch": "2026-05-18-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-18 02:00 America/Chicago",
+  "curatedCount": 8,
+  "notes": "Selected from 22 inspected candidate Wix/small-site local-service leads. Two initially selected workers timed out and were dropped before finalization so only complete packages are included.",
+  "items": [
+    {
+      "slug": "syverson-pressure-washing",
+      "name": "Syverson Pressure Washing LLC",
+      "url": "https://syversonpressurewa.wixsite.com/site",
+      "contact": "mailto:SyversonPressureWashingllc@gmail.com",
+      "phone": "507-990-9251",
+      "vertical": "pressure washing",
+      "location": "Rochester, MN",
+      "priority": "A-",
+      "summary": "Rochester pressure-washing Wix site with real branding, service range, Jobber quote link, contact info, and a customer review; prototype tightens the first-screen service message, proof, and quote path.",
+      "angle": "make the first screen clearly say Rochester pressure washing, surface-safe services, proof, and a faster quote path"
+    },
+    {
+      "slug": "ark-property-services",
+      "name": "Ark Property Services, LLC",
+      "url": "https://arkpsllc1.wixsite.com/aps1/property-services",
+      "contact": "mailto:arkpsllc@gmail.com",
+      "phone": "810-355-6352",
+      "vertical": "property services",
+      "location": "Michigan",
+      "priority": "A-",
+      "summary": "Michigan property-services Wix page with project photos, phone/email, and broad service scope; prototype corrects template leftovers, clarifies services, and moves estimate actions higher.",
+      "angle": "make the page consistently say Ark Property Services, show call and email-photo options near the top, label the main services, and clean up template leftovers"
+    },
+    {
+      "slug": "brandon-construction",
+      "name": "Brandon Construction",
+      "url": "https://br4nd0nconstructio.wixsite.com/my-site",
+      "contact": "mailto:br4nd0nconstruction@gmail.com",
+      "phone": "848-223-1770",
+      "vertical": "construction and remodeling",
+      "location": "New Jersey",
+      "priority": "A-",
+      "summary": "New Jersey construction/remodeling Wix site with service categories, license number, phone/email, and contact form; prototype improves first impression, service clarity, proof, and estimate flow.",
+      "angle": "make the page feel like a real local remodeling option in the first few seconds with clearer services, trust cues, and estimate actions"
+    },
+    {
+      "slug": "karims-pro-service",
+      "name": "Karim's Pro Service Etc",
+      "url": "https://karimfields030.wixsite.com/my-site",
+      "contact": "mailto:fieldskarim8@gmail.com",
+      "phone": "762-225-8934",
+      "vertical": "handyman and exterior services",
+      "location": "Georgia",
+      "priority": "A-",
+      "summary": "Georgia handyman/exterior-services Wix page with phone, email, services, family-owned wording, testimonials, and a quote form; prototype clarifies top services and the quote request path.",
+      "angle": "make handyman and exterior services clearer in the first screen, add stronger call/email buttons, and explain what to send for a quote"
+    },
+    {
+      "slug": "gonzalez-handyman-junk-removal",
+      "name": "Gonzalez Handyman and Junk Removal Services",
+      "url": "https://handymanandjunkser.wixsite.com/gonzalez-handyman-an",
+      "contact": "mailto:handymanandjunkservices@gmail.com",
+      "phone": "209-867-7165",
+      "vertical": "handyman and junk removal",
+      "location": "Stockton, CA",
+      "priority": "A-",
+      "summary": "Stockton handyman and junk-removal Wix site with logo, phone/email, location, service prices, and multiple service pages; prototype routes visitors to the right service and stronger call/request actions.",
+      "angle": "keep the bold red Gonzalez look while routing visitors clearly to handyman repairs, general maintenance, or junk removal with stronger call and request-service actions"
+    },
+    {
+      "slug": "home-fixers",
+      "name": "Home Fixers LLC",
+      "url": "https://txhomefixers.wixsite.com/san-antonio",
+      "contact": "mailto:homefixerstx@gmail.com",
+      "phone": "210-777-1123",
+      "vertical": "handyman and home repair",
+      "location": "San Antonio, TX",
+      "priority": "A-",
+      "summary": "San Antonio handyman Wix site with service areas, licensed/insured messaging, badges, long service list, and a contact form; prototype raises service clarity, trust cues, and phone/email estimate actions.",
+      "angle": "make the first screen clearly say San Antonio handyman and home repair services, add stronger call/email actions, bring trust cues higher, and make common services easier to scan"
+    },
+    {
+      "slug": "home-hero",
+      "name": "Home Hero",
+      "url": "https://afrotcdet115.wixsite.com/home-hero",
+      "contact": "mailto:cthomehero@gmail.com",
+      "phone": "954-299-2229",
+      "vertical": "gutter and home services",
+      "location": "Storrs/Mansfield, CT",
+      "priority": "A-",
+      "summary": "Memorable superhero-themed Wix site with real service photo, contact info, and quote form; prototype keeps the personality while clarifying services, local availability, and next steps.",
+      "angle": "keep the Home Hero personality while making the hero copy more readable, clarifying services and CT service area, and tightening the quote instructions"
+    },
+    {
+      "slug": "first-generation-fencing",
+      "name": "First Generation Fencing Inc",
+      "url": "https://firstgenerationfen.wixsite.com/first-generation-fen",
+      "contact": "mailto:Firstgenerationfencing.inc@gmail.com",
+      "phone": "916-450-8016",
+      "vertical": "fence installation",
+      "location": "Sacramento, CA",
+      "priority": "A-",
+      "summary": "Sacramento fence-installation Wix site with license number, phone, local areas, and project imagery; prototype improves estimate CTAs, service detail, testimonial visibility, and placeholder sections.",
+      "angle": "make call and email estimate actions more obvious, bring service areas and fence materials higher, and replace blank-looking sections with useful estimate and testimonial content"
+    }
+  ]
+}

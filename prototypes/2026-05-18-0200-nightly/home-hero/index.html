@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Hero | Home Services Near Storrs CT</title>
+  <meta name="description" content="Home Hero provides gutter cleaning, window cleaning, leaf cleanup, holiday lighting, interior cleaning, and home help around Storrs and Mansfield CT." />
+  <style>
+    @font-face {
+      font-family: "Reklame";
+      src: url("https://static.parastorage.com/fonts/v2/23429df5-0e83-4edd-99dc-6eba8a3adec7/v1/reklamescriptw00-medium.latin.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "SrirachaWix";
+      src: url("https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/sriracha/v5/0nkrC9D4IuYBgWcI9NbfTwHAovb1.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "WixMadefor";
+      src: url("https://static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/WixMadefor/v3/WixMadeforTextVF_W_Wght.woff2") format("woff2");
+      font-weight: 400 800;
+      font-style: normal;
+      font-display: block;
+    }
+
+    :root {
+      --hero-red: rgb(249, 3, 3);
+      --hero-red-deep: rgb(226, 28, 33);
+      --hero-yellow: #fff200;
+      --soft-line: rgba(226, 28, 33, .92);
+      --shadow: rgba(0,0,0,.46);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #fff; color: var(--hero-red); }
+    body { width: 100%; min-width: 1120px; font-family: Arial, Helvetica, sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    .wix-top {
+      height: 50px;
+      border-bottom: 1px solid #d8e8ff;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: WixMadefor, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #20303c;
+      letter-spacing: -.1px;
+      gap: 18px;
+    }
+    .wix-mark { font-weight: 800; font-size: 22px; letter-spacing: 1px; color: #111; }
+    .wix-rule { width: 1px; height: 24px; background: #c8d2dc; }
+    .top-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 112px;
+      height: 32px;
+      border: 1px solid #166aea;
+      border-radius: 18px;
+      color: #166aea;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    header {
+      position: relative;
+      height: 184px;
+      background: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 45px;
+      top: 15px;
+      font-family: Reklame, "Brush Script MT", cursive;
+      font-size: 80px;
+      line-height: 1;
+      color: var(--hero-red-deep);
+      text-shadow: 2px 7px 0 rgba(65, 65, 65, .54);
+      white-space: nowrap;
+    }
+    nav {
+      position: absolute;
+      left: 546px;
+      top: 42px;
+      display: flex;
+      gap: 33px;
+      align-items: center;
+      font-family: SrirachaWix, "Comic Sans MS", cursive;
+      font-size: 30px;
+      line-height: 1.2;
+      color: var(--hero-red-deep);
+    }
+    nav a.active { color: var(--hero-yellow); text-shadow: 1px 2px 0 rgba(70,70,70,.35); }
+    .call-btn {
+      position: absolute;
+      right: 92px;
+      top: 55px;
+      width: 148px;
+      height: 46px;
+      border: 2px solid var(--hero-yellow);
+      border-radius: 25px;
+      background: var(--hero-red);
+      color: var(--hero-yellow);
+      font-family: SrirachaWix, cursive;
+      font-size: 21px;
+      line-height: 42px;
+      text-align: center;
+      box-shadow: none;
+    }
+
+    .hero {
+      position: relative;
+      height: 660px;
+      overflow: hidden;
+      background: #ddd;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("https://static.wixstatic.com/media/29fbe6_452876192b5e4082b0472118f5fdd871~mv2.jpg/v1/fill/w_960,h_464,al_c,q_85,enc_avif,quality_auto/29fbe6_452876192b5e4082b0472118f5fdd871~mv2.jpg");
+      background-size: cover;
+      background-position: center center;
+      transform: scale(1.001);
+    }
+    .hero h1 {
+      position: absolute;
+      left: 57px;
+      top: -1px;
+      width: 735px;
+      margin: 0;
+      font-family: Reklame, "Brush Script MT", cursive;
+      font-size: 96px;
+      line-height: .9;
+      font-weight: 400;
+      color: var(--hero-red-deep);
+      text-shadow: 2px 7px 0 rgba(60, 60, 60, .50);
+      letter-spacing: -.5px;
+    }
+    .hero-copy {
+      position: absolute;
+      left: 55px;
+      top: 268px;
+      width: 590px;
+      margin: 0;
+      font-family: SrirachaWix, cursive;
+      font-size: 34px;
+      line-height: 1.42;
+      font-weight: 700;
+      color: var(--hero-red-deep);
+      text-shadow: 1px 3px 0 rgba(255,255,255,.25), 2px 5px 0 rgba(60, 60, 60, .34);
+    }
+    .hero-chip {
+      position: absolute;
+      right: 72px;
+      bottom: 52px;
+      height: 46px;
+      padding: 4px 22px 0;
+      border: 2px solid var(--hero-yellow);
+      border-radius: 26px;
+      background: rgba(249,3,3,.92);
+      color: var(--hero-yellow);
+      font-family: SrirachaWix, cursive;
+      font-size: 23px;
+      line-height: 36px;
+      box-shadow: 0 4px 13px rgba(0,0,0,.20);
+    }
+
+    .quote-section {
+      position: relative;
+      height: 1506px;
+      background: #fff;
+    }
+    .quote-anchor {
+      position: absolute;
+      top: 24px;
+      left: 205px;
+      font-family: SrirachaWix, cursive;
+      font-size: 18px;
+      color: var(--hero-red-deep);
+    }
+    .quote-left h2 {
+      position: absolute;
+      left: 205px;
+      top: 254px;
+      width: 360px;
+      margin: 0;
+      font-family: Reklame, "Brush Script MT", cursive;
+      font-size: 60px;
+      line-height: .92;
+      font-weight: 400;
+      color: var(--hero-red-deep);
+    }
+    .quote-left p {
+      position: absolute;
+      left: 205px;
+      top: 474px;
+      width: 330px;
+      margin: 0;
+      font-family: SrirachaWix, cursive;
+      font-size: 19px;
+      line-height: 1.6;
+      color: var(--hero-red-deep);
+    }
+    .quick-steps {
+      position: absolute;
+      left: 205px;
+      top: 670px;
+      width: 345px;
+      padding: 18px 20px 20px;
+      border: 2px solid var(--hero-red-deep);
+      border-radius: 26px;
+      font-family: SrirachaWix, cursive;
+      color: var(--hero-red-deep);
+      background: #fff;
+    }
+    .quick-steps strong {
+      display: block;
+      font-family: Reklame, cursive;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    .quick-steps span { display: block; font-size: 18px; line-height: 1.42; margin: 7px 0; }
+
+    .quote-form {
+      position: absolute;
+      left: 707px;
+      top: 60px;
+      width: 442px;
+      font-family: SrirachaWix, cursive;
+      color: var(--hero-red-deep);
+    }
+    .quote-form h2 {
+      margin: 0 0 20px;
+      height: 45px;
+      font-family: SrirachaWix, cursive;
+      font-size: 30px;
+      line-height: 45px;
+      font-weight: 400;
+      letter-spacing: .1px;
+      color: var(--hero-red-deep);
+    }
+    .field { margin: 0 0 25px; }
+    .field label, .choice-title {
+      display: block;
+      margin: 0 0 9px;
+      font-size: 18px;
+      line-height: 1.18;
+      color: var(--hero-red-deep);
+    }
+    .line-input {
+      display: block;
+      width: 100%;
+      height: 31px;
+      border: 0;
+      border-bottom: 1px solid var(--soft-line);
+      outline: 0;
+      background: transparent;
+      color: var(--hero-red-deep);
+      font: 18px SrirachaWix, cursive;
+    }
+    textarea.line-input { height: 74px; resize: none; padding-top: 8px; }
+    .choices { margin: 0 0 26px; }
+    .choice-stack { display: grid; grid-template-columns: 1fr; gap: 11px; margin-top: 5px; }
+    .service-stack { gap: 10px; }
+    .choice {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-size: 17px;
+      line-height: 1.3;
+      color: var(--hero-red-deep);
+    }
+    .box {
+      width: 16px;
+      height: 16px;
+      border: 1.4px solid var(--hero-red-deep);
+      background: #fff;
+      flex: 0 0 auto;
+    }
+    .submit {
+      margin-top: 29px;
+      width: 442px;
+      height: 51px;
+      border: 2px solid var(--hero-yellow);
+      border-radius: 26px;
+      background: var(--hero-red);
+      color: var(--hero-yellow);
+      font-family: SrirachaWix, cursive;
+      font-size: 21px;
+      cursor: default;
+    }
+
+    .why {
+      position: relative;
+      height: 513px;
+      background: #fff;
+    }
+    .why h2 {
+      position: absolute;
+      left: 80px;
+      top: 115px;
+      width: 560px;
+      margin: 0;
+      font-family: Reklame, cursive;
+      font-size: 60px;
+      line-height: 1;
+      font-weight: 400;
+      color: var(--hero-red-deep);
+    }
+    .why p {
+      position: absolute;
+      left: 786px;
+      top: 76px;
+      width: 420px;
+      margin: 0;
+      font-family: SrirachaWix, cursive;
+      font-size: 19px;
+      line-height: 1.65;
+      color: var(--hero-red-deep);
+    }
+    .why-line {
+      position: absolute;
+      left: 60px;
+      right: 60px;
+      top: 340px;
+      height: 1px;
+      background: var(--hero-red-deep);
+    }
+    .features {
+      position: absolute;
+      left: 60px;
+      top: 340px;
+      width: 1245px;
+      height: 173px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 26px;
+      font-family: Reklame, cursive;
+      font-size: 30px;
+      line-height: 1.18;
+      color: var(--hero-red-deep);
+    }
+
+    footer {
+      position: relative;
+      height: 265px;
+      background: var(--hero-red);
+      color: #fff;
+      overflow: hidden;
+    }
+    footer h2 {
+      position: absolute;
+      left: 104px;
+      top: 79px;
+      width: 520px;
+      margin: 0;
+      font-family: Reklame, cursive;
+      font-size: 60px;
+      line-height: 1;
+      font-weight: 400;
+      color: #fff;
+    }
+    .copyright {
+      position: absolute;
+      left: 104px;
+      bottom: 36px;
+      margin: 0;
+      font-family: SrirachaWix, cursive;
+      font-size: 14px;
+      color: #fff;
+    }
+    .contact-card {
+      position: absolute;
+      left: 799px;
+      top: 72px;
+      width: 380px;
+      font-family: SrirachaWix, cursive;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #fff;
+    }
+    .contact-card p { margin: 0 0 6px; }
+    .social {
+      display: flex;
+      gap: 10px;
+      margin-top: 26px;
+      align-items: center;
+    }
+    .social img {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+    }
+
+    @media (max-width: 900px) {
+      body { min-width: 0; }
+      .wix-top { padding: 0 16px; gap: 8px; justify-content: flex-start; font-size: 13px; }
+      header { height: auto; padding: 22px 22px 30px; }
+      .brand, nav, .call-btn { position: static; }
+      .brand { display: block; font-size: 58px; margin-bottom: 15px; }
+      nav { flex-wrap: wrap; gap: 18px; font-size: 24px; margin-bottom: 20px; }
+      .call-btn { display: inline-block; }
+      .hero { height: 590px; }
+      .hero h1 { left: 24px; top: 28px; width: 85%; font-size: 66px; }
+      .hero-copy { left: 24px; top: 220px; width: 82%; font-size: 27px; }
+      .hero-chip { left: 24px; right: auto; bottom: 28px; }
+      .quote-section, .why, footer { height: auto; min-height: 0; padding: 48px 24px; }
+      .quote-anchor, .quote-left h2, .quote-left p, .quick-steps, .quote-form, .why h2, .why p, .why-line, .features, footer h2, .copyright, .contact-card {
+        position: static;
+        width: auto;
+      }
+      .quote-form { margin-top: 36px; }
+      .submit { width: 100%; }
+      .features { display: grid; grid-template-columns: 1fr; height: auto; margin-top: 28px; }
+      .feature { min-height: 70px; }
+      footer h2, .contact-card, .copyright { margin-bottom: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wix-top" aria-label="local service notice">
+    <span class="wix-mark">WIX</span>
+    <span class="wix-rule" aria-hidden="true"></span>
+    <span>Local home help for Storrs, Mansfield, and nearby CT homeowners.</span>
+    <a class="top-pill" href="tel:954-299-2229">Call / Text</a>
+  </div>
+
+  <header>
+    <a class="brand" href="https://afrotcdet115.wixsite.com/home-hero">Home Hero</a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="https://afrotcdet115.wixsite.com/home-hero">Home</a>
+      <a href="https://afrotcdet115.wixsite.com/home-hero/services-4">Services</a>
+      <a href="https://afrotcdet115.wixsite.com/home-hero/about">About</a>
+      <a href="https://afrotcdet115.wixsite.com/home-hero/contact-8">Contact</a>
+    </nav>
+    <a class="call-btn" href="tel:954-299-2229">Call Today</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Home Hero home services">
+      <h1>High-Quality Home Services</h1>
+      <p class="hero-copy">Welcome to Home Hero, your local help for gutter cleaning, window cleaning, leaf cleanup, holiday lighting, interior cleaning, and small home projects around Storrs CT.</p>
+      <a class="hero-chip" href="mailto:cthomehero@gmail.com">Free Quote</a>
+    </section>
+
+    <section class="quote-section" id="quote" aria-label="Quote request form">
+      <div class="quote-anchor">Get a Quote</div>
+      <div class="quote-left">
+        <h2>Get Your Free Quote Now</h2>
+        <p>Ready to elevate your home? Share the service, address, best contact method, and a few details. I will follow up with the next step for a clear local quote.</p>
+        <div class="quick-steps" aria-label="Quote steps">
+          <strong>Simple next steps</strong>
+          <span>1. Choose the service you need.</span>
+          <span>2. Add your address and ideal time.</span>
+          <span>3. Call, text, or email if photos would help.</span>
+        </div>
+      </div>
+
+      <form class="quote-form" action="mailto:cthomehero@gmail.com" method="post" enctype="text/plain">
+        <h2>QUOTE REQUEST FORM</h2>
+        <div class="field">
+          <label for="name">First &amp; last name*</label>
+          <input id="name" class="line-input" type="text" />
+        </div>
+        <div class="field">
+          <label for="email">Email*</label>
+          <input id="email" class="line-input" type="email" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone*</label>
+          <input id="phone" class="line-input" type="tel" />
+        </div>
+
+        <div class="choices">
+          <div class="choice-title">Best way to contact you*</div>
+          <div class="choice-stack">
+            <label class="choice"><span class="box"></span>Email</label>
+            <label class="choice"><span class="box"></span>Call</label>
+            <label class="choice"><span class="box"></span>Text</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="time">Best time to contact you.*</label>
+          <input id="time" class="line-input" type="text" />
+        </div>
+        <div class="field">
+          <label for="address">Address*</label>
+          <input id="address" class="line-input" type="text" />
+        </div>
+
+        <div class="choices">
+          <div class="choice-title">What service are you interested in?*</div>
+          <div class="choice-stack service-stack">
+            <label class="choice"><span class="box"></span>Gutter Cleaning</label>
+            <label class="choice"><span class="box"></span>Window Cleaning</label>
+            <label class="choice"><span class="box"></span>Leaf Cleanup</label>
+            <label class="choice"><span class="box"></span>Holiday Lighting</label>
+            <label class="choice"><span class="box"></span>Interior Home Cleaning</label>
+            <label class="choice"><span class="box"></span>Other home help</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="visit">What day and time works best for me to come out and give you a quote?*</label>
+          <input id="visit" class="line-input" type="text" />
+        </div>
+        <div class="field">
+          <label for="details">Feel free to add any additional info about the requested job.</label>
+          <textarea id="details" class="line-input"></textarea>
+        </div>
+        <div class="field">
+          <label for="referral">Where did you hear about me?*</label>
+          <input id="referral" class="line-input" type="text" />
+        </div>
+        <button class="submit" type="button">Submit</button>
+      </form>
+    </section>
+
+    <section class="why" aria-label="Why choose Home Hero">
+      <h2>Why Choose Home Hero</h2>
+      <p>At Home Hero, I am dedicated to reliable home services, clear communication, and careful details. Tell me what your home needs and I will help you find the cleanest next step.</p>
+      <div class="why-line" aria-hidden="true"></div>
+      <div class="features">
+        <div class="feature">Quality Assured</div>
+        <div class="feature">100% Customer Satisfaction Guarantee</div>
+        <div class="feature">Custom Quotes</div>
+        <div class="feature">Military taught Attention to Detail</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Get in touch with me!</h2>
+    <p class="copyright">© 2026 by Home Hero. Built on Wix.</p>
+    <div class="contact-card">
+      <p>Nico Gamarra</p>
+      <p>Email: <a href="mailto:cthomehero@gmail.com">cthomehero@gmail.com</a></p>
+      <p>Tel: <a href="tel:954-299-2229">954-299-2229</a></p>
+      <div class="social" aria-label="Social links">
+        <a href="https://www.facebook.com/thehomeheroCT"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/homeheroct/"><img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/81af6121f84c41a5b4391d7d37fce12a.png" alt="Instagram" /></a>
+        <a href="https://nextdoor.com/pages/home-hero-ct-storrs-mansfield-ct/"><img src="https://static.wixstatic.com/media/11062b_ac289f1df4ef4bb29379498ba724c913~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_ac289f1df4ef4bb29379498ba724c913~mv2.png" alt="Nextdoor" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

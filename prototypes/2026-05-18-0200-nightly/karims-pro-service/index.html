@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karim's Pro Service Etc | Georgia Handyman & Exterior Service Quotes</title>
+  <meta name="description" content="Karim's Pro Service Etc provides quote-first handyman, pressure washing, landscaping, plumbing, carpentry and vehicle care services in Georgia and nearby areas." />
+  <style>
+    :root{
+      --cream:#f1e3c8;
+      --cream-light:#f3efe7;
+      --olive:#393d32;
+      --olive-dark:#2c3028;
+      --brown:#aa3d1d;
+      --brown-dark:#7d2e18;
+      --blue:#2b6ca3;
+      --yellow:#ffde11;
+      --ink:#393d32;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-width:1120px;
+      color:var(--cream);
+      font-family:Arial, Helvetica, sans-serif;
+      background:#ffffff;
+    }
+    a{color:inherit;text-decoration:none}
+    .top-strip{
+      height:50px;
+      background:#fff;
+      color:#162d3d;
+      font-size:14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 30px;
+      letter-spacing:.01em;
+    }
+    .top-strip .mark{
+      width:84px;
+      height:14px;
+      border-radius:9px;
+      background:linear-gradient(90deg,#1f5d7d,#7fb7ce);
+      opacity:.18;
+    }
+    .top-strip strong{font-weight:700;color:#393d32}
+    header.site-header{
+      height:113px;
+      background:var(--cream);
+      color:var(--ink);
+    }
+    .header-inner{
+      width:980px;
+      height:113px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns:220px 1fr 190px;
+      align-items:start;
+      position:relative;
+    }
+    .brand{
+      display:block;
+      margin-top:17px;
+      width:218px;
+      min-height:52px;
+      font-size:22px;
+      line-height:1.18;
+      font-weight:700;
+      letter-spacing:.02em;
+      text-transform:uppercase;
+      text-shadow:0 0 0 var(--cream);
+    }
+    nav{
+      margin-top:15px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      gap:0;
+      height:50px;
+    }
+    nav a{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:31px;
+      padding:0 17px;
+      font-size:14px;
+      line-height:31px;
+      letter-spacing:.04em;
+      color:var(--ink);
+    }
+    nav a:hover{color:var(--brown)}
+    .header-phone{
+      margin-top:20px;
+      text-align:right;
+      font-size:20px;
+      line-height:24px;
+      font-weight:700;
+      color:var(--ink);
+      white-space:nowrap;
+    }
+    .hero{
+      height:657px;
+      position:relative;
+      overflow:hidden;
+      background:
+        linear-gradient(90deg, rgba(37,39,33,.70) 0%, rgba(37,39,33,.48) 43%, rgba(37,39,33,.18) 100%),
+        url('https://static.wixstatic.com/media/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg/v1/fill/w_1440,h_657,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg') center center/cover no-repeat;
+    }
+    .hero-inner{
+      width:980px;
+      margin:0 auto;
+      position:relative;
+      height:100%;
+    }
+    .hero-copy{
+      position:absolute;
+      left:0;
+      top:104px;
+      width:682px;
+    }
+    .hero h1{
+      margin:0;
+      font-size:44px;
+      line-height:1.22;
+      font-weight:700;
+      color:var(--cream);
+      max-width:656px;
+      text-shadow:0 2px 14px rgba(0,0,0,.45);
+    }
+    .hero-trust{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+      margin-top:18px;
+      max-width:650px;
+    }
+    .pill{
+      border:1px solid rgba(241,227,200,.65);
+      color:var(--cream-light);
+      background:rgba(57,61,50,.56);
+      padding:8px 12px;
+      font-size:14px;
+      letter-spacing:.02em;
+    }
+    .cta-row{
+      display:flex;
+      gap:14px;
+      margin-top:24px;
+      align-items:center;
+    }
+    .btn{
+      min-width:230px;
+      height:47px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-size:17px;
+      line-height:24px;
+      letter-spacing:.03em;
+      font-weight:700;
+      text-transform:uppercase;
+      border:2px solid transparent;
+    }
+    .btn-primary{background:var(--brown);color:var(--cream-light)}
+    .btn-primary:hover{background:var(--brown-dark)}
+    .btn-outline{background:rgba(0,0,0,.2);border-color:var(--cream);color:var(--cream-light)}
+    .down-arrow{
+      position:absolute;
+      left:18px;
+      bottom:58px;
+      width:49px;
+      height:29px;
+      color:var(--cream-light);
+      font-size:40px;
+      line-height:29px;
+      opacity:.9;
+    }
+    .section-inner{width:980px;margin:0 auto;position:relative;height:100%}
+    .services{
+      height:728px;
+      background:
+        linear-gradient(rgba(57,61,50,.94), rgba(57,61,50,.95)),
+        url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center top/cover no-repeat;
+      color:var(--cream);
+    }
+    .anchor-label{position:absolute;left:-230px;top:2px;font-size:10px;color:transparent}
+    .services h2,.about h2,.testimonials h2,.contact h2{
+      margin:0;
+      text-align:center;
+      font-size:44px;
+      line-height:52px;
+      font-weight:700;
+      letter-spacing:.02em;
+      text-transform:uppercase;
+    }
+    .services h2{padding-top:91px;color:var(--cream)}
+    .service-grid{
+      position:absolute;
+      left:0;
+      top:206px;
+      width:980px;
+      display:grid;
+      grid-template-columns:repeat(5, 1fr);
+      gap:28px;
+      text-align:center;
+    }
+    .service-card{
+      min-height:410px;
+      padding:0 4px;
+    }
+    .icon-wrap{
+      height:136px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-bottom:28px;
+    }
+    .service-card img{max-width:75px;max-height:136px;display:block;filter:drop-shadow(0 2px 4px rgba(0,0,0,.25))}
+    .service-card h3{
+      margin:0 auto 21px;
+      min-height:52px;
+      max-width:150px;
+      color:var(--cream);
+      font-size:20px;
+      line-height:26px;
+      font-weight:700;
+    }
+    .service-card p{
+      margin:0 auto;
+      max-width:166px;
+      color:var(--cream-light);
+      font-size:15px;
+      line-height:1.55;
+    }
+    .service-card strong{color:#fff}
+    .service-note{
+      position:absolute;
+      left:165px;
+      right:165px;
+      bottom:46px;
+      border-top:1px solid rgba(241,227,200,.32);
+      padding-top:18px;
+      text-align:center;
+      color:var(--cream-light);
+      font-size:17px;
+      line-height:1.5;
+    }
+    .about{
+      height:418px;
+      background:#1b1815;
+      color:var(--cream);
+    }
+    .about::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center center/cover no-repeat;
+      opacity:.12;
+    }
+    .about .section-inner{z-index:1}
+    .about h2{padding-top:98px;color:var(--cream-light)}
+    .about p{
+      width:560px;
+      margin:39px auto 0;
+      text-align:center;
+      color:var(--cream);
+      font-size:17px;
+      line-height:1.72;
+    }
+    .proof-row{
+      display:flex;
+      justify-content:center;
+      gap:18px;
+      margin-top:30px;
+    }
+    .proof-row span{
+      color:var(--cream-light);
+      border:1px solid rgba(241,227,200,.35);
+      padding:9px 15px;
+      font-size:14px;
+    }
+    .testimonials{
+      height:520px;
+      background:var(--cream);
+      color:var(--ink);
+      position:relative;
+    }
+    .testimonials h2{padding-top:61px;color:var(--brown)}
+    .quote-grid{
+      margin:78px auto 0;
+      width:860px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:85px;
+    }
+    .quote{
+      text-align:center;
+      font-size:17px;
+      line-height:1.7;
+      color:var(--ink);
+      position:relative;
+    }
+    .quote::before{
+      content:"\201C";
+      display:block;
+      font-family:Georgia, serif;
+      color:#2b6ca3;
+      font-size:58px;
+      line-height:30px;
+      margin-bottom:22px;
+    }
+    .quote b{display:block;margin-top:20px;color:var(--brown);font-weight:700}
+    .contact{
+      height:1135px;
+      background:
+        linear-gradient(rgba(43,108,163,.92), rgba(43,108,163,.94)),
+        url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center center/cover no-repeat;
+      color:var(--cream);
+    }
+    .contact h2{padding-top:93px;color:var(--cream-light)}
+    .contact-grid{
+      width:874px;
+      margin:76px auto 0;
+      display:grid;
+      grid-template-columns:145px 156px 218px 1fr;
+      column-gap:42px;
+      align-items:start;
+    }
+    .contact-block h3{
+      margin:0 0 13px;
+      font-size:20px;
+      line-height:24px;
+      color:var(--cream);
+      text-transform:uppercase;
+    }
+    .contact-block p,.contact-block a,.contact-block li{
+      margin:0;
+      color:var(--cream);
+      font-size:15px;
+      line-height:1.55;
+    }
+    .contact-block.email a{font-size:17px;line-height:1.25;word-break:break-word}
+    .areas{columns:2;list-style:none;padding:0;margin:0;column-gap:12px}
+    .socials{display:flex;gap:7px;margin-top:13px}
+    .socials img{width:38px;height:38px;display:block}
+    .form-title{
+      margin:88px auto 18px;
+      width:539px;
+      text-align:center;
+      font-size:20px;
+      line-height:24px;
+      font-weight:700;
+      text-transform:uppercase;
+      color:var(--cream);
+    }
+    .quote-form{
+      width:558px;
+      margin:0 auto;
+      background:rgba(29,75,114,.24);
+      padding:0;
+    }
+    .quote-form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:13px}
+    .quote-form input,.quote-form textarea{
+      width:100%;
+      border:0;
+      background:#fff;
+      color:#333;
+      height:45px;
+      padding:11px 14px;
+      font-size:15px;
+      font-family:Arial, Helvetica, sans-serif;
+      outline:0;
+    }
+    .quote-form textarea{height:116px;resize:none;display:block;margin-bottom:13px}
+    .form-help{
+      color:#fff;
+      font-size:14px;
+      line-height:1.45;
+      margin:0 0 17px;
+      text-align:center;
+      opacity:.93;
+    }
+    .quote-form button{
+      display:block;
+      margin:0 auto;
+      width:166px;
+      height:35px;
+      border:0;
+      cursor:pointer;
+      background:var(--yellow);
+      color:#2b6ca3;
+      text-transform:uppercase;
+      font-size:15px;
+      font-weight:700;
+    }
+    footer{
+      height:51px;
+      background:var(--cream);
+      color:var(--ink);
+      font-size:15px;
+      display:flex;
+      align-items:center;
+    }
+    footer .inner{width:980px;margin:0 auto}
+    @media (max-width:900px){
+      body{min-width:0}
+      .top-strip{height:auto;min-height:50px;gap:12px;flex-wrap:wrap;padding:12px 18px}
+      header.site-header{height:auto}
+      .header-inner{width:auto;height:auto;padding:18px;grid-template-columns:1fr;gap:12px}
+      .brand,.header-phone{margin:0;text-align:left}
+      nav{margin:0;justify-content:flex-start;flex-wrap:wrap;height:auto}
+      nav a{padding:0 12px 0 0}
+      .hero,.services,.about,.testimonials,.contact{height:auto;min-height:0}
+      .section-inner,.hero-inner{width:auto;padding:0 22px;height:auto}
+      .hero-copy{position:relative;left:auto;top:auto;width:auto;padding:70px 0 74px}
+      .hero h1{font-size:34px;max-width:none}
+      .cta-row,.hero-trust{flex-direction:column;align-items:flex-start}
+      .down-arrow{display:none}
+      .services h2,.about h2,.testimonials h2,.contact h2{padding-top:55px;font-size:34px;line-height:1.15}
+      .service-grid{position:relative;top:auto;width:auto;grid-template-columns:1fr;margin-top:45px;padding-bottom:40px}
+      .service-note{position:relative;left:auto;right:auto;bottom:auto;margin-top:10px;padding-bottom:35px}
+      .about p{width:auto}.proof-row{flex-wrap:wrap;padding-bottom:45px}
+      .quote-grid{width:auto;grid-template-columns:1fr;gap:35px;margin-top:45px;padding-bottom:45px}
+      .contact-grid{width:auto;grid-template-columns:1fr 1fr;gap:28px;margin-top:50px}
+      .form-title,.quote-form{width:auto}.quote-form .row{grid-template-columns:1fr}
+      footer .inner{width:auto;padding:0 18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip" aria-label="site note">
+    <div class="mark" aria-hidden="true"></div>
+    <div><strong>Georgia service quotes:</strong> call or email the job details and we will help route the next step.</div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">KARIM'S PRO SERVICE ETC</a>
+      <nav aria-label="Main navigation">
+        <a href="#top">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT US</a>
+      </nav>
+      <a class="header-phone" href="tel:7622258934">762-225-8934</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Karim's Pro Service Etc hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Georgia handyman and exterior services for jobs big or small. Call Karim's Pro Service Etc for carpentry, plumbing, pressure washing, landscaping, and vehicle care with a clear quote first.</h1>
+          <div class="hero-trust" aria-label="service highlights">
+            <span class="pill">Family-owned service</span>
+            <span class="pill">Timely quality work</span>
+            <span class="pill">Home, business, and vehicle requests</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:7622258934">Call for a Quote</a>
+            <a class="btn btn-outline" href="mailto:fieldskarim8@gmail.com?subject=Service%20quote%20request">Email Job Details</a>
+          </div>
+        </div>
+        <div class="down-arrow" aria-hidden="true">⌄</div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-inner">
+        <div class="anchor-label">Services</div>
+        <h2>OUR SERVICES</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_6a5a1bff2b7745818c6b2661f05261d9.png/v1/fill/w_65,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_6a5a1bff2b7745818c6b2661f05261d9.png" alt="Carpentry icon"></div>
+            <h3>Carpentry</h3>
+            <p><strong>Cabinets, furniture, trim, and repairs.</strong> Send photos and measurements so the quote starts clearly.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_5b2baf51f5024b4c816c9553e2e607df.png/v1/fill/w_65,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5b2baf51f5024b4c816c9553e2e607df.png" alt="Plumbing icon"></div>
+            <h3>Plumbing</h3>
+            <p><strong>Leaks, fixtures, and bathroom projects.</strong> Ask about small repairs or remodel-related help.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png/v1/fill/w_39,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png" alt="Pressure washing icon"></div>
+            <h3>Pressure Washing</h3>
+            <p><strong>Homes, gas stations, breezeways, and driveways.</strong> Good before photos make estimates faster.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_1439136c15f845bcbb1b10286923624e.png/v1/fill/w_45,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_1439136c15f845bcbb1b10286923624e.png" alt="Landscaping icon"></div>
+            <h3>Landscaping</h3>
+            <p><strong>Grass cutting, trimming, planting, mulch, rock, and gutter cleaning.</strong> Quote by yard and scope.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_5938d9c28cd74c068772d9ea21735305.png/v1/fill/w_56,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5938d9c28cd74c068772d9ea21735305.png" alt="Car washing icon"></div>
+            <h3>Car Washing</h3>
+            <p><strong>Interior and exterior detailing, oil changes, and air filter changes.</strong> Ask for vehicle options.</p>
+          </article>
+        </div>
+        <p class="service-note">For fastest response, call <a href="tel:7622258934">762-225-8934</a> or email <a href="mailto:fieldskarim8@gmail.com">fieldskarim8@gmail.com</a> with your city, project type, timeline, and a few photos.</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-inner">
+        <div class="anchor-label">About</div>
+        <h2>WHO WE ARE</h2>
+        <p>Karim's Pro Service Etc. is a family-owned and operated business focused on affordable, quality work. The page now makes the broad service list easier to scan and turns every visitor toward a simple quote request.</p>
+        <div class="proof-row" aria-label="trust cues">
+          <span>Jobs big or small</span>
+          <span>Georgia and nearby service areas</span>
+          <span>Call or email direct</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-label="Happy customers">
+      <div class="section-inner">
+        <h2>HAPPY CUSTOMERS</h2>
+        <div class="quote-grid">
+          <blockquote class="quote">Karim's Pro Service Etc exceeded my expectations on every level. Their team was professional, courteous, and completed the job on time and within budget.<b>- Jane S.</b></blockquote>
+          <blockquote class="quote">I have used Karim's Pro Service Etc for multiple projects and have always been impressed with their level of service and attention to detail.<b>- John D.</b></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-inner">
+        <div class="anchor-label">Contact</div>
+        <h2>CONTACT US 24/7</h2>
+        <div class="contact-grid">
+          <div class="contact-block">
+            <h3>CALL US</h3>
+            <p><a href="tel:7622258934">762-225-8934</a></p>
+          </div>
+          <div class="contact-block email">
+            <h3>EMAIL US</h3>
+            <p><a href="mailto:fieldskarim8@gmail.com">fieldskarim8@gmail.com</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>AREAS COVERED</h3>
+            <ul class="areas">
+              <li>Atlanta</li>
+              <li>Waynesboro</li>
+              <li>Aiken</li>
+              <li>Tennessee</li>
+              <li>Alabama</li>
+              <li>Statesboro</li>
+            </ul>
+          </div>
+          <div class="contact-block">
+            <h3>FOLLOW US ON</h3>
+            <p>Connect real social profiles here when ready.</p>
+            <div class="socials" aria-hidden="true">
+              <img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png" alt="">
+              <img src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/01ab6619093f45388d66736ec22e5885.png" alt="">
+              <img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/81af6121f84c41a5b4391d7d37fce12a.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-title">GET A FREE QUOTE</div>
+        <form class="quote-form" action="mailto:fieldskarim8@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <input aria-label="Name" name="name" placeholder="Name">
+            <input aria-label="Phone" name="phone" placeholder="Phone">
+          </div>
+          <div class="row">
+            <input aria-label="Email" name="email" placeholder="Email">
+            <input aria-label="City and service" name="city_service" placeholder="City + service needed">
+          </div>
+          <textarea aria-label="Project details" name="details" placeholder="Project details, timeline, address area, and whether you can send photos"></textarea>
+          <p class="form-help">Prefer faster? Call now or email photos with your request.</p>
+          <button type="submit">REQUEST QUOTE</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="inner">© 2021 by Karim's Pro Service Etc. Page direction prototype using the live site's original colors, copy, and assets.</div>
+  </footer>
+</body>
+</html>

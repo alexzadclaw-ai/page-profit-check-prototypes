@@ -1,0 +1,4837 @@
+{
+  "data": {
+    "url": "https://txhomefixers.wixsite.com/san-antonio",
+    "styles": {
+      "title": "Home Fixers LLC | handyman | San Antonio, TX, USA",
+      "lang": "en",
+      "bodyBg": "rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box",
+      "fonts": [
+        "Arial, Helvetica, sans-serif",
+        "Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+        "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+        "poppins-semibold, poppins, sans-serif",
+        "poppins-extralight, poppins, sans-serif"
+      ],
+      "colors": [
+        "rgb(0, 0, 0)",
+        "rgb(17, 109, 255)",
+        "rgb(0, 0, 238)",
+        "rgb(32, 48, 60)",
+        "rgb(22, 106, 234)",
+        "rgb(30, 30, 30)",
+        "rgb(15, 55, 87)",
+        "rgb(162, 96, 40)",
+        "rgb(245, 245, 245)",
+        "rgb(255, 255, 255)"
+      ],
+      "bgColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(239, 241, 242)",
+        "rgb(245, 245, 245)",
+        "rgba(245, 245, 245, 0)",
+        "rgb(219, 219, 219)",
+        "rgb(162, 96, 40)",
+        "rgb(15, 55, 87)",
+        "rgba(219, 219, 219, 0.25)",
+        "rgb(30, 30, 30)",
+        "rgb(209, 202, 201)",
+        "rgba(30, 30, 30, 0)"
+      ],
+      "bodySize": {
+        "w": 1440,
+        "h": 5605
+      }
+    },
+    "images": [
+      {
+        "i": 0,
+        "src": "https://static.wixstatic.com/media/6835ee_d9ae388d13d948928f338479356aaaf9~mv2.png/v1/fill/w_1280,h_860,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_d9ae388d13d948928f338479356aaaf9~mv2.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_d9ae388d13d948928f338479356aaaf9~mv2.png/v1/fill/w_1280,h_860,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_d9ae388d13d948928f338479356aaaf9~mv2.png",
+        "alt": "Luxurious Kitchen_edited.png",
+        "width": 1280,
+        "height": 860,
+        "rect": {
+          "x": 80,
+          "y": 226,
+          "w": 1280,
+          "h": 860
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 1,
+        "src": "https://static.wixstatic.com/media/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png/v1/fill/w_231,h_208,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/HomeFixers_logo_color-05.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png/v1/fill/w_231,h_208,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/HomeFixers_logo_color-05.png",
+        "alt": "HomeFixers_logo_color-05.png",
+        "width": 231,
+        "height": 208,
+        "rect": {
+          "x": 162,
+          "y": 333,
+          "w": 231,
+          "h": 208
+        },
+        "visible": true,
+        "class": "gRkIq0 sFiSiq",
+        "id": "img_comp-lj53nfxe"
+      },
+      {
+        "i": 2,
+        "src": "https://static.wixstatic.com/media/6835ee_6a3d4082e38143fdb20aa7e415633882~mv2.png/v1/fill/w_640,h_1248,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_6a3d4082e38143fdb20aa7e415633882~mv2.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_6a3d4082e38143fdb20aa7e415633882~mv2.png/v1/fill/w_640,h_1248,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_6a3d4082e38143fdb20aa7e415633882~mv2.png",
+        "alt": "",
+        "width": 640,
+        "height": 1248,
+        "rect": {
+          "x": 80,
+          "y": 229,
+          "w": 640,
+          "h": 1248
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 3,
+        "src": "https://static.wixstatic.com/media/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg/v1/fill/w_407,h_404,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg",
+        "rawSrc": "https://static.wixstatic.com/media/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg/v1/fill/w_407,h_404,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg",
+        "alt": "",
+        "width": 407,
+        "height": 404,
+        "rect": {
+          "x": 80,
+          "y": 3192,
+          "w": 407,
+          "h": 404
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 4,
+        "src": "https://static.wixstatic.com/media/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg/v1/fill/w_402,h_404,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg",
+        "rawSrc": "https://static.wixstatic.com/media/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg/v1/fill/w_402,h_404,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg",
+        "alt": "",
+        "width": 402,
+        "height": 404,
+        "rect": {
+          "x": 522,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 5,
+        "src": "https://static.wixstatic.com/media/nsplsh_f783aa3b929b4ff399c2f0f678de6a55~mv2.jpg/v1/fill/w_402,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_f783aa3b929b4ff399c2f0f678de6a55~mv2.jpg",
+        "rawSrc": "https://static.wixstatic.com/media/nsplsh_f783aa3b929b4ff399c2f0f678de6a55~mv2.jpg/v1/fill/w_402,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_f783aa3b929b4ff399c2f0f678de6a55~mv2.jpg",
+        "alt": "Image by Francesca Tosolini",
+        "width": 402,
+        "height": 404,
+        "rect": {
+          "x": 958,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 6,
+        "src": "https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1296,h_1080,al_c,q_85,enc_avif,quality_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg",
+        "rawSrc": "https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1296,h_1080,al_c,q_85,enc_avif,quality_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg",
+        "alt": "",
+        "width": 1296,
+        "height": 1080,
+        "rect": {
+          "x": 0,
+          "y": 3047,
+          "w": 1440,
+          "h": 1200
+        },
+        "visible": true,
+        "class": "",
+        "id": ""
+      },
+      {
+        "i": 7,
+        "src": "https://static.wixstatic.com/media/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png/v1/fill/w_218,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png/v1/fill/w_218,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6835ee_155a29d81ff34a6c99b7022b1ced4685~mv2.png",
+        "alt": "",
+        "width": 218,
+        "height": 196,
+        "rect": {
+          "x": 611,
+          "y": 4052,
+          "w": 218,
+          "h": 196
+        },
+        "visible": true,
+        "class": "gRkIq0 sFiSiq",
+        "id": "img_comp-lj558bb6"
+      },
+      {
+        "i": 8,
+        "src": "https://static.wixstatic.com/media/6835ee_99b06c16460f4467b40c432dcc5ede4d~mv2.png/v1/fill/w_140,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/phta-19-cpo-cert-logo-300_7_1.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_99b06c16460f4467b40c432dcc5ede4d~mv2.png/v1/fill/w_140,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/phta-19-cpo-cert-logo-300_7_1.png",
+        "alt": "phta-19-cpo-cert-logo-300_7_1.png",
+        "width": 140,
+        "height": 120,
+        "rect": {
+          "x": 342,
+          "y": 4387,
+          "w": 140,
+          "h": 120
+        },
+        "visible": true,
+        "class": "gRkIq0 sFiSiq",
+        "id": "img_comp-jj4e2f253"
+      },
+      {
+        "i": 9,
+        "src": "https://static.wixstatic.com/media/6835ee_21799b8ebb8f42f0bf72618e89e3ee3f~mv2.png/v1/fill/w_140,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/HVAC-badge-1.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_21799b8ebb8f42f0bf72618e89e3ee3f~mv2.png/v1/fill/w_140,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/HVAC-badge-1.png",
+        "alt": "HVAC-badge-1.png",
+        "width": 140,
+        "height": 120,
+        "rect": {
+          "x": 650,
+          "y": 4382,
+          "w": 140,
+          "h": 120
+        },
+        "visible": true,
+        "class": "gRkIq0 sFiSiq",
+        "id": "img_comp-jj4e2f254"
+      },
+      {
+        "i": 10,
+        "src": "https://static.wixstatic.com/media/6835ee_7edd33f903b64131abca74f9f2436af4~mv2.png/v1/fill/w_122,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/url_edited.png",
+        "rawSrc": "https://static.wixstatic.com/media/6835ee_7edd33f903b64131abca74f9f2436af4~mv2.png/v1/fill/w_122,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/url_edited.png",
+        "alt": "url_edited.png",
+        "width": 122,
+        "height": 120,
+        "rect": {
+          "x": 953,
+          "y": 4382,
+          "w": 122,
+          "h": 120
+        },
+        "visible": true,
+        "class": "gRkIq0 sFiSiq",
+        "id": "img_comp-jj4e2f255"
+      },
+      {
+        "i": 11,
+        "src": "https://static.wixstatic.com/media/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png",
+        "rawSrc": "https://static.wixstatic.com/media/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_084cbbff6ae446c1b03dc3637193e77a~mv2.png",
+        "alt": "Instagram",
+        "width": 23,
+        "height": 23,
+        "rect": {
+          "x": 1098,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true,
+        "class": "ZK9snE sFiSiq",
+        "id": "img_0_comp-jj4e2f2d1"
+      },
+      {
+        "i": 12,
+        "src": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/facebook.png",
+        "rawSrc": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/facebook.png",
+        "alt": "facebook",
+        "width": 23,
+        "height": 23,
+        "rect": {
+          "x": 1131,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true,
+        "class": "ZK9snE sFiSiq",
+        "id": "img_1_comp-jj4e2f2d1"
+      },
+      {
+        "i": 13,
+        "src": "https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/youtube.png",
+        "rawSrc": "https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/youtube.png",
+        "alt": "youtube",
+        "width": 23,
+        "height": 23,
+        "rect": {
+          "x": 1164,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true,
+        "class": "ZK9snE sFiSiq",
+        "id": "img_2_comp-jj4e2f2d1"
+      }
+    ],
+    "backgrounds": [],
+    "links": [
+      {
+        "text": "This website was built on Wix. Create yours today. Get Started",
+        "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=03f45255-ed12-496d-bda8-ce90c3fa4d43&adsVersion=banner_2024",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 50
+        },
+        "visible": true
+      },
+      {
+        "text": "#comp-kbanqr04 svg [data-color=\"1\"] {fill: #A26028;}",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 87,
+          "y": 92,
+          "w": 36,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "Home Fixers, LLC",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 141,
+          "y": 96,
+          "w": 183,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "Home",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 998,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "About",
+        "href": "https://txhomefixers.wixsite.com/san-antonio/about",
+        "rect": {
+          "x": 1060,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "Our Decor Team",
+        "href": "https://txhomefixers.wixsite.com/san-antonio/our-work",
+        "rect": {
+          "x": 1122,
+          "y": 95,
+          "w": 134,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "Contact Us Today!",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 160,
+          "y": 991,
+          "w": 183,
+          "h": 40
+        },
+        "visible": true
+      },
+      {
+        "text": "More About Us",
+        "href": "https://txhomefixers.wixsite.com/san-antonio/about",
+        "rect": {
+          "x": 814,
+          "y": 2048,
+          "w": 160,
+          "h": 40
+        },
+        "visible": true
+      },
+      {
+        "text": "Home Repairs",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 205,
+          "y": 3378,
+          "w": 155,
+          "h": 31
+        },
+        "visible": true
+      },
+      {
+        "text": "Find out More",
+        "href": "https://txhomefixers.wixsite.com/san-antonio/our-work",
+        "rect": {
+          "x": 638,
+          "y": 3497,
+          "w": 163,
+          "h": 40
+        },
+        "visible": true
+      },
+      {
+        "text": "Apartments & AirBnB Make-Ready",
+        "href": "https://txhomefixers.wixsite.com/san-antonio",
+        "rect": {
+          "x": 1042,
+          "y": 3378,
+          "w": 233,
+          "h": 62
+        },
+        "visible": true
+      },
+      {
+        "text": "homefixerstx@gmail.com",
+        "href": "mailto:homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5266,
+          "w": 256,
+          "h": 24
+        },
+        "visible": true
+      },
+      {
+        "text": "homefixersdecorteam@gmail.com",
+        "href": "mailto:homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5344,
+          "w": 349,
+          "h": 24
+        },
+        "visible": true
+      },
+      {
+        "text": "Wix",
+        "href": "https://wix.com/?utm_campaign=vir_created_with",
+        "rect": {
+          "x": 572,
+          "y": 5501,
+          "w": 26,
+          "h": 21
+        },
+        "visible": true
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/homefixersllc/",
+        "rect": {
+          "x": 1098,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/wix",
+        "rect": {
+          "x": 1131,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/user/Wix",
+        "rect": {
+          "x": 1164,
+          "y": 5502,
+          "w": 23,
+          "h": 23
+        },
+        "visible": true
+      }
+    ],
+    "texts": [
+      {
+        "tag": "DIV",
+        "id": "SITE_CONTAINER",
+        "class": "",
+        "text": "Skip to Main Content This website was built on Wix. Create yours today. Get Started Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 5555
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "main_MF",
+        "class": "main_MF",
+        "text": "Skip to Main Content This website was built on Wix. Create yours today. Get Started Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 5555
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "WIX_ADS",
+        "class": "_Gifr2 uOsHYT BnSWEo",
+        "text": "This website was built on Wix. Create yours today. Get Started",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 50
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "siPsSS",
+        "text": "This website was built on Wix. Create yours today. Get Started",
+        "rect": {
+          "x": 427,
+          "y": 11,
+          "w": 586,
+          "h": 27
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "RG5MFM",
+        "text": "This website was built on Wix. Create yours today.",
+        "rect": {
+          "x": 427,
+          "y": 13,
+          "w": 456,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "zAqGm2 hN2NUY",
+        "text": "Get Started",
+        "rect": {
+          "x": 899,
+          "y": 11,
+          "w": 114,
+          "h": 27
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "site-root",
+        "class": "site-root",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 5555
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "masterPage",
+        "class": "mesh-layout masterPage css-editing-scope",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 5555
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "YmWgf4",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 176
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "XgJ1FR",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 176
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 176
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123 Log In",
+        "rect": {
+          "x": 0,
+          "y": 50,
+          "w": 1440,
+          "h": 176
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Home Fixers, LLC Home About Our Decor Team 210-777-1123",
+        "rect": {
+          "x": 80,
+          "y": 68,
+          "w": 1280,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jkqkrjk01",
+        "class": "comp-jkqkrjk01 FDI5TK wixui-column-strip__column",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 80,
+          "y": 68,
+          "w": 375,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 80,
+          "y": 68,
+          "w": 375,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 80,
+          "y": 68,
+          "w": 375,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbanqr04",
+        "class": "comp-kbanqr04 wixui-vector-image",
+        "text": "#comp-kbanqr04 svg [data-color=\"1\"] {fill: #A26028;}",
+        "rect": {
+          "x": 87,
+          "y": 92,
+          "w": 36,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "iL7Pq5 gx51wo",
+        "text": "#comp-kbanqr04 svg [data-color=\"1\"] {fill: #A26028;}",
+        "rect": {
+          "x": 87,
+          "y": 92,
+          "w": 36,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jkqkrjk03",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jkqkrjk03 wixui-rich-text",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 141,
+          "y": 95,
+          "w": 415,
+          "h": 33
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 141,
+          "y": 95,
+          "w": 415,
+          "h": 33
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 141,
+          "y": 96,
+          "w": 183,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 141,
+          "y": 96,
+          "w": 183,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Fixers, LLC",
+        "rect": {
+          "x": 141,
+          "y": 96,
+          "w": 183,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jkqkrjk04",
+        "class": "comp-jkqkrjk04 FDI5TK wixui-column-strip__column",
+        "text": "Home About Our Decor Team 210-777-1123",
+        "rect": {
+          "x": 455,
+          "y": 68,
+          "w": 905,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home About Our Decor Team 210-777-1123",
+        "rect": {
+          "x": 455,
+          "y": 68,
+          "w": 905,
+          "h": 128
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home About Our Decor Team 210-777-1123",
+        "rect": {
+          "x": 455,
+          "y": 68,
+          "w": 905,
+          "h": 128
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "comp-jnlmesk00",
+        "class": "CSt_RJ wixui-dropdown-menu__item CUYeWp",
+        "text": "Home",
+        "rect": {
+          "x": 998,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "EWeavx",
+        "text": "Home",
+        "rect": {
+          "x": 998,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home",
+        "rect": {
+          "x": 998,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "P",
+        "id": "comp-jnlmesk00label",
+        "class": "wGxoBM",
+        "text": "Home",
+        "rect": {
+          "x": 998,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "comp-jnlmesk01",
+        "class": "CSt_RJ wixui-dropdown-menu__item CUYeWp",
+        "text": "About",
+        "rect": {
+          "x": 1060,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "EWeavx",
+        "text": "About",
+        "rect": {
+          "x": 1060,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "About",
+        "rect": {
+          "x": 1060,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "P",
+        "id": "comp-jnlmesk01label",
+        "class": "wGxoBM",
+        "text": "About",
+        "rect": {
+          "x": 1060,
+          "y": 95,
+          "w": 62,
+          "h": 31
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "comp-jnlmesk02",
+        "class": "CSt_RJ wixui-dropdown-menu__item CUYeWp",
+        "text": "Our Decor Team",
+        "rect": {
+          "x": 1122,
+          "y": 95,
+          "w": 134,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "EWeavx",
+        "text": "Our Decor Team",
+        "rect": {
+          "x": 1122,
+          "y": 95,
+          "w": 134,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Our Decor Team",
+        "rect": {
+          "x": 1122,
+          "y": 95,
+          "w": 134,
+          "h": 31
+        }
+      },
+      {
+        "tag": "P",
+        "id": "comp-jnlmesk02label",
+        "class": "wGxoBM",
+        "text": "Our Decor Team",
+        "rect": {
+          "x": 1122,
+          "y": 95,
+          "w": 134,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jkqkrjk2",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jkqkrjk2 wixui-rich-text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 1250,
+          "y": 101,
+          "w": 110,
+          "h": 22
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_9 wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 1250,
+          "y": 101,
+          "w": 110,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 1265,
+          "y": 101,
+          "w": 80,
+          "h": 20
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 1265,
+          "y": 101,
+          "w": 80,
+          "h": 20
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-lk1m6n26",
+        "class": "jko4jB comp-lk1m6n26",
+        "text": "Log In",
+        "rect": {
+          "x": 1079,
+          "y": 106,
+          "w": 120,
+          "h": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Log In",
+        "rect": {
+          "x": 1079,
+          "y": 106,
+          "w": 120,
+          "h": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Log In",
+        "rect": {
+          "x": 1079,
+          "y": 106,
+          "w": 120,
+          "h": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-lk1m6n3y",
+        "class": "wixui-login-social-bar login-social-bar RCu3LN comp-lk1m6n3y",
+        "text": "Log In",
+        "rect": {
+          "x": 1079,
+          "y": 106,
+          "w": 120,
+          "h": 40
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "O4eQsz",
+        "text": "Log In",
+        "rect": {
+          "x": 1088,
+          "y": 107,
+          "w": 111,
+          "h": 38
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "HuH6Ex",
+        "text": "Log In",
+        "rect": {
+          "x": 1135,
+          "y": 116,
+          "w": 57,
+          "h": 21
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "SITE_PAGES",
+        "class": "Y3K28_ SITE_PAGES",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "SITE_PAGES_TRANSITION_GROUP",
+        "class": "uvik8H",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "rmz7o",
+        "class": "i0StQr theme-vars rmz7o",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "JJb9Mt",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "Containerrmz7o",
+        "class": "Containerrmz7o wH18kY",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today! Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team t",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 5211
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 918
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 0,
+          "y": 226,
+          "w": 1440,
+          "h": 918
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 80,
+          "y": 226,
+          "w": 1280,
+          "h": 860
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae5tti",
+        "class": "comp-kbae5tti FDI5TK wixui-column-strip__column",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 80,
+          "y": 226,
+          "w": 1280,
+          "h": 860
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 80,
+          "y": 226,
+          "w": 1280,
+          "h": 860
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Exceptional Home Repairs and Decor Services Contact Us Today!",
+        "rect": {
+          "x": 80,
+          "y": 226,
+          "w": 1280,
+          "h": 860
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-lj53o5hd",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-lj53o5hd wixui-rich-text",
+        "text": "Exceptional Home Repairs and Decor Services",
+        "rect": {
+          "x": 160,
+          "y": 591,
+          "w": 820,
+          "h": 324
+        }
+      },
+      {
+        "tag": "H1",
+        "id": "",
+        "class": "font_2 wixui-rich-text__text",
+        "text": "Exceptional Home Repairs and Decor Services",
+        "rect": {
+          "x": 160,
+          "y": 591,
+          "w": 820,
+          "h": 324
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Exceptional Home Repairs and Decor Services",
+        "rect": {
+          "x": 160,
+          "y": 594,
+          "w": 669,
+          "h": 317
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Exceptional Home Repairs and Decor Services",
+        "rect": {
+          "x": 160,
+          "y": 594,
+          "w": 669,
+          "h": 317
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae5tu41",
+        "class": "comp-kbae5tu41 mu5PoX",
+        "text": "Contact Us Today!",
+        "rect": {
+          "x": 160,
+          "y": 991,
+          "w": 183,
+          "h": 40
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "OR4Nv8 wixui-button__label",
+        "text": "Contact Us Today!",
+        "rect": {
+          "x": 189,
+          "y": 998,
+          "w": 126,
+          "h": 25
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 0,
+          "y": 1144,
+          "w": 1440,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 0,
+          "y": 1144,
+          "w": 1440,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 80,
+          "y": 1144,
+          "w": 1280,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6awr3",
+        "class": "comp-kbae6awr3 FDI5TK wixui-column-strip__column",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 720,
+          "y": 1144,
+          "w": 640,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 720,
+          "y": 1144,
+          "w": 640,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Your Trustworthy Home Repair and Decor Company Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to deli",
+        "rect": {
+          "x": 720,
+          "y": 1144,
+          "w": 640,
+          "h": 1248
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6awu",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6awu wixui-rich-text",
+        "text": "Your Trustworthy Home Repair and Decor Company",
+        "rect": {
+          "x": 814,
+          "y": 1233,
+          "w": 470,
+          "h": 162
+        }
+      },
+      {
+        "tag": "H2",
+        "id": "",
+        "class": "font_4 wixui-rich-text__text",
+        "text": "Your Trustworthy Home Repair and Decor Company",
+        "rect": {
+          "x": 814,
+          "y": 1233,
+          "w": 470,
+          "h": 162
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Your Trustworthy Home Repair and Decor Company",
+        "rect": {
+          "x": 814,
+          "y": 1232,
+          "w": 358,
+          "h": 164
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Your Trustworthy Home Repair and Decor Company",
+        "rect": {
+          "x": 814,
+          "y": 1232,
+          "w": 358,
+          "h": 164
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6aww",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6aww wixui-rich-text",
+        "text": "Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions. Our dedicated team takes pride in being locally owned and deeply committed to delivering unparalleled assistance for your residen",
+        "rect": {
+          "x": 814,
+          "y": 1432,
+          "w": 462,
+          "h": 546
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Welcome to Home Fixers and Decor Team, your trusted local source for premier handyman and interior decor services within the San Antonio area and its neighboring regions.",
+        "rect": {
+          "x": 814,
+          "y": 1432,
+          "w": 462,
+          "h": 63
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Our dedicated team takes pride in being locally owned and deeply committed to delivering unparalleled assistance for your residential and commercial needs. From preparing make-ready apartments for occupancy to enhancing Airbnb spaces, we offer an extensive range of services tailored to your requirem",
+        "rect": {
+          "x": 814,
+          "y": 1495,
+          "w": 462,
+          "h": 126
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Whether the task entails rectifying issues with your kitchen sink, assembling Ikea furniture, revitalizing kitchen cabinets, tending to air conditioning or swimming pool repairs, or undertaking intricate interior decor projects, our capabilities are comprehensive. Simply put, we're equipped to handl",
+        "rect": {
+          "x": 814,
+          "y": 1621,
+          "w": 462,
+          "h": 126
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Enlist the expertise of our adept handyman crew and decor team to craft purposeful environments that cater to your demands. Whether it's your home, office, apartment complex, or Airbnb, we're poised to transform spaces into aesthetically captivating and functionally optimal realms.",
+        "rect": {
+          "x": 814,
+          "y": 1747,
+          "w": 462,
+          "h": 105
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Our operational hours span from Monday to Friday, 9:30 AM to 4:30 PM, providing you with flexible accessibility.",
+        "rect": {
+          "x": 814,
+          "y": 1852,
+          "w": 462,
+          "h": 42
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Rest assured that even during emergencies, we're here to assist. Should you require emergency service, kindly leave a message, and we will promptly respond to your needs.",
+        "rect": {
+          "x": 814,
+          "y": 1894,
+          "w": 462,
+          "h": 63
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Call us today! 210-777-1123",
+        "rect": {
+          "x": 814,
+          "y": 1957,
+          "w": 462,
+          "h": 21
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6awx",
+        "class": "comp-kbae6awx mu5PoX",
+        "text": "More About Us",
+        "rect": {
+          "x": 814,
+          "y": 2048,
+          "w": 160,
+          "h": 40
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "OR4Nv8 wixui-button__label",
+        "text": "More About Us",
+        "rect": {
+          "x": 844,
+          "y": 2058,
+          "w": 100,
+          "h": 20
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals. Licensed & Insured We are also fully licensed and have high standards for our team of handymen. W",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 528
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals. Licensed & Insured We are also fully licensed and have high standards for our team of handymen. W",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 529
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals. Licensed & Insured We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 0,
+          "y": 2557,
+          "w": 1440,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xcz1",
+        "class": "comp-kbae6xcz1 FDI5TK wixui-column-strip__column",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 360,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 360,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Highest Quality Service For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 360,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xd7",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6xd7 wixui-rich-text",
+        "text": "Highest Quality Service",
+        "rect": {
+          "x": 424,
+          "y": 2587,
+          "w": 220,
+          "h": 62
+        }
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Highest Quality Service",
+        "rect": {
+          "x": 424,
+          "y": 2587,
+          "w": 220,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Highest Quality Service",
+        "rect": {
+          "x": 448,
+          "y": 2587,
+          "w": 171,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_18 wixui-rich-text__text",
+        "text": "Highest Quality Service",
+        "rect": {
+          "x": 448,
+          "y": 2587,
+          "w": 171,
+          "h": 62
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xd8",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6xd8 wixui-rich-text",
+        "text": "For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 418,
+          "y": 2675,
+          "w": 245,
+          "h": 153
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 418,
+          "y": 2675,
+          "w": 245,
+          "h": 153
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "For us, our customers are our top priority. We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 421,
+          "y": 2677,
+          "w": 239,
+          "h": 149
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "We provide you with comfort and peace of mind knowing that your home or business is being well cared for by our team of professionals.",
+        "rect": {
+          "x": 424,
+          "y": 2703,
+          "w": 236,
+          "h": 123
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xd45",
+        "class": "comp-kbae6xd45 FDI5TK wixui-column-strip__column",
+        "text": "Licensed & Insured We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 720,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Licensed & Insured We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 720,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Licensed & Insured We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 720,
+          "y": 2557,
+          "w": 360,
+          "h": 364
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xdb1",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6xdb1 wixui-rich-text",
+        "text": "Licensed & Insured",
+        "rect": {
+          "x": 791,
+          "y": 2587,
+          "w": 220,
+          "h": 62
+        }
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Licensed & Insured",
+        "rect": {
+          "x": 791,
+          "y": 2587,
+          "w": 220,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Licensed & Insured",
+        "rect": {
+          "x": 848,
+          "y": 2587,
+          "w": 105,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_18 wixui-rich-text__text",
+        "text": "Licensed & Insured",
+        "rect": {
+          "x": 848,
+          "y": 2587,
+          "w": 105,
+          "h": 62
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6xdd2",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6xdd2 wixui-rich-text",
+        "text": "We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 784,
+          "y": 2675,
+          "w": 232,
+          "h": 77
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 784,
+          "y": 2675,
+          "w": 232,
+          "h": 77
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 789,
+          "y": 2677,
+          "w": 222,
+          "h": 72
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "We are also fully licensed and have high standards for our team of handymen.",
+        "rect": {
+          "x": 789,
+          "y": 2677,
+          "w": 222,
+          "h": 72
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 166
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kmf6336r",
+        "class": "comp-kmf6336r FDI5TK wixui-column-strip__column",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 166
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 166
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 0,
+          "y": 2392,
+          "w": 1440,
+          "h": 166
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae6x76",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae6x76 wixui-rich-text",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 250,
+          "y": 2476,
+          "w": 940,
+          "h": 54
+        }
+      },
+      {
+        "tag": "H2",
+        "id": "",
+        "class": "font_4 wixui-rich-text__text",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 250,
+          "y": 2476,
+          "w": 940,
+          "h": 54
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 564,
+          "y": 2475,
+          "w": 313,
+          "h": 56
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Why Choose Us",
+        "rect": {
+          "x": 564,
+          "y": 2475,
+          "w": 313,
+          "h": 56
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Residential and Commercial Services With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services. Home Repairs Decor Services Find",
+        "rect": {
+          "x": 0,
+          "y": 2920,
+          "w": 1440,
+          "h": 1087
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Residential and Commercial Services With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services. Home Repairs Decor Services Find",
+        "rect": {
+          "x": 0,
+          "y": 2920,
+          "w": 1440,
+          "h": 1087
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp54",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jnod9lp54 wixui-rich-text",
+        "text": "Residential and Commercial Services",
+        "rect": {
+          "x": 250,
+          "y": 2993,
+          "w": 940,
+          "h": 54
+        }
+      },
+      {
+        "tag": "H2",
+        "id": "",
+        "class": "font_4 wixui-rich-text__text",
+        "text": "Residential and Commercial Services",
+        "rect": {
+          "x": 250,
+          "y": 2993,
+          "w": 940,
+          "h": 54
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Residential and Commercial Services",
+        "rect": {
+          "x": 341,
+          "y": 2992,
+          "w": 757,
+          "h": 56
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Residential and Commercial Services",
+        "rect": {
+          "x": 341,
+          "y": 2992,
+          "w": 757,
+          "h": 56
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-litgld7t",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-litgld7t wixui-rich-text",
+        "text": "With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services.",
+        "rect": {
+          "x": 463,
+          "y": 3069,
+          "w": 513,
+          "h": 90
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services.",
+        "rect": {
+          "x": 463,
+          "y": 3069,
+          "w": 513,
+          "h": 90
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services.",
+        "rect": {
+          "x": 468,
+          "y": 3068,
+          "w": 503,
+          "h": 90
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services.",
+        "rect": {
+          "x": 468,
+          "y": 3068,
+          "w": 503,
+          "h": 90
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "With over 20 of combined experience of providing expert repair and decor services, we have seen it all. We are experts in a variety of different projects from residential and commercial. Below are some of our most popular services.",
+        "rect": {
+          "x": 468,
+          "y": 3068,
+          "w": 503,
+          "h": 90
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Home Repairs Decor Services Find out More Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 80,
+          "y": 3192,
+          "w": 1280,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp56",
+        "class": "comp-jnod9lp56 FDI5TK wixui-column-strip__column",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 80,
+          "y": 3192,
+          "w": 407,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 80,
+          "y": 3192,
+          "w": 407,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 80,
+          "y": 3192,
+          "w": 407,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp57",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jnod9lp57 wixui-rich-text",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 160,
+          "y": 3378,
+          "w": 245,
+          "h": 31
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 160,
+          "y": 3378,
+          "w": 245,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 205,
+          "y": 3378,
+          "w": 155,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 205,
+          "y": 3378,
+          "w": 155,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Home Repairs",
+        "rect": {
+          "x": 205,
+          "y": 3378,
+          "w": 155,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp510",
+        "class": "comp-jnod9lp510 FDI5TK wixui-column-strip__column",
+        "text": "Decor Services Find out More",
+        "rect": {
+          "x": 522,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Decor Services Find out More",
+        "rect": {
+          "x": 522,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Decor Services Find out More",
+        "rect": {
+          "x": 522,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp511",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jnod9lp511 wixui-rich-text",
+        "text": "Decor Services",
+        "rect": {
+          "x": 612,
+          "y": 3378,
+          "w": 237,
+          "h": 31
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Decor Services",
+        "rect": {
+          "x": 612,
+          "y": 3378,
+          "w": 237,
+          "h": 31
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Decor Services",
+        "rect": {
+          "x": 647,
+          "y": 3378,
+          "w": 165,
+          "h": 31
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp512",
+        "class": "comp-jnod9lp512 mu5PoX",
+        "text": "Find out More",
+        "rect": {
+          "x": 638,
+          "y": 3497,
+          "w": 163,
+          "h": 40
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "OR4Nv8 wixui-button__label",
+        "text": "Find out More",
+        "rect": {
+          "x": 672,
+          "y": 3507,
+          "w": 94,
+          "h": 20
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp58",
+        "class": "comp-jnod9lp58 FDI5TK wixui-column-strip__column",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 958,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 958,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 958,
+          "y": 3192,
+          "w": 402,
+          "h": 404
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jnod9lp59",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jnod9lp59 wixui-rich-text",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 1040,
+          "y": 3378,
+          "w": 237,
+          "h": 62
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_6 wixui-rich-text__text",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 1040,
+          "y": 3378,
+          "w": 237,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 1042,
+          "y": 3378,
+          "w": 233,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 1042,
+          "y": 3378,
+          "w": 233,
+          "h": 62
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Apartments & AirBnB Make-Ready",
+        "rect": {
+          "x": 1042,
+          "y": 3378,
+          "w": 233,
+          "h": 62
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-litetsqc",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-litetsqc wixui-rich-text",
+        "text": "Appliance Installation Bathroom Repairs & Refresh Bathroom Upgrades Cabinets Repair & Installation Ceiling Fan Installation Deck & Patio Door Installations Drywall Repairs Electrical Repairs Fences/Deck Staining & Repair Furniture Assembly Garage Opener Installation and Repair Home Surveillance Inst",
+        "rect": {
+          "x": 259,
+          "y": 3637,
+          "w": 460,
+          "h": 299
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Appliance Installation",
+        "rect": {
+          "x": 288,
+          "y": 3637,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Appliance Installation",
+        "rect": {
+          "x": 288,
+          "y": 3639,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Bathroom Repairs & Refresh",
+        "rect": {
+          "x": 288,
+          "y": 3660,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Bathroom Repairs & Refresh",
+        "rect": {
+          "x": 288,
+          "y": 3662,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Bathroom Upgrades",
+        "rect": {
+          "x": 288,
+          "y": 3683,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Bathroom Upgrades",
+        "rect": {
+          "x": 288,
+          "y": 3685,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Cabinets Repair & Installation",
+        "rect": {
+          "x": 288,
+          "y": 3706,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Cabinets Repair & Installation",
+        "rect": {
+          "x": 288,
+          "y": 3708,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Ceiling Fan Installation",
+        "rect": {
+          "x": 288,
+          "y": 3729,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Ceiling Fan Installation",
+        "rect": {
+          "x": 288,
+          "y": 3731,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Deck & Patio",
+        "rect": {
+          "x": 288,
+          "y": 3752,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Deck & Patio",
+        "rect": {
+          "x": 288,
+          "y": 3754,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Door Installations",
+        "rect": {
+          "x": 288,
+          "y": 3775,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Door Installations",
+        "rect": {
+          "x": 288,
+          "y": 3777,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Drywall Repairs",
+        "rect": {
+          "x": 288,
+          "y": 3798,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Drywall Repairs",
+        "rect": {
+          "x": 288,
+          "y": 3800,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Electrical Repairs",
+        "rect": {
+          "x": 288,
+          "y": 3821,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Electrical Repairs",
+        "rect": {
+          "x": 288,
+          "y": 3823,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Fences/Deck Staining & Repair",
+        "rect": {
+          "x": 288,
+          "y": 3844,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Fences/Deck Staining & Repair",
+        "rect": {
+          "x": 288,
+          "y": 3846,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Furniture Assembly",
+        "rect": {
+          "x": 288,
+          "y": 3867,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Furniture Assembly",
+        "rect": {
+          "x": 288,
+          "y": 3869,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Garage Opener Installation and Repair",
+        "rect": {
+          "x": 288,
+          "y": 3890,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Garage Opener Installation and Repair",
+        "rect": {
+          "x": 288,
+          "y": 3892,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Home Surveillance Installs & Doorbell Installation",
+        "rect": {
+          "x": 288,
+          "y": 3913,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Home Surveillance Installs & Doorbell Installation",
+        "rect": {
+          "x": 288,
+          "y": 3915,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-liudcfom",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-liudcfom wixui-rich-text",
+        "text": "Kitchen Upgrades & Refresh Light Fixture Installation Painting & Staining Plumbing Repairs Pressure Washing Tile & Flooring TV Mounting Service Full Home Decor Services Practical Design Solutions AirBnB’s Full Decor and “Make Ready” Creative Solutions for Small and Tiny Spaces Affordable Decor Ideas",
+        "rect": {
+          "x": 730,
+          "y": 3637,
+          "w": 460,
+          "h": 307
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Kitchen Upgrades & Refresh",
+        "rect": {
+          "x": 759,
+          "y": 3637,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Kitchen Upgrades & Refresh",
+        "rect": {
+          "x": 759,
+          "y": 3639,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Light Fixture Installation",
+        "rect": {
+          "x": 759,
+          "y": 3660,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Light Fixture Installation",
+        "rect": {
+          "x": 759,
+          "y": 3662,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Painting & Staining",
+        "rect": {
+          "x": 759,
+          "y": 3683,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Painting & Staining",
+        "rect": {
+          "x": 759,
+          "y": 3685,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Plumbing Repairs",
+        "rect": {
+          "x": 759,
+          "y": 3706,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Plumbing Repairs",
+        "rect": {
+          "x": 759,
+          "y": 3708,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Pressure Washing",
+        "rect": {
+          "x": 759,
+          "y": 3729,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Pressure Washing",
+        "rect": {
+          "x": 759,
+          "y": 3731,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Tile & Flooring",
+        "rect": {
+          "x": 759,
+          "y": 3752,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Tile & Flooring",
+        "rect": {
+          "x": 759,
+          "y": 3754,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "TV Mounting Service",
+        "rect": {
+          "x": 759,
+          "y": 3775,
+          "w": 431,
+          "h": 23
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "TV Mounting Service",
+        "rect": {
+          "x": 759,
+          "y": 3777,
+          "w": 431,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Full Home Decor Services",
+        "rect": {
+          "x": 759,
+          "y": 3798,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Full Home Decor Services",
+        "rect": {
+          "x": 759,
+          "y": 3800,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Full Home Decor Services",
+        "rect": {
+          "x": 759,
+          "y": 3799,
+          "w": 200,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Full Home Decor Services",
+        "rect": {
+          "x": 759,
+          "y": 3799,
+          "w": 200,
+          "h": 23
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Practical Design Solutions",
+        "rect": {
+          "x": 759,
+          "y": 3822,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Practical Design Solutions",
+        "rect": {
+          "x": 759,
+          "y": 3824,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Practical Design Solutions",
+        "rect": {
+          "x": 759,
+          "y": 3823,
+          "w": 205,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Practical Design Solutions",
+        "rect": {
+          "x": 759,
+          "y": 3823,
+          "w": 205,
+          "h": 23
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "AirBnB’s Full Decor and “Make Ready”",
+        "rect": {
+          "x": 759,
+          "y": 3846,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "AirBnB’s Full Decor and “Make Ready”",
+        "rect": {
+          "x": 759,
+          "y": 3848,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "AirBnB’s Full Decor and “Make Ready”",
+        "rect": {
+          "x": 759,
+          "y": 3847,
+          "w": 289,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "AirBnB’s Full Decor and “Make Ready”",
+        "rect": {
+          "x": 759,
+          "y": 3847,
+          "w": 289,
+          "h": 23
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Creative Solutions for Small and Tiny Spaces",
+        "rect": {
+          "x": 759,
+          "y": 3871,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Creative Solutions for Small and Tiny Spaces",
+        "rect": {
+          "x": 759,
+          "y": 3873,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Creative Solutions for Small and Tiny Spaces",
+        "rect": {
+          "x": 759,
+          "y": 3872,
+          "w": 352,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Creative Solutions for Small and Tiny Spaces",
+        "rect": {
+          "x": 759,
+          "y": 3872,
+          "w": 352,
+          "h": 23
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Affordable Decor Ideas",
+        "rect": {
+          "x": 759,
+          "y": 3895,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Affordable Decor Ideas",
+        "rect": {
+          "x": 759,
+          "y": 3897,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Affordable Decor Ideas",
+        "rect": {
+          "x": 759,
+          "y": 3896,
+          "w": 183,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Affordable Decor Ideas",
+        "rect": {
+          "x": 759,
+          "y": 3896,
+          "w": 183,
+          "h": 23
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "The list goes on, so JUST ASK!",
+        "rect": {
+          "x": 759,
+          "y": 3920,
+          "w": 431,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "The list goes on, so JUST ASK!",
+        "rect": {
+          "x": 759,
+          "y": 3922,
+          "w": 431,
+          "h": 22
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "The list goes on, so JUST ASK!",
+        "rect": {
+          "x": 759,
+          "y": 3921,
+          "w": 225,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "The list goes on, so JUST ASK!",
+        "rect": {
+          "x": 759,
+          "y": 3921,
+          "w": 225,
+          "h": 23
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4587,
+          "w": 1440,
+          "h": 850
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4582,
+          "w": 1440,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "Ak0vpt",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4582,
+          "w": 1440,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93jx2",
+        "class": "comp-kbae93jx2 FDI5TK wixui-column-strip__column",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "Let's Discuss Your Next Project Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal ",
+        "rect": {
+          "x": 0,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93k1",
+        "class": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kbae93k1 wixui-rich-text",
+        "text": "Let's Discuss Your Next Project",
+        "rect": {
+          "x": 140,
+          "y": 4640,
+          "w": 460,
+          "h": 112
+        }
+      },
+      {
+        "tag": "H2",
+        "id": "",
+        "class": "font_4 wixui-rich-text__text",
+        "text": "Let's Discuss Your Next Project",
+        "rect": {
+          "x": 140,
+          "y": 4640,
+          "w": 460,
+          "h": 112
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Let's Discuss Your Next Project",
+        "rect": {
+          "x": 140,
+          "y": 4640,
+          "w": 347,
+          "h": 112
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-lithb35d",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-lithb35d wixui-rich-text",
+        "text": "Timberwood Park Converse Castle Hills Hill Country Village Leon Valley Stone Oak Shavano Park And surrounding areas in Bexar County",
+        "rect": {
+          "x": 373,
+          "y": 4912,
+          "w": 245,
+          "h": 254
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Timberwood Park",
+        "rect": {
+          "x": 400,
+          "y": 4912,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Timberwood Park",
+        "rect": {
+          "x": 400,
+          "y": 4912,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Timberwood Park",
+        "rect": {
+          "x": 400,
+          "y": 4915,
+          "w": 130,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Timberwood Park",
+        "rect": {
+          "x": 400,
+          "y": 4915,
+          "w": 130,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Converse",
+        "rect": {
+          "x": 400,
+          "y": 4940,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Converse",
+        "rect": {
+          "x": 400,
+          "y": 4940,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Converse",
+        "rect": {
+          "x": 400,
+          "y": 4943,
+          "w": 72,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Converse",
+        "rect": {
+          "x": 400,
+          "y": 4943,
+          "w": 72,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Castle Hills",
+        "rect": {
+          "x": 400,
+          "y": 4968,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Castle Hills",
+        "rect": {
+          "x": 400,
+          "y": 4968,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Castle Hills",
+        "rect": {
+          "x": 400,
+          "y": 4971,
+          "w": 80,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Castle Hills",
+        "rect": {
+          "x": 400,
+          "y": 4971,
+          "w": 80,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Hill Country Village",
+        "rect": {
+          "x": 400,
+          "y": 4997,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Hill Country Village",
+        "rect": {
+          "x": 400,
+          "y": 4997,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Hill Country Village",
+        "rect": {
+          "x": 400,
+          "y": 5000,
+          "w": 139,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Hill Country Village",
+        "rect": {
+          "x": 400,
+          "y": 5000,
+          "w": 139,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Leon Valley",
+        "rect": {
+          "x": 400,
+          "y": 5025,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Leon Valley",
+        "rect": {
+          "x": 400,
+          "y": 5025,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Leon Valley",
+        "rect": {
+          "x": 400,
+          "y": 5028,
+          "w": 84,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Leon Valley",
+        "rect": {
+          "x": 400,
+          "y": 5028,
+          "w": 84,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Stone Oak",
+        "rect": {
+          "x": 400,
+          "y": 5053,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Stone Oak",
+        "rect": {
+          "x": 400,
+          "y": 5053,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Stone Oak",
+        "rect": {
+          "x": 400,
+          "y": 5056,
+          "w": 76,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Stone Oak",
+        "rect": {
+          "x": 400,
+          "y": 5056,
+          "w": 76,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Park",
+        "rect": {
+          "x": 400,
+          "y": 5081,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Shavano Park",
+        "rect": {
+          "x": 400,
+          "y": 5081,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Park",
+        "rect": {
+          "x": 400,
+          "y": 5084,
+          "w": 102,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Shavano Park",
+        "rect": {
+          "x": 400,
+          "y": 5084,
+          "w": 102,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "And surrounding areas in Bexar County",
+        "rect": {
+          "x": 400,
+          "y": 5109,
+          "w": 218,
+          "h": 56
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "And surrounding areas in Bexar County",
+        "rect": {
+          "x": 400,
+          "y": 5109,
+          "w": 218,
+          "h": 56
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "And surrounding areas in Bexar County",
+        "rect": {
+          "x": 400,
+          "y": 5112,
+          "w": 188,
+          "h": 49
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "And surrounding areas in Bexar County",
+        "rect": {
+          "x": 400,
+          "y": 5112,
+          "w": 188,
+          "h": 49
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93k3",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae93k3 wixui-rich-text",
+        "text": "Fill out the form, or call us to set up an in-home consultation. ​ Service Areas: San Antonio Boerne Windcrest Shavano Forest Universal City Hollywood Park Shavano Heights Alamo Heights Encino Park",
+        "rect": {
+          "x": 140,
+          "y": 4799,
+          "w": 245,
+          "h": 367
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Fill out the form, or call us to",
+        "rect": {
+          "x": 140,
+          "y": 4799,
+          "w": 245,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Fill out the form, or call us to",
+        "rect": {
+          "x": 140,
+          "y": 4802,
+          "w": 207,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Fill out the form, or call us to",
+        "rect": {
+          "x": 140,
+          "y": 4802,
+          "w": 207,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Fill out the form, or call us to",
+        "rect": {
+          "x": 140,
+          "y": 4802,
+          "w": 207,
+          "h": 21
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "set up an in-home consultation.",
+        "rect": {
+          "x": 140,
+          "y": 4827,
+          "w": 245,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "set up an in-home consultation.",
+        "rect": {
+          "x": 140,
+          "y": 4830,
+          "w": 238,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "set up an in-home consultation.",
+        "rect": {
+          "x": 140,
+          "y": 4830,
+          "w": 238,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "set up an in-home consultation.",
+        "rect": {
+          "x": 140,
+          "y": 4830,
+          "w": 238,
+          "h": 21
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Service Areas:",
+        "rect": {
+          "x": 140,
+          "y": 4884,
+          "w": 245,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Service Areas:",
+        "rect": {
+          "x": 140,
+          "y": 4887,
+          "w": 104,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Service Areas:",
+        "rect": {
+          "x": 140,
+          "y": 4887,
+          "w": 104,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Service Areas:",
+        "rect": {
+          "x": 140,
+          "y": 4887,
+          "w": 104,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "San Antonio",
+        "rect": {
+          "x": 167,
+          "y": 4912,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "San Antonio",
+        "rect": {
+          "x": 167,
+          "y": 4912,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "San Antonio",
+        "rect": {
+          "x": 167,
+          "y": 4915,
+          "w": 90,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "San Antonio",
+        "rect": {
+          "x": 167,
+          "y": 4915,
+          "w": 90,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Boerne",
+        "rect": {
+          "x": 167,
+          "y": 4940,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Boerne",
+        "rect": {
+          "x": 167,
+          "y": 4940,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Boerne",
+        "rect": {
+          "x": 167,
+          "y": 4943,
+          "w": 53,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Boerne",
+        "rect": {
+          "x": 167,
+          "y": 4943,
+          "w": 53,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Windcrest",
+        "rect": {
+          "x": 167,
+          "y": 4968,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Windcrest",
+        "rect": {
+          "x": 167,
+          "y": 4968,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Windcrest",
+        "rect": {
+          "x": 167,
+          "y": 4971,
+          "w": 76,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Windcrest",
+        "rect": {
+          "x": 167,
+          "y": 4971,
+          "w": 76,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Forest",
+        "rect": {
+          "x": 167,
+          "y": 4996,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Shavano Forest",
+        "rect": {
+          "x": 167,
+          "y": 4996,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Forest",
+        "rect": {
+          "x": 167,
+          "y": 4999,
+          "w": 116,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Shavano Forest",
+        "rect": {
+          "x": 167,
+          "y": 4999,
+          "w": 116,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Universal City",
+        "rect": {
+          "x": 167,
+          "y": 5025,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Universal City",
+        "rect": {
+          "x": 167,
+          "y": 5025,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Universal City",
+        "rect": {
+          "x": 167,
+          "y": 5028,
+          "w": 101,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Universal City",
+        "rect": {
+          "x": 167,
+          "y": 5028,
+          "w": 101,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Hollywood Park",
+        "rect": {
+          "x": 167,
+          "y": 5053,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Hollywood Park",
+        "rect": {
+          "x": 167,
+          "y": 5053,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Hollywood Park",
+        "rect": {
+          "x": 167,
+          "y": 5056,
+          "w": 113,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Hollywood Park",
+        "rect": {
+          "x": 167,
+          "y": 5056,
+          "w": 113,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Heights",
+        "rect": {
+          "x": 167,
+          "y": 5081,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Shavano Heights",
+        "rect": {
+          "x": 167,
+          "y": 5081,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Shavano Heights",
+        "rect": {
+          "x": 167,
+          "y": 5084,
+          "w": 126,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Shavano Heights",
+        "rect": {
+          "x": 167,
+          "y": 5084,
+          "w": 126,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Alamo Heights",
+        "rect": {
+          "x": 167,
+          "y": 5109,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Alamo Heights",
+        "rect": {
+          "x": 167,
+          "y": 5109,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Alamo Heights",
+        "rect": {
+          "x": 167,
+          "y": 5112,
+          "w": 109,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Alamo Heights",
+        "rect": {
+          "x": 167,
+          "y": 5112,
+          "w": 109,
+          "h": 21
+        }
+      },
+      {
+        "tag": "LI",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Encino Park",
+        "rect": {
+          "x": 167,
+          "y": 5138,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Encino Park",
+        "rect": {
+          "x": 167,
+          "y": 5138,
+          "w": 218,
+          "h": 28
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Encino Park",
+        "rect": {
+          "x": 167,
+          "y": 5141,
+          "w": 85,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Encino Park",
+        "rect": {
+          "x": 167,
+          "y": 5141,
+          "w": 85,
+          "h": 21
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93k9",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae93k9 wixui-rich-text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5207,
+          "w": 460,
+          "h": 47
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5207,
+          "w": 460,
+          "h": 47
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5208,
+          "w": 195,
+          "h": 44
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5208,
+          "w": 195,
+          "h": 44
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5208,
+          "w": 195,
+          "h": 44
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "210-777-1123",
+        "rect": {
+          "x": 140,
+          "y": 5208,
+          "w": 195,
+          "h": 44
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93k7",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-kbae93k7 wixui-rich-text",
+        "text": "homefixerstx@gmail.com ​ Decor Team: homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5265,
+          "w": 460,
+          "h": 104
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5265,
+          "w": 460,
+          "h": 26
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5266,
+          "w": 256,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5266,
+          "w": 256,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5266,
+          "w": 256,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "homefixerstx@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5266,
+          "w": 256,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "Decor Team:",
+        "rect": {
+          "x": 140,
+          "y": 5317,
+          "w": 460,
+          "h": 26
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Decor Team:",
+        "rect": {
+          "x": 140,
+          "y": 5318,
+          "w": 125,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Decor Team:",
+        "rect": {
+          "x": 140,
+          "y": 5318,
+          "w": 125,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Decor Team:",
+        "rect": {
+          "x": 140,
+          "y": 5318,
+          "w": 125,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "Decor Team:",
+        "rect": {
+          "x": 140,
+          "y": 5318,
+          "w": 125,
+          "h": 24
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5343,
+          "w": 460,
+          "h": 26
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5344,
+          "w": 349,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5344,
+          "w": 349,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5344,
+          "w": 349,
+          "h": 24
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "color_11 wixui-rich-text__text",
+        "text": "homefixersdecorteam@gmail.com",
+        "rect": {
+          "x": 140,
+          "y": 5344,
+          "w": 349,
+          "h": 24
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93ka",
+        "class": "comp-kbae93ka FDI5TK wixui-column-strip__column",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 720,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 720,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 720,
+          "y": 4582,
+          "w": 720,
+          "h": 855
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93kc5",
+        "class": "jko4jB comp-kbae93kc5",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 524,
+          "y": 4682,
+          "w": 482,
+          "h": 575
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 524,
+          "y": 4682,
+          "w": 482,
+          "h": 575
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 524,
+          "y": 4682,
+          "w": 482,
+          "h": 575
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 524,
+          "y": 4682,
+          "w": 482,
+          "h": 575
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "First Name Last Name Email Phone Address Subject Type your message here... Submit",
+        "rect": {
+          "x": 524,
+          "y": 4682,
+          "w": 482,
+          "h": 575
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93kr",
+        "class": "Q1MQrw comp-kbae93kr wixui-text-input pZqgsf TqroEf",
+        "text": "First Name",
+        "rect": {
+          "x": 535,
+          "y": 4698,
+          "w": 225,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbg43f6c",
+        "class": "Q1MQrw comp-kbg43f6c wixui-text-input pZqgsf TqroEf",
+        "text": "Last Name",
+        "rect": {
+          "x": 770,
+          "y": 4698,
+          "w": 225,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93kw1",
+        "class": "Q1MQrw comp-kbae93kw1 wixui-text-input pZqgsf TqroEf",
+        "text": "Email",
+        "rect": {
+          "x": 535,
+          "y": 4770,
+          "w": 225,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93l02",
+        "class": "Q1MQrw comp-kbae93l02 wixui-text-input pZqgsf",
+        "text": "Phone",
+        "rect": {
+          "x": 770,
+          "y": 4770,
+          "w": 225,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93l4",
+        "class": "Q1MQrw comp-kbae93l4 wixui-text-input pZqgsf",
+        "text": "Address",
+        "rect": {
+          "x": 535,
+          "y": 4843,
+          "w": 460,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93l8",
+        "class": "Q1MQrw comp-kbae93l8 wixui-text-input pZqgsf",
+        "text": "Subject",
+        "rect": {
+          "x": 535,
+          "y": 4923,
+          "w": 460,
+          "h": 50
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93lb",
+        "class": "fRbOAc comp-kbae93lb wixui-text-box bCYfl0",
+        "text": "Type your message here...",
+        "rect": {
+          "x": 535,
+          "y": 4999,
+          "w": 460,
+          "h": 150
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-kbae93lh",
+        "class": "comp-kbae93lh mu5PoX",
+        "text": "Submit",
+        "rect": {
+          "x": 535,
+          "y": 5163,
+          "w": 460,
+          "h": 50
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "twJknM wixui-button ZhVEJq",
+        "text": "Submit",
+        "rect": {
+          "x": 535,
+          "y": 5163,
+          "w": 460,
+          "h": 50
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "OR4Nv8 wixui-button__label",
+        "text": "Submit",
+        "rect": {
+          "x": 741,
+          "y": 5176,
+          "w": 48,
+          "h": 25
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "ZgDNL8",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 0,
+          "y": 5437,
+          "w": 1440,
+          "h": 168
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "G6vvJF",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 0,
+          "y": 5437,
+          "w": 1440,
+          "h": 168
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 0,
+          "y": 5437,
+          "w": 1440,
+          "h": 168
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 0,
+          "y": 5437,
+          "w": 1440,
+          "h": 168
+        }
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-jj4e2f2d",
+        "class": "N8MGzv _v6ohL ZS_qLz PO9MfV comp-jj4e2f2d wixui-rich-text",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 250,
+          "y": 5500,
+          "w": 729,
+          "h": 25
+        }
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "class": "font_8 wixui-rich-text__text",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 250,
+          "y": 5500,
+          "w": 729,
+          "h": 23
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "© 2023 by Home Fixers, LLC and secured by Wix",
+        "rect": {
+          "x": 250,
+          "y": 5501,
+          "w": 348,
+          "h": 21
+        }
+      },
+      {
+        "tag": "SPAN",
+        "id": "",
+        "class": "wixui-rich-text__text",
+        "text": "Wix",
+        "rect": {
+          "x": 572,
+          "y": 5501,
+          "w": 26,
+          "h": 21
+        }
+      }
+    ]
+  },
+  "logs": [
+    {
+      "type": "warning",
+      "text": "Unrecognized feature: 'vr'."
+    },
+    {
+      "type": "warning",
+      "text": "[2026-05-18T07:12:48.725Z]  @firebase/app-compat: \n    Warning: Firebase is already defined in the global scope. Please make sure\n    Firebase library is only loaded once.\n  "
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.Fre"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.Fre"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.Fre"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.Fre"
+    }
+  ]
+}

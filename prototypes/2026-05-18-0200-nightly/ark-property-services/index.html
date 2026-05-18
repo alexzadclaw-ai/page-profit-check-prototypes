@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Property Services | Ark Property Services, LLC</title>
+  <meta name="description" content="Michigan property services from Ark Property Services, LLC. Request a free estimate for roof and gutter cleaning, pressure washing, window washing, deck staining, driveway drainage cleaning, and remodeling support." />
+  <style>
+    :root{
+      --cream:#fdf9f7;
+      --gray:#c1bebd;
+      --nav:#f1f1f1;
+      --black:#0d0d0d;
+      --ink:#0d0d0d;
+      --soft:#efeceb;
+      --blue:#166aea;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:var(--gray)}
+    a{color:inherit;text-decoration:none}
+    .wixbar{height:50px;background:#eff1f2;border-bottom:3px solid #166aea;display:flex;align-items:center;justify-content:center;font-family:"Helvetica Neue", Arial, sans-serif;color:#20303c;font-size:16px;letter-spacing:.01em}
+    .wixbar-inner{width:586px;height:47px;display:flex;align-items:center;gap:14px}
+    .wix-word{font-weight:800;font-size:24px;letter-spacing:-.06em;color:#20303c;margin-right:4px}
+    .wixbar b{font-weight:700}
+    .wixbar .started{margin-left:auto;border:1px solid #116dff;border-radius:18px;color:#116dff;background:#fff;min-width:114px;text-align:center;padding:8px 17px;font-size:14px;line-height:1}
+
+    .site-header{height:174px;background:var(--cream);position:relative}
+    .header-grid{width:1206px;height:156px;position:absolute;left:80px;top:18px;display:grid;grid-template-columns:353px 1fr}
+    .brand{position:relative;height:156px}
+    .brand img{position:absolute;left:7px;top:24px;width:36px;height:31px;object-fit:contain;filter:brightness(0) saturate(100%)}
+    .brand-name{position:absolute;left:61px;top:23px;width:226px;font-family:Fahkwang, "Helvetica Neue", Arial, sans-serif;font-size:22px;line-height:1.25;letter-spacing:.01em}
+    .right-head{position:relative;height:156px}
+    .estimate-tab{position:absolute;left:160px;top:27px;width:142px;height:40px;border:0;background:transparent;display:flex;align-items:center;gap:8px;font:15px helvetica-w01-roman, Arial, sans-serif;color:#111}
+    .estimate-tab:before{content:"";width:26px;height:26px;border:1.5px solid #111;border-radius:50%;background:linear-gradient(180deg,transparent 48%,#111 49%,#111 54%,transparent 55%)}
+    .estimate-tab strong{font-weight:400}
+    .nav{position:absolute;left:349px;top:27px;width:527px;height:58px;background:var(--nav);display:flex;align-items:stretch;border-left:1px solid rgba(0,0,0,.05)}
+    .nav a{display:flex;align-items:center;justify-content:center;height:58px;padding:0 6px;border-right:1px solid rgba(0,0,0,.05);font-family:dinneuzeitgroteskltw01-_812426, Arial, sans-serif;font-size:17px;letter-spacing:.01em}
+    .nav a:nth-child(1){width:63px}.nav a:nth-child(2){width:64px}.nav a:nth-child(3){width:78px}.nav a:nth-child(4){width:59px}.nav a:nth-child(5){width:74px}
+    .nav a.active{background:#e7e4e3}
+    .top-contact{position:absolute;left:699px;top:31px;width:154px;height:40px;text-align:right;font:14px/16px helvetica-w01-roman, Arial, sans-serif;color:#111}
+    .top-contact a{display:block}
+
+    main{background:var(--gray)}
+    .services-hero{height:1105px;position:relative;background:var(--gray)}
+    .services-hero h1{position:absolute;left:293px;top:53px;width:780px;margin:0;font-family:Fahkwang, "Helvetica Neue", Arial, sans-serif;font-size:40px;line-height:52px;font-weight:400;text-align:center;letter-spacing:.01em}
+    .intro{position:absolute;left:293px;top:137px;width:780px;margin:0;text-align:center;font:15px/1.35 helvetica-w01-roman, Arial, sans-serif;color:#111}
+    .estimate-strip{position:absolute;left:187px;top:186px;width:992px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+    .estimate-card{min-height:67px;background:rgba(253,249,247,.62);border:1px solid rgba(13,13,13,.16);padding:13px 18px;text-align:center;box-shadow:0 1px 0 rgba(255,255,255,.35) inset}
+    .estimate-card b{display:block;font:18px/1.15 Fahkwang, "Helvetica Neue", Arial, sans-serif;font-weight:400;margin-bottom:6px}
+    .estimate-card span{display:block;font:13px/1.25 helvetica-w01-roman, Arial, sans-serif;color:#272727}
+    .gallery{position:absolute;left:68px;top:296px;width:1229px;height:808px;display:grid;grid-template-columns:repeat(3,389px);grid-auto-rows:389px;gap:30px}
+    .tile{position:relative;overflow:hidden;background:#aaa}
+    .tile img{width:100%;height:100%;display:block;object-fit:cover}
+    .tile figcaption{position:absolute;left:0;right:0;bottom:0;min-height:43px;background:rgba(13,13,13,.72);color:#fff;font:14px/1.2 helvetica-w01-roman, Arial, sans-serif;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 14px;letter-spacing:.01em}
+
+    .cta{height:340px;background:#0d0d0d;color:#fff;position:relative;text-align:center}
+    .cta h2{position:absolute;left:293px;top:73px;width:780px;margin:0;font-family:Fahkwang, "Helvetica Neue", Arial, sans-serif;font-size:28px;line-height:1.38;font-weight:400;letter-spacing:.01em}
+    .cta p{position:absolute;left:391px;top:157px;width:584px;margin:0;font:14px/1.45 helvetica-w01-roman, Arial, sans-serif;color:#f2f2f2}
+    .button-row{position:absolute;left:480px;top:220px;width:406px;display:flex;gap:16px;justify-content:center}
+    .btn{height:40px;min-width:173px;display:flex;align-items:center;justify-content:center;border:1px solid #fdf9f7;background:#fdf9f7;color:#564d49;font:14px poppins-extralight, Arial, sans-serif;letter-spacing:.01em}
+    .btn.alt{background:transparent;color:#fdf9f7}
+    .chat{position:absolute;right:0;bottom:-31px;width:230px;height:66px;background:#0d0d0d;border:1px solid rgba(255,255,255,.45);color:#fff;display:flex;align-items:center;padding-left:35px;gap:17px;font:18px/1 Arial, Helvetica, sans-serif;z-index:2}
+    .chat-bubble{width:28px;height:22px;border:2px solid #fff;border-radius:7px;position:relative}.chat-bubble:after{content:"";position:absolute;right:3px;bottom:-7px;border-width:7px 0 0 9px;border-style:solid;border-color:transparent transparent transparent #fff}
+
+    .footer{height:169px;background:var(--gray);position:relative}
+    .footer p{position:absolute;left:213px;top:60px;width:729px;margin:0;font:15px/25px helvetica-w01-roman, Arial, sans-serif;color:#111}
+    .socials{position:absolute;left:1061px;top:65px;width:89px;height:23px;display:flex;gap:10px}
+    .socials img{width:23px;height:23px;object-fit:contain}
+
+    @media (max-width:900px){
+      .wixbar-inner,.header-grid,.services-hero h1,.intro,.cta h2{width:auto;left:20px;right:20px}.header-grid{left:0;top:0;height:auto;display:block}.site-header{height:265px}.brand{height:110px}.right-head{height:155px}.nav{left:20px;top:50px;width:calc(100% - 40px)}.estimate-tab{left:20px;top:5px}.top-contact{left:auto;right:20px;top:8px}.services-hero{height:auto;min-height:1500px}.estimate-strip{left:20px;right:20px;top:205px;width:auto;grid-template-columns:1fr}.gallery{position:relative;left:20px;top:420px;width:calc(100% - 40px);grid-template-columns:1fr;height:auto}.tile{height:320px}.cta .button-row{left:20px;right:20px;width:auto;top:230px;flex-wrap:wrap}.cta p{left:20px;right:20px;width:auto}.footer p{left:20px;width:auto}.socials{left:auto;right:20px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wixbar" aria-hidden="true">
+    <div class="wixbar-inner"><span class="wix-word">WIX</span><span>This website was built on Wix. <b>Create yours today.</b></span><span class="started">Get Started</span></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-grid">
+      <a class="brand" href="https://arkpsllc1.wixsite.com/aps1" aria-label="Ark Property Services home">
+        <img src="https://static.wixstatic.com/shapes/84770f_7b3b36b4bad04ce6a72d030012b1f3a0.svg" alt="Ark Property Services house mark" />
+        <div class="brand-name">Ark Property Services, LLC</div>
+      </a>
+      <div class="right-head">
+        <a class="estimate-tab" href="mailto:arkpsllc@gmail.com?subject=Free%20estimate%20request"><strong>Free Estimate</strong></a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="https://arkpsllc1.wixsite.com/aps1">Home</a>
+          <a href="https://arkpsllc1.wixsite.com/aps1/about">About</a>
+          <a class="active" href="https://arkpsllc1.wixsite.com/aps1/services">Services</a>
+          <a href="https://arkpsllc1.wixsite.com/aps1/work">Work</a>
+          <a href="https://arkpsllc1.wixsite.com/aps1/contact">Contact</a>
+        </nav>
+        <div class="top-contact"><a href="tel:8103556352">(810) 355-6352</a><a href="mailto:arkpsllc@gmail.com">arkpsllc@gmail.com</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="services-hero" aria-labelledby="services-title">
+      <h1 id="services-title">Property Services</h1>
+      <p class="intro">Roof and gutter cleaning, pressure washing for houses, driveways, and decks, window washing, deck staining, driveway drainage cleaning, and remodeling support in Michigan.</p>
+
+      <div class="estimate-strip" aria-label="Estimate path and trust cues">
+        <div class="estimate-card"><b>Call or text</b><span><a href="tel:8103556352">(810) 355-6352</a> for the fastest estimate path.</span></div>
+        <div class="estimate-card"><b>Email project photos</b><span><a href="mailto:arkpsllc@gmail.com">arkpsllc@gmail.com</a> with location and scope.</span></div>
+        <div class="estimate-card"><b>Michigan local help</b><span>Exterior cleaning, decks, drainage, and light remodel needs.</span></div>
+      </div>
+
+      <div class="gallery" aria-label="Ark Property Services work examples">
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_30cfd56fcf1f45dcaeb8f24a8502b0fd~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/3717fa_30cfd56fcf1f45dcaeb8f24a8502b0fd~mv2.png" alt="Deck cleaning in progress" /><figcaption>Deck cleaning and prep</figcaption></figure>
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_5c8b1cd1b24c4c87b09693ba7444ad89~mv2.png/v1/fit/w_480,h_479,q_90,enc_avif,quality_auto/3717fa_5c8b1cd1b24c4c87b09693ba7444ad89~mv2.png" alt="Freshly stained deck and railing" /><figcaption>Deck staining and sealing</figcaption></figure>
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_7597123169374b979d8db8e4dc9b9a30~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/3717fa_7597123169374b979d8db8e4dc9b9a30~mv2.png" alt="Roof and gutter cleaning view" /><figcaption>Roof and gutter cleaning</figcaption></figure>
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_e6e25bd327b342fc8e30408905a0af07~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/3717fa_e6e25bd327b342fc8e30408905a0af07~mv2.png" alt="Deck surface cleaning" /><figcaption>Pressure washing decks</figcaption></figure>
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_6bfd6527865548bfb8686b4dfd7eac72~mv2.png/v1/fit/w_480,h_479,q_90,enc_avif,quality_auto/3717fa_6bfd6527865548bfb8686b4dfd7eac72~mv2.png" alt="Finished deck project" /><figcaption>Finished outdoor spaces</figcaption></figure>
+        <figure class="tile"><img src="https://static.wixstatic.com/media/3717fa_47d89e6df12b4b69aeab3ffdc2a277c1~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/3717fa_47d89e6df12b4b69aeab3ffdc2a277c1~mv2.png" alt="Cleaned concrete and driveway area" /><figcaption>Driveways and drainage cleanup</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="cta" aria-label="Request an estimate">
+      <h2>Tell Ark about your property project.<br>Get a clearer estimate path today.</h2>
+      <p>Send the service needed, address or city, photos if available, and the best way to reach you. Ark Property Services, LLC can respond from one clean request instead of a generic template page.</p>
+      <div class="button-row"><a class="btn" href="mailto:arkpsllc@gmail.com?subject=Free%20estimate%20request">Email for Estimate</a><a class="btn alt" href="tel:8103556352">Call (810) 355-6352</a></div>
+      <div class="chat"><span class="chat-bubble"></span><span>Let's Chat!</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 by Ark Property Services, LLC. Property services and remodeling in Michigan.</p>
+    <div class="socials" aria-hidden="true">
+      <img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/facebook.png" alt="" />
+      <img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/twitter.png" alt="" />
+      <img src="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_23,h_23,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/youtube.png" alt="" />
+    </div>
+  </footer>
+</body>
+</html>
