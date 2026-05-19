@@ -1,0 +1,21 @@
+{
+  "slug": "peterson-pressure-washing-li",
+  "name": "Peterson Pressure Washing LI",
+  "status": "completed",
+  "liveUrl": "https://petersonpressurewa.wixsite.com/petersonpressurewash",
+  "prototypePath": "prototypes/2026-05-19-0200-nightly/peterson-pressure-washing-li/index.html",
+  "auditPath": "opportunities/2026-05-19-0200-nightly/peterson-pressure-washing-li-audit.md",
+  "offerPath": "offers/2026-05-19-0200-nightly/peterson-pressure-washing-li-offer.md",
+  "sourceAssetsPath": "state/2026-05-19-0200-nightly/peterson-pressure-washing-li-source-assets.md",
+  "liveScreenshot": "screenshots/2026-05-19-0200-nightly/peterson-pressure-washing-li-target.png",
+  "prototypeScreenshot": "screenshots/2026-05-19-0200-nightly/peterson-pressure-washing-li-prototype.png",
+  "similarity": {
+    "colorHistogramSimilarity": 0.4494,
+    "pixelSimilarity": 0.6847,
+    "edgeLayoutSimilarity": 0.6898,
+    "perceptualHashSimilarity": 0.6406,
+    "weightedSimilarity": 0.6205
+  },
+  "passed": true,
+  "completedAt": "2026-05-19T02:38:43-05:00"
+}

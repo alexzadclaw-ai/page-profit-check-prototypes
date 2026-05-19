@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M@RBA Professional Services | Lawn Care & Landscaping Restoration</title>
+  <meta name="description" content="M@RBA Professional Services provides lawn manicure maintenance, landscaping restoration, yard cleanups, retaining walls, stone pathways, and outdoor beautification. Schedule online or call 816-582-6398." />
+  <style>
+    @font-face {
+      font-family: "FuturaLTBook";
+      src: url("https://static.parastorage.com/fonts/v2/790166f1-b347-4f16-8a29-f0c4931a7c35/v1/futura-lt-w01-book.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "FuturaLTLight";
+      src: url("https://static.parastorage.com/fonts/v2/8e5b5cbc-6ad9-49f7-aee7-4e5133c3ee4d/v1/futura-lt-w01-light.woff2") format("woff2");
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+    :root {
+      --dark: #27211e;
+      --dark-2: #312824;
+      --olive: #7d8260;
+      --olive-deep: #6f7354;
+      --white: #fff;
+      --muted-white: rgba(255,255,255,.82);
+      --line: rgba(255,255,255,.32);
+      --wix-blue: #116dff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--white);
+      background: #fff;
+      font-family: "FuturaLTBook", "Futura LT W01 Book", Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    .clean-strip {
+      height: 50px;
+      background: var(--olive-deep);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      letter-spacing: .01em;
+      box-shadow: inset 0 -1px rgba(255,255,255,.16);
+    }
+    .clean-strip strong { font-weight: 700; }
+    .strip-button {
+      display: inline-flex;
+      align-items: center;
+      height: 30px;
+      padding: 0 18px;
+      border: 1px solid rgba(255,255,255,.84);
+      border-radius: 999px;
+      color: #fff;
+      background: rgba(39,33,30,.14);
+      font-size: 14px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .site-header {
+      height: 200px;
+      background: var(--dark);
+      position: relative;
+      overflow: hidden;
+    }
+    .site-header::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100px;
+      height: 1px;
+      background: rgba(255,255,255,.18);
+    }
+    .header-inner {
+      width: 980px;
+      height: 200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .brand {
+      position: absolute;
+      top: 110px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 340px;
+      text-align: center;
+      z-index: 2;
+    }
+    .brand-title {
+      display: block;
+      font-family: "FuturaLTLight", "Futura LT W01 Light", sans-serif;
+      font-size: 22px;
+      line-height: 31px;
+      color: #fff;
+      letter-spacing: .01em;
+      white-space: nowrap;
+    }
+    .brand-tagline {
+      display: block;
+      margin-top: 0;
+      font-family: "FuturaLTBook", sans-serif;
+      font-size: 15px;
+      line-height: 28px;
+      font-style: italic;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .nav-left, .contact-right {
+      position: absolute;
+      top: 170px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+    .nav-left { left: 0; }
+    .nav-left a {
+      min-height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0;
+      margin-right: 28px;
+      font-size: 14px;
+      color: #fff;
+      line-height: 30px;
+    }
+    .nav-left a:first-child { width: 55px; }
+    .nav-left a:nth-child(2) { width: 172px; }
+    .nav-left a.schedule-nav {
+      width: 116px;
+      margin-left: -10px;
+      border: 1px solid rgba(255,255,255,.62);
+      border-radius: 0;
+      font-size: 12px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .contact-right {
+      right: 32px;
+      gap: 23px;
+      font-size: 15px;
+      line-height: 28px;
+    }
+    .cert-badge {
+      position: absolute;
+      right: -8px;
+      top: 22px;
+      width: 156px;
+      height: 78px;
+      object-fit: contain;
+      opacity: .94;
+      filter: drop-shadow(0 8px 18px rgba(0,0,0,.26));
+    }
+    .hero {
+      height: 980px;
+      background: var(--dark-2);
+      position: relative;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 68px;
+      width: 840px;
+      height: 1px;
+      transform: translateX(-50%);
+      background: rgba(255,255,255,.08);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      width: 780px;
+      padding-top: 118px;
+      text-align: center;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      min-height: 180px;
+      font-family: "FuturaLTLight", "Futura LT W01 Light", sans-serif;
+      font-size: 72px;
+      line-height: 1.25;
+      font-weight: 300;
+      letter-spacing: .01em;
+      color: #fff;
+    }
+    .hero-subtitle {
+      margin-top: 0;
+      font-size: 20px;
+      line-height: 33px;
+      font-style: italic;
+      color: #fff;
+    }
+    .hero-note {
+      width: 660px;
+      margin: 18px auto 0;
+      font-size: 18px;
+      line-height: 1.65;
+      color: var(--muted-white);
+    }
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    .button {
+      width: auto;
+      min-width: 179px;
+      height: 45px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255,255,255,.8);
+      background: rgba(39,33,30,.06);
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      transition: background .18s ease, color .18s ease, border-color .18s ease;
+    }
+    .button:hover,
+    .button.primary {
+      background: #fff;
+      color: var(--dark);
+      border-color: #fff;
+    }
+    .hero-pill {
+      margin: 30px auto 0;
+      width: 564px;
+      min-height: 72px;
+      border: 1px solid rgba(255,255,255,.38);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 26px;
+      color: #fff;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 1.45;
+      background: rgba(255,255,255,.03);
+    }
+    .hero-proof {
+      width: 720px;
+      margin: 34px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .proof-item {
+      min-height: 94px;
+      border: 1px solid rgba(255,255,255,.24);
+      padding: 18px 12px;
+      color: #fff;
+      background: rgba(255,255,255,.025);
+    }
+    .proof-item strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.1;
+      font-family: "FuturaLTLight", sans-serif;
+      font-weight: 300;
+    }
+    .proof-item span {
+      display: block;
+      margin-top: 8px;
+      font-size: 13px;
+      line-height: 1.35;
+      color: rgba(255,255,255,.76);
+    }
+    .section {
+      position: relative;
+      overflow: hidden;
+    }
+    .who {
+      height: 780px;
+      background: var(--olive);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .who-inner {
+      width: 820px;
+      padding-top: 210px;
+    }
+    .section-title {
+      font-family: "FuturaLTLight", "Futura LT W01 Light", sans-serif;
+      font-size: 72px;
+      line-height: 90px;
+      font-weight: 300;
+      color: #fff;
+    }
+    .section-kicker {
+      margin-top: 33px;
+      font-size: 28px;
+      line-height: 39px;
+      font-style: italic;
+      color: #fff;
+    }
+    .section-copy {
+      margin-top: 31px;
+      font-size: 20px;
+      line-height: 1.55;
+      color: rgba(255,255,255,.92);
+    }
+    .who-actions {
+      margin-top: 33px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .services-photo {
+      height: 480px;
+      background: var(--dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    .services-photo img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .services-photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(25,22,18,.2);
+    }
+    .services-photo-inner {
+      position: relative;
+      z-index: 1;
+      width: 940px;
+      padding-top: 10px;
+    }
+    .services-photo .section-kicker { margin-top: 28px; }
+    .services {
+      height: 1060px;
+      background: var(--dark-2);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+    .service-grid {
+      width: 1055px;
+      padding-top: 120px;
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      gap: 76px;
+    }
+    .service-card {
+      text-align: center;
+      min-height: 821px;
+    }
+    .service-card img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 58px;
+      border: 1px solid rgba(255,255,255,.18);
+    }
+    .service-card h3 {
+      min-height: 108px;
+      font-family: "FuturaLTLight", "Futura LT W01 Light", sans-serif;
+      font-size: 40px;
+      line-height: 1.35;
+      font-weight: 300;
+      color: #fff;
+    }
+    .service-card .service-kicker {
+      margin-top: 41px;
+      font-size: 20px;
+      line-height: 33px;
+      font-style: italic;
+      color: #fff;
+    }
+    .service-card p {
+      margin-top: 31px;
+      min-height: 224px;
+      font-size: 15px;
+      line-height: 1.64;
+      color: rgba(255,255,255,.88);
+    }
+    .service-card .button {
+      margin-top: 55px;
+      font-size: 13px;
+    }
+    .testimonial {
+      height: 400px;
+      background: var(--olive);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    .testimonial-inner {
+      position: relative;
+      width: 940px;
+      min-height: 198px;
+      padding-top: 0;
+    }
+    .quote {
+      font-family: "FuturaLTLight", sans-serif;
+      font-size: 28px;
+      line-height: 1.38;
+      color: #fff;
+      font-weight: 300;
+    }
+    .quote-name {
+      margin-top: 35px;
+      font-size: 20px;
+      line-height: 33px;
+      color: #fff;
+    }
+    .chev {
+      position: absolute;
+      top: 52px;
+      width: 38px;
+      height: 38px;
+      border-top: 1px solid rgba(255,255,255,.8);
+      border-left: 1px solid rgba(255,255,255,.8);
+      opacity: .65;
+    }
+    .chev.left { left: -88px; transform: rotate(-45deg); }
+    .chev.right { right: -88px; transform: rotate(135deg); }
+    .dots {
+      margin-top: 28px;
+      display: flex;
+      gap: 13px;
+      justify-content: center;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      background: transparent;
+    }
+    .dot.active { background: #fff; }
+    .contact-photo {
+      height: 680px;
+      background: var(--dark);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    .contact-photo img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .contact-photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(39,33,30,.34);
+    }
+    .contact-inner {
+      position: relative;
+      z-index: 1;
+      width: 940px;
+      padding-top: 200px;
+    }
+    .contact-inner .section-copy {
+      margin-top: 29px;
+      font-size: 20px;
+      line-height: 33px;
+    }
+    .contact-links {
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .contact-links a {
+      min-width: 195px;
+      border: 1px solid rgba(255,255,255,.82);
+      padding: 10px 20px;
+      font-size: 20px;
+      line-height: 1.3;
+      background: rgba(39,33,30,.2);
+    }
+    .contact-guidance {
+      width: 620px;
+      margin: 28px auto 0;
+      padding: 14px 20px;
+      border-top: 1px solid rgba(255,255,255,.32);
+      border-bottom: 1px solid rgba(255,255,255,.32);
+      font-size: 15px;
+      line-height: 1.55;
+      color: rgba(255,255,255,.9);
+    }
+    .footer {
+      height: 90px;
+      background: var(--dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .chat-pill {
+      position: fixed;
+      right: 26px;
+      top: 52%;
+      z-index: 10;
+      min-width: 132px;
+      height: 48px;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 7px;
+      background: rgba(39,33,30,.28);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      box-shadow: 0 7px 24px rgba(0,0,0,.16);
+    }
+    .chat-pill::before {
+      content: "";
+      width: 16px;
+      height: 13px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      border-bottom-left-radius: 3px;
+    }
+    @media (max-width: 900px) {
+      .header-inner, .who-inner, .services-photo-inner, .testimonial-inner, .contact-inner, .hero-content { width: min(92vw, 780px); }
+      .site-header { height: 245px; }
+      .brand { top: 26px; }
+      .nav-left { left: 50%; top: 126px; transform: translateX(-50%); }
+      .contact-right { left: 50%; right: auto; top: 172px; transform: translateX(-50%); flex-wrap: wrap; justify-content: center; width: 92vw; }
+      .cert-badge { display: none; }
+      .hero, .who, .services, .testimonial, .contact-photo { height: auto; min-height: 620px; padding-bottom: 80px; }
+      h1, .section-title { font-size: clamp(46px, 12vw, 72px); line-height: 1.15; }
+      .hero-note, .hero-pill, .hero-proof, .contact-guidance { width: 100%; }
+      .hero-proof { grid-template-columns: 1fr; }
+      .service-grid { width: 92vw; grid-template-columns: 1fr; gap: 70px; padding-bottom: 80px; }
+      .chat-pill { display: none; }
+      .clean-strip { padding: 0 14px; justify-content: space-between; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="clean-strip" aria-label="Estimate prompt">
+    <span><strong>M@RBA Professional Services</strong> lawn care, landscaping restoration, and yard beautification.</span>
+    <a class="strip-button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Online</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="https://marbapros.wixsite.com/lawns">
+        <span class="brand-title">M@RBA Professional Services</span>
+        <span class="brand-tagline">"Making a Million Love Your Yard!"</span>
+      </a>
+      <nav class="nav-left" aria-label="Main navigation">
+        <a href="https://marbapros.wixsite.com/lawns">Home</a>
+        <a href="https://marbapros.wixsite.com/lawns/services-schedule-online">Services/Schedule Online</a>
+        <a class="schedule-nav" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Estimate</a>
+      </nav>
+      <div class="contact-right" aria-label="Contact information">
+        <a href="mailto:Marbapros@gmail.com">Marbapros@gmail.com</a>
+        <a href="tel:8165826398">816-582-6398</a>
+      </div>
+      <img class="cert-badge" src="https://static.wixstatic.com/media/516fa6_c5cadc6b94b046baa619775d1fb19d28~mv2.png/v1/fill/w_260,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/516fa6_c5cadc6b94b046baa619775d1fb19d28~mv2.png" alt="LawnStarter Certified Pro badge used on the M@RBA site" />
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <h1 id="hero-title">M@RBA Professional Services</h1>
+        <p class="hero-subtitle">Thank you for choosing us as your Lawn Care Team!</p>
+        <p class="hero-note">Family owned since 2014, helping homeowners move from regular lawn manicures to heavy duty landscaping restorations.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Service!</a>
+          <a class="button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Estimate!</a>
+          <a class="button" href="tel:8165826398">Call 816-582-6398</a>
+        </div>
+        <a class="hero-pill" href="http://www.marbapros.com/">We Now Offer Maid Services! Click Here!</a>
+        <div class="hero-proof" aria-label="Quick trust notes">
+          <div class="proof-item"><strong>Since 2014</strong><span>Family owned and operated lawn care team.</span></div>
+          <div class="proof-item"><strong>5-Star Focus</strong><span>Customer service and yard requests come first.</span></div>
+          <div class="proof-item"><strong>Book Online</strong><span>Pick lawn care or restoration estimates fast.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="who section" aria-labelledby="who-title">
+      <div class="who-inner">
+        <h2 class="section-title" id="who-title">Who We Are</h2>
+        <p class="section-kicker">Honest &amp; Efficient Work</p>
+        <p class="section-copy"><em>M@RBA Professional Services</em> has been a family owned and operated team since 2014. We are passionate about making lawns look their best and enjoy turning your lawn dreams into reality. We do it all from regular lawn manicures to heavy duty landscaping restorations. When we step onto your yard, you will never need another lawn service again.</p>
+        <div class="who-actions">
+          <a class="button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Service</a>
+          <a class="button" href="mailto:Marbapros@gmail.com?subject=M%40RBA%20lawn%20estimate%20request">Email Yard Details</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-photo section" aria-labelledby="services-title">
+      <img src="https://static.wixstatic.com/media/000e0c377403478d8bfb1b2f9648f08f.jpg/v1/fill/w_1365,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/000e0c377403478d8bfb1b2f9648f08f.jpg" alt="Green lawn banner from the M@RBA Professional Services site" />
+      <div class="services-photo-inner">
+        <h2 class="section-title" id="services-title">Our 5-Star Services</h2>
+        <p class="section-kicker">We provide:</p>
+      </div>
+    </section>
+
+    <section class="services section" aria-label="Lawn care services">
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/516fa6_2fef18fb95a24c4d86c4928704fdd359~mv2.jpg/v1/crop/x_289,y_0,w_201,h_200/fill/w_220,h_220,al_c,lg_1,q_80,enc_avif,quality_auto/516fa6_2fef18fb95a24c4d86c4928704fdd359~mv2.jpg" alt="Manicured yard photo used for M@RBA lawn maintenance" />
+          <h3>Lawn Manicure<br />Maintenance</h3>
+          <p class="service-kicker">Fast and Dependable</p>
+          <p>Whether you want regular services of your lawn or just need things spruced up, we can get your yard looking great in no time. From a simple mow and trim to an all-around touch up, we are the team to call for complete lawn care, year round.</p>
+          <a class="button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Service!</a>
+        </article>
+
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/516fa6_bad075f07d4043a7ba27a02a3a49a740~mv2.jpg/v1/fill/w_220,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/516fa6_bad075f07d4043a7ba27a02a3a49a740~mv2.jpg" alt="Overgrown yard photo used for M@RBA landscaping restoration" />
+          <h3>Landscaping<br />Restoration</h3>
+          <p class="service-kicker">Total and Complete Service</p>
+          <p>M@RBA Professional Services is committed to getting the job done right the first time. If you moved into an overgrown home or have not had time to reach the yard, call us to rid you of the jungle and put you back in paradise.</p>
+          <a class="button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Estimate!</a>
+        </article>
+
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/516fa6_81386292516548c9bbcd50420ef70a25~mv2.jpg/v1/fill/w_220,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/516fa6_81386292516548c9bbcd50420ef70a25~mv2.jpg" alt="Stone pathway and garden bed photo used for M@RBA extra lawn services" />
+          <h3>...And Much<br />More!</h3>
+          <p class="service-kicker">Jack of all Trades</p>
+          <p>We offer options like retaining walls around flower beds, stone pathways to your favorite spot, and complete beautification of your lawn. We are affordable, flexible, and ready to help make your outdoor living space the success you have been dreaming of.</p>
+          <a class="button" href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Estimate!</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonial section" aria-label="Customer testimonial">
+      <div class="testimonial-inner">
+        <span class="chev left" aria-hidden="true"></span>
+        <p class="quote">"I knew from our first conversation that you are good people! I feel like family!"</p>
+        <p class="quote-name">C. Casey ~ Spring, TX</p>
+        <div class="dots" aria-hidden="true"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        <span class="chev right" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="contact-photo section" aria-labelledby="customize-title">
+      <img src="https://static.wixstatic.com/media/d9e9c6100e184ea1b839db003707679d.jpg/v1/fill/w_1365,h_680,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d9e9c6100e184ea1b839db003707679d.jpg" alt="M@RBA lawn and pathway background photo" />
+      <div class="contact-inner">
+        <h2 class="section-title" id="customize-title">Want to Customize?</h2>
+        <p class="section-copy">Have questions? Any special requests? Just contact us and we can assist in making your lawn beautiful!</p>
+        <div class="contact-links">
+          <a href="mailto:Marbapros@gmail.com">Marbapros@gmail.com</a>
+          <a href="tel:8165826398">816-582-6398</a>
+          <a href="https://marbapros.wixsite.com/lawns/services-schedule-online">Schedule Online</a>
+        </div>
+        <p class="contact-guidance">For the fastest estimate, send a few yard photos, the address or neighborhood, and whether you need maintenance, cleanup, restoration, retaining walls, stone pathways, or full outdoor beautification.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>©2014 by M@RBA Professional Services. Lawn care, landscaping restoration, and yard beautification.</p>
+  </footer>
+
+  <div class="chat-pill" aria-label="Chat prompt">Let’s Chat!</div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lawn Care & Landscape Services | Fitzgerald Lawn Solutions</title>
+  <meta name="description" content="Fitzgerald Lawn Solutions provides lawn mowing, hedge trimming, leaf and pine needle removal, property cleanup, mulch, pine straw, and garden bed defining in Fitzgerald, GA. Request a free estimate." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+    :root{
+      --green:#06a64d;
+      --green-dark:#079346;
+      --black:#000;
+      --white:#fff;
+      --nav:#f0f0f0;
+      --wix:#eff1f2;
+      --blue:#116dff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:#fff;color:#000;font-family:Questrial, Arial, Helvetica, sans-serif}
+    body{min-width:1100px}
+    a{color:inherit;text-decoration:none}
+
+    .wixbar{height:50px;background:var(--wix);border-bottom:3px solid var(--blue);display:flex;align-items:center;justify-content:center;font-family:"Helvetica Neue",Arial,sans-serif;color:#20303c;font-size:16px;line-height:24px}
+    .wixbar-inner{height:47px;display:flex;align-items:center;gap:12px}
+    .wix-logo{font-weight:900;font-size:24px;letter-spacing:-.08em;margin-right:2px;color:#20303c}
+    .wixbar b{font-weight:700}
+    .wix-started{margin-left:14px;border:1px solid var(--blue);background:#fff;color:var(--blue);border-radius:18px;min-width:115px;padding:7px 18px;text-align:center;font-size:14px;line-height:18px}
+
+    .site-header{height:175px;background:#fff;position:relative}
+    .top-brand-row{position:absolute;left:60px;top:30px;width:1246px;height:76px}
+    .logo-link{position:absolute;left:20px;top:1px;width:155px;height:75px;display:block}
+    .logo-link img{width:155px;height:75px;object-fit:contain;display:block}
+    .brand-name{position:absolute;left:190px;top:27px;font-size:20px;line-height:23px;letter-spacing:.01em;color:#000;white-space:nowrap}
+    .header-estimate{position:absolute;right:19px;top:16px;width:150px;height:45px;border-radius:999px;background:var(--green);box-shadow:0 3px 4px rgba(0,0,0,.26);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;line-height:28px;letter-spacing:.02em;text-transform:uppercase}
+    .nav-row{position:absolute;left:60px;top:106px;width:1246px;height:64px;background:var(--nav)}
+    .nav-links{position:absolute;left:0;top:24px;height:30px;display:flex;align-items:center}
+    .nav-links a{height:30px;display:flex;align-items:center;justify-content:center;padding:0 10px;font-size:15px;line-height:30px;color:#000}
+    .nav-links a.active{color:var(--green)}
+    .header-contact{position:absolute;right:15px;top:37px;height:20px;display:flex;align-items:center;gap:25px;font-size:14px;line-height:25px;color:#000;white-space:nowrap}
+    .socials{display:flex;align-items:center;gap:10px;margin-left:0}
+    .socials img{width:20px;height:20px;object-fit:contain;display:block}
+
+    main{background:#fff}
+    .hero{height:580px;position:relative;background:#fff;text-align:center}
+    .hero h1{position:absolute;left:213px;top:113px;width:940px;margin:0;color:var(--green);font-size:50px;line-height:67px;font-weight:400;letter-spacing:.01em}
+    .hero-intro{position:absolute;left:213px;top:218px;width:940px;margin:0;font-size:19px;line-height:1.45;color:#111;font-weight:400}
+    .scan-strip{position:absolute;left:293px;top:321px;width:780px;height:48px;display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+    .scan-strip span{display:flex;align-items:center;justify-content:center;border:1px solid rgba(6,166,77,.34);border-radius:999px;background:#f4fbf7;color:#06783a;font-size:13px;line-height:16px;padding:0 8px;white-space:nowrap}
+    .pill{border-radius:999px;box-shadow:0 3px 4px rgba(0,0,0,.25);font-weight:400;text-transform:uppercase;letter-spacing:.02em}
+    .hero-estimate{position:absolute;left:598px;top:395px;width:171px;height:50px;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;line-height:31.5px}
+
+    .service-row{height:660px;position:relative;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+    .service-row .photo{width:100%;height:660px;overflow:hidden;background:#ddd}
+    .service-row img{width:100%;height:100%;object-fit:cover;display:block}
+    .panel{height:660px;position:relative;color:#fff}
+    .panel.black{background:#000}.panel.green{background:var(--green)}
+    .copy{position:absolute;left:112px;top:154px;width:460px;color:#fff}
+    .copy.right{left:112px}.copy.left{left:112px}
+    .service-row:nth-of-type(1) .copy{left:112px;top:153px}
+    .service-row:nth-of-type(2) .copy{left:112px;top:166px}
+    .service-row:nth-of-type(3) .copy{left:112px;top:164px}
+    .service-row:nth-of-type(4) .copy{left:112px;top:164px}
+    .service-row:nth-of-type(5) .copy{left:112px;top:157px}
+    .service-row:nth-of-type(6) .copy{left:112px;top:164px}
+    .copy h2{margin:0 0 27px 0;font-size:28px;line-height:38.5px;font-weight:700;text-transform:uppercase;letter-spacing:.01em;color:#fff}
+    .copy p{margin:0;width:440px;font-size:19px;line-height:1.48;font-weight:700;color:#fff}
+    .service-button{position:absolute;left:0;top:300px;width:155px;height:50px;border-radius:999px;background:#fff;color:#000;box-shadow:0 3px 4px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;font-size:15px;line-height:21px;text-transform:none;white-space:nowrap}
+    .service-row:nth-of-type(1) .service-button{top:299px}
+    .service-row:nth-of-type(2) .service-button{top:313px}
+    .service-row:nth-of-type(3) .service-button{top:313px}
+    .service-row:nth-of-type(4) .service-button{top:326px}
+    .service-row:nth-of-type(5) .service-button{top:313px}
+    .service-row:nth-of-type(6) .service-button{top:188px}
+
+    .chat-bubble{position:fixed;right:20px;bottom:18px;width:65px;height:65px;border-radius:50%;background:var(--green);box-shadow:0 2px 8px rgba(0,0,0,.3);z-index:10;display:flex;align-items:center;justify-content:center}
+    .chat-icon{width:31px;height:23px;border:3px solid #fff;border-radius:7px;position:relative}
+    .chat-icon:after{content:"";position:absolute;right:4px;bottom:-10px;border-style:solid;border-width:8px 0 0 10px;border-color:transparent transparent transparent #fff}
+
+    .footer{height:340px;background:#000;color:#fff;text-align:center;position:relative}
+    .footer .footer-name{position:absolute;left:0;right:0;top:36px;margin:0;font-size:20px;line-height:28px;font-weight:400}
+    .footer .details{position:absolute;left:0;right:0;top:86px;margin:0;font-size:15px;line-height:28px;color:#fff}
+    .footer-socials{position:absolute;left:0;right:0;top:220px;display:flex;justify-content:center;gap:10px}
+    .footer-socials img{width:20px;height:20px;object-fit:contain}
+    .copyright{position:absolute;left:0;right:0;bottom:46px;margin:0;font-size:13px;line-height:20px;color:#fff}
+
+    @media (max-width:900px){
+      body{min-width:0}.top-brand-row,.nav-row{left:20px;width:calc(100% - 40px)}.brand-name{left:178px;font-size:18px}.header-estimate{right:0}.header-contact{left:10px;right:auto;top:39px;gap:12px;font-size:12px}.hero h1,.hero-intro{left:20px;width:calc(100% - 40px)}.scan-strip{left:20px;width:calc(100% - 40px);grid-template-columns:1fr 1fr;top:330px;height:auto}.hero-note{left:20px;width:calc(100% - 40px);top:430px}.hero-estimate{left:calc(50% - 85px);top:480px}.hero{height:650px}.service-row{height:auto;display:flex;flex-direction:column}.service-row:nth-child(even){flex-direction:column-reverse}.service-row .photo,.panel{height:420px}.copy,.service-row:nth-of-type(n) .copy{left:35px;top:80px;width:calc(100% - 70px)}.copy p{width:auto}.service-button,.service-row:nth-of-type(n) .service-button{top:260px}.footer{height:340px}.wixbar{font-size:13px}.wix-started{display:none}
+    }
+  </style>
+</head>
+<body>
+  <a class="wixbar" href="https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&amp;adsVersion=banner_2024" aria-label="This website was built on Wix">
+    <span class="wixbar-inner"><span class="wix-logo">WIX</span><span>This website was built on Wix. <b>Create yours today.</b></span><span class="wix-started">Get Started</span></span>
+  </a>
+
+  <header class="site-header">
+    <div class="top-brand-row">
+      <a class="logo-link" href="https://fitzlawns.wixsite.com/website"><img src="https://static.wixstatic.com/media/154912_cba764741e164f3b83276b56603f2b54~mv2.png/v1/fill/w_155,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WIX%20LOGO.png" alt="Fitzgerald Lawn Solutions logo" /></a>
+      <a class="brand-name" href="https://fitzlawns.wixsite.com/website">Fitzgerald Lawn Solutions</a>
+      <a class="header-estimate" href="mailto:fitzgeraldlawnsolutions@gmail.com?subject=Free%20estimate%20request">FREE ESTIMATE</a>
+    </div>
+    <div class="nav-row">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="https://fitzlawns.wixsite.com/website">Home</a>
+        <a class="active" href="https://fitzlawns.wixsite.com/website/services">Services</a>
+        <a href="https://fitzlawns.wixsite.com/website/about-us">About Us</a>
+        <a href="https://fitzlawns.wixsite.com/website/contact">Contact</a>
+        <a href="https://fitzlawns.wixsite.com/website/gallery">Gallery</a>
+      </nav>
+      <div class="header-contact">
+        <a href="mailto:fitzgeraldlawnsolutions@gmail.com">fitzgeraldlawnsolutions@gmail.com</a>
+        <a href="tel:9125369887">(912) 536-9887</a>
+        <span class="socials" aria-label="Social links">
+          <a href="https://www.facebook.com/FitzLawnSolutions/" aria-label="Facebook"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="" /></a>
+          <a href="https://www.instagram.com/fitzgeraldlawnsolutions/" aria-label="Instagram"><img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png" alt="" /></a>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">Lawn Care &amp; Landscape Services</h1>
+      <p class="hero-intro">Fitzgerald Lawn Solutions performs high quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. From routine mowing to cleanup, hedge trimming, mulch, pine straw, and garden bed work, the next step is a quick free estimate.</p>
+      <div class="scan-strip" aria-label="Popular services">
+        <span>Lawn mowing</span>
+        <span>Property cleanup</span>
+        <span>Hedge trimming</span>
+        <span>Mulch &amp; pine straw</span>
+        <span>Free estimates</span>
+      </div>
+      <a class="pill hero-estimate" href="mailto:fitzgeraldlawnsolutions@gmail.com?subject=Free%20estimate%20request">FREE ESTIMATE</a>
+    </section>
+
+    <section class="service-row" aria-labelledby="lawn-maintenance">
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg/v1/fill/w_663,h_641,fp_0.50_0.50,q_85,enc_avif,quality_auto/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg" alt="Zero turn mower on a lawn" /></div>
+      <div class="panel black"><div class="copy"><h2 id="lawn-maintenance">LAWN MAINTENANCE</h2><p>Lawn maintenance includes mowing, edging concrete surfaces, string trimming the perimeter of the property and garden beds, and blowing debris from hard surfaces. One-time, weekly, and bi-weekly services offered.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/mowing">Learn More &gt;&gt;</a></div></div>
+    </section>
+
+    <section class="service-row" aria-labelledby="hedge-trimming">
+      <div class="panel green"><div class="copy"><h2 id="hedge-trimming">SHRUB/HEDGE TRIMMING</h2><p>Shrub and hedge trimming includes properly trimming shrubs, hedges, and ornamental trees. One-time, monthly, and quarterly maintenance services offered.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/hedge-trimming">Learn More &gt;&gt;</a></div></div>
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg" alt="Hedge trimming service" /></div>
+    </section>
+
+    <section class="service-row" aria-labelledby="leaf-removal">
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg/v1/fill/w_658,h_635,fp_0.50_0.50,lg_1,q_85,enc_avif,quality_auto/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg" alt="Leaf and pine needle removal" /></div>
+      <div class="panel black"><div class="copy"><h2 id="leaf-removal">LEAF &amp; PINE NEEDLE REMOVAL</h2><p>Leaf and pine needle removal includes cleaning leaves, undesirable pine needles, and other debris from manicured turf and garden beds. One-time, bi-weekly, monthly, and quarterly services offered.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/leaf-pine-needle-removal">Learn More &gt;&gt;</a></div></div>
+    </section>
+
+    <section class="service-row" aria-labelledby="property-cleanup">
+      <div class="panel green"><div class="copy"><h2 id="property-cleanup">PROPERTY CLEANUP</h2><p>The typical property cleanup includes pulling weeds, trimming bushes, leaf cleanup, and mowing. Usually a one-time service at the beginning or end of the growing season, before routine lawn maintenance, or after storms.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/property-cleanup">Learn More &gt;&gt;</a></div></div>
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg/v1/fill/w_683,h_660,fp_0.35_0.48,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg" alt="Property cleanup with wheelbarrow" /></div>
+    </section>
+
+    <section class="service-row" aria-labelledby="mulch-pine-straw">
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg" alt="Pine straw landscape bed" /></div>
+      <div class="panel black"><div class="copy"><h2 id="mulch-pine-straw">MULCH &amp; PINE STRAW INSTALLATION</h2><p>Mulch and pine straw installation includes weeding flower beds if needed, then spreading the chosen mulch or pine straw to the desired depth.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/mulch-pine-straw-installation">Learn More &gt;&gt;</a></div></div>
+    </section>
+
+    <section class="service-row" aria-labelledby="garden-beds">
+      <div class="panel green"><div class="copy"><h2 id="garden-beds">GARDEN BED DEFINING</h2><p>Garden bed edges are defined, establishing a sharp edge between turf and bed.</p><a class="service-button" href="https://fitzlawns.wixsite.com/website/garden-bed-redefining">Learn More &gt;&gt;</a></div></div>
+      <div class="photo"><img src="https://static.wixstatic.com/media/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg" alt="Defined garden bed edging" /></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-name"><a href="https://fitzlawns.wixsite.com/website">Fitzgerald Lawn Solutions</a></p>
+    <p class="details"><a href="mailto:fitzgeraldlawnsolutions@gmail.com">fitzgeraldlawnsolutions@gmail.com</a><br><a href="tel:9125369887">(912) 536-9887</a><br>232 Walker Ave.<br>Fitzgerald, GA 31750</p>
+    <div class="footer-socials">
+      <a href="https://www.facebook.com/FitzLawnSolutions/" aria-label="Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="" /></a>
+      <a href="https://www.instagram.com/fitzgeraldlawnsolutions/" aria-label="Instagram"><img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png" alt="" /></a>
+    </div>
+    <p class="copyright">©2026 by Fitzgerald Lawn Solutions</p>
+  </footer>
+
+  <a class="chat-bubble" href="mailto:fitzgeraldlawnsolutions@gmail.com?subject=Free%20estimate%20request" aria-label="Start chat or request estimate"><span class="chat-icon" aria-hidden="true"></span></a>
+</body>
+</html>

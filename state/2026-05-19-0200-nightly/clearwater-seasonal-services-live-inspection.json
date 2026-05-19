@@ -1,0 +1,509 @@
+{
+  "url": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+  "title": "Home | Clearwater Seasonal Services | West Kootenays",
+  "metaDescription": "Clearwater Seasonal Services is simply put, the best all-around seasonal service business in the West Kootenays. Clearwater Seasonal Services has built a solid foundation of like-minded professionals for window cleaning, power washing, moss removal & gutter cleaning.",
+  "viewport": {
+    "width": 1365,
+    "height": 900
+  },
+  "pageHeight": 5814,
+  "images": [
+    {
+      "index": 0,
+      "src": "https://static.wixstatic.com/media/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg/v1/fill/w_1365,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg/v1/fill/w_1365,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg",
+      "alt": "",
+      "width": 1365,
+      "height": 1080,
+      "displayWidth": 1365,
+      "displayHeight": 1080,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 1,
+      "src": "https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_189,h_103,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_189,h_103,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png",
+      "alt": "clearwater seasonal services logo",
+      "width": 189,
+      "height": 103,
+      "displayWidth": 189,
+      "displayHeight": 103,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k19yivtn"
+    },
+    {
+      "index": 2,
+      "src": "https://static.wixstatic.com/media/ab38f67e23e345c4a70e285ce3896868.jpg/v1/crop/x_0,y_518,w_5633,h_2724/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Summer%20House.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/ab38f67e23e345c4a70e285ce3896868.jpg/v1/crop/x_0,y_518,w_5633,h_2724/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Summer%20House.jpg",
+      "alt": "Summer House",
+      "width": 488,
+      "height": 235,
+      "displayWidth": 488,
+      "displayHeight": 235,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k19zvs3f__item1"
+    },
+    {
+      "index": 3,
+      "src": "https://static.wixstatic.com/media/69fcb5_4e8c4e6cff644f63b38056eec6033bbe~mv2_d_2400_1595_s_2.jpg/v1/crop/x_0,y_217,w_2400,h_1161/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/gutter-cleaning-clearwater.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_4e8c4e6cff644f63b38056eec6033bbe~mv2_d_2400_1595_s_2.jpg/v1/crop/x_0,y_217,w_2400,h_1161/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/gutter-cleaning-clearwater.jpg",
+      "alt": "gutter-cleaning-clearwater.jpg",
+      "width": 488,
+      "height": 235,
+      "displayWidth": 488,
+      "displayHeight": 235,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k19zvs3f__item-j9r6lf43"
+    },
+    {
+      "index": 4,
+      "src": "https://static.wixstatic.com/media/69fcb5_968bc59f09d444daba34eb1c923ef648~mv2.jpg/v1/crop/x_0,y_195,w_1464,h_708/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pressure-washer-nelson-bc.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_968bc59f09d444daba34eb1c923ef648~mv2.jpg/v1/crop/x_0,y_195,w_1464,h_708/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pressure-washer-nelson-bc.jpg",
+      "alt": "pressure-washer-nelson-bc.jpg",
+      "width": 488,
+      "height": 235,
+      "displayWidth": 488,
+      "displayHeight": 235,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k19zvs3f__item-j9r6ldtk"
+    },
+    {
+      "index": 5,
+      "src": "https://static.wixstatic.com/media/69fcb5_7b8604c1e8f44fd289c914acff6d68f9~mv2.jpeg/v1/crop/x_0,y_97,w_503,h_243/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/moss-removal-nelson-bc.jpeg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_7b8604c1e8f44fd289c914acff6d68f9~mv2.jpeg/v1/crop/x_0,y_97,w_503,h_243/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/moss-removal-nelson-bc.jpeg",
+      "alt": "moss-removal-nelson-bc.jpeg",
+      "width": 488,
+      "height": 235,
+      "displayWidth": 488,
+      "displayHeight": 235,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k19zvs3f__item-k3cafywq"
+    },
+    {
+      "index": 6,
+      "src": "https://static.wixstatic.com/media/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg",
+      "alt": "20170718_083819",
+      "width": 261,
+      "height": 178,
+      "displayWidth": 261,
+      "displayHeight": 178,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 7,
+      "src": "https://static.wixstatic.com/media/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg",
+      "alt": "IMG_4070",
+      "width": 261,
+      "height": 178,
+      "displayWidth": 261,
+      "displayHeight": 178,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 8,
+      "src": "https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services3",
+      "width": 261,
+      "height": 178,
+      "displayWidth": 261,
+      "displayHeight": 178,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 9,
+      "src": "https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services5",
+      "width": 261,
+      "height": 178,
+      "displayWidth": 261,
+      "displayHeight": 178,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 10,
+      "src": "https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services2",
+      "width": 261,
+      "height": 178,
+      "displayWidth": 261,
+      "displayHeight": 178,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 11,
+      "src": "https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_212,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_212,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png",
+      "alt": "clearwater-seasonal-services-logo.png",
+      "width": 212,
+      "height": 115,
+      "displayWidth": 212,
+      "displayHeight": 115,
+      "visible": true,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-k3dchhhs"
+    },
+    {
+      "index": 12,
+      "src": "https://static.wixstatic.com/media/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg",
+      "alt": "pressure washing",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 13,
+      "src": "https://static.wixstatic.com/media/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 14,
+      "src": "https://static.wixstatic.com/media/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg",
+      "alt": "clearwater -seasonal-window-cleaning-ser",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 15,
+      "src": "https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services3",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 16,
+      "src": "https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services5",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 17,
+      "src": "https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg",
+      "alt": "clearwater-window-cleaning-services2",
+      "width": 151,
+      "height": 168,
+      "displayWidth": 151,
+      "displayHeight": 168,
+      "visible": true,
+      "className": "",
+      "id": ""
+    }
+  ],
+  "backgrounds": [],
+  "links": [
+    {
+      "index": 0,
+      "text": "HOME",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 1,
+      "text": "SERVICES",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 2,
+      "text": "WINDOW CLEANING",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/window-cleaning",
+      "target": "_self"
+    },
+    {
+      "index": 3,
+      "text": "GUTTER CLEANING",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/gutter-cleaning",
+      "target": "_self"
+    },
+    {
+      "index": 4,
+      "text": "POWER WASHING",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/power-washing",
+      "target": "_self"
+    },
+    {
+      "index": 5,
+      "text": "MOSS REMOVAL",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/moss-removal",
+      "target": "_self"
+    },
+    {
+      "index": 6,
+      "text": "ABOUT",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 7,
+      "text": "CONTACT",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 8,
+      "text": "GUARANTEE & POLICY",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/copy-of-moss-removal",
+      "target": "_self"
+    },
+    {
+      "index": 9,
+      "text": "REVIEWS",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/reviews",
+      "target": "_self"
+    },
+    {
+      "index": 10,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 11,
+      "text": "GET A FREE ESTIMATE",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 12,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 13,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/window-cleaning",
+      "target": "_self"
+    },
+    {
+      "index": 14,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/gutter-cleaning",
+      "target": "_self"
+    },
+    {
+      "index": 15,
+      "text": "GUTTER CLEANING",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/gutter-cleaning",
+      "target": "_self"
+    },
+    {
+      "index": 16,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/power-washing",
+      "target": "_self"
+    },
+    {
+      "index": 17,
+      "text": "POWER WASHING",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/power-washing",
+      "target": "_self"
+    },
+    {
+      "index": 18,
+      "text": "",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/moss-removal",
+      "target": "_self"
+    },
+    {
+      "index": 19,
+      "text": "MOSS REMOVAL",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/moss-removal",
+      "target": "_self"
+    },
+    {
+      "index": 20,
+      "text": "GET A FREE ESTIMATE",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "target": "_self"
+    },
+    {
+      "index": 21,
+      "text": "NELSON BC.",
+      "href": "http://ilovenelson.com/",
+      "target": "_blank"
+    },
+    {
+      "index": 22,
+      "text": "NELSON BC.",
+      "href": "http://ilovenelson.com/",
+      "target": "_blank"
+    },
+    {
+      "index": 23,
+      "text": "REVIEW OUR GUARANTEE & POLICY",
+      "href": "https://clearwaterss.wixsite.com/clearwaterseasonal-1/copy-of-moss-removal",
+      "target": "_self"
+    },
+    {
+      "index": 24,
+      "text": "clearwater.ss@gmail.com",
+      "href": "mailto:clearwater.ss@gmail.com",
+      "target": ""
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "tag": "h1",
+      "text": "SEASONAL SERVICES | NELSON, BC.",
+      "id": "",
+      "className": "font_0 wixui-rich-text__text"
+    },
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "250-",
+      "id": "",
+      "className": "font_0 wixui-rich-text__text"
+    },
+    {
+      "index": 2,
+      "tag": "h1",
+      "text": "SEASONAL SERVICES | NELSON, BC.",
+      "id": "",
+      "className": "font_0 wixui-rich-text__text"
+    },
+    {
+      "index": 3,
+      "tag": "h2",
+      "text": "PHONE - 250-777-3659 EMAIL - CLEARWATER.SS@GMAIL.COM",
+      "id": "",
+      "className": "font_0 wixui-rich-text__text"
+    },
+    {
+      "index": 4,
+      "tag": "h2",
+      "text": "Clearly The Right Choice",
+      "id": "",
+      "className": "font_2 wixui-rich-text__text"
+    },
+    {
+      "index": 5,
+      "tag": "h5",
+      "text": "REQUEST A FREE ESTIMATE",
+      "id": "",
+      "className": "font_5 wixui-rich-text__text"
+    },
+    {
+      "index": 6,
+      "tag": "h5",
+      "text": "CALL: 250-354-7151",
+      "id": "",
+      "className": "font_5 wixui-rich-text__text"
+    }
+  ],
+  "text": "Skip to Main Content\nSEASONAL SERVICES | NELSON, BC.\n250- \nSEASONAL SERVICES | NELSON, BC. \n\nHOME\n\nSERVICES\n\nABOUT\n\nCONTACT\n\nREVIEWS\n\nGET A FREE ESTIMATE\nPHONE - 250-777-3659\nEMAIL - CLEARWATER.SS@GMAIL.COM\nClearly The Right Choice\n\nOUR PROFESSIONAL SERVICES\n\nClearwater’s professional window cleaning service will leave your windows spotless and streak-free every time.\n\nWINDOW CLEANING\n\nWe can do all types of gutters from standard gutters, removable gutter guards, and non-removable gutter guard.\n\nGUTTER CLEANING\n\nWe can deal with any surface. Power washing driveways, vinyl siding, patios, decks, fences and more.\n\nPOWER WASHING\n\nWhether it be fire hazard prevention, preservation, or aesthetics, we are thorough when getting the job done.\n\nMOSS REMOVAL\n\nAFFORDABLE RATES.\n\nOUTSTANDING SERVICES.\n\nGET A FREE ESTIMATE\n20170718_083819\nIMG_4070\nclearwater-window-cleaning-services3\nclearwater-window-cleaning-services5\nclearwater-window-cleaning-services2\n1/1\n\nABOUT CLEARWATER SEASONAL SERVICES\n\nClearwater Seasonal Services is simply put, the best all-around seasonal service business in the West Kootenays. Clearwater Seasonal Services has built a solid foundation of like-minded professionals; highly motivated to provide you with outstanding quality, unbeatable reliability, and punctuality the white rabbit could not shake a fist at; All at an affordable price that will not break the bank or budget of any business or individual.  Every day, the professional team members of Clearwater Seasonal Services work analytically to ensure all aspects of our business are as efficient as possible for you our client.\n\n \n\nBy creating a network of professionals who are each specially trained in their departments, Clearwater Seasonal Services is always ready to deliver quality workmanship and true customer service for any of our services requested, and we are one call away.  We understand how hard it can be to find someone that will return your calls or emails in a timely manner.  Clearwater Seasonal Services has dedicated, experienced office management that will answer your call or call you back within one business day.\n\n \n\nAs of 2013 Clearwater Seasonal Services is currently based out of beautiful NELSON BC. and operates throughout the greater West Kootenay region of British Columbia.\n\nProudly servicing beautiful NELSON BC. and operating throughout the greater West Kootenay region of British Columbia.\n\nNELSON\n\nSALMO\n\nTRAIL\n\nBALFOUR\n\nHARROP\n\nPROCTER\n\nSLOCAN\n\nWINLAW\n\nKRESTOVA\n\nPASSMORE\n\nSOUTH SLOCAN\n\nKASLO\n\nCASTLEGAR\n\nMONTROSE\n\nFRUITVALE\n\nNAKUSP\n\nROSSLAND\n\nSILVERTON\n\nNEW DENVER\n\nInterested in our company?  Would you like Clearwater Seasonal Services in your area? Please contact us for further information.\n\nSATISFACTION GUARANTEED\n\nREVIEW OUR GUARANTEE & POLICY\n\nCONTACT US \n\nREQUEST A FREE ESTIMATE\nCALL: 250-354-7151\n\nPlease call: 250-777-3659 or fill out the following form.\n\nSubmit\n1/1\n\nEmail: clearwater.ss@gmail.com\n\n1011 Fourth st. | Nelson, BC V1L 2T5\n\n© 2020 by Clearwater Seasonal Services Inc.",
+  "colorCounts": [
+    [
+      "rgb(0, 0, 0)",
+      567
+    ],
+    [
+      "rgb(255, 255, 255)",
+      182
+    ],
+    [
+      "rgb(59, 58, 58)",
+      180
+    ],
+    [
+      "rgb(0, 0, 238)",
+      53
+    ],
+    [
+      "rgb(250, 250, 250)",
+      29
+    ],
+    [
+      "rgb(148, 148, 148)",
+      11
+    ],
+    [
+      "rgb(51, 51, 51)",
+      8
+    ],
+    [
+      "rgb(36, 35, 35)",
+      8
+    ],
+    [
+      "rgba(255, 255, 255, 0.8)",
+      6
+    ],
+    [
+      "rgb(30, 45, 59)",
+      5
+    ],
+    [
+      "rgba(255, 203, 5, 0)",
+      5
+    ],
+    [
+      "rgb(198, 198, 198)",
+      4
+    ],
+    [
+      "rgb(160, 160, 159)",
+      3
+    ],
+    [
+      "rgba(247, 247, 247, 0.8)",
+      1
+    ]
+  ]
+}

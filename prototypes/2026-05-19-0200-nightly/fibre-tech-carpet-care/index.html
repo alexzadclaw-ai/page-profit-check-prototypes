@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fibre Tech Carpet Care Ltd | Carpet Cleaning in Victoria BC</title>
+  <meta name="description" content="Fibre Tech Carpet Care Ltd provides carpet, rug, upholstery, and stain cleaning service in Victoria, BC with experience dating back to 2010." />
+  <style>
+    @font-face {
+      font-family: "BrandonWix";
+      src: url("https://static.parastorage.com/fonts/v2/fe0edf38-314c-46d5-b570-a37546d197e4/v1/brandon-grot-w01-light.woff2") format("woff2");
+      font-weight: 300;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "AvenirWix";
+      src: url("https://static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w01_35-light1475496.woff2") format("woff2");
+      font-weight: 300;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "HelveticaWix";
+      src: url("https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+
+    :root {
+      --teal: rgb(42, 124, 111);
+      --teal-dark: #226d61;
+      --mint: #eaf7f4;
+      --line: rgba(42, 124, 111, .72);
+      --ink: #0a0a0a;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #fff; color: var(--teal); }
+    body {
+      min-width: 1120px;
+      font-family: AvenirWix, HelveticaWix, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+
+    .vista-bar {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 30px;
+      border-bottom: 1px solid #ececec;
+      box-shadow: 0 1px 6px rgba(0,0,0,.08);
+      color: #20303c;
+      background: #fff;
+      font-family: HelveticaWix, Arial, sans-serif;
+      font-size: 14px;
+    }
+    .vista-bar img { width: 84px; height: auto; display: block; }
+    .vista-link { color: #20303c; }
+
+    .site-header {
+      position: relative;
+      height: 200px;
+      background: #fff;
+    }
+    .header-inner {
+      position: relative;
+      width: 1245px;
+      height: 100%;
+      margin-left: 60px;
+    }
+    .top-contact {
+      position: absolute;
+      left: 20px;
+      top: 33px;
+      display: flex;
+      gap: 36px;
+      align-items: center;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: .02em;
+      color: var(--teal);
+    }
+    .header-line {
+      position: absolute;
+      left: 20px;
+      right: 0;
+      top: 70px;
+      height: 1px;
+      background: var(--teal);
+      opacity: .9;
+    }
+    .brand-block {
+      position: absolute;
+      left: 20px;
+      top: 90px;
+      width: 525px;
+      height: 100px;
+    }
+    .logo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 60px;
+      height: 80px;
+      object-fit: cover;
+    }
+    .business-name {
+      position: absolute;
+      left: 75px;
+      top: 19px;
+      margin: 0;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 28px;
+      line-height: 31px;
+      font-weight: 300;
+      letter-spacing: .01em;
+      color: var(--teal);
+      white-space: nowrap;
+    }
+    .tagline {
+      position: absolute;
+      left: 75px;
+      top: 56px;
+      margin: 0;
+      font-size: 15px;
+      color: var(--teal);
+      letter-spacing: .02em;
+    }
+    .main-nav {
+      position: absolute;
+      right: 10px;
+      top: 108px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 18px;
+      line-height: 30px;
+      color: var(--teal);
+    }
+    .main-nav a { padding: 0 14px; }
+
+    .hero {
+      position: relative;
+      height: 1020px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .hero-frame {
+      position: absolute;
+      left: 80px;
+      top: 0;
+      width: 1205px;
+      height: 940px;
+    }
+    .hero-photo-wrap {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 603px;
+      height: 940px;
+      overflow: hidden;
+      background: #ddd;
+    }
+    .hero-photo-wrap img {
+      width: 603px;
+      height: 940px;
+      object-fit: cover;
+      display: block;
+    }
+    .hero-title {
+      position: absolute;
+      left: 101px;
+      top: 102px;
+      width: 400px;
+      margin: 0;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 64px;
+      line-height: 1.04;
+      font-weight: 300;
+      letter-spacing: .015em;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-badge {
+      position: absolute;
+      left: 206px;
+      top: 580px;
+      min-width: 188px;
+      padding: 7px 15px 6px;
+      background: #000;
+      color: #fff;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: .03em;
+      text-align: center;
+    }
+    .hero-copy {
+      position: absolute;
+      left: 119px;
+      top: 688px;
+      width: 400px;
+      margin: 0;
+      color: #fff;
+      font-size: 15px;
+      line-height: 1.55;
+      text-align: center;
+      text-shadow: 0 1px 4px rgba(0,0,0,.45);
+    }
+    .hero-card {
+      position: absolute;
+      left: 698px;
+      top: 154px;
+      width: 420px;
+      padding: 42px 40px 38px;
+      border: 1px solid rgba(42,124,111,.35);
+      background: #fff;
+      color: var(--teal);
+    }
+    .hero-card .eyebrow {
+      margin: 0 0 19px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .18em;
+    }
+    .hero-card h2 {
+      margin: 0 0 21px;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 40px;
+      line-height: 1.18;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: .025em;
+    }
+    .hero-card p { margin: 0 0 24px; color: var(--teal); }
+    .check-list {
+      margin: 0 0 28px;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 9px;
+      font-size: 15px;
+    }
+    .check-list li::before { content: "•"; padding-right: 10px; }
+    .cta-row { display: flex; gap: 12px; align-items: center; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 146px;
+      height: 42px;
+      border: 1px solid var(--teal);
+      color: var(--teal);
+      background: transparent;
+      font-size: 14px;
+      letter-spacing: .03em;
+    }
+    .btn.fill { background: var(--teal); color: #fff; }
+    .trust-note {
+      position: absolute;
+      left: 735px;
+      top: 636px;
+      width: 350px;
+      color: var(--teal);
+      font-size: 15px;
+      line-height: 1.7;
+      border-left: 1px solid var(--line);
+      padding-left: 28px;
+    }
+    .chat-pill {
+      position: fixed;
+      right: 28px;
+      top: 430px;
+      z-index: 4;
+      height: 58px;
+      min-width: 178px;
+      border-radius: 30px;
+      background: var(--teal);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.20);
+      font-size: 18px;
+    }
+    .chat-icon {
+      width: 24px;
+      height: 24px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: relative;
+    }
+    .chat-icon::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      right: -2px;
+      bottom: -3px;
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      transform: rotate(-28deg);
+      background: var(--teal);
+    }
+
+    .image-section {
+      position: relative;
+      height: 620px;
+      background: var(--teal);
+      overflow: hidden;
+      color: var(--teal);
+    }
+    .image-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(236,248,245,.80), rgba(236,248,245,.80)), url("https://static.wixstatic.com/media/4eb90c_66749a4fb8cb44cd819ecb58240b04d2~mv2.jpg/v1/fill/w_1024,h_465,al_c,q_85,enc_avif,quality_auto/4eb90c_66749a4fb8cb44cd819ecb58240b04d2~mv2.jpg") center/cover no-repeat;
+      transform: scale(1.02);
+    }
+    .section-panel {
+      position: relative;
+      width: 940px;
+      margin-left: 206px;
+      padding-top: 120px;
+    }
+    .label-heading {
+      display: inline-block;
+      margin: 0 0 35px;
+      padding: 7px 13px 6px;
+      background: #000;
+      color: #fff;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 40px;
+      line-height: 54px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+    }
+    .image-section p {
+      max-width: 940px;
+      margin: 0 0 30px;
+      font-size: 15px;
+      line-height: 1.9;
+      color: var(--teal);
+      background: rgba(255,255,255,.35);
+      padding: 12px 0;
+    }
+    .outline-light {
+      color: var(--teal);
+      border-color: var(--teal);
+      background: rgba(255,255,255,.25);
+    }
+
+    .contact-section {
+      position: relative;
+      height: 720px;
+      background: #444 url("https://static.wixstatic.com/media/691444bdbf3b4fb8a95cbc2611630cea.jpg/v1/fill/w_1365,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/691444bdbf3b4fb8a95cbc2611630cea.jpg") center/cover no-repeat;
+      color: #fff;
+    }
+    .contact-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,.28), rgba(0,0,0,.10));
+    }
+    .contact-left {
+      position: absolute;
+      left: 213px;
+      top: 120px;
+      width: 460px;
+      z-index: 1;
+      color: #fff;
+    }
+    .contact-left .label-heading { margin-bottom: 34px; }
+    .highlight {
+      display: inline;
+      background: rgba(0,0,0,.86);
+      color: #fff;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+      padding: 2px 6px 3px;
+      line-height: 1.85;
+    }
+    .contact-copy { margin: 0 0 34px; color: #fff; }
+    .contact-line { margin: 0 0 16px; color: #fff; }
+    .socials { display: flex; gap: 11px; margin-top: 36px; }
+    .socials img { width: 26px; height: 26px; display: block; filter: none; }
+    .contact-form {
+      position: absolute;
+      left: 693px;
+      top: 120px;
+      width: 460px;
+      height: 477px;
+      z-index: 1;
+      color: #fff;
+    }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; row-gap: 24px; }
+    .field { display: flex; flex-direction: column; gap: 7px; min-height: 56px; }
+    label { font-size: 15px; line-height: 20px; }
+    .contact-form label, .contact-form input, .contact-form textarea { color: #fff; }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid currentColor;
+      background: transparent;
+      color: var(--teal);
+      height: 28px;
+      padding: 0 0 5px;
+      outline: none;
+      border-radius: 0;
+    }
+    textarea { height: 98px; resize: none; }
+    .full { grid-column: 1 / -1; }
+    .contact-submit {
+      width: 100%;
+      height: 48px;
+      margin-top: 24px;
+      border: 1px solid #fff;
+      background: #fff;
+      color: var(--teal);
+      cursor: default;
+    }
+
+    .review-section, .estimate-section {
+      position: relative;
+      background: var(--mint);
+      color: var(--teal);
+    }
+    .review-section { height: 1540px; }
+    .wide-img {
+      position: absolute;
+      left: 213px;
+      top: 120px;
+      width: 940px;
+      height: 440px;
+      object-fit: cover;
+      display: block;
+    }
+    .center-title {
+      position: absolute;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 40px;
+      line-height: 54px;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+      color: var(--teal);
+    }
+    .review-section .center-title { top: 620px; }
+    .subhead {
+      position: absolute;
+      left: 213px;
+      width: 940px;
+      margin: 0;
+      text-align: center;
+      font-size: 20px;
+      line-height: 1.4;
+      color: var(--teal);
+    }
+    .review-section .subhead { top: 704px; }
+    .review-form {
+      position: absolute;
+      left: 213px;
+      top: 807px;
+      width: 940px;
+      color: var(--teal);
+    }
+    .mint-form .form-grid { column-gap: 28px; row-gap: 34px; }
+    .mint-form label, .mint-form input, .mint-form textarea { color: var(--teal); }
+    .radio-row {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      min-height: 32px;
+      color: var(--teal);
+    }
+    .radio-dot {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 1px solid var(--teal);
+      border-radius: 50%;
+      margin-right: 8px;
+      vertical-align: -2px;
+    }
+    .mint-submit {
+      display: block;
+      width: 190px;
+      height: 42px;
+      margin: 42px 0 0 auto;
+      border: 1px solid var(--teal);
+      background: var(--teal);
+      color: #fff;
+    }
+
+    .estimate-section { height: 1380px; }
+    .estimate-section .wide-img { top: 60px; }
+    .estimate-section .center-title { top: 560px; }
+    .estimate-section .subhead { top: 640px; font-size: 20px; }
+    .estimate-copy {
+      position: absolute;
+      left: 213px;
+      top: 715px;
+      width: 940px;
+      margin: 0;
+      color: var(--teal);
+      font-size: 15px;
+      line-height: 1.9;
+      text-align: center;
+    }
+    .estimate-form {
+      position: absolute;
+      left: 213px;
+      top: 774px;
+      width: 940px;
+      color: var(--teal);
+    }
+    .estimate-form textarea { height: 130px; }
+    .estimate-form .mint-submit { margin: 52px auto 0; }
+
+    .site-footer {
+      position: relative;
+      height: 262px;
+      background: #fff;
+      color: var(--teal);
+    }
+    .footer-brand {
+      position: absolute;
+      left: 213px;
+      top: 34px;
+      margin: 0;
+      font-family: BrandonWix, AvenirWix, sans-serif;
+      font-size: 28px;
+      line-height: 31px;
+      font-weight: 300;
+    }
+    .footer-contact {
+      position: absolute;
+      left: 551px;
+      top: 33px;
+      width: 360px;
+      color: var(--teal);
+    }
+    .footer-contact h3 {
+      margin: 0 0 26px;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 300;
+    }
+    .footer-contact p { margin: 0 0 14px; }
+    .copyright {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--teal);
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="vista-bar">
+    <img src="https://img-wixmp-a9a8500ac7c5cd8136e17898.wixmp.com/dd0b6be6-8bd8-4d13-8f5b-aa8368132cfb/1676561308306/Vista-x-Wix-final.svg" alt="Vista x Wix" />
+    <a class="vista-link" href="https://partners.vistaprint.com/navigate/inbound/wix/websites-pdp">This website was created by Vista x Wix</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="top-contact">
+        <a href="mailto:fibretechcarpetcare@gmail.com">fibretechcarpetcare@gmail.com</a>
+        <a href="tel:7784339348">778 433 9348</a>
+      </div>
+      <div class="header-line"></div>
+      <a class="brand-block" href="https://fibretechcarpetcar7.wixsite.com/fibretechcarpetcarel">
+        <img class="logo" src="https://static.wixstatic.com/media/4eb90c_4cd9e109300245fc987f30e093f98c16~mv2.jpg/v1/fill/w_60,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg" alt="Fibre Tech Carpet Care logo" />
+        <h1 class="business-name">FIBRE TECH CARPET CARE LTD</h1>
+        <p class="tagline">Victoria Carpet Cleaning Service</p>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="https://fibretechcarpetcar7.wixsite.com/fibretechcarpetcarel">Home</a>
+        <a href="https://fibretechcarpetcar7.wixsite.com/fibretechcarpetcarel/book-online">Book Online</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Victoria carpet cleaning introduction">
+      <div class="hero-frame">
+        <div class="hero-photo-wrap">
+          <img src="https://static.wixstatic.com/media/4eb90c_5f6c529c67bd4111ab2755bc1b2294df~mv2.jpg/v1/fill/w_603,h_940,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4eb90c_5f6c529c67bd4111ab2755bc1b2294df~mv2.jpg" alt="Fibre Tech technician steam cleaning carpet in a Victoria home" />
+        </div>
+        <h2 class="hero-title">Victoria Carpet Cleaning by Fibre Tech</h2>
+        <div class="hero-badge">Established 2010</div>
+        <p class="hero-copy">Carpet, rug, upholstery, and stain cleaning for Victoria homes and small businesses, backed by more than 36 years of hands-on industry experience.</p>
+        <div class="hero-card">
+          <p class="eyebrow">Request service in Victoria, BC</p>
+          <h2>Cleaner carpets without the template guesswork</h2>
+          <p>Tell Fibre Tech what needs attention and get a clear next step for your carpet, rug, sofa, or stain-cleaning job.</p>
+          <ul class="check-list">
+            <li>Carpet and area rug cleaning</li>
+            <li>Upholstery and sofa care</li>
+            <li>Pet stains, traffic lanes, and spot treatment</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn fill" href="mailto:fibretechcarpetcare@gmail.com">Email for estimate</a>
+            <a class="btn" href="tel:7784339348">Call 778 433 9348</a>
+          </div>
+        </div>
+        <p class="trust-note">A dedicated local service path: send the room count, material type, photos if helpful, and preferred timing. Fibre Tech can reply with practical scheduling and cleaning guidance.</p>
+      </div>
+      <a class="chat-pill" href="mailto:fibretechcarpetcare@gmail.com"><span class="chat-icon" aria-hidden="true"></span><span>Let’s Chat!</span></a>
+    </section>
+
+    <section class="image-section" id="about">
+      <div class="section-panel">
+        <h2 class="label-heading">ABOUT OUR COMPANY</h2>
+        <p>Fast, efficient, and reliable, Fibre Tech Carpet Care Ltd is a Victoria carpet cleaning service focused on careful communication and tidy results. The cleaned-up page should make the local service promise clear right away: carpet, rug, upholstery, and stain help from a company established in 2010 with decades of experience behind the work.</p>
+        <a class="btn outline-light" href="mailto:fibretechcarpetcare@gmail.com">Contact Us</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-left">
+        <h2 class="label-heading">CONTACT US</h2>
+        <p class="contact-copy"><span class="highlight">Questions, service requests, or photos of a problem area? Send a note and Fibre Tech can help you decide the best next step.</span></p>
+        <p class="contact-line"><span class="highlight">fibretechcarpetcare@gmail.com</span></p>
+        <p class="contact-line"><span class="highlight">778 433 9348</span></p>
+        <div class="socials" aria-label="Social links">
+          <a href="https://www.facebook.com/fibretech1"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_26,h_26,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook" /></a>
+          <a href="https://twitter.com/@fibretech1"><img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_26,h_26,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png" alt="Twitter" /></a>
+          <a href="https://www.linkedin.com/company/wix-com"><img src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_26,h_26,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="return false;" aria-label="Contact form mockup">
+        <div class="form-grid">
+          <div class="field"><label>Name</label><input aria-label="Name" /></div>
+          <div class="field"><label>Email</label><input aria-label="Email" /></div>
+          <div class="field"><label>Phone</label><input aria-label="Phone" /></div>
+          <div class="field"><label>Address</label><input aria-label="Address" /></div>
+          <div class="field full"><label>Subject</label><input aria-label="Subject" /></div>
+          <div class="field full"><label>Message</label><textarea aria-label="Message"></textarea></div>
+        </div>
+        <button class="contact-submit" type="button">Submit</button>
+      </form>
+    </section>
+
+    <section class="review-section" id="reviews">
+      <img class="wide-img" src="https://static.wixstatic.com/media/691444bdbf3b4fb8a95cbc2611630cea.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Woman%20Rolling%20Carpet.jpg" alt="Area rug being positioned during cleaning preparation" />
+      <h2 class="center-title">ADD A REVIEW</h2>
+      <p class="subhead">How Was Your Experience?</p>
+      <form class="review-form mint-form" onsubmit="return false;" aria-label="Review form mockup">
+        <div class="form-grid">
+          <div class="field"><label>First name</label><input /></div>
+          <div class="field"><label>Last name</label><input /></div>
+          <div class="field"><label>Email</label><input /></div>
+          <div class="field"><label>Phone</label><input /></div>
+          <div class="field full"><label>Review</label><textarea></textarea></div>
+          <div class="field full"><label>Would you recommend us to your friends?</label><div class="radio-row"><span><span class="radio-dot"></span>Yes</span><span><span class="radio-dot"></span>No</span></div></div>
+          <div class="field full"><label>Comments</label><textarea></textarea></div>
+        </div>
+        <button class="mint-submit" type="button">Submit</button>
+      </form>
+    </section>
+
+    <section class="estimate-section" id="estimate">
+      <img class="wide-img" src="https://static.wixstatic.com/media/0017c4993b154ccb944de282e40e38bd.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Neutral%20Decor.jpg" alt="Clean living room rug and home interior" />
+      <h2 class="center-title">FREE ESTIMATE</h2>
+      <p class="subhead">Request a Service</p>
+      <p class="estimate-copy">Share the rooms or furniture you need cleaned, any stain concerns, your Victoria-area address, and the timing that works best. Fibre Tech can use those details to respond with a practical service recommendation.</p>
+      <form class="estimate-form mint-form" onsubmit="return false;" aria-label="Free estimate form mockup">
+        <div class="form-grid">
+          <div class="field"><label>First name</label><input /></div>
+          <div class="field"><label>Last name</label><input /></div>
+          <div class="field"><label>Email</label><input /></div>
+          <div class="field"><label>Phone</label><input /></div>
+          <div class="field full"><label>Comments</label><textarea></textarea></div>
+        </div>
+        <button class="mint-submit" type="button">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <h2 class="footer-brand">Fibre Tech Carpet Care Ltd</h2>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p><a href="mailto:fibretechcarpetcare@gmail.com">fibretechcarpetcare@gmail.com</a></p>
+      <p><a href="tel:7784339348">778 433 9348</a></p>
+    </div>
+    <div class="copyright">©2026 by Fibre Tech Carpet Care Ltd. Proudly created with Wix.com</div>
+  </footer>
+</body>
+</html>

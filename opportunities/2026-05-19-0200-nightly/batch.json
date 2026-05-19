@@ -1,0 +1,129 @@
+{
+  "batch": "2026-05-19-0200-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-19 02:00 America/Chicago",
+  "curatedCount": 10,
+  "notes": "Selected from 18 inspected Wix/small-site local-service leads. Each selected site was handled by exactly one isolated GPT-5.5 worker and completed with audit, offer, prototype, screenshots, and source-asset notes before finalization.",
+  "items": [
+    {
+      "slug": "fix-help-me-home-services",
+      "name": "Fix Help Me Home Services",
+      "url": "https://fixhelpme.wixsite.com/home",
+      "contact": "mailto:fixhelpme@gmail.com",
+      "phone": "978-747-4137",
+      "vertical": "handyman and home-watch services",
+      "location": "North Shore, MA",
+      "priority": "A-",
+      "summary": "North Shore handyman/home-watch Wix site with a real phone number, email, personal trust story, insurance language, project samples, badges, and reviews; prototype makes the core service, service area, and call/email path visible immediately.",
+      "angle": "make the local handyman and home-watch offer, Bob's trust story, North Shore service area, and call/email actions clear in the first screen"
+    },
+    {
+      "slug": "marba-professional-services",
+      "name": "M@RBA Professional Services",
+      "url": "https://marbapros.wixsite.com/lawns",
+      "contact": "mailto:Marbapros@gmail.com",
+      "phone": "816-582-6398",
+      "vertical": "lawn care and property services",
+      "location": "Kansas City area, MO",
+      "priority": "A-",
+      "summary": "Lawn-care Wix site with a business name, tagline, phone, email, schedule links, family-owned since 2014 positioning, service categories, LawnStarter Certified Pro badge, and testimonial; prototype cleans up template residue and makes scheduling easier to see.",
+      "angle": "keep the dark brown and olive lawn-care look while moving schedule, phone, email, service categories, badge, and testimonial into a clearer conversion path"
+    },
+    {
+      "slug": "fitzgerald-lawn-solutions",
+      "name": "Fitzgerald Lawn Solutions",
+      "url": "https://fitzlawns.wixsite.com/website/services",
+      "contact": "mailto:fitzgeraldlawnsolutions@gmail.com",
+      "phone": "912-536-9887",
+      "vertical": "lawn care and landscape maintenance",
+      "location": "Fitzgerald, GA",
+      "priority": "A-",
+      "summary": "Fitzgerald lawn-care services page with logo, phone, email, address, social links, service descriptions, and service photos; prototype keeps the green/white layout while clarifying services and estimate actions above the fold.",
+      "angle": "make mowing, hedge trimming, cleanup, mulch, pine straw, and free-estimate actions easier to scan for Fitzgerald homeowners"
+    },
+    {
+      "slug": "american-redline-junk-removal",
+      "name": "American Redline Junk Removal Services",
+      "url": "https://arjunkremoval.wixsite.com/arjunkremoval",
+      "contact": "mailto:ARjunkremoval@gmail.com",
+      "phone": "909-545-3776",
+      "vertical": "junk removal",
+      "location": "Inland Empire, CA",
+      "priority": "A-",
+      "summary": "Inland Empire junk-removal Wix site with a memorable red, white, and navy brand, phone, free-estimate path, hauling imagery, family-owned positioning, recycling copy, and service-area cues; prototype makes the same-day estimate path and accepted items clearer.",
+      "angle": "turn the first screen into a clearer same-day junk-removal estimate path with accepted items, service area, and recycling trust cues visible before scrolling"
+    },
+    {
+      "slug": "finishing-touch-handyman",
+      "name": "Finishing Touch Handyman Services",
+      "url": "https://finishingtouchpa.wixsite.com/start",
+      "contact": "mailto:FinishingTouchHandyman1@gmail.com",
+      "phone": "610-905-5265",
+      "vertical": "handyman services",
+      "location": "Lehigh Valley, PA",
+      "priority": "A-",
+      "summary": "Lehigh Valley handyman Wix site with original imagery, service categories, 20+ years of experience, license PA176483, insurance proof, quote form, and social links; prototype brings trust points and quote options higher.",
+      "angle": "make Lehigh Valley coverage, 20+ years of experience, license/insurance proof, service categories, and call/text/email quote actions visible before the long form"
+    },
+    {
+      "slug": "homes-a-to-z",
+      "name": "Homes A to Z Handyman Services",
+      "url": "https://homesatoz1.wixsite.com/mysite",
+      "contact": "mailto:homes.a.to.z1@gmail.com",
+      "phone": "414-232-5246",
+      "vertical": "handyman services",
+      "location": "Wauwatosa / Milwaukee Metro, WI",
+      "priority": "A-",
+      "summary": "Milwaukee-area handyman Wix site with a retired-teacher/local-handyman trust story, service categories, phone, email, social links, and service page; prototype makes the trust story, service area, and contact actions clearer immediately.",
+      "angle": "make the retired-teacher local-handyman trust story, service categories, Wauwatosa/Milwaukee service area, and call/email actions visible immediately"
+    },
+    {
+      "slug": "fibre-tech-carpet-care",
+      "name": "Fibre Tech Carpet Care Ltd",
+      "url": "https://fibretechcarpetcar7.wixsite.com/fibretechcarpetcarel",
+      "contact": "mailto:fibretechcarpetcare@gmail.com",
+      "phone": "778-433-9348",
+      "vertical": "carpet cleaning",
+      "location": "Victoria, BC",
+      "priority": "A-",
+      "summary": "Victoria carpet-cleaning Wix site with contact details, booking path, service text, and social links; prototype replaces template feel with clearer local carpet-cleaning messaging and a simpler request-service path.",
+      "angle": "replace generic template sections with a clearer Victoria carpet-cleaning message, experience proof, and simple request-a-service path"
+    },
+    {
+      "slug": "peterson-pressure-washing-li",
+      "name": "Peterson Pressure Washing LI",
+      "url": "https://petersonpressurewa.wixsite.com/petersonpressurewash",
+      "contact": "mailto:petersonpressurewashingli@gmail.com",
+      "phone": "631-380-4333",
+      "vertical": "pressure washing and exterior cleaning",
+      "location": "Long Island, NY",
+      "priority": "A-",
+      "summary": "Long Island pressure-washing Wix site with service pages, project imagery, FAQ, phone, email, and social links; prototype makes the free-estimate path, service list, and proof photos more useful in the first screen.",
+      "angle": "bring Long Island exterior-cleaning services, free estimate, call/email buttons, and proof photos into a clearer first-screen conversion flow"
+    },
+    {
+      "slug": "clearwater-seasonal-services",
+      "name": "Clearwater Seasonal Services",
+      "url": "https://clearwaterss.wixsite.com/clearwaterseasonal-1",
+      "contact": "mailto:clearwater.ss@gmail.com",
+      "phone": "250-777-3659",
+      "vertical": "window cleaning, gutter cleaning, power washing, and moss removal",
+      "location": "Nelson / West Kootenays, BC",
+      "priority": "A-",
+      "summary": "West Kootenays seasonal-services Wix site with separate service pages, reviews, guarantee/policy page, phone, and email; prototype makes services easier to scan and highlights estimate actions and coverage.",
+      "angle": "make window, gutter, power washing, and moss-removal services easier to scan while highlighting Nelson/West Kootenays coverage and estimate actions"
+    },
+    {
+      "slug": "logans-gutter-services",
+      "name": "Logans Gutter Services",
+      "url": "https://logansgutterservic.wixsite.com/website-2",
+      "contact": "mailto:logansgutterservicesny@gmail.com",
+      "phone": "914-433-4835",
+      "vertical": "gutter cleaning and gutter services",
+      "location": "Westchester, NY",
+      "priority": "A-",
+      "summary": "Westchester gutter-services Wix site with phone, email, online booking, service imagery, and multiple gutter/exterior service offerings; prototype clarifies core services and estimate actions in the first screen.",
+      "angle": "make Westchester gutter cleaning, installs and repairs, guards, pressure washing, and call/text/email estimate actions clearer in the first screen"
+    }
+  ]
+}

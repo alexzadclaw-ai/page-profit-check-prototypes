@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-19-0200-nightly",
+  "batchJson": "opportunities/2026-05-19-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "fix-help-me-home-services",
+      "name": "Fix Help Me Home Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/fix-help-me-home-services-audit.md",
+          "exists": true,
+          "size": 8837
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/fix-help-me-home-services-offer.md",
+          "exists": true,
+          "size": 1409
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/fix-help-me-home-services/index.html",
+          "exists": true,
+          "size": 21312
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fix-help-me-home-services-target.png",
+          "exists": true,
+          "size": 477719
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fix-help-me-home-services-prototype.png",
+          "exists": true,
+          "size": 564663
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3986,
+        "pixelSimilarity": 0.7596,
+        "edgeLayoutSimilarity": 0.6873,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.6545
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/fix-help-me-home-services-source-assets.md"
+    },
+    {
+      "slug": "marba-professional-services",
+      "name": "M@RBA Professional Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/marba-professional-services-audit.md",
+          "exists": true,
+          "size": 11940
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/marba-professional-services-offer.md",
+          "exists": true,
+          "size": 1595
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/marba-professional-services/index.html",
+          "exists": true,
+          "size": 23654
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/marba-professional-services-target.png",
+          "exists": true,
+          "size": 3456221
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/marba-professional-services-prototype.png",
+          "exists": true,
+          "size": 3387298
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7814,
+        "pixelSimilarity": 0.682,
+        "edgeLayoutSimilarity": 0.7815,
+        "perceptualHashSimilarity": 0.5938,
+        "weightedSimilarity": 0.7185
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/marba-professional-services-source-assets.md"
+    },
+    {
+      "slug": "fitzgerald-lawn-solutions",
+      "name": "Fitzgerald Lawn Solutions",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/fitzgerald-lawn-solutions-audit.md",
+          "exists": true,
+          "size": 9649
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/fitzgerald-lawn-solutions-offer.md",
+          "exists": true,
+          "size": 1302
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/fitzgerald-lawn-solutions/index.html",
+          "exists": true,
+          "size": 16907
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fitzgerald-lawn-solutions-target.png",
+          "exists": true,
+          "size": 5372592
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fitzgerald-lawn-solutions-prototype.png",
+          "exists": true,
+          "size": 5360074
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.9527,
+        "pixelSimilarity": 0.8996,
+        "edgeLayoutSimilarity": 0.823,
+        "perceptualHashSimilarity": 0.9375,
+        "weightedSimilarity": 0.8994
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/fitzgerald-lawn-solutions-source-assets.md"
+    },
+    {
+      "slug": "american-redline-junk-removal",
+      "name": "American Redline Junk Removal Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/american-redline-junk-removal-audit.md",
+          "exists": true,
+          "size": 9814
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/american-redline-junk-removal-offer.md",
+          "exists": true,
+          "size": 1159
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/american-redline-junk-removal/index.html",
+          "exists": true,
+          "size": 19730
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/american-redline-junk-removal-target.png",
+          "exists": true,
+          "size": 2190590
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/american-redline-junk-removal-prototype.png",
+          "exists": true,
+          "size": 2406076
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5529,
+        "pixelSimilarity": 0.8352,
+        "edgeLayoutSimilarity": 0.753,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.736
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/american-redline-junk-removal-source-assets.md"
+    },
+    {
+      "slug": "finishing-touch-handyman",
+      "name": "Finishing Touch Handyman Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/finishing-touch-handyman-audit.md",
+          "exists": true,
+          "size": 9165
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/finishing-touch-handyman-offer.md",
+          "exists": true,
+          "size": 1254
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/finishing-touch-handyman/index.html",
+          "exists": true,
+          "size": 20392
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/finishing-touch-handyman-target.png",
+          "exists": true,
+          "size": 3147562
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/finishing-touch-handyman-prototype.png",
+          "exists": true,
+          "size": 3451029
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6647,
+        "pixelSimilarity": 0.7855,
+        "edgeLayoutSimilarity": 0.7523,
+        "perceptualHashSimilarity": 0.7031,
+        "weightedSimilarity": 0.7346
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/finishing-touch-handyman-source-assets.md"
+    },
+    {
+      "slug": "homes-a-to-z",
+      "name": "Homes A to Z Handyman Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/homes-a-to-z-audit.md",
+          "exists": true,
+          "size": 8574
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/homes-a-to-z-offer.md",
+          "exists": true,
+          "size": 1279
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/homes-a-to-z/index.html",
+          "exists": true,
+          "size": 18867
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/homes-a-to-z-target.png",
+          "exists": true,
+          "size": 1209473
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/homes-a-to-z-prototype.png",
+          "exists": true,
+          "size": 1537247
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8437,
+        "pixelSimilarity": 0.8948,
+        "edgeLayoutSimilarity": 0.7854,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.8494
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/homes-a-to-z-source-assets.md"
+    },
+    {
+      "slug": "fibre-tech-carpet-care",
+      "name": "Fibre Tech Carpet Care Ltd",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/fibre-tech-carpet-care-audit.md",
+          "exists": true,
+          "size": 8429
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/fibre-tech-carpet-care-offer.md",
+          "exists": true,
+          "size": 1497
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/fibre-tech-carpet-care/index.html",
+          "exists": true,
+          "size": 23868
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fibre-tech-carpet-care-target.png",
+          "exists": true,
+          "size": 2981586
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/fibre-tech-carpet-care-prototype.png",
+          "exists": true,
+          "size": 3621111
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4785,
+        "pixelSimilarity": 0.7249,
+        "edgeLayoutSimilarity": 0.8082,
+        "perceptualHashSimilarity": 0.75,
+        "weightedSimilarity": 0.6879
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/fibre-tech-carpet-care-source-assets.md"
+    },
+    {
+      "slug": "peterson-pressure-washing-li",
+      "name": "Peterson Pressure Washing LI",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/peterson-pressure-washing-li-audit.md",
+          "exists": true,
+          "size": 13112
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/peterson-pressure-washing-li-offer.md",
+          "exists": true,
+          "size": 1707
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/peterson-pressure-washing-li/index.html",
+          "exists": true,
+          "size": 24304
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/peterson-pressure-washing-li-target.png",
+          "exists": true,
+          "size": 3276694
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/peterson-pressure-washing-li-prototype.png",
+          "exists": true,
+          "size": 3173798
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4494,
+        "pixelSimilarity": 0.6847,
+        "edgeLayoutSimilarity": 0.6898,
+        "perceptualHashSimilarity": 0.6406,
+        "weightedSimilarity": 0.6205
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/peterson-pressure-washing-li-source-assets.md"
+    },
+    {
+      "slug": "clearwater-seasonal-services",
+      "name": "Clearwater Seasonal Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/clearwater-seasonal-services-audit.md",
+          "exists": true,
+          "size": 9847
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/clearwater-seasonal-services-offer.md",
+          "exists": true,
+          "size": 1496
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/clearwater-seasonal-services/index.html",
+          "exists": true,
+          "size": 23670
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/clearwater-seasonal-services-target.png",
+          "exists": true,
+          "size": 3246547
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/clearwater-seasonal-services-prototype.png",
+          "exists": true,
+          "size": 3604824
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.6473,
+        "pixelSimilarity": 0.7054,
+        "edgeLayoutSimilarity": 0.6753,
+        "perceptualHashSimilarity": 0.7031,
+        "weightedSimilarity": 0.683
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/clearwater-seasonal-services-source-assets.md"
+    },
+    {
+      "slug": "logans-gutter-services",
+      "name": "Logans Gutter Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-19-0200-nightly/logans-gutter-services-audit.md",
+          "exists": true,
+          "size": 9741
+        },
+        "offer": {
+          "path": "offers/2026-05-19-0200-nightly/logans-gutter-services-offer.md",
+          "exists": true,
+          "size": 1141
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-19-0200-nightly/logans-gutter-services/index.html",
+          "exists": true,
+          "size": 19486
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/logans-gutter-services-target.png",
+          "exists": true,
+          "size": 2300990
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-19-0200-nightly/logans-gutter-services-prototype.png",
+          "exists": true,
+          "size": 2657621
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5971,
+        "pixelSimilarity": 0.8727,
+        "edgeLayoutSimilarity": 0.8129,
+        "perceptualHashSimilarity": 0.9062,
+        "weightedSimilarity": 0.7939
+      },
+      "sourceAssetsNote": "state/2026-05-19-0200-nightly/logans-gutter-services-source-assets.md"
+    }
+  ]
+}

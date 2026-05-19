@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clearwater Seasonal Services | Nelson & West Kootenays Exterior Cleaning</title>
+  <meta name="description" content="Window cleaning, gutter cleaning, power washing, and moss removal in Nelson, BC and the West Kootenays from Clearwater Seasonal Services.">
+  <style>
+    :root{
+      --charcoal:#3b3a3a;
+      --ink:#1f2526;
+      --muted:#656b6c;
+      --line:#222;
+      --cloud:#f7f8f6;
+      --white:#fff;
+      --blue:#2e748f;
+      --blue-dark:#1d4c60;
+      --green:#5b7f52;
+      --green-dark:#3e6139;
+      --cta:#6f7d78;
+      --soft-green:#edf5ee;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff;scroll-behavior:smooth;}
+    body{overflow-x:hidden;}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .topbar{height:150px;background:var(--charcoal);color:#f3f3f3;position:relative;border-bottom:1px solid rgba(255,255,255,.08);}
+    .brand-logo{position:absolute;left:58px;top:22px;width:204px;z-index:3;filter:drop-shadow(0 6px 14px rgba(0,0,0,.25));}
+    .tagline{position:absolute;left:380px;top:23px;font-size:20px;letter-spacing:.11em;color:#f8f8f8;font-weight:700;text-transform:uppercase;}
+    .nav{position:absolute;left:380px;right:72px;bottom:28px;display:flex;align-items:center;gap:38px;font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#eee;}
+    .nav a{opacity:.92;white-space:nowrap;}
+    .nav a:hover{opacity:1;color:#fff;}
+    .nav .estimate{margin-left:auto;background:#757a78;color:#fff;padding:14px 22px;border-radius:0;letter-spacing:.08em;box-shadow:inset 0 0 0 1px rgba(255,255,255,.15);}
+
+    .hero{position:relative;min-height:970px;background:url("https://static.wixstatic.com/media/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg/v1/fill/w_1365,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_59574456726b3443364630~mv2_d_4048_2272_s_2.jpg") center top/cover no-repeat;display:flex;align-items:flex-start;justify-content:center;text-align:center;}
+    .hero:before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.76);}
+    .hero-inner{position:relative;margin-top:178px;width:min(920px,88vw);padding:46px 30px 38px;background:rgba(255,255,255,.58);border:1px solid rgba(59,58,58,.16);box-shadow:0 18px 50px rgba(0,0,0,.07);}
+    .eyebrow{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue-dark);font-weight:800;margin-bottom:16px;}
+    .hero h1{font-size:46px;line-height:1.12;margin:0 auto 19px;max-width:850px;text-transform:uppercase;letter-spacing:.025em;color:#111;font-weight:800;}
+    .hero .contact-line{font-size:29px;line-height:1.55;font-weight:800;letter-spacing:.035em;text-transform:uppercase;color:#111;margin:0 auto 25px;}
+    .hero .contact-line a{border-bottom:2px solid rgba(46,116,143,.28);}
+    .hero-copy{max-width:650px;margin:0 auto 29px;color:#404647;font-size:19px;line-height:1.65;}
+    .hero-actions{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:25px;}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:14px 26px;background:var(--green);color:#fff;font-weight:800;letter-spacing:.08em;text-transform:uppercase;border:1px solid rgba(0,0,0,.1);box-shadow:0 8px 20px rgba(0,0,0,.14);}
+    .btn.secondary{background:var(--blue);}
+    .trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:760px;margin:0 auto;}
+    .trust-row div{background:rgba(46,116,143,.10);border:1px solid rgba(46,116,143,.22);padding:12px 11px;font-size:13px;line-height:1.35;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#283132;}
+
+    .services{background:#fff;padding:92px 38px 74px;text-align:center;}
+    .rule{width:min(1045px,92vw);height:2px;background:#202020;margin:0 auto 42px;}
+    .section-kicker{color:var(--green-dark);font-size:13px;text-transform:uppercase;letter-spacing:.2em;font-weight:800;margin:0 0 10px;}
+    .services h2,.about h2,.guarantee h2,.contact h2{font-size:28px;letter-spacing:.07em;line-height:1.3;text-transform:uppercase;margin:0;font-weight:800;color:#151515;}
+    .services-intro{max-width:760px;margin:16px auto 36px;color:#5d6667;font-size:16px;line-height:1.65;}
+    .service-grid{max-width:990px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr);gap:30px;}
+    .service-card{border:2px solid #1e1e1e;background:#fff;text-align:left;min-height:404px;display:flex;flex-direction:column;}
+    .service-card img{width:100%;height:235px;object-fit:cover;}
+    .service-card .content{padding:28px 30px 24px;display:flex;flex-direction:column;gap:13px;min-height:169px;}
+    .service-card h3{font-size:19px;letter-spacing:.06em;text-transform:uppercase;margin:0;color:#111;}
+    .service-card p{margin:0;color:#666;font-size:15px;line-height:1.55;}
+    .mini-link{margin-top:auto;color:var(--blue-dark);font-size:12px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;}
+
+    .mid-cta{padding:84px 30px 56px;text-align:center;background:#fff;}
+    .mid-cta .btn{background:#777f7c;min-width:238px;}
+    .rate-line{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:30px auto 34px;color:#121212;font-size:27px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;}
+    .gallery{max-width:1025px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:8px;}
+    .gallery img{width:100%;height:178px;object-fit:cover;}
+
+    .about{padding:88px 30px 70px;background:#fff;text-align:center;}
+    .about .copy{max-width:920px;margin:28px auto 0;color:#5c6263;font-size:16px;line-height:1.82;}
+    .about .copy p{margin:0 0 18px;}
+    .about-proof{max-width:900px;margin:28px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+    .about-proof div{background:var(--soft-green);border:1px solid rgba(91,127,82,.25);padding:18px 16px;text-align:left;}
+    .about-proof strong{display:block;font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--green-dark);margin-bottom:6px;}
+    .about-proof span{font-size:14px;line-height:1.5;color:#4f5757;}
+
+    .service-area{background:var(--charcoal);color:#fff;text-align:center;position:relative;padding:92px 30px 72px;margin-top:96px;}
+    .service-area .area-logo{position:absolute;top:-68px;left:50%;transform:translateX(-50%);width:212px;filter:drop-shadow(0 10px 18px rgba(0,0,0,.35));}
+    .service-area h2{font-size:25px;line-height:1.55;max-width:1060px;margin:0 auto 34px;text-transform:none;letter-spacing:.015em;color:#fff;font-weight:800;}
+    .area-grid{max-width:860px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:14px 36px;text-align:left;}
+    .area-grid div{position:relative;padding-left:20px;font-size:16px;line-height:1.45;letter-spacing:.04em;text-transform:uppercase;}
+    .area-grid div:before{content:"";position:absolute;left:0;top:.5em;width:7px;height:7px;border-radius:50%;background:#dfe6df;}
+    .area-note{max-width:740px;margin:36px auto 0;color:#e6e6e6;line-height:1.7;font-size:15px;}
+
+    .guarantee{position:relative;text-align:center;padding:112px 30px 88px;background:#fff;overflow:hidden;}
+    .guarantee:before{content:"SATISFACTION GUARANTEED";position:absolute;left:50%;top:39px;transform:translateX(-50%);font-size:82px;line-height:1;font-weight:900;letter-spacing:.05em;color:rgba(46,116,143,.055);white-space:nowrap;}
+    .guarantee h2{position:relative;margin-bottom:20px;color:#202020;}
+    .guarantee p{position:relative;max-width:640px;margin:0 auto 25px;color:#5e6667;font-size:16px;line-height:1.65;}
+    .guarantee .btn{position:relative;background:#747b78;}
+
+    .contact{padding:78px 48px 32px;background:#fff;}
+    .contact-wrap{max-width:1040px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start;}
+    .contact h2{text-align:left;margin-bottom:30px;}
+    .contact h3{font-size:18px;line-height:1.35;text-transform:uppercase;letter-spacing:.08em;color:#1d1d1d;margin:0 0 15px;}
+    .contact p{color:#5d6667;line-height:1.65;font-size:16px;margin:0 0 20px;}
+    .contact-card{background:#f7f8f6;border:1px solid #d7ddda;padding:28px 28px 30px;box-shadow:0 10px 28px rgba(0,0,0,.06);}
+    .phone-link{font-size:23px;color:var(--blue-dark);font-weight:900;border-bottom:2px solid rgba(46,116,143,.22);}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+    .field{width:100%;height:42px;border:1px solid #c7cfca;background:#e9eeec;padding:10px 12px;font-size:14px;color:#222;}
+    textarea.field{height:116px;grid-column:1/-1;resize:vertical;}
+    .field.full{grid-column:1/-1;}
+    .submit{margin-top:14px;background:#737b78;color:#fff;border:0;padding:13px 31px;text-transform:uppercase;letter-spacing:.09em;font-weight:800;cursor:default;}
+    .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}
+    .photo-grid img{width:100%;height:168px;object-fit:cover;}
+    .contact-bottom{max-width:1040px;margin:44px auto 0;padding:25px 0 8px;border-top:1px solid #d7d7d7;display:flex;justify-content:space-between;gap:24px;color:#5a6061;font-size:16px;}
+    .footer{background:#2f2f2f;color:#f1f1f1;text-align:center;padding:32px 24px;font-size:14px;letter-spacing:.04em;}
+    .mobile-call{display:none;position:fixed;left:14px;right:14px;bottom:14px;z-index:20;background:var(--green);color:#fff;text-align:center;padding:14px 18px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:4px;box-shadow:0 9px 24px rgba(0,0,0,.22);}
+
+    @media (max-width:900px){
+      .topbar{height:auto;min-height:276px;padding:20px 22px 28px;text-align:center;}
+      .brand-logo,.tagline,.nav{position:static;}
+      .brand-logo{margin:0 auto 14px;width:178px;}
+      .tagline{font-size:15px;margin:6px 0 20px;}
+      .nav{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;}
+      .nav .estimate{margin-left:0;width:100%;max-width:260px;}
+      .hero{min-height:720px;}
+      .hero-inner{margin-top:68px;padding:32px 19px;}
+      .hero h1{font-size:30px;}
+      .hero .contact-line{font-size:20px;}
+      .trust-row,.service-grid,.about-proof,.area-grid,.contact-wrap{grid-template-columns:1fr;}
+      .gallery{grid-template-columns:1fr 1fr;}
+      .gallery img,.photo-grid img{height:150px;}
+      .photo-grid{grid-template-columns:1fr 1fr;}
+      .contact{padding:58px 22px 32px;}
+      .contact-bottom{flex-direction:column;align-items:flex-start;}
+      .form-grid{grid-template-columns:1fr;}
+      textarea.field,.field.full{grid-column:auto;}
+      .guarantee:before{font-size:44px;white-space:normal;top:34px;}
+      .mobile-call{display:block;}
+      body{padding-bottom:62px;}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar" id="home">
+    <a href="https://clearwaterss.wixsite.com/clearwaterseasonal-1" aria-label="Clearwater Seasonal Services home">
+      <img class="brand-logo" src="https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_212,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png" alt="Clearwater Seasonal Services logo">
+    </a>
+    <div class="tagline">Seasonal Services | Nelson, BC.</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/reviews">Reviews</a>
+      <a class="estimate" href="mailto:clearwater.ss@gmail.com?subject=Free%20Estimate%20Request">Get a Free Estimate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Clearwater Seasonal Services hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Clearly the right choice</div>
+        <h1>Window, gutter, power washing, and moss removal services in Nelson, BC</h1>
+        <p class="contact-line">
+          <a href="tel:12507773659">Phone - 250-777-3659</a><br>
+          <a href="mailto:clearwater.ss@gmail.com">Email - clearwater.ss@gmail.com</a>
+        </p>
+        <p class="hero-copy">Exterior cleaning should be easy to book and easy to understand. Clearwater helps homes and businesses across Nelson and the West Kootenays keep windows, gutters, siding, decks, and roofs cleaner season after season.</p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:clearwater.ss@gmail.com?subject=Free%20Estimate%20Request">Request a Free Estimate</a>
+          <a class="btn secondary" href="tel:12507773659">Call 250-777-3659</a>
+        </div>
+        <div class="trust-row" aria-label="Service highlights">
+          <div>Nelson based since 2013</div>
+          <div>West Kootenay coverage</div>
+          <div>Call back within one business day</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="rule" aria-hidden="true"></div>
+      <p class="section-kicker">Our professional services</p>
+      <h2>Choose the service you need, then ask for an estimate</h2>
+      <p class="services-intro">Four core exterior services are easy to compare at a glance, with the original service order preserved and a clearer estimate path for each seasonal need.</p>
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/ab38f67e23e345c4a70e285ce3896868.jpg/v1/crop/x_0,y_518,w_5633,h_2724/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Summer%20House.jpg" alt="Clean home windows in summer">
+          <div class="content">
+            <h3>Window Cleaning</h3>
+            <p>Spotless, streak-free residential and business windows without the ladder hassle.</p>
+            <a class="mini-link" href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/window-cleaning">View window cleaning</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/69fcb5_4e8c4e6cff644f63b38056eec6033bbe~mv2_d_2400_1595_s_2.jpg/v1/crop/x_0,y_217,w_2400,h_1161/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/gutter-cleaning-clearwater.jpg" alt="Gutter cleaning service in Nelson BC">
+          <div class="content">
+            <h3>Gutter Cleaning</h3>
+            <p>Standard gutters, removable gutter guards, and non-removable gutter guard cleaning.</p>
+            <a class="mini-link" href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/gutter-cleaning">View gutter cleaning</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/69fcb5_968bc59f09d444daba34eb1c923ef648~mv2.jpg/v1/crop/x_0,y_195,w_1464,h_708/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pressure-washer-nelson-bc.jpg" alt="Power washing exterior surfaces">
+          <div class="content">
+            <h3>Power Washing</h3>
+            <p>Driveways, vinyl siding, patios, decks, fences, and other exterior surfaces.</p>
+            <a class="mini-link" href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/power-washing">View power washing</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="https://static.wixstatic.com/media/69fcb5_7b8604c1e8f44fd289c914acff6d68f9~mv2.jpeg/v1/crop/x_0,y_97,w_503,h_243/fill/w_488,h_235,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/moss-removal-nelson-bc.jpeg" alt="Moss removal on a roof">
+          <div class="content">
+            <h3>Moss Removal</h3>
+            <p>Thorough moss removal for fire hazard prevention, preservation, and curb appeal.</p>
+            <a class="mini-link" href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/moss-removal">View moss removal</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="mid-cta" aria-label="Estimate and gallery">
+      <a class="btn" href="mailto:clearwater.ss@gmail.com?subject=Free%20Estimate%20Request">Get a Free Estimate</a>
+      <div class="rate-line"><span>Affordable rates.</span><span>Outstanding services.</span></div>
+      <div class="gallery" aria-label="Clearwater service photos">
+        <img src="https://static.wixstatic.com/media/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_75ebfb8a2afe4f33b7a52aa4e6d8b235~mv2.jpg" alt="Clearwater service truck">
+        <img src="https://static.wixstatic.com/media/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/03ad20_8601e5d0ef78402c8733de6c23c3ee1b~mv2.jpg" alt="Clearwater worker photo">
+        <img src="https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg" alt="Clearwater exterior cleaning photo">
+        <img src="https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg" alt="Clearwater window cleaning work">
+        <img src="https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_261,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg" alt="Clearwater house exterior service photo">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="section-kicker">About Clearwater Seasonal Services</p>
+      <h2>Reliable seasonal cleaning for Nelson and the West Kootenays</h2>
+      <div class="copy">
+        <p>Clearwater Seasonal Services is an all-around seasonal service business in the West Kootenays, built around highly motivated professionals who focus on quality, reliability, punctuality, and affordable pricing.</p>
+        <p>The team works analytically to make each part of the business efficient for the client. By creating a network of professionals who are specially trained in their departments, Clearwater is ready to deliver quality workmanship and true customer service for each requested service.</p>
+        <p>Clearwater is based out of beautiful Nelson, BC and operates throughout the greater West Kootenay region of British Columbia.</p>
+      </div>
+      <div class="about-proof">
+        <div><strong>Easy to reach</strong><span>Office management is set up to answer or return calls within one business day.</span></div>
+        <div><strong>Clear scope</strong><span>Window cleaning, gutters, power washing, and moss removal are separated for easier estimates.</span></div>
+        <div><strong>Local focus</strong><span>Nelson, Salmo, Trail, Kaslo, Castlegar, Rossland, Nakusp, and nearby communities.</span></div>
+      </div>
+    </section>
+
+    <section class="service-area" aria-label="Service area">
+      <img class="area-logo" src="https://static.wixstatic.com/media/69fcb5_344cb7db3c624951915772b45fd80257~mv2.png/v1/fill/w_212,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/clearwater-seasonal-services-logo.png" alt="Clearwater Seasonal Services logo">
+      <h2>Proudly servicing beautiful Nelson, BC and operating throughout the greater West Kootenay region of British Columbia.</h2>
+      <div class="area-grid">
+        <div>Nelson</div><div>Salmo</div><div>Trail</div>
+        <div>Balfour</div><div>Harrop</div><div>Procter</div>
+        <div>Slocan</div><div>Winlaw</div><div>Krestova</div>
+        <div>Passmore</div><div>South Slocan</div><div>Kaslo</div>
+        <div>Castlegar</div><div>Montrose</div><div>Fruitvale</div>
+        <div>Nakusp</div><div>Rossland</div><div>Silverton</div>
+        <div>New Denver</div>
+      </div>
+      <p class="area-note">Would you like Clearwater Seasonal Services in your area? Contact the team for further information and a practical estimate path.</p>
+    </section>
+
+    <section class="guarantee">
+      <h2>Satisfaction guaranteed</h2>
+      <p>The guarantee deserves enough contrast to work as trust proof before visitors reach the estimate form.</p>
+      <a class="btn" href="https://clearwaterss.wixsite.com/clearwaterseasonal-1/copy-of-moss-removal">Review our guarantee &amp; policy</a>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-wrap">
+        <div class="contact-card">
+          <h2>Contact us</h2>
+          <h3>Request a free estimate</h3>
+          <p>Please call <a class="phone-link" href="tel:12507773659">250-777-3659</a>, email photos and details, or use the form fields below as a simple estimate checklist.</p>
+          <form onsubmit="return false;" aria-label="Estimate form mockup">
+            <div class="form-grid">
+              <input class="field" type="text" aria-label="Name" placeholder="Name">
+              <input class="field" type="email" aria-label="Email" placeholder="Email">
+              <input class="field full" type="text" aria-label="Subject" placeholder="Subject, service, or town">
+              <textarea class="field" aria-label="Message" placeholder="Tell us what you need cleaned, where it is, and whether you can send photos."></textarea>
+            </div>
+            <button class="submit" type="button">Submit</button>
+          </form>
+        </div>
+        <div class="photo-grid" aria-label="Clearwater contact gallery">
+          <img src="https://static.wixstatic.com/media/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_7b7984e4d88246c5a6dd3f7046e5cccf~mv2.jpg" alt="Pressure washing">
+          <img src="https://static.wixstatic.com/media/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_3d9c23942aab4157be83eb3c16904f49~mv2.jpg" alt="Window cleaning service">
+          <img src="https://static.wixstatic.com/media/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_bad2d900f96f41fc854c178c8fb0388d~mv2.jpg" alt="Clearwater seasonal services photo">
+          <img src="https://static.wixstatic.com/media/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_0005f30e912f43638e0cfe1b86225cc8~mv2.jpg" alt="Exterior cleaning photo">
+          <img src="https://static.wixstatic.com/media/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_df33792a67494041825182ae50cd668b~mv2.jpg" alt="Window cleaning work">
+          <img src="https://static.wixstatic.com/media/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg/v1/fill/w_151,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/69fcb5_1b8343f531b54ae39950c9b3b70da6fc~mv2.jpg" alt="House exterior service">
+        </div>
+      </div>
+      <div class="contact-bottom">
+        <a href="mailto:clearwater.ss@gmail.com">Email: clearwater.ss@gmail.com</a>
+        <span>1011 Fourth St. | Nelson, BC V1L 2T5</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2020 by Clearwater Seasonal Services Inc. | Nelson, BC | West Kootenays exterior cleaning</footer>
+  <a class="mobile-call" href="tel:12507773659">Call Clearwater for an estimate</a>
+</body>
+</html>

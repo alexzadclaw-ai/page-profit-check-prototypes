@@ -1,0 +1,2003 @@
+{
+  "title": "Services | Fitzgerald Lawn Solutions",
+  "url": "https://fitzlawns.wixsite.com/website/services",
+  "doc": {
+    "w": 1366,
+    "h": 5105
+  },
+  "headings": [
+    {
+      "index": 0,
+      "tag": "h1",
+      "text": "Lawn Care & Landscape Services",
+      "rect": {
+        "x": 213,
+        "y": 347,
+        "w": 940,
+        "h": 67,
+        "top": 347
+      },
+      "visible": true,
+      "font": "50px / 67px questrial, sans-serif"
+    },
+    {
+      "index": 1,
+      "tag": "h2",
+      "text": "LAWN MAINTENENCE",
+      "rect": {
+        "x": 795,
+        "y": 964,
+        "w": 460,
+        "h": 39,
+        "top": 964
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    },
+    {
+      "index": 2,
+      "tag": "h2",
+      "text": "SHRUB/HEDGE TRIMMING",
+      "rect": {
+        "x": 112,
+        "y": 1639,
+        "w": 460,
+        "h": 39,
+        "top": 1639
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    },
+    {
+      "index": 3,
+      "tag": "h2",
+      "text": "LEAF & PINE NEEDLE REMOVAL",
+      "rect": {
+        "x": 795,
+        "y": 2299,
+        "w": 460,
+        "h": 39,
+        "top": 2299
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    },
+    {
+      "index": 4,
+      "tag": "h2",
+      "text": "PROPERTY CLEANUP",
+      "rect": {
+        "x": 112,
+        "y": 2927,
+        "w": 460,
+        "h": 39,
+        "top": 2927
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    },
+    {
+      "index": 5,
+      "tag": "h2",
+      "text": "MULCH & PINE STRAW INSTALLATION",
+      "rect": {
+        "x": 795,
+        "y": 3617,
+        "w": 460,
+        "h": 77,
+        "top": 3617
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    },
+    {
+      "index": 6,
+      "tag": "h2",
+      "text": "GARDEN BED DEFINING",
+      "rect": {
+        "x": 112,
+        "y": 4314,
+        "w": 460,
+        "h": 39,
+        "top": 4314
+      },
+      "visible": true,
+      "font": "28px / 38.5px questrial, sans-serif"
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=a6044939-b841-4c14-943d-f5931ab8c145&adsVersion=banner_2024",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 50,
+        "top": 0
+      },
+      "visible": true
+    },
+    {
+      "index": 1,
+      "text": "",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 80,
+        "y": 81,
+        "w": 155,
+        "h": 75,
+        "top": 81
+      },
+      "visible": true
+    },
+    {
+      "index": 2,
+      "text": "Fitzgerald Lawn Solutions",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 250,
+        "y": 107,
+        "w": 251,
+        "h": 23,
+        "top": 107
+      },
+      "visible": true
+    },
+    {
+      "index": 3,
+      "text": "FREE ESTIMATE",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 1137,
+        "y": 96,
+        "w": 150,
+        "h": 45,
+        "top": 96
+      },
+      "visible": true
+    },
+    {
+      "index": 4,
+      "text": "Home",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 70,
+        "y": 190,
+        "w": 57,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true
+    },
+    {
+      "index": 5,
+      "text": "Services",
+      "href": "https://fitzlawns.wixsite.com/website/services",
+      "rect": {
+        "x": 127,
+        "y": 190,
+        "w": 73,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true
+    },
+    {
+      "index": 13,
+      "text": "About Us",
+      "href": "https://fitzlawns.wixsite.com/website/about-us",
+      "rect": {
+        "x": 200,
+        "y": 190,
+        "w": 78,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true
+    },
+    {
+      "index": 14,
+      "text": "Contact",
+      "href": "https://fitzlawns.wixsite.com/website/contact",
+      "rect": {
+        "x": 278,
+        "y": 190,
+        "w": 70,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true
+    },
+    {
+      "index": 15,
+      "text": "Gallery",
+      "href": "https://fitzlawns.wixsite.com/website/gallery",
+      "rect": {
+        "x": 348,
+        "y": 190,
+        "w": 64,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true
+    },
+    {
+      "index": 16,
+      "text": "fitzgeraldlawnsolutions@gmail.com",
+      "href": "mailto:fitzgeraldlawnsolutions@gmail.com",
+      "rect": {
+        "x": 874,
+        "y": 198,
+        "w": 220,
+        "h": 14,
+        "top": 198
+      },
+      "visible": true
+    },
+    {
+      "index": 17,
+      "text": "Facebook",
+      "href": "https://www.facebook.com/FitzLawnSolutions/",
+      "rect": {
+        "x": 1236,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true
+    },
+    {
+      "index": 18,
+      "text": "Instagram",
+      "href": "https://www.instagram.com/fitzgeraldlawnsolutions/",
+      "rect": {
+        "x": 1266,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true
+    },
+    {
+      "index": 19,
+      "text": "FREE ESTIMATE",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 598,
+        "y": 620,
+        "w": 171,
+        "h": 50,
+        "top": 620
+      },
+      "visible": true
+    },
+    {
+      "index": 20,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/mowing",
+      "rect": {
+        "x": 795,
+        "y": 1257,
+        "w": 155,
+        "h": 50,
+        "top": 1257
+      },
+      "visible": true
+    },
+    {
+      "index": 21,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/hedge-trimming",
+      "rect": {
+        "x": 112,
+        "y": 1902,
+        "w": 155,
+        "h": 50,
+        "top": 1902
+      },
+      "visible": true
+    },
+    {
+      "index": 22,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/leaf-pine-needle-removal",
+      "rect": {
+        "x": 795,
+        "y": 2562,
+        "w": 155,
+        "h": 50,
+        "top": 2562
+      },
+      "visible": true
+    },
+    {
+      "index": 23,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/property-cleanup",
+      "rect": {
+        "x": 112,
+        "y": 3255,
+        "w": 155,
+        "h": 50,
+        "top": 3255
+      },
+      "visible": true
+    },
+    {
+      "index": 24,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/mulch-pine-straw-installation",
+      "rect": {
+        "x": 795,
+        "y": 3885,
+        "w": 155,
+        "h": 50,
+        "top": 3885
+      },
+      "visible": true
+    },
+    {
+      "index": 25,
+      "text": "Learn More >>",
+      "href": "https://fitzlawns.wixsite.com/website/garden-bed-redefining",
+      "rect": {
+        "x": 112,
+        "y": 4507,
+        "w": 155,
+        "h": 50,
+        "top": 4507
+      },
+      "visible": true
+    },
+    {
+      "index": 26,
+      "text": "Fitzgerald Lawn Solutions",
+      "href": "https://fitzlawns.wixsite.com/website",
+      "rect": {
+        "x": 561,
+        "y": 4802,
+        "w": 251,
+        "h": 23,
+        "top": 4802
+      },
+      "visible": true
+    },
+    {
+      "index": 27,
+      "text": "fitzgeraldlawnsolutions@gmail.com",
+      "href": "mailto:fitzgeraldlawnsolutions@gmail.com",
+      "rect": {
+        "x": 567,
+        "y": 4858,
+        "w": 236,
+        "h": 15,
+        "top": 4858
+      },
+      "visible": true
+    },
+    {
+      "index": 28,
+      "text": "Facebook",
+      "href": "https://www.facebook.com/FitzLawnSolutions/",
+      "rect": {
+        "x": 658,
+        "y": 4985,
+        "w": 20,
+        "h": 20,
+        "top": 4985
+      },
+      "visible": true
+    },
+    {
+      "index": 29,
+      "text": "Instagram",
+      "href": "https://www.instagram.com/fitzgeraldlawnsolutions/",
+      "rect": {
+        "x": 688,
+        "y": 4985,
+        "w": 20,
+        "h": 20,
+        "top": 4985
+      },
+      "visible": true
+    }
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "https://static.wixstatic.com/media/154912_cba764741e164f3b83276b56603f2b54~mv2.png/v1/fill/w_155,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WIX%20LOGO.png",
+      "currentSrc": "https://static.wixstatic.com/media/154912_cba764741e164f3b83276b56603f2b54~mv2.png/v1/fill/w_155,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WIX%20LOGO.png",
+      "srcset": "https://static.wixstatic.com/media/154912_cba764741e164f3b83276b56603f2b54~mv2.png/v1/fill/w_155,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WIX%20LOGO.png 1x, https://static.wixstatic.com/media/154912_cba764741e164f3b83276b56603f2b54~mv2.png/v1/fill/w_310,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WIX%20LOGO.png 2x",
+      "alt": "WIX LOGO.png",
+      "title": "",
+      "naturalWidth": 155,
+      "naturalHeight": 75,
+      "rect": {
+        "x": 80,
+        "y": 81,
+        "w": 155,
+        "h": 75,
+        "top": 81
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 1,
+      "src": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "currentSrc": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "srcset": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 1x, https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 2x",
+      "alt": "Facebook",
+      "title": "",
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 1236,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 2,
+      "src": "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png",
+      "currentSrc": "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png",
+      "srcset": "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png 1x, https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png 2x",
+      "alt": "Instagram",
+      "title": "",
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 1266,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 3,
+      "src": "https://static.wixstatic.com/media/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg/v1/fill/w_663,h_641,fp_0.50_0.50,q_85,enc_avif,quality_auto/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg/v1/fill/w_663,h_641,fp_0.50_0.50,q_85,enc_avif,quality_auto/154912_210e7613d7ca4475afa7cb8eb5343ab0~mv2.jpg",
+      "srcset": "",
+      "alt": "zero+turn.jpg",
+      "title": "",
+      "naturalWidth": 663,
+      "naturalHeight": 641,
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 4,
+      "src": "https://static.wixstatic.com/media/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b02a9c438b324ec7829a1f5dc88e5967~mv2.jpg",
+      "srcset": "",
+      "alt": "Hedge Trimming.jpg",
+      "title": "",
+      "naturalWidth": 683,
+      "naturalHeight": 660,
+      "rect": {
+        "x": 683,
+        "y": 1465,
+        "w": 683,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 5,
+      "src": "https://static.wixstatic.com/media/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg/v1/fill/w_658,h_635,fp_0.50_0.50,lg_1,q_85,enc_avif,quality_auto/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg/v1/fill/w_658,h_635,fp_0.50_0.50,lg_1,q_85,enc_avif,quality_auto/154912_ef1de4c14c624d8d9f87feace2498689~mv2.jpg",
+      "srcset": "",
+      "alt": "Service-Leaf-Removal_edited.jpg",
+      "title": "",
+      "naturalWidth": 658,
+      "naturalHeight": 635,
+      "rect": {
+        "x": 0,
+        "y": 2125,
+        "w": 683,
+        "h": 660,
+        "top": 2125
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 6,
+      "src": "https://static.wixstatic.com/media/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg/v1/fill/w_683,h_660,fp_0.35_0.48,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg/v1/fill/w_683,h_660,fp_0.35_0.48,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_b42a25ef46fb4c54817f1b1bd8d2a90b~mv2.jpg",
+      "srcset": "",
+      "alt": "Yard Cleanup.jpg",
+      "title": "",
+      "naturalWidth": 683,
+      "naturalHeight": 660,
+      "rect": {
+        "x": 683,
+        "y": 2785,
+        "w": 683,
+        "h": 660,
+        "top": 2785
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 7,
+      "src": "https://static.wixstatic.com/media/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_4e5a60c1c9b64b7997e2dc75d21233b8~mv2.jpg",
+      "srcset": "",
+      "alt": "pine straw.jpg",
+      "title": "",
+      "naturalWidth": 683,
+      "naturalHeight": 660,
+      "rect": {
+        "x": 0,
+        "y": 3445,
+        "w": 683,
+        "h": 660,
+        "top": 3445
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 8,
+      "src": "https://static.wixstatic.com/media/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg/v1/fill/w_683,h_660,fp_0.50_0.50,lg_2,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/154912_a00bc2852e674099ac3c1c9cf6dce326~mv2.jpg",
+      "srcset": "",
+      "alt": "Bed Edging.jpg",
+      "title": "",
+      "naturalWidth": 683,
+      "naturalHeight": 660,
+      "rect": {
+        "x": 683,
+        "y": 4105,
+        "w": 683,
+        "h": 660,
+        "top": 4105
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 9,
+      "src": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "currentSrc": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+      "srcset": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 1x, https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png 2x",
+      "alt": "Facebook",
+      "title": "",
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 658,
+        "y": 4985,
+        "w": 20,
+        "h": 20,
+        "top": 4985
+      },
+      "visible": true,
+      "loading": "auto"
+    },
+    {
+      "index": 10,
+      "src": "https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png",
+      "currentSrc": "https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png",
+      "srcset": "https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png 1x, https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Instagram.png 2x",
+      "alt": "Instagram",
+      "title": "",
+      "naturalWidth": 20,
+      "naturalHeight": 20,
+      "rect": {
+        "x": 688,
+        "y": 4985,
+        "w": 20,
+        "h": 20,
+        "top": 4985
+      },
+      "visible": true,
+      "loading": "auto"
+    }
+  ],
+  "backgroundUrls": [],
+  "bodyText": "Skip to Main Content This website was built on Wix. Create yours today. Get Started Fitzgerald Lawn Solutions FREE ESTIMATE Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887 Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and everything in between. If your shrubs are overgrown and your beds are full of weeds we can transform your landscape with property cleanup. FREE ESTIMATE LAWN MAINTENENCE Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered. Learn More >> SHRUB/HEDGE TRIMMING Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered. Learn More >> LEAF & PINE NEEDLE REMOVAL Leaf & Pine Needle Removal includes cleaning leaves, undesirable pine needles, and other debris from manicured turf and garden beds. One-time, Bi-weekly, Monthly, and Quarterly Services offered Learn More >> PROPERTY CLEANUP The typical property cleanup includes pulling weeds, trimming bushes, leaf cleanup, and Mowing. Typically, a One-time service at the beginning/end of the growing season or, if necessary, before beginning routine lawn maintenance. Storm cleanups are also offered. Learn More >> MULCH & PINE STRAW INSTALLATION Mulching/Pine straw Installation includes weeding the flower beds if needed. Then, spreading chosen mulch or pine straw to desired depth. Learn More >> GARDEN BED DEFINING Garden bed edges are defined, establishing a sharp edge between turf and bed. Learn More >> Fitzgerald Lawn Solutions fitzgeraldlawnsolutions@gmail.com (912) 536-9887 232 Walker Ave. Fitzgerald, GA 31750 ©2021 by Fitzgerald Lawn Solutions",
+  "sections": [
+    {
+      "index": 0,
+      "tag": "div",
+      "id": "SITE_CONTAINER",
+      "cls": "",
+      "text": "Skip to Main Content This website was built on Wix. Create yours today. Get Started Fitzgerald Lawn Solutions FREE ESTIMATE Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887 Lawn Care & Landscape Services Fitzger",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5055,
+        "top": 0
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "id": "",
+      "cls": "hN2NUY FGPGIH has-custom-focus",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 50,
+        "top": 0
+      },
+      "visible": true,
+      "bg": "rgb(239, 241, 242)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 2,
+      "tag": "div",
+      "id": "",
+      "cls": "ZXZxQl",
+      "text": "",
+      "rect": {
+        "x": 400,
+        "y": 13,
+        "w": 69,
+        "h": 24,
+        "top": 13
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "16px / 24px Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif"
+    },
+    {
+      "index": 3,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 5055,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 4,
+      "tag": "div",
+      "id": "",
+      "cls": "WnIl2C",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 5055,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 5,
+      "tag": "header",
+      "id": "SITE_HEADER",
+      "cls": "CDNoF4 SITE_HEADER wixui-header",
+      "text": "Fitzgerald Lawn Solutions FREE ESTIMATE Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 175,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 6,
+      "tag": "div",
+      "id": "",
+      "cls": "EaoiSu",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 175,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 7,
+      "tag": "div",
+      "id": "",
+      "cls": "CmHRsG",
+      "text": "",
+      "rect": {
+        "x": 193,
+        "y": 50,
+        "w": 980,
+        "h": 175,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 8,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Fitzgerald Lawn Solutions FREE ESTIMATE Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 175,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 9,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Fitzgerald Lawn Solutions FREE ESTIMATE Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1366,
+        "h": 175,
+        "top": 50
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 10,
+      "tag": "section",
+      "id": "comp-lv86pyb5",
+      "cls": "comp-lv86pyb5 CeUMmm wixui-column-strip",
+      "text": "Fitzgerald Lawn Solutions FREE ESTIMATE",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 1246,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 11,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 1246,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 12,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "Fitzgerald Lawn Solutions FREE ESTIMATE",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 1246,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 13,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 568,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 14,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Fitzgerald Lawn Solutions",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 568,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 15,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Fitzgerald Lawn Solutions",
+      "rect": {
+        "x": 60,
+        "y": 80,
+        "w": 568,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "id": "",
+      "cls": "apPOZK",
+      "text": "",
+      "rect": {
+        "x": 80,
+        "y": 81,
+        "w": 155,
+        "h": 75,
+        "top": 81
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 17,
+      "tag": "div",
+      "id": "comp-lv86pyb8",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-lv86pyb8 wixui-rich-text",
+      "text": "Fitzgerald Lawn Solutions",
+      "rect": {
+        "x": 250,
+        "y": 103,
+        "w": 257,
+        "h": 31,
+        "top": 103
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 18,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 628,
+        "y": 80,
+        "w": 678,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 19,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "FREE ESTIMATE",
+      "rect": {
+        "x": 628,
+        "y": 80,
+        "w": 678,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 20,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "FREE ESTIMATE",
+      "rect": {
+        "x": 628,
+        "y": 80,
+        "w": 678,
+        "h": 76,
+        "top": 80
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "id": "",
+      "cls": "twJknM wixui-button ZhVEJq",
+      "text": "FREE ESTIMATE",
+      "rect": {
+        "x": 1137,
+        "y": 96,
+        "w": 150,
+        "h": 45,
+        "top": 96
+      },
+      "visible": true,
+      "bg": "rgb(6, 166, 77)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 22,
+      "tag": "section",
+      "id": "comp-kze7b8sv",
+      "cls": "comp-kze7b8sv CeUMmm wixui-column-strip",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 185,
+        "w": 1366,
+        "h": 40,
+        "top": 185
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 23,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 185,
+        "w": 1366,
+        "h": 40,
+        "top": 185
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 24,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 185,
+        "w": 1366,
+        "h": 40,
+        "top": 185
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 25,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 185,
+        "w": 1366,
+        "h": 40,
+        "top": 185
+      },
+      "visible": true,
+      "bg": "rgb(240, 240, 240)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 26,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 185,
+        "w": 1366,
+        "h": 40,
+        "top": 185
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 28,
+      "tag": "section",
+      "id": "comp-kze7b8t0",
+      "cls": "comp-kze7b8t0 CeUMmm wixui-column-strip",
+      "text": "Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 1246,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 29,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 1246,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 30,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "Home Services About Us Contact Gallery fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 1246,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 31,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 665,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 32,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Home Services About Us Contact Gallery",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 665,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 33,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Home Services About Us Contact Gallery",
+      "rect": {
+        "x": 60,
+        "y": 156,
+        "w": 665,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 34,
+      "tag": "a",
+      "id": "",
+      "cls": "qMvpu5",
+      "text": "Home",
+      "rect": {
+        "x": 70,
+        "y": 190,
+        "w": 57,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "14px / 25.06px questrial, sans-serif"
+    },
+    {
+      "index": 35,
+      "tag": "a",
+      "id": "",
+      "cls": "qMvpu5",
+      "text": "Services",
+      "rect": {
+        "x": 127,
+        "y": 190,
+        "w": 73,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "14px / 25.06px questrial, sans-serif"
+    },
+    {
+      "index": 43,
+      "tag": "a",
+      "id": "",
+      "cls": "qMvpu5",
+      "text": "About Us",
+      "rect": {
+        "x": 200,
+        "y": 190,
+        "w": 78,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "14px / 25.06px questrial, sans-serif"
+    },
+    {
+      "index": 44,
+      "tag": "a",
+      "id": "",
+      "cls": "qMvpu5",
+      "text": "Contact",
+      "rect": {
+        "x": 278,
+        "y": 190,
+        "w": 70,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "14px / 25.06px questrial, sans-serif"
+    },
+    {
+      "index": 45,
+      "tag": "a",
+      "id": "",
+      "cls": "qMvpu5",
+      "text": "Gallery",
+      "rect": {
+        "x": 348,
+        "y": 190,
+        "w": 64,
+        "h": 30,
+        "top": 190
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "14px / 25.06px questrial, sans-serif"
+    },
+    {
+      "index": 47,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 725,
+        "y": 156,
+        "w": 581,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 48,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 725,
+        "y": 156,
+        "w": 581,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 49,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "fitzgeraldlawnsolutions@gmail.com (912) 536-9887",
+      "rect": {
+        "x": 725,
+        "y": 156,
+        "w": 581,
+        "h": 64,
+        "top": 156
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 50,
+      "tag": "div",
+      "id": "comp-kze7b8t9",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze7b8t9 wixui-rich-text",
+      "text": "fitzgeraldlawnsolutions@gmail.com",
+      "rect": {
+        "x": 874,
+        "y": 193,
+        "w": 226,
+        "h": 26,
+        "top": 193
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 51,
+      "tag": "div",
+      "id": "comp-kze7b8tc",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze7b8tc wixui-rich-text",
+      "text": "(912) 536-9887",
+      "rect": {
+        "x": 1119,
+        "y": 193,
+        "w": 94,
+        "h": 26,
+        "top": 193
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 52,
+      "tag": "a",
+      "id": "",
+      "cls": "twXk19",
+      "text": "",
+      "rect": {
+        "x": 1236,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 53,
+      "tag": "a",
+      "id": "",
+      "cls": "twXk19",
+      "text": "",
+      "rect": {
+        "x": 1266,
+        "y": 195,
+        "w": 20,
+        "h": 20,
+        "top": 195
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 54,
+      "tag": "main",
+      "id": "PAGES_CONTAINER",
+      "cls": "PAGES_CONTAINER",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 55,
+      "tag": "div",
+      "id": "SITE_PAGES",
+      "cls": "Y3K28_ SITE_PAGES",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 56,
+      "tag": "div",
+      "id": "SITE_PAGES_TRANSITION_GROUP",
+      "cls": "uvik8H",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 57,
+      "tag": "div",
+      "id": "",
+      "cls": "pTvOx2 wixui-page",
+      "text": "",
+      "rect": {
+        "x": 193,
+        "y": 225,
+        "w": 980,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 58,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 59,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 60,
+      "tag": "section",
+      "id": "comp-kze5o7ml",
+      "cls": "comp-kze5o7ml CeUMmm wixui-column-strip",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 61,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 62,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 63,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 64,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 65,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "Lawn Care & Landscape Services Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and every",
+      "rect": {
+        "x": 0,
+        "y": 225,
+        "w": 1366,
+        "h": 4540,
+        "top": 225
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 66,
+      "tag": "div",
+      "id": "comp-kze5o7mq",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7mq wixui-rich-text",
+      "text": "Lawn Care & Landscape Services",
+      "rect": {
+        "x": 213,
+        "y": 347,
+        "w": 940,
+        "h": 67,
+        "top": 347
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 67,
+      "tag": "div",
+      "id": "comp-kze5o7ms",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7ms wixui-rich-text",
+      "text": "Fitzgerald Lawn Solutions performs the highest quality landscape and lawn maintenance for residential properties throughout the Fitzgerald area. Services offered range from lawn mowing to landscape maintenance and everything in between. If your shrub",
+      "rect": {
+        "x": 213,
+        "y": 439,
+        "w": 940,
+        "h": 126,
+        "top": 439
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 68,
+      "tag": "a",
+      "id": "",
+      "cls": "twJknM wixui-button ZhVEJq",
+      "text": "FREE ESTIMATE",
+      "rect": {
+        "x": 598,
+        "y": 620,
+        "w": 171,
+        "h": 50,
+        "top": 620
+      },
+      "visible": true,
+      "bg": "rgb(6, 166, 77)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 69,
+      "tag": "section",
+      "id": "comp-kze5o7my",
+      "cls": "comp-kze5o7my CeUMmm wixui-column-strip",
+      "text": "LAWN MAINTENENCE Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 1366,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 70,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 1366,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 71,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "LAWN MAINTENENCE Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 1366,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 72,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 73,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 75,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 683,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgb(0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 76,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "LAWN MAINTENENCE Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered. Learn More >>",
+      "rect": {
+        "x": 683,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 77,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "LAWN MAINTENENCE Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered. Learn More >>",
+      "rect": {
+        "x": 683,
+        "y": 805,
+        "w": 683,
+        "h": 660,
+        "top": 805
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 78,
+      "tag": "div",
+      "id": "comp-kze5o7n6",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7n6 wixui-rich-text",
+      "text": "LAWN MAINTENENCE",
+      "rect": {
+        "x": 795,
+        "y": 964,
+        "w": 460,
+        "h": 39,
+        "top": 964
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 79,
+      "tag": "div",
+      "id": "comp-kze5o7n8",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7n8 wixui-rich-text",
+      "text": "Lawn Maintenence includes mowing, edging of concrete surfaces, string trimming perimeter of property/garden beds, and blowing debris from hard surfaces. One-Time, Weekly and Bi-Weekly services offered.",
+      "rect": {
+        "x": 795,
+        "y": 1035,
+        "w": 460,
+        "h": 167,
+        "top": 1035
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 80,
+      "tag": "a",
+      "id": "",
+      "cls": "twJknM wixui-button ZhVEJq",
+      "text": "Learn More >>",
+      "rect": {
+        "x": 795,
+        "y": 1257,
+        "w": 155,
+        "h": 50,
+        "top": 1257
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 81,
+      "tag": "section",
+      "id": "comp-kze5o7ne",
+      "cls": "comp-kze5o7ne CeUMmm wixui-column-strip",
+      "text": "SHRUB/HEDGE TRIMMING Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 1366,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 82,
+      "tag": "div",
+      "id": "",
+      "cls": "V9k0ll etGVsi",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 1366,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 83,
+      "tag": "div",
+      "id": "",
+      "cls": "Ak0vpt",
+      "text": "SHRUB/HEDGE TRIMMING Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 1366,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 84,
+      "tag": "div",
+      "id": "",
+      "cls": "LNYVZi ayCf9D",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 683,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgb(6, 166, 77)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 85,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "SHRUB/HEDGE TRIMMING Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 683,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 86,
+      "tag": "div",
+      "id": "",
+      "cls": "",
+      "text": "SHRUB/HEDGE TRIMMING Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered. Learn More >>",
+      "rect": {
+        "x": 0,
+        "y": 1465,
+        "w": 683,
+        "h": 660,
+        "top": 1465
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 87,
+      "tag": "div",
+      "id": "comp-kze5o7nj",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7nj wixui-rich-text",
+      "text": "SHRUB/HEDGE TRIMMING",
+      "rect": {
+        "x": 112,
+        "y": 1639,
+        "w": 460,
+        "h": 39,
+        "top": 1639
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 88,
+      "tag": "div",
+      "id": "comp-kze5o7nm",
+      "cls": "UwkEpO _v6ohL ZS_qLz PO9MfV comp-kze5o7nm wixui-rich-text",
+      "text": "Shrub/Hedge trimming service includes properly trimming any shrubs, hedges and ornamental trees. One-time, Monthly, and Quarterly maintenance services offered.",
+      "rect": {
+        "x": 112,
+        "y": 1710,
+        "w": 460,
+        "h": 134,
+        "top": 1710
+      },
+      "visible": true,
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 89,
+      "tag": "a",
+      "id": "",
+      "cls": "twJknM wixui-button ZhVEJq",
+      "text": "Learn More >>",
+      "rect": {
+        "x": 112,
+        "y": 1902,
+        "w": 155,
+        "h": 50,
+        "top": 1902
+      },
+      "visible": true,
+      "bg": "rgb(255, 255, 255)",
+      "font": "10px Arial, Helvetica, sans-serif"
+    }
+  ],
+  "colors": [
+    "rgba(0, 0, 0, 0)"
+  ],
+  "fonts": [
+    "10px Arial, Helvetica, sans-serif",
+    "16px / 24px Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+    "14px Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif",
+    "22px / 31.02px questrial, sans-serif",
+    "700 22px / 31.02px questrial, sans-serif",
+    "15px / 28.125px questrial, sans-serif",
+    "14px / 25.06px questrial, sans-serif",
+    "14px / 30px questrial, sans-serif",
+    "50px / 67px questrial, sans-serif",
+    "18px / 31.5px questrial, sans-serif",
+    "28px / 38.5px questrial, sans-serif",
+    "700 28px / 38.5px questrial, sans-serif",
+    "20px / 33.4px questrial, sans-serif",
+    "700 20px / 33.4px questrial, sans-serif"
+  ]
+}

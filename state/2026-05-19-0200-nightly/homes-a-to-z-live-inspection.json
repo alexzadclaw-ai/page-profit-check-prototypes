@@ -1,0 +1,2899 @@
+{
+  "url": "https://homesatoz1.wixsite.com/mysite",
+  "title": "HOME | Homes A to Z",
+  "bodyScrollHeight": 2878,
+  "viewport": {
+    "width": 1365,
+    "height": 900
+  },
+  "images": [
+    {
+      "index": 0,
+      "src": "https://static.wixstatic.com/media/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg/v1/fill/w_1365,h_651,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg/v1/fill/w_1365,h_651,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg",
+      "alt": "",
+      "rect": {
+        "x": 0,
+        "y": 123,
+        "w": 1365,
+        "h": 651
+      },
+      "naturalWidth": 1365,
+      "naturalHeight": 651,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 1,
+      "src": "https://static.wixstatic.com/media/a38016_6a5a1bff2b7745818c6b2661f05261d9.png/v1/fill/w_65,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_6a5a1bff2b7745818c6b2661f05261d9.png",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_6a5a1bff2b7745818c6b2661f05261d9.png/v1/fill/w_65,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_6a5a1bff2b7745818c6b2661f05261d9.png",
+      "alt": "",
+      "rect": {
+        "x": 278,
+        "y": 1003,
+        "w": 65,
+        "h": 106
+      },
+      "naturalWidth": 65,
+      "naturalHeight": 106,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-ih3mkq511"
+    },
+    {
+      "index": 2,
+      "src": "https://static.wixstatic.com/media/a38016_5b2baf51f5024b4c816c9553e2e607df.png/v1/fill/w_62,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5b2baf51f5024b4c816c9553e2e607df.png",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_5b2baf51f5024b4c816c9553e2e607df.png/v1/fill/w_62,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5b2baf51f5024b4c816c9553e2e607df.png",
+      "alt": "",
+      "rect": {
+        "x": 466,
+        "y": 987,
+        "w": 62,
+        "h": 136
+      },
+      "naturalWidth": 62,
+      "naturalHeight": 136,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-ih3mkq502"
+    },
+    {
+      "index": 3,
+      "src": "https://static.wixstatic.com/media/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png/v1/fill/w_37,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png/v1/fill/w_37,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png",
+      "alt": "",
+      "rect": {
+        "x": 662,
+        "y": 993,
+        "w": 37,
+        "h": 126
+      },
+      "naturalWidth": 37,
+      "naturalHeight": 126,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-ih3mkq513"
+    },
+    {
+      "index": 4,
+      "src": "https://static.wixstatic.com/media/a38016_1439136c15f845bcbb1b10286923624e.png/v1/fill/w_45,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_1439136c15f845bcbb1b10286923624e.png",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_1439136c15f845bcbb1b10286923624e.png/v1/fill/w_45,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_1439136c15f845bcbb1b10286923624e.png",
+      "alt": "",
+      "rect": {
+        "x": 845,
+        "y": 1002,
+        "w": 45,
+        "h": 110
+      },
+      "naturalWidth": 45,
+      "naturalHeight": 110,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-ih3mkq501"
+    },
+    {
+      "index": 5,
+      "src": "https://static.wixstatic.com/media/a38016_5938d9c28cd74c068772d9ea21735305.png/v1/fill/w_56,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5938d9c28cd74c068772d9ea21735305.png",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_5938d9c28cd74c068772d9ea21735305.png/v1/fill/w_56,h_126,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5938d9c28cd74c068772d9ea21735305.png",
+      "alt": "",
+      "rect": {
+        "x": 1021,
+        "y": 997,
+        "w": 56,
+        "h": 126
+      },
+      "naturalWidth": 56,
+      "naturalHeight": 126,
+      "className": "gRkIq0 sFiSiq",
+      "id": "img_comp-ih3ox9dh"
+    },
+    {
+      "index": 6,
+      "src": "https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1365,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg",
+      "rawSrc": "https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1365,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg",
+      "alt": "",
+      "rect": {
+        "x": 0,
+        "y": 825,
+        "w": 1365,
+        "h": 900
+      },
+      "naturalWidth": 1365,
+      "naturalHeight": 900,
+      "className": "",
+      "id": ""
+    },
+    {
+      "index": 7,
+      "src": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png",
+      "rawSrc": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png",
+      "alt": "White Facebook Icon",
+      "rect": {
+        "x": 905,
+        "y": 2261,
+        "w": 38,
+        "h": 38
+      },
+      "naturalWidth": 38,
+      "naturalHeight": 38,
+      "className": "ZK9snE sFiSiq",
+      "id": "img_0_comp-ih3q0sxr"
+    },
+    {
+      "index": 8,
+      "src": "https://static.wixstatic.com/media/6cc776af25744f77ab9c420b98d1abe6.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6cc776af25744f77ab9c420b98d1abe6.png",
+      "rawSrc": "https://static.wixstatic.com/media/6cc776af25744f77ab9c420b98d1abe6.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6cc776af25744f77ab9c420b98d1abe6.png",
+      "alt": "White Instagram Icon",
+      "rect": {
+        "x": 950,
+        "y": 2261,
+        "w": 38,
+        "h": 38
+      },
+      "naturalWidth": 38,
+      "naturalHeight": 38,
+      "className": "ZK9snE sFiSiq",
+      "id": "img_1_comp-ih3q0sxr"
+    }
+  ],
+  "backgroundImages": [],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=banner_2024&orig_msid=aa99f552-cce6-4d9b-96f0-a304175f7068&orig_msid=57ddb8d5-5657-4a18-aa37-3ad1100a0c86&adsVersion=banner_2024",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1365,
+        "h": 50
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "",
+      "rect": {
+        "x": 349,
+        "y": 68,
+        "w": 12,
+        "h": 35
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "HOME",
+      "rect": {
+        "x": 436,
+        "y": 70,
+        "w": 73,
+        "h": 31
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "SERVICES",
+      "rect": {
+        "x": 509,
+        "y": 70,
+        "w": 94,
+        "h": 31
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "ABOUT",
+      "rect": {
+        "x": 603,
+        "y": 70,
+        "w": 76,
+        "h": 31
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "CONTACT INFO",
+      "rect": {
+        "x": 679,
+        "y": 70,
+        "w": 132,
+        "h": 31
+      }
+    },
+    {
+      "index": 8,
+      "href": "mailto:homes.a.to.z1@gmail.com",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 346,
+        "y": 420,
+        "w": 266,
+        "h": 24
+      }
+    },
+    {
+      "index": 9,
+      "href": "https://www.facebook.com/Homes-A-to-Z-Handyman-Services-Rob-Hamill-Proprietor-1308185735883516/",
+      "text": "CLICK HERE For my FACEBOOK page - images past work and other info",
+      "rect": {
+        "x": 193,
+        "y": 505,
+        "w": 639,
+        "h": 27
+      }
+    },
+    {
+      "index": 10,
+      "href": "https://www.instagram.com/homesatoz/",
+      "text": "CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 555,
+        "w": 609,
+        "h": 22
+      }
+    },
+    {
+      "index": 11,
+      "href": "https://homesatoz1.wixsite.com/mysite",
+      "text": "",
+      "rect": {
+        "x": 658,
+        "y": 600,
+        "w": 49,
+        "h": 29
+      }
+    },
+    {
+      "index": 12,
+      "href": "https://homesatoz1.wixsite.com/mysite/our-services",
+      "text": "Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 425,
+        "y": 1226,
+        "w": 147,
+        "h": 154
+      }
+    },
+    {
+      "index": 13,
+      "href": "mailto:homes.a.to.z1@gmail.com",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 173,
+        "h": 24
+      }
+    },
+    {
+      "index": 14,
+      "href": "https://www.facebook.com/Homes-A-to-Z-Handyman-Services-Rob-Hamill-Proprietor-1308185735883516/",
+      "text": "",
+      "rect": {
+        "x": 905,
+        "y": 2261,
+        "w": 38,
+        "h": 38
+      }
+    },
+    {
+      "index": 15,
+      "href": "https://www.instagram.com/homesatoz/",
+      "text": "",
+      "rect": {
+        "x": 950,
+        "y": 2261,
+        "w": 38,
+        "h": 38
+      }
+    },
+    {
+      "index": 16,
+      "href": "http://wix.com/?utm_campaign=vir_created_with",
+      "text": "Wix.com",
+      "rect": {
+        "x": 492,
+        "y": 2838,
+        "w": 52,
+        "h": 22
+      }
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "tag": "h1",
+      "text": "HOMES A to Z",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 218,
+        "h": 36
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "impact, impact-w01-2010, sans-serif"
+    },
+    {
+      "index": 1,
+      "tag": "h4",
+      "text": "HOMES A to Z",
+      "rect": {
+        "x": 193,
+        "y": 170,
+        "w": 656,
+        "h": 54
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 2,
+      "tag": "h4",
+      "text": "Handyman Services",
+      "rect": {
+        "x": 193,
+        "y": 224,
+        "w": 656,
+        "h": 54
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 3,
+      "tag": "h4",
+      "text": "\"No job is too small!\"",
+      "rect": {
+        "x": 193,
+        "y": 278,
+        "w": 656,
+        "h": 60
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 4,
+      "tag": "h4",
+      "text": "Rob Hamill - Proprietor",
+      "rect": {
+        "x": 193,
+        "y": 337,
+        "w": 656,
+        "h": 60
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 5,
+      "tag": "h4",
+      "text": "email: homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 193,
+        "y": 397,
+        "w": 656,
+        "h": 62
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 6,
+      "tag": "h4",
+      "text": "phone: 414-232-5246",
+      "rect": {
+        "x": 193,
+        "y": 459,
+        "w": 656,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 7,
+      "tag": "h4",
+      "text": "​",
+      "rect": {
+        "x": 193,
+        "y": 483,
+        "w": 656,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 8,
+      "tag": "h4",
+      "text": "CLICK HERE For my FACEBOOK page - images past work and other info",
+      "rect": {
+        "x": 193,
+        "y": 507,
+        "w": 656,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 9,
+      "tag": "h4",
+      "text": "​",
+      "rect": {
+        "x": 193,
+        "y": 533,
+        "w": 656,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 10,
+      "tag": "h4",
+      "text": "CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 557,
+        "w": 656,
+        "h": 19
+      },
+      "fontSize": "16px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 11,
+      "tag": "h2",
+      "text": "SERVICES",
+      "rect": {
+        "x": 264,
+        "y": 865,
+        "w": 837,
+        "h": 59
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 12,
+      "tag": "h2",
+      "text": "WHO I AM",
+      "rect": {
+        "x": 270,
+        "y": 1643,
+        "w": 825,
+        "h": 59
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 13,
+      "tag": "h2",
+      "text": "CONTACT ME ANYTIME",
+      "rect": {
+        "x": 270,
+        "y": 2087,
+        "w": 826,
+        "h": 59
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    }
+  ],
+  "visibleTextBlocks": [
+    {
+      "index": 2,
+      "tag": "div",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1365,
+        "h": 50
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 3,
+      "tag": "span",
+      "text": "This website was built on Wix. Create yours today. Get Started",
+      "rect": {
+        "x": 390,
+        "y": 11,
+        "w": 586,
+        "h": 27
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 4,
+      "tag": "span",
+      "text": "This website was built on Wix. Create yours today.",
+      "rect": {
+        "x": 390,
+        "y": 13,
+        "w": 456,
+        "h": 24
+      },
+      "fontSize": "16px",
+      "color": "rgb(32, 48, 60)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif"
+    },
+    {
+      "index": 7,
+      "tag": "span",
+      "text": "Get Started",
+      "rect": {
+        "x": 861,
+        "y": 11,
+        "w": 114,
+        "h": 27
+      },
+      "fontSize": "14px",
+      "color": "rgb(22, 106, 234)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Madefor-Text, \"Helvetica Neue\", Helvetica, Arial, メイリオ, meiryo, \"ヒラギノ角ゴ pro w3\", \"hiragino kaku gothic pro\", sans-serif"
+    },
+    {
+      "index": 16,
+      "tag": "div",
+      "text": "HOMES A to Z 414-232-5246 HOME SERVICES ABOUT CONTACT INFO",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1365,
+        "h": 73
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 19,
+      "tag": "div",
+      "text": "HOMES A to Z 414-232-5246 HOME SERVICES ABOUT CONTACT INFO",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1365,
+        "h": 73
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 20,
+      "tag": "div",
+      "text": "HOMES A to Z 414-232-5246 HOME SERVICES ABOUT CONTACT INFO",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1365,
+        "h": 73
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 21,
+      "tag": "div",
+      "text": "HOMES A to Z 414-232-5246 HOME SERVICES ABOUT CONTACT INFO",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 1365,
+        "h": 73
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 22,
+      "tag": "div",
+      "text": "HOMES A to Z",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 218,
+        "h": 36
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 23,
+      "tag": "span",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 24,
+      "tag": "span",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 25,
+      "tag": "span",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 26,
+      "tag": "span",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 27,
+      "tag": "span",
+      "text": "HOMES A",
+      "rect": {
+        "x": 224,
+        "y": 67,
+        "w": 126,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 33,
+      "tag": "span",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 34,
+      "tag": "span",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 35,
+      "tag": "span",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 36,
+      "tag": "span",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 37,
+      "tag": "span",
+      "text": "to Z",
+      "rect": {
+        "x": 361,
+        "y": 67,
+        "w": 56,
+        "h": 34
+      },
+      "fontSize": "28px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 38,
+      "tag": "div",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 995,
+        "y": 79,
+        "w": 178,
+        "h": 13
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 39,
+      "tag": "span",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 1016,
+        "y": 73,
+        "w": 134,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 40,
+      "tag": "span",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 1016,
+        "y": 73,
+        "w": 134,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 41,
+      "tag": "span",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 1016,
+        "y": 73,
+        "w": 134,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 42,
+      "tag": "span",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 1016,
+        "y": 73,
+        "w": 134,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif"
+    },
+    {
+      "index": 43,
+      "tag": "li",
+      "text": "HOME",
+      "rect": {
+        "x": 436,
+        "y": 70,
+        "w": 73,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 44,
+      "tag": "div",
+      "text": "HOME",
+      "rect": {
+        "x": 436,
+        "y": 70,
+        "w": 73,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 45,
+      "tag": "div",
+      "text": "HOME",
+      "rect": {
+        "x": 441,
+        "y": 70,
+        "w": 63,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 46,
+      "tag": "p",
+      "text": "HOME",
+      "rect": {
+        "x": 441,
+        "y": 70,
+        "w": 63,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 47,
+      "tag": "li",
+      "text": "SERVICES",
+      "rect": {
+        "x": 509,
+        "y": 70,
+        "w": 94,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 48,
+      "tag": "div",
+      "text": "SERVICES",
+      "rect": {
+        "x": 509,
+        "y": 70,
+        "w": 94,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 49,
+      "tag": "div",
+      "text": "SERVICES",
+      "rect": {
+        "x": 514,
+        "y": 70,
+        "w": 84,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 50,
+      "tag": "p",
+      "text": "SERVICES",
+      "rect": {
+        "x": 514,
+        "y": 70,
+        "w": 84,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 51,
+      "tag": "li",
+      "text": "ABOUT",
+      "rect": {
+        "x": 603,
+        "y": 70,
+        "w": 76,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 52,
+      "tag": "div",
+      "text": "ABOUT",
+      "rect": {
+        "x": 603,
+        "y": 70,
+        "w": 76,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 53,
+      "tag": "div",
+      "text": "ABOUT",
+      "rect": {
+        "x": 608,
+        "y": 70,
+        "w": 66,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "ABOUT",
+      "rect": {
+        "x": 608,
+        "y": 70,
+        "w": 66,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 55,
+      "tag": "li",
+      "text": "CONTACT INFO",
+      "rect": {
+        "x": 679,
+        "y": 70,
+        "w": 132,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 56,
+      "tag": "div",
+      "text": "CONTACT INFO",
+      "rect": {
+        "x": 679,
+        "y": 70,
+        "w": 132,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 57,
+      "tag": "div",
+      "text": "CONTACT INFO",
+      "rect": {
+        "x": 684,
+        "y": 70,
+        "w": 122,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(0, 0, 238)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "CONTACT INFO",
+      "rect": {
+        "x": 684,
+        "y": 70,
+        "w": 122,
+        "h": 31
+      },
+      "fontSize": "14px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 70,
+      "tag": "div",
+      "text": "HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 0,
+        "y": 123,
+        "w": 1365,
+        "h": 651
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 71,
+      "tag": "div",
+      "text": "HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 0,
+        "y": 123,
+        "w": 1365,
+        "h": 651
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 75,
+      "tag": "div",
+      "text": "HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 0,
+        "y": 123,
+        "w": 1365,
+        "h": 651
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 76,
+      "tag": "div",
+      "text": "HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 0,
+        "y": 123,
+        "w": 1365,
+        "h": 651
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 77,
+      "tag": "div",
+      "text": "HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 170,
+        "w": 656,
+        "h": 406
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 78,
+      "tag": "span",
+      "text": "HOMES A to Z",
+      "rect": {
+        "x": 274,
+        "y": 169,
+        "w": 343,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 79,
+      "tag": "span",
+      "text": "HOMES A to Z",
+      "rect": {
+        "x": 274,
+        "y": 169,
+        "w": 343,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 80,
+      "tag": "span",
+      "text": "Handyman Services",
+      "rect": {
+        "x": 193,
+        "y": 223,
+        "w": 490,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 81,
+      "tag": "span",
+      "text": "Handyman Services",
+      "rect": {
+        "x": 193,
+        "y": 223,
+        "w": 490,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 82,
+      "tag": "span",
+      "text": "\"No job is too small!\"",
+      "rect": {
+        "x": 301,
+        "y": 277,
+        "w": 262,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 83,
+      "tag": "span",
+      "text": "\"No job is too small!\"",
+      "rect": {
+        "x": 301,
+        "y": 277,
+        "w": 262,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 84,
+      "tag": "span",
+      "text": "\"No job is too small!\"",
+      "rect": {
+        "x": 301,
+        "y": 293,
+        "w": 262,
+        "h": 35
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 85,
+      "tag": "span",
+      "text": "Rob Hami",
+      "rect": {
+        "x": 193,
+        "y": 336,
+        "w": 217,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 86,
+      "tag": "span",
+      "text": "Rob Hami",
+      "rect": {
+        "x": 193,
+        "y": 336,
+        "w": 217,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 87,
+      "tag": "span",
+      "text": "Rob Hami",
+      "rect": {
+        "x": 193,
+        "y": 352,
+        "w": 217,
+        "h": 35
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 88,
+      "tag": "span",
+      "text": "ll - Proprietor",
+      "rect": {
+        "x": 410,
+        "y": 336,
+        "w": 180,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 89,
+      "tag": "span",
+      "text": "ll - Proprietor",
+      "rect": {
+        "x": 410,
+        "y": 336,
+        "w": 180,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 90,
+      "tag": "span",
+      "text": "ll - Proprietor",
+      "rect": {
+        "x": 410,
+        "y": 352,
+        "w": 180,
+        "h": 35
+      },
+      "fontSize": "28px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 91,
+      "tag": "span",
+      "text": "email: homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 193,
+        "y": 396,
+        "w": 419,
+        "h": 55
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 94,
+      "tag": "span",
+      "text": "email: homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 277,
+        "y": 420,
+        "w": 334,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 95,
+      "tag": "span",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 346,
+        "y": 420,
+        "w": 266,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 96,
+      "tag": "span",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 346,
+        "y": 420,
+        "w": 266,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 97,
+      "tag": "span",
+      "text": "phone: 414-232-5246",
+      "rect": {
+        "x": 193,
+        "y": 457,
+        "w": 345,
+        "h": 27
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 98,
+      "tag": "span",
+      "text": "phone: 414-232-5246",
+      "rect": {
+        "x": 193,
+        "y": 459,
+        "w": 345,
+        "h": 24
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 99,
+      "tag": "span",
+      "text": "CLICK HERE For my FACEBOOK page - images past work and other info",
+      "rect": {
+        "x": 193,
+        "y": 505,
+        "w": 639,
+        "h": 27
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 100,
+      "tag": "span",
+      "text": "CLICK HERE For my FACEBOOK page - images past work and other info",
+      "rect": {
+        "x": 193,
+        "y": 508,
+        "w": 639,
+        "h": 23
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 101,
+      "tag": "span",
+      "text": "CLICK HERE For my FACEBOOK page - images past work and other info",
+      "rect": {
+        "x": 193,
+        "y": 510,
+        "w": 639,
+        "h": 21
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 102,
+      "tag": "span",
+      "text": "CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 555,
+        "w": 609,
+        "h": 22
+      },
+      "fontSize": "16px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 103,
+      "tag": "span",
+      "text": "CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 555,
+        "w": 609,
+        "h": 22
+      },
+      "fontSize": "16px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 104,
+      "tag": "span",
+      "text": "CLICK HERE For my INSTAGRAM page to see very recent photos of work",
+      "rect": {
+        "x": 193,
+        "y": 556,
+        "w": 609,
+        "h": 20
+      },
+      "fontSize": "16px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"libre baskerville\", serif"
+    },
+    {
+      "index": 117,
+      "tag": "div",
+      "text": "SERVICES",
+      "rect": {
+        "x": 264,
+        "y": 865,
+        "w": 837,
+        "h": 59
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 118,
+      "tag": "div",
+      "text": "Carpentry Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs. ​",
+      "rect": {
+        "x": 236,
+        "y": 1003,
+        "w": 152,
+        "h": 376
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 119,
+      "tag": "div",
+      "text": "Carpentry Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs. ​",
+      "rect": {
+        "x": 236,
+        "y": 1003,
+        "w": 152,
+        "h": 376
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 120,
+      "tag": "div",
+      "text": "Carpentry Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs. ​",
+      "rect": {
+        "x": 236,
+        "y": 1003,
+        "w": 152,
+        "h": 376
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 125,
+      "tag": "div",
+      "text": "Carpentry",
+      "rect": {
+        "x": 244,
+        "y": 1141,
+        "w": 136,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 126,
+      "tag": "div",
+      "text": "Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs. ​",
+      "rect": {
+        "x": 236,
+        "y": 1225,
+        "w": 152,
+        "h": 154
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 127,
+      "tag": "p",
+      "text": "Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs.",
+      "rect": {
+        "x": 236,
+        "y": 1225,
+        "w": 152,
+        "h": 110
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 130,
+      "tag": "div",
+      "text": "Plumbing Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 421,
+        "y": 987,
+        "w": 156,
+        "h": 393
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 131,
+      "tag": "div",
+      "text": "Plumbing Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 421,
+        "y": 987,
+        "w": 156,
+        "h": 393
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 132,
+      "tag": "div",
+      "text": "Plumbing Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 421,
+        "y": 987,
+        "w": 156,
+        "h": 393
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 137,
+      "tag": "div",
+      "text": "Plumbing",
+      "rect": {
+        "x": 424,
+        "y": 1142,
+        "w": 146,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 138,
+      "tag": "span",
+      "text": "Plumbing",
+      "rect": {
+        "x": 459,
+        "y": 1142,
+        "w": 74,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 139,
+      "tag": "span",
+      "text": "Plumbing",
+      "rect": {
+        "x": 459,
+        "y": 1142,
+        "w": 74,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 140,
+      "tag": "div",
+      "text": "Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 421,
+        "y": 1226,
+        "w": 156,
+        "h": 154
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 141,
+      "tag": "p",
+      "text": "Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 421,
+        "y": 1226,
+        "w": 156,
+        "h": 154
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 142,
+      "tag": "span",
+      "text": "Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have.",
+      "rect": {
+        "x": 425,
+        "y": 1226,
+        "w": 147,
+        "h": 154
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 222, 17)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 143,
+      "tag": "div",
+      "text": "Electrical Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs.",
+      "rect": {
+        "x": 607,
+        "y": 993,
+        "w": 156,
+        "h": 452
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 144,
+      "tag": "div",
+      "text": "Electrical Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs.",
+      "rect": {
+        "x": 607,
+        "y": 993,
+        "w": 156,
+        "h": 452
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 145,
+      "tag": "div",
+      "text": "Electrical Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs.",
+      "rect": {
+        "x": 607,
+        "y": 993,
+        "w": 156,
+        "h": 452
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 150,
+      "tag": "div",
+      "text": "Electrical",
+      "rect": {
+        "x": 616,
+        "y": 1141,
+        "w": 136,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 151,
+      "tag": "span",
+      "text": "Electrical",
+      "rect": {
+        "x": 647,
+        "y": 1141,
+        "w": 73,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 152,
+      "tag": "span",
+      "text": "Electrical",
+      "rect": {
+        "x": 647,
+        "y": 1141,
+        "w": 73,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 153,
+      "tag": "div",
+      "text": "Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs.",
+      "rect": {
+        "x": 607,
+        "y": 1225,
+        "w": 156,
+        "h": 220
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 154,
+      "tag": "p",
+      "text": "Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs.",
+      "rect": {
+        "x": 607,
+        "y": 1225,
+        "w": 156,
+        "h": 220
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 159,
+      "tag": "div",
+      "text": "Painting",
+      "rect": {
+        "x": 797,
+        "y": 1143,
+        "w": 144,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 160,
+      "tag": "span",
+      "text": "Painting",
+      "rect": {
+        "x": 836,
+        "y": 1143,
+        "w": 65,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 161,
+      "tag": "span",
+      "text": "Painting",
+      "rect": {
+        "x": 836,
+        "y": 1143,
+        "w": 65,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 162,
+      "tag": "div",
+      "text": "There is nothing like a fresh coat of paint properly applied to freshen up your home. While painting the whole exterior of your home is beyond the scope of my business, most any interior painting job is right up my alley. ​",
+      "rect": {
+        "x": 792,
+        "y": 1248,
+        "w": 155,
+        "h": 242
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 163,
+      "tag": "p",
+      "text": "There is nothing like a fresh coat of paint properly applied to freshen up your home. While painting the whole exterior of your home is beyond the scope of my business, most any interior painting job is right up my alley.",
+      "rect": {
+        "x": 792,
+        "y": 1248,
+        "w": 155,
+        "h": 220
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 165,
+      "tag": "div",
+      "text": "Maintenance In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home.",
+      "rect": {
+        "x": 974,
+        "y": 997,
+        "w": 155,
+        "h": 447
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 166,
+      "tag": "div",
+      "text": "Maintenance In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home.",
+      "rect": {
+        "x": 974,
+        "y": 997,
+        "w": 155,
+        "h": 447
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 167,
+      "tag": "div",
+      "text": "Maintenance In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home.",
+      "rect": {
+        "x": 974,
+        "y": 997,
+        "w": 155,
+        "h": 447
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 172,
+      "tag": "div",
+      "text": "Maintenance",
+      "rect": {
+        "x": 979,
+        "y": 1143,
+        "w": 144,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 173,
+      "tag": "span",
+      "text": "Maintenance",
+      "rect": {
+        "x": 996,
+        "y": 1143,
+        "w": 108,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 174,
+      "tag": "span",
+      "text": "Maintenance",
+      "rect": {
+        "x": 996,
+        "y": 1143,
+        "w": 108,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 175,
+      "tag": "div",
+      "text": "In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home.",
+      "rect": {
+        "x": 974,
+        "y": 1224,
+        "w": 155,
+        "h": 220
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 176,
+      "tag": "p",
+      "text": "In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home.",
+      "rect": {
+        "x": 974,
+        "y": 1224,
+        "w": 155,
+        "h": 220
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 177,
+      "tag": "div",
+      "text": "Services",
+      "rect": {
+        "x": 0,
+        "y": 776,
+        "w": 1365,
+        "h": 21
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 178,
+      "tag": "div",
+      "text": "About",
+      "rect": {
+        "x": 0,
+        "y": 1546,
+        "w": 1365,
+        "h": 21
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 182,
+      "tag": "div",
+      "text": "WHO I AM I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 0,
+        "y": 1545,
+        "w": 1365,
+        "h": 432
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 183,
+      "tag": "div",
+      "text": "WHO I AM I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 0,
+        "y": 1545,
+        "w": 1365,
+        "h": 432
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 187,
+      "tag": "div",
+      "text": "WHO I AM I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 0,
+        "y": 1545,
+        "w": 1365,
+        "h": 432
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 188,
+      "tag": "div",
+      "text": "WHO I AM I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 0,
+        "y": 1545,
+        "w": 1365,
+        "h": 432
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 189,
+      "tag": "div",
+      "text": "WHO I AM",
+      "rect": {
+        "x": 270,
+        "y": 1643,
+        "w": 825,
+        "h": 59
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 190,
+      "tag": "span",
+      "text": "WHO I AM",
+      "rect": {
+        "x": 569,
+        "y": 1643,
+        "w": 225,
+        "h": 59
+      },
+      "fontSize": "44px",
+      "color": "rgb(255, 222, 17)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 191,
+      "tag": "div",
+      "text": "I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 430,
+        "y": 1751,
+        "w": 505,
+        "h": 216
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 192,
+      "tag": "p",
+      "text": "I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 430,
+        "y": 1751,
+        "w": 505,
+        "h": 216
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 193,
+      "tag": "span",
+      "text": "I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area.",
+      "rect": {
+        "x": 430,
+        "y": 1751,
+        "w": 501,
+        "h": 216
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 206,
+      "tag": "div",
+      "text": "CONTACT ME ANYTIME CALL ME 414-232-5246 EMAIL homes.a.to.z1@gmail.com AREAS COVERED Wauwatosa & Milwaukee Metro Area SOCIAL MEDIA",
+      "rect": {
+        "x": 0,
+        "y": 1994,
+        "w": 1365,
+        "h": 828
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 207,
+      "tag": "div",
+      "text": "CONTACT ME ANYTIME CALL ME 414-232-5246 EMAIL homes.a.to.z1@gmail.com AREAS COVERED Wauwatosa & Milwaukee Metro Area SOCIAL MEDIA",
+      "rect": {
+        "x": 0,
+        "y": 1994,
+        "w": 1365,
+        "h": 828
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 211,
+      "tag": "div",
+      "text": "CONTACT ME ANYTIME CALL ME 414-232-5246 EMAIL homes.a.to.z1@gmail.com AREAS COVERED Wauwatosa & Milwaukee Metro Area SOCIAL MEDIA",
+      "rect": {
+        "x": 0,
+        "y": 1994,
+        "w": 1365,
+        "h": 828
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 212,
+      "tag": "div",
+      "text": "CONTACT ME ANYTIME CALL ME 414-232-5246 EMAIL homes.a.to.z1@gmail.com AREAS COVERED Wauwatosa & Milwaukee Metro Area SOCIAL MEDIA",
+      "rect": {
+        "x": 0,
+        "y": 1994,
+        "w": 1365,
+        "h": 828
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 213,
+      "tag": "div",
+      "text": "CONTACT ME ANYTIME",
+      "rect": {
+        "x": 270,
+        "y": 2087,
+        "w": 826,
+        "h": 59
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 214,
+      "tag": "span",
+      "text": "CONTACT ME ANYTIME",
+      "rect": {
+        "x": 441,
+        "y": 2087,
+        "w": 483,
+        "h": 59
+      },
+      "fontSize": "44px",
+      "color": "rgb(90, 183, 232)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-book, sans-serif"
+    },
+    {
+      "index": 215,
+      "tag": "div",
+      "text": "CALL ME",
+      "rect": {
+        "x": 269,
+        "y": 2220,
+        "w": 145,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 216,
+      "tag": "span",
+      "text": "CALL ME",
+      "rect": {
+        "x": 269,
+        "y": 2220,
+        "w": 82,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 217,
+      "tag": "div",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 269,
+        "y": 2262,
+        "w": 156,
+        "h": 24
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 218,
+      "tag": "p",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 269,
+        "y": 2262,
+        "w": 156,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 219,
+      "tag": "span",
+      "text": "414-232-5246",
+      "rect": {
+        "x": 269,
+        "y": 2262,
+        "w": 106,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 220,
+      "tag": "div",
+      "text": "EMAIL",
+      "rect": {
+        "x": 456,
+        "y": 2220,
+        "w": 156,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 221,
+      "tag": "span",
+      "text": "EMAIL",
+      "rect": {
+        "x": 456,
+        "y": 2220,
+        "w": 57,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 222,
+      "tag": "div",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 183,
+        "h": 24
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 223,
+      "tag": "p",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 183,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 224,
+      "tag": "span",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 173,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 225,
+      "tag": "span",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 173,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 226,
+      "tag": "span",
+      "text": "homes.a.to.z1@gmail.com",
+      "rect": {
+        "x": 456,
+        "y": 2259,
+        "w": 173,
+        "h": 24
+      },
+      "fontSize": "17px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 227,
+      "tag": "div",
+      "text": "AREAS COVERED Wauwatosa & Milwaukee Metro Area",
+      "rect": {
+        "x": 658,
+        "y": 2220,
+        "w": 236,
+        "h": 64
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 228,
+      "tag": "span",
+      "text": "AREAS COVERED",
+      "rect": {
+        "x": 658,
+        "y": 2220,
+        "w": 161,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 232,
+      "tag": "span",
+      "text": "Wauwatosa & Milwaukee Metro Area",
+      "rect": {
+        "x": 658,
+        "y": 2265,
+        "w": 225,
+        "h": 18
+      },
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 233,
+      "tag": "span",
+      "text": "Wauwatosa & Milwaukee Metro Area",
+      "rect": {
+        "x": 658,
+        "y": 2265,
+        "w": 225,
+        "h": 18
+      },
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 234,
+      "tag": "span",
+      "text": "Wauwatosa & Milwaukee Metro Area",
+      "rect": {
+        "x": 658,
+        "y": 2264,
+        "w": 225,
+        "h": 20
+      },
+      "fontSize": "14px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 235,
+      "tag": "div",
+      "text": "SOCIAL MEDIA",
+      "rect": {
+        "x": 914,
+        "y": 2220,
+        "w": 228,
+        "h": 26
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 236,
+      "tag": "span",
+      "text": "SOCIAL MEDIA",
+      "rect": {
+        "x": 914,
+        "y": 2220,
+        "w": 143,
+        "h": 26
+      },
+      "fontSize": "20px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "futura-lt-w01-light, sans-serif"
+    },
+    {
+      "index": 240,
+      "tag": "div",
+      "text": "Contact",
+      "rect": {
+        "x": 0,
+        "y": 1993,
+        "w": 1365,
+        "h": 21
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 243,
+      "tag": "div",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 0,
+        "y": 2822,
+        "w": 1365,
+        "h": 56
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 246,
+      "tag": "div",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 0,
+        "y": 2822,
+        "w": 1365,
+        "h": 56
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 247,
+      "tag": "div",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 0,
+        "y": 2822,
+        "w": 1365,
+        "h": 56
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 248,
+      "tag": "div",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 0,
+        "y": 2822,
+        "w": 1365,
+        "h": 56
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 249,
+      "tag": "div",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 193,
+        "y": 2838,
+        "w": 812,
+        "h": 22
+      },
+      "fontSize": "10px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "index": 250,
+      "tag": "p",
+      "text": "© 2023 by The Handy Gang. Proudly created with Wix.com",
+      "rect": {
+        "x": 193,
+        "y": 2838,
+        "w": 812,
+        "h": 22
+      },
+      "fontSize": "15px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 251,
+      "tag": "span",
+      "text": "© 2023 by The Handy Gang. Proudly created with",
+      "rect": {
+        "x": 193,
+        "y": 2838,
+        "w": 299,
+        "h": 22
+      },
+      "fontSize": "15px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    },
+    {
+      "index": 252,
+      "tag": "span",
+      "text": "Wix.com",
+      "rect": {
+        "x": 492,
+        "y": 2838,
+        "w": 52,
+        "h": 22
+      },
+      "fontSize": "15px",
+      "color": "rgb(26, 26, 26)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "brandon-grot-w01-light, sans-serif"
+    }
+  ],
+  "commonColors": [
+    [
+      "rgb(0, 0, 0)",
+      372
+    ],
+    [
+      "rgb(255, 255, 255)",
+      226
+    ],
+    [
+      "rgb(0, 0, 238)",
+      46
+    ],
+    [
+      "rgb(26, 26, 26)",
+      22
+    ],
+    [
+      "rgb(32, 48, 60)",
+      16
+    ],
+    [
+      "rgb(255, 222, 17)",
+      5
+    ],
+    [
+      "rgb(22, 106, 234)",
+      2
+    ],
+    [
+      "rgb(43, 108, 163)",
+      2
+    ],
+    [
+      "rgb(90, 183, 232)",
+      2
+    ],
+    [
+      "rgb(239, 241, 242)",
+      1
+    ],
+    [
+      "rgb(47, 46, 46)",
+      1
+    ],
+    [
+      "rgba(255, 222, 17, 0)",
+      1
+    ],
+    [
+      "rgb(250, 250, 250)",
+      1
+    ],
+    [
+      "rgb(41, 37, 29)",
+      1
+    ],
+    [
+      "rgb(14, 77, 130)",
+      1
+    ]
+  ],
+  "documentTextSample": "Skip to Main Content This website was built on Wix. Create yours today. Get Started HOMES A to Z 414-232-5246 HOME SERVICES ABOUT CONTACT INFO HOMES A to Z Handyman Services \"No job is too small!\" Rob Hamill - Proprietor email: homes.a.to.z1@gmail.com phone: 414-232-5246 ​ CLICK HERE For my FACEBOOK page - images past work and other info ​ CLICK HERE For my INSTAGRAM page to see very recent photos of work SERVICES Carpentry Indoors and outdoors from drywall to decks I can take care of most of your basic carpentry needs. ​ Plumbing Do you want a new kitchen or bathroom faucet? A new sink or vanity? Clogged drain? I'm you guy for these things or any other basic plumbing issue you have. Electrical Fixture not working? Need a new switch or outlet? Want to install a new ceiling fan or fixture indoors or outdoors? Need to hang that new TV and get power to it? I can install it and am your man for all basic electrical needs. Painting There is nothing like a fresh coat of paint properly applied to freshen up your home. While painting the whole exterior of your home is beyond the scope of my business, most any interior painting job is right up my alley. ​ Maintenance In need of routine maintenance? Want your siding powerwashed? From grass cutting to snow shoveling or getting your yard machines ready for the season I'm your man for whatever you need to get done around your home. WHO I AM I spent more than 25 years as a high school teacher in Wauwatosa. In my time away from the classroom I served many people in the Milwaukee Metro area with their home repair needs. That service has lead me to the point where just about anything that needs fixing or improvement with your home I can do. Now that I am retired from teaching I have expanded this business. Got a job you don't have time for or an improvement you'd like to make? Give me a call you won't find a more honest or reasonably priced handyman in the area. CONTACT ME ANYTIME CALL ME 414-232-5246 EMAIL homes.a.to.z1@gmail.com AREAS COVERED Wauwatosa & Milwaukee Metro Area SOCIAL MEDIA © 2023 by The Handy Gang. Proudly created with Wix.com",
+  "scrollLog": [
+    0,
+    450,
+    900,
+    1350,
+    1800,
+    2250,
+    2700,
+    3150,
+    3600
+  ]
+}
