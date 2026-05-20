@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ninja Window Washing | Window Washing & Gutter Cleaning</title>
+  <meta name="description" content="Family-owned window washing and gutter cleaning for Central Montana and the Florida Panhandle. Request a free estimate for residential, commercial, and gutter cleaning work.">
+  <style>
+    :root{
+      --blue:#5772ff;
+      --black:#050505;
+      --white:#fff;
+      --pale:#eef0f2;
+      --pale2:#dfe3e6;
+      --ink:#1b1b1b;
+      --softBlue:rgba(87,114,255,.16);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Avenir, "Helvetica Neue", Arial, sans-serif;
+      color:var(--blue);
+      background:#fff;
+      line-height:1.55;
+    }
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    .wrap{width:min(1060px,calc(100% - 54px));margin:0 auto}
+
+    .wix-replace{
+      min-height:76px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:22px;
+      background:#f8f8f8;
+      color:#000;
+      border-bottom:1px solid #e8e8e8;
+      font-size:16px;
+      letter-spacing:.01em;
+    }
+    .wix-replace strong{font-weight:900;letter-spacing:.08em;color:#000}
+    .wix-replace .barline{height:28px;width:1px;background:#cfcfcf}
+    .mini-btn{
+      border:1px solid #111;
+      color:#111;
+      border-radius:22px;
+      padding:8px 22px;
+      font-weight:700;
+      background:#fff;
+      white-space:nowrap;
+    }
+
+    header{
+      background:#fff;
+      min-height:124px;
+      display:flex;
+      align-items:center;
+      border-bottom:1px solid rgba(0,0,0,.03);
+    }
+    .nav{
+      display:grid;
+      grid-template-columns:116px 1fr 220px;
+      gap:24px;
+      align-items:center;
+    }
+    .brandbox{
+      width:81px;height:75px;
+      display:grid;place-items:center;
+      border:4px solid var(--blue);
+      background:#fff;
+    }
+    .brandbox img{width:70px;height:auto}
+    .menu{display:flex;justify-content:center;gap:54px;color:#111;font-size:16px}
+    .menu a:first-child{color:var(--blue)}
+    .phone-stack{text-align:left;justify-self:end;color:var(--blue);font-weight:700;line-height:1.35;position:relative;padding-left:32px}
+    .phone-stack:before{content:"☎";position:absolute;left:0;top:14px;color:var(--blue);font-size:22px}
+    .phone-stack span{display:block;color:#111;font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;margin-top:5px}
+    .phone-stack a{text-decoration:underline;text-underline-offset:2px}
+
+    .hero{
+      position:relative;
+      min-height:890px;
+      display:grid;
+      align-items:center;
+      overflow:hidden;
+      text-align:center;
+      background:#d5dce5;
+    }
+    .hero:before{
+      content:"";position:absolute;inset:0;
+      background:url('https://static.wixstatic.com/media/84770f_0512b95c6bd44398a825e832e08a47a5f000.jpg/v1/fill/w_1440,h_899,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/84770f_0512b95c6bd44398a825e832e08a47a5f000.jpg') center/cover no-repeat;
+      transform:scale(1.01);
+    }
+    .hero:after{content:"";position:absolute;inset:0 50% 0 0;background:rgba(87,114,255,.62);mix-blend-mode:multiply}
+    .hero-inner{position:relative;z-index:1;width:min(980px,calc(100% - 36px));margin:0 auto;padding-top:15px}
+    .hero-logo{width:234px;margin:0 auto 28px}
+    h1,h2{
+      margin:0;
+      font-family:"Arial Narrow", "Avenir Next Condensed", "HelveticaNeue-CondensedBold", Impact, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.07em;
+      line-height:1.05;
+      color:var(--blue);
+    }
+    h1{
+      color:#050505;
+      font-size:clamp(58px,7.6vw,112px);
+      font-weight:300;
+      letter-spacing:.055em;
+    }
+    .hero-lede{
+      max-width:760px;
+      margin:24px auto 12px;
+      color:#050505;
+      font-size:23px;
+      font-weight:800;
+      text-shadow:0 1px 18px rgba(255,255,255,.65);
+    }
+    .hero-region{margin:0 auto 30px;color:#fff;font-weight:900;letter-spacing:.03em;text-shadow:0 2px 16px rgba(0,0,0,.25)}
+    .action-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      min-height:45px;padding:12px 28px;border-radius:24px;
+      border:2px solid var(--blue);background:var(--blue);color:#fff;
+      font-weight:800;letter-spacing:.02em;
+      box-shadow:0 11px 24px rgba(87,114,255,.25);
+    }
+    .btn.black{background:#050505;border-color:#050505;border-radius:0;box-shadow:none}
+    .btn.white{background:#fff;color:var(--blue)}
+    .trustbar{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:52px auto 0;max-width:930px;background:rgba(255,255,255,.9);border:1px solid rgba(87,114,255,.25)}
+    .trustbar div{padding:18px 12px;border-right:1px solid rgba(87,114,255,.25);font-weight:900;color:var(--blue);font-size:15px}.trustbar div:last-child{border-right:0}
+
+    .vertical-line{width:2px;height:112px;background:var(--blue);margin:0 auto 20px}
+    section{position:relative;padding:0 0 95px;background:#fff}
+    .section-title{text-align:center;margin-bottom:62px;font-size:50px;font-weight:300;letter-spacing:.12em}.section-title strong{font-weight:900}
+
+    .about{padding-top:0}
+    .about-grid{display:grid;grid-template-columns:405px 1fr;gap:86px;align-items:center}
+    .photo-frame{position:relative;width:360px;margin-left:36px}.photo-frame:before{content:"";position:absolute;left:-35px;top:-32px;width:325px;height:470px;border:4px solid var(--blue);z-index:0}.photo-frame img{position:relative;z-index:1;width:308px;height:460px;object-fit:cover}
+    .about-copy{font-size:17px;max-width:540px;color:var(--blue)}
+    .about-copy p{margin:0 0 22px}.about-copy strong{color:#050505}
+    .region-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0 28px}.region-card{border:1px solid rgba(87,114,255,.35);padding:15px 16px;color:#111;background:#fff}.region-card b{display:block;color:var(--blue);text-transform:uppercase;letter-spacing:.08em;font-size:13px;margin-bottom:4px}
+
+    .side-chat{position:fixed;right:0;top:52%;z-index:8;transform:translateY(-50%);background:#050505;color:#fff;padding:15px 20px;font-weight:900;letter-spacing:.09em;font-size:13px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+
+    .services{background:linear-gradient(90deg,var(--pale) 0 50%,var(--pale2) 50% 100%);padding-top:0;min-height:760px}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:62px;text-align:center;color:var(--blue)}
+    .svc-icon{width:74px;height:74px;margin:0 auto 26px;color:var(--blue)}
+    .svc h3{margin:0 0 22px;font-size:16px;letter-spacing:.14em;color:var(--blue)}
+    .svc p{margin:0 auto 17px;max-width:230px;color:var(--blue);font-size:16px}.svc small{display:block;color:#050505;font-weight:800;line-height:1.45}.services .action-row{margin-top:58px}
+
+    .spacer{height:240px;background:#fff}
+    .estimate{
+      padding:0 0 96px;min-height:720px;text-align:center;background:#e9edf5;overflow:hidden;
+    }
+    .estimate:before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.72),rgba(255,255,255,.82)),url('https://static.wixstatic.com/media/375882_16a849c58b3f44f1a2db890a54b0bf59~mv2_d_3783_2523_s_4_2.jpg/v1/fill/w_1440,h_1400,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/375882_16a849c58b3f44f1a2db890a54b0bf59~mv2_d_3783_2523_s_4_2.jpg') center/cover no-repeat}
+    .estimate .wrap{position:relative}.estimate p{font-size:18px;margin:0 auto 18px;max-width:650px;color:var(--blue);font-weight:700}.contact-lines{margin:25px auto 30px;display:grid;gap:8px;color:#111;font-weight:800;font-size:18px}.contact-lines span{color:var(--blue);text-transform:uppercase;letter-spacing:.08em;font-size:13px;margin-right:8px}.socials{margin:34px auto 0;display:flex;gap:18px;justify-content:center}.socials img{width:30px;height:30px}
+
+    footer{background:var(--blue);color:#fff;padding:44px 0 26px}.footer-grid{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;text-align:center;gap:22px}.footer-grid>div{min-height:130px;display:grid;place-items:center;border-right:2px solid rgba(255,255,255,.65)}.footer-grid>div:last-child{border-right:0}.foot-brand img{width:81px;margin:0 auto 12px}.foot-brand b{font-weight:400;font-size:22px}.foot-contact{font-size:15px;line-height:1.9}.foot-contact a{text-decoration:underline;text-underline-offset:2px}.tag{font-size:23px;font-weight:900}.copy{text-align:center;color:#fff;margin-top:26px;font-size:14px}
+
+    @media (max-width:820px){
+      .wix-replace{padding:12px 18px;text-align:center;flex-wrap:wrap}.nav{grid-template-columns:82px 1fr}.menu{order:3;grid-column:1/-1;gap:22px;flex-wrap:wrap}.phone-stack{font-size:14px}.hero{min-height:780px}.hero-logo{width:185px}h1{font-size:54px}.trustbar{grid-template-columns:1fr 1fr}.trustbar div:nth-child(2){border-right:0}.about-grid,.service-grid,.footer-grid{grid-template-columns:1fr;gap:32px}.photo-frame{margin:0 auto}.section-title{font-size:38px}.region-cards{grid-template-columns:1fr}.footer-grid>div{border-right:0;border-bottom:1px solid rgba(255,255,255,.55)}.footer-grid>div:last-child{border-bottom:0}.side-chat{display:none}.spacer{height:90px}}
+  </style>
+</head>
+<body>
+  <div class="wix-replace" aria-label="top call to action">
+    <strong>NINJA</strong><span class="barline"></span>
+    <span>Family-owned window washing and gutter cleaning. Free estimates in Central Montana and the Florida Panhandle.</span>
+    <a class="mini-btn" href="mailto:NinjaWindowWashing@gmail.com?subject=Free%20Quote%20Request">Get Started</a>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <a class="brandbox" href="#top" aria-label="Ninja Window Washing home"><img src="https://static.wixstatic.com/media/8878ca_f2438098bb464900a938455cbf1aa60b~mv2_d_1347_1269_s_2.png/v1/fill/w_81,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Simple%20Logo%20Transparent.png" alt="Ninja Window Washing logo"></a>
+      <nav class="menu" aria-label="Primary navigation"><a href="#top">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#estimate">Contact</a></nav>
+      <div class="phone-stack"><span>Montana</span><a href="tel:14064616486">406-461-6486</a><span>Florida</span><a href="tel:18507337377">850-733-7377</a></div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <img class="hero-logo" src="https://static.wixstatic.com/media/8878ca_f2438098bb464900a938455cbf1aa60b~mv2_d_1347_1269_s_2.png/v1/fill/w_234,h_218,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Simple%20Logo%20Transparent.png" alt="Ninja Window Washing logo">
+        <h1>Ninja Window Washing</h1>
+        <p class="hero-lede">Professional window washing and gutter cleaning for homes, storefronts, and commercial buildings.</p>
+        <p class="hero-region">Central Montana since 2019 • Florida Panhandle since 2025</p>
+        <div class="action-row"><a class="btn black" href="mailto:NinjaWindowWashing@gmail.com?subject=Free%20Quote%20Request">Request a Free Estimate</a><a class="btn white" href="tel:14064616486">Call Montana</a><a class="btn white" href="tel:18507337377">Call Florida</a></div>
+        <div class="trustbar"><div>Family-owned</div><div>We fight dirty</div><div>Residential and commercial</div><div>Free quotes</div></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="vertical-line"></div>
+      <div class="wrap">
+        <h2 class="section-title"><strong>ABOUT</strong> US</h2>
+        <div class="about-grid">
+          <div class="photo-frame"><img src="https://static.wixstatic.com/media/8878ca_05006d57db6d463ca5a4188918f17850~mv2_d_2448_3264_s_4_2.jpg/v1/crop/x_138,y_188,w_1933,h_2887/fill/w_308,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ladder.jpg" alt="Ninja Window Washing ladder window cleaning photo"></div>
+          <div class="about-copy">
+            <p><strong>Welcome to Ninja Window Washing, LLC.</strong> We are a family-owned business with years of experience, and we fight dirty.</p>
+            <p>We handle indoor and outdoor window washing, residential jobs, commercial glass, storefronts, multi-story buildings, screens, sills, and gutter cleaning.</p>
+            <div class="region-cards"><div class="region-card"><b>Montana estimates</b><a href="tel:14064616486">406-461-6486</a><br>Central Montana region</div><div class="region-card"><b>Florida estimates</b><a href="tel:18507337377">850-733-7377</a><br>Florida Panhandle</div></div>
+            <div class="action-row" style="justify-content:flex-start"><a class="btn" href="mailto:NinjaWindowWashing@gmail.com?subject=Free%20Quote%20Request">Contact</a><a class="btn white" href="#services">See Services</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a class="side-chat" href="mailto:NinjaWindowWashing@gmail.com?subject=Free%20Quote%20Request">QUOTE WITH US!</a>
+
+    <section class="services" id="services">
+      <div class="vertical-line"></div>
+      <div class="wrap">
+        <h2 class="section-title"><strong>WHAT</strong> WE DO</h2>
+        <div class="service-grid">
+          <article class="svc">
+            <svg class="svc-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M10 39 40 15l30 24"/><path d="M18 37v31h44V37"/><path d="M31 68V48h18v20"/><path d="M25 29h9v9h-9zm21 0h9v9h-9z"/></svg>
+            <h3>RESIDENTIAL</h3>
+            <p>Interior and exterior windows, screens, and sills.</p><small>Best next step: request a quote with your address, window count, and photos if helpful.</small>
+          </article>
+          <article class="svc">
+            <svg class="svc-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="3"><rect x="16" y="14" width="48" height="54"/><path d="M28 25h8m8 0h8M28 37h8m8 0h8M28 49h8m8 0h8M24 68V57h32v11"/></svg>
+            <h3>COMMERCIAL</h3>
+            <p>Storefront, single-story, and multi-story buildings.</p><small>Tell us the region and building type so the right contact path is clear.</small>
+          </article>
+          <article class="svc">
+            <svg class="svc-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="3"><path d="M10 26h60v11c0 7-5 12-12 12H26c-9 0-16-7-16-16v-7Z"/><path d="M21 49c1 11 8 18 19 18s18-7 19-18"/><path d="M23 16v10m34-10v10"/></svg>
+            <h3>GUTTERS</h3>
+            <p>Gutter cleaning, mud, leaf, and debris removal.</p><small>Ask about gutter cleaning along with window washing for one simple visit.</small>
+          </article>
+        </div>
+        <div class="action-row"><a class="btn" href="mailto:ninjawindowwashing@gmail.com?subject=Appointment%20Request">Book An Appointment</a></div>
+      </div>
+    </section>
+
+    <div class="spacer" aria-hidden="true"></div>
+
+    <section class="estimate" id="estimate">
+      <div class="vertical-line"></div>
+      <div class="wrap">
+        <h2 class="section-title"><strong>REQUEST</strong> A FREE ESTIMATE</h2>
+        <p>We are happy to provide a free quote. Choose the right region below, or email us with the service you need, your town, and a few photos.</p>
+        <div class="contact-lines"><div><span>Montana</span><a href="tel:14064616486">406-461-6486</a></div><div><span>Florida</span><a href="tel:18507337377">850-733-7377</a></div><div><span>Email</span><a href="mailto:NinjaWindowWashing@gmail.com">NinjaWindowWashing@gmail.com</a></div></div>
+        <div class="action-row"><a class="btn" href="mailto:ninjawindowwashing@gmail.com?subject=Free%20Quote%20Request">Get a Quote Now</a><a class="btn white" href="tel:14064616486">Call MT</a><a class="btn white" href="tel:18507337377">Call FL</a></div>
+        <div class="socials"><a href="http://www.facebook.com/ninjawindowwashing" aria-label="Facebook"><img src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png" alt="White Facebook Icon"></a><a href="http://instagram.com/ninjawindowwashing" aria-label="Instagram"><img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/81af6121f84c41a5b4391d7d37fce12a.png" alt="White Instagram Icon"></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="foot-brand"><span><img src="https://static.wixstatic.com/media/8878ca_f2438098bb464900a938455cbf1aa60b~mv2_d_1347_1269_s_2.png/v1/fill/w_81,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Simple%20Logo%20Transparent.png" alt="Ninja Window Washing logo"><b>Ninja Window Washing</b></span></div>
+        <div class="foot-contact"><span>Tel: <a href="tel:14064616486">406-461-6486</a> (Montana)<br>Tel: <a href="tel:18507337377">850-733-7377</a> (Florida)<br><a href="mailto:NinjaWindowWashing@gmail.com">NinjaWindowWashing@gmail.com</a></span></div>
+        <div class="tag">We Fight Dirty!</div>
+      </div>
+      <div class="copy">© 2026 by Ninja Window Washing, LLC.</div>
+    </div>
+  </footer>
+</body>
+</html>

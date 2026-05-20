@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ultimate Handyman, LLC | Vacaville Handyman Estimates</title>
+  <meta name="description" content="Licensed local handyman and remodeling help for Vacaville, Winters and Fairfield. Call or email Kyle for small remodels, tile, repairs, custom projects and punch-list work." />
+  <style>
+    :root{
+      --ink:#15171b;
+      --panel:#26272a;
+      --soft:#343539;
+      --green:#8df02c;
+      --green-dark:#6dc81a;
+      --white:#fff;
+      --muted:#d7d7d7;
+      --line:rgba(255,255,255,.16);
+      --navy:#14204b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--panel);color:var(--white);line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    .wixbar{height:50px;background:#f7f7f7;color:#111;display:flex;align-items:center;justify-content:center;gap:18px;font-size:14px;letter-spacing:.01em}
+    .wixbar b{font-size:26px;letter-spacing:-.08em;margin-right:2px}.wixbar .pill{border:1px solid #2678d9;border-radius:20px;color:#2678d9;padding:7px 18px;font-weight:600;background:#fff}
+    .top{background:#252629;border-bottom:1px solid rgba(255,255,255,.08)}
+    .wrap{width:min(1180px,calc(100% - 48px));margin:auto}
+    .contact{height:54px;display:flex;justify-content:center;align-items:center;gap:28px;color:#f3f3f3;font-size:15px}
+    .icon{width:25px;height:25px;border-radius:4px;vertical-align:middle}
+    header{background:#27282b;position:sticky;top:0;z-index:10;box-shadow:0 2px 20px rgba(0,0,0,.16)}
+    .head{min-height:114px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .brand{display:grid;grid-template-columns:76px 1fr;align-items:center;gap:18px;min-width:360px}
+    .brand img{width:76px;height:76px;border-radius:50%;object-fit:cover;border:3px solid #3d3e42}
+    .brand .name,.brand .tag,.brand .license{display:block}.brand .name{font-size:25px;letter-spacing:.02em;font-weight:700;line-height:1.12}.brand .tag{font-size:15px;color:#e7e7e7;margin-top:5px}.brand .license{font-size:14px;color:#cfcfcf;margin-top:2px}
+    nav{display:flex;gap:30px;align-items:center;font-size:15px;color:#eaeaea;white-space:nowrap}.nav-active{color:var(--green);font-weight:700}.nav-cta{border:1px solid var(--green);color:var(--green);padding:10px 15px;border-radius:2px;font-weight:700}
+    .hero{background:var(--green);color:var(--navy)}
+    .hero-grid{display:grid;grid-template-columns:1fr;gap:28px;align-items:center;min-height:330px;padding:42px 0 44px}
+    .eyebrow{font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:14px;color:#22315c;margin-bottom:16px}
+    h1{font-size:60px;line-height:.98;margin:0 0 18px;font-weight:900;letter-spacing:.02em;text-transform:uppercase;color:#122151;max-width:720px}
+    .lead{font-size:22px;line-height:1.42;max-width:690px;margin:0 0 24px;color:#1f2a4a;font-weight:600}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 24px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:2px;font-weight:800;letter-spacing:.01em}.btn-dark{background:#202126;color:#fff}.btn-light{background:#fff;color:#14204b;border:2px solid rgba(20,32,75,.16)}
+    .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:700px}.trust span{background:rgba(255,255,255,.35);border:1px solid rgba(20,32,75,.14);padding:12px 13px;font-size:14px;font-weight:700;color:#172342}
+    .estimate-card{display:none;background:#26272a;color:#fff;padding:30px;border-radius:2px;box-shadow:0 14px 35px rgba(0,0,0,.2)}
+    .estimate-card h2{font-size:28px;margin:0 0 12px;color:#fff;letter-spacing:.02em}.estimate-card p{color:#e7e7e7;margin:0 0 20px}.estimate-card ul{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:12px}.estimate-card li{border-top:1px solid var(--line);padding-top:12px}.estimate-card strong{color:var(--green)}
+    .section{background:#28292c;padding:70px 0}.section.alt{background:#202124}.section-title{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:34px}.section-title span{display:block;color:var(--green);font-size:15px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.section-title h2{font-size:42px;line-height:1.05;margin:5px 0 0;text-transform:uppercase}.section-title p{max-width:455px;color:#d7d7d7;margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service{background:#333438;border-top:7px solid var(--green);padding:27px;min-height:274px}.service h3{font-size:23px;margin:0 0 4px;text-transform:uppercase}.service .sub{color:#fff;font-weight:700;margin-bottom:14px}.service p{color:#d8d8d8;margin:0 0 18px}.service a{color:var(--green);font-weight:800}
+    .projects{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}.project{background:#2f3034;overflow:hidden}.project img{width:100%;height:270px;object-fit:cover;display:block}.project .copy{padding:22px}.project h3{margin:0 0 8px;font-size:21px;text-transform:uppercase}.project p{margin:0;color:#d8d8d8;font-size:15px}
+    .proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.quote{background:#303135;padding:28px;border-left:7px solid var(--green);color:#f7f7f7}.quote p{font-size:18px;margin:0 0 16px}.quote b{color:var(--green)}
+    .cta-band{background:var(--green);color:#14204b;padding:46px 0}.cta-flex{display:flex;align-items:center;justify-content:space-between;gap:28px}.cta-flex h2{font-size:38px;line-height:1.05;margin:0;text-transform:uppercase}.cta-flex p{font-weight:700;margin:8px 0 0}.cta-flex .btn-dark{box-shadow:0 8px 20px rgba(0,0,0,.18)}
+    footer{background:#252629;color:#d8d8d8;padding:34px 0}.foot{display:flex;justify-content:space-between;gap:24px;align-items:center;font-size:14px}.foot strong{color:#fff}.small-links{display:flex;gap:16px;align-items:center}.small-links img{width:24px;height:24px}
+    @media (max-width: 900px){.wixbar{display:none}.wrap{width:min(100% - 30px,1180px)}.contact{height:auto;padding:13px 0;flex-wrap:wrap;gap:14px}.head{display:block;padding:18px 0}.brand{min-width:0;margin-bottom:18px}nav{overflow:auto;gap:18px;padding-bottom:6px}.hero-grid,.services,.projects,.proof-grid{grid-template-columns:1fr}.hero-grid{padding:42px 0}.trust{grid-template-columns:1fr}h1{font-size:42px}.section-title,.cta-flex,.foot{display:block}.section-title p{margin-top:14px}.cta-flex .hero-actions{margin-bottom:0}.project img{height:235px}}
+  </style>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Ultimate Handyman, LLC","url":"https://handykylem.wixsite.com/website","telephone":"+1-707-689-4531","email":"handykylem@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Vacaville","addressRegion":"CA","postalCode":"95687","addressCountry":"US"},"areaServed":["Vacaville CA","Winters CA","Fairfield CA","Davis CA"],"description":"Licensed local handyman, tile, small remodel and custom project help."}
+  </script>
+</head>
+<body>
+  <div class="wixbar"><b>WIX</b><span>This website was built on Wix. Create yours today.</span><span class="pill">Get Started</span></div>
+  <div class="top">
+    <div class="wrap contact">
+      <a href="mailto:handykylem@gmail.com">handykylem@gmail.com</a>
+      <a href="tel:+17076894531">(707) 689-4531</a>
+      <a href="https://www.yelp.com/biz/ultimate-handyman-vacaville-6?osq=Handyman" aria-label="Yelp"><img class="icon" src="https://static.wixstatic.com/media/263c6eefe13c431681f9363e2e92ddb7.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/263c6eefe13c431681f9363e2e92ddb7.png" alt="Yelp Social Icon"></a>
+      <a href="https://www.facebook.com/HandyKyleM/" aria-label="Facebook"><img class="icon" src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png" alt="facebook"></a>
+    </div>
+  </div>
+  <header>
+    <div class="wrap head">
+      <a class="brand" href="https://handykylem.wixsite.com/website">
+        <img src="https://static.wixstatic.com/media/c0558c_59e06765c56442faa1403b0dd2327314~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_59e06765c56442faa1403b0dd2327314~mv2.jpg" alt="Kyle">
+        <span><span class="name">ULTIMATE HANDYMAN, LLC</span><span class="tag">Home Improvement You Can Trust</span><span class="license">License # 029203</span></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a class="nav-active" href="https://handykylem.wixsite.com/website">Home</a>
+        <a href="https://handykylem.wixsite.com/website/services-skills">Services &amp; Skills</a>
+        <a href="https://handykylem.wixsite.com/website/my-projects">My Projects</a>
+        <a href="https://handykylem.wixsite.com/website/testimonials">Testimonials</a>
+        <a href="https://handykylem.wixsite.com/website/about-me">About Me</a>
+        <a class="nav-cta" href="tel:+17076894531">Call for Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Licensed local handyman • Vacaville, Winters &amp; Fairfield</div>
+          <h1>Home Repairs &amp; Remodels You Can Trust</h1>
+          <p class="lead">Tell Kyle what you need, get a clear next step, and see the craftsmanship behind the work before you book.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="tel:+17076894531">Call (707) 689-4531</a>
+            <a class="btn btn-light" href="mailto:handykylem@gmail.com?subject=Estimate%20request%20for%20Ultimate%20Handyman">Email for an Estimate</a>
+          </div>
+          <div class="trust">
+            <span>License # 029203</span>
+            <span>Tile, repairs, upgrades</span>
+            <span>Project photos &amp; local testimonials</span>
+          </div>
+        </div>
+        <aside class="estimate-card" aria-label="Estimate path">
+          <h2>Easy estimate path</h2>
+          <p>Send a few photos, your project location, and your preferred timing. Kyle can confirm fit and the best next step.</p>
+          <ul>
+            <li><strong>1. Share the project</strong><br>Bathroom, tile, punch list, shelving, custom work or small remodel.</li>
+            <li><strong>2. Get a practical answer</strong><br>Know whether it is a fit before you spend time coordinating.</li>
+            <li><strong>3. Book confident work</strong><br>Meticulous, responsive, and backed by real local customer proof.</li>
+          </ul>
+          <a class="btn btn-light" href="mailto:handykylem@gmail.com?subject=Estimate%20request%20with%20photos">Start by Email</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-title"><div><span>Services &amp; Skills</span><h2>Find out what Kyle can do</h2></div><p>Keep the existing service depth, but make it easier for a homeowner to quickly see the right fit and contact you from the first screen.</p></div>
+        <div class="services">
+          <article class="service"><h3>Small Remodels &amp; Upgrades</h3><div class="sub">Professional and experienced</div><p>Bathroom refreshes, cabinetry updates, trim, paint, fixtures, and practical improvements with careful finish work.</p><a href="mailto:handykylem@gmail.com?subject=Small%20remodel%20estimate">Ask about a remodel →</a></article>
+          <article class="service"><h3>Tile</h3><div class="sub">Detailed and conscientious</div><p>Prep and installation for shower tile, backsplashes, floors, grout lines, and custom layouts that need a craftsman’s eye.</p><a href="mailto:handykylem@gmail.com?subject=Tile%20project%20estimate">Ask about tile →</a></article>
+          <article class="service"><h3>Custom Projects</h3><div class="sub">Ultimate craftsman</div><p>Have an idea for shelves, shiplap, a built-in, a cubby, or a unique home upgrade? Start with a clear conversation.</p><a href="mailto:handykylem@gmail.com?subject=Custom%20project%20estimate">Ask about custom work →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="wrap">
+        <div class="section-title"><div><span>Past Projects</span><h2>Real work from local homes</h2></div><p>The project-photo feel is one of the site’s strengths. Put it closer to the decision path so visitors can trust the workmanship faster.</p></div>
+        <div class="projects">
+          <article class="project"><img src="https://static.wixstatic.com/media/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg/v1/crop/x_0,y_46,w_960,h_705/fill/w_460,h_340,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_78d2ea647575471cae52fcc9739792d2~mv2.jpg" alt="Barn door bathroom"><div class="copy"><h3>Bathroom Remodel</h3><p>Tile floor, shower, paint, trim, vanity, lighting and finish details in one complete project.</p></div></article>
+          <article class="project"><img src="https://static.wixstatic.com/media/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg/v1/fill/w_460,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_4d9d4164f7ae4d61b02217b201cd24e3~mv2.jpg" alt="Shower tile"><div class="copy"><h3>Custom Tile Wall</h3><p>A distinctive tile layout that shows the detailed, conscientious work customers call out.</p></div></article>
+          <article class="project"><img src="https://static.wixstatic.com/media/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg/v1/fill/w_460,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c0558c_5fad139cd3aa4a05bc0bf0b67d57e5a7~mv2_d_2448_3264_s_4_2.jpg" alt="Shelves"><div class="copy"><h3>Shiplap &amp; Shelving</h3><p>Custom lighting, shelving and display details that make a simple upgrade feel high impact.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="wrap">
+        <div class="section-title"><div><span>Testimonials</span><h2>Why homeowners call again</h2></div><p>Use short, high-value quotes near the CTA so trust is not buried below several long sections.</p></div>
+        <div class="proof-grid">
+          <blockquote class="quote"><p>“Kyle has expansive construction knowledge, does meticulous work, is reliable and a great communicator.”</p><b>Pamela H. • Davis, CA</b></blockquote>
+          <blockquote class="quote"><p>“Very responsive, shows up when he says he will, is very professional and a true craftsman.”</p><b>Cheri V. • Vacaville, CA</b></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" id="estimate">
+      <div class="wrap cta-flex">
+        <div><h2>Ready to talk through your project?</h2><p>Call Kyle or email a few photos for the fastest estimate next step.</p></div>
+        <div class="hero-actions"><a class="btn btn-dark" href="tel:+17076894531">Call (707) 689-4531</a><a class="btn btn-light" href="mailto:handykylem@gmail.com?subject=Estimate%20request">Email Kyle</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div><strong>Ultimate Handyman, LLC</strong><br>Vacaville CA United States 95687 • License # 029203</div>
+      <div class="small-links"><a href="mailto:handykylem@gmail.com">handykylem@gmail.com</a><a href="https://www.yelp.com/biz/ultimate-handyman-vacaville-6?osq=Handyman"><img src="https://static.wixstatic.com/media/263c6eefe13c431681f9363e2e92ddb7.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/263c6eefe13c431681f9363e2e92ddb7.png" alt="Yelp Social Icon"></a><a href="https://www.facebook.com/HandyKyleM/"><img src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png" alt="facebook"></a></div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,432 @@
+{
+  "batch": "2026-05-20-0200-nightly",
+  "batchJson": "opportunities/2026-05-20-0200-nightly/batch.json",
+  "itemsInBatchJson": 10,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 10,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "jakes-home-solutions",
+      "name": "Jake's Home Solutions",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/jakes-home-solutions-audit.md",
+          "exists": true,
+          "size": 9486
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/jakes-home-solutions-offer.md",
+          "exists": true,
+          "size": 2117
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/jakes-home-solutions/index.html",
+          "exists": true,
+          "size": 12001
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/jakes-home-solutions-target.png",
+          "exists": true,
+          "size": 1034774
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/jakes-home-solutions-prototype.png",
+          "exists": true,
+          "size": 1093205
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.822,
+        "pixelSimilarity": 0.71,
+        "edgeLayoutSimilarity": 0.6911,
+        "perceptualHashSimilarity": 0.875,
+        "weightedSimilarity": 0.758
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/jakes-home-solutions-source-assets.md"
+    },
+    {
+      "slug": "ultimate-handyman-vacaville",
+      "name": "Ultimate Handyman, LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/ultimate-handyman-vacaville-audit.md",
+          "exists": true,
+          "size": 9549
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/ultimate-handyman-vacaville-offer.md",
+          "exists": true,
+          "size": 1393
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/ultimate-handyman-vacaville/index.html",
+          "exists": true,
+          "size": 16170
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/ultimate-handyman-vacaville-target.png",
+          "exists": true,
+          "size": 379399
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/ultimate-handyman-vacaville-prototype.png",
+          "exists": true,
+          "size": 193364
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.184,
+        "pixelSimilarity": 0.6785,
+        "edgeLayoutSimilarity": 0.6642,
+        "perceptualHashSimilarity": 0.5156,
+        "weightedSimilarity": 0.5269
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/ultimate-handyman-vacaville-source-assets.md"
+    },
+    {
+      "slug": "handyman-home-services-orlando",
+      "name": "Handyman Home Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/handyman-home-services-orlando-audit.md",
+          "exists": true,
+          "size": 10458
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/handyman-home-services-orlando-offer.md",
+          "exists": true,
+          "size": 2320
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/handyman-home-services-orlando/index.html",
+          "exists": true,
+          "size": 17708
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/handyman-home-services-orlando-target.png",
+          "exists": true,
+          "size": 1639604
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/handyman-home-services-orlando-prototype.png",
+          "exists": true,
+          "size": 2084209
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7697,
+        "pixelSimilarity": 0.8263,
+        "edgeLayoutSimilarity": 0.7133,
+        "perceptualHashSimilarity": 0.8281,
+        "weightedSimilarity": 0.7842
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/handyman-home-services-orlando-source-assets.md"
+    },
+    {
+      "slug": "by-george-handyman",
+      "name": "By George! HandyMan",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/by-george-handyman-audit.md",
+          "exists": true,
+          "size": 7262
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/by-george-handyman-offer.md",
+          "exists": true,
+          "size": 1420
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/by-george-handyman/index.html",
+          "exists": true,
+          "size": 8268
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/by-george-handyman-target.png",
+          "exists": true,
+          "size": 366331
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/by-george-handyman-prototype.png",
+          "exists": true,
+          "size": 541637
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7153,
+        "pixelSimilarity": 0.6111,
+        "edgeLayoutSimilarity": 0.6389,
+        "perceptualHashSimilarity": 0.4375,
+        "weightedSimilarity": 0.6181
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/by-george-handyman-source-assets.md"
+    },
+    {
+      "slug": "alex-handyman-service",
+      "name": "Alex Handyman Service",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/alex-handyman-service-audit.md",
+          "exists": true,
+          "size": 9295
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/alex-handyman-service-offer.md",
+          "exists": true,
+          "size": 1503
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/alex-handyman-service/index.html",
+          "exists": true,
+          "size": 18196
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/alex-handyman-service-target.png",
+          "exists": true,
+          "size": 1123606
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/alex-handyman-service-prototype.png",
+          "exists": true,
+          "size": 1951351
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4927,
+        "pixelSimilarity": 0.8261,
+        "edgeLayoutSimilarity": 0.7472,
+        "perceptualHashSimilarity": 0.875,
+        "weightedSimilarity": 0.7304
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/alex-handyman-service-source-assets.md"
+    },
+    {
+      "slug": "a1-handyman-service-nv",
+      "name": "A1 Handyman Service",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/a1-handyman-service-nv-audit.md",
+          "exists": true,
+          "size": 11935
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/a1-handyman-service-nv-offer.md",
+          "exists": true,
+          "size": 1344
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/a1-handyman-service-nv/index.html",
+          "exists": true,
+          "size": 15676
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/a1-handyman-service-nv-target.png",
+          "exists": true,
+          "size": 62590
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/a1-handyman-service-nv-prototype.png",
+          "exists": true,
+          "size": 1089791
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4814,
+        "pixelSimilarity": 0.6179,
+        "edgeLayoutSimilarity": 0.7414,
+        "perceptualHashSimilarity": 0.6094,
+        "weightedSimilarity": 0.6134
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/a1-handyman-service-nv-source-assets.md"
+    },
+    {
+      "slug": "justin-time-handyman-services",
+      "name": "JustIn Time Handyman Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/justin-time-handyman-services-audit.md",
+          "exists": true,
+          "size": 7110
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/justin-time-handyman-services-offer.md",
+          "exists": true,
+          "size": 1299
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/justin-time-handyman-services/index.html",
+          "exists": true,
+          "size": 6968
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/justin-time-handyman-services-target.png",
+          "exists": true,
+          "size": 626417
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/justin-time-handyman-services-prototype.png",
+          "exists": true,
+          "size": 993940
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4461,
+        "pixelSimilarity": 0.8058,
+        "edgeLayoutSimilarity": 0.7234,
+        "perceptualHashSimilarity": 0.7656,
+        "weightedSimilarity": 0.6892
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/justin-time-handyman-services-source-assets.md"
+    },
+    {
+      "slug": "h-and-t-gutter-services",
+      "name": "H & T Gutter Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/h-and-t-gutter-services-audit.md",
+          "exists": true,
+          "size": 9461
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/h-and-t-gutter-services-offer.md",
+          "exists": true,
+          "size": 1329
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/h-and-t-gutter-services/index.html",
+          "exists": true,
+          "size": 12591
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/h-and-t-gutter-services-target.png",
+          "exists": true,
+          "size": 874687
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/h-and-t-gutter-services-prototype.png",
+          "exists": true,
+          "size": 868047
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8824,
+        "pixelSimilarity": 0.8823,
+        "edgeLayoutSimilarity": 0.794,
+        "perceptualHashSimilarity": 0.8281,
+        "weightedSimilarity": 0.8521
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/h-and-t-gutter-services-source-assets.md"
+    },
+    {
+      "slug": "dj-junk-removal-service",
+      "name": "DJ Junk Removal Service",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/dj-junk-removal-service-audit.md",
+          "exists": true,
+          "size": 9938
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/dj-junk-removal-service-offer.md",
+          "exists": true,
+          "size": 1506
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/dj-junk-removal-service/index.html",
+          "exists": true,
+          "size": 13989
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/dj-junk-removal-service-target.png",
+          "exists": true,
+          "size": 2834286
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/dj-junk-removal-service-prototype.png",
+          "exists": true,
+          "size": 2059038
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.433,
+        "pixelSimilarity": 0.5567,
+        "edgeLayoutSimilarity": 0.6205,
+        "perceptualHashSimilarity": 0.5469,
+        "weightedSimilarity": 0.5403
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/dj-junk-removal-service-source-assets.md"
+    },
+    {
+      "slug": "ninja-window-washing",
+      "name": "Ninja Window Washing",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-20-0200-nightly/ninja-window-washing-audit.md",
+          "exists": true,
+          "size": 9773
+        },
+        "offer": {
+          "path": "offers/2026-05-20-0200-nightly/ninja-window-washing-offer.md",
+          "exists": true,
+          "size": 1268
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-20-0200-nightly/ninja-window-washing/index.html",
+          "exists": true,
+          "size": 17386
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/ninja-window-washing-target.png",
+          "exists": true,
+          "size": 2252178
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-20-0200-nightly/ninja-window-washing-prototype.png",
+          "exists": true,
+          "size": 2540958
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7306,
+        "pixelSimilarity": 0.7408,
+        "edgeLayoutSimilarity": 0.6932,
+        "perceptualHashSimilarity": 0.7812,
+        "weightedSimilarity": 0.7324
+      },
+      "sourceAssetsNote": "state/2026-05-20-0200-nightly/ninja-window-washing-source-assets.md"
+    }
+  ]
+}

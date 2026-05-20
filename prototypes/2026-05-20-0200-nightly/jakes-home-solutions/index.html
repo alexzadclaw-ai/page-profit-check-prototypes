@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jake's Home Solutions | Handyman and Home Repair in Anniston, AL</title>
+  <meta name="description" content="Professional, insured handyman and home repair service around Anniston and Calhoun County, AL. Call, text, or email Jake's Home Solutions for a free estimate." />
+  <style>
+    :root{
+      --ink:#202b39;
+      --muted:#394656;
+      --blue:#315b8a;
+      --blue-dark:#233d62;
+      --orange:#c96526;
+      --line:#dde3ea;
+      --soft:#f7f9fb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#fff;color:var(--ink);font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .page{background:#fff;min-height:100vh}
+    .topline{height:8px;background:#2d77b6;width:100%}
+    .wrap{width:940px;max-width:calc(100% - 44px);margin:0 auto}
+    header{padding:44px 0 22px;background:#fff}
+    .brand-row{display:grid;grid-template-columns:92px 1fr;gap:28px;align-items:start}
+    .mark{width:44px;height:80px;object-fit:cover;margin:78px auto 0;display:block}
+    .brand h1{font-size:28px;line-height:1.15;letter-spacing:.02em;margin:0 0 8px;font-weight:800;text-transform:uppercase;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px}
+    .tag{font-size:19px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin:0 0 18px;color:#1f2935}
+    .hero-copy{max-width:780px;font-size:15px;text-transform:uppercase;font-weight:700;letter-spacing:.02em;color:#1c2938}
+    .hero-copy p{margin:0 0 12px}
+    .quick-path{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:760px}
+    .quick-path div{border:1px solid #e2e7ed;background:#fafafa;padding:12px 14px;min-height:74px}
+    .quick-path strong{display:block;color:var(--orange);font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+    .quick-path span{font-size:13px;font-weight:700;text-transform:uppercase;color:#253243}
+    nav{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+    .nav-inner{height:78px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:26px}
+    .menu{display:flex;gap:38px;align-items:center;font-size:15px}
+    .menu a:first-child{color:var(--orange);font-weight:700}
+    .contact-line{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700;color:#2c3746;white-space:nowrap}
+    .fb{width:20px;height:20px;display:inline-block;vertical-align:middle}
+    .cta-band{background:var(--blue);min-height:208px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid #d8e0e8}
+    .cta-button{background:var(--orange);color:#fff;display:inline-block;padding:14px 36px;font-size:16px;font-weight:700;letter-spacing:.01em;box-shadow:0 1px 0 rgba(0,0,0,.16)}
+    .cta-button:hover{background:#b85b21}
+    main{background:#fff}
+    .section-title{text-align:center;font-size:35px;line-height:1.2;font-weight:400;margin:68px 0 54px;color:#152538}
+    .service-grid{display:grid;grid-template-columns:460px 1fr;gap:58px;align-items:center;margin-bottom:56px}
+    .service-grid img{width:460px;height:360px;object-fit:cover;display:block}
+    .service-grid.short img{height:320px}
+    .service-copy{text-align:center;font-size:24px;line-height:1.42;color:#233047;font-weight:400}
+    .service-copy h2{font-size:25px;line-height:1.35;font-weight:400;margin:0 0 14px;color:#233047}
+    .service-copy p{font-size:15px;color:#4a5664;margin:0 auto;max-width:340px;font-weight:400;text-align:center}
+    .quote-panel{margin:18px 0 68px;padding:34px 44px;background:#f5f8fb;border-top:1px solid #dce4ec;border-bottom:1px solid #dce4ec;display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
+    .quote-panel h2{margin:0 0 10px;font-size:27px;font-weight:500;color:#18283b}
+    .quote-panel p{margin:0;color:#405064;font-size:16px}
+    .quote-actions{display:flex;gap:12px;justify-content:flex-end;flex-wrap:wrap}
+    .secondary{border:1px solid var(--blue);color:var(--blue-dark);padding:12px 22px;font-weight:700;background:#fff}
+    footer{border-top:1px solid var(--line);background:#fff;padding:45px 0 42px;margin-top:12px}
+    .footer-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:50px}
+    footer h3{font-size:16px;margin:0 0 18px;font-weight:700;color:#17263a}
+    footer p, footer a{display:block;margin:0 0 7px;color:#364252;font-size:14px}
+    .copyright{background:var(--blue-dark);color:#fff;text-align:center;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:22px 16px}
+    .chat{position:fixed;right:25px;bottom:24px;background:#266fb4;color:#fff;border-radius:8px;padding:13px 19px;font-size:15px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+    .chat:before{content:'●';font-size:14px;margin-right:8px;color:#fff}
+    @media (max-width:800px){
+      .wrap{max-width:calc(100% - 28px)}
+      header{padding-top:30px}
+      .brand-row{grid-template-columns:1fr}.mark{margin:0;width:44px;height:79px}.brand h1{font-size:24px}.hero-copy{font-size:14px}.quick-path{grid-template-columns:1fr}
+      .nav-inner{height:auto;padding:18px 0;grid-template-columns:1fr}.menu{gap:18px;flex-wrap:wrap}.contact-line{flex-wrap:wrap;gap:12px}
+      .cta-band{min-height:150px}.section-title{font-size:30px;margin:46px 0 34px}.service-grid{grid-template-columns:1fr;gap:24px;margin-bottom:44px}.service-grid img{width:100%;height:auto}.service-copy{font-size:21px}.quote-panel{grid-template-columns:1fr;padding:26px 18px}.quote-actions{justify-content:flex-start}.footer-grid{grid-template-columns:1fr;gap:25px}.chat{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="topline" aria-hidden="true"></div>
+    <header>
+      <div class="wrap brand-row">
+        <img class="mark" src="https://static.wixstatic.com/media/56b37c_65ee8a276be14039bdd7485c2af49827~mv2.jpg/v1/fill/w_44,h_79,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1110160147a.jpg" alt="Jake's Home Solutions mark">
+        <div class="brand">
+          <h1>Jake's Home Solutions "No Job Too Small"</h1>
+          <p class="tag">Your Home Improvement Pro</p>
+          <div class="hero-copy">
+            <p>Serving Calhoun, Cleburne, Clay, St. Clair, and Talladega counties. Free estimates.</p>
+            <p>Professional and insured construction service with 20 years of experience.</p>
+            <p>Call, text, or email <a href="mailto:3436261@gmail.com">3436261@gmail.com</a> with your project location and the basics of what you need.</p>
+          </div>
+          <div class="quick-path" aria-label="Estimate highlights">
+            <div><strong>Service area</strong><span>Anniston and nearby counties</span></div>
+            <div><strong>Trust</strong><span>Insured with 20 years experience</span></div>
+            <div><strong>Next step</strong><span>Call, text, or email for an estimate</span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav aria-label="Main navigation">
+      <div class="wrap nav-inner">
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="contact-line">
+          <a href="mailto:3436261@gmail.com">3436261@GMAIL.COM</a>
+          <a href="tel:+12563436261">256-343-6261</a>
+          <a href="https://www.facebook.com/Home.Repair.In.Calhoun.County/" aria-label="Facebook"><img class="fb" src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="cta-band" id="home">
+      <a class="cta-button" href="mailto:3436261@gmail.com?subject=Free%20Estimate%20Request">Get In Touch</a>
+    </section>
+
+    <main class="wrap" id="projects">
+      <h2 class="section-title">Learn More About My Services</h2>
+
+      <section class="service-grid">
+        <img src="https://static.wixstatic.com/media/56b37c_23d87365dfee4796af63edb4cf1777f2~mv2_d_2560_1440_s_2.jpg/v1/fill/w_460,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Exterior%20Door%20Installation.jpg" alt="Exterior door installation by Jake's Home Solutions">
+        <div class="service-copy">
+          <h2>Interior/exterior painting, French door installation, honey to-do list, fence repair, and wall hangings</h2>
+          <p>Send the basics and your project location. Jake can quickly confirm whether it fits and what the next estimate step should be.</p>
+        </div>
+      </section>
+
+      <section class="service-grid">
+        <img src="https://static.wixstatic.com/media/56b37c_9d014ed4e46846de8f07251a40813342~mv2.jpg/v1/fill/w_460,h_360,al_c,lg_1,q_80,enc_avif,quality_auto/Handyman%2C%20Window%20Installation.jpg" alt="Window installation and interior repair work">
+        <div class="service-copy">
+          <h2>Drywall repairs, interior water damage repair, new window installation, and demolition services</h2>
+          <p>Great for repairs that need a reliable local pro instead of a large remodel crew.</p>
+        </div>
+      </section>
+
+      <section class="service-grid">
+        <img src="https://static.wixstatic.com/media/56b37c_e46b4dabb3724d2a91c7104cf2a2c0c5~mv2_d_2560_1440_s_2.jpg/v1/fill/w_460,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Side%20walk%20Repair.jpg" alt="Sidewalk repair and concrete work">
+        <div class="service-copy">
+          <h2>Sidewalk repair, appliance installation, ceiling fan installation, tile, brick and block work, and much more</h2>
+          <p>One clear contact path for small repairs, punch-list items, and practical home improvements.</p>
+        </div>
+      </section>
+
+      <section class="service-grid short">
+        <img src="https://static.wixstatic.com/media/56b37c_fa23b206fe6046d192d94b84fa46cd0d~mv2_d_2560_1440_s_2.jpg/v1/fill/w_460,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/15-7-17-5006.jpg" alt="Covered porch and home repair project">
+        <div class="service-copy">
+          <h2>Not sure where your job fits?</h2>
+          <p>Call or email the project basics, your location, and any helpful details. Jake will point you toward the right estimate path.</p>
+        </div>
+      </section>
+
+      <section class="quote-panel" id="about">
+        <div>
+          <h2>What to include when you ask for an estimate</h2>
+          <p>Your name, project address or county, a short description of what needs repair or installation, photos if available, and the best phone number for follow-up.</p>
+        </div>
+        <div class="quote-actions">
+          <a class="cta-button" href="tel:+12563436261">Call 256-343-6261</a>
+          <a class="secondary" href="mailto:3436261@gmail.com">Email Jake</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="wrap footer-grid">
+        <div>
+          <h3>Address</h3>
+          <p>812 Shady Lane</p>
+          <p>Anniston, Alabama 36277</p>
+          <p>USA</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <a href="mailto:3436261@gmail.com">3436261@gmail.com</a>
+          <a href="tel:+12563436261">256-343-6261</a>
+        </div>
+        <div>
+          <h3>Follow</h3>
+          <a href="https://www.facebook.com/Home.Repair.In.Calhoun.County/"><img class="fb" src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png" alt="Facebook"></a>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">©2017 By Jacob Zellar Home Repair and Handyman Services.</div>
+    <a class="chat" href="mailto:3436261@gmail.com">Let's Chat!</a>
+  </div>
+</body>
+</html>

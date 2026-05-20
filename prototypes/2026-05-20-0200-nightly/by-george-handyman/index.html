@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>By George! HandyMan | Handyman Services</title>
+  <style>
+    :root{
+      --ink:#151515;
+      --muted:#5d6470;
+      --blue:#3e4b68;
+      --accent:#d6673d;
+      --sky:#8bbdd7;
+      --line:#e9e9e9;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff}
+    a{color:inherit;text-decoration:none}
+    .wixbar{height:50px;border-bottom:1px solid #d7d7d7;background:#fff;display:flex;align-items:center;justify-content:center;gap:16px;font-size:14px;color:#222;letter-spacing:.01em}
+    .wixlogo{font-size:28px;font-weight:700;letter-spacing:-.08em;margin-right:4px}
+    .wixbtn{border:1px solid #186cff;border-radius:18px;color:#186cff;padding:7px 18px;font-weight:600;background:white}
+    .contact-strip{height:70px;display:flex;align-items:center;justify-content:center;gap:34px;font-size:16px;background:#fff;border-bottom:1px solid #f1f1f1;color:#0c0c0c}
+    .contact-strip a{border-bottom:1px solid transparent}.contact-strip a:hover{border-bottom-color:#333}
+    header{height:92px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 74px 0 105px;position:relative;z-index:2}
+    .brand{font-weight:800;letter-spacing:.12em;font-size:20px;white-space:nowrap}
+    nav{display:flex;align-items:center;gap:35px;font-size:15px;letter-spacing:.02em}
+    nav a.active{color:#d86e43}
+    .angi{border:1px solid #bcd6e3;border-radius:22px;color:#557b8e;padding:10px 22px;background:#f9fdff;font-weight:600}
+    .navcall{background:#d86e43;color:#fff;border-radius:24px;padding:11px 18px;font-weight:700;box-shadow:0 5px 15px rgba(216,110,67,.18)}
+    .hero{height:784px;background:var(--blue);position:relative;overflow:hidden}
+    .hero-img{position:absolute;right:0;top:0;width:50%;height:900px;object-fit:cover;object-position:45% center}
+    .hero-card{position:absolute;left:98px;top:82px;width:585px;min-height:420px;background:#fff;padding:42px 54px 40px 58px;box-shadow:0 2px 0 rgba(0,0,0,.03)}
+    .eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#6f7480;font-weight:700;margin:0 0 13px}
+    h1{font-size:47px;line-height:1.05;margin:0 0 13px;font-weight:700;letter-spacing:-.02em}
+    .sub{font-size:18px;line-height:1.42;margin:0 0 20px;color:#1a1a1a;max-width:445px}
+    .cta-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 24px;border-radius:0;font-weight:700;letter-spacing:.01em;border:1px solid #222;font-size:15px}
+    .btn.primary{background:#151515;color:#fff}.btn.secondary{background:#fff;color:#151515}
+    .trust{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;font-size:13px;color:#303541;line-height:1.35;border-top:1px solid #ececec;padding-top:14px}
+    .trust b{color:#151515}.dot{color:#d6673d;font-weight:900;margin-right:7px}
+    .service-strip{position:absolute;left:98px;bottom:135px;width:585px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .chip{background:rgba(255,255,255,.96);padding:10px 10px;min-height:48px;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;text-align:center;border-left:4px solid #d6673d;box-shadow:0 8px 20px rgba(0,0,0,.07)}
+    .photo-note{position:absolute;right:42px;bottom:150px;background:rgba(255,255,255,.92);padding:16px 20px;max-width:360px;font-size:15px;line-height:1.4;box-shadow:0 10px 25px rgba(0,0,0,.12)}
+    .photo-note strong{display:block;margin-bottom:2px}
+    .sections{padding:72px 100px;background:#fff}.section-title{text-align:center;font-size:28px;margin:0 0 34px;letter-spacing:.02em}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1040px;margin:0 auto}.card{border:1px solid var(--line);padding:28px;text-align:center}.card h3{margin:10px 0 8px;font-size:22px}.card p{color:#565c66;line-height:1.55}.card a{display:inline-block;margin-top:8px;color:#d6673d;font-weight:700}
+    @media(max-width:800px){.contact-strip{height:auto;padding:12px;gap:10px;flex-direction:column}.wixbar{font-size:12px;gap:8px}.wixlogo{font-size:22px}header{height:auto;padding:22px;align-items:flex-start;gap:20px;flex-direction:column}nav{gap:14px;flex-wrap:wrap}.hero{height:auto;padding:28px 18px 130px}.hero-img{position:relative;width:100%;height:270px;display:block}.hero-card{position:relative;left:auto;top:auto;width:100%;padding:36px 26px;margin-top:-28px}.service-strip{left:18px;right:18px;width:auto;bottom:28px;grid-template-columns:repeat(2,1fr)}h1{font-size:38px}.photo-note{display:none}.cards{grid-template-columns:1fr}.sections{padding:48px 22px}.trust{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wixbar"><span class="wixlogo">WIX</span><span>This website was built on Wix. Create yours today.</span><span class="wixbtn">Get Started</span></div>
+  <div class="contact-strip">
+    <a href="mailto:bygeorgehandyman9@gmail.com">bygeorgehandyman9@gmail.com</a>
+    <a href="tel:13364058637">336-405-8637</a>
+  </div>
+  <header>
+    <a class="brand" href="#">BY GEORGE! HANDYMAN</a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="#">Home</a>
+      <a href="#services">Services</a>
+      <a class="angi" href="https://www.homeadvisor.com/rated.ByGeorgeHandyManLLC.62365115.html">Reviews on Angi</a>
+      <a class="navcall" href="tel:13364058637">Call 336-405-8637</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="By George HandyMan hero">
+      <img class="hero-img" alt="Plumber fixing sink" src="https://static.wixstatic.com/media/22da903611924c41a0a1be1d3da3d857.jpg/v1/fill/w_1170,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/22da903611924c41a0a1be1d3da3d857.jpg" />
+      <div class="hero-card">
+        <p class="eyebrow">Local handyman services</p>
+        <h1>By George! HandyMan: home repairs made simple</h1>
+        <p class="sub">Friendly help for deck and fence repairs, drywall, painting, fixture installs, and everyday home maintenance.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="mailto:bygeorgehandyman9@gmail.com?subject=Estimate%20Request%20for%20Handyman%20Services">Get An Estimate</a>
+          <a class="btn secondary" href="tel:13364058637">Call Now</a>
+        </div>
+        <div class="trust" aria-label="Why homeowners call">
+          <span><span class="dot">•</span><b>Angi reviews</b> linked from the main navigation</span>
+          <span><span class="dot">•</span><b>Local</b> handyman help</span>
+          <span><span class="dot">•</span><b>Phone and email</b> ready for quick requests</span>
+          <span><span class="dot">•</span><b>Initial estimates</b> by call or email</span>
+        </div>
+      </div>
+      <div class="service-strip" id="services">
+        <div class="chip">Deck & Fence Repairs</div>
+        <div class="chip">Drywall Repairs</div>
+        <div class="chip">Painting Help</div>
+        <div class="chip">General Home Repairs</div>
+      </div>
+      <div class="photo-note"><strong>Need something different?</strong> Call or email what you need done and get a swift initial estimate.</div>
+    </section>
+
+    <section class="sections" aria-label="Services preview">
+      <h2 class="section-title">Professional and Punctual</h2>
+      <div class="cards">
+        <article class="card"><h3>Deck & Fence Repairs</h3><p>Fix loose boards, damaged sections, gates, railings, and small exterior repair issues before they grow.</p><a href="tel:13364058637">Get In Touch</a></article>
+        <article class="card"><h3>Drywall Repairs & Painting</h3><p>Patch holes, refresh rooms, and handle the practical finish work that makes a home feel cared for.</p><a href="mailto:bygeorgehandyman9@gmail.com">Email George</a></article>
+        <article class="card"><h3>List of Services</h3><p>Need something different? Send a note about the project and get a swift initial estimate.</p><a href="#services">Full List of Services</a></article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

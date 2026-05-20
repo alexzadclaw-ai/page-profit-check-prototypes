@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Handyman Service | Orange County Repairs and Assembly</title>
+  <meta name="description" content="Alex Handyman Service helps Orange County, CA with furniture assembly, minor repairs, painting, installations, and non-contractor handyman projects.">
+  <style>
+    :root{
+      --yellow:#ffde11;
+      --blue:#2b6ca3;
+      --blue-dark:#153e70;
+      --charcoal:#171717;
+      --white:#fff;
+      --ink:#1a1a1a;
+      --soft:#f6f6f6;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;color:var(--ink);background:#fff;line-height:1.45}
+    a{color:inherit;text-decoration:none}
+    .top-strip{height:50px;background:#eef1f2;display:flex;align-items:center;justify-content:center;font-size:16px;color:#20303c;gap:18px}
+    .top-strip b{font-weight:700}.top-strip a{color:#166aea;font-weight:700}
+    .site-header{height:87px;background:var(--yellow);display:flex;align-items:center;justify-content:center;position:sticky;top:0;z-index:10;box-shadow:0 1px 0 rgba(0,0,0,.07)}
+    .nav-wrap{width:970px;display:grid;grid-template-columns:310px 1fr 190px;align-items:center;gap:18px}
+    .brand{font-size:26px;line-height:1.1;color:#fff;font-weight:700;letter-spacing:.3px;text-shadow:0 1px 1px rgba(0,0,0,.16)}
+    .nav{display:flex;gap:24px;justify-content:center;font-size:14px;letter-spacing:.7px;font-weight:700;color:#111}.phone-top{font-size:20px;color:#1a1a1a;text-align:right;white-space:nowrap}
+    .hero{min-height:764px;background:linear-gradient(90deg,rgba(0,0,0,.58),rgba(0,0,0,.18) 50%,rgba(0,0,0,.04)),url('https://static.wixstatic.com/media/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg/v1/fill/w_1440,h_764,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_925a0d8e71a44716a65d95ec04e80fe6.jpg') center/cover no-repeat;position:relative;display:flex;align-items:flex-start}
+    .hero-inner{width:970px;margin:0 auto;padding-top:112px;color:#fff}
+    .eyebrow{font-size:57px;line-height:1;font-weight:800;letter-spacing:-1px;margin:0 0 8px}.tagline{font-size:25px;font-weight:700;text-transform:uppercase;margin:0 0 7px}.hero-phone{font-size:44px;font-weight:700;margin:0 0 34px}.hero-sub{max-width:520px;font-size:19px;margin:0 0 30px;color:#fff}
+    .hero-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;height:53px;padding:0 28px;background:var(--blue);color:var(--yellow);font-size:17px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;border:0}.btn.secondary{background:#101010;color:#fff;border:2px solid rgba(255,255,255,.85)}
+    .hero-proof{margin-top:32px;display:grid;grid-template-columns:repeat(3,150px);gap:10px}.hero-proof div{background:rgba(0,0,0,.48);border-left:4px solid var(--yellow);padding:12px 13px;font-size:13px;text-transform:uppercase;font-weight:700;letter-spacing:.4px}
+    .arrow{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);color:var(--yellow);font-size:42px;line-height:1}
+    section{position:relative}.anchor{position:absolute;top:-130px}.services{background:linear-gradient(rgba(43,108,163,.94),rgba(43,108,163,.94)),url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1400,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center/cover fixed;color:#fff;padding:60px 0 70px;min-height:790px}
+    .section-title{font-size:44px;line-height:1.1;text-align:center;margin:0 0 50px;color:#fff;font-weight:800}.services .section-title{margin-bottom:54px}.section-title.blue{color:var(--blue)}.section-title .yellow{color:var(--yellow)}.section-title .lightblue{color:#5ab7e8}
+    .services-grid{width:930px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:24px;text-align:center}.service-card{min-height:430px;padding:0 8px}.icon-wrap{height:150px;display:flex;align-items:center;justify-content:center;margin-bottom:22px}.icon-wrap img{max-height:150px;width:auto}.service-card h3{font-size:20px;line-height:1.28;margin:0 0 22px;font-weight:700}.service-card ul{list-style:none;padding:0;margin:0;color:#fff;font-size:15px;line-height:1.55}.service-card li{margin-bottom:5px}.quote-guidance{width:760px;margin:38px auto 0;border:2px solid rgba(255,222,17,.9);padding:18px 24px;text-align:center;font-size:18px;background:rgba(0,0,0,.16)}
+    .about{min-height:640px;background:linear-gradient(rgba(18,18,18,.93),rgba(18,18,18,.93)),url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1400,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center/cover fixed;color:#fff;padding:55px 0;text-align:center}.about-copy{width:660px;margin:0 auto;font-size:17px}.headshot{width:166px;height:159px;border-radius:50%;object-fit:cover;margin:6px auto 30px;display:block}.about-copy p{margin:0 0 16px}.not-contractor{display:inline-block;margin-top:16px;padding:10px 18px;border:1px solid rgba(255,255,255,.35);font-size:13px;color:#fff;background:rgba(255,255,255,.05)}
+    .proof{background:#fff;min-height:910px;padding:62px 0 70px}.proof-wrap{width:900px;margin:0 auto}.testimonial-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:28px}.quote{border-top:5px solid var(--yellow);box-shadow:0 8px 24px rgba(0,0,0,.08);padding:34px 34px 28px;min-height:280px;font-size:18px;color:#202020;background:#fff}.quote p{margin-top:0}.quote cite{display:block;text-align:right;color:var(--blue);font-size:18px;font-style:normal;font-weight:700}.proof-strip{margin:52px auto 0;background:#f3f7fb;border-left:8px solid var(--blue);padding:28px 34px;display:grid;grid-template-columns:1.3fr 1fr;gap:26px;align-items:center}.proof-strip h3{font-size:28px;margin:0 0 8px;color:var(--blue)}.proof-strip p{margin:0;font-size:17px}.proof-list{display:grid;gap:10px;font-size:15px;font-weight:700;text-transform:uppercase;color:#1a1a1a}.proof-list span:before{content:'✓';color:var(--blue);font-weight:900;margin-right:8px}.proof-cta{text-align:center;margin-top:44px}.proof-cta .btn{background:var(--blue-dark)}
+    .contact{min-height:700px;background:linear-gradient(rgba(21,62,112,.96),rgba(21,62,112,.96)),url('https://static.wixstatic.com/media/a38016_006ea8c45821441db6f0bb261178cc6f.jpg/v1/fill/w_1440,h_1400,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_006ea8c45821441db6f0bb261178cc6f.jpg') center/cover fixed;color:#fff;padding:28px 0 62px}.contact-wrap{width:930px;margin:0 auto}.contact-row{display:grid;grid-template-columns:1fr 1.35fr 1fr 1fr;gap:34px;margin:18px 0 66px;align-items:start}.contact h3{font-size:20px;margin:0 0 9px;color:#fff;text-transform:uppercase}.contact p,.contact a{font-size:17px;margin:0;color:#fff}.socials{display:flex;gap:7px}.socials img{width:38px;height:38px}.quote-title{text-align:center;font-size:20px;font-weight:700;margin:0 0 16px}.quote-title small{display:block;font-size:14px;color:#d8eafd;margin-top:6px;font-weight:400;text-transform:none}.form{width:540px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}.form input,.form textarea{width:100%;padding:12px 14px;border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.95);font:15px Arial;color:#111}.form textarea{grid-column:1/3;min-height:92px;resize:vertical}.form .submit{grid-column:2/3;justify-self:end;background:var(--yellow);color:#000;font-size:18px;font-weight:800;height:35px;padding:0 20px;border:0;text-transform:uppercase}.footer{height:38px;background:var(--yellow);display:flex;align-items:center;justify-content:center;font-size:15px;color:#1a1a1a}.footer a{color:#1a1a1a;text-decoration:underline}.mobile-only{display:none}
+    @media (max-width:900px){.top-strip{height:auto;min-height:50px;padding:10px;text-align:center;flex-wrap:wrap}.site-header{height:auto;position:relative}.nav-wrap{width:100%;grid-template-columns:1fr;padding:20px;text-align:center}.nav{flex-wrap:wrap}.phone-top{text-align:center}.hero{min-height:650px}.hero-inner{width:100%;padding:80px 26px}.eyebrow{font-size:44px}.hero-phone{font-size:34px}.hero-proof{grid-template-columns:1fr;max-width:360px}.services-grid,.proof-wrap,.contact-wrap,.about-copy{width:auto;margin-left:24px;margin-right:24px}.services-grid,.testimonial-grid,.contact-row{grid-template-columns:1fr}.service-card{min-height:0}.quote-guidance{width:auto;margin-left:24px;margin-right:24px}.proof{min-height:0}.proof-strip{grid-template-columns:1fr}.form{width:auto;grid-template-columns:1fr}.form textarea,.form .submit{grid-column:1}.form .submit{justify-self:stretch;height:44px}.contact{min-height:0}.footer{text-align:center;padding:10px;height:auto}}
+  </style>
+</head>
+<body>
+  <div class="top-strip"><b>Orange County handyman help</b><span>Repairs, assembly, mounting and installs</span><a href="mailto:alexhandy.info@gmail.com">Email photos for a quote</a></div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home">ALEX HANDYMAN SERVICE</a>
+      <nav class="nav" aria-label="Main navigation"><a href="#home">HOME</a><a href="#services">SERVICES</a><a href="#about">ABOUT</a><a href="#contact">CONTACT ME</a></nav>
+      <a class="phone-top" href="tel:16466442923">1-646-644-2923</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Call Alex Handyman Service">
+      <div class="hero-inner">
+        <h1 class="eyebrow">CALL NOW</h1>
+        <p class="tagline">ANY JOB, I WILL FIX IT.</p>
+        <p class="hero-phone"><a href="tel:16466442923">1-646-644-2923</a></p>
+        <p class="hero-sub">Handyman repairs, furniture assembly, mounting, painting touchups and installations for homes and offices in Orange County, CA.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:16466442923">Call for a quote</a>
+          <a class="btn secondary" href="mailto:alexhandy.info@gmail.com?subject=Handyman%20quote%20request">Email job details</a>
+        </div>
+        <div class="hero-proof" aria-label="Service highlights">
+          <div>Clear price before work</div><div>Small repairs welcome</div><div>Not a licensed contractor</div>
+        </div>
+      </div>
+      <div class="arrow" aria-hidden="true">⌄</div>
+    </section>
+
+    <section class="services">
+      <span class="anchor" id="services"></span>
+      <h2 class="section-title">SERVICES</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_6a5a1bff2b7745818c6b2661f05261d9.png/v1/fill/w_69,h_112,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_6a5a1bff2b7745818c6b2661f05261d9.png" alt="Minor repair icon"></div>
+          <h3>Carpentry<br>and minor repair</h3>
+          <ul><li>custom shelf building</li><li>closet customization</li><li>patching holes</li><li>wall holes repair</li><li>sanding</li></ul>
+        </article>
+        <article class="service-card">
+          <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_5b2baf51f5024b4c816c9553e2e607df.png/v1/fill/w_67,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5b2baf51f5024b4c816c9553e2e607df.png" alt="Furniture assembly icon"></div>
+          <h3>Furniture Assembly</h3>
+          <ul><li>Ikea, Wayfair, Crate and Barrel</li><li>Pottery Barn and more</li><li>chairs, tables, couches</li><li>wardrobes, beds, desks</li><li>cabinets and dressers</li></ul>
+        </article>
+        <article class="service-card">
+          <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png/v1/fill/w_41,h_138,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_0b4fe7bbc9df4d85a626fd3190d9e9f4.png" alt="Electrical fixture icon"></div>
+          <h3>Electricity</h3>
+          <ul><li>chandeliers</li><li>lamps</li><li>sockets</li><li>ceiling fans</li><li>fixtures and swaps</li></ul>
+        </article>
+        <article class="service-card">
+          <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_1439136c15f845bcbb1b10286923624e.png/v1/fill/w_48,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_1439136c15f845bcbb1b10286923624e.png" alt="Painting icon"></div>
+          <h3>Painting</h3>
+          <ul><li>painting walls</li><li>painting ceilings</li><li>doors and windows</li><li>touchups after repairs</li></ul>
+        </article>
+        <article class="service-card">
+          <div class="icon-wrap"><img src="https://static.wixstatic.com/media/a38016_5938d9c28cd74c068772d9ea21735305.png/v1/fill/w_60,h_135,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a38016_5938d9c28cd74c068772d9ea21735305.png" alt="Installations icon"></div>
+          <h3>Installations</h3>
+          <ul><li>TV mounting</li><li>lighting fixtures</li><li>shelves and cabinets</li><li>pictures, mirrors, racks</li><li>curtain rods and blinds</li></ul>
+        </article>
+      </div>
+      <div class="quote-guidance"><strong>For a faster quote:</strong> send your Orange County city, the service needed, your timing, and a few photos of the job.</div>
+    </section>
+
+    <section class="about">
+      <span class="anchor" id="about"></span>
+      <h2 class="section-title"><span class="yellow">ABOUT ME</span></h2>
+      <img class="headshot" src="https://static.wixstatic.com/media/2b319b_cabe9f972ef74c0e888ac2e85680093e~mv2_d_1599_1537_s_2.png/v1/fill/w_166,h_159,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2b319b_cabe9f972ef74c0e888ac2e85680093e~mv2_d_1599_1537_s_2.png" alt="Alex Levchenko of Alex Handyman Service">
+      <div class="about-copy">
+        <p>My name is Alex Levchenko. I am here to help you with repairs, installations, and assemblies of every kind.</p>
+        <p>As a handyman, I stand behind my work. My objective is to give you a reasonable price, enter your home or office, and complete the task at hand with excellence.</p>
+        <p>Call today for a free estimate. Thank you.</p>
+        <div class="not-contractor">* I am not a licensed contractor. I focus on handyman-size repairs, assembly and installation jobs.</div>
+      </div>
+    </section>
+
+    <section class="proof">
+      <h2 class="section-title blue">HAPPY CUSTOMERS</h2>
+      <div class="proof-wrap">
+        <div class="testimonial-grid">
+          <blockquote class="quote"><p>Alex did an awesome job! He arrived on time, brought all necessary instruments and quickly assembled my new dresser. The reason I chose him was excellent price/quality ratio and prompt response. I highly recommend him and will return to his service again.</p><cite>- Nataly, Brooklyn</cite></blockquote>
+          <blockquote class="quote"><p>We had a host of household tasks: TV mounting, replacing door hardware and switchplates, hanging a cabinet, and much much more. Alex was on time, super competent, really nice and thoughtful, and met our tight deadline. I couldn't recommend Alex more highly!</p><cite>- James and Melissa, NY</cite></blockquote>
+        </div>
+        <div class="proof-strip">
+          <div><h3>Small jobs handled clearly</h3><p>The page now makes the service path easier to scan: what Alex fixes, what details to send, where he works, and the best next step.</p></div>
+          <div class="proof-list"><span>Orange County, CA</span><span>Call or email directly</span><span>Repair, assembly, install</span></div>
+        </div>
+        <div class="proof-cta"><a class="btn" href="mailto:alexhandy.info@gmail.com?subject=Handyman%20quote%20request">Get a free quote</a></div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <span class="anchor" id="contact"></span>
+      <div class="contact-wrap">
+        <h2 class="section-title"><span class="lightblue">CONTACT ME 24/7</span></h2>
+        <div class="contact-row">
+          <div><h3>CALL ME</h3><p><a href="tel:16466442923">1-646-644-2923</a></p></div>
+          <div><h3>EMAIL ME</h3><p><a href="mailto:alexhandy.info@gmail.com">alexhandy.info@gmail.com</a></p></div>
+          <div><h3>AREAS COVERED</h3><p>Orange County, CA</p></div>
+          <div><h3>FOLLOW ME ON</h3><div class="socials"><a href="https://www.yelp.com/biz/alex-handyman-service-irvine" aria-label="Yelp"><img src="https://static.wixstatic.com/media/263c6eefe13c431681f9363e2e92ddb7.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/263c6eefe13c431681f9363e2e92ddb7.png" alt="Yelp Social Icon"></a><a href="https://tr.co/alex-l--42" aria-label="TaskRabbit"><img src="https://static.wixstatic.com/media/2b319b_e400a0fd442447e294eed29603e7c7af~mv2.jpg/v1/fill/w_38,h_38,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2b319b_e400a0fd442447e294eed29603e7c7af~mv2.jpg" alt="TaskRabbit"></a><img src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png" alt="Facebook Social Icon"></div></div>
+        </div>
+        <div class="quote-title">GET A FREE QUOTE!<small>Tell Alex what needs fixing, your city, and when you would like it done.</small></div>
+        <form class="form" action="mailto:alexhandy.info@gmail.com" method="post" enctype="text/plain">
+          <input aria-label="Name" name="name" placeholder="Name">
+          <input aria-label="Phone or email" name="contact" placeholder="Phone or email">
+          <input aria-label="City" name="city" placeholder="Orange County city">
+          <input aria-label="Service needed" name="service" placeholder="Service needed">
+          <textarea aria-label="Job details" name="message" placeholder="Briefly describe the job. Add photos by email for the fastest estimate."></textarea>
+          <button class="submit" type="submit">GET A JOB DONE</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">© 2017 Alex's handyman service. Site improvement direction based on the existing Wix page.</footer>
+</body>
+</html>
