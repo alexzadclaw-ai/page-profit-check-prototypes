@@ -1,0 +1,20 @@
+{
+  "batch": "2026-05-25-0839-e2e-check",
+  "runType": "e2e-check",
+  "createdAt": "2026-05-25 08:39 America/Chicago",
+  "curatedCount": 1,
+  "inspectedCandidateCount": 1,
+  "items": [
+    {
+      "slug": "fix-it-quick-rva",
+      "name": "Fix It Quick: Handyman Services LLC",
+      "url": "https://fixitquickrva.wixsite.com/handyman",
+      "vertical": "handyman services",
+      "city": "Richmond",
+      "state": "VA",
+      "email": "fixitquickrva@gmail.com",
+      "phone": "(804)393-1391",
+      "angle": "make the Richmond/Tri-Cities service promise, common handyman tasks, and call/email estimate path obvious in the first screen"
+    }
+  ]
+}

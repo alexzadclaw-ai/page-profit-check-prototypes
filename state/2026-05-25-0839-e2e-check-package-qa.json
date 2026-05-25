@@ -1,0 +1,54 @@
+{
+  "batch": "2026-05-25-0839-e2e-check",
+  "batchJson": "opportunities/2026-05-25-0839-e2e-check/batch.json",
+  "itemsInBatchJson": 1,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 1,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "fix-it-quick-rva",
+      "name": "Fix It Quick: Handyman Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-05-25-0839-e2e-check/fix-it-quick-rva-audit.md",
+          "exists": true,
+          "size": 9037
+        },
+        "offer": {
+          "path": "offers/2026-05-25-0839-e2e-check/fix-it-quick-rva-offer.md",
+          "exists": true,
+          "size": 2380
+        },
+        "prototype": {
+          "path": "prototypes/2026-05-25-0839-e2e-check/fix-it-quick-rva/index.html",
+          "exists": true,
+          "size": 13271
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-05-25-0839-e2e-check/fix-it-quick-rva-target.png",
+          "exists": true,
+          "size": 523308
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-05-25-0839-e2e-check/fix-it-quick-rva-prototype.png",
+          "exists": true,
+          "size": 1638894
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.1964,
+        "pixelSimilarity": 0.3671,
+        "edgeLayoutSimilarity": 0.6695,
+        "perceptualHashSimilarity": 0.5469,
+        "weightedSimilarity": 0.427
+      },
+      "sourceAssetsNote": "state/2026-05-25-0839-e2e-check/fix-it-quick-rva-source-assets.md"
+    }
+  ]
+}
