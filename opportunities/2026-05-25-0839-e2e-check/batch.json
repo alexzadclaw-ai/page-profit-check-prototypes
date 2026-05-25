@@ -12,8 +12,10 @@
       "vertical": "handyman services",
       "city": "Richmond",
       "state": "VA",
+      "location": "Richmond, VA",
       "email": "fixitquickrva@gmail.com",
       "phone": "(804)393-1391",
+      "contact": "mailto:fixitquickrva@gmail.com",
       "angle": "make the Richmond/Tri-Cities service promise, common handyman tasks, and call/email estimate path obvious in the first screen"
     }
   ]
