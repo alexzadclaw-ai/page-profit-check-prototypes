@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fix It Quick: Handyman Services LLC</title>
+  <style>
+    :root {
+      --ink: #161616;
+      --muted: #5f6064;
+      --line: #d8d8d8;
+      --panel: rgba(255, 255, 255, 0.94);
+      --accent: #2f6f9f;
+      --accent-dark: #1f4d73;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: #efefef;
+    }
+    .page {
+      min-height: 2310px;
+      background:
+        linear-gradient(rgba(255,255,255,0.08), rgba(255,255,255,0.08)),
+        url("../../../screenshots/2026-05-28-1355-nightly/fix-it-quick-rva-target.png") top center / 1365px auto no-repeat;
+      position: relative;
+    }
+    .wix-strip {
+      height: 50px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      color: #333;
+      font-size: 14px;
+    }
+    .wix-strip a {
+      color: #116dff;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    header {
+      max-width: 1080px;
+      margin: 42px auto 0;
+      padding: 0 28px;
+      text-align: center;
+    }
+    .brand {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.86);
+      display: inline-block;
+      padding: 10px 18px;
+    }
+    nav {
+      margin-top: 36px;
+      display: flex;
+      justify-content: center;
+      gap: 31px;
+      flex-wrap: wrap;
+      font-size: 15px;
+    }
+    nav a {
+      color: #1c1c1c;
+      text-decoration: none;
+      background: rgba(255,255,255,0.78);
+      padding: 4px 2px;
+    }
+    nav a:first-child { color: #6c6c6c; }
+    main {
+      max-width: 880px;
+      margin: 360px auto 0;
+      padding: 0 24px 80px;
+    }
+    .hero-card {
+      background: var(--panel);
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 46px 52px 44px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      line-height: 1.25;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .tagline {
+      margin: 24px auto 0;
+      color: #444;
+      font-size: 22px;
+      line-height: 1.5;
+      max-width: 580px;
+    }
+    .intro {
+      margin: 26px auto 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.72;
+      max-width: 650px;
+    }
+    .cta-row {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .button {
+      min-height: 46px;
+      padding: 14px 22px;
+      border: 1px solid var(--accent-dark);
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .button.secondary {
+      background: #fff;
+      color: var(--accent-dark);
+    }
+    .chips {
+      margin: 28px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 660px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.96);
+      padding: 13px 10px;
+      color: #303030;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .proof {
+      margin: 28px auto 0;
+      max-width: 670px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.92);
+    }
+    .proof div {
+      padding: 16px 12px;
+      border-right: 1px solid var(--line);
+      font-size: 13px;
+      color: #4f4f4f;
+    }
+    .proof div:last-child { border-right: 0; }
+    .proof strong {
+      display: block;
+      color: #151515;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+    .contact-panel {
+      margin: 110px auto 0;
+      max-width: 760px;
+      background: rgba(255,255,255,0.9);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 34px 28px;
+      text-align: center;
+    }
+    .contact-panel h2 {
+      margin: 0 0 18px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      letter-spacing: 0.04em;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      color: #333;
+      font-size: 16px;
+    }
+    .contact-grid a {
+      color: #222;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 14px;
+    }
+    footer {
+      margin-top: 72px;
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      background: rgba(255,255,255,0.82);
+      padding: 24px;
+    }
+    @media (max-width: 760px) {
+      .page { background-size: auto 1450px; }
+      header { margin-top: 26px; }
+      nav { gap: 14px; font-size: 14px; }
+      main { margin-top: 280px; }
+      .hero-card { padding: 32px 22px; }
+      h1 { font-size: 23px; }
+      .tagline { font-size: 19px; }
+      .chips, .proof, .contact-grid { grid-template-columns: 1fr; }
+      .proof div { border-right: 0; border-bottom: 1px solid var(--line); }
+      .proof div:last-child { border-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="wix-strip">
+      <span>This website was built on Wix. Create yours today.</span>
+      <a href="https://www.wix.com/">Get Started</a>
+    </div>
+    <header>
+      <div class="brand">Fix It Quick: Handyman Services LLC</div>
+      <nav aria-label="Primary">
+        <a href="https://fixitquickrva.wixsite.com/handyman">Home</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/services">Services</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/pricing-rates">Pricing / Rates</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/photo-gallery">Photo Gallery</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/about">About</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/contact">Contact</a>
+        <a href="https://fixitquickrva.wixsite.com/handyman/provide-feedback">Provide Feedback</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-card">
+        <h1>Fix It Quick: Handyman Services LLC</h1>
+        <p class="tagline">Keeping handyman work, "Short, Sweet, and Simple!"</p>
+        <p class="intro">Professional, reliable, and safe home improvement services for Richmond and the Tri-Cities area of VA. Repairs, assembly, and small projects get a clearer path from the first visit to the first call.</p>
+        <div class="cta-row">
+          <a class="button" href="mailto:fixitquickrva@gmail.com">Request a Quick Fix</a>
+          <a class="button secondary" href="tel:+18043931391">Call (804) 393-1391</a>
+        </div>
+        <div class="chips">
+          <div class="chip">Home repairs and punch-list fixes</div>
+          <div class="chip">Furniture and fixture assembly</div>
+          <div class="chip">Small improvement projects</div>
+        </div>
+        <div class="proof">
+          <div><strong>Local</strong>Richmond and Tri-Cities, VA</div>
+          <div><strong>Direct</strong>Email or call with the job details</div>
+          <div><strong>Simple</strong>Clear next step for urgent fixes</div>
+        </div>
+      </section>
+      <section class="contact-panel">
+        <h2>Looking forward to doing business with you!</h2>
+        <div class="contact-grid">
+          <a href="mailto:fixitquickrva@gmail.com">Email: fixitquickrva@gmail.com</a>
+          <a href="tel:+18043931391">Contact Number: (804)393-1391</a>
+        </div>
+      </section>
+      <footer>
+        ©2020 by Fix It Quick: Handyman Services LLC. Proudly created with Wix.com
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

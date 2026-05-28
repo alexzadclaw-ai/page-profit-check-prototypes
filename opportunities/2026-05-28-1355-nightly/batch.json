@@ -1,0 +1,22 @@
+{
+  "batch": "2026-05-28-1355-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-05-28T18:55:00Z",
+  "items": [
+    {
+      "slug": "fix-it-quick-rva",
+      "name": "Fix It Quick: Handyman Services LLC",
+      "url": "https://fixitquickrva.wixsite.com/handyman",
+      "contact": "mailto:fixitquickrva@gmail.com",
+      "email": "fixitquickrva@gmail.com",
+      "phone": "(804) 393-1391",
+      "vertical": "handyman repairs, assembly, and small home improvement projects",
+      "city": "Richmond",
+      "state": "VA",
+      "location": "Richmond and Tri-Cities, VA",
+      "priority": "A-",
+      "summary": "A real local handyman site with a clear service promise and contact details, but the first screen can make quote requests faster and more confidence-building.",
+      "angle": "Keep the Wix handyman identity, tool imagery, direct tone, and local contact path while tightening the first-screen hierarchy around urgent repair requests."
+    }
+  ]
+}
