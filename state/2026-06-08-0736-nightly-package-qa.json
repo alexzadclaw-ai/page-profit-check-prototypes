@@ -1,0 +1,222 @@
+{
+  "batch": "2026-06-08-0736-nightly",
+  "batchJson": "opportunities/2026-06-08-0736-nightly/batch.json",
+  "itemsInBatchJson": 5,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 5,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "handyman-experts",
+      "name": "Handyman Experts",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-08-0736-nightly/handyman-experts-audit.md",
+          "exists": true,
+          "size": 3698
+        },
+        "offer": {
+          "path": "offers/2026-06-08-0736-nightly/handyman-experts-offer.md",
+          "exists": true,
+          "size": 1422
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-08-0736-nightly/handyman-experts/index.html",
+          "exists": true,
+          "size": 5889
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/handyman-experts-target.png",
+          "exists": true,
+          "size": 1317688
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/handyman-experts-prototype.png",
+          "exists": true,
+          "size": 495515
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7934,
+        "pixelSimilarity": 0.8106,
+        "edgeLayoutSimilarity": 0.8182,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.8155
+      },
+      "sourceAssetsNote": "state/2026-06-08-0736-nightly/handyman-experts-source-assets.md"
+    },
+    {
+      "slug": "dzurnak-construction",
+      "name": "Tomas Dzurnak Construction",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-08-0736-nightly/dzurnak-construction-audit.md",
+          "exists": true,
+          "size": 3696
+        },
+        "offer": {
+          "path": "offers/2026-06-08-0736-nightly/dzurnak-construction-offer.md",
+          "exists": true,
+          "size": 1448
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-08-0736-nightly/dzurnak-construction/index.html",
+          "exists": true,
+          "size": 5894
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/dzurnak-construction-target.png",
+          "exists": true,
+          "size": 11437498
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/dzurnak-construction-prototype.png",
+          "exists": true,
+          "size": 1760233
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.7816,
+        "pixelSimilarity": 0.7092,
+        "edgeLayoutSimilarity": 0.8354,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.7814
+      },
+      "sourceAssetsNote": "state/2026-06-08-0736-nightly/dzurnak-construction-source-assets.md"
+    },
+    {
+      "slug": "luma-landscaping",
+      "name": "LUMA Landscaping",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-08-0736-nightly/luma-landscaping-audit.md",
+          "exists": true,
+          "size": 3698
+        },
+        "offer": {
+          "path": "offers/2026-06-08-0736-nightly/luma-landscaping-offer.md",
+          "exists": true,
+          "size": 1417
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-08-0736-nightly/luma-landscaping/index.html",
+          "exists": true,
+          "size": 5911
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/luma-landscaping-target.png",
+          "exists": true,
+          "size": 3965364
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/luma-landscaping-prototype.png",
+          "exists": true,
+          "size": 2556680
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8784,
+        "pixelSimilarity": 0.8773,
+        "edgeLayoutSimilarity": 0.8252,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.8619
+      },
+      "sourceAssetsNote": "state/2026-06-08-0736-nightly/luma-landscaping-source-assets.md"
+    },
+    {
+      "slug": "arbeen-landscaping",
+      "name": "Arbeen Landscaping",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-08-0736-nightly/arbeen-landscaping-audit.md",
+          "exists": true,
+          "size": 3690
+        },
+        "offer": {
+          "path": "offers/2026-06-08-0736-nightly/arbeen-landscaping-offer.md",
+          "exists": true,
+          "size": 1429
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-08-0736-nightly/arbeen-landscaping/index.html",
+          "exists": true,
+          "size": 5910
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/arbeen-landscaping-target.png",
+          "exists": true,
+          "size": 7527482
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/arbeen-landscaping-prototype.png",
+          "exists": true,
+          "size": 1573375
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8298,
+        "pixelSimilarity": 0.7419,
+        "edgeLayoutSimilarity": 0.7871,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.7928
+      },
+      "sourceAssetsNote": "state/2026-06-08-0736-nightly/arbeen-landscaping-source-assets.md"
+    },
+    {
+      "slug": "pets-etc",
+      "name": "Pets Etc.",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-08-0736-nightly/pets-etc-audit.md",
+          "exists": true,
+          "size": 3653
+        },
+        "offer": {
+          "path": "offers/2026-06-08-0736-nightly/pets-etc-offer.md",
+          "exists": true,
+          "size": 1387
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-08-0736-nightly/pets-etc/index.html",
+          "exists": true,
+          "size": 5846
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/pets-etc-target.png",
+          "exists": true,
+          "size": 1156629
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-08-0736-nightly/pets-etc-prototype.png",
+          "exists": true,
+          "size": 607348
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.8185,
+        "pixelSimilarity": 0.712,
+        "edgeLayoutSimilarity": 0.8172,
+        "perceptualHashSimilarity": 0.8594,
+        "weightedSimilarity": 0.787
+      },
+      "sourceAssetsNote": "state/2026-06-08-0736-nightly/pets-etc-source-assets.md"
+    }
+  ]
+}

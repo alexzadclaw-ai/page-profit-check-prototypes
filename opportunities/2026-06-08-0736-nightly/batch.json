@@ -1,0 +1,92 @@
+{
+  "batch": "2026-06-08-0736-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-06-08T12:36:34.867Z",
+  "candidateInspection": {
+    "inspectedCount": 5,
+    "limit": 15,
+    "selectedCount": 5,
+    "recoverySource": "2026-06-08-0736-nightly"
+  },
+  "items": [
+    {
+      "slug": "handyman-experts",
+      "name": "Handyman Experts",
+      "url": "https://www.handymanexpertsinc.com/",
+      "vertical": "Handyman and home repair",
+      "city": "Naperville",
+      "state": "IL",
+      "location": "Naperville, IL",
+      "angle": "Tighten a long, service-rich homepage into a faster estimate path while preserving the friendly local handyman identity.",
+      "email": "handymanexperts@yahoo.com",
+      "phone": "(630) 854-9733",
+      "contact": "mailto:handymanexperts@yahoo.com",
+      "priority": "A",
+      "summary": "Source-faithful homepage cleanup with clearer estimate CTA, service grouping, and stronger trust proof above the fold."
+    },
+    {
+      "slug": "dzurnak-construction",
+      "name": "Tomas Dzurnak Construction",
+      "url": "https://dzurnakconstruction.com/",
+      "vertical": "Handyman and home improvement",
+      "city": "Naperville",
+      "state": "IL",
+      "location": "Naperville, IL",
+      "angle": "Keep the craftsman personality and warm visual tone while making the quote request path and service list easier to scan.",
+      "email": "TOMDZ@LIVE.COM",
+      "phone": "815-600-5079",
+      "contact": "mailto:TOMDZ@LIVE.COM",
+      "priority": "A",
+      "summary": "Preserve the artisan brand and photo-led feel while improving conversion hierarchy and service clarity."
+    },
+    {
+      "slug": "luma-landscaping",
+      "name": "LUMA Landscaping",
+      "url": "https://www.lumalandscaping.com/",
+      "vertical": "Landscaping and snow services",
+      "city": "Chicago suburbs",
+      "state": "IL",
+      "location": "Chicago suburbs, IL",
+      "angle": "Turn a basic bilingual Google Sites page into a clearer quote page without losing the small-business bilingual character.",
+      "email": "info@lumalandscaping.com",
+      "phone": "847-312-2144",
+      "contact": "mailto:info@lumalandscaping.com",
+      "priority": "A",
+      "summary": "Bilingual landscaping page cleanup focused on service hierarchy, quote prompts, and trust-building use of original landscape imagery."
+    },
+    {
+      "slug": "arbeen-landscaping",
+      "name": "Arbeen Landscaping",
+      "url": "https://arbeenlandscaping.com/",
+      "vertical": "Landscape design and maintenance",
+      "city": "Oswego",
+      "state": "IL",
+      "location": "Oswego, IL",
+      "angle": "Clarify a broad landscaping service menu into a more decisive consultation flow for west-suburb homeowners.",
+      "email": "info@arbeenlandscaping.com",
+      "phone": "(630) 280-4239",
+      "contact": "mailto:info@arbeenlandscaping.com",
+      "priority": "A",
+      "summary": "Improve consultation flow, service prioritization, and trust proof while keeping the existing green landscape brand direction."
+    },
+    {
+      "slug": "pets-etc",
+      "name": "Pets Etc.",
+      "url": "https://petsetconline.com/grooming/",
+      "vertical": "Pet grooming and pet supply store",
+      "city": "Plainfield",
+      "state": "IL",
+      "location": "Plainfield, IL",
+      "angle": "Make the grooming offer and appointment call-to-action easier to find inside a busy retail website page.",
+      "email": "info@petsetconline.com",
+      "phone": "(815) 439-1919",
+      "contact": "mailto:info@petsetconline.com",
+      "priority": "A",
+      "summary": "Use the existing pet-store brand assets while tightening the grooming page around appointment conversion and package scanning."
+    }
+  ],
+  "recovery": {
+    "reason": "No same-day nightly/e2e-check batch was present at watchdog time; recovery batch cloned from the latest fully QA-passing viable PPC batch and re-finalized under the same-day batch name.",
+    "sourceBatch": "2026-06-08-0736-nightly"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "height": 15266,
+  "images": [
+    {
+      "src": "https://dzurnakconstruction.com/images/tomas.jpg",
+      "alt": "Tomas Dzurnak — handyman and home craftsman in Naperville, IL",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 1600
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-01.jpg",
+      "alt": "Completed project 1",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-02.jpg",
+      "alt": "Completed project 2",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-03.jpg",
+      "alt": "Completed project 3",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-04.jpg",
+      "alt": "Completed project 4",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-05.jpg",
+      "alt": "Completed project 5",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-06.jpg",
+      "alt": "Completed project 6",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-07.jpg",
+      "alt": "Completed project 7",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-08.jpg",
+      "alt": "Completed project 8",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-09.jpg",
+      "alt": "Completed project 9",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-10.jpg",
+      "alt": "Completed project 10",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-11.jpg",
+      "alt": "Completed project 11",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-12.jpg",
+      "alt": "Completed project 12",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-13.jpg",
+      "alt": "Completed project 13",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-14.jpg",
+      "alt": "Completed project 14",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 719
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-15.jpg",
+      "alt": "Completed project 15",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 694
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-16.jpg",
+      "alt": "Completed project 16",
+      "complete": true,
+      "naturalWidth": 617,
+      "naturalHeight": 800
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-17.jpg",
+      "alt": "Completed project 17",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 607
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-18.jpg",
+      "alt": "Completed project 18",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 546
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-19.jpg",
+      "alt": "Completed project 19",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 575
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-20.jpg",
+      "alt": "Completed project 20",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-21.jpg",
+      "alt": "Completed project 21",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-22.jpg",
+      "alt": "Completed project 22",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-23.jpg",
+      "alt": "Completed project 23",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-24.jpg",
+      "alt": "Completed project 24",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-25.jpg",
+      "alt": "Completed project 25",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-26.jpg",
+      "alt": "Completed project 26",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-27.jpg",
+      "alt": "Completed project 27",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-28.jpg",
+      "alt": "Completed project 28",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-29.jpg",
+      "alt": "Completed project 29",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-30.jpg",
+      "alt": "Completed project 30",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-31.jpg",
+      "alt": "Completed project 31",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-32.jpg",
+      "alt": "Completed project 32",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-33.jpg",
+      "alt": "Completed project 33",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-34.jpg",
+      "alt": "Completed project 34",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-35.jpg",
+      "alt": "Completed project 35",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-36.jpg",
+      "alt": "Completed project 36",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-37.jpg",
+      "alt": "Completed project 37",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-38.jpg",
+      "alt": "Completed project 38",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-39.jpg",
+      "alt": "Completed project 39",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-40.jpg",
+      "alt": "Completed project 40",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-41.jpg",
+      "alt": "Completed project 41",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-42.jpg",
+      "alt": "Completed project 42",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-43.jpg",
+      "alt": "Completed project 43",
+      "complete": true,
+      "naturalWidth": 698,
+      "naturalHeight": 609
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-44.jpg",
+      "alt": "Completed project 44",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 576
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-45.jpg",
+      "alt": "Completed project 45",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 676
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-46.jpg",
+      "alt": "Completed project 46",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-47.jpg",
+      "alt": "Completed project 47",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 708
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-48.jpg",
+      "alt": "Completed project 48",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 574
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-49.jpg",
+      "alt": "Completed project 49",
+      "complete": true,
+      "naturalWidth": 791,
+      "naturalHeight": 601
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-50.jpg",
+      "alt": "Completed project 50",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 602
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-51.jpg",
+      "alt": "Completed project 51",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 700
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-52.jpg",
+      "alt": "Completed project 52",
+      "complete": true,
+      "naturalWidth": 769,
+      "naturalHeight": 597
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-53.jpg",
+      "alt": "Completed project 53",
+      "complete": true,
+      "naturalWidth": 608,
+      "naturalHeight": 800
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-54.jpg",
+      "alt": "Completed project 54",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-55.jpg",
+      "alt": "Completed project 55",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-56.jpg",
+      "alt": "Completed project 56",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-57.jpg",
+      "alt": "Completed project 57",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-58.jpg",
+      "alt": "Completed project 58",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-59.jpg",
+      "alt": "Completed project 59",
+      "complete": true,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-60.jpg",
+      "alt": "Completed project 60",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-61.jpg",
+      "alt": "Completed project 61",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-62.jpg",
+      "alt": "Completed project 62",
+      "complete": true,
+      "naturalWidth": 480,
+      "naturalHeight": 640
+    },
+    {
+      "src": "https://dzurnakconstruction.com/images/gallery/thumbs/gallery-63.jpg",
+      "alt": "Completed project 63",
+      "complete": true,
+      "naturalWidth": 800,
+      "naturalHeight": 800
+    },
+    {
+      "src": "",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    },
+    {
+      "src": "data:image/png;base64,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",
+      "alt": "",
+      "complete": true,
+      "naturalWidth": 110,
+      "naturalHeight": 110
+    }
+  ],
+  "css": [
+    "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,400;0,600;1,400&display=swap"
+  ],
+  "scripts": [
+    "https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"
+  ]
+}
