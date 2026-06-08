@@ -1,0 +1,88 @@
+{
+  "batch": "2026-06-08-0808-nightly",
+  "runType": "nightly",
+  "createdAt": "2026-06-08T13:14:29.195Z",
+  "candidateInspection": {
+    "inspectedCount": 15,
+    "limit": 15,
+    "selectedCount": 5,
+    "source": "recent-live-local-service-leads"
+  },
+  "items": [
+    {
+      "slug": "routine-clean-central-il",
+      "name": "Routine Clean Central IL",
+      "url": "https://routinecleaninfo.wixsite.com/routineclean",
+      "vertical": "Commercial and residential cleaning",
+      "city": "Bloomington-Normal",
+      "state": "IL",
+      "location": "Bloomington-Normal, IL",
+      "angle": "Turn a service-heavy cleaning page into a faster estimate request path while keeping the practical local-service tone.",
+      "email": "routinecleaninfo@gmail.com",
+      "phone": "309-386-3040",
+      "contact": "mailto:routinecleaninfo@gmail.com",
+      "priority": "A",
+      "summary": "Source-faithful commercial and residential cleaning page cleanup focused on clearer CTA hierarchy, service grouping, and trust proof for Bloomington-Normal, IL."
+    },
+    {
+      "slug": "iron-city-handyman-services",
+      "name": "Iron City Handyman Services LLC",
+      "url": "https://ironcityhandymanse.wixsite.com/my-site-4",
+      "vertical": "Handyman and property repair",
+      "city": "Birmingham",
+      "state": "AL",
+      "location": "Birmingham metro, AL",
+      "angle": "Preserve the owner-operated service feel while making services, trust proof, and the quote action easier to scan.",
+      "email": "IRONCITYHANDYMANSERVICES@GMAIL.COM",
+      "phone": "205-369-3970",
+      "contact": "mailto:IRONCITYHANDYMANSERVICES@GMAIL.COM",
+      "priority": "A",
+      "summary": "Source-faithful handyman and property repair page cleanup focused on clearer CTA hierarchy, service grouping, and trust proof for Birmingham metro, AL."
+    },
+    {
+      "slug": "er-painting-services",
+      "name": "ER Painting Services & More LLC",
+      "url": "https://erpaintingservices.wixsite.com/er-painting-services",
+      "vertical": "Painting and home services",
+      "city": "Central Florida",
+      "state": "FL",
+      "location": "Central Florida",
+      "angle": "Keep the project-photo personality while tightening the page around painting estimates, scope, and local trust.",
+      "email": "erpaintingservices@gmail.com",
+      "phone": "352-817-0191",
+      "contact": "mailto:erpaintingservices@gmail.com",
+      "priority": "A",
+      "summary": "Source-faithful painting and home services page cleanup focused on clearer CTA hierarchy, service grouping, and trust proof for Central Florida."
+    },
+    {
+      "slug": "ryguy-home-renovations",
+      "name": "RyGuy's Home Renovations LLC",
+      "url": "https://ryguyshomerenovati.wixsite.com/ryguyshomerenovation",
+      "vertical": "Home renovation and repair",
+      "city": "York",
+      "state": "PA",
+      "location": "York, PA",
+      "angle": "Preserve the owner-operated service feel while making services, trust proof, and the quote action easier to scan.",
+      "email": "ryguyshomerenovations@gmail.com",
+      "phone": "717-424-4626",
+      "contact": "mailto:ryguyshomerenovations@gmail.com",
+      "priority": "A",
+      "summary": "Source-faithful home renovation and repair page cleanup focused on clearer CTA hierarchy, service grouping, and trust proof for York, PA."
+    },
+    {
+      "slug": "levesque-home-auto-services",
+      "name": "Levesque Home & Auto Services",
+      "url": "https://levesquehomeandaut.wixsite.com/levesquehomeautoserv",
+      "vertical": "Home and auto services",
+      "city": "Bangor",
+      "state": "ME",
+      "location": "Bangor, ME",
+      "angle": "Preserve the owner-operated service feel while making services, trust proof, and the quote action easier to scan.",
+      "email": "levesquehomeandautoservices@gmail.com",
+      "phone": "207-745-8448",
+      "contact": "mailto:levesquehomeandautoservices@gmail.com",
+      "priority": "A",
+      "summary": "Source-faithful home and auto services page cleanup focused on clearer CTA hierarchy, service grouping, and trust proof for Bangor, ME."
+    }
+  ]
+}
