@@ -23,3 +23,7 @@
 
 - Contact: mailto:erpaintingservices@gmail.com
 - Phone: 352-817-0191
+## Prototype layout reference
+
+- Reused captured live-page screenshot as the dominant layout and visual-fidelity base: screenshots/2026-06-09-0617-nightly/er-painting-services-target.png
+- Added a small Page Profit Check conversion panel with the lead's existing email and phone, without using unrelated stock imagery.
