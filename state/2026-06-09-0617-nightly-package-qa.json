@@ -4,15 +4,17 @@
   "itemsInBatchJson": 5,
   "duplicateSlugs": [],
   "normalizedScreenshots": [],
-  "completeCount": 5,
-  "incompleteCount": 0,
-  "passed": true,
+  "completeCount": 0,
+  "incompleteCount": 5,
+  "passed": false,
   "results": [
     {
       "slug": "routine-clean-central-il",
       "name": "Routine Clean Central IL",
-      "complete": true,
-      "failures": [],
+      "complete": false,
+      "failures": [
+        "Visual resemblance below gate: weighted=0.5763, edge=0.7066"
+      ],
       "warnings": [],
       "files": {
         "audit": {
@@ -53,8 +55,10 @@
     {
       "slug": "iron-city-handyman-services",
       "name": "Iron City Handyman Services LLC",
-      "complete": true,
-      "failures": [],
+      "complete": false,
+      "failures": [
+        "Visual resemblance below gate: weighted=0.4674, edge=0.6387"
+      ],
       "warnings": [],
       "files": {
         "audit": {
@@ -95,8 +99,10 @@
     {
       "slug": "er-painting-services",
       "name": "ER Painting Services & More LLC",
-      "complete": true,
-      "failures": [],
+      "complete": false,
+      "failures": [
+        "Visual resemblance below gate: weighted=0.5786, edge=0.6886"
+      ],
       "warnings": [],
       "files": {
         "audit": {
@@ -137,8 +143,10 @@
     {
       "slug": "ryguy-home-renovations",
       "name": "RyGuy's Home Renovations LLC",
-      "complete": true,
-      "failures": [],
+      "complete": false,
+      "failures": [
+        "Visual resemblance below gate: weighted=0.5751, edge=0.7051"
+      ],
       "warnings": [],
       "files": {
         "audit": {
@@ -179,8 +187,10 @@
     {
       "slug": "levesque-home-auto-services",
       "name": "Levesque Home & Auto Services",
-      "complete": true,
-      "failures": [],
+      "complete": false,
+      "failures": [
+        "Visual resemblance below gate: weighted=0.5642, edge=0.688"
+      ],
       "warnings": [],
       "files": {
         "audit": {

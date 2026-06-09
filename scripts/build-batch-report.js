@@ -40,11 +40,13 @@ const cards = items.map(it => {
   const protoShotPath = rel('screenshots', batch, `${slug}-prototype.png`);
   const qaItem = qa && (qa.results || []).find(r => r.slug === slug);
   const metrics = qaItem && qaItem.visualMetrics ? ` · visual ${qaItem.visualMetrics.weightedSimilarity} weighted / ${qaItem.visualMetrics.edgeLayoutSimilarity} edge` : '';
+  const failures = qaItem && qaItem.failures && qaItem.failures.length ? `<p class="note fail">QA failures: ${esc(qaItem.failures.join('; '))}</p>` : '';
   const warnings = qaItem && qaItem.warnings && qaItem.warnings.length ? `<p class="note">QA warnings: ${esc(qaItem.warnings.join('; '))}</p>` : '';
   return `<article class="opportunity" id="${esc(slug)}">
     <p class="score">Priority ${esc(it.priority || 'review')} · Batch ${esc(batch)}${esc(metrics)}</p>
     <h2>${esc(it.name || slug)}</h2>
     <p>${esc(it.summary || it.angle || 'Surgical Page Profit Check cleanup with source-site assets and clearer conversion flow.')}</p>
+    ${failures}
     ${warnings}
     <div class="shots">
       <figure class="shot"><figcaption>Current site</figcaption><img src="${esc(rawUrl(targetPath))}" alt="Current-site screenshot for ${esc(it.name || slug)}"></figure>

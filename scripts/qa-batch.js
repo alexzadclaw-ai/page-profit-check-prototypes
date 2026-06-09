@@ -122,9 +122,9 @@ for (const item of items) {
         result.visualMetrics = JSON.parse(py.stdout);
         if (result.visualMetrics.error) fail(`Visual similarity gate error: ${result.visualMetrics.error}`);
         const m = result.visualMetrics;
-        if (m.weightedSimilarity < 0.25 || m.edgeLayoutSimilarity < 0.45) {
+        if (m.weightedSimilarity < 0.70 || m.edgeLayoutSimilarity < 0.70) {
           fail(`Visual resemblance below gate: weighted=${m.weightedSimilarity}, edge=${m.edgeLayoutSimilarity}`);
-        } else if (m.weightedSimilarity < 0.40) {
+        } else if (m.weightedSimilarity < 0.78 || m.edgeLayoutSimilarity < 0.78) {
           warn(`Low visual similarity, requires human/vision review: weighted=${m.weightedSimilarity}`);
         }
       } catch (e) {
