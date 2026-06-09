@@ -1,0 +1,222 @@
+{
+  "batch": "2026-06-09-0617-nightly",
+  "batchJson": "opportunities/2026-06-09-0617-nightly/batch.json",
+  "itemsInBatchJson": 5,
+  "duplicateSlugs": [],
+  "normalizedScreenshots": [],
+  "completeCount": 5,
+  "incompleteCount": 0,
+  "passed": true,
+  "results": [
+    {
+      "slug": "routine-clean-central-il",
+      "name": "Routine Clean Central IL",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-09-0617-nightly/routine-clean-central-il-audit.md",
+          "exists": true,
+          "size": 5093
+        },
+        "offer": {
+          "path": "offers/2026-06-09-0617-nightly/routine-clean-central-il-offer.md",
+          "exists": true,
+          "size": 1484
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-09-0617-nightly/routine-clean-central-il/index.html",
+          "exists": true,
+          "size": 6818
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/routine-clean-central-il-target.png",
+          "exists": true,
+          "size": 1060632
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/routine-clean-central-il-prototype.png",
+          "exists": true,
+          "size": 582926
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3677,
+        "pixelSimilarity": 0.6717,
+        "edgeLayoutSimilarity": 0.7066,
+        "perceptualHashSimilarity": 0.4844,
+        "weightedSimilarity": 0.5763
+      },
+      "sourceAssetsNote": "state/2026-06-09-0617-nightly/routine-clean-central-il-source-assets.md"
+    },
+    {
+      "slug": "iron-city-handyman-services",
+      "name": "Iron City Handyman Services LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-09-0617-nightly/iron-city-handyman-services-audit.md",
+          "exists": true,
+          "size": 5143
+        },
+        "offer": {
+          "path": "offers/2026-06-09-0617-nightly/iron-city-handyman-services-offer.md",
+          "exists": true,
+          "size": 1510
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-09-0617-nightly/iron-city-handyman-services/index.html",
+          "exists": true,
+          "size": 6949
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/iron-city-handyman-services-target.png",
+          "exists": true,
+          "size": 2187673
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/iron-city-handyman-services-prototype.png",
+          "exists": true,
+          "size": 969869
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3178,
+        "pixelSimilarity": 0.438,
+        "edgeLayoutSimilarity": 0.6387,
+        "perceptualHashSimilarity": 0.5,
+        "weightedSimilarity": 0.4674
+      },
+      "sourceAssetsNote": "state/2026-06-09-0617-nightly/iron-city-handyman-services-source-assets.md"
+    },
+    {
+      "slug": "er-painting-services",
+      "name": "ER Painting Services & More LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-09-0617-nightly/er-painting-services-audit.md",
+          "exists": true,
+          "size": 4759
+        },
+        "offer": {
+          "path": "offers/2026-06-09-0617-nightly/er-painting-services-offer.md",
+          "exists": true,
+          "size": 1500
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-09-0617-nightly/er-painting-services/index.html",
+          "exists": true,
+          "size": 6919
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/er-painting-services-target.png",
+          "exists": true,
+          "size": 1762357
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/er-painting-services-prototype.png",
+          "exists": true,
+          "size": 860561
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.4141,
+        "pixelSimilarity": 0.6244,
+        "edgeLayoutSimilarity": 0.6886,
+        "perceptualHashSimilarity": 0.5625,
+        "weightedSimilarity": 0.5786
+      },
+      "sourceAssetsNote": "state/2026-06-09-0617-nightly/er-painting-services-source-assets.md"
+    },
+    {
+      "slug": "ryguy-home-renovations",
+      "name": "RyGuy's Home Renovations LLC",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-09-0617-nightly/ryguy-home-renovations-audit.md",
+          "exists": true,
+          "size": 4269
+        },
+        "offer": {
+          "path": "offers/2026-06-09-0617-nightly/ryguy-home-renovations-offer.md",
+          "exists": true,
+          "size": 1496
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-09-0617-nightly/ryguy-home-renovations/index.html",
+          "exists": true,
+          "size": 6158
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/ryguy-home-renovations-target.png",
+          "exists": true,
+          "size": 860925
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/ryguy-home-renovations-prototype.png",
+          "exists": true,
+          "size": 652555
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.3532,
+        "pixelSimilarity": 0.7131,
+        "edgeLayoutSimilarity": 0.7051,
+        "perceptualHashSimilarity": 0.4062,
+        "weightedSimilarity": 0.5751
+      },
+      "sourceAssetsNote": "state/2026-06-09-0617-nightly/ryguy-home-renovations-source-assets.md"
+    },
+    {
+      "slug": "levesque-home-auto-services",
+      "name": "Levesque Home & Auto Services",
+      "complete": true,
+      "failures": [],
+      "warnings": [],
+      "files": {
+        "audit": {
+          "path": "opportunities/2026-06-09-0617-nightly/levesque-home-auto-services-audit.md",
+          "exists": true,
+          "size": 5044
+        },
+        "offer": {
+          "path": "offers/2026-06-09-0617-nightly/levesque-home-auto-services-offer.md",
+          "exists": true,
+          "size": 1503
+        },
+        "prototype": {
+          "path": "prototypes/2026-06-09-0617-nightly/levesque-home-auto-services/index.html",
+          "exists": true,
+          "size": 6897
+        },
+        "targetScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/levesque-home-auto-services-target.png",
+          "exists": true,
+          "size": 4362351
+        },
+        "prototypeScreenshot": {
+          "path": "screenshots/2026-06-09-0617-nightly/levesque-home-auto-services-prototype.png",
+          "exists": true,
+          "size": 904991
+        }
+      },
+      "visualMetrics": {
+        "colorHistogramSimilarity": 0.5714,
+        "pixelSimilarity": 0.5183,
+        "edgeLayoutSimilarity": 0.688,
+        "perceptualHashSimilarity": 0.4531,
+        "weightedSimilarity": 0.5642
+      },
+      "sourceAssetsNote": "state/2026-06-09-0617-nightly/levesque-home-auto-services-source-assets.md"
+    }
+  ]
+}
